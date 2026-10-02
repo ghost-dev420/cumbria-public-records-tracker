@@ -10,6 +10,7 @@ from .diffs import ensure_diff_schema
 from .procurement_gaps import run_procurement_gap_detectors
 from .public_export import build_public_site
 from .reconciliation import run_reconciliation_detectors
+from .reextract import reextract_latest_archive
 from .reference import ensure_reference_schema, refresh_reference_index
 from .resolution import ensure_resolution_schema, run_resolution
 from .runner import run_collection
@@ -62,6 +63,26 @@ def collect(
     )
     if strict and (stats["errors"] or stats["extraction_errors"]):
         raise typer.Exit(code=2)
+
+
+@app.command("reextract")
+def reextract(
+    source: str = typer.Option("all", help="Source id or 'all'"),
+    config: Path = DEFAULT_CONFIG,
+    db: Path = DEFAULT_DB,
+) -> None:
+    stats = reextract_latest_archive(
+        config_path=config,
+        db_path=db,
+        source_id=source,
+    )
+    typer.echo(
+        "Re-extracted "
+        f"{stats['documents']} archived documents / {stats['facts']} facts; "
+        f"missing_blobs={stats['skipped_missing_blob']} "
+        f"extraction_errors={stats['extraction_errors']} matches={stats['matches']} "
+        f"open_reviews={stats['review_items']} signals={stats['signals']}"
+    )
 
 
 @app.command("resolve-entities")
