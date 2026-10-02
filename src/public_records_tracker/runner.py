@@ -13,6 +13,7 @@ from .db import (
     register_organisation,
     register_source,
 )
+from .diffs import ensure_diff_schema, record_structured_diff
 from .extractors import EXTRACTORS
 from .health import (
     classify_source_error,
@@ -48,6 +49,7 @@ def run_collection(
     ensure_resolution_schema(con)
     ensure_analysis_schema(con)
     ensure_health_schema(con)
+    ensure_diff_schema(con)
     for organisation in organisations:
         register_organisation(con, organisation)
 
@@ -55,6 +57,7 @@ def run_collection(
         "sources": 0,
         "records": 0,
         "facts": 0,
+        "structured_changes": 0,
         "errors": 0,
         "blocked": 0,
         "extraction_errors": 0,
@@ -101,14 +104,19 @@ def run_collection(
                     stats["records"] += 1
                     source_records += 1
                     extractor_names = list(source.get("extractors", []))
-                    if source.get("kind") == "contracts_finder" and "contracts_finder" not in extractor_names:
+                    if (
+                        source.get("kind") == "contracts_finder"
+                        and "contracts_finder" not in extractor_names
+                    ):
                         extractor_names.append("contracts_finder")
+                    record_extraction_failed = False
                     for extractor_name in extractor_names:
                         extractor = EXTRACTORS.get(extractor_name)
                         if extractor is None:
                             print(f"WARN unsupported extractor: {extractor_name}")
                             stats["extraction_errors"] += 1
                             source_extraction_errors += 1
+                            record_extraction_failed = True
                             continue
                         try:
                             added = extractor(
@@ -127,6 +135,13 @@ def run_collection(
                             )
                             stats["extraction_errors"] += 1
                             source_extraction_errors += 1
+                            record_extraction_failed = True
+                    if not record_extraction_failed:
+                        stats["structured_changes"] += record_structured_diff(
+                            con,
+                            document_id=document_id,
+                            new_snapshot_id=snap.snapshot_id,
+                        )
             except Exception as exc:
                 source_error = exc
                 status = classify_source_error(exc)

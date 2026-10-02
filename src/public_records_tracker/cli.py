@@ -6,6 +6,7 @@ import typer
 
 from .analysis import ensure_analysis_schema, run_detectors
 from .db import connect
+from .diffs import build_structured_changes, ensure_diff_schema
 from .publication import build_publication_status
 from .reference import ensure_reference_schema, refresh_reference_index
 from .resolution import ensure_resolution_schema, run_resolution
@@ -26,6 +27,7 @@ def init_db(db: Path = DEFAULT_DB) -> None:
     ensure_resolution_schema(con)
     ensure_analysis_schema(con)
     ensure_reference_schema(con)
+    ensure_diff_schema(con)
     con.close()
     typer.echo(f"Initialised {db}")
 
@@ -52,6 +54,7 @@ def collect(
     typer.echo(
         "Collected "
         f"{stats['records']} records / {stats['facts']} facts from {stats['sources']} sources; "
+        f"structured_changes={stats['structured_changes']} "
         f"source_errors={stats['errors']} blocked={stats['blocked']} "
         f"extraction_errors={stats['extraction_errors']} matches={stats['matches']} "
         f"open_reviews={stats['review_items']} signals={stats['signals']}"
@@ -107,7 +110,11 @@ def refresh_registry_reference_index(
 def build_site(db: Path = DEFAULT_DB, out: Path = Path("site")) -> None:
     render_site(db, out)
     build_publication_status(db, out)
-    typer.echo(f"Built {out / 'index.html'} and {out / 'publication-status.html'}")
+    build_structured_changes(db, out)
+    typer.echo(
+        f"Built {out / 'index.html'}, {out / 'publication-status.html'} "
+        f"and {out / 'structured-changes.html'}"
+    )
 
 
 if __name__ == "__main__":
