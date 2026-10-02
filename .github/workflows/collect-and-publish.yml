@@ -68,6 +68,7 @@ jobs:
               find_a_tender
               lgsco_cumberland
               lgsco_westmorland_furness
+              housing_ombudsman_home_group
               westmorland_furness_south_lakeland_grants
             )
             for source in "${sources[@]}"; do
