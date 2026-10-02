@@ -1,0 +1,38 @@
+name: Suggest a public record or source
+description: Point the tracker to a public document, dataset, register or official source.
+title: "[Source suggestion] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please suggest verifiable public material rather than accusations. Do not submit private addresses, private contact details, medical information, or other sensitive personal data.
+  - type: input
+    id: source_url
+    attributes:
+      label: Public source URL
+      description: Link to the official/public record, dataset, register or decision.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: body
+    attributes:
+      label: Public body or organisation
+      placeholder: e.g. Workington Town Council
+    validations:
+      required: false
+  - type: textarea
+    id: relevance
+    attributes:
+      label: What does this source contain?
+      description: Briefly describe the records available and why they may be useful to index.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Technical notes
+      description: Optional details such as date range, file type, pagination or known archive pages.
+    validations:
+      required: false

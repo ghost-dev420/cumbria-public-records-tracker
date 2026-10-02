@@ -1,0 +1,111 @@
+organisations:
+  - id: cumberland_council
+    name: Cumberland Council
+    organisation_type: unitary_authority
+    status: current
+    jurisdiction: Cumberland
+    valid_from: '2023-04-01'
+
+  - id: westmorland_furness_council
+    name: Westmorland and Furness Council
+    organisation_type: unitary_authority
+    status: current
+    jurisdiction: Westmorland and Furness
+    valid_from: '2023-04-01'
+
+  - id: workington_town_council
+    name: Workington Town Council
+    organisation_type: town_council
+    status: current
+    parent_id: cumberland_council
+
+  - id: wigton_town_council
+    name: Wigton Town Council
+    organisation_type: town_council
+    status: current
+    parent_id: cumberland_council
+
+  - id: whitehaven_town_council
+    name: Whitehaven Town Council
+    organisation_type: town_council
+    status: current
+    parent_id: cumberland_council
+
+  - id: maryport_town_council
+    name: Maryport Town Council
+    organisation_type: town_council
+    status: current
+    parent_id: cumberland_council
+
+  - id: carlisle_charter_trustees
+    name: Charter Trustees of the City of Carlisle
+    organisation_type: charter_trustees
+    status: current
+    parent_id: cumberland_council
+    valid_from: '2023-04-01'
+    notes: Civic and ceremonial body for the unparished City of Carlisle; not a replacement unitary or town council.
+
+  - id: allerdale_borough_council
+    name: Allerdale Borough Council
+    organisation_type: district_council
+    status: legacy
+    valid_to: '2023-03-31'
+    successor_id: cumberland_council
+
+  - id: carlisle_city_council
+    name: Carlisle City Council
+    organisation_type: district_council
+    status: legacy
+    valid_to: '2023-03-31'
+    successor_id: cumberland_council
+
+  - id: copeland_borough_council
+    name: Copeland Borough Council
+    organisation_type: district_council
+    status: legacy
+    valid_to: '2023-03-31'
+    successor_id: cumberland_council
+
+  - id: cumbria_county_council
+    name: Cumbria County Council
+    organisation_type: county_council
+    status: legacy
+    valid_to: '2023-03-31'
+    successor_ids:
+      - cumberland_council
+      - westmorland_furness_council
+
+  - id: barrow_borough_council
+    name: Barrow Borough Council
+    organisation_type: district_council
+    status: legacy
+    valid_to: '2023-03-31'
+    successor_id: westmorland_furness_council
+
+  - id: eden_district_council
+    name: Eden District Council
+    organisation_type: district_council
+    status: legacy
+    valid_to: '2023-03-31'
+    successor_id: westmorland_furness_council
+
+  - id: south_lakeland_district_council
+    name: South Lakeland District Council
+    organisation_type: district_council
+    status: legacy
+    valid_to: '2023-03-31'
+    successor_id: westmorland_furness_council
+
+  - id: cumberland_parish_and_town_councils
+    name: Cumberland parish and town councils directory
+    organisation_type: council_directory
+    status: current
+    parent_id: cumberland_council
+    notes: Discovery umbrella used to ingest the full parish/town council register and seed individual council entities.
+
+  - id: westmorland_furness_parish_and_town_councils
+    name: Westmorland and Furness parish and town councils directory
+    organisation_type: council_directory
+    status: current
+    parent_id: westmorland_furness_council
+    notes: Discovery umbrella used to ingest the full parish/town council register and seed individual council entities.
