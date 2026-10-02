@@ -8,7 +8,7 @@ from .db import connect
 from .health import ensure_health_schema
 
 
-EXPECTATIONS = {
+FALLBACK_EXPECTATIONS = {
     "westmorland_furness_spending": {
         "label": "Spending over £250",
         "cadence_days": 45,
@@ -18,10 +18,32 @@ EXPECTATIONS = {
 }
 
 
+def _expectations(con) -> dict[str, dict]:
+    expectations = dict(FALLBACK_EXPECTATIONS)
+    for source_id, config_json in con.execute("SELECT source_id,config_json FROM sources").fetchall():
+        try:
+            config = json.loads(config_json or "{}")
+        except json.JSONDecodeError:
+            continue
+        expectation = config.get("publication_expectation")
+        if not isinstance(expectation, dict):
+            continue
+        expectations[str(source_id)] = {
+            "label": str(expectation.get("label") or expectation.get("dataset") or source_id),
+            "cadence_days": int(expectation.get("cadence_days", 90)),
+            "grace_days": int(expectation.get("grace_days", 30)),
+            "basis": str(
+                expectation.get("basis")
+                or "Configured publication expectation from official source series"
+            ),
+        }
+    return expectations
+
+
 def publication_status_rows(con) -> list[dict]:
     ensure_health_schema(con)
     rows: list[dict] = []
-    for source_id, expectation in EXPECTATIONS.items():
+    for source_id, expectation in sorted(_expectations(con).items()):
         health = con.execute(
             """SELECT status,http_status,started_at,finished_at,error_message
                FROM latest_source_health WHERE source_id=?""",
