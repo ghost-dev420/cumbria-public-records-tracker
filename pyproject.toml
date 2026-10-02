@@ -20,6 +20,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0", "ruff>=0.7"]
+browser = ["playwright>=1.55"]
 
 [project.scripts]
 prt = "public_records_tracker.cli:app"
