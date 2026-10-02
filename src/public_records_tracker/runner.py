@@ -22,6 +22,7 @@ from .health import (
     start_source_run,
 )
 from .http import SafeHttpClient
+from .procurement_gaps import run_procurement_gap_detectors
 from .reconciliation import run_reconciliation_detectors
 from .resolution import ensure_resolution_schema, run_resolution
 from .structured import activate_snapshot, ensure_structured_schema
@@ -190,6 +191,7 @@ def run_collection(
     resolution_stats = run_resolution(con)
     detector_stats = run_detectors(con)
     detector_stats.update(run_reconciliation_detectors(con))
+    detector_stats.update(run_procurement_gap_detectors(con))
     stats["matches"] = sum(
         resolution_stats.get(key, 0)
         for key in ("identifier", "name_exact", "fuzzy_review")
