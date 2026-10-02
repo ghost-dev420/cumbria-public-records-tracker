@@ -29,13 +29,15 @@ jobs:
         with:
           python-version: '3.12'
           cache: pip
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
       - run: pip install -e .
       - name: Initialize publication database
         run: prt init-db
       - name: Build public site
         run: prt build-site
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: site
 
