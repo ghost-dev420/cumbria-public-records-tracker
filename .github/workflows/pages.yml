@@ -1,4 +1,4 @@
-name: build public site
+name: build public site smoke test
 
 on:
   push:
@@ -9,15 +9,14 @@ on:
       - 'config/organisations.yml'
       - 'docs/**'
       - '.github/workflows/pages.yml'
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: github-pages
+  group: public-site-smoke
   cancel-in-progress: true
 
 jobs:
@@ -29,25 +28,15 @@ jobs:
         with:
           python-version: '3.12'
           cache: pip
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
       - run: pip install -e .
       - name: Initialize publication database
         run: prt init-db
-      - name: Build public site
+      - name: Build publication-gated site
         run: prt build-site
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Confirm private state is absent
+        shell: bash
+        run: |
+          test ! -e site/data/raw
+          test ! -e site/tracker.duckdb
+          test ! -e site/api/review-queue.json
+          echo 'Smoke build passed publication boundary checks.'
