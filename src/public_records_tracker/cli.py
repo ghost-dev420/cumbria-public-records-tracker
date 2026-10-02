@@ -6,6 +6,7 @@ import typer
 
 from .analysis import ensure_analysis_schema, run_detectors
 from .db import connect
+from .publication import build_publication_status
 from .reference import ensure_reference_schema, refresh_reference_index
 from .resolution import ensure_resolution_schema, run_resolution
 from .runner import run_collection
@@ -105,7 +106,8 @@ def refresh_registry_reference_index(
 @app.command("build-site")
 def build_site(db: Path = DEFAULT_DB, out: Path = Path("site")) -> None:
     render_site(db, out)
-    typer.echo(f"Built {out / 'index.html'}")
+    build_publication_status(db, out)
+    typer.echo(f"Built {out / 'index.html'} and {out / 'publication-status.html'}")
 
 
 if __name__ == "__main__":
