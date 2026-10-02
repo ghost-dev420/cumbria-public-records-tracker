@@ -1,0 +1,30 @@
+sources:
+  - id: cumberland_moderngov_structure
+    name: Cumberland Council ModernGov people committees and interests (browser)
+    kind: modern_gov_browser
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [cumberland_council, carlisle_charter_trustees]
+    extractors: [modern_gov]
+    start_urls:
+      - https://cumberland.moderngov.co.uk/mgMemberIndex.aspx?PIC=0&VW=LIST
+      - https://cumberland.moderngov.co.uk/mgListCommittees.aspx?bcr=1
+    page_limit: 300
+    max_depth: 3
+    browser_delay: 1.0
+    browser_timeout: 30.0
+
+  - id: westmorland_furness_moderngov_structure
+    name: Westmorland and Furness ModernGov people committees and interests (browser)
+    kind: modern_gov_browser
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [westmorland_furness_council]
+    extractors: [modern_gov]
+    start_urls:
+      - https://westmorlandandfurness.moderngov.co.uk/mgMemberIndex.aspx?PIC=1&VW=TABLE
+      - https://westmorlandandfurness.moderngov.co.uk/mgListCommittees.aspx?bcr=1
+    page_limit: 300
+    max_depth: 3
+    browser_delay: 1.0
+    browser_timeout: 30.0
