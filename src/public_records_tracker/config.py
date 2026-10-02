@@ -22,6 +22,9 @@ _SOURCE_DEFAULTS = {
             "grace_days": 20,
         },
     },
+    "housing_ombudsman_home_group": {
+        "extractors": ["housing_ombudsman"],
+    },
     "lgsco_cumberland": {
         "extractors": ["lgsco"],
     },
