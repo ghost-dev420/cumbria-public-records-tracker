@@ -73,7 +73,7 @@ jobs:
             )
             for source in "${sources[@]}"; do
               echo "::group::Collect $source"
-              prt collect --source "$source"
+              prt collect --source "$source" --page-limit 1
               echo "::endgroup::"
             done
           else
