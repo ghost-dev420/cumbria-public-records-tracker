@@ -22,6 +22,12 @@ _SOURCE_DEFAULTS = {
             "grace_days": 20,
         },
     },
+    "lgsco_cumberland": {
+        "extractors": ["lgsco"],
+    },
+    "lgsco_westmorland_furness": {
+        "extractors": ["lgsco"],
+    },
     "westmorland_furness_spending": {
         "extractors": ["payments"],
         "payment_payer_organisation_id": "westmorland_furness_council",
