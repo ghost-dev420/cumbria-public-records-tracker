@@ -1,0 +1,308 @@
+sources:
+  - id: cumberland_meetings
+    name: Cumberland Council committee calendar and papers
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [cumberland_council]
+    extractors: [modern_gov]
+    start_urls:
+      - https://cumberland.moderngov.co.uk/mgCalendarMonthView.aspx
+    include_link_regex: '(mgMeetingAttendance|ieListDocuments|documents/.*\.(?:pdf|docx?|xlsx?|csv))(?:\?.*)?$'
+    page_limit: 4
+    max_records: 120
+    follow_pagination: true
+    pagination_text: 'next'
+
+  - id: cumberland_moderngov_structure
+    name: Cumberland Council ModernGov people committees and interests
+    kind: modern_gov
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [cumberland_council, carlisle_charter_trustees]
+    extractors: [modern_gov]
+    start_urls:
+      - https://cumberland.moderngov.co.uk/mgMemberIndex.aspx?PIC=0&VW=LIST
+      - https://cumberland.moderngov.co.uk/mgListCommittees.aspx?bcr=1
+    page_limit: 300
+    max_depth: 3
+
+  - id: cumberland_transparency
+    name: Cumberland Council transparency documents
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [cumberland_council]
+    start_urls:
+      - https://www.cumberland.gov.uk/document-search?field_document_target_id=1283
+    include_link_regex: '\.(?:pdf|docx?|xlsx?|csv)(?:\?.*)?$'
+    page_limit: 8
+    max_records: 160
+    follow_pagination: true
+    pagination_text: 'next'
+
+  - id: cumberland_parish_directory
+    name: Cumberland parish and town council register
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [cumberland_council, cumberland_parish_and_town_councils]
+    start_urls:
+      - https://cumberland.moderngov.co.uk/mgParishCouncilDetailsList.aspx
+    include_link_regex: 'mgParishCouncilDetails\.aspx\?ID='
+    page_limit: 1
+    max_records: 350
+
+  - id: westmorland_furness_meetings
+    name: Westmorland and Furness Council committee calendar and papers
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [westmorland_furness_council]
+    extractors: [modern_gov]
+    start_urls:
+      - https://westmorlandandfurness.moderngov.co.uk/mgCalendarMonthView.aspx
+    include_link_regex: '(mgMeetingAttendance|ieListDocuments|documents/.*\.(?:pdf|docx?|xlsx?|csv))(?:\?.*)?$'
+    page_limit: 4
+    max_records: 120
+    follow_pagination: true
+    pagination_text: 'next'
+
+  - id: westmorland_furness_moderngov_structure
+    name: Westmorland and Furness ModernGov people committees and interests
+    kind: modern_gov
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [westmorland_furness_council]
+    extractors: [modern_gov]
+    start_urls:
+      - https://westmorlandandfurness.moderngov.co.uk/mgMemberIndex.aspx?PIC=1&VW=TABLE
+      - https://westmorlandandfurness.moderngov.co.uk/mgListCommittees.aspx?bcr=1
+    page_limit: 300
+    max_depth: 3
+
+  - id: westmorland_furness_spending
+    name: Westmorland and Furness spending over 250 pounds
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids:
+      - westmorland_furness_council
+      - barrow_borough_council
+      - eden_district_council
+      - south_lakeland_district_council
+    start_urls:
+      - https://www.westmorlandandfurness.gov.uk/your-council/finance/payments-suppliers/payments-over-ps250/spending-over-ps250-2026-2027
+      - https://www.westmorlandandfurness.gov.uk/your-council/finance/payments-suppliers/payments-over-ps250/spending-over-ps250-2025-2026
+      - https://www.westmorlandandfurness.gov.uk/your-council/finance/payments-suppliers/payments-over-ps250/spending-over-ps250-2024-2025
+    include_link_regex: '\.(?:csv|xlsx?|pdf)(?:\?.*)?$'
+    page_limit: 3
+    max_records: 180
+    allow_cross_domain: true
+
+  - id: westmorland_furness_parish_directory
+    name: Westmorland and Furness parish and town council register
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [westmorland_furness_council, westmorland_furness_parish_and_town_councils]
+    start_urls:
+      - https://westmorlandandfurness.moderngov.co.uk/mgParishCouncilDetailsList.aspx
+    include_link_regex: 'mgParishCouncilDetails\.aspx\?ID='
+    page_limit: 1
+    max_records: 350
+
+  - id: workington_town_meetings
+    name: Workington Town Council meetings and committee papers
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [workington_town_council]
+    start_urls:
+      - https://www.workingtontowncouncil.gov.uk/fullcouncil
+      - https://www.workingtontowncouncil.gov.uk/financeandgeneralpurposes
+    include_link_regex: '\.(?:pdf|docx?|xlsx?|csv)(?:\?.*)?$'
+    page_limit: 2
+    max_records: 160
+    allow_cross_domain: true
+
+  - id: workington_town_transparency
+    name: Workington Town Council transparency expenditure grants and tenders
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [workington_town_council]
+    start_urls:
+      - https://www.workingtontowncouncil.gov.uk/openaccountablelocalgovernment
+      - https://www.workingtontowncouncil.gov.uk/yourcouncillors
+    include_link_regex: '\.(?:pdf|docx?|xlsx?|csv)(?:\?.*)?$'
+    page_limit: 2
+    max_records: 180
+    allow_cross_domain: true
+
+  - id: wigton_town_records
+    name: Wigton Town Council meetings finance budgets and audits
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [wigton_town_council]
+    start_urls:
+      - https://www.wigton-tc.gov.uk/agendas/
+      - https://www.wigtontown.com/minutes/
+      - https://www.wigton-tc.gov.uk/finance/
+      - https://www.wigton-tc.gov.uk/budgets/
+      - https://www.wigton-tc.gov.uk/audits/
+      - https://cumberland.moderngov.co.uk/mgParishCouncilDetails.aspx?ID=247&LS=3
+    include_link_regex: '(\.(?:pdf|docx?|xlsx?|csv)(?:\?.*)?$|mgUserInfo\.aspx)'
+    page_limit: 6
+    max_records: 220
+    allow_cross_domain: true
+
+  - id: whitehaven_town_records
+    name: Whitehaven Town Council meetings and councillor records
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [whitehaven_town_council]
+    start_urls:
+      - https://www.whitehaventowncouncil.co.uk/notice-of-meetings
+      - https://www.whitehaventowncouncil.co.uk/about-the-councillors
+      - https://cumberland.moderngov.co.uk/mgParishCouncilDetails.aspx?ID=280&LS=3
+    include_link_regex: '(\.(?:pdf|docx?|xlsx?|csv)(?:\?.*)?$|mgUserInfo\.aspx)'
+    page_limit: 3
+    max_records: 220
+    allow_cross_domain: true
+
+  - id: carlisle_current_and_legacy
+    name: Carlisle current Charter Trustees and legacy City Council records
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [carlisle_charter_trustees, carlisle_city_council, cumberland_council]
+    extractors: [modern_gov]
+    start_urls:
+      - https://cumberland.moderngov.co.uk/mgCommitteeDetails.aspx?ID=449
+      - https://cumberland.moderngov.co.uk/mgCalendarMonthView.aspx
+    include_link_regex: '(ieListDocuments\.aspx|celistdocuments\.aspx|documents/.*\.(?:pdf|docx?|xlsx?|csv))(?:\?.*)?$'
+    filter_text: 'Carlisle'
+    page_limit: 2
+    max_records: 160
+
+  - id: cumberland_legacy_authorities
+    name: Allerdale Carlisle Copeland and Cumbria County legacy records
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids:
+      - allerdale_borough_council
+      - carlisle_city_council
+      - copeland_borough_council
+      - cumbria_county_council
+      - cumberland_council
+    extractors: [modern_gov]
+    start_urls:
+      - https://cumberland.moderngov.co.uk/mgCalendarMonthView.aspx
+      - https://www.cumberland.gov.uk/your-council/freedom-information-and-environmental-information/find-previous-freedom-information-requests
+    include_link_regex: '(celistdocuments\.aspx|ieListDocuments\.aspx|\.(?:pdf|docx?|xlsx?|xls|csv)(?:\?.*)?$)'
+    page_limit: 2
+    max_records: 200
+
+  - id: westmorland_legacy_authorities
+    name: Barrow Eden and South Lakeland legacy authority records
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids:
+      - barrow_borough_council
+      - eden_district_council
+      - south_lakeland_district_council
+      - westmorland_furness_council
+    extractors: [modern_gov]
+    start_urls:
+      - https://www.barrowbc.gov.uk/council/financial-services/transparency
+      - https://www.eden.gov.uk/council-business/requesting-information/open-data/
+      - https://westmorlandandfurness.moderngov.co.uk/mgCalendarMonthView.aspx
+    include_link_regex: '(celistdocuments\.aspx|ieListDocuments\.aspx|\.(?:pdf|docx?|xlsx?|xls|csv)(?:\?.*)?$)'
+    page_limit: 3
+    max_records: 220
+    allow_cross_domain: true
+
+  - id: contracts_finder
+    name: Contracts Finder OCDS notices
+    kind: contracts_finder
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids:
+      - cumberland_council
+      - westmorland_furness_council
+      - workington_town_council
+      - wigton_town_council
+      - whitehaven_town_council
+      - allerdale_borough_council
+      - carlisle_city_council
+      - copeland_borough_council
+      - barrow_borough_council
+      - eden_district_council
+      - south_lakeland_district_council
+      - cumbria_county_council
+    endpoint: https://www.contractsfinder.service.gov.uk/Published/Notices/OCDS/Search
+    days_back: 14
+    buyer_terms:
+      - Cumberland Council
+      - Westmorland and Furness Council
+      - Workington Town Council
+      - Wigton Town Council
+      - Whitehaven Town Council
+      - Cumbria County Council
+      - Allerdale Borough Council
+      - Carlisle City Council
+      - Copeland Borough Council
+      - Barrow Borough Council
+      - Eden District Council
+      - South Lakeland District Council
+      - Home Group
+      - Home Group Limited
+
+  - id: lgsco_cumberland
+    name: LGSCO decisions concerning Cumberland Council
+    kind: html_listing
+    enabled: true
+    evidence_class: REGULATORY_FINDING
+    organisation_ids: [cumberland_council]
+    start_urls:
+      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland%20Council&dc=c%2Bnu%2Bu%2B&sortOrder=descending
+    include_link_regex: '/decisions/'
+    filter_text: 'Cumberland Council'
+    page_limit: 5
+    max_records: 120
+    follow_pagination: true
+    pagination_text: 'next'
+
+  - id: lgsco_westmorland_furness
+    name: LGSCO decisions concerning Westmorland and Furness Council
+    kind: html_listing
+    enabled: true
+    evidence_class: REGULATORY_FINDING
+    organisation_ids: [westmorland_furness_council]
+    start_urls:
+      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Westmorland%20and%20Furness%20Council&dc=c%2Bnu%2Bu%2B&sortOrder=descending
+    include_link_regex: '/decisions/'
+    filter_text: 'Westmorland and Furness Council'
+    page_limit: 5
+    max_records: 120
+    follow_pagination: true
+    pagination_text: 'next'
+
+  - id: housing_ombudsman_home_group
+    name: Housing Ombudsman decisions concerning Home Group
+    kind: html_listing
+    enabled: true
+    evidence_class: REGULATORY_FINDING
+    start_urls:
+      - https://www.housing-ombudsman.org.uk/decisions/
+    include_link_regex: '/decisions/home-group-limited-[^/]+/?$'
+    filter_text: 'Home Group Limited'
+    page_limit: 25
+    max_records: 150
+    follow_pagination: true
+    pagination_text: 'next'
