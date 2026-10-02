@@ -10,8 +10,10 @@ on:
   push:
     branches: [main]
     paths:
+      - 'src/**'
+      - 'config/**'
+      - 'docs/**'
       - '.github/workflows/collect-and-publish.yml'
-      - 'config/sources.yml'
   schedule:
     - cron: '23 5 * * *'
 
