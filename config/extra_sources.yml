@@ -1,3 +1,4 @@
+# Supplemental official public-record sources. Updating this registry triggers the production crawl.
 sources:
   - id: find_a_tender
     name: Find a Tender OCDS notices
