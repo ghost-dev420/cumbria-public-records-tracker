@@ -1,0 +1,82 @@
+name: collect and publish public records
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Source id or all
+        required: false
+        default: all
+  schedule:
+    - cron: '23 5 * * *'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: public-records-collection
+  cancel-in-progress: false
+
+jobs:
+  collect-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install tracker
+        run: pip install -e .
+
+      - name: Restore private working state cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/tracker.duckdb
+            data/raw
+          key: public-records-state-${{ github.run_id }}
+          restore-keys: |
+            public-records-state-
+
+      - name: Initialize database
+        run: prt init-db
+
+      - name: Collect public records
+        env:
+          SOURCE_ID: ${{ inputs.source || 'all' }}
+        run: prt collect --source "$SOURCE_ID"
+
+      - name: Build publication-gated site
+        run: prt build-site
+
+      - name: Confirm raw/private state is not in site
+        shell: bash
+        run: |
+          test ! -e site/data/raw
+          test ! -e site/tracker.duckdb
+          test ! -e site/api/review-queue.json
+          echo 'Publication boundary checks passed.'
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    needs: collect-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
