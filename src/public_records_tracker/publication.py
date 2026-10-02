@@ -81,6 +81,20 @@ def publication_status_rows(con) -> list[dict]:
     return rows
 
 
+def _link_from_index(out_dir: Path) -> None:
+    index_path = out_dir / "index.html"
+    if not index_path.exists():
+        return
+    page = index_path.read_text(encoding="utf-8")
+    if "publication-status.html" in page:
+        return
+    marker = "<a class='button' href='api/index.json'>API</a>"
+    link = "<a class='button' href='publication-status.html'>Publication status</a>"
+    if marker in page:
+        page = page.replace(marker, marker + link, 1)
+        index_path.write_text(page, encoding="utf-8")
+
+
 def build_publication_status(db_path: Path, out_dir: Path) -> None:
     con = connect(db_path)
     rows = publication_status_rows(con)
@@ -130,3 +144,4 @@ code{{background:#eef1f4;padding:.1rem .25rem;border-radius:4px}}
 </html>"""
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "publication-status.html").write_text(page, encoding="utf-8")
+    _link_from_index(out_dir)
