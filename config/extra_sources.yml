@@ -1,0 +1,38 @@
+sources:
+  - id: find_a_tender
+    name: Find a Tender OCDS notices
+    kind: find_tender
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    extractors: [contracts_finder]
+    organisation_ids:
+      - cumberland_council
+      - westmorland_furness_council
+      - workington_town_council
+      - wigton_town_council
+      - whitehaven_town_council
+      - cumbria_county_council
+      - allerdale_borough_council
+      - carlisle_city_council
+      - copeland_borough_council
+      - barrow_borough_council
+      - eden_district_council
+      - south_lakeland_district_council
+    endpoint: https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages
+    days_back: 30
+    stages: [tender, award]
+    buyer_terms:
+      - Cumberland Council
+      - Westmorland and Furness Council
+      - Workington Town Council
+      - Wigton Town Council
+      - Whitehaven Town Council
+      - Cumbria County Council
+      - Allerdale Borough Council
+      - Carlisle City Council
+      - Copeland Borough Council
+      - Barrow Borough Council
+      - Eden District Council
+      - South Lakeland District Council
+      - Home Group
+      - Home Group Limited
