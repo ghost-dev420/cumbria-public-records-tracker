@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       source:
-        description: Source id or all
+        description: Source id, priority, or all
         required: false
-        default: all
+        default: priority
   push:
     branches: [main]
     paths:
@@ -56,8 +56,28 @@ jobs:
 
       - name: Collect public records
         env:
-          SOURCE_ID: ${{ inputs.source || 'all' }}
-        run: prt collect --source "$SOURCE_ID"
+          SOURCE_ID: ${{ inputs.source || 'priority' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$SOURCE_ID" == "priority" ]]; then
+            sources=(
+              cumberland_transparency
+              westmorland_furness_spending
+              contracts_finder
+              find_a_tender
+              lgsco_cumberland
+              lgsco_westmorland_furness
+              westmorland_furness_south_lakeland_grants
+            )
+            for source in "${sources[@]}"; do
+              echo "::group::Collect $source"
+              prt collect --source "$source"
+              echo "::endgroup::"
+            done
+          else
+            prt collect --source "$SOURCE_ID"
+          fi
 
       - name: Build publication-gated site
         run: prt build-site
