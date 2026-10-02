@@ -37,3 +37,16 @@ sources:
       - South Lakeland District Council
       - Home Group
       - Home Group Limited
+
+  - id: westmorland_furness_south_lakeland_grants
+    name: Westmorland and Furness South Lakeland successful community grants
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    extractors: [grants]
+    organisation_ids: [westmorland_furness_council]
+    start_urls:
+      - https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team
+    include_link_regex: '$^'
+    page_limit: 1
+    max_records: 1
