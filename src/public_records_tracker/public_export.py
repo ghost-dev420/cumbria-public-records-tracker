@@ -9,6 +9,7 @@ from pathlib import Path
 from .analysis import ensure_analysis_schema
 from .db import connect
 from .diffs import build_structured_changes, ensure_diff_schema
+from .entity_pages import build_entity_pages
 from .evidence_packages import build_evidence_packages
 from .publication import build_publication_status
 from .reference import ensure_reference_schema
@@ -68,6 +69,7 @@ def _remove_internal_review_surface(out_dir: Path) -> None:
         endpoints["evidence-packages"] = "api/evidence-packages.json"
         endpoints["publication-status"] = "api/publication-status.json"
         endpoints["structured-changes"] = "api/structured-changes.json"
+        endpoints["entities"] = "api/entities.json"
         payload["endpoints"] = endpoints
         api_index.write_text(
             json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
@@ -91,6 +93,12 @@ def _remove_internal_review_surface(out_dir: Path) -> None:
         page,
         count=1,
     )
+    if "href='entities.html'" not in page:
+        page = page.replace(
+            "<div class='nav'>",
+            "<div class='nav'><a class='button' href='entities.html'>Entities & timelines</a>",
+            1,
+        )
     index_path.write_text(page, encoding="utf-8")
 
 
@@ -102,6 +110,7 @@ def build_public_site(db_path: Path, out_dir: Path) -> dict[str, int]:
         render_site(public_db, out_dir)
         build_publication_status(public_db, out_dir)
         build_structured_changes(public_db, out_dir)
+        build_entity_pages(public_db, out_dir)
         stats["evidence_packages"] = build_evidence_packages(public_db, out_dir)
     _remove_internal_review_surface(out_dir)
     return stats
