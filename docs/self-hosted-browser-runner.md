@@ -7,17 +7,15 @@ Cumberland and Westmorland & Furness ModernGov currently return Cloudflare HTTP 
 - The self-hosted workflow is triggered only by `workflow_dispatch` and a schedule.
 - Pull requests do not run on the self-hosted runner.
 - Use a dedicated machine/account where practical.
-- The custom runner label is `cumbria-browser`.
+- The required custom runner label is `cumbria-browser`.
+- Android/Termux runners also receive `android-termux`.
 - No stealth plugins, proxy rotation, CAPTCHA solving, webdriver masking, or challenge bypass is used.
 - `robots.txt` is still respected.
 - Only the publication-gated `site/` artifact is deployed; the DuckDB, raw archive, review queue and unresolved matches remain private.
 
 ## Supported runner architectures
 
-The workflow is architecture-neutral and accepts any self-hosted Linux runner carrying the `cumbria-browser` label. The bootstrap supports:
-
-- Linux x86_64 / x64
-- Linux aarch64 / ARM64
+The workflow is architecture-neutral and accepts any self-hosted Linux runner carrying the `cumbria-browser` label. The bootstrap supports Linux x86_64/x64 and Linux aarch64/ARM64.
 
 ## Normal Linux setup
 
@@ -31,59 +29,43 @@ RUNNER_TOKEN='<short-lived-token>' bash scripts/setup-self-hosted-runner.sh
 
 On a normal systemd Linux machine the script installs the runner as a service.
 
-## Android / Termux setup
+## Android / Termux ARM64 setup
 
-Do not install the GitHub runner directly into native Termux. Android/Termux uses Android's userspace rather than a normal glibc Linux distribution. Use a Debian proot so the runner and Playwright see a supported Linux userspace.
+Native Termux is the host; the GitHub runner and Playwright run inside an Ubuntu ARM64 proot so they see a normal Linux userspace.
 
-In native Termux:
-
-```bash
-pkg update
-pkg install -y proot-distro git
-proot-distro install debian
-termux-wake-lock
-proot-distro login debian
-```
-
-Then, inside the Debian shell:
+In Termux:
 
 ```bash
-apt-get update
-apt-get install -y git ca-certificates
-
+pkg update -y
+pkg install -y git
 git clone https://github.com/ghost-dev420/cumbria-public-records-tracker.git
 cd cumbria-public-records-tracker
+```
 
+In GitHub open **Settings -> Actions -> Runners -> New self-hosted runner**, choose **Linux / ARM64**, copy the short-lived registration token, then run:
+
+```bash
 RUNNER_TOKEN='<short-lived-token>' \
-RUNNER_NO_SERVICE=1 \
-bash scripts/setup-self-hosted-runner.sh
+bash scripts/setup-termux-arm64-runner.sh
 ```
 
-The proot environment has no normal systemd service manager, so the runner operates in foreground mode.
+The script installs `proot-distro`, tmux and Ubuntu, installs the ARM64 GitHub runner and browser dependencies inside Ubuntu, and registers the phone with `cumbria-browser,android-termux` labels.
 
-For the first test you can start it inside Debian:
+Start the runner with:
 
 ```bash
-cd ~/actions-runner-cumbria
-RUNNER_ALLOW_RUNASROOT=1 ./run.sh
+bash scripts/start-termux-arm64-runner.sh
 ```
 
-For later runs, exit back to native Termux and use the repository launcher:
+Or keep it in tmux:
 
 ```bash
-cd ~/cumbria-public-records-tracker
-bash scripts/start-termux-runner.sh
+tmux new -s cumbria-runner 'bash scripts/start-termux-arm64-runner.sh'
 ```
 
-If the repository clone exists only inside Debian, either clone a lightweight copy into native Termux for the launcher or run the earlier `proot-distro login debian` command manually.
+Detach with **Ctrl-b**, then **d**. Reattach with `tmux attach -t cumbria-runner`.
 
-Keep the Termux/proot session alive while collection runs. `termux-wake-lock` helps keep the CPU awake, but Android battery/process management can still stop Termux. For reliable scheduled daily collection, exempt Termux from battery optimisation where your Android build allows it. For occasional/manual collection, simply start the runner before launching the workflow.
-
-To release the Termux wake lock later:
-
-```bash
-termux-wake-unlock
-```
+The launcher requests a Termux wake lock when that command is available. Android can still stop Termux under aggressive battery management, so exempt Termux from battery optimisation for reliable scheduled runs. For occasional/manual collection, just start the runner before launching the workflow.
 
 ## Collection workflow
 
@@ -94,7 +76,7 @@ termux-wake-unlock
 3. collects `cumberland_moderngov_structure` and `westmorland_furness_moderngov_structure` through Playwright;
 4. runs the existing extractors/entity resolution/detectors;
 5. builds through the publication gate;
-6. verifies that the raw archive, DuckDB, and review queue are absent from the public artifact;
+6. verifies that the raw archive, DuckDB and review queue are absent from the public artifact;
 7. deploys the gated site to GitHub Pages;
 8. saves the enriched shared state back to the repository cache.
 
