@@ -59,14 +59,25 @@ RUNNER_NO_SERVICE=1 \
 bash scripts/setup-self-hosted-runner.sh
 ```
 
-The proot environment has no normal systemd service manager, so start the runner in the foreground:
+The proot environment has no normal systemd service manager, so the runner operates in foreground mode.
+
+For the first test you can start it inside Debian:
 
 ```bash
 cd ~/actions-runner-cumbria
 RUNNER_ALLOW_RUNASROOT=1 ./run.sh
 ```
 
-Keep that Termux/proot session alive while collection runs. `termux-wake-lock` helps keep the CPU awake, but Android battery/process management can still stop Termux. For reliable scheduled daily collection, exempt Termux from battery optimisation where your Android build allows it. For occasional/manual collection, simply start the runner before launching the workflow.
+For later runs, exit back to native Termux and use the repository launcher:
+
+```bash
+cd ~/cumbria-public-records-tracker
+bash scripts/start-termux-runner.sh
+```
+
+If the repository clone exists only inside Debian, either clone a lightweight copy into native Termux for the launcher or run the earlier `proot-distro login debian` command manually.
+
+Keep the Termux/proot session alive while collection runs. `termux-wake-lock` helps keep the CPU awake, but Android battery/process management can still stop Termux. For reliable scheduled daily collection, exempt Termux from battery optimisation where your Android build allows it. For occasional/manual collection, simply start the runner before launching the workflow.
 
 To release the Termux wake lock later:
 
