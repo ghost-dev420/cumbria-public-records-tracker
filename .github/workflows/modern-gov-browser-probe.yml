@@ -1,0 +1,40 @@
+name: ModernGov browser probe
+
+on:
+  pull_request:
+    paths:
+      - 'src/public_records_tracker/browser.py'
+      - 'src/public_records_tracker/browser_probe.py'
+      - 'src/public_records_tracker/collectors/modern_gov_browser.py'
+      - 'src/public_records_tracker/collectors/__init__.py'
+      - 'pyproject.toml'
+      - '.github/workflows/modern-gov-browser-probe.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    name: ${{ matrix.name }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Cumberland ModernGov
+            url: 'https://cumberland.moderngov.co.uk/mgMemberIndex.aspx?bcr=1'
+          - name: Westmorland and Furness ModernGov
+            url: 'https://westmorlandandfurness.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install browser collector
+        run: pip install -e '.[browser]'
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+      - name: Probe public ModernGov page
+        run: python -m public_records_tracker.browser_probe '${{ matrix.url }}' --expect Councillor
