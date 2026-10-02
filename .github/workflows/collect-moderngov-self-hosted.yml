@@ -1,0 +1,101 @@
+name: collect ModernGov on self-hosted browser
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 6 * * *'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: public-records-collection
+  cancel-in-progress: false
+
+jobs:
+  collect-build:
+    runs-on: [self-hosted, linux, x64, cumbria-browser]
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install tracker with browser support
+        run: pip install -e '.[browser]'
+
+      - name: Restore Chromium cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}-${{ hashFiles('pyproject.toml') }}
+
+      - name: Ensure Chromium is installed
+        run: python -m playwright install chromium
+
+      - name: Verify Cumberland public browser access
+        run: >-
+          python -m public_records_tracker.browser_probe
+          'https://cumberland.moderngov.co.uk/mgMemberIndex.aspx?bcr=1'
+          --expect Councillor
+
+      - name: Verify Westmorland and Furness public browser access
+        run: >-
+          python -m public_records_tracker.browser_probe
+          'https://westmorlandandfurness.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD'
+          --expect Councillor
+
+      - name: Restore shared evidence state
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/tracker.duckdb
+            data/raw
+          key: public-records-state-${{ github.run_id }}
+          restore-keys: |
+            public-records-state-
+
+      - name: Initialize database
+        run: prt init-db
+
+      - name: Collect ModernGov through Chromium
+        run: >-
+          prt collect
+          --config config/sources-moderngov-browser.yml
+          --source all
+          --strict
+
+      - name: Build publication-gated site
+        run: prt build-site
+
+      - name: Confirm private state is not published
+        shell: bash
+        run: |
+          test ! -e site/data/raw
+          test ! -e site/tracker.duckdb
+          test ! -e site/api/review-queue.json
+          echo 'Publication boundary checks passed.'
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    needs: collect-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
