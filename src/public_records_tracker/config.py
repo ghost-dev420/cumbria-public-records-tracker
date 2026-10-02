@@ -44,8 +44,22 @@ def _load_list(path: Path, key: str) -> list[dict]:
     return items
 
 
+def _merge_unique(items: list[dict], extras: list[dict], key: str) -> list[dict]:
+    known = {item.get("id") for item in items}
+    for item in extras:
+        item_id = item.get("id")
+        if item_id in known:
+            raise ValueError(f"Duplicate {key.rstrip('s')} id across configuration files: {item_id}")
+        items.append(item)
+        known.add(item_id)
+    return items
+
+
 def load_sources(path: Path) -> list[dict]:
     sources = _load_list(path, "sources")
+    supplemental = path.with_name("extra_sources.yml")
+    if supplemental.exists():
+        sources = _merge_unique(sources, _load_list(supplemental, "sources"), "sources")
     for source in sources:
         defaults = _SOURCE_DEFAULTS.get(str(source.get("id") or ""), {})
         for key, value in defaults.items():
