@@ -6,14 +6,22 @@ Cumberland and Westmorland & Furness ModernGov currently return Cloudflare HTTP 
 
 - The self-hosted workflow is triggered only by `workflow_dispatch` and a schedule.
 - Pull requests do not run on the self-hosted runner.
-- Use a dedicated non-root Linux user/machine where practical.
+- Use a dedicated machine/account where practical.
 - The custom runner label is `cumbria-browser`.
 - No stealth plugins, proxy rotation, CAPTCHA solving, webdriver masking, or challenge bypass is used.
 - `robots.txt` is still respected.
+- Only the publication-gated `site/` artifact is deployed; the DuckDB, raw archive, review queue and unresolved matches remain private.
 
-## One-time setup
+## Supported runner architectures
 
-In GitHub open **Settings -> Actions -> Runners -> New self-hosted runner**, select Linux x64, and copy the short-lived registration token.
+The workflow is architecture-neutral and accepts any self-hosted Linux runner carrying the `cumbria-browser` label. The bootstrap supports:
+
+- Linux x86_64 / x64
+- Linux aarch64 / ARM64
+
+## Normal Linux setup
+
+In GitHub open **Settings -> Actions -> Runners -> New self-hosted runner**, select the matching Linux architecture, and copy the short-lived registration token.
 
 From a clone of this repository on the Linux machine:
 
@@ -21,7 +29,50 @@ From a clone of this repository on the Linux machine:
 RUNNER_TOKEN='<short-lived-token>' bash scripts/setup-self-hosted-runner.sh
 ```
 
-The script installs the GitHub runner and Chromium OS dependencies, registers it with the `cumbria-browser` label, and starts it as a service.
+On a normal systemd Linux machine the script installs the runner as a service.
+
+## Android / Termux setup
+
+Do not install the GitHub runner directly into native Termux. Android/Termux uses Android's userspace rather than a normal glibc Linux distribution. Use a Debian proot so the runner and Playwright see a supported Linux userspace.
+
+In native Termux:
+
+```bash
+pkg update
+pkg install -y proot-distro git
+proot-distro install debian
+termux-wake-lock
+proot-distro login debian
+```
+
+Then, inside the Debian shell:
+
+```bash
+apt-get update
+apt-get install -y git ca-certificates
+
+git clone https://github.com/ghost-dev420/cumbria-public-records-tracker.git
+cd cumbria-public-records-tracker
+
+RUNNER_TOKEN='<short-lived-token>' \
+RUNNER_NO_SERVICE=1 \
+bash scripts/setup-self-hosted-runner.sh
+```
+
+The proot environment has no normal systemd service manager, so start the runner in the foreground:
+
+```bash
+cd ~/actions-runner-cumbria
+RUNNER_ALLOW_RUNASROOT=1 ./run.sh
+```
+
+Keep that Termux/proot session alive while collection runs. `termux-wake-lock` helps keep the CPU awake, but Android battery/process management can still stop Termux. For reliable scheduled daily collection, exempt Termux from battery optimisation where your Android build allows it. For occasional/manual collection, simply start the runner before launching the workflow.
+
+To release the Termux wake lock later:
+
+```bash
+termux-wake-unlock
+```
 
 ## Collection workflow
 
