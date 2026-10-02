@@ -8,10 +8,33 @@ from public_records_tracker.structured import add_fact, ensure_structured_schema
 
 
 def _payment(con, supplier: str, fact_value: str, key: str) -> None:
+    document_id = f"doc-{key}"
+    snapshot_id = f"snap-{key}"
+    con.execute(
+        """INSERT INTO snapshots(
+             snapshot_id,source_id,canonical_url,retrieved_at,sha256,archive_path,
+             content_type,status_code,etag,last_modified
+           ) VALUES (?,?,?,now(),?,?,?,200,NULL,NULL)""",
+        [snapshot_id, "test-source", f"https://example.gov/payments/{key}", f"sha-{key}", "raw", "text/csv"],
+    )
+    con.execute(
+        """INSERT INTO documents(
+             document_id,source_id,canonical_url,title,published_at,evidence_class,
+             latest_snapshot_id,metadata_json
+           ) VALUES (?,?,?,?,?,'OFFICIAL_RECORD',?,'{}')""",
+        [
+            document_id,
+            "test-source",
+            f"https://example.gov/payments/{key}",
+            f"Payments {key}",
+            "2026-09-01",
+            snapshot_id,
+        ],
+    )
     add_fact(
         con,
-        document_id=f"doc-{key}",
-        snapshot_id=f"snap-{key}",
+        document_id=document_id,
+        snapshot_id=snapshot_id,
         fact_type="PAYMENT",
         predicate="PAYMENT_TO_SUPPLIER",
         evidence_class="OFFICIAL_RECORD",
