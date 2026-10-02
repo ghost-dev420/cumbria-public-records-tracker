@@ -18,13 +18,14 @@ def test_extracts_named_grant_recipient_amount_and_purpose(tmp_path: Path):
             "status": "current",
         },
     )
+    html = """<html><body><h3>Successful grants from round one in 2026 to 2027</h3>
+    <ul><li>Example Community Hall - replacement roof: £1,500</li>
+    <li>Second Group - equipment: £600</li></ul></body></html>"""
     record = Record(
         source_id="grants",
         url="https://example.gov/grants",
         title="Community grants",
-        body=b"""<html><body><h3>Successful grants from round one in 2026 to 2027</h3>
-        <ul><li>Example Community Hall - replacement roof: Â        <ul><li>Example Community Hall - replacement roof: \xc2£        <ul><li>Example Community Hall - replacement roof: \xc2\xa31,500</li>
-        <li>Second Group - equipment: Â        <li>Second Group - equipment: \xc2£        <li>Second Group - equipment: \xc2\xa3600</li></ul></body></html>""",
+        body=html.encode("utf-8"),
         content_type="text/html",
         evidence_class=EvidenceClass.OFFICIAL_RECORD,
     )
@@ -47,7 +48,12 @@ def test_extracts_named_grant_recipient_amount_and_purpose(tmp_path: Path):
            LEFT JOIN entities e ON e.entity_id=f.subject_entity_id
            ORDER BY f.fact_type,e.canonical_name"""
     ).fetchall()
-    assert any(row[0] == "GRANT_RECIPIENT" and row[1] == "1500" and row[2] == "Example Community Hall" for row in rows)
+    assert any(
+        row[0] == "GRANT_RECIPIENT"
+        and row[1] == "1500"
+        and row[2] == "Example Community Hall"
+        for row in rows
+    )
     assert any(row[0] == "GRANT_AWARD" and row[1] == "600" for row in rows)
     assert any("replacement roof" in row[3] for row in rows)
     con.close()
@@ -56,11 +62,13 @@ def test_extracts_named_grant_recipient_amount_and_purpose(tmp_path: Path):
 def test_ignores_generic_funding_list_without_successful_grants_heading(tmp_path: Path):
     con = connect(tmp_path / "tracker.duckdb")
     ensure_structured_schema(con)
+    html = """<html><body><h3>Available grants</h3>
+    <ul><li>Example - apply for up to £1,000</li></ul></body></html>"""
     record = Record(
         source_id="grants",
         url="https://example.gov/apply",
         title="Apply for funding",
-        body=b"<html><body><h3>Available grants</h3><ul><li>Example - apply for up to Â<html><body><h3>Available grants</h3><ul><li>Example - apply for up to \xc2£<html><body><h3>Available grants</h3><ul><li>Example - apply for up to \xc2\xa31,000</li></ul></body></html>",
+        body=html.encode("utf-8"),
         content_type="text/html",
         evidence_class=EvidenceClass.OFFICIAL_RECORD,
     )
