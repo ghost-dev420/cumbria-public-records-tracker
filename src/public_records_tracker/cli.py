@@ -8,6 +8,7 @@ from .analysis import ensure_analysis_schema, run_detectors
 from .db import connect
 from .diffs import ensure_diff_schema
 from .public_export import build_public_site
+from .reconciliation import run_reconciliation_detectors
 from .reference import ensure_reference_schema, refresh_reference_index
 from .resolution import ensure_resolution_schema, run_resolution
 from .runner import run_collection
@@ -82,6 +83,7 @@ def detect_signals(db: Path = DEFAULT_DB) -> None:
     ensure_resolution_schema(con)
     ensure_analysis_schema(con)
     stats = run_detectors(con)
+    stats.update(run_reconciliation_detectors(con))
     con.close()
     typer.echo(f"Signal pass: {stats}")
 
