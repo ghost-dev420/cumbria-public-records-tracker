@@ -7,6 +7,11 @@ on:
         description: Source id or all
         required: false
         default: all
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/collect-and-publish.yml'
+      - 'config/sources.yml'
   schedule:
     - cron: '23 5 * * *'
 
