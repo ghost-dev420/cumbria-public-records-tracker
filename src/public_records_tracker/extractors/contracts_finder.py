@@ -10,11 +10,21 @@ from ..resolution import add_identifier
 from ..structured import add_fact, upsert_entity
 
 
+def _source_system(record: Record, source: dict) -> str:
+    return str(
+        record.metadata.get("source_system")
+        or source.get("name")
+        or source.get("id")
+        or "UK procurement OCDS"
+    )
+
+
 def _party_entity(
     con: duckdb.DuckDBPyConnection,
     party: dict[str, Any],
     *,
     fallback_type: str,
+    source_system: str,
 ) -> str | None:
     name = str(party.get("name") or "").strip()
     if not name:
@@ -36,13 +46,16 @@ def _party_entity(
                     "id": str(extra["id"]),
                 }
             )
+    # Keep the historic namespace stable so existing entity IDs continue to
+    # reconcile across both UK OCDS feeds. The source-system metadata records
+    # which feed actually supplied the observation.
     entity_id = upsert_entity(
         con,
         entity_type=fallback_type,
         name=name,
         namespace="contracts_finder",
         metadata={
-            "source_system": "Contracts Finder OCDS",
+            "source_system": source_system,
             "identifiers": identifiers,
         },
     )
@@ -52,7 +65,7 @@ def _party_entity(
             entity_id=entity_id,
             scheme=item["scheme"],
             identifier=item["id"],
-            source="Contracts Finder OCDS",
+            source=source_system,
         )
     return entity_id
 
@@ -103,6 +116,7 @@ def extract_contracts_finder(
     if not isinstance(release, dict) or not (release.get("ocid") or release.get("awards")):
         return 0
 
+    source_system = _source_system(record, source)
     parties: dict[str, dict[str, Any]] = {}
     buyers: list[str] = []
     suppliers: dict[str, str] = {}
@@ -114,17 +128,23 @@ def extract_contracts_finder(
             parties[party_id] = party
         roles = {str(role).casefold() for role in party.get("roles") or []}
         if "buyer" in roles:
-            entity = _party_entity(con, party, fallback_type="ORGANISATION")
+            entity = _party_entity(
+                con, party, fallback_type="ORGANISATION", source_system=source_system
+            )
             if entity:
                 buyers.append(entity)
         if "supplier" in roles:
-            entity = _party_entity(con, party, fallback_type="SUPPLIER")
+            entity = _party_entity(
+                con, party, fallback_type="SUPPLIER", source_system=source_system
+            )
             if entity:
                 suppliers[party_id] = entity
 
     buyer = release.get("buyer") or {}
     if isinstance(buyer, dict) and buyer.get("name"):
-        buyer_entity = _party_entity(con, buyer, fallback_type="ORGANISATION")
+        buyer_entity = _party_entity(
+            con, buyer, fallback_type="ORGANISATION", source_system=source_system
+        )
         if buyer_entity and buyer_entity not in buyers:
             buyers.append(buyer_entity)
 
@@ -149,7 +169,7 @@ def extract_contracts_finder(
             name=f"{ocid}:{award_id}",
             namespace="contracts_finder",
             metadata={
-                "source_system": "Contracts Finder OCDS",
+                "source_system": source_system,
                 "ocid": ocid,
                 "award_id": award_id,
                 "title": award_title,
@@ -190,7 +210,12 @@ def extract_contracts_finder(
             supplier_key = str(supplier.get("id") or supplier.get("name") or "")
             entity = suppliers.get(supplier_key)
             if entity is None:
-                entity = _party_entity(con, supplier, fallback_type="SUPPLIER")
+                entity = _party_entity(
+                    con,
+                    supplier,
+                    fallback_type="SUPPLIER",
+                    source_system=source_system,
+                )
             if entity and entity not in award_suppliers:
                 award_suppliers.append(entity)
         for supplier_entity in award_suppliers:
