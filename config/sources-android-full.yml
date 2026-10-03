@@ -16,6 +16,8 @@ exclude_source_ids:
   - westmorland_legacy_authorities
   - wigton_town_records
   - whitehaven_town_records
+  - lgsco_cumberland
+  - lgsco_westmorland_furness
 
 sources:
   - id: cumberland_moderngov_api
@@ -126,3 +128,40 @@ sources:
     page_limit: 3
     max_records: 220
     allow_cross_domain: true
+
+  # The LGSCO search URL is already council-filtered. Do not repeat a text
+  # filter on each result link because LGSCO sometimes renders the decision
+  # anchor separately from the council name, causing valid results to vanish.
+  - id: lgsco_cumberland
+    name: LGSCO decisions concerning Cumberland Council
+    kind: html_listing
+    enabled: true
+    evidence_class: REGULATORY_FINDING
+    organisation_ids: [cumberland_council]
+    extractors: [lgsco]
+    expect_facts: true
+    minimum_fact_count: 1
+    start_urls:
+      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland%20Council&dc=c%2Bnu%2Bu%2B&sortOrder=descending
+    include_link_regex: '/decisions/'
+    page_limit: 10
+    max_records: 250
+    follow_pagination: true
+    pagination_text: 'next'
+
+  - id: lgsco_westmorland_furness
+    name: LGSCO decisions concerning Westmorland and Furness Council
+    kind: html_listing
+    enabled: true
+    evidence_class: REGULATORY_FINDING
+    organisation_ids: [westmorland_furness_council]
+    extractors: [lgsco]
+    expect_facts: true
+    minimum_fact_count: 1
+    start_urls:
+      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Westmorland%20and%20Furness%20Council&dc=c%2Bnu%2Bu%2B&sortOrder=descending
+    include_link_regex: '/decisions/'
+    page_limit: 10
+    max_records: 250
+    follow_pagination: true
+    pagination_text: 'next'
