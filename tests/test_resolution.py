@@ -50,3 +50,85 @@ def test_exact_identifier_auto_resolves(tmp_path: Path):
     ).fetchone()[0]
     assert resolved == 1
     con.close()
+
+
+def test_exact_name_without_identifier_requires_review(tmp_path: Path):
+    con = connect(tmp_path / "tracker.duckdb")
+    ensure_structured_schema(con)
+    ensure_resolution_schema(con)
+    left = upsert_entity(
+        con,
+        entity_type="SUPPLIER",
+        name="Acme Services Ltd",
+        namespace="payments",
+    )
+    right = upsert_entity(
+        con,
+        entity_type="ORGANISATION",
+        name="ACME Services Limited",
+        namespace="contracts",
+    )
+
+    run_resolution(con)
+
+    match = con.execute(
+        """SELECT status,match_method
+           FROM entity_matches
+           WHERE left_entity_id IN (?,?) AND right_entity_id IN (?,?)
+             AND match_method='normalized_name_exact'""",
+        [left, right, left, right],
+    ).fetchone()
+    assert match == ("review", "normalized_name_exact")
+    assert con.execute(
+        """SELECT count(*) FROM review_queue
+           WHERE item_type='ENTITY_MATCH' AND status='open'"""
+    ).fetchone()[0] == 1
+    resolved = con.execute(
+        """SELECT count(DISTINCT canonical_entity_id)
+           FROM resolved_entity_members
+           WHERE entity_id IN (?,?)""",
+        [left, right],
+    ).fetchone()[0]
+    assert resolved == 2
+    con.close()
+
+
+def test_existing_auto_name_match_is_downgraded_on_rerun(tmp_path: Path):
+    con = connect(tmp_path / "tracker.duckdb")
+    ensure_structured_schema(con)
+    ensure_resolution_schema(con)
+    left = upsert_entity(
+        con,
+        entity_type="SUPPLIER",
+        name="Shared Trading Ltd",
+        namespace="payments",
+    )
+    right = upsert_entity(
+        con,
+        entity_type="ORGANISATION",
+        name="Shared Trading Limited",
+        namespace="contracts",
+    )
+    run_resolution(con)
+    match_id = con.execute(
+        """SELECT match_id FROM entity_matches
+           WHERE match_method='normalized_name_exact'"""
+    ).fetchone()[0]
+    con.execute(
+        "UPDATE entity_matches SET status='auto_accepted' WHERE match_id=?",
+        [match_id],
+    )
+
+    run_resolution(con)
+
+    assert con.execute(
+        "SELECT status FROM entity_matches WHERE match_id=?", [match_id]
+    ).fetchone()[0] == "review"
+    resolved = con.execute(
+        """SELECT count(DISTINCT canonical_entity_id)
+           FROM resolved_entity_members
+           WHERE entity_id IN (?,?)""",
+        [left, right],
+    ).fetchone()[0]
+    assert resolved == 2
+    con.close()
