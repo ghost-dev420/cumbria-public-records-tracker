@@ -5,6 +5,8 @@ REPO_DIR="${REPO_DIR:-/root/cumbria-public-records-tracker}"
 VENV_DIR="${VENV_DIR:-$REPO_DIR/.android-venv}"
 PROBE_ONLY="${PROBE_ONLY:-0}"
 PUBLISH="${PUBLISH:-0}"
+STRICT="${STRICT:-0}"
+COLLECT_CONFIG="${COLLECT_CONFIG:-config/sources-android-full.yml}"
 
 cd "$REPO_DIR"
 
@@ -38,10 +40,16 @@ if [[ "$PROBE_ONLY" == "1" ]]; then
 fi
 
 prt init-db
-prt collect \
-  --config config/sources-moderngov-api.yml \
-  --source all \
-  --strict
+collect_args=(
+  --config "$COLLECT_CONFIG"
+  --source all
+)
+if [[ "$STRICT" == "1" ]]; then
+  collect_args+=(--strict)
+fi
+
+printf 'Running full production collection with %s\n' "$COLLECT_CONFIG"
+prt collect "${collect_args[@]}"
 
 prt build-site
 
