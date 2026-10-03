@@ -14,9 +14,13 @@ class SafeHttpClient:
         delay: float = 0.75,
         timeout: float = 30.0,
         respect_robots: bool = True,
+        retries: int = 3,
+        retry_backoff: float = 1.0,
     ) -> None:
         self.delay = delay
         self.respect_robots = respect_robots
+        self.retries = max(0, retries)
+        self.retry_backoff = max(0.0, retry_backoff)
         self.robot_user_agent = "CumbriaPublicRecordsTracker"
         self._last_request: dict[str, float] = {}
         self._robots: dict[str, RobotFileParser | None] = {}
@@ -92,7 +96,27 @@ class SafeHttpClient:
                 if configured is not None:
                     crawl_delay = float(configured)
         self._wait(host, crawl_delay)
-        response = self.client.get(url, **kwargs)
-        self._last_request[host] = time.monotonic()
-        response.raise_for_status()
-        return response
+        retryable_statuses = {408, 425, 429, 500, 502, 503, 504}
+        last_error: Exception | None = None
+        for attempt in range(self.retries + 1):
+            try:
+                response = self.client.get(url, **kwargs)
+                self._last_request[host] = time.monotonic()
+                if response.status_code in retryable_statuses and attempt < self.retries:
+                    retry_after = response.headers.get("retry-after")
+                    try:
+                        pause = float(retry_after) if retry_after is not None else 0.0
+                    except ValueError:
+                        pause = 0.0
+                    time.sleep(max(pause, self.retry_backoff * (2**attempt)))
+                    continue
+                response.raise_for_status()
+                return response
+            except (httpx.TransportError, httpx.TimeoutException) as exc:
+                last_error = exc
+                self._last_request[host] = time.monotonic()
+                if attempt >= self.retries:
+                    raise
+                time.sleep(self.retry_backoff * (2**attempt))
+        assert last_error is not None
+        raise last_error
