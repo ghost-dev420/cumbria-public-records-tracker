@@ -36,3 +36,8 @@ def test_httpx_transport_errors_are_network_errors():
     request = httpx.Request("GET", "https://example.test")
     error = httpx.ConnectError("temporary failure in name resolution", request=request)
     assert classify_source_error(error) == "network_error"
+
+
+def test_robots_permission_error_is_blocked_not_network_error():
+    error = PermissionError("robots.txt disallows collection")
+    assert classify_source_error(error) == "blocked"
