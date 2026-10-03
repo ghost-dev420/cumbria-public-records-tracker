@@ -1,5 +1,3 @@
-from datetime import timedelta
-
 from public_records_tracker.analysis import add_signal, ensure_analysis_schema
 from public_records_tracker.analysis_lifecycle import (
     begin_analysis_cycle,
