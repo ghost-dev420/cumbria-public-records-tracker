@@ -17,6 +17,15 @@ def _period(value: Any) -> tuple[str | None, str | None]:
     return start, end
 
 
+def _source_system(record: Record, source: dict) -> str:
+    return str(
+        record.metadata.get("source_system")
+        or source.get("name")
+        or source.get("id")
+        or "UK procurement OCDS"
+    )
+
+
 def extract_contract_periods(
     *,
     con: duckdb.DuckDBPyConnection,
@@ -34,6 +43,7 @@ def extract_contract_periods(
     if not isinstance(release, dict):
         return 0
 
+    source_system = _source_system(record, source)
     tender = release.get("tender") or {}
     tender_period = _period(tender.get("contractPeriod") if isinstance(tender, dict) else None)
     ocid = str(release.get("ocid") or release.get("id") or document_id)
@@ -55,7 +65,7 @@ def extract_contract_periods(
             name=f"{ocid}:{award_id}",
             namespace="contracts_finder",
             metadata={
-                "source_system": "Contracts Finder OCDS",
+                "source_system": source_system,
                 "ocid": ocid,
                 "award_id": award_id,
                 "title": award_title,
@@ -63,9 +73,7 @@ def extract_contract_periods(
             },
         )
         award_period = _period(award.get("contractPeriod"))
-        start, end = (
-            award_period if any(award_period) else tender_period
-        )
+        start, end = award_period if any(award_period) else tender_period
         if start:
             add_fact(
                 con,

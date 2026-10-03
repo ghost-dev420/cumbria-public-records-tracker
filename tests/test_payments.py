@@ -9,8 +9,18 @@ from public_records_tracker.structured import ensure_structured_schema
 SOURCE = {
     "id": "westmorland_furness_spending",
     "name": "Westmorland and Furness spending over 250 pounds",
-    "organisation_ids": ["westmorland_furness_council"],
+    "organisation_ids": [
+        "westmorland_furness_council",
+        "barrow_borough_council",
+        "eden_district_council",
+        "south_lakeland_district_council",
+    ],
     "payment_payer_organisation_id": "westmorland_furness_council",
+    "payment_payer_rules": [
+        {"organisation_id": "barrow_borough_council", "terms": ["barrow bc"]},
+        {"organisation_id": "eden_district_council", "terms": ["edc transparency"]},
+        {"organisation_id": "south_lakeland_district_council", "terms": ["sldc"]},
+    ],
 }
 
 
@@ -29,15 +39,31 @@ def _record(title: str, body: str) -> Record:
 def _db(tmp_path):
     con = connect(tmp_path / "tracker.duckdb")
     ensure_structured_schema(con)
-    register_organisation(
-        con,
-        {
-            "id": "westmorland_furness_council",
-            "name": "Westmorland and Furness Council",
-            "organisation_type": "unitary_authority",
-            "status": "current",
-        },
-    )
+    for organisation_id, name, organisation_type, status in (
+        (
+            "westmorland_furness_council",
+            "Westmorland and Furness Council",
+            "unitary_authority",
+            "current",
+        ),
+        ("barrow_borough_council", "Barrow Borough Council", "district_council", "legacy"),
+        ("eden_district_council", "Eden District Council", "district_council", "legacy"),
+        (
+            "south_lakeland_district_council",
+            "South Lakeland District Council",
+            "district_council",
+            "legacy",
+        ),
+    ):
+        register_organisation(
+            con,
+            {
+                "id": organisation_id,
+                "name": name,
+                "organisation_type": organisation_type,
+                "status": status,
+            },
+        )
     return con
 
 
@@ -80,6 +106,29 @@ def test_extracts_trade_supplier_payment_with_row_locator(tmp_path):
     con.close()
 
 
+def test_legacy_spending_file_uses_legacy_council_as_payer(tmp_path):
+    con = _db(tmp_path)
+    record = _record(
+        "April 2025 SLDC transparency spend over £250",
+        "Payment Date,Supplier Name,Amount\n"
+        "15/04/2025,Legacy Supplier Ltd,900.00\n",
+    )
+    assert extract_payments(
+        con=con,
+        record=record,
+        document_id="doc-sldc",
+        snapshot_id="snap-sldc",
+        source=SOURCE,
+    ) == 1
+    assert con.execute(
+        """SELECT payer.canonical_name
+           FROM facts f
+           JOIN entities payer ON payer.entity_id=f.subject_entity_id
+           WHERE f.predicate='PAYMENT_TO_SUPPLIER'"""
+    ).fetchone()[0] == "South Lakeland District Council"
+    con.close()
+
+
 def test_private_home_and_support_files_are_not_structured(tmp_path):
     con = _db(tmp_path)
     body = "Payment Date,Supplier Name,Amount\n14/08/2026,Private Recipient,500.00\n"
@@ -98,4 +147,82 @@ def test_private_home_and_support_files_are_not_structured(tmp_path):
 
     assert con.execute("SELECT count(*) FROM facts").fetchone()[0] == 0
     assert con.execute("SELECT count(*) FROM entities WHERE entity_type='SUPPLIER'").fetchone()[0] == 0
+    con.close()
+
+
+def test_header_detection_handles_generic_cdn_download(tmp_path):
+    con = _db(tmp_path)
+    source = {**SOURCE, "allow_payment_csv_by_header": True}
+    record = Record(
+        source_id=SOURCE["id"],
+        url="https://cdn.example.test/object/7fd193",
+        title="April 2026 spending over £250",
+        body=(
+            "Transaction Date,Supplier/Payee Name,Net Value,Service Area\n"
+            "02/04/2026,Example Civils Ltd,2500.00,Highways\n"
+        ).encode(),
+        content_type="application/octet-stream",
+        evidence_class=EvidenceClass.OFFICIAL_RECORD,
+        metadata={"anchor_text": "April 2026 spending over £250"},
+    )
+
+    added = extract_payments(
+        con=con,
+        record=record,
+        document_id="doc-cdn",
+        snapshot_id="snap-cdn",
+        source=source,
+    )
+    assert added == 1
+    assert con.execute(
+        "SELECT count(*) FROM facts WHERE predicate='PAYMENT_TO_SUPPLIER'"
+    ).fetchone()[0] == 1
+    con.close()
+
+
+def test_header_detection_does_not_override_sensitive_series_exclusion(tmp_path):
+    con = _db(tmp_path)
+    source = {**SOURCE, "allow_payment_csv_by_header": True}
+    record = Record(
+        source_id=SOURCE["id"],
+        url="https://cdn.example.test/object/private-home",
+        title="Private home payments April 2026",
+        body=(
+            "Payment Date,Supplier Name,Amount\n"
+            "02/04/2026,Named Individual,500.00\n"
+        ).encode(),
+        content_type="application/octet-stream",
+        evidence_class=EvidenceClass.OFFICIAL_RECORD,
+        metadata={"anchor_text": "Private home payments April 2026"},
+    )
+    assert extract_payments(
+        con=con,
+        record=record,
+        document_id="doc-private",
+        snapshot_id="snap-private",
+        source=source,
+    ) == 0
+    assert con.execute("SELECT count(*) FROM facts").fetchone()[0] == 0
+    con.close()
+
+
+def test_header_detection_rejects_unrelated_csv(tmp_path):
+    con = _db(tmp_path)
+    source = {**SOURCE, "allow_payment_csv_by_header": True}
+    record = Record(
+        source_id=SOURCE["id"],
+        url="https://cdn.example.test/object/budget",
+        title="Budget summary",
+        body=b"Department,Budget,Forecast\nHighways,1000,1200\n",
+        content_type="application/octet-stream",
+        evidence_class=EvidenceClass.OFFICIAL_RECORD,
+        metadata={"anchor_text": "Budget summary"},
+    )
+    assert extract_payments(
+        con=con,
+        record=record,
+        document_id="doc-budget",
+        snapshot_id="snap-budget",
+        source=source,
+    ) == 0
     con.close()

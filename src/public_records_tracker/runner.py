@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from .analysis import ensure_analysis_schema, run_detectors
+from .analysis_lifecycle import begin_analysis_cycle, finish_analysis_cycle
 from .archive import archive_record
 from .collectors import COLLECTORS
 from .config import load_organisations, load_sources
@@ -26,6 +27,24 @@ from .procurement_gaps import run_procurement_gap_detectors
 from .reconciliation import run_reconciliation_detectors
 from .resolution import ensure_resolution_schema, run_resolution
 from .structured import activate_snapshot, ensure_structured_schema
+
+
+class ExtractionCoverageError(RuntimeError):
+    """A source that is expected to yield structured facts yielded too few."""
+
+
+def _extraction_coverage_error(
+    source: dict, *, record_count: int, fact_count: int
+) -> ExtractionCoverageError | None:
+    if not source.get("expect_facts", False) or record_count <= 0:
+        return None
+    minimum = max(1, int(source.get("minimum_fact_count", 1)))
+    if fact_count >= minimum:
+        return None
+    return ExtractionCoverageError(
+        f"{source['id']} collected {record_count} records but extracted "
+        f"{fact_count} structured facts; expected at least {minimum}"
+    )
 
 
 def run_collection(
@@ -179,19 +198,40 @@ def run_collection(
                         error=first,
                     )
                 else:
-                    status = "partial" if source_extraction_errors else "success"
-                    finish_source_run(
-                        con,
-                        run_id=run_id,
-                        status=status,
-                        record_count=source_records,
-                        fact_count=source_facts,
+                    coverage_error = _extraction_coverage_error(
+                        source, record_count=source_records, fact_count=source_facts
                     )
+                    if coverage_error is not None:
+                        print(
+                            f"ERROR {source['id']} [partial_extraction]: "
+                            f"{coverage_error}"
+                        )
+                        stats["extraction_errors"] += 1
+                        source_extraction_errors += 1
+                        finish_source_run(
+                            con,
+                            run_id=run_id,
+                            status="partial_extraction",
+                            record_count=source_records,
+                            fact_count=source_facts,
+                            error=coverage_error,
+                        )
+                    else:
+                        status = "partial" if source_extraction_errors else "success"
+                        finish_source_run(
+                            con,
+                            run_id=run_id,
+                            status=status,
+                            record_count=source_records,
+                            fact_count=source_facts,
+                        )
 
+    analysis_started = begin_analysis_cycle(con)
     resolution_stats = run_resolution(con)
     detector_stats = run_detectors(con)
     detector_stats.update(run_reconciliation_detectors(con))
     detector_stats.update(run_procurement_gap_detectors(con))
+    finish_analysis_cycle(con, analysis_started)
     stats["matches"] = sum(
         resolution_stats.get(key, 0)
         for key in ("identifier", "name_exact", "fuzzy_review")

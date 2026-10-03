@@ -5,6 +5,7 @@ import io
 import re
 from decimal import Decimal, InvalidOperation
 from typing import Iterable
+from urllib.parse import urlsplit
 
 import duckdb
 from dateutil import parser as date_parser
@@ -16,33 +17,59 @@ from ..structured import add_fact, upsert_entity
 _HEADER_ALIASES = {
     "supplier": {
         "supplier", "suppliername", "suppliervendorname", "vendor", "vendorname",
-        "payee", "payee name", "creditor", "creditorname",
+        "payee", "payee name", "creditor", "creditorname", "supplier/payee",
+        "supplier/payee name", "supplier or payee", "supplier or payee name",
     },
     "amount": {
         "amount", "transactionamount", "netamount", "paymentamount", "value",
-        "amountexcludingvat", "amountgbp", "grossamount",
+        "amountexcludingvat", "amountgbp", "grossamount", "invoiceamount",
+        "net value", "gross value",
     },
     "date": {
         "date", "paymentdate", "transactiondate", "invoicedate", "paiddate",
+        "payment date", "transaction date", "invoice date",
     },
     "description": {
         "description", "transactiondescription", "narrative", "purpose",
-        "expensetype", "expendituretype",
+        "expensetype", "expendituretype", "transaction description",
     },
     "department": {
         "department", "directorate", "service", "servicearea", "costcentre",
-        "costcenter", "costcentrename",
+        "costcenter", "costcentrename", "service area", "cost centre",
     },
     "reference": {
         "transactionnumber", "transactionid", "documentnumber", "reference",
-        "invoicenumber", "paymentreference",
+        "invoicenumber", "paymentreference", "transaction number", "invoice number",
     },
 }
+
+_DEFAULT_ALLOW_TERMS = (
+    "trade supplier",
+    "trade-supplier",
+    "spending over",
+    "spend over",
+    "payments over",
+    "expenditure over",
+    "supplier payments",
+)
+_DEFAULT_DENY_TERMS = (
+    "private home",
+    "private-home",
+    "support related",
+    "support-related",
+    "supported individual",
+    "supported individuals",
+    "personal payment",
+)
 
 
 def _normalise_header(value: str) -> str:
     value = value.casefold().replace("&", " and ")
     return re.sub(r"[^a-z0-9]+", "", value)
+
+
+def _normalised_aliases(logical_name: str) -> set[str]:
+    return {_normalise_header(value) for value in _HEADER_ALIASES[logical_name]}
 
 
 def _decode_csv(body: bytes) -> str:
@@ -72,8 +99,20 @@ def _dict_rows(body: bytes) -> Iterable[tuple[int, dict[str, str]]]:
             yield row_number, clean
 
 
+def _has_payment_headers(body: bytes) -> bool:
+    """Require both a supplier/payee column and a monetary amount column."""
+    try:
+        _, first = next(iter(_dict_rows(body)))
+    except (StopIteration, csv.Error, UnicodeError):
+        return False
+    headers = {_normalise_header(key) for key in first}
+    return bool(headers & _normalised_aliases("supplier")) and bool(
+        headers & _normalised_aliases("amount")
+    )
+
+
 def _field(row: dict[str, str], logical_name: str) -> str:
-    aliases = {_normalise_header(value) for value in _HEADER_ALIASES[logical_name]}
+    aliases = _normalised_aliases(logical_name)
     for key, value in row.items():
         if _normalise_header(key) in aliases:
             return value.strip()
@@ -106,24 +145,76 @@ def _date(value: str) -> str | None:
         return value.strip()
 
 
-def _is_supplier_file(record: Record) -> bool:
-    text = " ".join(
+def _record_text(record: Record) -> str:
+    return " ".join(
         [
             record.title,
             record.url,
             str(record.metadata.get("anchor_text") or ""),
+            str(record.metadata.get("discovered_from") or ""),
         ]
     ).casefold()
-    if any(term in text for term in ("private home", "support related", "support-related")):
+
+
+def _is_supplier_file(record: Record, source: dict, *, has_headers: bool) -> bool:
+    """Select business-supplier CSVs while explicitly excluding sensitive payment series."""
+    text = _record_text(record)
+    deny_terms = tuple(
+        str(item).casefold()
+        for item in source.get("payment_file_deny_terms", _DEFAULT_DENY_TERMS)
+    )
+    if any(term and term in text for term in deny_terms):
         return False
-    return "trade supplier" in text or "trade-supplier" in text
+
+    allow_terms = tuple(
+        str(item).casefold()
+        for item in source.get("payment_file_allow_terms", _DEFAULT_ALLOW_TERMS)
+    )
+    named_as_supplier_file = any(term and term in text for term in allow_terms)
+    if named_as_supplier_file:
+        return has_headers
+
+    # Some councils publish downloads behind generic CDN/object-store URLs whose
+    # final URL and MIME type lose the original .csv filename. Header-based
+    # detection is therefore opt-in per known transparency source.
+    return bool(source.get("allow_payment_csv_by_header", False) and has_headers)
 
 
-def _payer_entity(con: duckdb.DuckDBPyConnection, source: dict) -> str | None:
+def _is_csv_candidate(record: Record, *, has_headers: bool, source: dict) -> bool:
+    content_type = record.content_type.casefold()
+    path = urlsplit(record.url).path.casefold()
+    metadata_name = " ".join(
+        [record.title, str(record.metadata.get("anchor_text") or "")]
+    ).casefold()
+    explicit_csv = (
+        "csv" in content_type
+        or path.endswith(".csv")
+        or ".csv" in metadata_name
+    )
+    return explicit_csv or bool(source.get("allow_payment_csv_by_header", False) and has_headers)
+
+
+def _payer_organisation_id(source: dict, record: Record) -> str | None:
+    text = _record_text(record)
+    for rule in source.get("payment_payer_rules") or []:
+        if not isinstance(rule, dict):
+            continue
+        organisation_id = str(rule.get("organisation_id") or "").strip()
+        terms = [str(term).casefold() for term in rule.get("terms") or []]
+        if organisation_id and any(term and term in text for term in terms):
+            return organisation_id
+
     organisation_id = source.get("payment_payer_organisation_id")
-    if not organisation_id:
-        organisation_ids = list(source.get("organisation_ids") or [])
-        organisation_id = organisation_ids[0] if organisation_ids else None
+    if organisation_id:
+        return str(organisation_id)
+    organisation_ids = list(source.get("organisation_ids") or [])
+    return str(organisation_ids[0]) if organisation_ids else None
+
+
+def _payer_entity(
+    con: duckdb.DuckDBPyConnection, source: dict, record: Record
+) -> str | None:
+    organisation_id = _payer_organisation_id(source, record)
     if not organisation_id:
         return None
     row = con.execute(
@@ -148,11 +239,13 @@ def extract_payments(
     snapshot_id: str,
     source: dict,
 ) -> int:
-    is_csv = "csv" in record.content_type.casefold() or record.url.casefold().endswith(".csv")
-    if not is_csv or not _is_supplier_file(record):
+    has_headers = _has_payment_headers(record.body)
+    if not _is_csv_candidate(record, has_headers=has_headers, source=source):
+        return 0
+    if not _is_supplier_file(record, source, has_headers=has_headers):
         return 0
 
-    payer = _payer_entity(con, source)
+    payer = _payer_entity(con, source, record)
     count = 0
     for row_number, row in _dict_rows(record.body):
         supplier_name = _field(row, "supplier")

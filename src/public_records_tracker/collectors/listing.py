@@ -34,6 +34,7 @@ class HtmlListingCollector:
         seen_records: set[str] = set()
         pages = 0
         emitted = 0
+        failed_hosts: set[str] = set()
 
         while queue and pages < self.page_limit and emitted < max_records:
             page_url = queue.popleft()
@@ -79,11 +80,24 @@ class HtmlListingCollector:
                     if urlsplit(href).netloc.casefold() != base_host:
                         continue
                 seen_records.add(href)
+                attachment_host = urlsplit(href).netloc.casefold()
+                if attachment_host in failed_hosts:
+                    continue
                 try:
                     item = self.client.get(href)
                 except Exception as exc:
                     self.errors.append(exc)
                     print(f"WARN attachment fetch failed {href}: {exc}")
+                    # DNS/connectivity failures are normally host-wide. SafeHttpClient
+                    # has already exhausted its retries, so avoid hammering every
+                    # remaining attachment on the same unavailable host.
+                    error_text = str(exc).casefold()
+                    if any(marker in error_text for marker in (
+                        "name resolution", "nodename nor servname",
+                        "temporary failure", "connecterror",
+                    )):
+                        failed_hosts.add(attachment_host)
+                        print(f"WARN suppressing further attachment fetches for unavailable host {attachment_host}")
                     continue
                 item_type = item.headers.get(
                     "content-type", "application/octet-stream"
