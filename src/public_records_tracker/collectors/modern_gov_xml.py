@@ -10,6 +10,10 @@ from ..models import EvidenceClass, Record
 DEFAULT_OPERATIONS = ["GetCommittees", "GetCouncillorsByWard"]
 
 
+class PageLimitReached(RuntimeError):
+    pass
+
+
 def _local_name(tag: str) -> str:
     return tag.rsplit("}", 1)[-1].casefold()
 
@@ -101,13 +105,22 @@ class ModernGovXmlCollector:
             "lUserId": 0,
         }
 
+    def _limit_error(self, detail: str) -> None:
+        error = PageLimitReached(
+            f"ModernGov XML collection reached page_limit={self.page_limit}; {detail}"
+        )
+        self.errors.append(error)
+        print(f"WARN {error}")
+
     def collect(self):
         operations = list(self.source.get("api_operations") or DEFAULT_OPERATIONS)
         emitted = 0
         meeting_ids: list[str] = []
 
-        for operation in operations:
+        for operation_index, operation in enumerate(operations):
             if emitted >= self.page_limit:
+                remaining = len(operations) - operation_index
+                self._limit_error(f"{remaining} configured operation(s) were not requested")
                 break
             params = self._calendar_params() if operation == "GetCalendarEvents" else None
             print(f"  ModernGov XML {operation}...")
@@ -132,8 +145,9 @@ class ModernGovXmlCollector:
         total = len(meeting_ids)
         for index, meeting_id in enumerate(meeting_ids, start=1):
             if emitted >= self.page_limit:
-                print(
-                    f"  ModernGov XML meeting expansion stopped at page_limit={self.page_limit}."
+                completed = index - 1
+                self._limit_error(
+                    f"meeting expansion stopped after {completed}/{total} meeting(s)"
                 )
                 break
             params = {"lMeetingId": meeting_id}
