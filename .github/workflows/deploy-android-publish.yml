@@ -1,0 +1,61 @@
+name: deploy sanitized Android collection
+
+on:
+  push:
+    branches:
+      - android-publish
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: public-records-collection
+  cancel-in-progress: false
+
+jobs:
+  verify-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify publication boundary
+        shell: bash
+        run: |
+          test -d site
+          test ! -e site/data/raw
+          test ! -e site/tracker.duckdb
+          test ! -e site/api/review-queue.json
+
+          if find site -type f \( -name '*.duckdb' -o -name '*.duckdb.wal' \) -print -quit | grep -q .; then
+            echo 'Database file found in site/; refusing deployment.'
+            exit 1
+          fi
+
+          if find site -type f -path '*/data/raw/*' -print -quit | grep -q .; then
+            echo 'Raw evidence path found in site/; refusing deployment.'
+            exit 1
+          fi
+
+          if git ls-files | grep -E '^(data/raw/|data/tracker\.duckdb$)' >/dev/null; then
+            echo 'Private collection state is tracked on the publish branch; refusing deployment.'
+            exit 1
+          fi
+
+          echo 'Publication boundary checks passed.'
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
