@@ -1,83 +1,76 @@
-# Self-hosted ModernGov browser runner
+# ModernGov browser collection
 
-Cumberland and Westmorland & Furness ModernGov currently return Cloudflare HTTP 403 responses to GitHub-hosted runners, including plain Playwright Chromium. The tracker therefore keeps ModernGov browser collection on a dedicated self-hosted Linux runner where the public pages are ordinarily accessible.
+Cumberland and Westmorland & Furness ModernGov can return HTTP 403 responses to GitHub-hosted datacentre traffic. The tracker therefore supports browser collection from a normal self-hosted Linux machine or directly from Android/Termux, while keeping the same evidence and publication rules.
 
 ## Security boundary
 
-- The self-hosted workflow is triggered only by `workflow_dispatch` and a schedule.
-- Pull requests do not run on the self-hosted runner.
-- Use a dedicated machine/account where practical.
-- The required custom runner label is `cumbria-browser`.
-- Android/Termux runners also receive `android-termux`.
-- No stealth plugins, proxy rotation, CAPTCHA solving, webdriver masking, or challenge bypass is used.
+- No stealth plugins, proxy rotation, CAPTCHA solving, webdriver masking or challenge bypass is used.
 - `robots.txt` is still respected.
-- Only the publication-gated `site/` artifact is deployed; the DuckDB, raw archive, review queue and unresolved matches remain private.
+- Only the publication-gated `site/` output is deployable.
+- The DuckDB, `data/raw`, review queue and unresolved matches remain private collection state.
+- Pull requests do not execute arbitrary code on a self-hosted machine or Android phone.
 
-## Supported runner architectures
+## Normal Linux self-hosted runner
 
-The workflow is architecture-neutral and accepts any self-hosted Linux runner carrying the `cumbria-browser` label. The bootstrap supports Linux x86_64/x64 and Linux aarch64/ARM64.
+The workflow `.github/workflows/collect-moderngov-self-hosted.yml` remains available for a normal Linux x86_64 or ARM64 machine carrying the `cumbria-browser` runner label.
 
-## Normal Linux setup
-
-In GitHub open **Settings -> Actions -> Runners -> New self-hosted runner**, select the matching Linux architecture, and copy the short-lived registration token.
-
-From a clone of this repository on the Linux machine:
+Create a short-lived registration token in GitHub under **Settings -> Actions -> Runners -> New self-hosted runner**, then from a clone of the repository run:
 
 ```bash
 RUNNER_TOKEN='<short-lived-token>' bash scripts/setup-self-hosted-runner.sh
 ```
 
-On a normal systemd Linux machine the script installs the runner as a service.
+On a normal systemd Linux machine the bootstrap can install the GitHub Actions runner as a service. The workflow is manual/scheduled and is not a pull-request target.
 
-## Android / Termux ARM64 setup
+## Android / Termux ARM64
 
-Native Termux is the host; the GitHub runner and Playwright run inside an Ubuntu ARM64 proot so they see a normal Linux userspace.
+Android does not use the GitHub Actions runner. The runner bundles CoreCLR, which can fail to initialise inside ARM64 Android + proot even when the device has available memory. Instead, Termux hosts an Ubuntu ARM64 proot and runs the existing Python/Playwright collector directly.
 
-In Termux:
+From native Termux:
 
 ```bash
 pkg update -y
 pkg install -y git
+
 git clone https://github.com/ghost-dev420/cumbria-public-records-tracker.git
 cd cumbria-public-records-tracker
+
+git fetch origin
+git reset --hard origin/main
+bash scripts/setup-termux-browser-collector.sh
 ```
 
-In GitHub open **Settings -> Actions -> Runners -> New self-hosted runner**, choose **Linux / ARM64**, copy the short-lived registration token, then run:
+Probe both ModernGov sites without starting the full crawl:
 
 ```bash
-RUNNER_TOKEN='<short-lived-token>' \
-bash scripts/setup-termux-arm64-runner.sh
+PROBE_ONLY=1 bash scripts/run-termux-browser-collector.sh
 ```
 
-The script installs `proot-distro`, tmux and Ubuntu, installs the ARM64 GitHub runner and browser dependencies inside Ubuntu, and registers the phone with `cumbria-browser,android-termux` labels.
-
-Start the runner with:
+Run a full local collection and publication-gated build:
 
 ```bash
-bash scripts/start-termux-arm64-runner.sh
+bash scripts/run-termux-browser-collector.sh
 ```
 
-Or keep it in tmux:
+The phone keeps `data/tracker.duckdb` and `data/raw` inside the Ubuntu proot between runs.
+
+### Publish from Android
+
+Publishing is deliberately separate from collection. Authenticate GitHub once inside the Ubuntu proot using GitHub CLI's browser/device login:
 
 ```bash
-tmux new -s cumbria-runner 'bash scripts/start-termux-arm64-runner.sh'
+proot-distro login ubuntu
+gh auth login --hostname github.com --git-protocol https --web
+gh auth setup-git
+exit
 ```
 
-Detach with **Ctrl-b**, then **d**. Reattach with `tmux attach -t cumbria-runner`.
+Then:
 
-The launcher requests a Termux wake lock when that command is available. Android can still stop Termux under aggressive battery management, so exempt Termux from battery optimisation for reliable scheduled runs. For occasional/manual collection, just start the runner before launching the workflow.
+```bash
+PUBLISH=1 bash scripts/run-termux-browser-collector.sh
+```
 
-## Collection workflow
+`scripts/publish-android-site.sh` creates a fresh clone of `main`, copies only the already publication-gated `site/`, verifies that no raw archive or DuckDB files are present, and pushes the machine-generated `android-publish` branch. `.github/workflows/deploy-android-publish.yml` runs on GitHub-hosted infrastructure, repeats the privacy checks and deploys only `site/` to Pages.
 
-`.github/workflows/collect-moderngov-self-hosted.yml`:
-
-1. restores the same cached DuckDB/raw archive used by the hosted collector;
-2. verifies ordinary Chromium access to both ModernGov sites;
-3. collects `cumberland_moderngov_structure` and `westmorland_furness_moderngov_structure` through Playwright;
-4. runs the existing extractors/entity resolution/detectors;
-5. builds through the publication gate;
-6. verifies that the raw archive, DuckDB and review queue are absent from the public artifact;
-7. deploys the gated site to GitHub Pages;
-8. saves the enriched shared state back to the repository cache.
-
-The scheduled run is serialized with the normal hosted collector through the same `public-records-collection` concurrency group.
+The Android path therefore requires no runner registration token and no CoreCLR process on the phone.
