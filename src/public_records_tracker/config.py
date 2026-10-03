@@ -5,10 +5,25 @@ from pathlib import Path
 import yaml
 
 
+_SENSITIVE_PAYMENT_DENY_TERMS = [
+    "private home",
+    "private-home",
+    "support related",
+    "support-related",
+    "supported individual",
+    "supported individuals",
+    "personal payment",
+]
+
+
 _SOURCE_DEFAULTS = {
     "cumberland_transparency": {
         "extractors": ["payments"],
         "payment_payer_organisation_id": "cumberland_council",
+        "allow_payment_csv_by_header": True,
+        "payment_file_deny_terms": _SENSITIVE_PAYMENT_DENY_TERMS,
+        "expect_facts": True,
+        "minimum_fact_count": 1,
         "append_start_urls": [
             "https://www.cumberland.gov.uk/document-search?directorate_department_target_id=All&field_document_date_value=&field_document_date_value_1=&field_document_target_id=1589&field_media_document_description=&field_reference_value=",
             "https://www.cumberland.gov.uk/document-search?directorate_department_target_id=All&field_document_date_value=&field_document_date_value_1=&field_document_target_id=1433&field_media_document_description=&field_reference_value=&page=0",
@@ -24,16 +39,26 @@ _SOURCE_DEFAULTS = {
     },
     "housing_ombudsman_home_group": {
         "extractors": ["housing_ombudsman"],
+        "expect_facts": True,
+        "minimum_fact_count": 1,
     },
     "lgsco_cumberland": {
         "extractors": ["lgsco"],
+        "expect_facts": True,
+        "minimum_fact_count": 1,
     },
     "lgsco_westmorland_furness": {
         "extractors": ["lgsco"],
+        "expect_facts": True,
+        "minimum_fact_count": 1,
     },
     "westmorland_furness_spending": {
         "extractors": ["payments"],
         "payment_payer_organisation_id": "westmorland_furness_council",
+        "allow_payment_csv_by_header": True,
+        "payment_file_deny_terms": _SENSITIVE_PAYMENT_DENY_TERMS,
+        "expect_facts": True,
+        "minimum_fact_count": 1,
         "publication_expectation": {
             "dataset": "spending_over_250",
             "label": "Spending over £250",
