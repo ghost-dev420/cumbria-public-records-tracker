@@ -25,6 +25,8 @@ sources:
     evidence_class: OFFICIAL_RECORD
     organisation_ids: [cumberland_council, carlisle_charter_trustees]
     extractors: [modern_gov_xml]
+    expect_facts: true
+    minimum_fact_count: 1
     api_base_url: https://cumberland.moderngov.co.uk
     api_operations:
       - GetCommittees
@@ -43,6 +45,8 @@ sources:
     evidence_class: OFFICIAL_RECORD
     organisation_ids: [westmorland_furness_council]
     extractors: [modern_gov_xml]
+    expect_facts: true
+    minimum_fact_count: 1
     api_base_url: https://westmorlandandfurness.moderngov.co.uk
     api_operations:
       - GetCommittees
