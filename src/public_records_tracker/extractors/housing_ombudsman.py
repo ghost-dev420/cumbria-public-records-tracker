@@ -38,6 +38,36 @@ def _label_value(soup: BeautifulSoup, label: str) -> str | None:
     return match.group(1).strip() if match else None
 
 
+def _finding_labels(determination: str | None) -> list[str]:
+    """Extract coarse public finding categories without copying case narrative."""
+    if not determination:
+        return []
+    text = determination.casefold()
+    findings: list[str] = []
+    checks = (
+        ("severe maladministration", "Severe maladministration"),
+        ("no maladministration", "No maladministration"),
+        ("service failure", "Service failure"),
+        ("reasonable redress", "Reasonable redress"),
+    )
+    for phrase, label in checks:
+        if phrase in text and label not in findings:
+            findings.append(label)
+    if re.search(r"(?<!no )(?<!severe )\bmaladministration\b", text):
+        findings.append("Maladministration")
+    if any(
+        phrase in text
+        for phrase in (
+            "outside jurisdiction",
+            "outside the ombudsman's jurisdiction",
+            "outside the ombudsman’s jurisdiction",
+            "not within jurisdiction",
+        )
+    ):
+        findings.append("Outside jurisdiction")
+    return findings
+
+
 def extract_housing_ombudsman(
     *,
     con: duckdb.DuckDBPyConnection,
@@ -46,6 +76,7 @@ def extract_housing_ombudsman(
     snapshot_id: str,
     source: dict,
 ) -> int:
+    del source
     url_match = _DECISION_URL.search(record.url)
     if not url_match or "html" not in record.content_type.casefold():
         return 0
@@ -93,7 +124,12 @@ def extract_housing_ombudsman(
         ("HOUSING_OMBUDSMAN_CASE", "HAS_HOUSING_OMBUDSMAN_CASE", case_id, "Case ID"),
         ("HOUSING_OMBUDSMAN_DECISION_TYPE", "HAS_DECISION_TYPE", decision_type, "Decision type"),
         ("HOUSING_OMBUDSMAN_DECISION_DATE", "HAS_DECISION_DATE", decision_date, "Date"),
-        ("HOUSING_OMBUDSMAN_DETERMINATION", "HAS_DETERMINATION", determination, "Our decision (determination)"),
+        (
+            "HOUSING_OMBUDSMAN_DETERMINATION",
+            "HAS_DETERMINATION",
+            determination,
+            "Our decision (determination)",
+        ),
     ]
     count = 0
     for fact_type, predicate, value, locator in facts:
@@ -111,6 +147,26 @@ def extract_housing_ombudsman(
             value_text=value,
             locator=locator,
             metadata={"case_id": case_id, "source_system": "Housing Ombudsman"},
+        )
+        count += 1
+
+    for finding in _finding_labels(determination):
+        add_fact(
+            con,
+            document_id=document_id,
+            snapshot_id=snapshot_id,
+            fact_type="HOUSING_OMBUDSMAN_FINDING",
+            predicate="HAS_FINDING",
+            evidence_class=record.evidence_class.value,
+            subject_entity_id=landlord,
+            object_entity_id=case,
+            value_text=finding,
+            locator="Our decision (determination)",
+            metadata={
+                "case_id": case_id,
+                "source_system": "Housing Ombudsman",
+                "derived_from_public_determination": True,
+            },
         )
         count += 1
     return count
