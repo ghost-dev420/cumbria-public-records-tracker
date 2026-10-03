@@ -1,15 +1,14 @@
 from pathlib import Path
 
 
-def test_direct_android_collector_uses_python_playwright_not_actions_runner() -> None:
+def test_direct_android_collector_uses_xml_api_not_actions_runner() -> None:
     setup = Path("scripts/setup-android-browser-ubuntu.sh").read_text()
     run = Path("scripts/run-android-browser-ubuntu.sh").read_text()
     wrapper = Path("scripts/run-termux-browser-collector.sh").read_text()
 
     assert ".android-venv" in setup
-    assert "playwright install --with-deps chromium" in setup
-    assert "public_records_tracker.browser_probe" in run
-    assert "sources-moderngov-browser.yml" in run
+    assert "public_records_tracker.modern_gov_api_probe" in run
+    assert "sources-moderngov-api.yml" in run
     assert "PROBE_ONLY" in run
     assert "proot-distro login" in wrapper
     assert "Runner.Listener" not in setup + run + wrapper
