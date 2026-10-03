@@ -97,3 +97,30 @@ def test_public_site_has_no_review_queue_surface(tmp_path):
     assert "open_reviews" not in page
     assert approved in signals
     assert "Internal review signal" not in signals
+
+
+def test_public_db_does_not_retain_private_archive_paths(tmp_path):
+    source, _, _ = _working_db(tmp_path)
+    con = connect(source)
+    con.execute(
+        """INSERT INTO snapshots(
+             snapshot_id,source_id,canonical_url,retrieved_at,sha256,archive_path
+           ) VALUES ('snap','src','https://example.test/doc',now(),'abc','data/raw/blobs/abc')"""
+    )
+    con.execute(
+        """INSERT INTO observations(
+             observation_id,snapshot_id,source_id,canonical_url,retrieved_at,observation_path
+           ) VALUES ('obs','snap','src','https://example.test/doc',now(),'data/raw/observations/obs.json')"""
+    )
+    con.close()
+
+    public = tmp_path / "public-paths.duckdb"
+    prepare_public_db(source, public)
+    con = connect(public)
+    assert con.execute("SELECT archive_path FROM snapshots").fetchone()[0] == ""
+    assert con.execute("SELECT observation_path FROM observations").fetchone()[0] == ""
+    con.close()
+
+    con = connect(source)
+    assert con.execute("SELECT archive_path FROM snapshots").fetchone()[0] == "data/raw/blobs/abc"
+    con.close()
