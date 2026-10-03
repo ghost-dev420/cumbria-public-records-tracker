@@ -64,8 +64,44 @@ def _merge_unique(items: list[dict], extras: list[dict], key: str) -> list[dict]
     return items
 
 
+def _load_source_tree(path: Path, seen: set[Path] | None = None) -> list[dict]:
+    """Load a source registry, optionally inheriting another registry.
+
+    Overlay configs can declare ``include_sources_from`` and
+    ``exclude_source_ids``. This lets constrained runtimes replace a small
+    number of transport-specific sources without copying the production
+    registry and letting the two versions drift apart.
+    """
+
+    resolved = path.resolve()
+    chain = set(seen or ())
+    if resolved in chain:
+        raise ValueError(f"Recursive source configuration include: {path}")
+    chain.add(resolved)
+
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    local = list(data.get("sources") or [])
+    local_ids = [item.get("id") for item in local]
+    if len(local_ids) != len(set(local_ids)):
+        raise ValueError("Duplicate source id in configuration")
+
+    include = data.get("include_sources_from")
+    if not include:
+        return local
+
+    include_path = (path.parent / str(include)).resolve()
+    config_root = path.parent.resolve()
+    if include_path.parent != config_root:
+        raise ValueError("include_sources_from must reference a file in the same config directory")
+
+    inherited = _load_source_tree(include_path, chain)
+    excluded = {str(value) for value in (data.get("exclude_source_ids") or [])}
+    inherited = [source for source in inherited if str(source.get("id")) not in excluded]
+    return _merge_unique(inherited, local, "sources")
+
+
 def load_sources(path: Path) -> list[dict]:
-    sources = _load_list(path, "sources")
+    sources = _load_source_tree(path)
     supplemental = path.with_name("extra_sources.yml")
     if supplemental.exists():
         sources = _merge_unique(sources, _load_list(supplemental, "sources"), "sources")
