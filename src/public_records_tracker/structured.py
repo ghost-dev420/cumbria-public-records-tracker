@@ -37,12 +37,16 @@ CREATE TABLE IF NOT EXISTS fact_snapshot_windows (
 CREATE INDEX IF NOT EXISTS fact_windows_document_idx
     ON fact_snapshot_windows(document_id, valid_from);
 
+-- The latest raw document snapshot can advance even when structured extraction
+-- fails. Structured "current" state therefore follows the last snapshot whose
+-- extraction was successfully activated, not documents.latest_snapshot_id.
 CREATE OR REPLACE VIEW latest_facts AS
 SELECT f.*
 FROM facts f
-JOIN documents d
-  ON d.document_id = f.document_id
- AND d.latest_snapshot_id = f.snapshot_id;
+JOIN fact_snapshot_windows w
+  ON w.document_id=f.document_id
+ AND w.snapshot_id=f.snapshot_id
+WHERE w.valid_to IS NULL;
 
 CREATE OR REPLACE VIEW current_facts AS
 SELECT f.*, w.valid_from, w.valid_to
