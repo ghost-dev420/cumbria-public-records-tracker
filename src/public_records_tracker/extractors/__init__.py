@@ -6,10 +6,15 @@ from .lgsco import extract_lgsco
 from .modern_gov import extract_modern_gov
 from .modern_gov_xml import extract_modern_gov_xml
 from .payments import extract_payments
+from .payments_xlsx import extract_payments_xlsx
 
 
 def extract_contracts_bundle(**kwargs) -> int:
     return extract_contracts_finder(**kwargs) + extract_contract_periods(**kwargs)
+
+
+def extract_payments_bundle(**kwargs) -> int:
+    return extract_payments(**kwargs) + extract_payments_xlsx(**kwargs)
 
 
 EXTRACTORS = {
@@ -19,5 +24,5 @@ EXTRACTORS = {
     "lgsco": extract_lgsco,
     "modern_gov": extract_modern_gov,
     "modern_gov_xml": extract_modern_gov_xml,
-    "payments": extract_payments,
+    "payments": extract_payments_bundle,
 }
