@@ -24,6 +24,10 @@ git reset --hard origin/main
 # shellcheck disable=SC1091
 source "$VENV_DIR/bin/activate"
 
+# Pull in any dependency changes that landed with the code update. Pip is
+# idempotent here, so already-satisfied packages are reused from the venv.
+python -m pip install -q -e .
+
 python -m public_records_tracker.modern_gov_api_probe \
   'https://cumberland.moderngov.co.uk' \
   --operation GetCommittees \
