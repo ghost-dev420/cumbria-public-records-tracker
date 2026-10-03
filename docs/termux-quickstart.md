@@ -1,6 +1,6 @@
 # Termux ARM64 quickstart
 
-The Android path does **not** use the GitHub Actions self-hosted runner. The runner's bundled CoreCLR can fail under ARM64 Android + proot, so the phone runs Python/Playwright directly inside Ubuntu instead.
+The Android path does **not** use the GitHub Actions self-hosted runner. ModernGov's interactive HTML pages may be Cloudflare-challenged, so the phone uses the public `mgWebService.asmx` XML endpoints instead. Chromium is not required for this path.
 
 In native Termux:
 
@@ -16,19 +16,21 @@ git reset --hard origin/main
 bash scripts/setup-termux-browser-collector.sh
 ```
 
-The setup creates an Ubuntu proot, installs Python/Playwright/Chromium, and keeps the evidence database and raw archive locally inside the Ubuntu environment.
+The setup creates an Ubuntu proot, installs Python and the tracker, and keeps the evidence database and raw archive locally inside the Ubuntu environment.
 
-Test only whether the phone can reach both ModernGov sites through normal Chromium:
+Test only whether the phone can reach both ModernGov structured APIs:
 
 ```bash
 PROBE_ONLY=1 bash scripts/run-termux-browser-collector.sh
 ```
 
-Run the full ModernGov collection and build the publication-gated site locally:
+Run the full ModernGov XML collection and build the publication-gated site locally:
 
 ```bash
 bash scripts/run-termux-browser-collector.sh
 ```
+
+The structured collector deliberately ignores address, email and phone fields from councillor XML when building facts. Raw official responses remain in the private local archive and are not published.
 
 ## Optional publishing
 
