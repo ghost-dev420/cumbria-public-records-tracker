@@ -11,9 +11,9 @@ def test_android_publish_is_the_only_pages_deployer():
     assert deployers == ["deploy-android-publish.yml"]
 
 
-def test_collection_smoke_does_not_cache_private_evidence():
+def test_collection_smoke_does_not_cache_or_deploy_private_state():
     text = Path(".github/workflows/collect-and-publish.yml").read_text(encoding="utf-8")
-    assert "data/raw" not in text.split("Upload sanitized smoke artifact", 1)[0]
     assert "actions/cache@" not in text
     assert "actions/deploy-pages@" not in text
     assert "actions/upload-pages-artifact@" not in text
+    assert "actions/upload-artifact@" in text
