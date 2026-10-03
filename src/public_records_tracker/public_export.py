@@ -44,6 +44,13 @@ def prepare_public_db(source_db: Path, target_db: Path) -> dict[str, int]:
     con.execute("DELETE FROM review_queue")
     con.execute("DELETE FROM signals WHERE status <> 'approved'")
 
+    # Public output keeps cryptographic/source provenance but never needs the
+    # collector host's private filesystem layout. Blank these paths on the
+    # temporary publication copy before any JSON, HTML or evidence manifests
+    # are rendered.
+    con.execute("UPDATE snapshots SET archive_path='' ")
+    con.execute("UPDATE observations SET observation_path='' ")
+
     after_matches = con.execute("SELECT count(*) FROM entity_matches").fetchone()[0]
     after_signals = con.execute("SELECT count(*) FROM signals").fetchone()[0]
     con.close()
