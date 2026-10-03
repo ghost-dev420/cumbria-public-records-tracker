@@ -4,6 +4,7 @@ import hashlib
 from datetime import datetime, timezone
 
 import duckdb
+import httpx
 
 
 SCHEMA = """
@@ -34,10 +35,15 @@ def ensure_health_schema(con: duckdb.DuckDBPyConnection) -> None:
     con.execute(SCHEMA)
 
 
+def _utc_now_naive() -> datetime:
+    """Return a UTC timestamp suitable for the schema's timezone-naive TIMESTAMP columns."""
+    return datetime.now(timezone.utc).replace(tzinfo=None)
+
+
 def start_source_run(con: duckdb.DuckDBPyConnection, source_id: str) -> str:
     ensure_health_schema(con)
-    started = datetime.now(timezone.utc).isoformat()
-    run_id = hashlib.sha256(f"{source_id}\0{started}".encode()).hexdigest()
+    started = _utc_now_naive()
+    run_id = hashlib.sha256(f"{source_id}\0{started.isoformat()}".encode()).hexdigest()
     con.execute(
         """INSERT INTO source_runs(run_id,source_id,started_at,status)
            VALUES (?,?,?,'running')""",
@@ -61,10 +67,11 @@ def finish_source_run(
         http_status = getattr(response, "status_code", None)
     con.execute(
         """UPDATE source_runs
-           SET finished_at=now(), status=?, record_count=?, fact_count=?,
+           SET finished_at=?, status=?, record_count=?, fact_count=?,
                error_class=?, error_message=?, http_status=?
            WHERE run_id=?""",
         [
+            _utc_now_naive(),
             status,
             record_count,
             fact_count,
@@ -87,6 +94,6 @@ def classify_source_error(error: Exception) -> str:
         return "rate_limited"
     if status is not None:
         return "http_error"
-    if isinstance(error, OSError):
+    if isinstance(error, (httpx.TransportError, httpx.TimeoutException, OSError)):
         return "network_error"
     return "error"
