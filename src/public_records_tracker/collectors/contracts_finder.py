@@ -8,11 +8,16 @@ from ..http import SafeHttpClient
 from ..models import EvidenceClass, Record
 
 
+class PaginationLimitReached(RuntimeError):
+    pass
+
+
 class ContractsFinderCollector:
     def __init__(self, source: dict, client: SafeHttpClient, *, page_limit: int | None = None) -> None:
         self.source = source
         self.client = client
-        self.page_limit = page_limit or 20
+        self.page_limit = page_limit or int(source.get("page_limit", 20))
+        self.errors: list[Exception] = []
 
     @staticmethod
     def _buyer_names(release: dict) -> list[str]:
@@ -60,11 +65,24 @@ class ContractsFinderCollector:
                     body=(json.dumps(release, indent=2, ensure_ascii=False, sort_keys=True) + "\n").encode(),
                     content_type="application/json", evidence_class=evidence,
                     published_at=release.get("date") or package.get("publishedDate"),
-                    metadata={"buyers": buyers, "ocid": release.get("ocid"), "release_id": release.get("id")},
+                    metadata={
+                        "buyers": buyers,
+                        "ocid": release.get("ocid"),
+                        "release_id": release.get("id"),
+                        "source_system": "Contracts Finder OCDS",
+                    },
                 )
             links = package.get("links") or {}
             next_link = links.get("next") if isinstance(links, dict) else None
             cursor = package.get("cursor") or package.get("nextCursor")
+            has_next = bool(next_link or cursor)
+            if has_next and page_no + 1 >= self.page_limit:
+                error = PaginationLimitReached(
+                    f"Contracts Finder still had another page after configured page_limit={self.page_limit}"
+                )
+                self.errors.append(error)
+                print(f"WARN {error}")
+                break
             if next_link:
                 endpoint = urljoin(endpoint, str(next_link))
                 params = {}
