@@ -37,9 +37,14 @@ class ContractsFinderCollector:
         end = datetime.now(timezone.utc)
         start = end - timedelta(days=days_back)
         endpoint = self.source["endpoint"]
+        stages = str(self.source.get("stages", "tender,award")).strip()
         params: dict[str, object] = {
-            "publishedFrom": start.isoformat(), "publishedTo": end.isoformat(), "limit": 100
+            "publishedFrom": start.isoformat(),
+            "publishedTo": end.isoformat(),
+            "limit": 100,
         }
+        if stages:
+            params["stages"] = stages
         terms = [str(x).casefold() for x in self.source.get("buyer_terms", [])]
 
         for page_no in range(self.page_limit):
@@ -51,7 +56,7 @@ class ContractsFinderCollector:
                 body=response.content, content_type="application/json", evidence_class=evidence,
                 status_code=response.status_code, etag=response.headers.get("etag"),
                 last_modified=response.headers.get("last-modified"),
-                metadata={"listing": True, "page": page_no + 1},
+                metadata={"listing": True, "page": page_no + 1, "stages": stages},
             )
             for release in package.get("releases") or []:
                 buyers = self._buyer_names(release)
