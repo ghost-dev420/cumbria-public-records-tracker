@@ -333,7 +333,10 @@ def propose_entity_matches(con: duckdb.DuckDBPyConnection) -> dict[str, int]:
         unique = sorted(set(entity_ids))
         token_count = len(normalized.split())
         confidence = 0.97 if token_count >= 2 or len(normalized) >= 10 else 0.93
-        status = "auto_accepted" if confidence >= 0.97 else "review"
+        # A normalized name alone is not a unique identifier. Distinct companies,
+        # suppliers and public bodies can legitimately share a name, especially
+        # after legal suffixes are removed. Keep name-only links in human review;
+        # exact identifiers remain the only automatic merge path.
         for index, left in enumerate(unique):
             for right in unique[index + 1 :]:
                 match_id = _upsert_match(
@@ -342,21 +345,20 @@ def propose_entity_matches(con: duckdb.DuckDBPyConnection) -> dict[str, int]:
                     right=right,
                     confidence=confidence,
                     method="normalized_name_exact",
-                    status=status,
-                    evidence={"normalized_name": normalized},
+                    status="review",
+                    evidence={"normalized_name": normalized, "name_only": True},
                 )
                 stats["name_exact"] += 1
-                if status == "review":
-                    put_review(
-                        con,
-                        item_type="ENTITY_MATCH",
-                        score=confidence,
-                        summary=f"Possible entity match on normalized name: {normalized}",
-                        subject=left,
-                        object_=right,
-                        evidence=[match_id],
-                        metadata={"method": "normalized_name_exact"},
-                    )
+                put_review(
+                    con,
+                    item_type="ENTITY_MATCH",
+                    score=confidence,
+                    summary=f"Possible entity match on normalized name: {normalized}",
+                    subject=left,
+                    object_=right,
+                    evidence=[match_id],
+                    metadata={"method": "normalized_name_exact", "name_only": True},
+                )
 
     aliases = con.execute(
         """SELECT entity_id, normalized_alias
