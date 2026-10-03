@@ -32,9 +32,8 @@ class FakeClient:
         )
 
 
-def test_calendar_collection_expands_meetings_and_preserves_request_params() -> None:
-    client = FakeClient()
-    source = {
+def _source(page_limit: int = 10) -> dict:
+    return {
         "id": "modern-api",
         "kind": "modern_gov_xml",
         "evidence_class": "OFFICIAL_RECORD",
@@ -43,9 +42,13 @@ def test_calendar_collection_expands_meetings_and_preserves_request_params() -> 
         "meeting_days_back": 30,
         "meeting_days_forward": 30,
         "expand_meetings": True,
-        "page_limit": 10,
+        "page_limit": page_limit,
     }
-    records = list(ModernGovXmlCollector(source, client).collect())
+
+
+def test_calendar_collection_expands_meetings_and_preserves_request_params() -> None:
+    client = FakeClient()
+    records = list(ModernGovXmlCollector(_source(), client).collect())
 
     assert len(records) == 3
     assert client.calls[0][0].endswith("/GetCalendarEvents")
@@ -58,3 +61,14 @@ def test_calendar_collection_expands_meetings_and_preserves_request_params() -> 
     assert [call[1]["lMeetingId"] for call in client.calls[1:]] == ["101", "102"]
     assert records[1].metadata["operation"] == "GetMeeting"
     assert records[1].metadata["request_params"] == {"lMeetingId": "101"}
+
+
+def test_meeting_expansion_page_limit_is_reported_as_partial() -> None:
+    client = FakeClient()
+    collector = ModernGovXmlCollector(_source(page_limit=2), client)
+    records = list(collector.collect())
+
+    assert len(records) == 2
+    assert len(collector.errors) == 1
+    assert "page_limit=2" in str(collector.errors[0])
+    assert "1/2" in str(collector.errors[0])
