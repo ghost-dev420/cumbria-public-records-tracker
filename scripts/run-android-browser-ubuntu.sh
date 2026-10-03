@@ -22,22 +22,24 @@ git reset --hard origin/main
 # shellcheck disable=SC1091
 source "$VENV_DIR/bin/activate"
 
-python -m public_records_tracker.browser_probe \
-  'https://cumberland.moderngov.co.uk/mgMemberIndex.aspx?bcr=1' \
-  --expect Councillor
+python -m public_records_tracker.modern_gov_api_probe \
+  'https://cumberland.moderngov.co.uk' \
+  --operation GetCommittees \
+  --expect-tag committees
 
-python -m public_records_tracker.browser_probe \
-  'https://westmorlandandfurness.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD' \
-  --expect Councillor
+python -m public_records_tracker.modern_gov_api_probe \
+  'https://westmorlandandfurness.moderngov.co.uk' \
+  --operation GetCommittees \
+  --expect-tag committees
 
 if [[ "$PROBE_ONLY" == "1" ]]; then
-  echo "Both ModernGov browser probes passed."
+  echo "Both ModernGov XML API probes passed."
   exit 0
 fi
 
 prt init-db
 prt collect \
-  --config config/sources-moderngov-browser.yml \
+  --config config/sources-moderngov-api.yml \
   --source all \
   --strict
 
