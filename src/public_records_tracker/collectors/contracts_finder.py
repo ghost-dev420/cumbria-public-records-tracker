@@ -18,6 +18,14 @@ class PaginationLimitReached(RuntimeError):
 
 
 _RELEASE_COLUMN = re.compile(r"^releases/(\d+)/(.*)$", re.IGNORECASE)
+_OFFICIAL_HOST = "contractsfinder.service.gov.uk"
+_OFFICIAL_DAILY = (
+    "https://www.contractsfinder.service.gov.uk/Harvester/Notices/Data/CSV/"
+    "{year}/{month}/{day}"
+)
+_OFFICIAL_RELEASE = (
+    "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/{id}.json"
+)
 
 
 def _decode_csv(body: bytes) -> str:
@@ -126,16 +134,13 @@ class ContractsFinderCollector:
     def _collect_daily_csv(
         self,
         *,
+        daily_template: str,
         evidence: EvidenceClass,
         start: datetime,
         end: datetime,
         terms: list[str],
     ):
-        daily_template = str(self.source["daily_csv_endpoint"])
-        release_template = str(
-            self.source.get("release_endpoint")
-            or "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/{id}.json"
-        )
+        release_template = str(self.source.get("release_endpoint") or _OFFICIAL_RELEASE)
         seen_release_ids: set[str] = set()
         current = start.date()
         final = end.date()
@@ -186,19 +191,27 @@ class ContractsFinderCollector:
 
     def collect(self):
         evidence = EvidenceClass(self.source["evidence_class"])
-        days_back = int(self.source.get("days_back", 14))
         end = datetime.now(timezone.utc)
-        start = end - timedelta(days=days_back)
+        endpoint = str(self.source["endpoint"])
         terms = [str(x).casefold() for x in self.source.get("buyer_terms", [])]
 
-        # Contracts Finder's public OCDS Search endpoint can filter by date and
-        # procurement stage, but not buyer. Scanning that national cursor feed
-        # and then filtering locally can exhaust hundreds of pages before one
-        # local authority appears. When configured, use the official daily OCDS
-        # CSV output as a bounded discovery index and fetch only matching release
-        # JSON documents for evidence/extraction.
-        if self.source.get("daily_csv_endpoint"):
+        # The public OCDS Search endpoint has no buyer parameter. On the real
+        # Contracts Finder host, use the official daily CSV feed as the discovery
+        # index even if an older source config only declares the search endpoint.
+        # Keep the old cursor path for tests/mirrors and explicit opt-out.
+        daily_template = self.source.get("daily_csv_endpoint")
+        if (
+            not daily_template
+            and _OFFICIAL_HOST in endpoint.casefold()
+            and not self.source.get("use_national_search", False)
+        ):
+            daily_template = _OFFICIAL_DAILY
+
+        if daily_template:
+            daily_days_back = int(self.source.get("daily_days_back", 365))
+            start = end - timedelta(days=daily_days_back)
             yield from self._collect_daily_csv(
+                daily_template=str(daily_template),
                 evidence=evidence,
                 start=start,
                 end=end,
@@ -206,7 +219,8 @@ class ContractsFinderCollector:
             )
             return
 
-        endpoint = self.source["endpoint"]
+        days_back = int(self.source.get("days_back", 14))
+        start = end - timedelta(days=days_back)
         stages = str(self.source.get("stages", "tender,award")).strip()
         params: dict[str, object] = {
             "publishedFrom": start.isoformat(),
