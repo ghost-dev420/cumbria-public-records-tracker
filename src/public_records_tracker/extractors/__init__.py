@@ -4,6 +4,7 @@ from .grants import extract_grant_awards
 from .housing_ombudsman import extract_housing_ombudsman
 from .lgsco import extract_lgsco
 from .modern_gov import extract_modern_gov
+from .modern_gov_xml import extract_modern_gov_xml
 from .payments import extract_payments
 
 
@@ -17,5 +18,6 @@ EXTRACTORS = {
     "housing_ombudsman": extract_housing_ombudsman,
     "lgsco": extract_lgsco,
     "modern_gov": extract_modern_gov,
+    "modern_gov_xml": extract_modern_gov_xml,
     "payments": extract_payments,
 }
