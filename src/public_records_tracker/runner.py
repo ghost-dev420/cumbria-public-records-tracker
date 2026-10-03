@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from .analysis import ensure_analysis_schema, run_detectors
+from .analysis_lifecycle import begin_analysis_cycle, finish_analysis_cycle
 from .archive import archive_record
 from .collectors import COLLECTORS
 from .config import load_organisations, load_sources
@@ -225,10 +226,12 @@ def run_collection(
                             fact_count=source_facts,
                         )
 
+    analysis_started = begin_analysis_cycle(con)
     resolution_stats = run_resolution(con)
     detector_stats = run_detectors(con)
     detector_stats.update(run_reconciliation_detectors(con))
     detector_stats.update(run_procurement_gap_detectors(con))
+    finish_analysis_cycle(con, analysis_started)
     stats["matches"] = sum(
         resolution_stats.get(key, 0)
         for key in ("identifier", "name_exact", "fuzzy_review")
