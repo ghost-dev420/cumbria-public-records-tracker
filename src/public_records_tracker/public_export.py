@@ -132,14 +132,27 @@ def _remove_internal_review_surface(out_dir: Path) -> None:
 
 
 def build_public_site(db_path: Path, out_dir: Path) -> dict[str, int]:
-    """Render only publication-approved analysis from a working tracker database."""
+    """Render a clean site containing only the current publication-approved state."""
+    out_dir = out_dir.resolve()
     with tempfile.TemporaryDirectory(prefix="prt-public-") as temp_dir:
-        public_db = Path(temp_dir) / "public.duckdb"
+        temp_root = Path(temp_dir)
+        public_db = temp_root / "public.duckdb"
+        staged_site = temp_root / "site"
         stats = prepare_public_db(db_path, public_db)
-        render_site(public_db, out_dir)
-        build_publication_status(public_db, out_dir)
-        build_structured_changes(public_db, out_dir)
-        build_entity_pages(public_db, out_dir)
-        stats["evidence_packages"] = build_evidence_packages(public_db, out_dir)
-    _remove_internal_review_surface(out_dir)
+        render_site(public_db, staged_site)
+        build_publication_status(public_db, staged_site)
+        build_structured_changes(public_db, staged_site)
+        build_entity_pages(public_db, staged_site)
+        stats["evidence_packages"] = build_evidence_packages(public_db, staged_site)
+        _remove_internal_review_surface(staged_site)
+
+        # Replace the whole output tree rather than overlaying it. Otherwise an
+        # entity page, API file or evidence ZIP that stopped being generated can
+        # survive from a previous build and be republished as stale content.
+        if out_dir.exists():
+            if out_dir.is_symlink() or not out_dir.is_dir():
+                raise ValueError(f"Refusing to replace non-directory site output: {out_dir}")
+            shutil.rmtree(out_dir)
+        out_dir.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copytree(staged_site, out_dir)
     return stats
