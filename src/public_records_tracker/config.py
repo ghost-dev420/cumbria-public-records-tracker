@@ -17,6 +17,12 @@ _SENSITIVE_PAYMENT_DENY_TERMS = [
 
 
 _SOURCE_DEFAULTS = {
+    "contracts_finder": {
+        "page_limit": 100,
+    },
+    "find_a_tender": {
+        "page_limit": 100,
+    },
     "cumberland_transparency": {
         "extractors": ["payments"],
         "payment_payer_organisation_id": "cumberland_council",
@@ -49,6 +55,10 @@ _SOURCE_DEFAULTS = {
     },
     "lgsco_westmorland_furness": {
         "extractors": ["lgsco"],
+        "expect_facts": True,
+        "minimum_fact_count": 1,
+    },
+    "westmorland_furness_south_lakeland_grants": {
         "expect_facts": True,
         "minimum_fact_count": 1,
     },
