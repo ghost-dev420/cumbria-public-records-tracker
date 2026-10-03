@@ -1,0 +1,28 @@
+sources:
+  - id: cumberland_moderngov_api
+    name: Cumberland Council ModernGov structured XML API
+    kind: modern_gov_xml
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [cumberland_council, carlisle_charter_trustees]
+    extractors: [modern_gov_xml]
+    api_base_url: https://cumberland.moderngov.co.uk
+    api_operations:
+      - GetCommittees
+      - GetCouncillorsByWard
+      - GetParishCouncils
+    page_limit: 10
+
+  - id: westmorland_furness_moderngov_api
+    name: Westmorland and Furness Council ModernGov structured XML API
+    kind: modern_gov_xml
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [westmorland_furness_council]
+    extractors: [modern_gov_xml]
+    api_base_url: https://westmorlandandfurness.moderngov.co.uk
+    api_operations:
+      - GetCommittees
+      - GetCouncillorsByWard
+      - GetParishCouncils
+    page_limit: 10
