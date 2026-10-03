@@ -65,8 +65,8 @@ def publication_status_rows(con) -> list[dict]:
         else:
             run_status, http_status, started_at, finished_at, error_message = health
             last_checked = finished_at or started_at
-            if run_status == "blocked":
-                status = "blocked"
+            if run_status in {"blocked", "partial_blocked"}:
+                status = "blocked" if run_status == "blocked" else "partial"
             elif run_status == "missing":
                 status = "missing"
             elif run_status in {
@@ -77,6 +77,8 @@ def publication_status_rows(con) -> list[dict]:
                 "configuration_error",
             }:
                 status = "error"
+            elif run_status in {"partial", "partial_extraction"}:
+                status = "partial"
             elif last_snapshot is None:
                 status = "missing"
             elif age_days is not None and age_days > (
@@ -157,7 +159,7 @@ code{{background:#eef1f4;padding:.1rem .25rem;border-radius:4px}}
 <body>
 <p><a href='index.html'>← Main tracker</a></p>
 <h1>Source health & publication status</h1>
-<p class='note'>This page reports whether configured public datasets were observed by the collector and how recently they were retrieved. A stale, missing, blocked or error state is a collection/publication-status signal only; it is not a finding of legal non-compliance or wrongdoing.</p>
+<p class='note'>This page reports whether configured public datasets were observed by the collector and how recently they were retrieved. A stale, missing, blocked, partial or error state is a collection/publication-status signal only; it is not a finding of legal non-compliance or wrongdoing.</p>
 <table>
 <thead><tr><th>Dataset</th><th>Source</th><th>Status</th><th>Last snapshot</th><th>Last checked</th><th>HTTP</th><th>Expectation basis</th></tr></thead>
 <tbody>{body_rows}</tbody>
