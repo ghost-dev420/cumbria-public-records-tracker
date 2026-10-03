@@ -33,16 +33,13 @@ python3 -m venv "$VENV_DIR"
 # shellcheck disable=SC1091
 source "$VENV_DIR/bin/activate"
 python -m pip install --upgrade pip
-pip install -e '.[browser]'
-
-# Install Chromium plus its Linux runtime dependencies inside the proot.
-python -m playwright install --with-deps chromium
+pip install -e .
 
 prt init-db
 
 cat <<'EOF'
 
-Android browser collector is installed.
+Android ModernGov XML collector is installed.
 
 Quick access test (no full crawl):
   PROBE_ONLY=1 bash scripts/run-android-browser-ubuntu.sh
