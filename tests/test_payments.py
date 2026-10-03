@@ -99,3 +99,81 @@ def test_private_home_and_support_files_are_not_structured(tmp_path):
     assert con.execute("SELECT count(*) FROM facts").fetchone()[0] == 0
     assert con.execute("SELECT count(*) FROM entities WHERE entity_type='SUPPLIER'").fetchone()[0] == 0
     con.close()
+
+
+def test_header_detection_handles_generic_cdn_download(tmp_path):
+    con = _db(tmp_path)
+    source = {**SOURCE, "allow_payment_csv_by_header": True}
+    record = Record(
+        source_id=SOURCE["id"],
+        url="https://cdn.example.test/object/7fd193",
+        title="April 2026 spending over £250",
+        body=(
+            "Transaction Date,Supplier/Payee Name,Net Value,Service Area\n"
+            "02/04/2026,Example Civils Ltd,2500.00,Highways\n"
+        ).encode(),
+        content_type="application/octet-stream",
+        evidence_class=EvidenceClass.OFFICIAL_RECORD,
+        metadata={"anchor_text": "April 2026 spending over £250"},
+    )
+
+    added = extract_payments(
+        con=con,
+        record=record,
+        document_id="doc-cdn",
+        snapshot_id="snap-cdn",
+        source=source,
+    )
+    assert added == 1
+    assert con.execute(
+        "SELECT count(*) FROM facts WHERE predicate='PAYMENT_TO_SUPPLIER'"
+    ).fetchone()[0] == 1
+    con.close()
+
+
+def test_header_detection_does_not_override_sensitive_series_exclusion(tmp_path):
+    con = _db(tmp_path)
+    source = {**SOURCE, "allow_payment_csv_by_header": True}
+    record = Record(
+        source_id=SOURCE["id"],
+        url="https://cdn.example.test/object/private-home",
+        title="Private home payments April 2026",
+        body=(
+            "Payment Date,Supplier Name,Amount\n"
+            "02/04/2026,Named Individual,500.00\n"
+        ).encode(),
+        content_type="application/octet-stream",
+        evidence_class=EvidenceClass.OFFICIAL_RECORD,
+        metadata={"anchor_text": "Private home payments April 2026"},
+    )
+    assert extract_payments(
+        con=con,
+        record=record,
+        document_id="doc-private",
+        snapshot_id="snap-private",
+        source=source,
+    ) == 0
+    assert con.execute("SELECT count(*) FROM facts").fetchone()[0] == 0
+    con.close()
+
+
+def test_header_detection_rejects_unrelated_csv(tmp_path):
+    con = _db(tmp_path)
+    source = {**SOURCE, "allow_payment_csv_by_header": True}
+    record = Record(
+        source_id=SOURCE["id"],
+        url="https://cdn.example.test/object/budget",
+        title="Budget summary",
+        body=b"Department,Budget,Forecast\nHighways,1000,1200\n",
+        content_type="application/octet-stream",
+        evidence_class=EvidenceClass.OFFICIAL_RECORD,
+        metadata={"anchor_text": "Budget summary"},
+    )
+    assert extract_payments(
+        con=con,
+        record=record,
+        document_id="doc-budget",
+        snapshot_id="snap-budget",
+        source=source,
+    ) == 0
+    con.close()
