@@ -15,6 +15,21 @@ _SENSITIVE_PAYMENT_DENY_TERMS = [
     "personal payment",
 ]
 
+_WESTMORLAND_LEGACY_PAYER_RULES = [
+    {
+        "organisation_id": "barrow_borough_council",
+        "terms": ["barrow borough", "barrow bc", "barrow b.c."],
+    },
+    {
+        "organisation_id": "eden_district_council",
+        "terms": ["eden district", "eden dc", "edc transparency"],
+    },
+    {
+        "organisation_id": "south_lakeland_district_council",
+        "terms": ["south lakeland", "sldc"],
+    },
+]
+
 
 _SOURCE_DEFAULTS = {
     "contracts_finder": {
@@ -65,6 +80,7 @@ _SOURCE_DEFAULTS = {
     "westmorland_furness_spending": {
         "extractors": ["payments"],
         "payment_payer_organisation_id": "westmorland_furness_council",
+        "payment_payer_rules": _WESTMORLAND_LEGACY_PAYER_RULES,
         "allow_payment_csv_by_header": True,
         "payment_file_deny_terms": _SENSITIVE_PAYMENT_DENY_TERMS,
         "expect_facts": True,
