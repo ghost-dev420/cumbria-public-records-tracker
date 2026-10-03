@@ -50,3 +50,45 @@ def test_exact_identifier_auto_resolves(tmp_path: Path):
     ).fetchone()[0]
     assert resolved == 1
     con.close()
+
+
+def test_resolution_refresh_is_idempotent_after_reopen(tmp_path: Path):
+    db_path = tmp_path / "tracker.duckdb"
+    con = connect(db_path)
+    ensure_structured_schema(con)
+    ensure_resolution_schema(con)
+    entity_id = upsert_entity(
+        con,
+        entity_type="COUNCIL",
+        name="Westmorland and Furness Council",
+        namespace="modern_gov",
+        metadata={
+            "source_system": "ModernGov XML",
+            "identifiers": [
+                {"scheme": "council-id", "id": "westmorland-and-furness"}
+            ],
+        },
+    )
+    run_resolution(con)
+    con.execute("CHECKPOINT")
+    con.close()
+
+    con = connect(db_path)
+    ensure_structured_schema(con)
+    ensure_resolution_schema(con)
+    for _ in range(5):
+        run_resolution(con)
+
+    aliases = con.execute(
+        """SELECT alias_text,normalized_alias
+           FROM entity_aliases WHERE entity_id=?""",
+        [entity_id],
+    ).fetchall()
+    assert aliases == [
+        ("Westmorland and Furness Council", "westmorland and furness council")
+    ]
+    assert con.execute(
+        "SELECT count(*) FROM entity_identifiers WHERE entity_id=?", [entity_id]
+    ).fetchone()[0] == 1
+    con.execute("CHECKPOINT")
+    con.close()
