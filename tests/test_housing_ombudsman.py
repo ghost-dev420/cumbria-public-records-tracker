@@ -33,11 +33,13 @@ def test_extracts_current_housing_ombudsman_decision(tmp_path: Path):
         snapshot_id="snap",
         source={"id": "housing_ombudsman_home_group"},
     )
-    assert count == 4
+    assert count == 6
     rows = con.execute("SELECT fact_type,value_text FROM facts ORDER BY fact_type").fetchall()
     assert ("HOUSING_OMBUDSMAN_CASE", "202427524") in rows
     assert ("HOUSING_OMBUDSMAN_DECISION_TYPE", "Investigation") in rows
     assert ("HOUSING_OMBUDSMAN_DECISION_DATE", "24 April 2026") in rows
+    assert ("HOUSING_OMBUDSMAN_FINDING", "Reasonable redress") in rows
+    assert ("HOUSING_OMBUDSMAN_FINDING", "No maladministration") in rows
     assert any(
         row[0] == "HOUSING_OMBUDSMAN_DETERMINATION"
         and "no maladministration" in row[1].casefold()
