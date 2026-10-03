@@ -8,6 +8,7 @@ from ..models import Record
 from ..structured import upsert_entity
 from .modern_gov import (
     _committee_entity,
+    _host_namespace,
     _meeting_entity,
     _person_entity,
     _record_fact,
@@ -112,11 +113,18 @@ def _extract_councillors(
     root: ElementTree.Element,
 ) -> int:
     count = 0
+    namespace = _host_namespace(record.url)
     for ward_node in _nodes(root, "ward"):
         ward_title = _child_text(ward_node, "wardtitle", "wardname")
         if not ward_title:
             continue
-        ward = upsert_entity(con, entity_type="WARD", name=ward_title)
+        ward = upsert_entity(
+            con,
+            entity_type="WARD",
+            name=ward_title,
+            namespace=namespace,
+            metadata={"source_system": "ModernGov"},
+        )
         for councillor_node in _nodes(ward_node, "councillor"):
             councillor_id = _child_text(councillor_node, "councillorid", "userid", "id")
             name = _child_text(councillor_node, "fullusername", "fullname", "name")
@@ -210,6 +218,7 @@ def _extract_parishes(
     root: ElementTree.Element,
 ) -> int:
     count = 0
+    namespace = _host_namespace(record.url)
     candidates = list(_nodes(root, "parishcouncil", "parish"))
     for node in candidates:
         parish_id = _child_text(node, "parishcouncilid", "parishid", "id")
@@ -226,6 +235,7 @@ def _extract_parishes(
             con,
             entity_type="PARISH_COUNCIL",
             name=title,
+            namespace=namespace,
             metadata={
                 "source_system": "ModernGov",
                 "modern_gov_parish_id": parish_id,
