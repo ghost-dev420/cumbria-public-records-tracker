@@ -94,6 +94,10 @@ def classify_source_error(error: Exception) -> str:
         return "rate_limited"
     if status is not None:
         return "http_error"
+    # PermissionError is used by SafeHttpClient when robots.txt disallows a URL.
+    # It is an intentional collection boundary, not a network failure.
+    if isinstance(error, PermissionError):
+        return "blocked"
     if isinstance(error, (httpx.TransportError, httpx.TimeoutException, OSError)):
         return "network_error"
     return "error"
