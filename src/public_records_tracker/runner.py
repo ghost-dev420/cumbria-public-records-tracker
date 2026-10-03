@@ -47,6 +47,67 @@ def _extraction_coverage_error(
     )
 
 
+def _extract_record(
+    con,
+    *,
+    source: dict,
+    record,
+    document_id: str,
+    snapshot_id: str,
+    observed_at: str,
+) -> tuple[int, int]:
+    """Rebuild and activate one snapshot atomically.
+
+    Raw archival/ingest happens before this transaction. Structured facts for a
+    snapshot are rebuilt from scratch so parser changes cannot leave obsolete
+    facts behind. If any extractor fails, rollback preserves the previously
+    active structured snapshot and any prior successful extraction of this same
+    snapshot.
+    """
+    extractor_names = list(source.get("extractors", []))
+    if (
+        source.get("kind") == "contracts_finder"
+        and "contracts_finder" not in extractor_names
+    ):
+        extractor_names.append("contracts_finder")
+
+    con.execute("BEGIN TRANSACTION")
+    try:
+        con.execute(
+            "DELETE FROM facts WHERE document_id=? AND snapshot_id=?",
+            [document_id, snapshot_id],
+        )
+        fact_count = 0
+        for extractor_name in extractor_names:
+            extractor = EXTRACTORS.get(extractor_name)
+            if extractor is None:
+                raise ValueError(f"unsupported extractor: {extractor_name}")
+            fact_count += extractor(
+                con=con,
+                record=record,
+                document_id=document_id,
+                snapshot_id=snapshot_id,
+                source=source,
+            )
+
+        activate_snapshot(
+            con,
+            document_id=document_id,
+            snapshot_id=snapshot_id,
+            observed_at=observed_at,
+        )
+        structured_changes = record_structured_diff(
+            con,
+            document_id=document_id,
+            new_snapshot_id=snapshot_id,
+        )
+        con.execute("COMMIT")
+        return fact_count, structured_changes
+    except Exception:
+        con.execute("ROLLBACK")
+        raise
+
+
 def run_collection(
     *,
     config_path: Path,
@@ -116,53 +177,25 @@ def run_collection(
                 for record in collector.collect():
                     snap = archive_record(record, archive_root)
                     document_id = ingest(con, record, snap)
-                    activate_snapshot(
-                        con,
-                        document_id=document_id,
-                        snapshot_id=snap.snapshot_id,
-                        observed_at=snap.retrieved_at,
-                    )
                     stats["records"] += 1
                     source_records += 1
-                    extractor_names = list(source.get("extractors", []))
-                    if (
-                        source.get("kind") == "contracts_finder"
-                        and "contracts_finder" not in extractor_names
-                    ):
-                        extractor_names.append("contracts_finder")
-                    record_extraction_failed = False
-                    for extractor_name in extractor_names:
-                        extractor = EXTRACTORS.get(extractor_name)
-                        if extractor is None:
-                            print(f"WARN unsupported extractor: {extractor_name}")
-                            stats["extraction_errors"] += 1
-                            source_extraction_errors += 1
-                            record_extraction_failed = True
-                            continue
-                        try:
-                            added = extractor(
-                                con=con,
-                                record=record,
-                                document_id=document_id,
-                                snapshot_id=snap.snapshot_id,
-                                source=source,
-                            )
-                            stats["facts"] += added
-                            source_facts += added
-                        except Exception as exc:
-                            print(
-                                f"ERROR extractor {extractor_name} "
-                                f"for {record.url}: {exc}"
-                            )
-                            stats["extraction_errors"] += 1
-                            source_extraction_errors += 1
-                            record_extraction_failed = True
-                    if not record_extraction_failed:
-                        stats["structured_changes"] += record_structured_diff(
+                    try:
+                        record_facts, record_changes = _extract_record(
                             con,
+                            source=source,
+                            record=record,
                             document_id=document_id,
-                            new_snapshot_id=snap.snapshot_id,
+                            snapshot_id=snap.snapshot_id,
+                            observed_at=snap.retrieved_at,
                         )
+                    except Exception as exc:
+                        print(f"ERROR extraction for {record.url}: {exc}")
+                        stats["extraction_errors"] += 1
+                        source_extraction_errors += 1
+                        continue
+                    stats["facts"] += record_facts
+                    source_facts += record_facts
+                    stats["structured_changes"] += record_changes
             except Exception as exc:
                 source_error = exc
                 status = classify_source_error(exc)
