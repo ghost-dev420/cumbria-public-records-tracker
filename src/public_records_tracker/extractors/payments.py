@@ -194,11 +194,27 @@ def _is_csv_candidate(record: Record, *, has_headers: bool, source: dict) -> boo
     return explicit_csv or bool(source.get("allow_payment_csv_by_header", False) and has_headers)
 
 
-def _payer_entity(con: duckdb.DuckDBPyConnection, source: dict) -> str | None:
+def _payer_organisation_id(source: dict, record: Record) -> str | None:
+    text = _record_text(record)
+    for rule in source.get("payment_payer_rules") or []:
+        if not isinstance(rule, dict):
+            continue
+        organisation_id = str(rule.get("organisation_id") or "").strip()
+        terms = [str(term).casefold() for term in rule.get("terms") or []]
+        if organisation_id and any(term and term in text for term in terms):
+            return organisation_id
+
     organisation_id = source.get("payment_payer_organisation_id")
-    if not organisation_id:
-        organisation_ids = list(source.get("organisation_ids") or [])
-        organisation_id = organisation_ids[0] if organisation_ids else None
+    if organisation_id:
+        return str(organisation_id)
+    organisation_ids = list(source.get("organisation_ids") or [])
+    return str(organisation_ids[0]) if organisation_ids else None
+
+
+def _payer_entity(
+    con: duckdb.DuckDBPyConnection, source: dict, record: Record
+) -> str | None:
+    organisation_id = _payer_organisation_id(source, record)
     if not organisation_id:
         return None
     row = con.execute(
@@ -229,7 +245,7 @@ def extract_payments(
     if not _is_supplier_file(record, source, has_headers=has_headers):
         return 0
 
-    payer = _payer_entity(con, source)
+    payer = _payer_entity(con, source, record)
     count = 0
     for row_number, row in _dict_rows(record.body):
         supplier_name = _field(row, "supplier")
