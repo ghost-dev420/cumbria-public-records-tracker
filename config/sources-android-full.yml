@@ -1,0 +1,124 @@
+# Full production registry for the Android/Termux collector.
+#
+# Inherit the normal production sources, replace only the ModernGov HTML
+# surfaces that Cloudflare blocks from automated clients, and keep the rest of
+# the tracker on the same source definitions used elsewhere.
+include_sources_from: sources.yml
+exclude_source_ids:
+  - cumberland_meetings
+  - cumberland_moderngov_structure
+  - cumberland_parish_directory
+  - westmorland_furness_meetings
+  - westmorland_furness_moderngov_structure
+  - westmorland_furness_parish_directory
+  - carlisle_current_and_legacy
+  - cumberland_legacy_authorities
+  - westmorland_legacy_authorities
+  - wigton_town_records
+  - whitehaven_town_records
+
+sources:
+  - id: cumberland_moderngov_api
+    name: Cumberland Council ModernGov structured XML API
+    kind: modern_gov_xml
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [cumberland_council, carlisle_charter_trustees]
+    extractors: [modern_gov_xml]
+    api_base_url: https://cumberland.moderngov.co.uk
+    api_operations:
+      - GetCommittees
+      - GetCouncillorsByWard
+      - GetParishCouncils
+      - GetCalendarEvents
+    meeting_days_back: 730
+    meeting_days_forward: 365
+    expand_meetings: true
+    page_limit: 350
+
+  - id: westmorland_furness_moderngov_api
+    name: Westmorland and Furness Council ModernGov structured XML API
+    kind: modern_gov_xml
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [westmorland_furness_council]
+    extractors: [modern_gov_xml]
+    api_base_url: https://westmorlandandfurness.moderngov.co.uk
+    api_operations:
+      - GetCommittees
+      - GetCouncillorsByWard
+      - GetParishCouncils
+      - GetCalendarEvents
+    meeting_days_back: 730
+    meeting_days_forward: 365
+    expand_meetings: true
+    page_limit: 350
+
+  - id: cumberland_legacy_authorities
+    name: Allerdale Carlisle Copeland and Cumbria County legacy records
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids:
+      - allerdale_borough_council
+      - carlisle_city_council
+      - copeland_borough_council
+      - cumbria_county_council
+      - cumberland_council
+    extractors: [modern_gov]
+    start_urls:
+      - https://www.cumberland.gov.uk/your-council/freedom-information-and-environmental-information/find-previous-freedom-information-requests
+    include_link_regex: '(celistdocuments\.aspx|ieListDocuments\.aspx|\.(?:pdf|docx?|xlsx?|xls|csv)(?:\?.*)?$)'
+    page_limit: 2
+    max_records: 200
+
+  - id: westmorland_legacy_authorities
+    name: Barrow Eden and South Lakeland legacy authority records
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids:
+      - barrow_borough_council
+      - eden_district_council
+      - south_lakeland_district_council
+      - westmorland_furness_council
+    extractors: [modern_gov]
+    start_urls:
+      - https://www.barrowbc.gov.uk/council/financial-services/transparency
+      - https://www.eden.gov.uk/council-business/requesting-information/open-data/
+    include_link_regex: '(celistdocuments\.aspx|ieListDocuments\.aspx|\.(?:pdf|docx?|xlsx?|xls|csv)(?:\?.*)?$)'
+    page_limit: 3
+    max_records: 220
+    allow_cross_domain: true
+
+  - id: wigton_town_records
+    name: Wigton Town Council meetings finance budgets and audits
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [wigton_town_council]
+    start_urls:
+      - https://www.wigton-tc.gov.uk/agendas/
+      - https://www.wigton-tc.gov.uk/meeting-dates/
+      - https://www.wigton-tc.gov.uk/finance/
+      - https://www.wigton-tc.gov.uk/budgets/
+      - https://www.wigton-tc.gov.uk/audits/
+      - https://www.wigton-tc.gov.uk/wigton-cemetery/
+    include_link_regex: '\.(?:pdf|docx?|xlsx?|csv)(?:\?.*)?$'
+    page_limit: 6
+    max_records: 240
+    allow_cross_domain: true
+
+  - id: whitehaven_town_records
+    name: Whitehaven Town Council meetings and councillor records
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [whitehaven_town_council]
+    start_urls:
+      - https://www.whitehaventowncouncil.co.uk/notice-of-meetings
+      - https://www.whitehaventowncouncil.co.uk/about-the-councillors
+    include_link_regex: '\.(?:pdf|docx?|xlsx?|csv)(?:\?.*)?$'
+    page_limit: 3
+    max_records: 220
+    allow_cross_domain: true

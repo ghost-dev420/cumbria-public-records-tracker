@@ -1,16 +1,19 @@
 from pathlib import Path
 
 
-def test_direct_android_collector_uses_xml_api_not_actions_runner() -> None:
+def test_direct_android_collector_uses_full_xml_api_registry_not_actions_runner() -> None:
     setup = Path("scripts/setup-android-browser-ubuntu.sh").read_text()
     run = Path("scripts/run-android-browser-ubuntu.sh").read_text()
     wrapper = Path("scripts/run-termux-browser-collector.sh").read_text()
 
     assert ".android-venv" in setup
     assert "public_records_tracker.modern_gov_api_probe" in run
-    assert "sources-moderngov-api.yml" in run
+    assert "sources-android-full.yml" in run
+    assert "COLLECT_CONFIG" in run
     assert "PROBE_ONLY" in run
     assert "proot-distro login" in wrapper
+    assert "^ID=ubuntu$" in wrapper
+    assert "sources-android-full.yml" in wrapper
     assert "Runner.Listener" not in setup + run + wrapper
     assert "CoreCLR" not in setup + run + wrapper
 
