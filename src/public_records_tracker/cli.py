@@ -5,6 +5,7 @@ from pathlib import Path
 import typer
 
 from .analysis import ensure_analysis_schema, run_detectors
+from .analysis_lifecycle import begin_analysis_cycle, finish_analysis_cycle
 from .db import connect
 from .diffs import ensure_diff_schema
 from .procurement_gaps import run_procurement_gap_detectors
@@ -83,9 +84,11 @@ def detect_signals(db: Path = DEFAULT_DB) -> None:
     ensure_structured_schema(con)
     ensure_resolution_schema(con)
     ensure_analysis_schema(con)
+    cycle_started = begin_analysis_cycle(con)
     stats = run_detectors(con)
     stats.update(run_reconciliation_detectors(con))
     stats.update(run_procurement_gap_detectors(con))
+    stats.update(finish_analysis_cycle(con, cycle_started))
     con.close()
     typer.echo(f"Signal pass: {stats}")
 
