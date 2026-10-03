@@ -20,6 +20,13 @@ from .structured import ensure_structured_schema
 
 PUBLIC_MATCH_STATUSES = ("auto_accepted", "accepted")
 PUBLIC_SIGNAL_STATUSES = ("approved",)
+PUBLIC_REDACTED_NARRATIVE_FACT_TYPES = (
+    "HOUSING_OMBUDSMAN_DETERMINATION",
+    "OMBUDSMAN_SUMMARY",
+)
+PUBLIC_NARRATIVE_REDACTION = (
+    "[Narrative withheld from structured public output; follow the official source and locator.]"
+)
 
 
 def prepare_public_db(source_db: Path, target_db: Path) -> dict[str, int]:
@@ -43,6 +50,21 @@ def prepare_public_db(source_db: Path, target_db: Path) -> dict[str, int]:
     )
     con.execute("DELETE FROM review_queue")
     con.execute("DELETE FROM signals WHERE status <> 'approved'")
+
+    # Keep categorical regulatory outcomes and exact provenance public, but do
+    # not republish free-text case narratives that can contain unnecessary
+    # health, family or other personal detail even when the official decision
+    # itself is public and anonymised. The working DB retains the original text.
+    placeholders = ",".join("?" for _ in PUBLIC_REDACTED_NARRATIVE_FACT_TYPES)
+    params = [PUBLIC_NARRATIVE_REDACTION, *PUBLIC_REDACTED_NARRATIVE_FACT_TYPES]
+    con.execute(
+        f"UPDATE facts SET value_text=? WHERE fact_type IN ({placeholders})",
+        params,
+    )
+    con.execute(
+        f"UPDATE structured_changes SET value_text=? WHERE fact_type IN ({placeholders})",
+        params,
+    )
 
     # Public output keeps cryptographic/source provenance but never needs the
     # collector host's private filesystem layout. Blank these paths on the
