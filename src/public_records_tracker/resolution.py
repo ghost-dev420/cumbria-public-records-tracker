@@ -145,14 +145,16 @@ def add_alias(
     alias_id = hashlib.sha256(
         f"{entity_id}\0{alias_type}\0{normalized}\0{source or ''}".encode()
     ).hexdigest()
+    # alias_id already captures the entity, alias type, normalized spelling, and
+    # source. Existing rows therefore represent the same matching identity.
+    # Keep refreshes append-only/idempotent instead of rewriting an indexed row:
+    # DuckDB can otherwise delete/reinsert index entries during conflict updates,
+    # which is fragile after an interrupted long-running Android collection.
     con.execute(
         """INSERT INTO entity_aliases(
              alias_id,entity_id,alias_text,normalized_alias,alias_type,source,confidence
            ) VALUES (?,?,?,?,?,?,?)
-           ON CONFLICT(alias_id) DO UPDATE SET
-             alias_text=excluded.alias_text,
-             normalized_alias=excluded.normalized_alias,
-             confidence=excluded.confidence""",
+           ON CONFLICT(alias_id) DO NOTHING""",
         [alias_id, entity_id, alias_text.strip(), normalized, alias_type, source, confidence],
     )
     return alias_id
@@ -171,12 +173,12 @@ def add_identifier(
     identifier = re.sub(r"\s+", "", str(identifier)).upper()
     if not scheme or not identifier:
         return
+    # The primary key is the matching identity. Avoid rewriting an existing
+    # indexed row during refreshes for the same reason as add_alias above.
     con.execute(
         """INSERT INTO entity_identifiers(entity_id,scheme,identifier,source,confidence)
            VALUES (?,?,?,?,?)
-           ON CONFLICT(entity_id,scheme,identifier) DO UPDATE SET
-             source=coalesce(excluded.source,entity_identifiers.source),
-             confidence=greatest(entity_identifiers.confidence,excluded.confidence)""",
+           ON CONFLICT(entity_id,scheme,identifier) DO NOTHING""",
         [entity_id, scheme, identifier, source, confidence],
     )
 
