@@ -9,8 +9,18 @@ from public_records_tracker.structured import ensure_structured_schema
 SOURCE = {
     "id": "westmorland_furness_spending",
     "name": "Westmorland and Furness spending over 250 pounds",
-    "organisation_ids": ["westmorland_furness_council"],
+    "organisation_ids": [
+        "westmorland_furness_council",
+        "barrow_borough_council",
+        "eden_district_council",
+        "south_lakeland_district_council",
+    ],
     "payment_payer_organisation_id": "westmorland_furness_council",
+    "payment_payer_rules": [
+        {"organisation_id": "barrow_borough_council", "terms": ["barrow bc"]},
+        {"organisation_id": "eden_district_council", "terms": ["edc transparency"]},
+        {"organisation_id": "south_lakeland_district_council", "terms": ["sldc"]},
+    ],
 }
 
 
@@ -29,15 +39,31 @@ def _record(title: str, body: str) -> Record:
 def _db(tmp_path):
     con = connect(tmp_path / "tracker.duckdb")
     ensure_structured_schema(con)
-    register_organisation(
-        con,
-        {
-            "id": "westmorland_furness_council",
-            "name": "Westmorland and Furness Council",
-            "organisation_type": "unitary_authority",
-            "status": "current",
-        },
-    )
+    for organisation_id, name, organisation_type, status in (
+        (
+            "westmorland_furness_council",
+            "Westmorland and Furness Council",
+            "unitary_authority",
+            "current",
+        ),
+        ("barrow_borough_council", "Barrow Borough Council", "district_council", "legacy"),
+        ("eden_district_council", "Eden District Council", "district_council", "legacy"),
+        (
+            "south_lakeland_district_council",
+            "South Lakeland District Council",
+            "district_council",
+            "legacy",
+        ),
+    ):
+        register_organisation(
+            con,
+            {
+                "id": organisation_id,
+                "name": name,
+                "organisation_type": organisation_type,
+                "status": status,
+            },
+        )
     return con
 
 
@@ -77,6 +103,29 @@ def test_extracts_trade_supplier_payment_with_row_locator(tmp_path):
     assert metadata["description"] == "Bridge inspection"
     assert metadata["department"] == "Highways"
     assert metadata["reference"] == "TX-42"
+    con.close()
+
+
+def test_legacy_spending_file_uses_legacy_council_as_payer(tmp_path):
+    con = _db(tmp_path)
+    record = _record(
+        "April 2025 SLDC transparency spend over £250",
+        "Payment Date,Supplier Name,Amount\n"
+        "15/04/2025,Legacy Supplier Ltd,900.00\n",
+    )
+    assert extract_payments(
+        con=con,
+        record=record,
+        document_id="doc-sldc",
+        snapshot_id="snap-sldc",
+        source=SOURCE,
+    ) == 1
+    assert con.execute(
+        """SELECT payer.canonical_name
+           FROM facts f
+           JOIN entities payer ON payer.entity_id=f.subject_entity_id
+           WHERE f.predicate='PAYMENT_TO_SUPPLIER'"""
+    ).fetchone()[0] == "South Lakeland District Council"
     con.close()
 
 
