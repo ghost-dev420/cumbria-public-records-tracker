@@ -4,6 +4,7 @@ from pathlib import Path
 
 from .analysis import ensure_analysis_schema, run_detectors
 from .analysis_lifecycle import begin_analysis_cycle, finish_analysis_cycle
+from .analysis_quality import prepare_analysis_resolution
 from .archive import archive_record
 from .collectors import COLLECTORS
 from .config import load_organisations, load_sources
@@ -228,6 +229,7 @@ def run_collection(
 
     analysis_started = begin_analysis_cycle(con)
     resolution_stats = run_resolution(con)
+    quality_stats = prepare_analysis_resolution(con)
     detector_stats = run_detectors(con)
     detector_stats.update(run_reconciliation_detectors(con))
     detector_stats.update(run_procurement_gap_detectors(con))
@@ -235,7 +237,7 @@ def run_collection(
     stats["matches"] = sum(
         resolution_stats.get(key, 0)
         for key in ("identifier", "name_exact", "fuzzy_review")
-    )
+    ) + quality_stats.get("payment_channel_matches", 0)
     stats["review_items"] = con.execute(
         "SELECT count(*) FROM review_queue WHERE status='open'"
     ).fetchone()[0]
