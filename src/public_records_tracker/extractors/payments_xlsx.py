@@ -72,18 +72,33 @@ def extract_payments_xlsx(
     except Exception:
         return 0
 
-    payer = _payer_entity(con, source, record)
-    count = 0
+    eligible: list[tuple[object, list[tuple[int, dict[str, str]]]]] = []
     try:
         for sheet in workbook.worksheets:
             parsed = _sheet_rows(sheet)
             if parsed is None:
                 continue
             _, _, rows = parsed
-            # Header detection is deliberately required before the source-level
-            # allow-by-header rule can admit a generic council download.
             if not _is_supplier_file(record, source, has_headers=True):
                 continue
+            eligible.append((sheet, rows))
+
+        if not eligible:
+            return 0
+
+        # See the CSV extractor: supplier identity is part of a fact ID, so a
+        # migration from a dirty payee name to a cleaned one must replace the
+        # snapshot's payment facts rather than coexist with them.
+        con.execute(
+            """DELETE FROM facts
+               WHERE document_id=? AND snapshot_id=?
+                 AND predicate='PAYMENT_TO_SUPPLIER'""",
+            [document_id, snapshot_id],
+        )
+
+        payer = _payer_entity(con, source, record)
+        count = 0
+        for sheet, rows in eligible:
             for row_number, row in rows:
                 raw_supplier_name = _field(row, "supplier")
                 supplier_name, payment_channel = split_payment_channel(raw_supplier_name)
@@ -126,6 +141,6 @@ def extract_payments_xlsx(
                     },
                 )
                 count += 1
+        return count
     finally:
         workbook.close()
-    return count
