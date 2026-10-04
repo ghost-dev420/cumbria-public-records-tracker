@@ -24,9 +24,25 @@ git reset --hard origin/main
 # shellcheck disable=SC1091
 source "$VENV_DIR/bin/activate"
 
-# Pull in any dependency changes that landed with the code update. Pip is
-# idempotent here, so already-satisfied packages are reused from the venv.
-python -m pip install -q -e .
+# Pull in any dependency changes that landed with the code update. The browser
+# extra is required by W&F LGSCO; pip is idempotent when already satisfied.
+python -m pip install -q -e '.[browser]'
+
+# Give an actionable error before a long collection if the one-time browser
+# runtime setup has not been run on an older Android installation.
+if ! python - <<'PY'
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+
+with sync_playwright() as p:
+    path = Path(p.chromium.executable_path)
+    raise SystemExit(0 if path.exists() else 1)
+PY
+then
+  echo "Playwright Chromium is not installed in this Android collector environment."
+  echo "Run once: bash scripts/setup-android-playwright.sh"
+  exit 2
+fi
 
 python -m public_records_tracker.modern_gov_api_probe \
   'https://cumberland.moderngov.co.uk' \
