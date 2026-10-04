@@ -80,3 +80,40 @@ def test_small_unmatched_payment_stream_is_not_flagged(tmp_path: Path):
     _payment(con, supplier, "29999.99", "small")
     assert detect_unmatched_payment_streams(con) == 0
     con.close()
+
+
+def test_town_council_abbreviation_is_not_a_procurement_gap(tmp_path: Path):
+    con = connect(tmp_path / "tracker.duckdb")
+    ensure_structured_schema(con)
+    ensure_resolution_schema(con)
+    ensure_analysis_schema(con)
+    council_payee = upsert_entity(
+        con, entity_type="SUPPLIER", name="WORKINGTON T.C."
+    )
+    _payment(con, council_payee, "315725.00", "tc")
+
+    assert detect_unmatched_payment_streams(con) == 0
+    assert con.execute("SELECT count(*) FROM signals").fetchone()[0] == 0
+    con.close()
+
+
+def test_bare_legacy_authority_alias_is_not_a_procurement_gap(tmp_path: Path):
+    con = connect(tmp_path / "tracker.duckdb")
+    ensure_structured_schema(con)
+    ensure_resolution_schema(con)
+    ensure_analysis_schema(con)
+    con.execute(
+        """INSERT INTO organisations(
+             organisation_id,name,organisation_type,status,jurisdiction,
+             valid_from,valid_to,config_json
+           ) VALUES (
+             'allerdale_borough_council','Allerdale Borough Council',
+             'district_council','legacy','Allerdale',NULL,'2023-03-31','{}'
+           )"""
+    )
+    legacy_payee = upsert_entity(con, entity_type="SUPPLIER", name="ALLERDALE")
+    _payment(con, legacy_payee, "767857.71", "legacy")
+
+    assert detect_unmatched_payment_streams(con) == 0
+    assert con.execute("SELECT count(*) FROM signals").fetchone()[0] == 0
+    con.close()
