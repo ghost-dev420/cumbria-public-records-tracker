@@ -7,8 +7,6 @@ def test_android_full_registry_inherits_production_and_replaces_blocked_moderngo
     sources = load_sources(Path("config/sources-android-full.yml"))
     by_id = {source["id"]: source for source in sources}
 
-    # Normal production sources are inherited rather than copied into a second
-    # registry that can drift.
     for source_id in (
         "cumberland_transparency",
         "westmorland_furness_spending",
@@ -23,8 +21,6 @@ def test_android_full_registry_inherits_production_and_replaces_blocked_moderngo
     ):
         assert source_id in by_id
 
-    # HTML ModernGov entry points known to hit the Cloudflare challenge are
-    # replaced by the public XML service.
     for source_id in (
         "cumberland_meetings",
         "cumberland_moderngov_structure",
@@ -78,6 +74,7 @@ def test_android_lgsco_uses_dedicated_search_collector() -> None:
         assert source["kind"] == "lgsco_search"
         assert source["organisation_name"] == organisation_name
         assert source["endpoint"].endswith("/Decisions/SearchResults")
+        assert source["prime_url"].endswith("/decisions")
         assert source["from_date"] == "0001-01-01"
         assert source["decision_codes"] == "c+nu+u+"
         assert source["sort_order"] == "descending"
@@ -86,3 +83,17 @@ def test_android_lgsco_uses_dedicated_search_collector() -> None:
         assert source["extractors"] == ["lgsco"]
         assert source["expect_facts"] is True
         assert source["minimum_fact_count"] == 1
+
+
+def test_westmorland_lgsco_has_official_performance_fallbacks() -> None:
+    sources = load_sources(Path("config/sources-android-full.yml"))
+    by_id = {source["id"]: source for source in sources}
+    source = by_id["lgsco_westmorland_furness"]
+
+    assert source["fallback_to_date"] == "2026-9-7"
+    urls = source["performance_fallback_urls"]
+    assert len(urls) == 3
+    assert any("/decisions/2023/u/Listing" in url for url in urls)
+    assert any("/decisions/2024/u/Listing" in url for url in urls)
+    assert any("/decisions/2025/u/Listing" in url for url in urls)
+    assert all("Westmorland+and+Furness+Council" in url for url in urls)
