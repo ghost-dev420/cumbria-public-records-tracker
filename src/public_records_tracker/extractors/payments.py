@@ -12,6 +12,7 @@ from dateutil import parser as date_parser
 
 from ..models import Record
 from ..structured import add_fact, upsert_entity
+from ..supplier_hygiene import split_payment_channel
 
 
 _HEADER_ALIASES = {
@@ -248,7 +249,8 @@ def extract_payments(
     payer = _payer_entity(con, source, record)
     count = 0
     for row_number, row in _dict_rows(record.body):
-        supplier_name = _field(row, "supplier")
+        raw_supplier_name = _field(row, "supplier")
+        supplier_name, payment_channel = split_payment_channel(raw_supplier_name)
         amount = _amount(_field(row, "amount"))
         if not supplier_name or amount is None:
             continue
@@ -282,6 +284,8 @@ def extract_payments(
                 "department": department,
                 "reference": reference,
                 "source_row": row_number,
+                "raw_supplier_name": raw_supplier_name or supplier_name,
+                "payment_channel": payment_channel,
             },
         )
         count += 1
