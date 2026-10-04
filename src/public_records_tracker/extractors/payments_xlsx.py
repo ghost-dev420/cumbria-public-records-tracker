@@ -8,6 +8,7 @@ from openpyxl import load_workbook
 
 from ..models import Record
 from ..structured import add_fact, upsert_entity
+from ..supplier_hygiene import split_payment_channel
 from .payments import (
     _amount,
     _date,
@@ -84,7 +85,8 @@ def extract_payments_xlsx(
             if not _is_supplier_file(record, source, has_headers=True):
                 continue
             for row_number, row in rows:
-                supplier_name = _field(row, "supplier")
+                raw_supplier_name = _field(row, "supplier")
+                supplier_name, payment_channel = split_payment_channel(raw_supplier_name)
                 amount = _amount(_field(row, "amount"))
                 if not supplier_name or amount is None:
                     continue
@@ -119,6 +121,8 @@ def extract_payments_xlsx(
                         "reference": reference,
                         "source_row": row_number,
                         "sheet": sheet.title,
+                        "raw_supplier_name": raw_supplier_name or supplier_name,
+                        "payment_channel": payment_channel,
                     },
                 )
                 count += 1
