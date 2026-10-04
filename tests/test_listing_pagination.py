@@ -1,3 +1,5 @@
+from datetime import date
+
 import httpx
 
 from public_records_tracker.collectors.listing import HtmlListingCollector
@@ -17,7 +19,8 @@ class _Client:
 
     def get(self, url: str):
         self.calls.append(url)
-        if url == "https://example.test/listing":
+        expected_start = f"https://example.test/listing?td={date.today().isoformat()}"
+        if url == expected_start:
             return _Response(
                 url,
                 b"""<html><body>
@@ -34,7 +37,7 @@ class _Client:
         raise AssertionError(f"unexpected request {url}")
 
 
-def test_fragments_are_removed_and_terminal_pagination_404_is_not_an_error():
+def test_dynamic_date_fragments_and_terminal_pagination_404():
     client = _Client()
     collector = HtmlListingCollector(
         {
@@ -42,7 +45,7 @@ def test_fragments_are_removed_and_terminal_pagination_404_is_not_an_error():
             "name": "LGSCO test",
             "kind": "html_listing",
             "evidence_class": "REGULATORY_FINDING",
-            "start_urls": ["https://example.test/listing#cookie"],
+            "start_urls": ["https://example.test/listing?td={today}#cookie"],
             "include_link_regex": r"/decisions/.+/\d{2}-\d{3}-\d{3}/?$",
             "follow_pagination": True,
             "pagination_text": "next",
@@ -59,4 +62,6 @@ def test_fragments_are_removed_and_terminal_pagination_404_is_not_an_error():
     assert records[1].url.endswith("/decisions/education/sen/25-000-276")
     assert collector.errors == []
     assert all("#" not in url for url in client.calls)
+    assert "{today}" not in client.calls[0]
+    assert client.calls[0].endswith(date.today().isoformat())
     assert client.calls[-1] == "https://example.test/listing?page=2"
