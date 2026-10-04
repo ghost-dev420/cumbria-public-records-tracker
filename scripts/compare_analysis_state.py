@@ -69,7 +69,21 @@ def main() -> None:
     parser.add_argument("--after", required=True, type=Path)
     parser.add_argument("--limit", type=int, default=200)
     parser.add_argument("--compact", action="store_true", help="Print deltas and actionable rows only.")
+    parser.add_argument("--output", type=Path, help="Write the complete audit output to a file as well as stdout.")
     args = parser.parse_args()
+
+    if args.output:
+        import sys
+        class Tee:
+            def __init__(self, *streams): self.streams = streams
+            def write(self, data):
+                for stream in self.streams: stream.write(data)
+                return len(data)
+            def flush(self):
+                for stream in self.streams: stream.flush()
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        output_handle = args.output.open("w", encoding="utf-8")
+        sys.stdout = Tee(sys.stdout, output_handle)
 
     before = duckdb.connect(str(args.before), read_only=True)
     after = duckdb.connect(str(args.after), read_only=True)
@@ -149,6 +163,8 @@ def main() -> None:
 
     before.close()
     after.close()
+    if args.output:
+        output_handle.flush()
 
 
 if __name__ == "__main__":
