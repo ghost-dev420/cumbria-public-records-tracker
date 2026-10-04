@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import datetime
 
 import duckdb
 
@@ -8,8 +8,16 @@ from .analysis import ensure_analysis_schema
 from .resolution import ensure_resolution_schema
 
 
-def _utc_now_naive() -> datetime:
-    return datetime.now(timezone.utc).replace(tzinfo=None)
+def _db_now(con: duckdb.DuckDBPyConnection) -> datetime:
+    """Return the database's local TIMESTAMP clock.
+
+    Analysis tables store ``updated_at`` as a timezone-naive TIMESTAMP while
+    DuckDB's ``now()``/``current_timestamp`` is timezone-aware.  Casting inside
+    DuckDB makes the cycle boundary use the exact same session-timezone basis
+    that is used when those columns are updated.  Using Python UTC-naive time
+    here caused up to a one-hour stale-retirement delay during UK BST.
+    """
+    return con.execute("SELECT CAST(current_timestamp AS TIMESTAMP)").fetchone()[0]
 
 
 def begin_analysis_cycle(con: duckdb.DuckDBPyConnection) -> datetime:
@@ -21,7 +29,7 @@ def begin_analysis_cycle(con: duckdb.DuckDBPyConnection) -> datetime:
     """
     ensure_analysis_schema(con)
     ensure_resolution_schema(con)
-    started = _utc_now_naive()
+    started = _db_now(con)
     con.execute("UPDATE signals SET status='review' WHERE status='stale'")
     con.execute("UPDATE review_queue SET status='open' WHERE status='stale'")
     return started
@@ -31,19 +39,20 @@ def finish_analysis_cycle(
     con: duckdb.DuckDBPyConnection, started_at: datetime
 ) -> dict[str, int]:
     """Retire automated review material not reproduced from current facts."""
+    finished = _db_now(con)
     stale_signals = con.execute(
         """UPDATE signals
            SET status='stale', updated_at=?
            WHERE status IN ('review','approved') AND updated_at < ?
            RETURNING signal_id""",
-        [_utc_now_naive(), started_at],
+        [finished, started_at],
     ).fetchall()
     stale_reviews = con.execute(
         """UPDATE review_queue
            SET status='stale', updated_at=?
            WHERE status='open' AND updated_at < ?
            RETURNING review_id""",
-        [_utc_now_naive(), started_at],
+        [finished, started_at],
     ).fetchall()
     return {
         "stale_signals": len(stale_signals),
