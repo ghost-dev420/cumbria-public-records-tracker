@@ -84,3 +84,49 @@ def test_identifier_backed_entity_is_preferred_representative(tmp_path):
     ).fetchone()
     assert row == (identified,)
     con.close()
+
+
+def test_identical_clean_short_name_merges_across_payment_namespaces(tmp_path):
+    con = connect(tmp_path / "tracker.duckdb")
+    ensure_structured_schema(con)
+    ensure_resolution_schema(con)
+
+    first = upsert_entity(
+        con,
+        entity_type="SUPPLIER",
+        name="NPOWER",
+        namespace="payments:cumberland",
+        metadata={"source_system": "Cumberland spending"},
+    )
+    second = upsert_entity(
+        con,
+        entity_type="SUPPLIER",
+        name="NPOWER",
+        namespace="payments:legacy-allerdale",
+        metadata={"source_system": "Allerdale spending"},
+    )
+    assert first != second
+
+    stats = prepare_analysis_resolution(con)
+    assert stats["exact_clean_name_matches"] >= 1
+
+    rows = dict(
+        con.execute(
+            """SELECT entity_id,canonical_entity_id
+               FROM resolved_entity_members
+               WHERE entity_id IN (?,?)""",
+            [first, second],
+        ).fetchall()
+    )
+    assert rows[first] == rows[second]
+
+    match = con.execute(
+        """SELECT status,match_method
+           FROM entity_matches
+           WHERE match_method='exact_clean_name'
+             AND ((left_entity_id=? AND right_entity_id=?)
+               OR (left_entity_id=? AND right_entity_id=?))""",
+        [first, second, second, first],
+    ).fetchone()
+    assert match == ("auto_accepted", "exact_clean_name")
+    con.close()
