@@ -1,0 +1,40 @@
+name: production Android collection and publish
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-records-production-android
+  cancel-in-progress: false
+
+jobs:
+  collect-analyse-publish:
+    runs-on: [self-hosted, cumbria-browser]
+    timeout-minutes: 360
+    steps:
+      - name: Update persistent production checkout
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd /root/cumbria-public-records-tracker
+          git fetch origin main
+          git reset --hard origin/main
+
+      - name: Collect, analyse, build and publish
+        shell: bash
+        env:
+          REPO_DIR: /root/cumbria-public-records-tracker
+          ENABLE_REFERENCE_REFRESH: '1'
+          ENABLE_PSC_REFRESH: '1'
+          REFERENCE_REFRESH_DAYS: '14'
+          PSC_REFRESH_DAYS: '30'
+          PUBLISH: '1'
+        run: |
+          set -euo pipefail
+          cd /root/cumbria-public-records-tracker
+          bash scripts/update-production.sh
