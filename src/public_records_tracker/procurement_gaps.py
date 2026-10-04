@@ -8,7 +8,7 @@ import duckdb
 from .analysis import add_signal
 from .analysis_quality import prepare_analysis_resolution
 from .resolution import ensure_resolution_schema, put_review
-from .supplier_hygiene import classify_noncommercial_payee
+from .supplier_hygiene import basic_org_key, classify_noncommercial_payee
 
 
 DISCOVERY_THRESHOLD_GBP = Decimal("30000")
@@ -20,6 +20,22 @@ CAVEATS = [
     "Contract links are compared within the paying/buying authority where that authority is known.",
     "This is an internal review lead only and is not evidence of non-compliance or improper conduct.",
 ]
+
+_LEGACY_LOCAL_AUTHORITY_TYPES = {
+    "district_council",
+    "county_council",
+    "borough_council",
+    "city_council",
+}
+_AUTHORITY_NAME_SUFFIXES = (
+    " borough council",
+    " district council",
+    " county council",
+    " city council",
+    " town council",
+    " parish council",
+    " council",
+)
 
 
 def _decimal(value: str | None) -> Decimal | None:
@@ -51,8 +67,50 @@ def _entity_name(con: duckdb.DuckDBPyConnection, entity_id: str | None) -> str |
     return str(row[0]) if row else entity_id
 
 
+def _strip_authority_suffix(value: str) -> str:
+    key = basic_org_key(value)
+    for suffix in _AUTHORITY_NAME_SUFFIXES:
+        if key.endswith(suffix):
+            return key[: -len(suffix)].strip()
+    return key
+
+
+def _configured_public_authority_aliases(
+    con: duckdb.DuckDBPyConnection,
+) -> set[str]:
+    """Build conservative payee aliases from configured council identities.
+
+    Full configured council names are always recognised.  For legacy district /
+    county authorities we also recognise the bare locality name because historic
+    transparency exports often shorten, for example, "Allerdale Borough Council"
+    to just "ALLERDALE".  Bare locality aliases are not generated for current
+    town/parish councils to avoid over-classifying ordinary businesses.
+    """
+    aliases: set[str] = set()
+    rows = con.execute(
+        "SELECT name,organisation_type,status FROM organisations"
+    ).fetchall()
+    for name, organisation_type, status in rows:
+        key = basic_org_key(str(name))
+        if not key:
+            continue
+        org_type = str(organisation_type or "").casefold()
+        if "council" not in org_type and org_type not in {
+            "unitary_authority",
+            "combined_authority",
+        }:
+            continue
+        aliases.add(key)
+        if str(status or "").casefold() == "legacy" and org_type in _LEGACY_LOCAL_AUTHORITY_TYPES:
+            base = _strip_authority_suffix(str(name))
+            if len(base) >= 5:
+                aliases.add(base)
+    return aliases
+
+
 def detect_unmatched_payment_streams(con: duckdb.DuckDBPyConnection) -> int:
     canonical = _canonical_map(con)
+    public_authority_aliases = _configured_public_authority_aliases(con)
     payments: dict[tuple[str | None, str], list[tuple[str, Decimal]]] = defaultdict(list)
     for fact_id, payer_id, supplier_id, value_text in con.execute(
         """SELECT fact_id,subject_entity_id,object_entity_id,value_text
@@ -107,6 +165,8 @@ def detect_unmatched_payment_streams(con: duckdb.DuckDBPyConnection) -> int:
 
         name = _entity_name(con, supplier_id) or supplier_id
         suppressed_reason = classify_noncommercial_payee(name)
+        if suppressed_reason is None and basic_org_key(name) in public_authority_aliases:
+            suppressed_reason = "configured_public_authority"
         if suppressed_reason is not None:
             continue
 
