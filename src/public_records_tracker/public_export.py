@@ -20,6 +20,7 @@ from .structured import ensure_structured_schema
 
 PUBLIC_MATCH_STATUSES = ("auto_accepted", "accepted")
 PUBLIC_SIGNAL_STATUSES = ("approved",)
+PUBLIC_CLAIM_STATUSES = ("approved",)
 
 
 def prepare_public_db(source_db: Path, target_db: Path) -> dict[str, int]:
@@ -43,6 +44,17 @@ def prepare_public_db(source_db: Path, target_db: Path) -> dict[str, int]:
     )
     con.execute("DELETE FROM review_queue")
     con.execute("DELETE FROM signals WHERE status <> 'approved'")
+
+    # Claims are private-by-default just like analytical signals. Remove dependent
+    # evidence rows first so a future claim UI cannot accidentally surface an
+    # unreviewed claim merely because the base evidence is public.
+    con.execute(
+        """DELETE FROM claim_evidence
+           WHERE claim_id IN (
+             SELECT claim_id FROM claims WHERE status <> 'approved'
+           )"""
+    )
+    con.execute("DELETE FROM claims WHERE status <> 'approved'")
 
     # Public output keeps cryptographic/source provenance but never needs the
     # collector host's private filesystem layout. Blank these paths on the
