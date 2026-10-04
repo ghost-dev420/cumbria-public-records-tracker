@@ -65,17 +65,21 @@ def test_android_full_registry_removes_known_blocked_or_stale_start_urls() -> No
     assert "whitehaventowncouncil.co.uk" in urls
 
 
-def test_android_lgsco_uses_stable_council_performance_listings() -> None:
+def test_android_lgsco_uses_complete_dynamic_search_results() -> None:
     sources = load_sources(Path("config/sources-android-full.yml"))
     by_id = {source["id"]: source for source in sources}
 
     for source_id in ("lgsco_cumberland", "lgsco_westmorland_furness"):
         source = by_id[source_id]
-        urls = source["start_urls"]
-        assert len(urls) >= 4
-        assert all("/your-councils-performance/" in url for url in urls)
-        assert all("/Decisions/SearchResults" not in url for url in urls)
+        assert len(source["start_urls"]) == 1
+        url = source["start_urls"][0]
+        assert "/Decisions/SearchResults" in url
+        assert "fd=0001-01-01" in url
+        assert "page=1" in url
+        assert "td={today}" in url
+        assert "/u/Listing" not in url
         assert source["include_link_regex"] == r"/decisions/.+/\d{2}-\d{3}-\d{3}/?$"
         assert source["pagination_404_ends"] is True
+        assert source["page_limit"] >= 20
         assert source["expect_facts"] is True
         assert source["minimum_fact_count"] == 1
