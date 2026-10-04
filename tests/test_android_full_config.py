@@ -9,6 +9,7 @@ def test_android_full_registry_inherits_production_and_replaces_blocked_moderngo
 
     for source_id in (
         "cumberland_transparency",
+        "cumberland_contract_register",
         "westmorland_furness_spending",
         "workington_town_meetings",
         "workington_town_transparency",
@@ -59,6 +60,23 @@ def test_android_full_registry_removes_known_blocked_or_stale_start_urls() -> No
     assert "wigtontown.com" not in urls
     assert "wigton-tc.gov.uk" in urls
     assert "whitehaventowncouncil.co.uk" in urls
+
+
+def test_android_cumberland_contract_register_is_structured_official_source() -> None:
+    sources = load_sources(Path("config/sources-android-full.yml"))
+    by_id = {source["id"]: source for source in sources}
+    source = by_id["cumberland_contract_register"]
+
+    assert source["kind"] == "html_listing"
+    assert source["evidence_class"] == "OFFICIAL_RECORD"
+    assert source["organisation_ids"] == ["cumberland_council"]
+    assert source["contract_buyer_organisation_id"] == "cumberland_council"
+    assert source["extractors"] == ["contract_register_csv"]
+    assert source["expect_facts"] is True
+    assert source["minimum_fact_count"] == 1
+    assert len(source["start_urls"]) == 1
+    assert source["start_urls"][0].endswith("/contract-register")
+    assert "contracts_register" in source["include_link_regex"]
 
 
 def test_android_lgsco_uses_dedicated_collectors() -> None:
