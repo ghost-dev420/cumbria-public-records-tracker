@@ -130,9 +130,9 @@ sources:
     allow_cross_domain: true
 
   # LGSCO has a dedicated collector because SearchResults can serve only the
-  # search shell to non-browser request profiles. It primes a browser-like
-  # session, pages SearchResults numerically, structures result cards directly,
-  # and can fall back to official council-performance decision listings.
+  # search shell to non-browser request profiles. Cumberland works over the
+  # normal HTTP collector; W&F uses transparent headless Chromium because the
+  # same public pages are content-stripped for the Android/proot HTTP client.
   - id: lgsco_cumberland
     name: LGSCO decisions concerning Cumberland Council
     kind: lgsco_search
@@ -153,7 +153,7 @@ sources:
 
   - id: lgsco_westmorland_furness
     name: LGSCO decisions concerning Westmorland and Furness Council
-    kind: lgsco_search
+    kind: lgsco_browser
     enabled: true
     evidence_class: REGULATORY_FINDING
     organisation_ids: [westmorland_furness_council]
@@ -168,6 +168,8 @@ sources:
     decision_codes: 'c+nu+u+'
     sort_order: descending
     page_limit: 24
+    browser_timeout: 45
+    browser_delay: 0.75
     ignore_decision_statuses: [404, 410]
     performance_fallback_urls:
       - https://www.lgo.org.uk/your-councils-performance/westmorland-and-furness-council/decisions/2023/u/Listing?aname=Westmorland+and+Furness+Council&atype=Unitary+authority&dc=u&fd=2023-04-01&sortOrder=descending&t=both&td=2024-03-31
