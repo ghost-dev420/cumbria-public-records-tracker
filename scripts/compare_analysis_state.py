@@ -68,6 +68,7 @@ def main() -> None:
     parser.add_argument("--before", required=True, type=Path)
     parser.add_argument("--after", required=True, type=Path)
     parser.add_argument("--limit", type=int, default=200)
+    parser.add_argument("--compact", action="store_true", help="Print deltas and actionable rows only.")
     args = parser.parse_args()
 
     before = duckdb.connect(str(args.before), read_only=True)
@@ -108,6 +109,24 @@ def main() -> None:
             or before_signals[key]["status"] not in {"review", "approved"}
         )
     ]
+
+    if args.compact:
+        from collections import Counter
+        review_delta = Counter(str(r["item_type"]) for r in new_open_reviews)
+        signal_delta = Counter(str(r["signal_type"]) for r in new_live_signals)
+        print("\n=== NEW/REOPENED REVIEW DELTA ===")
+        for key, value in sorted(review_delta.items()):
+            print(f"{key} | +{value}")
+        print("\n=== NEW/REOPENED SIGNAL DELTA ===")
+        for key, value in sorted(signal_delta.items()):
+            print(f"{key} | +{value}")
+        new_open_reviews = [
+            r for r in new_open_reviews if r["item_type"] != "ENTITY_MATCH"
+        ]
+        new_live_signals = [
+            r for r in new_live_signals
+            if r["signal_type"] != "SUPPLIER_PAYMENT_CONTRACT_OVERLAP"
+        ]
 
     print(f"\n=== NEW/REOPENED OPEN REVIEWS ({len(new_open_reviews)}) ===")
     for row in sorted(new_open_reviews, key=lambda r: (-float(r["score"]), str(r["item_type"])))[: args.limit]:
