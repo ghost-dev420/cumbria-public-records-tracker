@@ -129,9 +129,12 @@ sources:
     max_records: 220
     allow_cross_domain: true
 
-  # LGSCO SearchResults only reliably renders the filtered result set when the
-  # date range and first page are explicit. Keep the upper bound dynamic so the
-  # source does not silently go stale. Tighten discovery to real case URLs only.
+  # LGSCO SearchResults is quirky: dead historical case links can remain in a
+  # valid result set, and the W&F organisation filter has intermittently
+  # rendered only the search shell for automated clients. Keep strict case-link
+  # discovery, ignore only 404/410 case tombstones, and for W&F pair a known-good
+  # populated baseline query with a rolling unpadded-date query. Decision URLs
+  # are de-duplicated by the collector, so the fallback does not duplicate facts.
   - id: lgsco_cumberland
     name: LGSCO decisions concerning Cumberland Council
     kind: html_listing
@@ -149,6 +152,7 @@ sources:
     follow_pagination: true
     pagination_text: 'next'
     pagination_404_ends: true
+    ignore_attachment_statuses: [404, 410]
 
   - id: lgsco_westmorland_furness
     name: LGSCO decisions concerning Westmorland and Furness Council
@@ -160,10 +164,12 @@ sources:
     expect_facts: true
     minimum_fact_count: 1
     start_urls:
-      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Westmorland%20and%20Furness%20Council&dc=c%2Bnu%2Bu%2B&fd=0001-01-01&page=1&sortOrder=descending&td={today}
+      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Westmorland+and+Furness+Council&dc=c%2Bnu%2Bu%2B&fd=0001-01-01&page=1&sortOrder=descending&td=2026-9-7
+      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Westmorland+and+Furness+Council&dc=c%2Bnu%2Bu%2B&fd=0001-01-01&page=1&sortOrder=descending&td={today_unpadded}
     include_link_regex: '/decisions/.+/\d{2}-\d{3}-\d{3}/?$'
-    page_limit: 20
+    page_limit: 24
     max_records: 250
     follow_pagination: true
     pagination_text: 'next'
     pagination_404_ends: true
+    ignore_attachment_statuses: [404, 410]
