@@ -241,6 +241,7 @@ def run_collection(
         quality_stats.get(key, 0)
         for key in (
             "payment_channel_matches",
+            "exact_clean_name_matches",
             "legal_suffix_matches",
             "near_exact_typo_matches",
         )
