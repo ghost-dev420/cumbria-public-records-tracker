@@ -8,6 +8,7 @@ exclude_source_ids:
   - cumberland_meetings
   - cumberland_moderngov_structure
   - cumberland_parish_directory
+  - cumberland_contract_register
   - westmorland_furness_meetings
   - westmorland_furness_moderngov_structure
   - westmorland_furness_parish_directory
