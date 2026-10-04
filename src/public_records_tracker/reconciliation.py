@@ -9,12 +9,15 @@ import duckdb
 from dateutil import parser as date_parser
 
 from .analysis import add_signal
+from .analysis_quality import prepare_analysis_resolution
 from .resolution import ensure_resolution_schema, put_review
 
 
 CAVEATS = [
     "The tracker may not contain every contract, framework, variation or extension.",
     "Published payment totals can include VAT, credits, timing differences or other legitimate streams.",
+    "Credits are netted for value comparison and non-positive rows are not treated as out-of-period payments.",
+    "Payments are compared only with contracts for the same paying/buying authority where that authority is known.",
     "A mismatch is a review signal only and is not evidence of improper conduct.",
 ]
 
@@ -47,6 +50,7 @@ def _metadata(value: str | None) -> dict:
 
 def _canonical_map(con: duckdb.DuckDBPyConnection) -> dict[str, str]:
     ensure_resolution_schema(con)
+    prepare_analysis_resolution(con)
     return {
         str(entity_id): str(canonical_id)
         for entity_id, canonical_id in con.execute(
@@ -55,7 +59,9 @@ def _canonical_map(con: duckdb.DuckDBPyConnection) -> dict[str, str]:
     }
 
 
-def _supplier_name(con: duckdb.DuckDBPyConnection, entity_id: str) -> str:
+def _entity_name(con: duckdb.DuckDBPyConnection, entity_id: str | None) -> str | None:
+    if entity_id is None:
+        return None
     row = con.execute(
         "SELECT canonical_name FROM entities WHERE entity_id=?", [entity_id]
     ).fetchone()
@@ -64,9 +70,10 @@ def _supplier_name(con: duckdb.DuckDBPyConnection, entity_id: str) -> str:
 
 def detect_payment_contract_value_mismatch(con: duckdb.DuckDBPyConnection) -> int:
     canonical = _canonical_map(con)
-    payments: dict[str, list[dict]] = defaultdict(list)
-    for fact_id, supplier_id, value_text, metadata_json in con.execute(
-        """SELECT fact_id,object_entity_id,value_text,metadata_json
+
+    payments: dict[tuple[str | None, str], list[dict]] = defaultdict(list)
+    for fact_id, payer_id, supplier_id, value_text, metadata_json in con.execute(
+        """SELECT fact_id,subject_entity_id,object_entity_id,value_text,metadata_json
            FROM latest_facts
            WHERE predicate='PAYMENT_TO_SUPPLIER'
              AND object_entity_id IS NOT NULL"""
@@ -74,9 +81,12 @@ def detect_payment_contract_value_mismatch(con: duckdb.DuckDBPyConnection) -> in
         amount = _decimal(value_text)
         if amount is None:
             continue
+        payer_key = (
+            canonical.get(str(payer_id), str(payer_id)) if payer_id is not None else None
+        )
         supplier_key = canonical.get(str(supplier_id), str(supplier_id))
         meta = _metadata(metadata_json)
-        payments[supplier_key].append(
+        payments[(payer_key, supplier_key)].append(
             {
                 "fact_id": str(fact_id),
                 "amount": amount,
@@ -84,7 +94,21 @@ def detect_payment_contract_value_mismatch(con: duckdb.DuckDBPyConnection) -> in
             }
         )
 
-    supplier_contracts: dict[str, dict[str, list[str]]] = defaultdict(lambda: defaultdict(list))
+    contract_buyers: dict[str, set[str]] = defaultdict(set)
+    for buyer_id, contract_id in con.execute(
+        """SELECT subject_entity_id,object_entity_id
+           FROM latest_facts
+           WHERE predicate='BUYER_OF_CONTRACT'
+             AND subject_entity_id IS NOT NULL
+             AND object_entity_id IS NOT NULL"""
+    ).fetchall():
+        contract_buyers[str(contract_id)].add(
+            canonical.get(str(buyer_id), str(buyer_id))
+        )
+
+    scoped_contracts: dict[
+        tuple[str | None, str], dict[str, list[str]]
+    ] = defaultdict(lambda: defaultdict(list))
     for fact_id, supplier_id, contract_id in con.execute(
         """SELECT fact_id,subject_entity_id,object_entity_id
            FROM latest_facts
@@ -93,7 +117,12 @@ def detect_payment_contract_value_mismatch(con: duckdb.DuckDBPyConnection) -> in
              AND object_entity_id IS NOT NULL"""
     ).fetchall():
         supplier_key = canonical.get(str(supplier_id), str(supplier_id))
-        supplier_contracts[supplier_key][str(contract_id)].append(str(fact_id))
+        contract_key = str(contract_id)
+        buyers = contract_buyers.get(contract_key) or {None}
+        for buyer_key in buyers:
+            scoped_contracts[(buyer_key, supplier_key)][contract_key].append(
+                str(fact_id)
+            )
 
     values: dict[str, list[tuple[str, Decimal]]] = defaultdict(list)
     for fact_id, contract_id, value_text, metadata_json in con.execute(
@@ -124,8 +153,8 @@ def detect_payment_contract_value_mismatch(con: duckdb.DuckDBPyConnection) -> in
         periods[str(contract_id)][key].append((str(fact_id), parsed))
 
     count = 0
-    for supplier_id, supplier_payments in payments.items():
-        contracts = supplier_contracts.get(supplier_id)
+    for (payer_id, supplier_id), supplier_payments in payments.items():
+        contracts = scoped_contracts.get((payer_id, supplier_id))
         if not contracts:
             continue
 
@@ -151,9 +180,21 @@ def detect_payment_contract_value_mismatch(con: duckdb.DuckDBPyConnection) -> in
                         (start_date, end_date, [start_fact, end_fact, *relation_facts])
                     )
 
-        payment_total = sum((item["amount"] for item in supplier_payments), Decimal("0"))
+        payment_total = sum(
+            (item["amount"] for item in supplier_payments), Decimal("0")
+        )
+        positive_total = sum(
+            (item["amount"] for item in supplier_payments if item["amount"] > 0),
+            Decimal("0"),
+        )
+        credit_total = sum(
+            (item["amount"] for item in supplier_payments if item["amount"] < 0),
+            Decimal("0"),
+        )
         payment_evidence = [item["fact_id"] for item in supplier_payments]
-        name = _supplier_name(con, supplier_id)
+        name = _entity_name(con, supplier_id) or supplier_id
+        payer_name = _entity_name(con, payer_id)
+        scope_text = f" from {payer_name}" if payer_name else ""
 
         if tracked_values:
             tracked_total = sum(tracked_values, Decimal("0"))
@@ -171,17 +212,23 @@ def detect_payment_contract_value_mismatch(con: duckdb.DuckDBPyConnection) -> in
                     signal_type="PAYMENTS_EXCEED_TRACKED_CONTRACT_VALUE",
                     score=0.55,
                     summary=(
-                        f"Published payments linked to {name} total £{payment_total:,.2f}; "
-                        f"tracked GBP contract award values total £{tracked_total:,.2f}."
+                        f"Published net payments{scope_text} linked to {name} total "
+                        f"£{payment_total:,.2f}; buyer-scoped tracked GBP contract award "
+                        f"values total £{tracked_total:,.2f}."
                     ),
                     subject=supplier_id,
-                    object_=None,
+                    object_=payer_id,
                     evidence=evidence,
                     metadata={
                         "payment_total_gbp": float(payment_total),
+                        "net_payment_total_gbp": float(payment_total),
+                        "gross_positive_payments_gbp": float(positive_total),
+                        "credit_total_gbp": float(credit_total),
                         "tracked_contract_value_gbp": float(tracked_total),
                         "difference_gbp": float(difference),
                         "tracked_contract_count": len(contracts),
+                        "payer_entity_id": payer_id,
+                        "buyer_scoped": payer_id is not None,
                         "caveats": CAVEATS,
                         "interpretation": "review_required_not_a_finding",
                     },
@@ -192,18 +239,22 @@ def detect_payment_contract_value_mismatch(con: duckdb.DuckDBPyConnection) -> in
                     score=0.55,
                     summary=f"Review payment / tracked contract value difference for {name}",
                     subject=supplier_id,
-                    object_=None,
+                    object_=payer_id,
                     evidence=evidence,
-                    metadata={"signal_id": signal_id},
+                    metadata={"signal_id": signal_id, "payer_entity_id": payer_id},
                 )
                 count += 1
 
         if complete_periods:
             outside: list[dict] = []
             period_evidence: list[str] = []
-            for start, end, facts in complete_periods:
+            for _, _, facts in complete_periods:
                 period_evidence.extend(facts)
             for item in supplier_payments:
+                # Credits/refunds after a contract period are not positive spend and should
+                # not generate an out-of-period payment anomaly by themselves.
+                if item["amount"] <= 0:
+                    continue
                 payment_date = item["date"]
                 if payment_date is None:
                     continue
@@ -222,15 +273,19 @@ def detect_payment_contract_value_mismatch(con: duckdb.DuckDBPyConnection) -> in
                     signal_type="PAYMENTS_OUTSIDE_TRACKED_CONTRACT_PERIODS",
                     score=0.45,
                     summary=(
-                        f"{len(outside)} published payment record(s) linked to {name} fall outside "
-                        "all complete contract periods currently tracked for that supplier."
+                        f"{len(outside)} positive published payment record(s){scope_text} linked "
+                        f"to {name} fall outside all complete buyer-scoped contract periods "
+                        "currently tracked for that supplier."
                     ),
                     subject=supplier_id,
-                    object_=None,
+                    object_=payer_id,
                     evidence=evidence,
                     metadata={
                         "outside_payment_count": len(outside),
                         "complete_tracked_period_count": len(complete_periods),
+                        "payer_entity_id": payer_id,
+                        "buyer_scoped": payer_id is not None,
+                        "credits_excluded_from_period_check": True,
                         "caveats": CAVEATS,
                         "interpretation": "review_required_not_a_finding",
                     },
@@ -241,9 +296,9 @@ def detect_payment_contract_value_mismatch(con: duckdb.DuckDBPyConnection) -> in
                     score=0.45,
                     summary=f"Review payment dates against tracked contract periods for {name}",
                     subject=supplier_id,
-                    object_=None,
+                    object_=payer_id,
                     evidence=evidence,
-                    metadata={"signal_id": signal_id},
+                    metadata={"signal_id": signal_id, "payer_entity_id": payer_id},
                 )
                 count += 1
     return count
