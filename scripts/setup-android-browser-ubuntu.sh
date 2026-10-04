@@ -33,13 +33,19 @@ python3 -m venv "$VENV_DIR"
 # shellcheck disable=SC1091
 source "$VENV_DIR/bin/activate"
 python -m pip install --upgrade pip
-pip install -e .
+python -m pip install -e '.[browser]'
+
+# W&F LGSCO requires a real browser transport because the public listing pages
+# are content-stripped for the plain HTTP client in the Android/proot runtime.
+# Playwright supports Chromium on current Ubuntu/Debian arm64.
+python -m playwright install --with-deps chromium
 
 prt init-db
 
 cat <<'EOF'
 
-Android ModernGov XML collector is installed.
+Android collector is installed, including the Playwright/Chromium runtime used
+for browser-backed public sources such as W&F LGSCO.
 
 Quick access test (no full crawl):
   PROBE_ONLY=1 bash scripts/run-android-browser-ubuntu.sh
