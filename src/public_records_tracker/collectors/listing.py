@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 from collections import deque
+from datetime import date
 from urllib.parse import urldefrag, urljoin, urlsplit
 
 import httpx
@@ -31,6 +32,13 @@ class HtmlListingCollector:
         # into pagination URLs.
         return urldefrag(str(url))[0]
 
+    @staticmethod
+    def _expand_url(url: str) -> str:
+        # Some listing endpoints need an explicit moving upper date bound to
+        # render results server-side. Keep that date dynamic in source config
+        # rather than baking in a value that quietly goes stale.
+        return str(url).replace("{today}", date.today().isoformat())
+
     def collect(self):
         evidence = EvidenceClass(self.source["evidence_class"])
         link_re = re.compile(self.source.get("include_link_regex", ".*"), re.I)
@@ -38,7 +46,8 @@ class HtmlListingCollector:
         pagination_text = self.source.get("pagination_text", "next").casefold()
         max_records = int(self.source.get("max_records", 100))
         queue = deque(
-            (self._clean_url(url), False) for url in self.source.get("start_urls", [])
+            (self._clean_url(self._expand_url(url)), False)
+            for url in self.source.get("start_urls", [])
         )
         seen_pages: set[str] = set()
         seen_records: set[str] = set()
