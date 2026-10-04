@@ -93,7 +93,7 @@ def test_contracts_finder_defaults_to_tender_and_award_stages():
     assert client.calls[0][1]["limit"] == 100
 
 
-def test_official_contracts_finder_uses_daily_csv_to_target_buyers():
+def test_official_contracts_finder_uses_daily_csv_to_target_buyers(capsys):
     client = _DailyClient()
     collector = ContractsFinderCollector(
         {
@@ -111,6 +111,7 @@ def test_official_contracts_finder_uses_daily_csv_to_target_buyers():
     )
 
     records = list(collector.collect())
+    output = capsys.readouterr().out
 
     assert len(records) == 1
     assert records[0].title == "Road maintenance"
@@ -119,3 +120,4 @@ def test_official_contracts_finder_uses_daily_csv_to_target_buyers():
     assert "/Harvester/Notices/Data/CSV/" in client.calls[0][0]
     assert "/Published/Notice/releases/notice-1.json" in client.calls[1][0]
     assert all("/Published/Notices/OCDS/Search" not in call[0] for call in client.calls)
+    assert "Contracts Finder: 1/1 days scanned, 1 matching releases, 1 fetched records" in output
