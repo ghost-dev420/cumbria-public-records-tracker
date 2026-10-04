@@ -129,9 +129,9 @@ sources:
     max_records: 220
     allow_cross_domain: true
 
-  # LGSCO's generic SearchResults endpoint sometimes emits a stale "next"
-  # link and can render decision anchors inconsistently. The council-performance
-  # annual listings are server-rendered and provide stable decision URLs.
+  # LGSCO SearchResults only reliably renders the filtered result set when the
+  # date range and first page are explicit. Keep the upper bound dynamic so the
+  # source does not silently go stale. Tighten discovery to real case URLs only.
   - id: lgsco_cumberland
     name: LGSCO decisions concerning Cumberland Council
     kind: html_listing
@@ -142,12 +142,9 @@ sources:
     expect_facts: true
     minimum_fact_count: 1
     start_urls:
-      - https://www.lgo.org.uk/your-councils-performance/cumberland-council/decisions/2023/u/Listing?aname=Cumberland+Council&atype=Unitary+authority&dc=u&fd=2023-04-01&sortOrder=descending&t=both&td=2024-03-31
-      - https://www.lgo.org.uk/your-councils-performance/cumberland-council/decisions/2024/u/Listing?aname=Cumberland+Council&atype=Unitary+authority&dc=u&fd=2024-04-01&sortOrder=descending&t=both&td=2025-03-31
-      - https://www.lgo.org.uk/your-councils-performance/cumberland-council/decisions/2025/u/Listing?aname=Cumberland+Council&atype=Unitary+authority&dc=u&fd=2025-04-01&sortOrder=descending&t=both&td=2026-03-31
-      - https://www.lgo.org.uk/your-councils-performance/cumberland-council/decisions/2026/u/Listing?aname=Cumberland+Council&atype=Unitary+authority&dc=u&fd=2026-04-01&sortOrder=descending&t=both&td=2027-03-31
+      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland%20Council&dc=c%2Bnu%2Bu%2B&fd=0001-01-01&page=1&sortOrder=descending&td={today}
     include_link_regex: '/decisions/.+/\d{2}-\d{3}-\d{3}/?$'
-    page_limit: 40
+    page_limit: 20
     max_records: 250
     follow_pagination: true
     pagination_text: 'next'
@@ -163,12 +160,9 @@ sources:
     expect_facts: true
     minimum_fact_count: 1
     start_urls:
-      - https://www.lgo.org.uk/your-councils-performance/westmorland-and-furness-council/decisions/2023/u/Listing?aname=Westmorland+and+Furness+Council&atype=Unitary+authority&dc=u&fd=2023-04-01&sortOrder=descending&t=both&td=2024-03-31
-      - https://www.lgo.org.uk/your-councils-performance/westmorland-and-furness-council/decisions/2024/u/Listing?aname=Westmorland+and+Furness+Council&atype=Unitary+authority&dc=u&fd=2024-04-01&sortOrder=descending&t=both&td=2025-03-31
-      - https://www.lgo.org.uk/your-councils-performance/westmorland-and-furness-council/decisions/2025/u/Listing?aname=Westmorland+and+Furness+Council&atype=Unitary+authority&dc=u&fd=2025-04-01&sortOrder=descending&t=both&td=2026-03-31
-      - https://www.lgo.org.uk/your-councils-performance/westmorland-and-furness-council/decisions/2026/u/Listing?aname=Westmorland+and+Furness+Council&atype=Unitary+authority&dc=u&fd=2026-04-01&sortOrder=descending&t=both&td=2027-03-31
+      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Westmorland%20and%20Furness%20Council&dc=c%2Bnu%2Bu%2B&fd=0001-01-01&page=1&sortOrder=descending&td={today}
     include_link_regex: '/decisions/.+/\d{2}-\d{3}-\d{3}/?$'
-    page_limit: 40
+    page_limit: 20
     max_records: 250
     follow_pagination: true
     pagination_text: 'next'
