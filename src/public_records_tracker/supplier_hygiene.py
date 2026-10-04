@@ -4,6 +4,10 @@ import re
 
 
 _PAYMENT_CHANNEL_RE = re.compile(r"\s*\((CHAPS|NCR)\)\s*$", re.IGNORECASE)
+_PUBLIC_AUTHORITY_ABBREVIATION_RE = re.compile(
+    r"(?:^|\s)(?:T\s*\.\s*C\s*\.|P\s*\.\s*C\s*\.)\s*$",
+    re.IGNORECASE,
+)
 _PLACEHOLDER_NAMES = {
     "99999",
     "unknown",
@@ -61,7 +65,11 @@ def classify_noncommercial_payee(value: str) -> str | None:
     This is intentionally narrow.  Banks, utilities, charities and other
     organisations that *might* be legitimate suppliers are not suppressed.
     """
-    key = basic_org_key(value)
+    raw, _ = split_payment_channel(value)
+    if _PUBLIC_AUTHORITY_ABBREVIATION_RE.search(raw):
+        return "public_authority"
+
+    key = basic_org_key(raw)
     compact = key.replace(" ", "")
     if not key or compact.isdigit() or key in _PLACEHOLDER_NAMES:
         return "placeholder_or_accounting_code"
