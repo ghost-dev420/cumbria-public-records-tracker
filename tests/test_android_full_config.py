@@ -61,17 +61,20 @@ def test_android_full_registry_removes_known_blocked_or_stale_start_urls() -> No
     assert "whitehaventowncouncil.co.uk" in urls
 
 
-def test_android_lgsco_uses_dedicated_search_collector() -> None:
+def test_android_lgsco_uses_dedicated_collectors() -> None:
     sources = load_sources(Path("config/sources-android-full.yml"))
     by_id = {source["id"]: source for source in sources}
 
-    expected_names = {
-        "lgsco_cumberland": "Cumberland Council",
-        "lgsco_westmorland_furness": "Westmorland and Furness Council",
+    expected = {
+        "lgsco_cumberland": ("Cumberland Council", "lgsco_search"),
+        "lgsco_westmorland_furness": (
+            "Westmorland and Furness Council",
+            "lgsco_browser",
+        ),
     }
-    for source_id, organisation_name in expected_names.items():
+    for source_id, (organisation_name, kind) in expected.items():
         source = by_id[source_id]
-        assert source["kind"] == "lgsco_search"
+        assert source["kind"] == kind
         assert source["organisation_name"] == organisation_name
         assert source["endpoint"].endswith("/Decisions/SearchResults")
         assert source["prime_url"].endswith("/decisions")
@@ -90,6 +93,8 @@ def test_westmorland_lgsco_has_official_performance_fallbacks() -> None:
     by_id = {source["id"]: source for source in sources}
     source = by_id["lgsco_westmorland_furness"]
 
+    assert source["kind"] == "lgsco_browser"
+    assert source["browser_timeout"] >= 30
     assert source["fallback_to_date"] == "2026-9-7"
     urls = source["performance_fallback_urls"]
     assert len(urls) == 3
