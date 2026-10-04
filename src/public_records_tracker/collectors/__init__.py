@@ -9,7 +9,6 @@ from .modern_gov_xml import ModernGovXmlCollector
 COLLECTORS = {
     "html_listing": HtmlListingCollector,
     "contracts_finder": ContractsFinderCollector,
-    "find_a_tender": FindTenderCollector,
     "find_tender": FindTenderCollector,
     "lgsco_search": LgscoSearchCollector,
     "modern_gov": ModernGovCollector,
