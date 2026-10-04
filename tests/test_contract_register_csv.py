@@ -76,7 +76,7 @@ def test_extracts_official_contract_register_relationships_period_and_value(tmp_
     assert con.execute(
         "SELECT scheme,identifier FROM entity_identifiers WHERE entity_id=?",
         [supplier],
-    ).fetchone() == ("GB-COH", "01234567")
+    ).fetchone() == ("gb-coh", "01234567")
     con.close()
 
 
