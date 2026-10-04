@@ -36,8 +36,15 @@ class HtmlListingCollector:
     def _expand_url(url: str) -> str:
         # Some listing endpoints need an explicit moving upper date bound to
         # render results server-side. Keep that date dynamic in source config
-        # rather than baking in a value that quietly goes stale.
-        return str(url).replace("{today}", date.today().isoformat())
+        # rather than baking in a value that quietly goes stale. A few legacy
+        # ASP.NET search surfaces are picky about zero-padded month/day values,
+        # so support the exact unpadded shape they emit themselves too.
+        today = date.today()
+        return (
+            str(url)
+            .replace("{today}", today.isoformat())
+            .replace("{today_unpadded}", f"{today.year}-{today.month}-{today.day}")
+        )
 
     def collect(self):
         evidence = EvidenceClass(self.source["evidence_class"])
@@ -55,6 +62,9 @@ class HtmlListingCollector:
         emitted = 0
         failed_hosts: set[str] = set()
         pagination_404_ends = bool(self.source.get("pagination_404_ends", False))
+        ignored_attachment_statuses = {
+            int(status) for status in self.source.get("ignore_attachment_statuses", [])
+        }
 
         while queue and pages < self.page_limit and emitted < max_records:
             page_url, from_pagination = queue.popleft()
@@ -116,6 +126,17 @@ class HtmlListingCollector:
                     continue
                 try:
                     item = self.client.get(href)
+                except httpx.HTTPStatusError as exc:
+                    status = exc.response.status_code
+                    if status in ignored_attachment_statuses:
+                        print(
+                            f"INFO skipping unavailable listing record {href} "
+                            f"(HTTP {status})"
+                        )
+                        continue
+                    self.errors.append(exc)
+                    print(f"WARN attachment fetch failed {href}: {exc}")
+                    continue
                 except Exception as exc:
                     self.errors.append(exc)
                     print(f"WARN attachment fetch failed {href}: {exc}")
