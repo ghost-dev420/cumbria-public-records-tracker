@@ -144,6 +144,21 @@ class ContractsFinderCollector:
         seen_release_ids: set[str] = set()
         current = start.date()
         final = end.date()
+        total_days = max(1, (final - current).days + 1)
+        progress_every = max(1, int(self.source.get("progress_every_days", 90)))
+        scanned_days = 0
+        fetched_records = 0
+
+        def report_progress(*, force: bool = False) -> None:
+            if not scanned_days:
+                return
+            if force or scanned_days % progress_every == 0 or scanned_days == total_days:
+                print(
+                    "Contracts Finder: "
+                    f"{scanned_days}/{total_days} days scanned, "
+                    f"{len(seen_release_ids)} matching releases, "
+                    f"{fetched_records} fetched records"
+                )
 
         while current <= final:
             daily_url = self._daily_url(daily_template, current)
@@ -151,13 +166,17 @@ class ContractsFinderCollector:
                 response = self.client.get(daily_url)
             except httpx.HTTPStatusError as exc:
                 status = exc.response.status_code
+                scanned_days += 1
                 if status == 404:
+                    report_progress()
                     current += timedelta(days=1)
                     continue
                 self.errors.append(exc)
                 print(f"WARN Contracts Finder daily CSV {daily_url}: {exc}")
                 if status in {403, 429}:
+                    report_progress(force=True)
                     break
+                report_progress()
                 current += timedelta(days=1)
                 continue
 
@@ -180,13 +199,20 @@ class ContractsFinderCollector:
                     continue
                 if not isinstance(payload, dict):
                     continue
-                yield from self._release_records(
-                    payload=payload,
-                    response_url=str(release_response.url),
-                    evidence=evidence,
-                    buyers_hint=buyers,
-                    published_hint=flattened.get("date") or None,
+                records = list(
+                    self._release_records(
+                        payload=payload,
+                        response_url=str(release_response.url),
+                        evidence=evidence,
+                        buyers_hint=buyers,
+                        published_hint=flattened.get("date") or None,
+                    )
                 )
+                fetched_records += len(records)
+                yield from records
+
+            scanned_days += 1
+            report_progress()
             current += timedelta(days=1)
 
     def collect(self):
@@ -208,7 +234,7 @@ class ContractsFinderCollector:
             daily_template = _OFFICIAL_DAILY
 
         if daily_template:
-            daily_days_back = int(self.source.get("daily_days_back", 365))
+            daily_days_back = max(0, int(self.source.get("daily_days_back", 365)))
             start = end - timedelta(days=daily_days_back)
             yield from self._collect_daily_csv(
                 daily_template=str(daily_template),
