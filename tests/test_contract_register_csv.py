@@ -127,3 +127,51 @@ def test_ict_appendix_annual_cost_is_not_treated_as_contract_ceiling(tmp_path):
     assert ("STARTS_ON", "2025-09-01") in facts
     assert ("ENDS_ON", "2028-03-31") in facts
     con.close()
+
+
+def test_current_supplier_header_and_source_alias_are_supported(tmp_path):
+    con = _setup(tmp_path)
+    source = _source()
+    source["contract_supplier_aliases"] = {
+        "AWSL": "Allerdale Waste Services Limited",
+        "NatWest Bank": "National Westminster Bank PLC",
+    }
+    body = (
+        "Title,Current Supplier (s),Contract Start Date,Contract End Date\n"
+        "ABC - AWSL Waste & Recycling Services,AWSL,03/04/2020,03/04/2027\n"
+        "Banking Services - Cumberland,NatWest Bank,04/01/2023,31/03/2026\n"
+    ).encode()
+    record = Record(
+        source_id="cumberland_contract_register",
+        url="https://www.cumberland.gov.uk/example/legacy-register.csv",
+        title="Contracts Register",
+        body=body,
+        content_type="text/csv",
+        evidence_class=EvidenceClass.OFFICIAL_RECORD,
+    )
+
+    extract_contract_register_csv(
+        con=con,
+        record=record,
+        document_id="doc-aliases",
+        snapshot_id="snap-aliases",
+        source=source,
+    )
+
+    supplier_names = {
+        row[0]
+        for row in con.execute(
+            """SELECT e.canonical_name
+               FROM facts f
+               JOIN entities e ON e.entity_id=f.subject_entity_id
+               WHERE f.predicate='SUPPLIER_TO_CONTRACT'"""
+        ).fetchall()
+    }
+    assert supplier_names == {
+        "Allerdale Waste Services Limited",
+        "National Westminster Bank PLC",
+    }
+    assert ("STARTS_ON", "2020-04-03") in con.execute(
+        "SELECT predicate,value_text FROM facts"
+    ).fetchall()
+    con.close()
