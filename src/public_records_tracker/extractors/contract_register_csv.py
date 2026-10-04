@@ -28,6 +28,7 @@ _ALIASES = {
     },
     "supplier": {
         "supplier", "supplier name", "vendor", "awarded supplier", "contractor",
+        "current supplier", "current supplier s", "current supplier(s)",
     },
     "company_number": {
         "company number", "company no", "company reg number",
@@ -140,14 +141,28 @@ def _money(value: str) -> str | None:
     return format(amount.quantize(Decimal("0.01")), "f")
 
 
-def _suppliers(value: str) -> list[str]:
+def _supplier_aliases(source: dict) -> dict[str, str]:
+    configured = source.get("contract_supplier_aliases") or {}
+    if not isinstance(configured, dict):
+        return {}
+    return {
+        basic_org_key(str(raw)): " ".join(str(canonical).split()).strip()
+        for raw, canonical in configured.items()
+        if basic_org_key(str(raw)) and str(canonical).strip()
+    }
+
+
+def _suppliers(value: str, *, aliases: dict[str, str] | None = None) -> list[str]:
     raw = str(value or "").replace("\r", "\n")
     parts = re.split(r"[\n;]+", raw)
     output: list[str] = []
     seen: set[str] = set()
+    alias_map = aliases or {}
     for part in parts:
         name, _ = split_payment_channel(part)
         name = " ".join(name.split()).strip(" -–—")
+        raw_key = basic_org_key(name)
+        name = alias_map.get(raw_key, name)
         key = basic_org_key(name)
         if not name or key in _GENERIC_SUPPLIERS or key in seen:
             continue
@@ -211,13 +226,15 @@ def extract_contract_register_csv(
     source_name = str(source.get("name") or source.get("id") or "Council contract register")
     namespace = f"contract_register:{source.get('id', 'council')}"
     supplier_namespace = f"contract_register_supplier:{source.get('id', 'council')}"
+    supplier_aliases = _supplier_aliases(source)
     count = 0
 
     for row_number, row in parsed_rows:
         reference = _field(row, "reference")
         title = _field(row, "title")
         description = _field(row, "description")
-        supplier_names = _suppliers(_field(row, "supplier"))
+        raw_supplier_text = _field(row, "supplier")
+        supplier_names = _suppliers(raw_supplier_text, aliases=supplier_aliases)
         if not title and not supplier_names:
             continue
 
@@ -297,7 +314,10 @@ def extract_contract_register_csv(
                 entity_type="SUPPLIER",
                 name=supplier_name,
                 namespace=supplier_namespace,
-                metadata={"source_system": source_name},
+                metadata={
+                    "source_system": source_name,
+                    "source_supplier_text": raw_supplier_text,
+                },
             )
             supplier_entities.append(supplier)
             add_fact(
