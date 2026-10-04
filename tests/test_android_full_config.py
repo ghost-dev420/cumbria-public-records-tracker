@@ -63,3 +63,19 @@ def test_android_full_registry_removes_known_blocked_or_stale_start_urls() -> No
     assert "wigtontown.com" not in urls
     assert "wigton-tc.gov.uk" in urls
     assert "whitehaventowncouncil.co.uk" in urls
+
+
+def test_android_lgsco_uses_stable_council_performance_listings() -> None:
+    sources = load_sources(Path("config/sources-android-full.yml"))
+    by_id = {source["id"]: source for source in sources}
+
+    for source_id in ("lgsco_cumberland", "lgsco_westmorland_furness"):
+        source = by_id[source_id]
+        urls = source["start_urls"]
+        assert len(urls) >= 4
+        assert all("/your-councils-performance/" in url for url in urls)
+        assert all("/Decisions/SearchResults" not in url for url in urls)
+        assert source["include_link_regex"] == r"/decisions/.+/\d{2}-\d{3}-\d{3}/?$"
+        assert source["pagination_404_ends"] is True
+        assert source["expect_facts"] is True
+        assert source["minimum_fact_count"] == 1
