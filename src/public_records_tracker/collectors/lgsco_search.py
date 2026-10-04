@@ -46,7 +46,7 @@ class LgscoSearchCollector:
         # LGSCO's SearchResults endpoint is known to accept this unpadded form.
         return f"{today.year}-{today.month}-{today.day}"
 
-    def _search_url(self, page: int) -> str:
+    def _search_url(self, page: int, *, to_date: str | None = None) -> str:
         endpoint = str(
             self.source.get("endpoint")
             or "https://www.lgo.org.uk/Decisions/SearchResults"
@@ -57,7 +57,7 @@ class LgscoSearchCollector:
             "fd": str(self.source.get("from_date", "0001-01-01")),
             "page": str(page),
             "sortOrder": str(self.source.get("sort_order", "descending")),
-            "td": str(self.source.get("to_date") or self._upper_date()),
+            "td": str(to_date or self.source.get("to_date") or self._upper_date()),
         }
         return f"{endpoint}?{urlencode(params)}"
 
@@ -80,8 +80,11 @@ class LgscoSearchCollector:
             int(value) for value in self.source.get("ignore_decision_statuses", [404, 410])
         }
 
+        active_to_date = str(self.source.get("to_date") or self._upper_date())
+        fallback_to_date = self.source.get("fallback_to_date")
+
         for page in range(1, self.page_limit + 1):
-            url = self._search_url(page)
+            url = self._search_url(page, to_date=active_to_date)
             try:
                 response = self.client.get(url)
             except Exception as exc:
@@ -95,6 +98,36 @@ class LgscoSearchCollector:
                 match.group(0).replace(" ", "-") for match in _CASE_REF.finditer(text)
             }
             decision_urls = self._decision_urls(str(response.url), response.content)
+
+            if (
+                page == 1
+                and not references
+                and not decision_urls
+                and fallback_to_date
+                and str(fallback_to_date) != active_to_date
+            ):
+                active_to_date = str(fallback_to_date)
+                fallback_url = self._search_url(page, to_date=active_to_date)
+                print(
+                    f"LGSCO {self.source['id']}: rolling search returned no cases; "
+                    f"retrying known-good baseline td={active_to_date}"
+                )
+                try:
+                    response = self.client.get(fallback_url)
+                except Exception as exc:
+                    self.errors.append(exc)
+                    print(f"WARN LGSCO baseline fetch failed {fallback_url}: {exc}")
+                    break
+                soup = BeautifulSoup(response.content, "html.parser")
+                text = soup.get_text("\n", strip=True)
+                references = {
+                    match.group(0).replace(" ", "-")
+                    for match in _CASE_REF.finditer(text)
+                }
+                decision_urls = self._decision_urls(
+                    str(response.url), response.content
+                )
+
             print(
                 f"LGSCO {self.source['id']}: page {page}/{self.page_limit}, "
                 f"{len(references)} case references, {len(decision_urls)} decision URLs"
