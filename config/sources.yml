@@ -306,3 +306,24 @@ sources:
     max_records: 150
     follow_pagination: true
     pagination_text: 'next'
+
+  - id: cumberland_contract_register
+    name: Cumberland Council official contracts register
+    kind: html_listing
+    enabled: true
+    evidence_class: OFFICIAL_RECORD
+    organisation_ids: [cumberland_council]
+    contract_buyer_organisation_id: cumberland_council
+    contract_supplier_aliases:
+      AWSL: Allerdale Waste Services Limited
+      GLL: Greenwich Leisure Ltd
+      NatWest: National Westminster Bank PLC
+      NatWest Bank: National Westminster Bank PLC
+    extractors: [contract_register_csv]
+    expect_facts: true
+    minimum_fact_count: 1
+    start_urls:
+      - https://www.cumberland.gov.uk/business-and-licensing/procurement-social-value-tenders-and-contracts/procurement-and-social-value/contract-register
+    include_link_regex: 'cumberland_council_contracts_register.*\.csv(?:\?.*)?$'
+    page_limit: 1
+    max_records: 8
