@@ -2,8 +2,9 @@ from __future__ import annotations
 
 import re
 from collections import deque
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import urldefrag, urljoin, urlsplit
 
+import httpx
 from bs4 import BeautifulSoup
 
 from ..http import SafeHttpClient
@@ -23,26 +24,47 @@ class HtmlListingCollector:
         self.page_limit = page_limit or int(source.get("page_limit", 1))
         self.errors: list[Exception] = []
 
+    @staticmethod
+    def _clean_url(url: str) -> str:
+        # Cookie/privacy anchors and other fragments never change the resource
+        # being fetched, but can otherwise defeat de-duplication and get copied
+        # into pagination URLs.
+        return urldefrag(str(url))[0]
+
     def collect(self):
         evidence = EvidenceClass(self.source["evidence_class"])
         link_re = re.compile(self.source.get("include_link_regex", ".*"), re.I)
         filter_text = self.source.get("filter_text", "").casefold()
         pagination_text = self.source.get("pagination_text", "next").casefold()
         max_records = int(self.source.get("max_records", 100))
-        queue = deque(self.source.get("start_urls", []))
+        queue = deque(
+            (self._clean_url(url), False) for url in self.source.get("start_urls", [])
+        )
         seen_pages: set[str] = set()
         seen_records: set[str] = set()
         pages = 0
         emitted = 0
         failed_hosts: set[str] = set()
+        pagination_404_ends = bool(self.source.get("pagination_404_ends", False))
 
         while queue and pages < self.page_limit and emitted < max_records:
-            page_url = queue.popleft()
+            page_url, from_pagination = queue.popleft()
             if page_url in seen_pages:
                 continue
             seen_pages.add(page_url)
             try:
                 response = self.client.get(page_url)
+            except httpx.HTTPStatusError as exc:
+                status = exc.response.status_code
+                if from_pagination and pagination_404_ends and status in {404, 410}:
+                    print(
+                        f"INFO listing pagination exhausted at {page_url} "
+                        f"(HTTP {status})"
+                    )
+                    continue
+                self.errors.append(exc)
+                print(f"WARN listing fetch failed {page_url}: {exc}")
+                continue
             except Exception as exc:
                 self.errors.append(exc)
                 print(f"WARN listing fetch failed {page_url}: {exc}")
@@ -64,12 +86,12 @@ class HtmlListingCollector:
             soup = BeautifulSoup(response.content, "html.parser")
             base_host = urlsplit(str(response.url)).netloc.casefold()
             for anchor_tag in soup.find_all("a", href=True):
-                href = urljoin(str(response.url), anchor_tag["href"])
+                href = self._clean_url(urljoin(str(response.url), anchor_tag["href"]))
                 anchor = " ".join(anchor_tag.stripped_strings).strip()
                 context = " ".join(anchor_tag.parent.stripped_strings) if anchor_tag.parent else anchor
                 if self.source.get("follow_pagination", False) and pagination_text in anchor.casefold():
                     if urlsplit(href).netloc.casefold() == base_host and href not in seen_pages:
-                        queue.append(href)
+                        queue.append((href, True))
                 if not link_re.search(href):
                     continue
                 if filter_text and filter_text not in context.casefold() and filter_text not in anchor.casefold():
