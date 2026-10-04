@@ -1,0 +1,36 @@
+{
+  "entity_id": "77a8a17fba7317271c697b11e23a5f0093261d611d9a6baf549f44ef4aac1d27",
+  "entity_type": "SUPPLIER",
+  "name": "CUMBRIA TAXI",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "d8cb9df69c0e2175761e5a595b0e4939b0b24376e8dff6234bdef5e8915746e9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-216b672a-d815-40ca-893c-6a1315306f5d-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1b - Up to 8 Passenger Seats with Passenger Assistant for various areas closing 23 February 2026 (F43)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e604e47c-6a66-422f-90b3-85fdfdf0aa48-902276.json",
+      "published_at": "2026-06-16T09:39:36+01:00",
+      "retrieved_at": "2026-10-03 23:34:03.413357",
+      "sha256": "46c486ab865a0475ea7b6f7ceb86a9a081d37a0340800958ad1efbf98fcc2309",
+      "related_entity": "ocds-b5fd17-216b672a-d815-40ca-893c-6a1315306f5d:ocds-b5fd17-216b672a-d815-40ca-893c-6a1315306f5d-1"
+    },
+    {
+      "fact_id": "0a7354b515f0f06790169b4e2054172b019ca94a6ec5e7109846f469e9f33b9d",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-007a7ed9-084d-4b25-98c9-d54e61881ee9-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 11 September 2023 (F52-3)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/98280ce6-bc46-4116-a955-d84c4380cd42-892665.json",
+      "published_at": "2026-04-13T15:39:05+01:00",
+      "retrieved_at": "2026-10-03 23:21:20.326347",
+      "sha256": "7f86a993b1b807982c61cfb493c597de7dc141f1af4e84aab3019a38106fddbb",
+      "related_entity": "ocds-b5fd17-007a7ed9-084d-4b25-98c9-d54e61881ee9:ocds-b5fd17-007a7ed9-084d-4b25-98c9-d54e61881ee9-1"
+    }
+  ]
+}

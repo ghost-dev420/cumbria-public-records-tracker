@@ -1,0 +1,22 @@
+{
+  "entity_id": "309c875fff8dd28dd49ca87cfd2f5e0ddcf50f379d000c8c48c3ddf92955aa00",
+  "entity_type": "ORGANISATION",
+  "name": "Sedbergh Town Band",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cc7a032f8d411c2a1d0f07dcbbb17b994587aa29efa1a09c0a598267f6334244",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "3864",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 10",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round one in 2025 to 2026: Sedbergh Town Band [e92dff06313a6de813ae]"
+    }
+  ]
+}

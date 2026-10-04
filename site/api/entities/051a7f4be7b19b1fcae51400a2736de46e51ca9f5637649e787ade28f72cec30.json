@@ -1,0 +1,22 @@
+{
+  "entity_id": "051a7f4be7b19b1fcae51400a2736de46e51ca9f5637649e787ade28f72cec30",
+  "entity_type": "COMMITTEE",
+  "name": "Staffing Sub Committees",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "32ca5c721ff403354873e973b6134a057b6eb40e4a8e4b87336c860cc6e19a93",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Staffing Sub Committees",
+      "locator": "committee 906",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

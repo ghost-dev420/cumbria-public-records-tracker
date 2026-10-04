@@ -1,0 +1,22 @@
+{
+  "entity_id": "ede66f598361a67ec1f95a3fa9ef974c728d308c38b4ccc1a12583d628b696d7",
+  "entity_type": "SUPPLIER",
+  "name": "ANTI RACIST CUMBRIA",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "26afa8e1557bef29b31bc63715291151ddaf72617c3fc3483171f618334779ce",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "384.51",
+      "locator": "XLSX Report!row 257",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

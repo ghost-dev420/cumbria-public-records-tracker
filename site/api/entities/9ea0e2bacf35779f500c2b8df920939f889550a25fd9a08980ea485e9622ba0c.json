@@ -1,0 +1,22 @@
+{
+  "entity_id": "9ea0e2bacf35779f500c2b8df920939f889550a25fd9a08980ea485e9622ba0c",
+  "entity_type": "COMMITTEE",
+  "name": "Eden Local Area Planning Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4f9cc8744804849b7890888ad0b298b2fee121624ed4012ed6ff65d21fb0b513",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Eden Local Area Planning Committee",
+      "locator": "committee 264",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "c1cb88790a6fcd77de757e65937665903323588c87f19b43329fd6e47b6e4716",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Health and Care Scrutiny Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e7cddee17b310f7138ec8a23f18cb4396eceeffc7824096837eab339b3a0f404",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Health and Care Scrutiny Panel",
+      "locator": "committee 769",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

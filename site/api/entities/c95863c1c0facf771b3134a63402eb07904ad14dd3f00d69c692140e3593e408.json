@@ -1,0 +1,22 @@
+{
+  "entity_id": "c95863c1c0facf771b3134a63402eb07904ad14dd3f00d69c692140e3593e408",
+  "entity_type": "SUPPLIER",
+  "name": "H F T GOUGH & CO",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1fc8ec690cf632801d5d85b55cce94b6dd83fbafbec5b1a320bfb006d4dc44dc",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "225.00",
+      "locator": "XLSX Report!row 351",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

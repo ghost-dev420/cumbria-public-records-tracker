@@ -1,0 +1,22 @@
+{
+  "entity_id": "80f264f6e34813d80ad08e2884f9df211cfe9a62d59a95690361df449ee7e805",
+  "entity_type": "SUPPLIER",
+  "name": "SOLWAY FIRTH PARTNERSHIP",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3357ec6277f00bf7f2de2338ff7c2785ca96cc286aabc4388357f37901f8049b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1000.00",
+      "locator": "XLSX Sheet1!row 480",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

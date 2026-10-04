@@ -1,0 +1,36 @@
+{
+  "entity_id": "fb070ef23db766466fdc27cbf8dfae660ec01325146f10715006aabea3224108",
+  "entity_type": "SUPPLIER",
+  "name": "Post Office Limited",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "2d2b229a7166edf7808677448529bb0b18ee46ae291e740a6f27f1e46a4161b3",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1647.80",
+      "locator": "XLSX Sheet1!row 19",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f9b201ffb4c457baedb1383e8d580ce455d103099166db3bec555788fbf6345f",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "328.60",
+      "locator": "XLSX Sheet1!row 199",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

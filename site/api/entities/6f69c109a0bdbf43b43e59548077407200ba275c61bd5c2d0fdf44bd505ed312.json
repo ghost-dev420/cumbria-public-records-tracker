@@ -1,0 +1,22 @@
+{
+  "entity_id": "6f69c109a0bdbf43b43e59548077407200ba275c61bd5c2d0fdf44bd505ed312",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Lake Administration Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "dd4ed68267ffaf671776f232c3a118ce99d657551ef5aea62d1a4a2cf8f62bac",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Lake Administration Sub-Committee",
+      "locator": "committee 705",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "f4b86768e67f3556b36d633e05a59adfd02a79721801698879f657272c70ef01",
+  "entity_type": "ORGANISATION",
+  "name": "Arnside Tennis Courts",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cb88411e6dd742075eafb8a2d99bb4c38fd9d802bfaafb043b8922cfe3f2d790",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1700",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 21",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round 2 in 2025 to 2026: Arnside Tennis Courts [7b54cc2918ddf44c5a91]"
+    }
+  ]
+}

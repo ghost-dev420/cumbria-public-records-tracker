@@ -1,0 +1,22 @@
+{
+  "entity_id": "527df2ad4dc8b5dfa069060d808ec544c0b8c9b7919401f49712c9ff6a9e20b3",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Informal Cabinet and CMT (CPG)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8a05e869d8f2da9dbce275d4591fe279cd659eb9a444bfa7bbf07d31e498dd6a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Informal Cabinet and CMT (CPG)",
+      "locator": "committee 547",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

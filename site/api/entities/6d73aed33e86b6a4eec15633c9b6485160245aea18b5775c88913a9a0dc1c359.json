@@ -1,0 +1,22 @@
+{
+  "entity_id": "6d73aed33e86b6a4eec15633c9b6485160245aea18b5775c88913a9a0dc1c359",
+  "entity_type": "SUPPLIER",
+  "name": "ENVIRONMENT AGENCY - SHARED SERVES CONNECTED LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2ad4811b618f6d3b939bec7bbb9097bf800d1391b88124da75926156acd7d11c",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "68.00",
+      "locator": "XLSX Sheet 1!row 427",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

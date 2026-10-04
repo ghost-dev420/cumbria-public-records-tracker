@@ -1,0 +1,78 @@
+{
+  "entity_id": "8f01c6f4ef0bdc07b9a836f073361abf58209483edc0677c219e5b0967f8096b",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-015-689",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "0b676692f016eb4a59112c841b71b1976d2ea0e9a209c693459194d362fe4ef1",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-015-689",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (23 015 689)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/23-015-689",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:13.222186",
+      "sha256": "42a5fe53906991db3e693909ad1ef20d3acb2eecc62d5fd5fe29268eb9e66f8e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "861cd234bf5c6d8fb63d2b6ab06f1676a84b97cdfd22a62fd4d5848e57a3ac92",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (23 015 689)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/23-015-689",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:13.222186",
+      "sha256": "42a5fe53906991db3e693909ad1ef20d3acb2eecc62d5fd5fe29268eb9e66f8e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "b2b94efdf66945c52b7a71aa2bd147de6b49e6eaf0b6f7860479c0e50c3374b8",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (23 015 689)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/23-015-689",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:13.222186",
+      "sha256": "42a5fe53906991db3e693909ad1ef20d3acb2eecc62d5fd5fe29268eb9e66f8e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "652874cd52fd7c6ac015559a2d0facbedcf2661db264ae0c7d773af886cac327",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "09 Jun 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (23 015 689)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/23-015-689",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:13.222186",
+      "sha256": "42a5fe53906991db3e693909ad1ef20d3acb2eecc62d5fd5fe29268eb9e66f8e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "70927a1956dfd328eac6e41efb7f9d911bfeb422a2297b62745fb14046613f3c",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Mr X complained the Council failed to follow procedure when considering an application for a premises licence. The Council granted the licence. Mr X says the new pub creates a noise nuisance. The Ombudsman has found the Council at fault for failing to consult with the responsible authority for planning. It is unlikely the planning authority would have objected to the application; the result would have been the same. There is therefore no injustice to Mr X.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (23 015 689)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/23-015-689",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:13.222186",
+      "sha256": "42a5fe53906991db3e693909ad1ef20d3acb2eecc62d5fd5fe29268eb9e66f8e",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

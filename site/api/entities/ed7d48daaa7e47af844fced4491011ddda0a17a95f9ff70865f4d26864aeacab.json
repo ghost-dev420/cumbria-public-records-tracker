@@ -1,0 +1,92 @@
+{
+  "entity_id": "ed7d48daaa7e47af844fced4491011ddda0a17a95f9ff70865f4d26864aeacab",
+  "entity_type": "SUPPLIER",
+  "name": "Metcalfe Plant Hire Ltd",
+  "fact_count": 6,
+  "timeline": [
+    {
+      "fact_id": "fdba2702eb052416af0198f777b8fe86a911236e5a93723e3e02e5370d900f5f",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-1f70e804-2020-4f81-9651-3891b711a52e-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 2A - Reconstruction of Old Row, Stainton Retaining Wall",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0067c065-6499-4aec-b9ef-0f81ad76d234-914683.json",
+      "published_at": "2026-09-18T13:48:47+01:00",
+      "retrieved_at": "2026-10-03 23:47:56.725985",
+      "sha256": "23756d4e5554f5e6aa4f276613d441b98dd5f0964a1fe1caded9541359503642",
+      "related_entity": "ocds-b5fd17-1f70e804-2020-4f81-9651-3891b711a52e:ocds-b5fd17-1f70e804-2020-4f81-9651-3891b711a52e-1"
+    },
+    {
+      "fact_id": "0ec82d8469f1b98c6e3dab409c13dc45dfca3db989075e2693b6538f7220c3a6",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-3d65ff47-deae-426e-83bd-e2defe223423-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 2B South Walney Landfill Erosion Resistance Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/2aee8e6d-f389-431a-b543-29c755c7f9eb-914637.json",
+      "published_at": "2026-09-18T10:49:04+01:00",
+      "retrieved_at": "2026-10-03 23:48:01.602561",
+      "sha256": "77110cc3228707e18938f51534bf87288029fdf3d4dc2c9459c3b4e4d2a04d1e",
+      "related_entity": "ocds-b5fd17-3d65ff47-deae-426e-83bd-e2defe223423:ocds-b5fd17-3d65ff47-deae-426e-83bd-e2defe223423-1"
+    },
+    {
+      "fact_id": "ca6ad612ebde35144893383319f2316cc97c3b731571df3c6fe5af74ecaa1ec2",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5a435f08-423f-4ce8-9a29-5bb41211d526-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 2A - Cockley Beck Cattle Grid Replacement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5588a947-242c-4bea-9235-1f380e47f412-914629.json",
+      "published_at": "2026-09-18T10:21:43+01:00",
+      "retrieved_at": "2026-10-03 23:48:03.299741",
+      "sha256": "759e461ce6056794cc1b74ebd75640b24a2e2b0bd48392c43f08c81d7378dd54",
+      "related_entity": "ocds-b5fd17-5a435f08-423f-4ce8-9a29-5bb41211d526:ocds-b5fd17-5a435f08-423f-4ce8-9a29-5bb41211d526-1"
+    },
+    {
+      "fact_id": "bd1e6728759f5366c5d3de2796bda31bcf6a8a21bdad9b6f2a48f37e24e9b66b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-bc22c951-f1cd-4c4a-8d4c-759c22b9a599-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 2B - Riverside Corridor, Kendal, Active Travel",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9b57b0bf-2dea-4189-a865-bc74f009df16-914602.json",
+      "published_at": "2026-09-18T09:03:56+01:00",
+      "retrieved_at": "2026-10-03 23:48:09.668547",
+      "sha256": "055f1d8b6aab1d3f81e2c6d7a031d45bde6e90069665bea15a3d07a11a82213b",
+      "related_entity": "ocds-b5fd17-bc22c951-f1cd-4c4a-8d4c-759c22b9a599:ocds-b5fd17-bc22c951-f1cd-4c4a-8d4c-759c22b9a599-1"
+    },
+    {
+      "fact_id": "c2f7f29f41021e9d8d08767075e38f8a03267236772dd6df0d54a97ce4028edd",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-7412a184-c434-455c-b82f-e56204c9c87c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Reconstruction of Smorthwaite Retaining Wall",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/942bd02d-89e2-443d-bea3-ca20bd4fbc50-914397.json",
+      "published_at": "2026-09-16T16:29:14+01:00",
+      "retrieved_at": "2026-10-03 23:47:35.166040",
+      "sha256": "02165cb2bed8acdfc4c1a1f90ff75092cbd86c76cad3ef6a95e7d59916942ae8",
+      "related_entity": "ocds-b5fd17-7412a184-c434-455c-b82f-e56204c9c87c:ocds-b5fd17-7412a184-c434-455c-b82f-e56204c9c87c-1"
+    },
+    {
+      "fact_id": "f99d944f9fbaf1911fd8aa7835184344ac4aed2a77eed872212ab03583530c7b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-e12da156-272e-4aa6-b123-0bc293bf8522-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Reconstruction of Millholm Culvert",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0772a58b-16ca-4d98-87a2-988fcb4ff1c7-871274.json",
+      "published_at": "2025-11-07T10:56:03Z",
+      "retrieved_at": "2026-10-03 22:56:18.273852",
+      "sha256": "d2e09b953d8a20f530a030cdf74fa618cdfee42ab373369f371542edee7b6d86",
+      "related_entity": "ocds-b5fd17-e12da156-272e-4aa6-b123-0bc293bf8522:ocds-b5fd17-e12da156-272e-4aa6-b123-0bc293bf8522-1"
+    }
+  ]
+}

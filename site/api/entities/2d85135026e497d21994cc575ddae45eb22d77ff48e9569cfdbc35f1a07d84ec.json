@@ -1,0 +1,22 @@
+{
+  "entity_id": "2d85135026e497d21994cc575ddae45eb22d77ff48e9569cfdbc35f1a07d84ec",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Nuclear Issues Task Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "91cb358ea4ac3ef8fe1fedd0ea9773cce5c9fb983254cf6bc7d8ee146ac3bfab",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Nuclear Issues Task Group",
+      "locator": "committee 380",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

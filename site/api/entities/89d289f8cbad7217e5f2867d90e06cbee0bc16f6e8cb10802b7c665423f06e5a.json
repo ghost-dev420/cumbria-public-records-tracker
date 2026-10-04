@@ -1,0 +1,22 @@
+{
+  "entity_id": "89d289f8cbad7217e5f2867d90e06cbee0bc16f6e8cb10802b7c665423f06e5a",
+  "entity_type": "SUPPLIER",
+  "name": "A B Safety Training ServicesLtd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "247c0d24e29fcdc42513241b5c9399009709c0c7cc8c70c83f2480e45850b6ed",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-42cba39e-79ee-4ae6-a7d4-d03450180bed-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT - lot 1 Fire Warden Residential",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7e9ffb74-18ae-4a28-98da-2c36ac60cd50-888681.json",
+      "published_at": "2026-03-16T12:35:42Z",
+      "retrieved_at": "2026-10-03 23:11:21.609003",
+      "sha256": "846759199fb759914d8b78d70ecd14dddde90746c217c8ac1c00425de54ce0ae",
+      "related_entity": "ocds-b5fd17-42cba39e-79ee-4ae6-a7d4-d03450180bed:ocds-b5fd17-42cba39e-79ee-4ae6-a7d4-d03450180bed-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "13dc3923be648ac2cd0e21a5655fe5fed9f4e816c5f331ab4727eb8bc0010fc5",
+  "entity_type": "WARD",
+  "name": "Kells and Sandwith",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ee450ab0c4685ccf7bbd398d2bf0eab6398b56776057f5fe3e04aa1213b3a628",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Kells and Sandwith",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Emma Williamson"
+    }
+  ]
+}

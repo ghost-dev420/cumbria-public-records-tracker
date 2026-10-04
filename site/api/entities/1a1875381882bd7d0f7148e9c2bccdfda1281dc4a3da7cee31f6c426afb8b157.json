@@ -1,0 +1,22 @@
+{
+  "entity_id": "1a1875381882bd7d0f7148e9c2bccdfda1281dc4a3da7cee31f6c426afb8b157",
+  "entity_type": "SUPPLIER",
+  "name": "JUSTIN GARDNER CONSULTING",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a61e782510f0503e34017e9d9a998b36ff2d9f977ac20f812e85f81dfe472a56",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "10250.00",
+      "locator": "XLSX Report!row 332",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

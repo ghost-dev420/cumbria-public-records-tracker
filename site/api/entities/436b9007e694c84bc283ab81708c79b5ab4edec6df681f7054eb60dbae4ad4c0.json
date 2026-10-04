@@ -1,0 +1,22 @@
+{
+  "entity_id": "436b9007e694c84bc283ab81708c79b5ab4edec6df681f7054eb60dbae4ad4c0",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Development Control Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "20a8b862b3c0111a6c1cc6358829a7823cbd9e40e723febac778d203bb277451",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Development Control Sub-Committee",
+      "locator": "committee 679",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

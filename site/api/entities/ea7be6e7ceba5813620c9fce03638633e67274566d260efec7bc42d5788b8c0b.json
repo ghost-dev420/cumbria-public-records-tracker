@@ -1,0 +1,22 @@
+{
+  "entity_id": "ea7be6e7ceba5813620c9fce03638633e67274566d260efec7bc42d5788b8c0b",
+  "entity_type": "COMMITTEE",
+  "name": "CBC Planning Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a0a96919eba22833ed0c3e032543e0fc053d5d0ffbfa5b0f77335e514554eb5a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CBC Planning Panel",
+      "locator": "committee 425",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

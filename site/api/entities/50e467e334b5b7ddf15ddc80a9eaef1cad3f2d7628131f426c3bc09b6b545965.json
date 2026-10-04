@@ -1,0 +1,64 @@
+{
+  "entity_id": "50e467e334b5b7ddf15ddc80a9eaef1cad3f2d7628131f426c3bc09b6b545965",
+  "entity_type": "SUPPLIER",
+  "name": "Desk Top Publishing Micro Systems Limited (DTP)",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "5f0da426fcf1c1fcca295a32276b5414edc02f891963fbaf7f7f12b2c6608e74",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-8caafa61-6d88-4462-8784-25300ed75adb-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Supply of HP Pro 4 Laptops (x124)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/de146d1a-b795-4fa6-83aa-b7681bcaad2f-911450.json",
+      "published_at": "2026-08-20T11:31:22+01:00",
+      "retrieved_at": "2026-10-03 23:43:03.158554",
+      "sha256": "c7620aa091b1de9b279450e031f3439adbfe17a2f44e052566023ff79d38f45b",
+      "related_entity": "ocds-b5fd17-8caafa61-6d88-4462-8784-25300ed75adb:ocds-b5fd17-8caafa61-6d88-4462-8784-25300ed75adb-1"
+    },
+    {
+      "fact_id": "81bfaed94fcec0879e6ea54ddbf77ca916f4f9e452ef1cc13ec9c72b6278191a",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-35330fa2-1a4b-45f7-b406-b26ba20d1b99-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Supply of HP Pro 4 Laptops (x124)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5ae65739-698c-4049-bf3e-7588ecc5c414-910908.json",
+      "published_at": "2026-08-14T16:05:53+01:00",
+      "retrieved_at": "2026-10-03 23:42:21.610260",
+      "sha256": "c5a752a5c1a9554b4b0394121c4b6998ccfb36d4fb51cfeb3f0781fad67c215e",
+      "related_entity": "ocds-b5fd17-35330fa2-1a4b-45f7-b406-b26ba20d1b99:ocds-b5fd17-35330fa2-1a4b-45f7-b406-b26ba20d1b99-1"
+    },
+    {
+      "fact_id": "7e075e524bad59515b40cd5f4d7d5948b547c990eb80152bbf16fdf52d622e6b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-44a51468-c83e-4a6a-ba25-6d27ee0cbe59-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Supply of HP Probook x360 435 G10 Laptops (x150)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8260e4bf-7c13-418b-a60e-1c2422fb582c-885084.json",
+      "published_at": "2026-02-20T17:34:06Z",
+      "retrieved_at": "2026-10-03 23:09:02.210459",
+      "sha256": "299955e5ed04d4625003ac354f1b4d41146357eda7e7e09218949c8c1cf20a77",
+      "related_entity": "ocds-b5fd17-44a51468-c83e-4a6a-ba25-6d27ee0cbe59:ocds-b5fd17-44a51468-c83e-4a6a-ba25-6d27ee0cbe59-1"
+    },
+    {
+      "fact_id": "c7673a33f41576203b9ffbe21e25ac6f6175e21cc3f5556d9d6f8b1f94de7129",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-0d3fc6aa-eafe-454f-8ae0-91db8a37f3f2-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Supply of HP Probook x360 435 G10 Laptops (x150)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a5beae43-f0a8-4a60-9ad7-6ee7fd16a6f7-880004.json",
+      "published_at": "2026-01-21T10:29:58Z",
+      "retrieved_at": "2026-10-03 23:05:57.563200",
+      "sha256": "7cc81fe7d3eab7bf788261056198dc31106ccfbf13674d554b33cc1c7f6d03d5",
+      "related_entity": "ocds-b5fd17-0d3fc6aa-eafe-454f-8ae0-91db8a37f3f2:ocds-b5fd17-0d3fc6aa-eafe-454f-8ae0-91db8a37f3f2-1"
+    }
+  ]
+}

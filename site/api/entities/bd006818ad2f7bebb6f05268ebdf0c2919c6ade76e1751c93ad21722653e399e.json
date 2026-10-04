@@ -1,0 +1,22 @@
+{
+  "entity_id": "bd006818ad2f7bebb6f05268ebdf0c2919c6ade76e1751c93ad21722653e399e",
+  "entity_type": "WARD",
+  "name": "Upper Kent",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5f7c63d310fda329ffbbfb1b4118322ddfef12501f0405b79eba7ac9ec5adffe",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Upper Kent",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Ali Jama"
+    }
+  ]
+}

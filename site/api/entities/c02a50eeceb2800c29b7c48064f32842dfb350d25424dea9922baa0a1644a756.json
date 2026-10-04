@@ -1,0 +1,78 @@
+{
+  "entity_id": "c02a50eeceb2800c29b7c48064f32842dfb350d25424dea9922baa0a1644a756",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-014-477",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "5892d8050e7e6d1964698ce944bdfad0756e77c8b35d24f7df3f44353f5b810d",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-014-477",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 014 477)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/leisure-and-culture/25-014-477",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:34.937839",
+      "sha256": "1c581019ff475fdc7604f7131226fcac0f4c532d73223af1fbdfd8941bebca68",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "0ab317f0e58d8b5610fb8c45283523b35f10f721bfe7ddf85a72bc74e41415ca",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Other Categories",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 014 477)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/leisure-and-culture/25-014-477",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:34.937839",
+      "sha256": "1c581019ff475fdc7604f7131226fcac0f4c532d73223af1fbdfd8941bebca68",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "4fe16acb8d8505fd9a6991f1988114be9e05ed187548bd598e69c1962f07ece3",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 014 477)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/leisure-and-culture/25-014-477",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:34.937839",
+      "sha256": "1c581019ff475fdc7604f7131226fcac0f4c532d73223af1fbdfd8941bebca68",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "7b55b5e39a9cbd545782a4424a154d35235b6cffceb6fcd85f0705f50251efc6",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "12 Feb 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 014 477)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/leisure-and-culture/25-014-477",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:34.937839",
+      "sha256": "1c581019ff475fdc7604f7131226fcac0f4c532d73223af1fbdfd8941bebca68",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "6e1362cdbd07c9e1d5dd9e314d1959ed0baa55d74a8d82f745945bb0924d7887",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about the Council’s refusal to complete an Environmental Impact Assessment in a local park. This is because there is not enough evidence of fault.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 014 477)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/leisure-and-culture/25-014-477",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:34.937839",
+      "sha256": "1c581019ff475fdc7604f7131226fcac0f4c532d73223af1fbdfd8941bebca68",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

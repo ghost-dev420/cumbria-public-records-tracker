@@ -1,0 +1,22 @@
+{
+  "entity_id": "034b9996b5e2d6511f2ddca5a749c67342d16fb93e51e5360b35a6ece74b16b7",
+  "entity_type": "SUPPLIER",
+  "name": "CARLISLE GLASS LTD CARLISLE GLASS LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e27ea4076b3d21735baf378eb55696145c8dc3c75a5fd0f68654126fd1121e4f",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "69.50",
+      "locator": "XLSX Sheet 1!row 38",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

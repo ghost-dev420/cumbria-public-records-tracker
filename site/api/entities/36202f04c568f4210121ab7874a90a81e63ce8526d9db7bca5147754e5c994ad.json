@@ -1,0 +1,22 @@
+{
+  "entity_id": "36202f04c568f4210121ab7874a90a81e63ce8526d9db7bca5147754e5c994ad",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Safe and Secure Communities Scrutiny Panel (E)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6f16fa061e9bbadc4007698a99fb0a8a39c633a16ca41d1ebc8e915559dacc76",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Safe and Secure Communities Scrutiny Panel (E)",
+      "locator": "committee 817",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "0658a1a04af043c70c6b7059797235a79b9c0717eb8f237fcc76816b832bdcb6",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-021-622",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "e87c32ed97b19c1f85db98e8618ce3650425d5b78a9c55e8920dab2871efd287",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-021-622",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 021 622)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-021-622",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:55.039290",
+      "sha256": "478945f863277edcf4e1f96dc4edbf34f969b77cbb69fd14c36147ec24284cef",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "33fdba926a983ab2d226202210cdc115b7e34c0536527858b9730f1e67f4be98",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Children's care services",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 021 622)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-021-622",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:55.039290",
+      "sha256": "478945f863277edcf4e1f96dc4edbf34f969b77cbb69fd14c36147ec24284cef",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "9f161f568172910df014aceca6f7fb7ef13eb0e2877efafbc9014a35ac0871bd",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 021 622)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-021-622",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:55.039290",
+      "sha256": "478945f863277edcf4e1f96dc4edbf34f969b77cbb69fd14c36147ec24284cef",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "c17292403aa2a9291084c8aa8739e8ead35a1a25800900fbe6f5d65c49be91d2",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "13 Oct 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 021 622)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-021-622",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:55.039290",
+      "sha256": "478945f863277edcf4e1f96dc4edbf34f969b77cbb69fd14c36147ec24284cef",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "bdba22758a58d7c56c3ff9f930741f7c16d4d7e951b2734d673b3d4f4c10ebb2",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We have found that both councils – Westmorland & Furness and Cumberland – caused delays in their handling of Mr X’s linked complaints about children’s social care. Both will now apologise to Mr X and will take action to improve their respective services. Cumberland will also make a symbolic payment which recognises",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 021 622)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-021-622",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:55.039290",
+      "sha256": "478945f863277edcf4e1f96dc4edbf34f969b77cbb69fd14c36147ec24284cef",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "79c64a9135cd7689da29c9e8dd01f5e2f9725d704b85e0783e345a0803e0bf08",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Westmorland and Furness Joint Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "49680e232aa0dbee1696faf69429d35a0dc6400d47459b350f8faec1dd5d8aee",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Westmorland and Furness Joint Committee",
+      "locator": "committee 667",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

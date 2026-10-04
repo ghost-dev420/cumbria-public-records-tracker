@@ -1,0 +1,36 @@
+{
+  "entity_id": "30bd3989341e82eb50aca68798794ad9708e50928d62fb5320ccd6d7b398636c",
+  "entity_type": "WARD",
+  "name": "Eden and Lyvennet Vale",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "2e824e5e8ed05ad1b05561b73c210ce881db7a5544942623b68ba63da6ec9664",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Eden and Lyvennet Vale",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Neil McCall"
+    },
+    {
+      "fact_id": "e39b05d7b0a17c7dc566f3762270e2f2aebcc516f0e6f690d1d801503f3be6d3",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Eden and Lyvennet Vale",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Lorna Baker"
+    }
+  ]
+}

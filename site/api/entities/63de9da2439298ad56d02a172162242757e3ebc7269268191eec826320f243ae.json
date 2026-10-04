@@ -1,0 +1,22 @@
+{
+  "entity_id": "63de9da2439298ad56d02a172162242757e3ebc7269268191eec826320f243ae",
+  "entity_type": "SUPPLIER",
+  "name": "Green Cross Training Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4fb7cb3c94b900b4ca4c0b4dab0aee4cbe71e9823cea124c26746036c62a1134",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-112aff3c-9b0e-43df-9b38-d665c3047755-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot1 ODWT Evacuation Chair Operator Training",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/de55a894-0aa8-407c-9304-c114bcd69668-889208.json",
+      "published_at": "2026-03-19T11:11:27Z",
+      "retrieved_at": "2026-10-03 23:14:04.446084",
+      "sha256": "bd2eecd7a8b2d1d4f111279e714254954003e06771dc288d01b81a544c1d8d0d",
+      "related_entity": "ocds-b5fd17-112aff3c-9b0e-43df-9b38-d665c3047755:ocds-b5fd17-112aff3c-9b0e-43df-9b38-d665c3047755-1"
+    }
+  ]
+}

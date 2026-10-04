@@ -1,0 +1,36 @@
+{
+  "entity_id": "f208feff262972e91092faeec3f0b8178c7104e375486d5f6ec1f373f2a8e731",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Sedbergh People’s Hall [31820f966908fdcd09af]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "e28128ed04bfa4ce3149185b3bb8f70d8f4601151cbaa54d1d67f70c4f160e6e",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1500",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 17",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "00ffefb32ffec4ee24349da6eb42a147793982ae3bcfd6d3e0201b951590b0c5",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1500",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 17",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Sedbergh People’s Hall"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "d9f54c80304e697fb471dccd1ddc103a0e2cd69d4ffe67dd26d80b4cffe6e6a4",
+  "entity_type": "SUPPLIER",
+  "name": "CACI Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "696bc76b0510079807de5adc2ce2022cf674786dbe607a51ca2956bf3fc0c80a",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-4a13a1a9-f77d-4283-9bda-efee763d8334-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Cygnum Solution Annual Support & Maint (ASM)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/df533e88-4cd8-4e98-be3c-4f31ad506e82-894349.json",
+      "published_at": "2026-04-23T14:59:23+01:00",
+      "retrieved_at": "2026-10-03 23:24:31.078518",
+      "sha256": "61a0cf3b9a8a668cbfb14de43c932c8eb2a6208d655745a6cac88289c94fe76c",
+      "related_entity": "ocds-b5fd17-4a13a1a9-f77d-4283-9bda-efee763d8334:ocds-b5fd17-4a13a1a9-f77d-4283-9bda-efee763d8334-1"
+    }
+  ]
+}

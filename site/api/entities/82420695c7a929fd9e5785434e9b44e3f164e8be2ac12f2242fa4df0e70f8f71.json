@@ -1,0 +1,78 @@
+{
+  "entity_id": "82420695c7a929fd9e5785434e9b44e3f164e8be2ac12f2242fa4df0e70f8f71",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "26-002-445",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "6c0c0f72983d98707ccb2ac103749e258acd941ecf4af9b62d0926676a55346e",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "26-002-445",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 002 445)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/26-002-445",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:07.091887",
+      "sha256": "81be3c62689be7a79a3568619ff00a76f88fb413a610a47bfbc8f9cf3cdf60a6",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "edc24d1f0b49fc88a86288c17d582f4abb2f779021daaf9aa4c3d96c2c26df73",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 002 445)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/26-002-445",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:07.091887",
+      "sha256": "81be3c62689be7a79a3568619ff00a76f88fb413a610a47bfbc8f9cf3cdf60a6",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "d5e3f95d8632c55ecb78cb2e4ebe8a2cf0400f8b76043c2b5da857f76ab966f6",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 002 445)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/26-002-445",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:07.091887",
+      "sha256": "81be3c62689be7a79a3568619ff00a76f88fb413a610a47bfbc8f9cf3cdf60a6",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "60c37789436a693cf8940bdc50efe2c11feee2157a22dfccbb273468a60fb50a",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "09 Aug 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 002 445)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/26-002-445",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:07.091887",
+      "sha256": "81be3c62689be7a79a3568619ff00a76f88fb413a610a47bfbc8f9cf3cdf60a6",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "f7da11d0bb57889ac1679fa20670864bdd9e50978ef9a2f4734601ff3fef2c09",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about how the Council applied parking restrictions. This is because there is not enough evidence of fault in the Council’s decision-making process and any injustice Mr X may have suffered is not significant enough to justify our involvement.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 002 445)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/26-002-445",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:07.091887",
+      "sha256": "81be3c62689be7a79a3568619ff00a76f88fb413a610a47bfbc8f9cf3cdf60a6",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

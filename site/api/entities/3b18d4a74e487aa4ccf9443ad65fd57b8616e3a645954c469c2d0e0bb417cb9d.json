@@ -1,0 +1,22 @@
+{
+  "entity_id": "3b18d4a74e487aa4ccf9443ad65fd57b8616e3a645954c469c2d0e0bb417cb9d",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Copeland Area Transport Advisory Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "488ecac305ca10b1e844ad09b737c17c06517cca1aa10a1cd9434b7afcff8095",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Copeland Area Transport Advisory Group",
+      "locator": "committee 724",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

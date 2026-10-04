@@ -1,0 +1,22 @@
+{
+  "entity_id": "6c42726c4b32bbe1540180a57fdaf217dbef67a09b186be1e164552b854f2312",
+  "entity_type": "SUPPLIER",
+  "name": "SLP First Aid",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2848e84880e0283127de0c0600ff2a920581cd58f64db401d46ec773af7b62bf",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-2a750bec-80b5-4d54-b68f-2d6d2b672474-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT - Lot 1 Emergency Aid training",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e502adcd-ad02-47b7-a857-87ce47485fb5-888724.json",
+      "published_at": "2026-03-16T14:20:28Z",
+      "retrieved_at": "2026-10-03 23:11:19.857352",
+      "sha256": "025266b33bab29667dbd55c6b1463d33a34b459799be2d480b4bf0fc8a627b71",
+      "related_entity": "ocds-b5fd17-2a750bec-80b5-4d54-b68f-2d6d2b672474:ocds-b5fd17-2a750bec-80b5-4d54-b68f-2d6d2b672474-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "894b4b5806d6cdba4b7fc03c2001c4b2e72cabd164ab8421066b3ef20c57430d",
+  "entity_type": "ORGANISATION",
+  "name": "Kendal County FC",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f4b05dc8549454f98227b21d0634b5a053a5a100e5afced49e478617ba09c790",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "750",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 3",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round 2 in 2025 to 2026: Kendal County FC [e21bcbec33e3fec2538c]"
+    }
+  ]
+}

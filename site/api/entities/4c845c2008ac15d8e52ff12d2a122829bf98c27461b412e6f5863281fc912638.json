@@ -1,0 +1,22 @@
+{
+  "entity_id": "4c845c2008ac15d8e52ff12d2a122829bf98c27461b412e6f5863281fc912638",
+  "entity_type": "SUPPLIER",
+  "name": "People Powered Retrofit",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1cf30de191767f7db9ecffe63c12d07825e4103baaeeaebac1f7c22353b741c2",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1200.00",
+      "locator": "XLSX Report!row 368",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

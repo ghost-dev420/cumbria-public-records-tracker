@@ -1,0 +1,22 @@
+{
+  "entity_id": "110d70abc2caad400e77fcffeee1ce7e9fd176222a3a80ce9321191fc0628f46",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Building Schools for the Future Programme Executive Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5aed40ba0ab4eecb6aa451fb7f149287b84b2587059f86df9029fc73932a9405",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Building Schools for the Future Programme Executive Board",
+      "locator": "committee 478",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

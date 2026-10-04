@@ -1,0 +1,22 @@
+{
+  "entity_id": "fb4029bb3a26ce017cfec21c188e5f1af7e9fa0a8bf92c3882e9ad37e2e88243",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Review of Planning Obligations - Informal Workshop",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0011ed94ac655099a29f99dfebdfba11b965de576d1313b23e02b589a7406757",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Review of Planning Obligations - Informal Workshop",
+      "locator": "committee 548",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "57e6dde81033a845e012d9569df581ef0ae98825064c3cbad78c7c6ab0e61553",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Eden Area Committee for the Under Fives",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "521f27972723843b3c402d0892854cf8ad15908712a24f71e29b5e4f991485a9",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Eden Area Committee for the Under Fives",
+      "locator": "committee 754",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "ff955733b95547f65b6709d2744ef9bab2ee5434f673b2c5bb246a65487e3a70",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "26-003-697",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "69ff76f957d5f1a3488812360b48588aa15546e107f56d95bf35c86c0bd379b8",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "26-003-697",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 003 697)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/26-003-697",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:14.872712",
+      "sha256": "500c17aba907924af5011e0eacae310e935ecf943d6bfc2d0611c663efa50e51",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "f17837605b5f885cc7694aeb7f0669b8e4703fd32ec1b65fdb98c181d2e4b1df",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 003 697)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/26-003-697",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:14.872712",
+      "sha256": "500c17aba907924af5011e0eacae310e935ecf943d6bfc2d0611c663efa50e51",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "5b99e3825e020f9d9713b5ac5d60c6130d0ef01ee3abdd20afec39bf86ff635c",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 003 697)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/26-003-697",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:14.872712",
+      "sha256": "500c17aba907924af5011e0eacae310e935ecf943d6bfc2d0611c663efa50e51",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "65cc8379da4f6abd5b3c7b0acf51da4d65b6d732106c734946b7faa442b44f49",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "12 Jul 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 003 697)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/26-003-697",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:14.872712",
+      "sha256": "500c17aba907924af5011e0eacae310e935ecf943d6bfc2d0611c663efa50e51",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "3c9f6083d596872b2d725381145a79cbca4f88568942b38b7e2366e417cecf25",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate X’s complaint about the Council’s refusal to issue a parking permit for their second home. There is insufficient evidence of fault to warrant an investigation by the Ombudsman.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 003 697)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/26-003-697",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:14.872712",
+      "sha256": "500c17aba907924af5011e0eacae310e935ecf943d6bfc2d0611c663efa50e51",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

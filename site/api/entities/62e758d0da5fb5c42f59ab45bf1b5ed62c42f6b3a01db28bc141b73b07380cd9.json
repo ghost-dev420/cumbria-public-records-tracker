@@ -1,0 +1,64 @@
+{
+  "entity_id": "62e758d0da5fb5c42f59ab45bf1b5ed62c42f6b3a01db28bc141b73b07380cd9",
+  "entity_type": "SUPPLIER",
+  "name": "gtbtransportservices",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "402ed71aa706207debcd0448e1217a066e2b108b60f296883c7c8f61ec518d5e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-b1c70342-fa9e-441e-aebf-1faa725fe459-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 30 August 2023 (F48)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4f3d6368-1570-4011-b93b-426c01749278-892654.json",
+      "published_at": "2026-04-13T15:07:22+01:00",
+      "retrieved_at": "2026-10-03 23:21:23.296250",
+      "sha256": "f7cab823fe6129a19dfb2f533cba70a6c2f0aed7d9561e4906ac1078a941a69e",
+      "related_entity": "ocds-b5fd17-b1c70342-fa9e-441e-aebf-1faa725fe459:ocds-b5fd17-b1c70342-fa9e-441e-aebf-1faa725fe459-1"
+    },
+    {
+      "fact_id": "c72159da11ec68af5adcb48b2a5ec504d6caa8828c3f8ba5d9b3684e561cfe72",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-920c377b-371c-42a8-83c2-83e2c4b0ff8b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 16 August 2023 (F43)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a0ed45df-90e1-4057-aaae-fd3ec782aa36-891821.json",
+      "published_at": "2026-04-07T14:45:42+01:00",
+      "retrieved_at": "2026-10-03 23:18:22.639363",
+      "sha256": "6dc171601eb46016677a70e44bf344f48557ba539cccd147a4e2efe1937bae0e",
+      "related_entity": "ocds-b5fd17-920c377b-371c-42a8-83c2-83e2c4b0ff8b:ocds-b5fd17-920c377b-371c-42a8-83c2-83e2c4b0ff8b-1"
+    },
+    {
+      "fact_id": "55db771d5af0ea50aeabcda16173ed9f2680752b0b2cdadb1fe02b4e1e57ea1f",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-3bfe2b46-eb93-4ca2-a5c0-ddf8fd1ca5fb-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1b - Up to 8 Passenger Seats with Passenger Assistant for Barrow area closing 24 November 2025 (F31)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/663e5f69-d693-4e26-af00-53a689360fab-891789.json",
+      "published_at": "2026-04-07T12:46:39+01:00",
+      "retrieved_at": "2026-10-03 23:18:26.896600",
+      "sha256": "1cd34fbbc24fd170b2cf6141b4ade458de64da5fc77bffe0fca77cc4f69a7483",
+      "related_entity": "ocds-b5fd17-3bfe2b46-eb93-4ca2-a5c0-ddf8fd1ca5fb:ocds-b5fd17-3bfe2b46-eb93-4ca2-a5c0-ddf8fd1ca5fb-1"
+    },
+    {
+      "fact_id": "c6a5c9943242c763149888ed7caf50bcffb0dff92b46d822146df47e7405eb3e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-e4d0ceb0-a17a-4ffd-9db3-160903979b14-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for Out of County area closing 12 January 2026 (F37)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/cb222a33-040e-479a-bbab-30c679eeba8f-891747.json",
+      "published_at": "2026-04-07T11:11:54+01:00",
+      "retrieved_at": "2026-10-03 23:18:34.002926",
+      "sha256": "6ab7b75e475343cb8bcbd2bed51660bcdbb73c6f8eb599c72ce34207aef397e9",
+      "related_entity": "ocds-b5fd17-e4d0ceb0-a17a-4ffd-9db3-160903979b14:ocds-b5fd17-e4d0ceb0-a17a-4ffd-9db3-160903979b14-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "4067095960bc9511aa2d435ced310ca975d5ec7d7805fad26b0073a79eeae7a3",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Environmental Quality and Safety Scrutiny Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d834d8a1044b019299d59700b0257c772019dc78ea975e75b3ba77dafe816365",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Environmental Quality and Safety Scrutiny Panel",
+      "locator": "committee 766",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

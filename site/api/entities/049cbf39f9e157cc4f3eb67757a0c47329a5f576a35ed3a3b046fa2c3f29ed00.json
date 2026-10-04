@@ -1,0 +1,22 @@
+{
+  "entity_id": "049cbf39f9e157cc4f3eb67757a0c47329a5f576a35ed3a3b046fa2c3f29ed00",
+  "entity_type": "SUPPLIER",
+  "name": "Kielder Newport West Ltd (t/a KNW Training)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1b25de6141f5408f75030519eb74caad63ed58d7b353e5d586be3f456ff12597",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-a01d6856-22f2-4320-a344-264483a09b55-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 1 Safe Application of Pesticide Using Pedestrian Handheld Equipment (PA6) & Assessment.",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/59600836-8b84-4b09-b5ab-9943312f8f57-890529.json",
+      "published_at": "2026-03-30T10:47:10+01:00",
+      "retrieved_at": "2026-10-03 23:15:26.508918",
+      "sha256": "bc341bddd40c7afae9abb79e2ed207a4e2ab3aa94146c72707a8fee6991b9244",
+      "related_entity": "ocds-b5fd17-a01d6856-22f2-4320-a344-264483a09b55:ocds-b5fd17-a01d6856-22f2-4320-a344-264483a09b55-1"
+    }
+  ]
+}

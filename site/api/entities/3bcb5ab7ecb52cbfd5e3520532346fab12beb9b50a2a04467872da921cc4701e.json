@@ -1,0 +1,36 @@
+{
+  "entity_id": "3bcb5ab7ecb52cbfd5e3520532346fab12beb9b50a2a04467872da921cc4701e",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Ulverston Ford Park Community Group [5de729e8b9daadfc9893]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "9532412750dca30a0f79babd42718c3aa940fd9dffe8569ce6453155b9368b53",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1670",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "3c614bace504abf67533f8ddb7c4efbd1144f13dd4dedc0baeded30f6bff4a49",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1670",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Ulverston Ford Park Community Group"
+    }
+  ]
+}

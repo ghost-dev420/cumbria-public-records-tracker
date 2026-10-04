@@ -1,0 +1,22 @@
+{
+  "entity_id": "f0838aca575511b93ab4d1aa7c74b5422de60a3b7460637d26299e96f3625d75",
+  "entity_type": "SUPPLIER",
+  "name": "Getaway Travel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "49c68ffbbb9dc47ad963271fcf4ef668bbeacd02e3e995477dd8173896d163f9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-ca1b59fa-0455-412b-b13c-b8fdf98fdbff-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1b - Up to 8 Passenger Seats with Passenger Assistant for Out of County area closing 17 November 2025 (F30)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/90ec7de1-3d67-49f8-b1e8-4b5bf8a82c5b-891758.json",
+      "published_at": "2026-04-07T11:37:26+01:00",
+      "retrieved_at": "2026-10-03 23:18:30.464895",
+      "sha256": "0f23741a443b31f6a38a32ad78a5bf6d2ff0423733776e7cff40d8635731784d",
+      "related_entity": "ocds-b5fd17-ca1b59fa-0455-412b-b13c-b8fdf98fdbff:ocds-b5fd17-ca1b59fa-0455-412b-b13c-b8fdf98fdbff-1"
+    }
+  ]
+}

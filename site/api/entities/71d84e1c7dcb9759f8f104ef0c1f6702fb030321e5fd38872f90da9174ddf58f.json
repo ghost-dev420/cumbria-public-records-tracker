@@ -1,0 +1,22 @@
+{
+  "entity_id": "71d84e1c7dcb9759f8f104ef0c1f6702fb030321e5fd38872f90da9174ddf58f",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Scrutiny Panel E - Safe and Secure Communities",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9a9b6b5a185135ac85a4cd13bb15a8ad7b4c6f065a98d8a4d2c3434a560676f5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Scrutiny Panel E - Safe and Secure Communities",
+      "locator": "committee 596",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

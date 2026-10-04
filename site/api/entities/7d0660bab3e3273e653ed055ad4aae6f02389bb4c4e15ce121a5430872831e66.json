@@ -1,0 +1,22 @@
+{
+  "entity_id": "7d0660bab3e3273e653ed055ad4aae6f02389bb4c4e15ce121a5430872831e66",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Children and Young People Scrutiny Panel (D)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4f7f1156954c5836ee2b062c4d6b031717f195b28fca79c1e1ee59fc92b1ab89",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Children and Young People Scrutiny Panel (D)",
+      "locator": "committee 718",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

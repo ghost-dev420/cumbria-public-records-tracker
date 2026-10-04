@@ -1,0 +1,22 @@
+{
+  "entity_id": "c71569a13a3d882a0024ad628c4354f57c759bb1686e7f865c8a49e1de5c7ad1",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Joint Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e75a8d0a66678e507bd4891523a51027170038e568d1c38251ba161dcf42b06a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Joint Scrutiny Committee",
+      "locator": "committee 438",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "12ba536e7c7781393b3190662a82f58521bef6ed51970920690b21edc1d72b61",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Licensing Panel 2",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b15682522aecf5f0715c8431336e0519c8d16d10da13a9a0b5118dfc4741d524",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Licensing Panel 2",
+      "locator": "committee 377",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

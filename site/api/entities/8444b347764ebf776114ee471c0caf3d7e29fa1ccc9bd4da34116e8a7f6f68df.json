@@ -1,0 +1,22 @@
+{
+  "entity_id": "8444b347764ebf776114ee471c0caf3d7e29fa1ccc9bd4da34116e8a7f6f68df",
+  "entity_type": "SUPPLIER",
+  "name": "WARDELL ARMSTRONG LLP",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5ee15801e52c59283b76e3b100ae5ca6c2d63c0141771ba1b5d80d990e4127de",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "625.30",
+      "locator": "XLSX Sheet1!row 389",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

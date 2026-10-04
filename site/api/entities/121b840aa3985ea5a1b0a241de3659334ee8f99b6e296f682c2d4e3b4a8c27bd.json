@@ -1,0 +1,22 @@
+{
+  "entity_id": "121b840aa3985ea5a1b0a241de3659334ee8f99b6e296f682c2d4e3b4a8c27bd",
+  "entity_type": "WARD",
+  "name": "Keswick",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "14d0ec0e4ca4ff6f9d5b039ef275b3c073c42e021571429d5eee302588e15c49",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Keswick",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Sally Lansbury"
+    }
+  ]
+}

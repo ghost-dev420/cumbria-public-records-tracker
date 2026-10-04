@@ -1,0 +1,22 @@
+{
+  "entity_id": "6107a8b4d830618328c4dd9032fd7594d649b0dab7bbd71a8303442ec800c75f",
+  "entity_type": "WARD",
+  "name": "Aspatria",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "22b4ad2af5b78ed8e0163a158ca151c01a7d51c9b97cc78f0a3b69631e0a3d7c",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Aspatria",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Kevin Thurlow"
+    }
+  ]
+}

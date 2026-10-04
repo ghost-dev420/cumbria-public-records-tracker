@@ -1,0 +1,64 @@
+{
+  "entity_id": "2a38d41ed755204bc8c1be109967b0ff693564bc9faa28135cd866fe28031e15",
+  "entity_type": "SUPPLIER",
+  "name": "Kielder Newport West Ltd",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "62410b8279a6571e3604410707c7d1c800d2d7f59f7eddd8fff51e4b376f7431",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-8f44e147-c855-4f66-8dd2-5e1a00fe6c8a-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1 - Handheld Hedge Trimmer",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8fa4387b-110d-430a-956e-d7680e1b466b-911198.json",
+      "published_at": "2026-08-18T15:13:56+01:00",
+      "retrieved_at": "2026-10-03 23:42:43.158827",
+      "sha256": "261908911abcaac946d7d125c786ee2dc6ad95bc275195dd840449a13da12643",
+      "related_entity": "ocds-b5fd17-8f44e147-c855-4f66-8dd2-5e1a00fe6c8a:ocds-b5fd17-8f44e147-c855-4f66-8dd2-5e1a00fe6c8a-1"
+    },
+    {
+      "fact_id": "cf149c7afc2c4b98e9be07f80845e1ddabef3b04db8785c34ba84b3510cbae2b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-fadb4545-2ca6-4b19-8916-46d4aca0317b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1 - Brushcutter Trimmer",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/caa431a2-5b47-4b3b-a139-c2ac36c296d0-911192.json",
+      "published_at": "2026-08-18T14:47:41+01:00",
+      "retrieved_at": "2026-10-03 23:42:44.924940",
+      "sha256": "a96b4a822706029631b84d0b7681233868a0aaecf65ff4688fcc8158bc3fce08",
+      "related_entity": "ocds-b5fd17-fadb4545-2ca6-4b19-8916-46d4aca0317b:ocds-b5fd17-fadb4545-2ca6-4b19-8916-46d4aca0317b-1"
+    },
+    {
+      "fact_id": "e33e0bde78fba3832553fb1fe9fd8988a230a51638406c1173bb87596c49b58f",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-ec062c2e-236b-4696-973e-099465e99ab7-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 1 Abrasive Wheels",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/08d10dc9-7119-40c5-9727-eb27277c5b15-899962.json",
+      "published_at": "2026-06-01T13:01:54+01:00",
+      "retrieved_at": "2026-10-03 23:30:27.243835",
+      "sha256": "95e41881f5274a5f5070f9611b0337c0278498fd44d0a561db30afadb2d7ec1f",
+      "related_entity": "ocds-b5fd17-ec062c2e-236b-4696-973e-099465e99ab7:ocds-b5fd17-ec062c2e-236b-4696-973e-099465e99ab7-1"
+    },
+    {
+      "fact_id": "836fa3b28d16f560539d901b2cbc4cee7a5d6584bf0a6f8cb735089f4d36cbe2",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-1ab55b5f-265b-4483-b181-8066b2a4ccd6-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 1 Slinger and Signaller Training",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ddcad2cc-86f4-4459-843a-d0f6372c071f-878828.json",
+      "published_at": "2026-01-12T16:41:54Z",
+      "retrieved_at": "2026-10-03 23:02:51.610999",
+      "sha256": "c5763138e1f31dab75477d1fe5cc7b8cbfd2972dd7212da1b6890392939910bb",
+      "related_entity": "ocds-b5fd17-1ab55b5f-265b-4483-b181-8066b2a4ccd6:ocds-b5fd17-1ab55b5f-265b-4483-b181-8066b2a4ccd6-1"
+    }
+  ]
+}

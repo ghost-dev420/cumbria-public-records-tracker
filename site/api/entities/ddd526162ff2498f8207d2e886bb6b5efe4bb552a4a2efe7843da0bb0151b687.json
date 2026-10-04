@@ -1,0 +1,22 @@
+{
+  "entity_id": "ddd526162ff2498f8207d2e886bb6b5efe4bb552a4a2efe7843da0bb0151b687",
+  "entity_type": "SUPPLIER",
+  "name": "Aldi Stores Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "eaae7fbec8e55bc28032181eba1b3e0de927d4ce3ca465ac7325fdef33e59e44",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1000.00",
+      "locator": "XLSX Report!row 271",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

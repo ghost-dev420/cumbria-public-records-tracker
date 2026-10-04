@@ -1,0 +1,22 @@
+{
+  "entity_id": "2999a02aefd569444ec0fad60c246acbe4106b7903489ffceff2e8a3f9bac07b",
+  "entity_type": "SUPPLIER",
+  "name": "Blackhawk Network EMEA Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "61869d2d1fd1c7877078ae38f9517208e22312999f65c6eba2d5185f9f49d9db",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-0a336276-c2a0-4273-970c-fc1722b62a08-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Staff Benefits - Cycle to Work Scheme",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/00729695-cee1-45cc-8d37-958385c264c8-915932.json",
+      "published_at": "2026-09-30T12:58:18+01:00",
+      "retrieved_at": "2026-10-03 23:51:21.398361",
+      "sha256": "482240540db5e3e38322f189da8c8e67f49c4feb6a935cb619fc69159b9eb01c",
+      "related_entity": "ocds-b5fd17-0a336276-c2a0-4273-970c-fc1722b62a08:ocds-b5fd17-0a336276-c2a0-4273-970c-fc1722b62a08-1"
+    }
+  ]
+}

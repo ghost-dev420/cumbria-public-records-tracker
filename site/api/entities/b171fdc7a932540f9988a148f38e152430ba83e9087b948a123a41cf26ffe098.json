@@ -1,0 +1,22 @@
+{
+  "entity_id": "b171fdc7a932540f9988a148f38e152430ba83e9087b948a123a41cf26ffe098",
+  "entity_type": "ORGANISATION",
+  "name": "Burneside Cricket Club",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6dd8226adafb33eae3b3419bd281912bc3392bdbec18443ec268c5198f631d9c",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "3000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round 2 in 2025 to 2026: Burneside Cricket Club [7d71892de5aa953d795f]"
+    }
+  ]
+}

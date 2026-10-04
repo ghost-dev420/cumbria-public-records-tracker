@@ -1,0 +1,22 @@
+{
+  "entity_id": "070e1c88594c156d611db690c786602246e2da598adb8b1490a61eac4516d32e",
+  "entity_type": "SUPPLIER",
+  "name": "PAKFLATT (UK) LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fff900836f90275a959f07a7094c1a98f9d2b09fde3ef88f6513219591b3a8fb",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1198.05",
+      "locator": "XLSX Sheet1!row 131",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

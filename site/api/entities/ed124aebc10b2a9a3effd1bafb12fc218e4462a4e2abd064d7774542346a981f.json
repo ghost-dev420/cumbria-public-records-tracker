@@ -1,0 +1,22 @@
+{
+  "entity_id": "ed124aebc10b2a9a3effd1bafb12fc218e4462a4e2abd064d7774542346a981f",
+  "entity_type": "SUPPLIER",
+  "name": "Gamma Telecom Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bd4ca9bb9e61e4a3cd2c1d1a354452ba03050d771f71a0b821002f342eac38c8",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-e7cb4865-c2f7-4f1e-b4b4-532e1ceddd99-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Operator Connect SIP Telephony Services (EDC and SLDC)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f6ac4a7e-f894-42ad-8c3a-fb5cb81c4987-872100.json",
+      "published_at": "2025-11-13T15:51:14Z",
+      "retrieved_at": "2026-10-03 22:56:53.667756",
+      "sha256": "52593bf9e050cfd4a2faa8fe5076d5c8de71a9337d54a62528b6ea2d8a6be5f6",
+      "related_entity": "ocds-b5fd17-e7cb4865-c2f7-4f1e-b4b4-532e1ceddd99:ocds-b5fd17-e7cb4865-c2f7-4f1e-b4b4-532e1ceddd99-1"
+    }
+  ]
+}

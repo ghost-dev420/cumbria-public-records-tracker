@@ -1,0 +1,22 @@
+{
+  "entity_id": "1a498f0ce92060a7c26aa931dbeec1008da49814b4d6872ba1c0fc2b4a9400e9",
+  "entity_type": "SUPPLIER",
+  "name": "BRITISH PARKING ASSOCIATION",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0113d1ffe1a5fb0c62113d39c2ba678fd694f0fc6d5aa8fc8fb9b45c48e048d2",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "681.00",
+      "locator": "XLSX Sheet1!row 294",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

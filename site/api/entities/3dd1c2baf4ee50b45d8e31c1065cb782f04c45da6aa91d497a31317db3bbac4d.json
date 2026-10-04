@@ -1,0 +1,22 @@
+{
+  "entity_id": "3dd1c2baf4ee50b45d8e31c1065cb782f04c45da6aa91d497a31317db3bbac4d",
+  "entity_type": "SUPPLIER",
+  "name": "FELL FOODIE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4686a6b52b23471bab4fa15d68ddf753adca6dcc22a4cfdf251e728d584249a1",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "700.00",
+      "locator": "XLSX Sheet1!row 342",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

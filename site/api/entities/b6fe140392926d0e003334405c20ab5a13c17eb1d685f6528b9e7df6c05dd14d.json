@@ -1,0 +1,22 @@
+{
+  "entity_id": "b6fe140392926d0e003334405c20ab5a13c17eb1d685f6528b9e7df6c05dd14d",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Accounts Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6c96c4fd7b643519cabeb97cae1c6d83490e63cea47d0cc2dc907327d4bbfeac",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Accounts Committee",
+      "locator": "committee 453",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

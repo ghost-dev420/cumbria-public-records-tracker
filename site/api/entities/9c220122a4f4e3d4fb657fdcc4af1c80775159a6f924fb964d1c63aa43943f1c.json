@@ -1,0 +1,22 @@
+{
+  "entity_id": "9c220122a4f4e3d4fb657fdcc4af1c80775159a6f924fb964d1c63aa43943f1c",
+  "entity_type": "SUPPLIER",
+  "name": "THE HELPING HAND COMPANY",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4bc66fc4c3d0d07ae2af39378a57c5cfc6cdbfc0774bec202069cded8dca89da",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "343.20",
+      "locator": "XLSX Sheet1!row 230",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

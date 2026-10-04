@@ -1,0 +1,78 @@
+{
+  "entity_id": "16857191109d2ac7d4bfe95d0e816f1d4616fe6ec7e6da39e849381c7f4ac752",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-005-287",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "bde33bda2f1e7dbad40a47aa8ac80a6c1f6b5ebd1ce81eff010dd53efbb65efd",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-005-287",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 005 287)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/25-005-287",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:06.400838",
+      "sha256": "8e2152f5d7ddda129b4c4953e9e14837b06adace4580cd7851626f514790e338",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "67d04273ef0da64608c999a8c7cd86fef603e7b786f80712829b4426ffb3fade",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 005 287)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/25-005-287",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:06.400838",
+      "sha256": "8e2152f5d7ddda129b4c4953e9e14837b06adace4580cd7851626f514790e338",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "650c87319ac877ddbef8b1addfe4afc4fa35c0b177f91f35fd7072854ec8d220",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 005 287)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/25-005-287",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:06.400838",
+      "sha256": "8e2152f5d7ddda129b4c4953e9e14837b06adace4580cd7851626f514790e338",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "03ca6ff9990f538aadd7567e3ba63f21fed710826ea91a46fd9c48e6aabaac2f",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "23 Jul 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 005 287)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/25-005-287",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:06.400838",
+      "sha256": "8e2152f5d7ddda129b4c4953e9e14837b06adace4580cd7851626f514790e338",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "620642c8daef02d0f197e6e4ac5b8451c2fee38c410fc0cac8c830ff356f21bc",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s handling of Mr X’s claim for damages as ultimately this is a matter for the courts.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 005 287)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/25-005-287",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:06.400838",
+      "sha256": "8e2152f5d7ddda129b4c4953e9e14837b06adace4580cd7851626f514790e338",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

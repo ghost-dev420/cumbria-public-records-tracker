@@ -1,0 +1,22 @@
+{
+  "entity_id": "d88daa1ec984197f05d9dad90d2b75e3439050919272961cfb512ecdb8375fd7",
+  "entity_type": "SUPPLIER",
+  "name": "British Telecommunications plc",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ab8e5b8ae1e8247c34ea3f2bbd6a668b0cd197d848b121755f128a3ab22cc841",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-9468a257-e214-4eae-a485-cd9f499bd6e7-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Zscaler Renewal",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/90ad8cfd-1839-4f37-b9f2-16fad9868322-885080.json",
+      "published_at": "2026-02-20T17:18:06Z",
+      "retrieved_at": "2026-10-03 23:09:03.944652",
+      "sha256": "79a61ac7d4b96e7b9c82d9e2965a53b826aa7af09df8a07e968d906e6d4987c0",
+      "related_entity": "ocds-b5fd17-9468a257-e214-4eae-a485-cd9f499bd6e7:ocds-b5fd17-9468a257-e214-4eae-a485-cd9f499bd6e7-1"
+    }
+  ]
+}

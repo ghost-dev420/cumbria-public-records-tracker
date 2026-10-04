@@ -1,0 +1,22 @@
+{
+  "entity_id": "298fe9891da0fb9d0cea12374babec47d191865bfc5e1e8570fcc470e57a7b53",
+  "entity_type": "SUPPLIER",
+  "name": "AECOM Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bd0bae0071819b9fea377f58efbf596bc5a4f752623a3fa998c608e3d9799969",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-c3c314ad-7428-4b06-b178-3a35c3e0f91b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "PSF4 Lot 4B - LCWIP 15 Kendal to Natland Active Travel Preliminary Design",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d97da583-7c1f-4d8e-9c6b-6a879142292e-914385.json",
+      "published_at": "2026-09-16T15:59:00+01:00",
+      "retrieved_at": "2026-10-03 23:47:40.798102",
+      "sha256": "95e817d586ad145ac8aa6eb8c65c122a8c4facd0e1fca5c30ba6fdb0ded79d96",
+      "related_entity": "ocds-b5fd17-c3c314ad-7428-4b06-b178-3a35c3e0f91b:ocds-b5fd17-c3c314ad-7428-4b06-b178-3a35c3e0f91b-1"
+    }
+  ]
+}

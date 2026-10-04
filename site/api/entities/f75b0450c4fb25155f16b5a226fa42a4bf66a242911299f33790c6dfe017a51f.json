@@ -1,0 +1,22 @@
+{
+  "entity_id": "f75b0450c4fb25155f16b5a226fa42a4bf66a242911299f33790c6dfe017a51f",
+  "entity_type": "COMMITTEE",
+  "name": "Border, Fellside and North Carlisle Community Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "810ae900f6f0bb56bd1211c0fb667d5ab5e020b3c1c4ee4e81f128935867a30a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Border, Fellside and North Carlisle Community Panel",
+      "locator": "committee 184",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "1fc7b81697ffc67439cfdaa10d049514de4b67c371e30b6b132f308383808e6d",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Procurement Strategy Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f6f401d81ebf541c40fce87e98f611f87864a2804b9c6b3da6a10fc9f4d77c12",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Procurement Strategy Group",
+      "locator": "committee 383",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

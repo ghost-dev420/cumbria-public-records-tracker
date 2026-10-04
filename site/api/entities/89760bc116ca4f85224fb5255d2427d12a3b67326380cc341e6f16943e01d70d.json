@@ -1,0 +1,36 @@
+{
+  "entity_id": "89760bc116ca4f85224fb5255d2427d12a3b67326380cc341e6f16943e01d70d",
+  "entity_type": "SUPPLIER",
+  "name": "LAWSONS TRAINING CENTRE LIMITED",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "8d60464976a28a6ea05e88b82beeab6c183db3f1ebdf1a191a397a53afee2553",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "150.00",
+      "locator": "XLSX Sheet1!row 452",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c61307697db25766ad31aff702cd8482355c2d0106981072b93800b384d3f77e",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "235.00",
+      "locator": "XLSX Sheet1!row 451",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

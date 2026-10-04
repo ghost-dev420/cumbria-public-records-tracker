@@ -1,0 +1,36 @@
+{
+  "entity_id": "55db2d2a1aa7017914ce260a101d0bf19655a1a67fba36dda44594aa79c83217",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Hallgath Residents Association [c336ed4bd58c9fdb62a0]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "2ace967f66dda3e5908cdda13b86b9ed48d93484d307c838ddf8e2f7edda8904",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1050",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 2",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "59f64e7205d27768356164465299731298e25450bf2712f237d276e63af6584b",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1050",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 2",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Hallgath Residents Association"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "2aa2a4f06581f62ec3fe5079ede577f1ed0380ed43caa80ef5252607d5e5d726",
+  "entity_type": "SUPPLIER",
+  "name": "CCMA VENTURES LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cba23b3ab0ca8167f92935269f5cf11a7bca607c251c0d6561c1cf3f44de01fa",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "649.00",
+      "locator": "XLSX Sheet1!row 372",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

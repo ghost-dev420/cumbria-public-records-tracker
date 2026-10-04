@@ -1,0 +1,78 @@
+{
+  "entity_id": "03428b99ce66ed4eea0ba71555ee7ac8e5947b02e1e0d7f0f1d6be2e123b6340",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-020-615",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "e79d8d032ad2297bd844f0dde7a626a63562e6a8fa91f3cc85d2995aea7efa5c",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-020-615",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 020 615)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/24-020-615",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:52.691251",
+      "sha256": "14b9646d56795fda17a6525d91ee34638ecdc3a8a8465dee202a20637a36ff0c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "80872a4ff74693685ad8a4eab028c0b7fa35f3d7f848d96b3df2c2b6423af6bc",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Other Categories",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 020 615)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/24-020-615",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:52.691251",
+      "sha256": "14b9646d56795fda17a6525d91ee34638ecdc3a8a8465dee202a20637a36ff0c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "3810b4b11a626de94beb48dd3a7858d37eab625dcf727b1bb40a9b3fca80530d",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 020 615)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/24-020-615",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:52.691251",
+      "sha256": "14b9646d56795fda17a6525d91ee34638ecdc3a8a8465dee202a20637a36ff0c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "9fd6f10ce7e01468fe971422c1091854deb7083c062d97eea8bb20eab2ffaa63",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "30 Apr 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 020 615)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/24-020-615",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:52.691251",
+      "sha256": "14b9646d56795fda17a6525d91ee34638ecdc3a8a8465dee202a20637a36ff0c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "66e88be11da55c24a7ea544d6481b7894458b2fb204c7285aa9d60bd4de265e6",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s use of contact restrictions in line with its unreasonable customer policy. There is not enough evidence of fault by the Council to warrant investigation, and it has not caused the complainant significant injustice.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 020 615)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/24-020-615",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:52.691251",
+      "sha256": "14b9646d56795fda17a6525d91ee34638ecdc3a8a8465dee202a20637a36ff0c",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

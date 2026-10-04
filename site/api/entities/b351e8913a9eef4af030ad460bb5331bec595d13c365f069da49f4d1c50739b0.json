@@ -1,0 +1,22 @@
+{
+  "entity_id": "b351e8913a9eef4af030ad460bb5331bec595d13c365f069da49f4d1c50739b0",
+  "entity_type": "WARD",
+  "name": "Cockermouth North",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8153962dfdae2784913cd25c233a1f21fe010707dbac794b8807dd72e4d254c9",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Cockermouth North",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Helen Tucker"
+    }
+  ]
+}

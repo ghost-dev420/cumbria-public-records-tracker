@@ -1,0 +1,36 @@
+{
+  "entity_id": "131af3a664d60439fde95262eae8c7d7330d385a8749dd3de564e8fedf08e375",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Temple of Play [028afe96b98d25264e14]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "fa7700edb14771bf71c3ffc305069997b1b2c30e696947096950d48965087b61",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "3500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 11",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "4326acd05ac475ecbf817891200cfc3710dc45ac9f40ee0b2bc66c4348accee6",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "3500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 11",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Temple of Play"
+    }
+  ]
+}

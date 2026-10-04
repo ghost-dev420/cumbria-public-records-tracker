@@ -1,0 +1,36 @@
+{
+  "entity_id": "5d04bbbc94ba5071d248dbc71a245372f35ac5726d29eb241a03d185ced830ee",
+  "entity_type": "SUPPLIER",
+  "name": "Lakes College",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "9998a89bf60e7cd5e8531eaaf28652d5181d6a50e5770ee15800f1a4011abc8a",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-e2d4471f-ece3-4253-b3d7-9abff2dc6b9e-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Wave 7 Skills Bootcamp - Lot 6 Robotics",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1e5bde0a-198e-4b82-9028-261fcb9b3eae-890633.json",
+      "published_at": "2026-03-30T13:57:41+01:00",
+      "retrieved_at": "2026-10-03 23:15:09.066860",
+      "sha256": "dbcdc6d5193685a37826b051e8859c5a78df45f6b1fdd67f4208fa3049c95ae0",
+      "related_entity": "ocds-b5fd17-e2d4471f-ece3-4253-b3d7-9abff2dc6b9e:ocds-b5fd17-e2d4471f-ece3-4253-b3d7-9abff2dc6b9e-1"
+    },
+    {
+      "fact_id": "2ab5f68be319de933aa0db59e6e7ee099b51062c929a3516033dbd2be5778f03",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-6c1a20f0-d9fc-4ba3-be06-ff307ecd4d06-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Wave 7 Skills boot camp- Lot 6: Engineering and Manufacturing/Engineering Bridging",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/45a9e401-a7f0-46aa-be18-1ff377c5b616-890626.json",
+      "published_at": "2026-03-30T13:46:19+01:00",
+      "retrieved_at": "2026-10-03 23:15:11.977797",
+      "sha256": "d59d143107628194161ef50abe85d5a9cfa4a4a275e2f70daa33abb8e61cfd3b",
+      "related_entity": "ocds-b5fd17-6c1a20f0-d9fc-4ba3-be06-ff307ecd4d06:ocds-b5fd17-6c1a20f0-d9fc-4ba3-be06-ff307ecd4d06-1"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "cba548dba3b8bbf426c5683ddacd4bc54746d67c8d1eb17ddf251dd168901cad",
+  "entity_type": "CONTRACT",
+  "name": "ocds-b5fd17-ffd2af6f-23d8-4917-99b6-1ddd87092704:notice",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "92a0b4ce2a2b07b55b090e2966b0490050ccc3bcbc772b2dce45e9fa952d11f6",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "award notice buyer",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Temporary Traffic Management Framework 2025 - 2027",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4d10dca7-6205-4877-9144-db527be0af57-872346.json",
+      "published_at": "2025-11-14T17:06:10Z",
+      "retrieved_at": "2026-10-03 22:57:01.107978",
+      "sha256": "8802dc293138e357897aa86743ac05e498fcc5be94963cc6bc970b9abd3c8c26",
+      "related_entity": "WESTMORLAND AND FURNESS COUNCIL"
+    },
+    {
+      "fact_id": "935f7322086aea7fc0969793cf441eff1f9bcd8eaff5c0a4b84619eccad4580a",
+      "fact_type": "CONTRACT_DATE",
+      "predicate": "HAS_AWARD_DATE",
+      "value": "2025-11-14T17:06:10Z",
+      "locator": "award notice date",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Temporary Traffic Management Framework 2025 - 2027",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4d10dca7-6205-4877-9144-db527be0af57-872346.json",
+      "published_at": "2025-11-14T17:06:10Z",
+      "retrieved_at": "2026-10-03 22:57:01.107978",
+      "sha256": "8802dc293138e357897aa86743ac05e498fcc5be94963cc6bc970b9abd3c8c26",
+      "related_entity": null
+    },
+    {
+      "fact_id": "9f70c3d974283f27378b9b5420dbfd5073afb5e679acd4d45b0260a4c47e3319",
+      "fact_type": "CONTRACT_TITLE",
+      "predicate": "HAS_TITLE",
+      "value": "Temporary Traffic Management Framework 2025 - 2027",
+      "locator": "award notice",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Temporary Traffic Management Framework 2025 - 2027",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4d10dca7-6205-4877-9144-db527be0af57-872346.json",
+      "published_at": "2025-11-14T17:06:10Z",
+      "retrieved_at": "2026-10-03 22:57:01.107978",
+      "sha256": "8802dc293138e357897aa86743ac05e498fcc5be94963cc6bc970b9abd3c8c26",
+      "related_entity": null
+    }
+  ]
+}

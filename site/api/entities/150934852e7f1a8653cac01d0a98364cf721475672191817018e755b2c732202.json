@@ -1,0 +1,22 @@
+{
+  "entity_id": "150934852e7f1a8653cac01d0a98364cf721475672191817018e755b2c732202",
+  "entity_type": "ORGANISATION",
+  "name": "Hallgath Residents Association",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "59f64e7205d27768356164465299731298e25450bf2712f237d276e63af6584b",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1050",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 2",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round 2 in 2025 to 2026: Hallgath Residents Association [c336ed4bd58c9fdb62a0]"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "d7b5ffa456e362265104a40fbb106810068c113c4db6b300d26a332134106734",
+  "entity_type": "SUPPLIER",
+  "name": "The Vicky Cockermouth Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d6aac4b981356313f83dc9562199f78f02d5f01131874e4897f3e3d9027660c2",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "248.00",
+      "locator": "XLSX Sheet1!row 330",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "36c300aa6a053384775554f0e715f692212c2eb94ee620f742f2b555ef5dfdfe",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Corporate Governance Overview and Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "69fdaa5b4f179092f5cc6969d22866b6e6b5139c0b53fc5608ab0aa83a7e26b2",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Corporate Governance Overview and Scrutiny Committee",
+      "locator": "committee 676",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

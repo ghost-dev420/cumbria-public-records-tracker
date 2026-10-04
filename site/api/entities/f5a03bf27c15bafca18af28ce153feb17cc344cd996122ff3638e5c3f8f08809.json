@@ -1,0 +1,22 @@
+{
+  "entity_id": "f5a03bf27c15bafca18af28ce153feb17cc344cd996122ff3638e5c3f8f08809",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Chief Executives' Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1baff3957e9182f2f8ee13a52a30493cb0c447fc4c1140f854f7d50f2f1ea8ce",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Chief Executives' Group",
+      "locator": "committee 487",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

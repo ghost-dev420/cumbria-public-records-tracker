@@ -1,0 +1,22 @@
+{
+  "entity_id": "a570a41daedca34d5782e1ee69d05d97ee2ee79a3dcd03999e0ddf85b74397c3",
+  "entity_type": "ORGANISATION",
+  "name": "Bowness Bowling Club",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5d4311c4bcd0c951503e6fe0bbc7fa4a27da8a4832db1420d40e93449b4e7e9c",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 6",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Bowness Bowling Club [868367aa2549b86ce8b4]"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "bc2387a3eec1a379d8d3c0b210f8cbf2cc83e4452bcb9ff8415be56b64d34770",
+  "entity_type": "SUPPLIER",
+  "name": "Architects Plus UK Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4084c31ad3ed8de834b5b318190977271222b804941521ac9e6376849dc3bfca",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-e4e0b8f1-04cb-4425-849c-5e4c4a4ed501-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "PSF4 Lot 1B - Complex Needs Residential  Children's Home -  Westwood, Carlisle  (RIBA Stages 3-7)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6419e5ad-9733-4990-9f82-980b026bf5e3-889126.json",
+      "published_at": "2026-03-18T15:55:46Z",
+      "retrieved_at": "2026-10-03 23:11:41.567230",
+      "sha256": "4e244da1fded7dc92fe69a10bc144c291a2fa3a46db040f39158ad6b196489b9",
+      "related_entity": "ocds-b5fd17-e4e0b8f1-04cb-4425-849c-5e4c4a4ed501:ocds-b5fd17-e4e0b8f1-04cb-4425-849c-5e4c4a4ed501-1"
+    }
+  ]
+}

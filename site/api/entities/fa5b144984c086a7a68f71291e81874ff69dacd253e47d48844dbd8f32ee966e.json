@@ -1,0 +1,22 @@
+{
+  "entity_id": "fa5b144984c086a7a68f71291e81874ff69dacd253e47d48844dbd8f32ee966e",
+  "entity_type": "COMMITTEE",
+  "name": "BBC Westmorland and Furness Joint Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b7b4126d1fecd97f6025ff40dfa000839f65c4112486721d6b54d82e00e5ac54",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "BBC Westmorland and Furness Joint Committee",
+      "locator": "committee 411",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

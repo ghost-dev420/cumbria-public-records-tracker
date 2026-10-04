@@ -1,0 +1,36 @@
+{
+  "entity_id": "35f66a92edfed294f968cae428bab5f42e99419643e25ceb10dddc666363f9f1",
+  "entity_type": "SUPPLIER",
+  "name": "LAKES COLLEGE WEST CUMB",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "33b8cce3288c62133f4b2a9f5f356ee6f1351906fd139a633bfc04a479760a50",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "75.00",
+      "locator": "XLSX Sheet1!row 351",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "bad2b554407046177bcb747f0d72f29e228e2343e38fbaa7d371eaa9ae1c0a0b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "200.00",
+      "locator": "XLSX Sheet1!row 352",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

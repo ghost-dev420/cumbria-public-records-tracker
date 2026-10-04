@@ -1,0 +1,22 @@
+{
+  "entity_id": "fdddd4116c0d41c667915da6fd6d10e5042053885416aba86c322957bc64d746",
+  "entity_type": "COMMITTEE",
+  "name": "Health and Wellbeing Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f90d9feb5d73d63ee3ce687380a6690508075a2609604a64edd0ba7682c94a55",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Health and Wellbeing Board",
+      "locator": "committee 271",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

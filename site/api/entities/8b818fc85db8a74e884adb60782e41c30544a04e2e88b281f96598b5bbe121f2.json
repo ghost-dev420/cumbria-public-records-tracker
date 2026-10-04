@@ -1,0 +1,22 @@
+{
+  "entity_id": "8b818fc85db8a74e884adb60782e41c30544a04e2e88b281f96598b5bbe121f2",
+  "entity_type": "SUPPLIER",
+  "name": "T/A THE REGSY PHOTOGRAPHY",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "541bd3b911099a22c199b077af957a3d83f1eb778f98ad46233029fcb3b366cb",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "100.00",
+      "locator": "XLSX Sheet1!row 129",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "1198ec0c6e5e77055f8e4bbe2a8199b4486d10801e4079d3e83d9b658cdc4dd1",
+  "entity_type": "SUPPLIER",
+  "name": "Beeline Taxis Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "35f5b3b0840af8a6c05441830cd7a0e443d45db82cd80b2a0043d8d9bef51e33",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-7caae37d-c5ef-4f59-ac87-920bd77742a3-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1b Up to 8 Passenger seats with Passenger Assistant Closing 5 June (PRU F45)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9852ea8a-11a6-424f-9f00-59b70a063d6a-901501.json",
+      "published_at": "2026-06-10T12:24:54+01:00",
+      "retrieved_at": "2026-10-03 23:31:32.261071",
+      "sha256": "5e83f342644da2deb8a60f05a2f92b75103a7bab01ed00a3083939115d91817d",
+      "related_entity": "ocds-b5fd17-7caae37d-c5ef-4f59-ac87-920bd77742a3:ocds-b5fd17-7caae37d-c5ef-4f59-ac87-920bd77742a3-1"
+    }
+  ]
+}

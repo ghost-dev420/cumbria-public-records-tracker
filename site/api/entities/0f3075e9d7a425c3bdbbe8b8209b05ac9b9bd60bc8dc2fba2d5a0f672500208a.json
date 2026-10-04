@@ -1,0 +1,22 @@
+{
+  "entity_id": "0f3075e9d7a425c3bdbbe8b8209b05ac9b9bd60bc8dc2fba2d5a0f672500208a",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC South Lakeland Area Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7c4b772721f93a6a0ccb43d2f14a54d4af0d4719be02a26ffbf0a9a6d2fa70c5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC South Lakeland Area Committee",
+      "locator": "committee 850",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

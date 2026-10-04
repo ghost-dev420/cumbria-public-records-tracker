@@ -1,0 +1,36 @@
+{
+  "entity_id": "694703cbec205998d40bdca5cbfd8500c3224bc79d0fc13809f8617fc4884450",
+  "entity_type": "SUPPLIER",
+  "name": "Freckle Fundraising Limited",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "a9493e4f6a9d2aef37f24b23017deb903fa458ef69e8772c06588ba924501150",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1200.00",
+      "locator": "XLSX Sheet1!row 14",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "68917374a1771fc49a8c9363e3df7cb520720eda09df305a03a66a60adda0d02",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "900.00",
+      "locator": "XLSX Sheet1!row 247",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "f239a1a2e32c3bc2b0e934ccb82a67aa6b6216f973a2d224b91cb727217e3f15",
+  "entity_type": "SUPPLIER",
+  "name": "AGE CONCERN NORTHWEST C",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d5c6bf6e5a4b3eb7c7122fea62e2bed8c8b55f8c3c1bc07c2cbaa4e0403d5375",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "20000.00",
+      "locator": "XLSX Sheet 1!row 278",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

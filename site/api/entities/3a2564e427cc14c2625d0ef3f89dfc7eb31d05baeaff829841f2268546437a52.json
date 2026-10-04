@@ -1,0 +1,36 @@
+{
+  "entity_id": "3a2564e427cc14c2625d0ef3f89dfc7eb31d05baeaff829841f2268546437a52",
+  "entity_type": "WARD",
+  "name": "Appleby and Brough",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "70c7d1e7355fe93b582922af4c754f8e4021f43398a4a6d96b8ebe1aff605fc0",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Appleby and Brough",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Graham Simpkins"
+    },
+    {
+      "fact_id": "f71a830927eb3edb109a528a5b8eae8cae950bea17765eda228d8c6ad0c794c1",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Appleby and Brough",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Andy Connell"
+    }
+  ]
+}

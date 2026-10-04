@@ -1,0 +1,22 @@
+{
+  "entity_id": "661e96a8fcca4dc473e9465a0c4dd361246e62fff6d357f91fb63f5446d23890",
+  "entity_type": "ORGANISATION",
+  "name": "Braithwaite Hall, Far Sawrey",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "255b89b56e1315689166e0ab384eb448ff766adcd0c98c798dcb09dde8c0ffdd",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1700",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 8",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Braithwaite Hall, Far Sawrey [d5cca958d2945c8fa387]"
+    }
+  ]
+}

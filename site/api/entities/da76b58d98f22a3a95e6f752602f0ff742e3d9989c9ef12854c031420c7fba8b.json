@@ -1,0 +1,22 @@
+{
+  "entity_id": "da76b58d98f22a3a95e6f752602f0ff742e3d9989c9ef12854c031420c7fba8b",
+  "entity_type": "SUPPLIER",
+  "name": "INDUSTRIAL PROCESS & ENGINEERING SERVICES LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "061f7c74d9e5396df97be2b6eca4bdd8ec6b7b252cd68a0c30ccbf71d698ab4e",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1220.00",
+      "locator": "XLSX Sheet1!row 180",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

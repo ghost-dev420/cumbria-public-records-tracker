@@ -1,0 +1,22 @@
+{
+  "entity_id": "7d7d81d50ea71d7cd1cffe885187a74b403d919a296aae3ac0105cbe902d19a9",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Planning and Transportation Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0a182a151c19872467037b083ecbb90638da16e94e34ca52b65226632feba090",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Planning and Transportation Committee",
+      "locator": "committee 711",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

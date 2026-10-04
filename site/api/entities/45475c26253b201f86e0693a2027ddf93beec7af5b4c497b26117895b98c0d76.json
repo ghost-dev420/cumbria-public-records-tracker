@@ -1,0 +1,78 @@
+{
+  "entity_id": "45475c26253b201f86e0693a2027ddf93beec7af5b4c497b26117895b98c0d76",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-016-955",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "5b47e53ba3161beb178f4eea1b023bc477a9a09a40daeca87376a781b34951f2",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-016-955",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 016 955)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-016-955",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:30.669820",
+      "sha256": "47ad17931392b8509adae11cfb3fef1eedc10b13adc8e2fb7a20407f7edd49b2",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "f531c9e701064809f07da5966b8b36be59fa098ad760bef93c42467171daf818",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 016 955)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-016-955",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:30.669820",
+      "sha256": "47ad17931392b8509adae11cfb3fef1eedc10b13adc8e2fb7a20407f7edd49b2",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "83696c27275a6fc3dbf0380db83cdf433e5aa26aaf50456350b6129f04e7321e",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 016 955)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-016-955",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:30.669820",
+      "sha256": "47ad17931392b8509adae11cfb3fef1eedc10b13adc8e2fb7a20407f7edd49b2",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "c1d1fcce60efb7893e351942d005d56a3f35cfeb9ca8cea08a186abb1bac24bd",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "18 Feb 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 016 955)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-016-955",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:30.669820",
+      "sha256": "47ad17931392b8509adae11cfb3fef1eedc10b13adc8e2fb7a20407f7edd49b2",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "eb66c2847193c17577fe7acd070ed09bc90e3fd6edf8939fb12b48ac3316a3c5",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about a van permit to use the Household Waste and Recycling Centre. This is because there is insufficient evidence of fault by the Council.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 016 955)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-016-955",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:30.669820",
+      "sha256": "47ad17931392b8509adae11cfb3fef1eedc10b13adc8e2fb7a20407f7edd49b2",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

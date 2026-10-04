@@ -1,0 +1,22 @@
+{
+  "entity_id": "530161a89a6f899df60f2e68c30c12284e6b421b00106a872d0e97a4c6b7a771",
+  "entity_type": "SUPPLIER",
+  "name": "EQUANS EV SOLUTIONS LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "32e2d7eb38e63793b54b138279882c34d433d6e85c81f407caa4adaa29fd7a42",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "39.80",
+      "locator": "XLSX Sheet 1!row 225",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

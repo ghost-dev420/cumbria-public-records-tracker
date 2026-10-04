@@ -1,0 +1,22 @@
+{
+  "entity_id": "b3c8f7dabffdc8bbdd8d226b92bb5c1a8d16e37bab67f0a9109f0b6d96dc971b",
+  "entity_type": "SUPPLIER",
+  "name": "Aecom",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b1201ad38fe93485c4097c8d9c89b65739417ddd7bb3c5016617a7e89d4d6e09",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-ff24edab-bb46-4e1c-bd70-161cc8d06a98-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 4B- Rail Station Accessibility Study",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d755095f-be26-4e61-bd84-0ce13fe79036-914627.json",
+      "published_at": "2026-09-18T10:12:05+01:00",
+      "retrieved_at": "2026-10-03 23:48:05.038434",
+      "sha256": "35820ea982566358cb94765612526f9bccf17bd363b5b7213dabc012f11b110e",
+      "related_entity": "ocds-b5fd17-ff24edab-bb46-4e1c-bd70-161cc8d06a98:ocds-b5fd17-ff24edab-bb46-4e1c-bd70-161cc8d06a98-1"
+    }
+  ]
+}

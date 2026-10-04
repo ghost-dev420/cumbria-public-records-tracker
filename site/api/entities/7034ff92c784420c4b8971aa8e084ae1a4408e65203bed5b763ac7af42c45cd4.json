@@ -1,0 +1,22 @@
+{
+  "entity_id": "7034ff92c784420c4b8971aa8e084ae1a4408e65203bed5b763ac7af42c45cd4",
+  "entity_type": "SUPPLIER",
+  "name": "COCKERMOUTH T.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d17fa6e67f67103942e2eda2316749d1a8c726b0b6c3c26188cee951466ca32e",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "131721.00",
+      "locator": "XLSX Sheet1!row 527",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

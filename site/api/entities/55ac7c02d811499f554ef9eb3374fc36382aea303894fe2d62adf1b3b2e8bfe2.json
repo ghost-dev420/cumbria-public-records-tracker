@@ -1,0 +1,22 @@
+{
+  "entity_id": "55ac7c02d811499f554ef9eb3374fc36382aea303894fe2d62adf1b3b2e8bfe2",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Scrutiny Advisory Board - Adult and Cultural Services",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "67a46f67e5a307a7e5c6a2e7ef3c857099343c4c29ebfe982f25d57b6f52c465",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Scrutiny Advisory Board - Adult and Cultural Services",
+      "locator": "committee 589",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

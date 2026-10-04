@@ -1,0 +1,22 @@
+{
+  "entity_id": "bf4c7ab7f4dfb0b6e303d4228818d5cebdc78e3dc7a29248f731df9cf5680ae2",
+  "entity_type": "SUPPLIER",
+  "name": "MYERSCOUGH COLLEGE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b94fb45485f18c47237303036df22502bbce8fd1a064263fbe35e87bb270aba9",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "4500.00",
+      "locator": "XLSX Sheet1!row 171",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

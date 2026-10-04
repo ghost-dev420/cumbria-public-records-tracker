@@ -1,0 +1,22 @@
+{
+  "entity_id": "65fa1fd9be1216455e2e06acf9973de1c0abc19f57f77ca51819bb61725c4ff2",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Penrith Area Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "628f74925dfc0d08eaf7163bec39d3c3b99713d3cbaa720b5fe05bda55a0c4a7",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Penrith Area Committee",
+      "locator": "committee 766",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

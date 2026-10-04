@@ -1,0 +1,22 @@
+{
+  "entity_id": "96a8c36e8f08f538ff2b8b8378b17059cff975cea1e89f70385e01ed3dd01419",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Employment & Skills Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "eefd2c918db34ef52b818d495556f08f85ccd9787c151696d15cf1ef8331f87b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Employment & Skills Board",
+      "locator": "committee 739",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

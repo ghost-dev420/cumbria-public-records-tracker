@@ -1,0 +1,22 @@
+{
+  "entity_id": "92950d25d896e119c7d9c57d248751d1398b8e76ade82eaa2a2d69a417c5d68d",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Corporate Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "888cc49d0866ebec83a3cd695438e7330ef4dc95bfeb7e6c04eba713d100470f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Corporate Committee",
+      "locator": "committee 399",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

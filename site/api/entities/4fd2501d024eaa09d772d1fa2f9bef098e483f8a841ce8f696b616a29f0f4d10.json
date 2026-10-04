@@ -1,0 +1,78 @@
+{
+  "entity_id": "4fd2501d024eaa09d772d1fa2f9bef098e483f8a841ce8f696b616a29f0f4d10",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "26-009-659",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "7f2a40106683f18bc68974ae6aae935c3eb845d82ec745d5a33f197c6d1f03a0",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "26-009-659",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 009 659)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/26-009-659",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:12.828891",
+      "sha256": "721c2c28886193b583a82bc7d06431a4d380dd838f6b9fca5cca110bbac08e6e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "2bad56078e4fb747362ac2118ec61477b8cb5187abd00be23c44e6b5f67e7e4e",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Other Categories",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 009 659)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/26-009-659",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:12.828891",
+      "sha256": "721c2c28886193b583a82bc7d06431a4d380dd838f6b9fca5cca110bbac08e6e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "6cfb8c16d1a5f43c458d63dd473d509a32eaf1f58bba612abd7d1892ba927b3c",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 009 659)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/26-009-659",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:12.828891",
+      "sha256": "721c2c28886193b583a82bc7d06431a4d380dd838f6b9fca5cca110bbac08e6e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "4bde9d6710c3ac79b9569715cd9e40bacdc62d5a8e616ef85e4e7245acc859c0",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "21 Jul 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 009 659)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/26-009-659",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:12.828891",
+      "sha256": "721c2c28886193b583a82bc7d06431a4d380dd838f6b9fca5cca110bbac08e6e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "942c8c9fe4d0634d11d28ac1b2d63884ed855111cb3b52f428924e86c8428653",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about delays in the Council communicating with him. The claimed injustice is not significant enough to warrant our involvement.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 009 659)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/26-009-659",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:12.828891",
+      "sha256": "721c2c28886193b583a82bc7d06431a4d380dd838f6b9fca5cca110bbac08e6e",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

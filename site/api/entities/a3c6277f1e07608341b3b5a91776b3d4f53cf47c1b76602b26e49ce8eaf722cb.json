@@ -1,0 +1,22 @@
+{
+  "entity_id": "a3c6277f1e07608341b3b5a91776b3d4f53cf47c1b76602b26e49ce8eaf722cb",
+  "entity_type": "SUPPLIER",
+  "name": "NCC Group Security Services Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ff42cc38344782e2ced11117864fced82cd5b437a402a53ba9fbcc9c8b1b7aa9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-8d035744-5333-45f2-b346-4bd5aac81cc5-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "IT Health Check (ITHC) Review",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e0f851f0-04ab-41ac-92d9-ce4425f4194c-890655.json",
+      "published_at": "2026-03-30T14:41:59+01:00",
+      "retrieved_at": "2026-10-03 23:15:08.107761",
+      "sha256": "d4d09cef11ac9bdf07744505c345ae5bad9b59fb33e3ce4e4e947caebf336c1a",
+      "related_entity": "ocds-b5fd17-8d035744-5333-45f2-b346-4bd5aac81cc5:ocds-b5fd17-8d035744-5333-45f2-b346-4bd5aac81cc5-1"
+    }
+  ]
+}

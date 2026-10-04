@@ -1,0 +1,22 @@
+{
+  "entity_id": "42d4afe3386a640ad4e75c52d3460da44168b0b3d78e9dc11ea8751ff7758a80",
+  "entity_type": "SUPPLIER",
+  "name": "C & R Building Solutions Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bbe1584b599fcc2fada9c56a795f8ec24f43b51cfe5b3153f42bbd2152807e60",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-20f4480a-003d-46ba-b1bc-7c00a3c6c4eb-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Responsive Repairs to Fencing (Support) - Home Group Repairs Service Midlands & South Central",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9f24c245-0a02-41bd-beca-09833252301f-894151.json",
+      "published_at": "2026-04-30T10:57:47+01:00",
+      "retrieved_at": "2026-10-03 23:25:19.624762",
+      "sha256": "4abc40b6c68514f3697ba31aea8a526932c4685cf19614ba204d38d9f62b5e01",
+      "related_entity": "ocds-b5fd17-20f4480a-003d-46ba-b1bc-7c00a3c6c4eb:ocds-b5fd17-20f4480a-003d-46ba-b1bc-7c00a3c6c4eb-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "5e086005d6c581c98769e282c32664665e0cbc89bf8d348a3c9a8bdce8347247",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Policy General Purposes Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c35530e515bc0f1a192237a48302bd2c6c7381b385bbe0f67d547cd1d987e42c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Policy General Purposes Sub-Committee",
+      "locator": "committee 579",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

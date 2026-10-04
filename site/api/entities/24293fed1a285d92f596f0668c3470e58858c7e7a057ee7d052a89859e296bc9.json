@@ -1,0 +1,22 @@
+{
+  "entity_id": "24293fed1a285d92f596f0668c3470e58858c7e7a057ee7d052a89859e296bc9",
+  "entity_type": "SUPPLIER",
+  "name": "Totalmobile Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "56f1668b4bfe93202cfded54d325497567eafe2beef66de8983ec3423832aff1",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-a80fa95e-77af-4d86-989a-a0cec58fa89b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "G-Cloud 14 Call-Off Contract: Electronic Rostering System for Reablement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0224175b-9a10-44ce-937d-fc66f645f4f6-904504.json",
+      "published_at": "2026-07-03T09:32:13+01:00",
+      "retrieved_at": "2026-10-03 23:35:48.823279",
+      "sha256": "e003163b59eec11a14af9681384ad2cf8cc68a100289d43d8a8560383d511ca8",
+      "related_entity": "ocds-b5fd17-a80fa95e-77af-4d86-989a-a0cec58fa89b:ocds-b5fd17-a80fa95e-77af-4d86-989a-a0cec58fa89b-1"
+    }
+  ]
+}

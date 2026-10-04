@@ -1,0 +1,22 @@
+{
+  "entity_id": "f8eb53cec1171839691482fe8b2a514502c648214734eab3c6fe492b6850359e",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Personnel Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5a4d174f99f36d862eb926dcd9dc01264238374a01e012cf48d4f6a11d5011ab",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Personnel Sub-Committee",
+      "locator": "committee 569",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

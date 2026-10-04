@@ -1,0 +1,22 @@
+{
+  "entity_id": "db78f96e2c63080c5507b2cedbfb16203231e7885524849f37b7a5a0e939a521",
+  "entity_type": "SUPPLIER",
+  "name": "Pell Frischmann Consultants Ltd.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7e2319cf14adfdeedcf2fda9be4c661b796e9ce78cb1174d760d274bcad6e562",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-7481bb26-349a-4359-8886-b3b6e995ebc8-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "LCWIP WR2 Sandgate - Fell Lane Preliminary Design",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/807cec1e-4c20-4baf-977d-64c7bf23cdb5-878868.json",
+      "published_at": "2026-01-13T09:30:44Z",
+      "retrieved_at": "2026-10-03 23:03:06.445383",
+      "sha256": "b717cb70b3322a1e411c4ba3292c0b1c78210815511a7cfe03e3e4a5ce904478",
+      "related_entity": "ocds-b5fd17-7481bb26-349a-4359-8886-b3b6e995ebc8:ocds-b5fd17-7481bb26-349a-4359-8886-b3b6e995ebc8-1"
+    }
+  ]
+}

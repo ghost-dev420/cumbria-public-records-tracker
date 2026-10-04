@@ -1,0 +1,22 @@
+{
+  "entity_id": "e472a874f61b2cde123428850f13bc4703d26c043e5f41f4c00d3663a2e9de89",
+  "entity_type": "SUPPLIER",
+  "name": "PARKSAFE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4fccb3c9dece5f1393dc166700e3c4f2d1f3f2400949025ff1af26e042e78f15",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "-98777.00",
+      "locator": "XLSX Sheet1!row 189",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

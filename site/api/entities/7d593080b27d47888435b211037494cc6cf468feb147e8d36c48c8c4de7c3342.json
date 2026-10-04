@@ -1,0 +1,22 @@
+{
+  "entity_id": "7d593080b27d47888435b211037494cc6cf468feb147e8d36c48c8c4de7c3342",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Standards Assessment Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f8916ae62657300c84e3e0e187d33b3c794409e47abe7f29220a2d1c0466689e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Standards Assessment Sub-Committee",
+      "locator": "committee 719",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

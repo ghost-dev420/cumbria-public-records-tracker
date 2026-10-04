@@ -1,0 +1,22 @@
+{
+  "entity_id": "870c476c8ee4765cbd72423bc9806ee07009124d42a168c0e69f39b6caabf291",
+  "entity_type": "WARD",
+  "name": "Stanwix Urban",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2dc04dbdb5de71c49c465d80ca737d51b476354332cd86a1baba757cf7cf0f02",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Stanwix Urban",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Brian Wernham"
+    }
+  ]
+}

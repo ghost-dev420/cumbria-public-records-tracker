@@ -1,0 +1,22 @@
+{
+  "entity_id": "8818dbc522546b2fec89c24de9a6f0228cfb8bcbce0fdc58312dcfd24a894dd6",
+  "entity_type": "COMMITTEE",
+  "name": "Joint Overview and Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "eea2241233699a021b453cce55e1a610e65dbd2d834814d56887f559d277f354",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Joint Overview and Scrutiny Committee",
+      "locator": "committee 846",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

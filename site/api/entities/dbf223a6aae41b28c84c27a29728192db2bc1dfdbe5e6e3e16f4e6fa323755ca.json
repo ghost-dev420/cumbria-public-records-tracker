@@ -1,0 +1,22 @@
+{
+  "entity_id": "dbf223a6aae41b28c84c27a29728192db2bc1dfdbe5e6e3e16f4e6fa323755ca",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria LGPS Local Pension Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "35a61fb21856f75b6dac7e87f6db18ffd70943ab17a059c01b2a9c4d88b68ed4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria LGPS Local Pension Board",
+      "locator": "committee 439",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

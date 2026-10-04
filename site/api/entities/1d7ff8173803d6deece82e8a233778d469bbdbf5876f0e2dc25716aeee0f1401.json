@@ -1,0 +1,22 @@
+{
+  "entity_id": "1d7ff8173803d6deece82e8a233778d469bbdbf5876f0e2dc25716aeee0f1401",
+  "entity_type": "SUPPLIER",
+  "name": "SECURE-A-FIELD LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "67c28c955ae0881ec4e2d9e81eb4544e6e104ebb5d2c5263346ae05fe9a577b8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "81.89",
+      "locator": "XLSX Sheet1!row 422",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

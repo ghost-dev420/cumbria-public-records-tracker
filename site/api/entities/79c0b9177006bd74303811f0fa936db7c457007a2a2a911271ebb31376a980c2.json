@@ -1,0 +1,36 @@
+{
+  "entity_id": "79c0b9177006bd74303811f0fa936db7c457007a2a2a911271ebb31376a980c2",
+  "entity_type": "POLITICAL_PARTY",
+  "name": "Reform UK",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "5a373dcf2ded8af24c1121801b6d5328952864aaa9d4104cef47183a4ead0908",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Reform UK",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Hazel Edwards"
+    },
+    {
+      "fact_id": "7c7b8cd4a262ffeb324afbc8b9125a0c4844659d53a14d67be10cfae41f69642",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Reform UK",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Josh Kirkwood"
+    }
+  ]
+}

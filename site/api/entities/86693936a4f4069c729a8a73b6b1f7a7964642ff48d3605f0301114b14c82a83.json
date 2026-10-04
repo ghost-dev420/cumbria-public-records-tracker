@@ -1,0 +1,78 @@
+{
+  "entity_id": "86693936a4f4069c729a8a73b6b1f7a7964642ff48d3605f0301114b14c82a83",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-003-231",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "a5dc203a6e84968f6d72c70f5df834401e582c95503fd5132a86f06d756e147f",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-003-231",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 003 231)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/25-003-231",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:11.835557",
+      "sha256": "357adc510a1139e0839fa5b7b9a5f3441b7a4668f89253a7f358d7f5a5600290",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "760d64b44139d9072c4d1b8bfb463b569cd4cc93bdcf0b28ed1c026bd65f194b",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Planning",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 003 231)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/25-003-231",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:11.835557",
+      "sha256": "357adc510a1139e0839fa5b7b9a5f3441b7a4668f89253a7f358d7f5a5600290",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c11b59a9efd490d864efec90ffd98c95dbc5281b48945095c4b1f3c3a8a75ee1",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 003 231)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/25-003-231",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:11.835557",
+      "sha256": "357adc510a1139e0839fa5b7b9a5f3441b7a4668f89253a7f358d7f5a5600290",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e36a03c32bef5d7563311ad32bd40ca542e628982eea34b7cc4b4fb4e3afbf3c",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "03 Sep 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 003 231)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/25-003-231",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:11.835557",
+      "sha256": "357adc510a1139e0839fa5b7b9a5f3441b7a4668f89253a7f358d7f5a5600290",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "8cc4ddf80c0df8fb9ce699fae19fa908d4e1185a37f18570b5311fe82eccd815",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s failure to deal with a complaint about a failure to update public planning records for work to a tree in a conservation area. We do not consider the complainant has suffered a significant personal injustice which warrants an investigation.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 003 231)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/25-003-231",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:11.835557",
+      "sha256": "357adc510a1139e0839fa5b7b9a5f3441b7a4668f89253a7f358d7f5a5600290",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

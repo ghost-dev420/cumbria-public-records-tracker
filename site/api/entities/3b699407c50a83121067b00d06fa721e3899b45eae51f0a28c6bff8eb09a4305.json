@@ -1,0 +1,22 @@
+{
+  "entity_id": "3b699407c50a83121067b00d06fa721e3899b45eae51f0a28c6bff8eb09a4305",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Environment Scrutiny Panel (F)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3e154097ad4be928f6e6baebb0eb563d93aced78886043b8840c12090aaa1745",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Environment Scrutiny Panel (F)",
+      "locator": "committee 764",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

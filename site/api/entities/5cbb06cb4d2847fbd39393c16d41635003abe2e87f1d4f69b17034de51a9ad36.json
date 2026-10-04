@@ -1,0 +1,22 @@
+{
+  "entity_id": "5cbb06cb4d2847fbd39393c16d41635003abe2e87f1d4f69b17034de51a9ad36",
+  "entity_type": "COMMITTEE",
+  "name": "CBC Audit and Governance Committee - Standards Sub",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1d97f1f8c33daff7deb8409ecfa7f53c0d27bed5c93e80c6cc2f87cc77eac34f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CBC Audit and Governance Committee - Standards Sub",
+      "locator": "committee 410",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

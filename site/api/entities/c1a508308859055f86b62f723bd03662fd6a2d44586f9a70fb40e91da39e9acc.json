@@ -1,0 +1,22 @@
+{
+  "entity_id": "c1a508308859055f86b62f723bd03662fd6a2d44586f9a70fb40e91da39e9acc",
+  "entity_type": "WARD",
+  "name": "Yewdale",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f0fa0d763d8e2567b43c0882629a5ffbc69ede7e77c1f671501a637f9edcead4",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Yewdale",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Jeanette Whalen"
+    }
+  ]
+}

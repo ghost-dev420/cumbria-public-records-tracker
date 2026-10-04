@@ -1,0 +1,36 @@
+{
+  "entity_id": "7802fd6dc0fa5a509b8d707db0c9a86fc0b79ceae237995f36062dc7f471e1ec",
+  "entity_type": "SUPPLIER",
+  "name": "WORKING PLANET LIMITED",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "7286a83a28c1da853c8ef59a44373328fb41a2e57d8ff87b855090147137889b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "249.00",
+      "locator": "XLSX Sheet1!row 453",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f3585cf35f24743a8240d4e0215c6db2ceba510b9e78e3e53c1725b1ffa4eb86",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "249.00",
+      "locator": "XLSX Sheet1!row 452",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

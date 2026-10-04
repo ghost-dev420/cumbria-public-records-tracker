@@ -1,0 +1,22 @@
+{
+  "entity_id": "6b23c58d64c2028f544c036866885d5a927b4246702727270422fa65e83c412b",
+  "entity_type": "SUPPLIER",
+  "name": "REIVER VETERINARY SERVICES",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a50229c45fce645f214729b34094e53651bece7c23aadc2fdfa9e494a886b171",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "180.00",
+      "locator": "XLSX Sheet 1!row 203",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "8552a81af6231c0594f69b5d665de4c0495adab08d9984a58aac4ec1d12eea3b",
+  "entity_type": "SUPPLIER",
+  "name": "Bens Taxis",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2707f7ca2a31627b1aa3d51a746ff154cebf0102298db871a98d3ab91df84733",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-6fbeb4f7-cc56-4211-ad8a-7aeb63d2ab35-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a Up to 8 Passenger seats Closing 26 November (PRU F22)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5d6fa64c-5053-4142-8ec1-8a9bb64c6b03-874302.json",
+      "published_at": "2025-12-02T10:02:04Z",
+      "retrieved_at": "2026-10-03 22:58:47.937391",
+      "sha256": "12d0258dbcccd7986ee1f0976ca843702884380d3db958415b8eec8220c7eae2",
+      "related_entity": "ocds-b5fd17-6fbeb4f7-cc56-4211-ad8a-7aeb63d2ab35:ocds-b5fd17-6fbeb4f7-cc56-4211-ad8a-7aeb63d2ab35-1"
+    }
+  ]
+}

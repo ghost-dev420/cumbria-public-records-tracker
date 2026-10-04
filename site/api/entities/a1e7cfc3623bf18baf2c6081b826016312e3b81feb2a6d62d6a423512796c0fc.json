@@ -1,0 +1,22 @@
+{
+  "entity_id": "a1e7cfc3623bf18baf2c6081b826016312e3b81feb2a6d62d6a423512796c0fc",
+  "entity_type": "SUPPLIER",
+  "name": "THE SANCTUARY",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9b3a4871bc2730b96881ba83cbecb9ff433edbf007af9543823e4e542abd1912",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "60.00",
+      "locator": "XLSX Sheet1!row 197",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

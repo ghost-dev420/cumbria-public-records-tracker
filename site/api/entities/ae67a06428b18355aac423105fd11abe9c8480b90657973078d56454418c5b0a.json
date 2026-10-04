@@ -1,0 +1,22 @@
+{
+  "entity_id": "ae67a06428b18355aac423105fd11abe9c8480b90657973078d56454418c5b0a",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Carlisle Children and Young People's Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5cc69fb963773dae825f20ec083cbb331187bc0c11d30a504cebff119ad65d12",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Carlisle Children and Young People's Working Group",
+      "locator": "committee 483",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "9badf49aba439b55bdb94af6ab27950f65dcab0f8ed149676108e83b7e6a6d30",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Performance and Improvement Portfolio Holder",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a6b16b3d7a4189e78304863cc63b2c9435c44dbf18753cb17d1083d52b1443e3",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Performance and Improvement Portfolio Holder",
+      "locator": "committee 767",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

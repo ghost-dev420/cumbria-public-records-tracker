@@ -1,0 +1,22 @@
+{
+  "entity_id": "e710a5d5dc80eb7a4e41a1d7242c93daffe75ec87c5ec8c9dcf44ccdc2c566e0",
+  "entity_type": "WARD",
+  "name": "Howgate",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b0cdefbfc9581771420bb50a96eb39e870b28d57d4e0a58e10563b3c2ea46eb6",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Howgate",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Gillian Troughton"
+    }
+  ]
+}

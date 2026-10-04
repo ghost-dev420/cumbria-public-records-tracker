@@ -1,0 +1,22 @@
+{
+  "entity_id": "7a73c124b5604d4684ebe1dd06cbdd31a0dba9c182bcc148b0eebd8ad22565bf",
+  "entity_type": "SUPPLIER",
+  "name": "TAYLORED INVESTMENTS LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "283d3ae66eaa16ea2969c0921af2e73fdbee15ea243c3c4cbdf9590f15807c31",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "220.83",
+      "locator": "XLSX Sheet1!row 496",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

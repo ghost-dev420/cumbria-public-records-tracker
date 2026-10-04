@@ -1,0 +1,22 @@
+{
+  "entity_id": "321a6943881be273e22a5ba2e47e36ac1d15a698da0ad4be86531e927bde0464",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Allerdale Area Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c62f21238c62fa969a33e1109e5113b20597776da99fb80fc2d34f2bddbde123",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Allerdale Area Committee",
+      "locator": "committee 465",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

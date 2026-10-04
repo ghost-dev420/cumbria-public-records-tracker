@@ -1,0 +1,22 @@
+{
+  "entity_id": "795b77def325b7a0a5f5362464fb64ae3b5ac307f7cb4fc8145446823a8f13c4",
+  "entity_type": "WARD",
+  "name": "Seaton",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9a9dddb554403a9d7ddb37e593b797b86ddd9e2b8dffb3777c8faf1264767a54",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Seaton",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Jimmy Grisdale"
+    }
+  ]
+}

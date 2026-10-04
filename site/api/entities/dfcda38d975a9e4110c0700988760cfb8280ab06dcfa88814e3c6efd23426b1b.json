@@ -1,0 +1,22 @@
+{
+  "entity_id": "dfcda38d975a9e4110c0700988760cfb8280ab06dcfa88814e3c6efd23426b1b",
+  "entity_type": "SUPPLIER",
+  "name": "DISTRICT COUNCILS NETWORK",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "348de765866be5270a4611ace0348d9570f0f830f7cc47c560165abb0851d85c",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2593.00",
+      "locator": "XLSX Sheet1!row 525",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "752d15b0fa3cac77b325624e6bc4dd1f6976a7ea146ade63fb1904839b2d2db5",
+  "entity_type": "WARD",
+  "name": "Windermere and Ambleside",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "0f24005d323cc2726404e7bf260afdb65e04bf3ccfdf323345b26d0021b474bc",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Windermere and Ambleside",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Andrew Jarvis"
+    },
+    {
+      "fact_id": "4b15fdf1702d72686f0f7c4fb0d89bb72b3723ddacdca36f2513d3140635822d",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Windermere and Ambleside",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Dyan Jones"
+    },
+    {
+      "fact_id": "5f8df66cf4ebd43381a75a90a232f7f4e46912c6f01f50144d0c113258ebdc94",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Windermere and Ambleside",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Will Clark"
+    }
+  ]
+}

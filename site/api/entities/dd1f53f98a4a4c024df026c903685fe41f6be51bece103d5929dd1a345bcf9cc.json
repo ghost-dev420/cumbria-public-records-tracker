@@ -1,0 +1,36 @@
+{
+  "entity_id": "dd1f53f98a4a4c024df026c903685fe41f6be51bece103d5929dd1a345bcf9cc",
+  "entity_type": "SUPPLIER",
+  "name": "KESWICK MINISTRIES",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "efb34b2f5253bac372c5036922a660b23d55b61e3a6d68e6bdc4c184c4b10a81",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "228.00",
+      "locator": "XLSX Sheet1!row 8",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d56c6219b677ce6c2b98c486f1f9d8ab0a01e7edad3f03afbeb7eb41c3cfce2e",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "352.50",
+      "locator": "XLSX Sheet 1!row 197",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

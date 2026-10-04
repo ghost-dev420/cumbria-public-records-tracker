@@ -1,0 +1,22 @@
+{
+  "entity_id": "42c021277c39b44751dcf50518e20cca78e63003ba4abad299438b5d2e58d345",
+  "entity_type": "COMMITTEE",
+  "name": "Shadow Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7262e188d8c4d6785e14f5fd966ff543870541a5a8d0bf6c92cc237e9d180d68",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Shadow Scrutiny Committee",
+      "locator": "committee 141",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

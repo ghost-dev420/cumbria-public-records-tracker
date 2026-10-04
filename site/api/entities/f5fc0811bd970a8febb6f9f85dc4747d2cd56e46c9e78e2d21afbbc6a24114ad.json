@@ -1,0 +1,50 @@
+{
+  "entity_id": "f5fc0811bd970a8febb6f9f85dc4747d2cd56e46c9e78e2d21afbbc6a24114ad",
+  "entity_type": "WARD",
+  "name": "Ulverston",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "06d3b20338d6bb84ff307bca73c21ecc96ab55d5ea7030ddccac3664e7b44fe7",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Ulverston",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Jackie Drake"
+    },
+    {
+      "fact_id": "4c2f015aa5a6b2a1f8823c7023114fb8afdade11b1ba7af5ee71b518b3f17d93",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Ulverston",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Helen Irving"
+    },
+    {
+      "fact_id": "c38670b777a8000ebe498b1c43eb115a2a0e111f9576ce0e3adbdd234513fabc",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Ulverston",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Judy Filmore"
+    }
+  ]
+}

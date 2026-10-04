@@ -1,0 +1,78 @@
+{
+  "entity_id": "78a489bf989bf8d543ae237723957d43804bdbde9a6a3974f35601e479ee03c9",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-022-417",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "edbf138b973c364fc1b7fc40f0b63761776634e8057cf2f00d0d6498d53f219b",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-022-417",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 022 417)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/25-022-417",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:16.937139",
+      "sha256": "2cb033859024be9cc686b7555b045e7e7139a9248a817ccd1e2269bd28421581",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4562672a9b4f5f52b7c385b9e6939428251ff96cfe91a1c3586c66f0e5ff61a7",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 022 417)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/25-022-417",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:16.937139",
+      "sha256": "2cb033859024be9cc686b7555b045e7e7139a9248a817ccd1e2269bd28421581",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "396093963e80c1b616927cf4d9f716760854ae6ff47a743736914ab5a492452f",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 022 417)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/25-022-417",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:16.937139",
+      "sha256": "2cb033859024be9cc686b7555b045e7e7139a9248a817ccd1e2269bd28421581",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "1a035e94b234f56049e73e645d2ba939b876f6a626336a6dae1a9ee5b683d2e0",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "27 May 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 022 417)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/25-022-417",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:16.937139",
+      "sha256": "2cb033859024be9cc686b7555b045e7e7139a9248a817ccd1e2269bd28421581",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e44d7e79092a2270c5a012ce6fc2bfd8179fc4037d9a7a3b4aec4c2740f04c85",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about the Council’s requirement for taxi drivers to display a licence at the front of their vehicles. Mr X’s claimed injustice is not significant enough to warrant our involvement.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 022 417)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/25-022-417",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:16.937139",
+      "sha256": "2cb033859024be9cc686b7555b045e7e7139a9248a817ccd1e2269bd28421581",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

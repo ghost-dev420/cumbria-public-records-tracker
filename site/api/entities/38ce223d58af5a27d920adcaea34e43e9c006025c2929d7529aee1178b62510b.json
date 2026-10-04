@@ -1,0 +1,22 @@
+{
+  "entity_id": "38ce223d58af5a27d920adcaea34e43e9c006025c2929d7529aee1178b62510b",
+  "entity_type": "ORGANISATION",
+  "name": "Storth Playing Field (Heron Hall)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "04330b632fbaadbc373e6ff36b2b471c37ac951ecc8fe344e37a7d0fb3680a72",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "826",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 14",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Storth Playing Field (Heron Hall) [79e0ab0851aaa3571195]"
+    }
+  ]
+}

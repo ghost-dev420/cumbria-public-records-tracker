@@ -1,0 +1,22 @@
+{
+  "entity_id": "d027a645cc2ff725c80843edc66720454060a04c6c17ea46055a7348753d116a",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Business Partnerships Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "294fa412758534e97dfd21270bb92377c15343cbf10df28024b4e2b3e4dc353d",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Business Partnerships Board",
+      "locator": "committee 479",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

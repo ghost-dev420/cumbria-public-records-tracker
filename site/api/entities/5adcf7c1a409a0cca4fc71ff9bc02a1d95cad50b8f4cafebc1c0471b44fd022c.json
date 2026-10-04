@@ -1,0 +1,22 @@
+{
+  "entity_id": "5adcf7c1a409a0cca4fc71ff9bc02a1d95cad50b8f4cafebc1c0471b44fd022c",
+  "entity_type": "SUPPLIER",
+  "name": "Vodaphone Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "089f91f393061a82cbe41abb913f109b42e706f9cbe763c975cd2d66789be28c",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-f3b5ef1f-ae27-4b8c-b2c7-1787716b02ef-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Kyndryl Cloud Readiness Assessment & ICT Harmonisation",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a5dea6bb-b0aa-4547-a8ae-ee644375bdc9-912853.json",
+      "published_at": "2026-09-03T12:34:42+01:00",
+      "retrieved_at": "2026-10-03 23:46:20.463420",
+      "sha256": "e26531c80ed0444d063448f9d8ba02b31030d2db69139932f3353116050b4d10",
+      "related_entity": "ocds-b5fd17-f3b5ef1f-ae27-4b8c-b2c7-1787716b02ef:ocds-b5fd17-f3b5ef1f-ae27-4b8c-b2c7-1787716b02ef-1"
+    }
+  ]
+}

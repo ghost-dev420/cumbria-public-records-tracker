@@ -1,0 +1,36 @@
+{
+  "entity_id": "bec227f23d7dee387ba7a7902a4f759d562f6c46369f42a0efe5cae96e118cf0",
+  "entity_type": "SUPPLIER",
+  "name": "Night Airport Taxis Ltd.",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "0515a810984d7299b471f5e9bc4f2799e3417e75a2fb9ed7f06cf9c516b176bd",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-e2435610-ec44-4554-9389-ee377f9f7d21-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 04 October 2023 - F55-10",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/15d57c1b-c78f-4191-91db-1e52347a6607-892678.json",
+      "published_at": "2026-04-13T16:21:57+01:00",
+      "retrieved_at": "2026-10-03 23:21:16.773021",
+      "sha256": "7b709970af7d208b1dfdc329fb52efa0744525ff94b1fae6d68725fa988d853d",
+      "related_entity": "ocds-b5fd17-e2435610-ec44-4554-9389-ee377f9f7d21:ocds-b5fd17-e2435610-ec44-4554-9389-ee377f9f7d21-1"
+    },
+    {
+      "fact_id": "d7b03d8a7fa44caeb8fd01d592e2606efb609143d6254cbfee2ce46506bf18b7",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5d4f53eb-8ca7-4a91-97f5-b0d4d9450937-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 11 September 2023 (F50)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/38b29abe-050c-48dd-9a2b-447423708f2d-892664.json",
+      "published_at": "2026-04-13T15:31:27+01:00",
+      "retrieved_at": "2026-10-03 23:21:21.368938",
+      "sha256": "dd9b0617aee05bf1847b22a08092fc5a4cff413368b36c411f7d8137e4b31a3f",
+      "related_entity": "ocds-b5fd17-5d4f53eb-8ca7-4a91-97f5-b0d4d9450937:ocds-b5fd17-5d4f53eb-8ca7-4a91-97f5-b0d4d9450937-1"
+    }
+  ]
+}

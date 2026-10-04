@@ -1,0 +1,22 @@
+{
+  "entity_id": "136f55263ae76624fe63c6455de8b24bd00614e213ee2569b3c8bb50819e2695",
+  "entity_type": "COMMITTEE",
+  "name": "Standards and Governance Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f8173eaee3f8202ba2d210da9d8021361f7ab971c65094354bf56db13b6b8270",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Standards and Governance Committee",
+      "locator": "committee 168",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "04ded42afea9f601786e5a98dc14078a854687f140f6720fd2bbf8051e207d1d",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-007-797",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "77cb3fe6f02c7dbbd0e5bd0ff60acaf95b20c2e944df807b0d6699673b2db596",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-007-797",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 007 797)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/24-007-797",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:25.597111",
+      "sha256": "3dd9bdbc5c8cfddba8b9a103cce773d4efb2fff011bdc6dc566055282d0f011d",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "d76668363ab6d91d0287dfb264b1454685ec87fa6dd215474d1264d6e0cdd0cb",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 007 797)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/24-007-797",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:25.597111",
+      "sha256": "3dd9bdbc5c8cfddba8b9a103cce773d4efb2fff011bdc6dc566055282d0f011d",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "008658e9ec200fd8f3c4abf3583026bf02766c677852a52d9e1557899a66c3be",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 007 797)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/24-007-797",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:25.597111",
+      "sha256": "3dd9bdbc5c8cfddba8b9a103cce773d4efb2fff011bdc6dc566055282d0f011d",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "cf69653b1f29826586b086c1872ed661820dd5696bca34d4c8ac42bc1977267f",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "12 May 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 007 797)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/24-007-797",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:25.597111",
+      "sha256": "3dd9bdbc5c8cfddba8b9a103cce773d4efb2fff011bdc6dc566055282d0f011d",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "e27a48209f4b0079254d5421b537b0fd296af3bedc534150b4f715ab94f11a4d",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Mr X complained that the Council made hasty arrangements for his mother’s care and failed to manage the commissioned service properly. There is evidence the Council’s commissioned service did not always provide the care for which it was contracted. The Council, which accepts some delays in the complaints process, has also offered Mr X £500 and now agrees to go further to recognise the injustice caused by a poor service.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 007 797)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/24-007-797",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:25.597111",
+      "sha256": "3dd9bdbc5c8cfddba8b9a103cce773d4efb2fff011bdc6dc566055282d0f011d",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

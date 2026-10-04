@@ -1,0 +1,22 @@
+{
+  "entity_id": "bcb27f92ee1379087ab703e81a579ef73a89e3bf4bcab6734f31ad4ec02ca7cb",
+  "entity_type": "SUPPLIER",
+  "name": "Cockermouth Emergency Response Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "89facb71dbc4883390c09eaa9333ca5235dc6fe20a4fe88d4bf6fef22cace80e",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "500.00",
+      "locator": "XLSX Sheet1!row 94",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

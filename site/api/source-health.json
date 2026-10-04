@@ -1,0 +1,178 @@
+[
+  {
+    "source_id": "lgsco_cumberland",
+    "status": "partial",
+    "record_count": 130,
+    "fact_count": 250,
+    "error_class": "HTTPStatusError",
+    "error_message": "Client error '404 Not Found' for url 'https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland%20Council&dc=c%2Bnu%2Bu%2B&sortOrder=descending&page=5#analyticalCookies'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "http_status": 404,
+    "started_at": "2026-10-04 00:03:46.737588",
+    "finished_at": "2026-10-04 00:06:57.882428"
+  },
+  {
+    "source_id": "lgsco_westmorland_furness",
+    "status": "partial_extraction",
+    "record_count": 1,
+    "fact_count": 0,
+    "error_class": "ExtractionCoverageError",
+    "error_message": "lgsco_westmorland_furness collected 1 records but extracted 0 structured facts; expected at least 1",
+    "http_status": null,
+    "started_at": "2026-10-04 00:06:58.171236",
+    "finished_at": "2026-10-04 00:06:58.946665"
+  },
+  {
+    "source_id": "contracts_finder",
+    "status": "success",
+    "record_count": 260,
+    "fact_count": 1830,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 22:52:51.140645",
+    "finished_at": "2026-10-03 23:51:36.895467"
+  },
+  {
+    "source_id": "cumberland_legacy_authorities",
+    "status": "success",
+    "record_count": 4,
+    "fact_count": 0,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 23:55:47.868783",
+    "finished_at": "2026-10-03 23:55:50.974769"
+  },
+  {
+    "source_id": "cumberland_moderngov_api",
+    "status": "success",
+    "record_count": 4,
+    "fact_count": 622,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 23:52:29.840004",
+    "finished_at": "2026-10-03 23:54:01.337923"
+  },
+  {
+    "source_id": "cumberland_transparency",
+    "status": "success",
+    "record_count": 88,
+    "fact_count": 6962,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 22:30:47.336579",
+    "finished_at": "2026-10-03 22:48:20.559453"
+  },
+  {
+    "source_id": "find_a_tender",
+    "status": "success",
+    "record_count": 1,
+    "fact_count": 0,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-04 00:06:59.784160",
+    "finished_at": "2026-10-04 00:07:01.677642"
+  },
+  {
+    "source_id": "housing_ombudsman_home_group",
+    "status": "success",
+    "record_count": 27,
+    "fact_count": 8,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 23:51:37.052466",
+    "finished_at": "2026-10-03 23:52:29.629549"
+  },
+  {
+    "source_id": "westmorland_furness_moderngov_api",
+    "status": "success",
+    "record_count": 4,
+    "fact_count": 607,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 23:54:01.440215",
+    "finished_at": "2026-10-03 23:55:47.531410"
+  },
+  {
+    "source_id": "westmorland_furness_south_lakeland_grants",
+    "status": "success",
+    "record_count": 1,
+    "fact_count": 102,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-04 00:07:01.876488",
+    "finished_at": "2026-10-04 00:07:20.218623"
+  },
+  {
+    "source_id": "westmorland_furness_spending",
+    "status": "success",
+    "record_count": 100,
+    "fact_count": 243,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 22:48:20.731524",
+    "finished_at": "2026-10-03 22:50:24.399967"
+  },
+  {
+    "source_id": "westmorland_legacy_authorities",
+    "status": "success",
+    "record_count": 4,
+    "fact_count": 0,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 23:55:51.288995",
+    "finished_at": "2026-10-03 23:55:56.260795"
+  },
+  {
+    "source_id": "whitehaven_town_records",
+    "status": "success",
+    "record_count": 221,
+    "fact_count": 0,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 23:59:53.075752",
+    "finished_at": "2026-10-04 00:03:46.506890"
+  },
+  {
+    "source_id": "wigton_town_records",
+    "status": "success",
+    "record_count": 246,
+    "fact_count": 0,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 23:55:56.446108",
+    "finished_at": "2026-10-03 23:59:52.974194"
+  },
+  {
+    "source_id": "workington_town_meetings",
+    "status": "success",
+    "record_count": 61,
+    "fact_count": 0,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 22:50:24.574315",
+    "finished_at": "2026-10-03 22:51:25.487794"
+  },
+  {
+    "source_id": "workington_town_transparency",
+    "status": "success",
+    "record_count": 87,
+    "fact_count": 0,
+    "error_class": null,
+    "error_message": null,
+    "http_status": null,
+    "started_at": "2026-10-03 22:51:25.687209",
+    "finished_at": "2026-10-03 22:52:50.644819"
+  }
+]

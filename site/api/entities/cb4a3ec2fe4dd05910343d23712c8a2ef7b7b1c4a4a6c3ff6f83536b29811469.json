@@ -1,0 +1,36 @@
+{
+  "entity_id": "cb4a3ec2fe4dd05910343d23712c8a2ef7b7b1c4a4a6c3ff6f83536b29811469",
+  "entity_type": "WARD",
+  "name": "Kendal Nether",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "d297251f781aec330b2212879848e4011612b3e33b9ecae1bc218ac61f1cbe24",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Kendal Nether",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Shirley Evans"
+    },
+    {
+      "fact_id": "d2aa15fff5dd0ec2f68786ea06f0997adf9a932e5a04124653bdbbb0b8951bef",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Kendal Nether",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Jonathan Cornthwaite"
+    }
+  ]
+}

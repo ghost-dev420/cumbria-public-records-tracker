@@ -1,0 +1,22 @@
+{
+  "entity_id": "65ca3cffa57c790277eab56dd8c509ec1c813d66f07b4f72901aaf560b980531",
+  "entity_type": "SUPPLIER",
+  "name": "VAADHOO LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ca17e1089bc38cea1a3da11f8ab40cbf800385164d3f013994012ad47c63c13a",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "950.00",
+      "locator": "XLSX Report!row 243",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

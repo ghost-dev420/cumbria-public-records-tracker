@@ -1,0 +1,78 @@
+{
+  "entity_id": "0483356d638b1d6aebe4c96be5e5d68a0ed58fa0602245152f54f04ca9b8fcaa",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-020-131",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "1a79b88c5edce031766525baafb5ae47b135c31fe694d411737a7c23a6d1ad20",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-020-131",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 020 131)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-020-131",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:14.891505",
+      "sha256": "1535f465db1443e10e2cfc2973b5c2a6b94d5403c145818f38ad3c1b13af827f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "13cd12ce71be667ccb7472428c22719bcc53be0c045ea10aafa1763bf8b5bd48",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 020 131)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-020-131",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:14.891505",
+      "sha256": "1535f465db1443e10e2cfc2973b5c2a6b94d5403c145818f38ad3c1b13af827f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "77b94be74573565d1e64f3b70d180c015c0472685f41bb84de6a2f863bee14c2",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 020 131)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-020-131",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:14.891505",
+      "sha256": "1535f465db1443e10e2cfc2973b5c2a6b94d5403c145818f38ad3c1b13af827f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "bb180fb3dec7c8a1d1109a02d2bafd21b8a32934e439faec238165f97b831a74",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "02 Jun 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 020 131)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-020-131",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:14.891505",
+      "sha256": "1535f465db1443e10e2cfc2973b5c2a6b94d5403c145818f38ad3c1b13af827f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "0a49e3b734a9d90da1cef444d9ef35c79d6d2ee2465039e8289a62549eb1a4f6",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mrs X’s complaint about the Council restricting her from seeing her wife and the Council withholding information. This is because we could not achieve a worthwhile outcome.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 020 131)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-020-131",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:14.891505",
+      "sha256": "1535f465db1443e10e2cfc2973b5c2a6b94d5403c145818f38ad3c1b13af827f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

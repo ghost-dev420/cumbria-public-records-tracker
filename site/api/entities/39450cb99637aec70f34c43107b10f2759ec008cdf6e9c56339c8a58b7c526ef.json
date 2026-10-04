@@ -1,0 +1,36 @@
+{
+  "entity_id": "39450cb99637aec70f34c43107b10f2759ec008cdf6e9c56339c8a58b7c526ef",
+  "entity_type": "WARD",
+  "name": "Penrith North",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "24ecd1d6380b1fe51999bae4bb5051d8efbae409e033135925e27e19e788bb43",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Penrith North",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Patricia Bell"
+    },
+    {
+      "fact_id": "cafc7a81536f6d9f1563ca615a91e2c65e6c9fdb36b42bc51ac00dde1a6f56d9",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Penrith North",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Mark Rudhall"
+    }
+  ]
+}

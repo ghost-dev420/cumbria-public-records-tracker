@@ -1,0 +1,22 @@
+{
+  "entity_id": "2c3c084fdef8b3ca276401460d6c0f80854e37aedc1f62783439c2904696ca06",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Copeland Area Committee for the Under Fives",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cde2fa1b8f3194c1d21c366b27e2358303869751e4cc1edaa8f1424975a79ba5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Copeland Area Committee for the Under Fives",
+      "locator": "committee 494",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

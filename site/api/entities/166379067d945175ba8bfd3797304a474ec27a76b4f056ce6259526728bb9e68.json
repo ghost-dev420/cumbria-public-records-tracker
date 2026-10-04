@@ -1,0 +1,22 @@
+{
+  "entity_id": "166379067d945175ba8bfd3797304a474ec27a76b4f056ce6259526728bb9e68",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Allerdale LC and Allerdale Borough Liaison Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9d5ac18b98c7f868b98b4bbf50c8ad89d9eca0fd793b7986465fd1ebab6d2924",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Allerdale LC and Allerdale Borough Liaison Group",
+      "locator": "committee 698",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

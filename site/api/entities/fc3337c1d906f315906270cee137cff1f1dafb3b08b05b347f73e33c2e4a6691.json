@@ -1,0 +1,22 @@
+{
+  "entity_id": "fc3337c1d906f315906270cee137cff1f1dafb3b08b05b347f73e33c2e4a6691",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Adult Social Care Scrutiny Panel (C)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "eebf26c9ae910e764566fe10c97b38385f28979c69d03c3bffad6c2a1927268c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Adult Social Care Scrutiny Panel (C)",
+      "locator": "committee 692",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

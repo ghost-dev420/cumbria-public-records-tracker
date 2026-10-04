@@ -1,0 +1,22 @@
+{
+  "entity_id": "6d73a4eb02e8fc134603bda33f16b24dad7a5ca5923449ef96a8f96f87af517d",
+  "entity_type": "WARD",
+  "name": "Low Furness",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ad424ee8893bd55006bd2e4346f57378120ece3834d6d1b0c0ca2aee58139245",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Low Furness",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Ben Cooper"
+    }
+  ]
+}

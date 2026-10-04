@@ -1,0 +1,22 @@
+{
+  "entity_id": "8ef4184386d77fe02b56a1f73302379fa31c97d88acf633075b838005c3d9d48",
+  "entity_type": "ORGANISATION",
+  "name": "Witherslack Community Shop",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "aea9969a1e1c059f5ce006c3818e5f9ff19d4d0ee83d66c7e483a8710dd934ed",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Witherslack Community Shop [8e6cdaabeab43c89166d]"
+    }
+  ]
+}

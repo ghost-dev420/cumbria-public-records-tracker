@@ -1,0 +1,22 @@
+{
+  "entity_id": "3cf58e363a44a53b2b65d30a3bec22018b0ce4f405006cc146b7beffb5570586",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Personnel Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7cfb220826b3d3fa0657848e53354e5135ed09de7f876925dc4f9bd8d9ead109",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Personnel Sub-Committee",
+      "locator": "committee 710",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "5c0e09ca6e8e6781218349bc59562096dbbdcf4619a98658b3be2fb660a3cfbe",
+  "entity_type": "SUPPLIER",
+  "name": "CFH Docmail Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6f947b4cdb8f5ae158ec2cbd30b9868bd98e1f8ddafe595384b3552e1f19d453",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-d8037a14-62ce-4e8a-896c-9f450a159ab5-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Revenues and Benefits Printing and Mailing Service",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/bc0aa481-604b-45cd-8cd9-bb0d40db5afa-914290.json",
+      "published_at": "2026-09-16T10:59:51+01:00",
+      "retrieved_at": "2026-10-03 23:47:42.674672",
+      "sha256": "9a871dd7f1a12a86d5927e4f1248c35e600177ba94a05d5da3256246f2f94d65",
+      "related_entity": "ocds-b5fd17-d8037a14-62ce-4e8a-896c-9f450a159ab5:ocds-b5fd17-d8037a14-62ce-4e8a-896c-9f450a159ab5-1"
+    }
+  ]
+}

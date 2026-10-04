@@ -1,0 +1,22 @@
+{
+  "entity_id": "414598ada6ad1737b6d995f839da80221651a59007a841927b4785735f97399a",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Environmental Quality and Safety Scrutiny Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "434598daaf02ff3f0481974f72219737d3772bed475b3e414e65abafa7bf502c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Environmental Quality and Safety Scrutiny Panel",
+      "locator": "committee 537",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

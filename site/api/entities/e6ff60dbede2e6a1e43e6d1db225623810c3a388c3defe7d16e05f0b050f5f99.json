@@ -1,0 +1,22 @@
+{
+  "entity_id": "e6ff60dbede2e6a1e43e6d1db225623810c3a388c3defe7d16e05f0b050f5f99",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Learning and Recreation Scrutiny Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0fa4665465c83ee4e22508bdbff72e2448efd9b60b75ecb248f1d3d26c3e7fff",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Learning and Recreation Scrutiny Panel",
+      "locator": "committee 785",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

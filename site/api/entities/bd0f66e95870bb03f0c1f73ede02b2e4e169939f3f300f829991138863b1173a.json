@@ -1,0 +1,78 @@
+{
+  "entity_id": "bd0f66e95870bb03f0c1f73ede02b2e4e169939f3f300f829991138863b1173a",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-020-813",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "363fcfe1a976dfb5f3008a2772285ed72f94508cdb70c146f285604ccfe665d6",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-020-813",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 020 813)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/24-020-813",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:44.088456",
+      "sha256": "4213c5a318f9d2dc7f2f5ac1d0f577f65c8b5367510f039fe8000bd7f3a1d15d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "cbc6f44d9f0e35483030137b925b751898618322e1e1db189a96feee86d85f4f",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 020 813)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/24-020-813",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:44.088456",
+      "sha256": "4213c5a318f9d2dc7f2f5ac1d0f577f65c8b5367510f039fe8000bd7f3a1d15d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "11e599964d8a8289d0dc4c7475819b26d11695308fc480992db9fd72d373151c",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 020 813)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/24-020-813",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:44.088456",
+      "sha256": "4213c5a318f9d2dc7f2f5ac1d0f577f65c8b5367510f039fe8000bd7f3a1d15d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "764b64828f7f39d673d3ce17be243d978e49e3628d786f0bd3317e220c94c043",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "05 Jun 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 020 813)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/24-020-813",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:44.088456",
+      "sha256": "4213c5a318f9d2dc7f2f5ac1d0f577f65c8b5367510f039fe8000bd7f3a1d15d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d9a186a48b827648c3ff4e1a55ec22675d242e705aaf038083e9bb41b9945f7e",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mrs X’s complaint about a social worker’s handling of her brother’s case and that the social worker had misled her into thinking the Council would pursue legal action through the court of protection. This is because the complaint is late and there are no good reasons to exercise discretion to consider the late complaint.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 020 813)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/24-020-813",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:44.088456",
+      "sha256": "4213c5a318f9d2dc7f2f5ac1d0f577f65c8b5367510f039fe8000bd7f3a1d15d",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

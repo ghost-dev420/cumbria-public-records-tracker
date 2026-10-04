@@ -1,0 +1,50 @@
+{
+  "entity_id": "c118960b46a964dfceadef3087df720b237856549eb0d3d9a72a3643813eda28",
+  "entity_type": "CONTRACT",
+  "name": "ocds-b5fd17-8a8997c7-9a79-4332-ac5f-1d03231d9fed:notice",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "487231f3b9ddd497dd3d56e7833364a7810ac0e261333964d28bf3f6a603ad7f",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "award notice buyer",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Electronic Rostering System for Reablement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c668d3e5-8574-47be-9263-a3d2bc2faac0-909105.json",
+      "published_at": "2026-07-31T12:41:11+01:00",
+      "retrieved_at": "2026-10-03 23:40:57.760254",
+      "sha256": "d56b8a1ba72c2cc6faf9eb51d309ceb883cdb35b23dc64734911755f071f56c0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "159f6da5e870812d596be7f22e3c7130a999df08784bb0442e4afbe690d78e5e",
+      "fact_type": "CONTRACT_DATE",
+      "predicate": "HAS_AWARD_DATE",
+      "value": "2026-07-31T12:41:11+01:00",
+      "locator": "award notice date",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Electronic Rostering System for Reablement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c668d3e5-8574-47be-9263-a3d2bc2faac0-909105.json",
+      "published_at": "2026-07-31T12:41:11+01:00",
+      "retrieved_at": "2026-10-03 23:40:57.760254",
+      "sha256": "d56b8a1ba72c2cc6faf9eb51d309ceb883cdb35b23dc64734911755f071f56c0",
+      "related_entity": null
+    },
+    {
+      "fact_id": "fa6530e185ed9c507e0cfb2ecfd9318657454a4894855acc6dc175097050402a",
+      "fact_type": "CONTRACT_TITLE",
+      "predicate": "HAS_TITLE",
+      "value": "Electronic Rostering System for Reablement",
+      "locator": "award notice",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Electronic Rostering System for Reablement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c668d3e5-8574-47be-9263-a3d2bc2faac0-909105.json",
+      "published_at": "2026-07-31T12:41:11+01:00",
+      "retrieved_at": "2026-10-03 23:40:57.760254",
+      "sha256": "d56b8a1ba72c2cc6faf9eb51d309ceb883cdb35b23dc64734911755f071f56c0",
+      "related_entity": null
+    }
+  ]
+}

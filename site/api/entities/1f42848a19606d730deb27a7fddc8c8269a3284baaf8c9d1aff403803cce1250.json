@@ -1,0 +1,78 @@
+{
+  "entity_id": "1f42848a19606d730deb27a7fddc8c8269a3284baaf8c9d1aff403803cce1250",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-019-254",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "58266d74eaf5cfe06a34785da898ac58adee8b28a22c08607642bc2954f549f2",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-019-254",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 254)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/public-transport/24-019-254",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:33.945793",
+      "sha256": "dc45de2ff09604daa1facaac4d2de10697e4d709b1a522d9c11714afc5c4e1fd",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "07251daf156d9c0c2fca85c8558eeda5d043719ec616a595c65c72c6f8c0312b",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 254)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/public-transport/24-019-254",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:33.945793",
+      "sha256": "dc45de2ff09604daa1facaac4d2de10697e4d709b1a522d9c11714afc5c4e1fd",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "49de815c78f7767d283840e1bc4c8f63fef244777a0c03b419245a18fc0ef8ab",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 254)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/public-transport/24-019-254",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:33.945793",
+      "sha256": "dc45de2ff09604daa1facaac4d2de10697e4d709b1a522d9c11714afc5c4e1fd",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "94b6af48e4d0fd8920362aed99a48e38956bc5b51230c4e9b90998345d584df5",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "17 Feb 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 254)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/public-transport/24-019-254",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:33.945793",
+      "sha256": "dc45de2ff09604daa1facaac4d2de10697e4d709b1a522d9c11714afc5c4e1fd",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "3e21eff865bd69c4a646954612b95769622e109bdb4c8682dc60fa99161c6335",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about difficulties encountered by the complainant after a ferry was cancelled. This is because the Council has provided a proportionate response.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 254)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/public-transport/24-019-254",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:33.945793",
+      "sha256": "dc45de2ff09604daa1facaac4d2de10697e4d709b1a522d9c11714afc5c4e1fd",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

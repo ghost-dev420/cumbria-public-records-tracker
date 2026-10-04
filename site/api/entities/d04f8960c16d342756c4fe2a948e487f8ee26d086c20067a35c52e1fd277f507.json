@@ -1,0 +1,78 @@
+{
+  "entity_id": "d04f8960c16d342756c4fe2a948e487f8ee26d086c20067a35c52e1fd277f507",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-021-442",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "2bc0fee8663d6b7825f96703dfae43a45579050128d140de5af411c48338f5be",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-021-442",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 021 442)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:05:28.436130",
+      "sha256": "37b550a46ba272d7238d94c84b6f66d6d0efa3b619fcb53749fd21cdc2195a56",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "8a32cfea88d30b7a03ea346a99b505f82acc17daa6c81709816d0c8356506578",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Benefits and tax",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 021 442)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:05:28.436130",
+      "sha256": "37b550a46ba272d7238d94c84b6f66d6d0efa3b619fcb53749fd21cdc2195a56",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a2583d26867119410746667784528bae22c13af8dbf3afce4acac7d674d84bd1",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Not upheld",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 021 442)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:05:28.436130",
+      "sha256": "37b550a46ba272d7238d94c84b6f66d6d0efa3b619fcb53749fd21cdc2195a56",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "b5fb27f444d9adfeecd6f331b3bae6a9533a3c49537d6e452051509bf008f10a",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "13 Feb 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 021 442)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:05:28.436130",
+      "sha256": "37b550a46ba272d7238d94c84b6f66d6d0efa3b619fcb53749fd21cdc2195a56",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f9d40bc2bd87220220b45dd19348dba35e5a0bd0c9ecfa41a0985cb23c5bc53f",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "The complaint is about the Council taking years to correct a council tax reduction claim, which resulted in an overpayment of council tax. This was despite the complainant having reported all changes of circumstances to the Department of Work and Pensions, which is what he had always done in the past. We do not uphold the complaint. The Council advised the complainant he needed to tell it separately of any change of circumstances. And an annual review letter had enough information in it to alert the complainant that there was an omission in its calculation.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 021 442)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:05:28.436130",
+      "sha256": "37b550a46ba272d7238d94c84b6f66d6d0efa3b619fcb53749fd21cdc2195a56",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

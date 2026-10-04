@@ -1,0 +1,22 @@
+{
+  "entity_id": "2d9957c99c1f056637f34661903c1bc831681d658488b8bb0629963682dd9054",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Barrow Highways Advisory Sub-Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b094fc6b30cd000a026c7a46210bb38acf7182fee5e0301b139914496ae1c0ea",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Barrow Highways Advisory Sub-Group",
+      "locator": "committee 704",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

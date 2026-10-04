@@ -1,0 +1,22 @@
+{
+  "entity_id": "4cbb28b905df45393b57ae26f108352743d0f0bd922b5ec08dd74f64ea313289",
+  "entity_type": "SUPPLIER",
+  "name": "CULTURA TRUST",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e74def7c4ded041821f4cf9ce8a03c99373cb656cd15a13bf4d2f3621a0fc369",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1390.00",
+      "locator": "XLSX Report!row 728",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

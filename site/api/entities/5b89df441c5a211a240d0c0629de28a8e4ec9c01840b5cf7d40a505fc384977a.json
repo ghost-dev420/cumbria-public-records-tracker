@@ -1,0 +1,22 @@
+{
+  "entity_id": "5b89df441c5a211a240d0c0629de28a8e4ec9c01840b5cf7d40a505fc384977a",
+  "entity_type": "SUPPLIER",
+  "name": "COMPASS MINERALS UK LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6eac83e03e2f115ed2f46e474c2a7bb7572048e3783e7a0ace5e4f8cb5ffb444",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-c96e7a34-35ee-4132-b809-ecd0eaa7eba3-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Awarded Contract",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e1cc1a41-c2a5-4d49-b1d1-494dfe9c0d14-888484.json",
+      "published_at": "2026-03-13T12:33:30Z",
+      "retrieved_at": "2026-10-03 23:11:03.658020",
+      "sha256": "6cee38364d716b29b035d55dcc4af64d2ba3300790c25aee448be5b3f4d77ae0",
+      "related_entity": "ocds-b5fd17-c96e7a34-35ee-4132-b809-ecd0eaa7eba3:ocds-b5fd17-c96e7a34-35ee-4132-b809-ecd0eaa7eba3-1"
+    }
+  ]
+}

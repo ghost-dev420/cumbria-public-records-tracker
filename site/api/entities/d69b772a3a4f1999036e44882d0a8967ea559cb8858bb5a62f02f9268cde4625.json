@@ -1,0 +1,22 @@
+{
+  "entity_id": "d69b772a3a4f1999036e44882d0a8967ea559cb8858bb5a62f02f9268cde4625",
+  "entity_type": "COMMITTEE",
+  "name": "Shadow Authority Cabinet",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8ff760682981c4a78ed6b11b65349c9213fe83b4d1c42d6d4428467bd492404c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Shadow Authority Cabinet",
+      "locator": "committee 139",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

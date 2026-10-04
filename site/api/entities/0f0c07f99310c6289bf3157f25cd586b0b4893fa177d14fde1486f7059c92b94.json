@@ -1,0 +1,22 @@
+{
+  "entity_id": "0f0c07f99310c6289bf3157f25cd586b0b4893fa177d14fde1486f7059c92b94",
+  "entity_type": "COMMITTEE",
+  "name": "Shadow Standards Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4a8d1dadac5576613864c73cef068666bcc8be0f5279148309d8021cda97d82b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Shadow Standards Committee",
+      "locator": "committee 141",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

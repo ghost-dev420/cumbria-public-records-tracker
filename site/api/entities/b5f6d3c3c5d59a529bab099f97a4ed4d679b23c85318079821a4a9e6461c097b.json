@@ -1,0 +1,22 @@
+{
+  "entity_id": "b5f6d3c3c5d59a529bab099f97a4ed4d679b23c85318079821a4a9e6461c097b",
+  "entity_type": "SUPPLIER",
+  "name": "EUROPARC",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7d93c74937c44a1d61ae038ce6fb9e6e7ccdb79cbbcf11dbb5750f33935ba5c6",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "125.00",
+      "locator": "XLSX Sheet1!row 41",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

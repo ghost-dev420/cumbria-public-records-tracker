@@ -1,0 +1,36 @@
+{
+  "entity_id": "95ff38eb0a9b2112fa5819518df892f515ccf08be030c49715f9774198f6982b",
+  "entity_type": "SUPPLIER",
+  "name": "MOGO UK",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "9c0e851806de931c72a109787febf404dc820803aa2da53ddba56eef1f8458a6",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "144.00",
+      "locator": "XLSX Sheet1!row 192",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d2ce707df3593083be41abb2c2bb169b64f8bacfde52e55ddc9a245432027c47",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "7.90",
+      "locator": "XLSX Sheet1!row 193",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "c54187271452260cccfd627840e34945084ffbc1cc7451213454b79ea99bcf87",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-030-266",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "acfd547a0abaa80ca7528b2e21ff7c8dad1e89e9d0fa174aead541179c330b9d",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-030-266",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 030 266)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-030-266",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:10.811369",
+      "sha256": "70f8074781619920bc813c173001d43fbe6e5d4dd3b8ce5e66d50a6c96ee5789",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "274d81f6ee0f247d976a36c08d41df3d0776375c48f1192a75c7df287cdfcca5",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 030 266)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-030-266",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:10.811369",
+      "sha256": "70f8074781619920bc813c173001d43fbe6e5d4dd3b8ce5e66d50a6c96ee5789",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e5f57d5f1c2c5bdbd533414af63f8fc543079bae8959c9c0139c539771dd92db",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 030 266)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-030-266",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:10.811369",
+      "sha256": "70f8074781619920bc813c173001d43fbe6e5d4dd3b8ce5e66d50a6c96ee5789",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "5bb4934296ff465a6767e5722c6d92466bb461d4105c0618afca32dfd53e53ad",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "09 Jun 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 030 266)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-030-266",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:10.811369",
+      "sha256": "70f8074781619920bc813c173001d43fbe6e5d4dd3b8ce5e66d50a6c96ee5789",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7d9979e475b64dedaae35386a15973ab68871f832807538459c138cc1d3ea61a",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about Mr X’s Blue Badge application. This is because there is not enough evidence of fault, in the Council’s decision, to justify investigating.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 030 266)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-030-266",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:10.811369",
+      "sha256": "70f8074781619920bc813c173001d43fbe6e5d4dd3b8ce5e66d50a6c96ee5789",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

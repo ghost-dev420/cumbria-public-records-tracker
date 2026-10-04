@@ -1,0 +1,22 @@
+{
+  "entity_id": "1e2e8685b5571d3c0009c0d39e5554ef37c779669ba0a4e1549072b3d589c992",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Overview and Scrutiny Co-ordination Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f2537a4d237d288a3daa69d42bc3854d8bec545a52037518cb279a02f8216c17",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Overview and Scrutiny Co-ordination Board",
+      "locator": "committee 660",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

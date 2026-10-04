@@ -1,0 +1,78 @@
+{
+  "entity_id": "4c770c62ad714d7c2c51f9e6bb344c3df27b30a93986c9deb5e8f65a68ee0533",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-018-886",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "944df5c3c3ca318a3f42a1ca044901a2214b4188ec3c4213ee67db500a41fbaa",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-018-886",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 018 886)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/antisocial-behaviour/24-018-886",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:27.243292",
+      "sha256": "394b07a46f55345ffa33f18fbd0cedf773ab864a648ad8b3b6de99b25137a010",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "4225028986ca8560f97d7ff7cd692b5ba9317e160c4223c013e03405266a13ff",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 018 886)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/antisocial-behaviour/24-018-886",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:27.243292",
+      "sha256": "394b07a46f55345ffa33f18fbd0cedf773ab864a648ad8b3b6de99b25137a010",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "d3f8bd4b67a6b124c1fb9e436e177adbc9d1e757fea84172823aef8226ca5345",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 018 886)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/antisocial-behaviour/24-018-886",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:27.243292",
+      "sha256": "394b07a46f55345ffa33f18fbd0cedf773ab864a648ad8b3b6de99b25137a010",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "9725862b160af45935a0a270534efa1e2dddf8f06fe60a3f50826b617f385a77",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "12 May 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 018 886)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/antisocial-behaviour/24-018-886",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:27.243292",
+      "sha256": "394b07a46f55345ffa33f18fbd0cedf773ab864a648ad8b3b6de99b25137a010",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "0bba4ad6c553f7b396a323ab576554e120a73a29ad7e3dc9814854a80e6de1cf",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about the Council’s handling of his reports of noise nuisance and anti-social behaviour from his neighbours. This is because his complaint is late and there are no good reasons to exercise discretion to consider the late complaint. In addition, there is insufficient evidence of fault, and an investigation would not lead to any worthwhile outcomes.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 018 886)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/antisocial-behaviour/24-018-886",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:27.243292",
+      "sha256": "394b07a46f55345ffa33f18fbd0cedf773ab864a648ad8b3b6de99b25137a010",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

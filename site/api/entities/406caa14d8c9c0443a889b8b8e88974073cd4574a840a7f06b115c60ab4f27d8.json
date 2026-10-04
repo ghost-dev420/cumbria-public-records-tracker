@@ -1,0 +1,22 @@
+{
+  "entity_id": "406caa14d8c9c0443a889b8b8e88974073cd4574a840a7f06b115c60ab4f27d8",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Skills and Training Workshop",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5ca95a6e40e618d950632d0b4f086bc0fb1e0ee055bb7b4f651c6a4ad6de7020",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Skills and Training Workshop",
+      "locator": "committee 557",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

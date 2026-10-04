@@ -1,0 +1,22 @@
+{
+  "entity_id": "8938c480a7def78d307bc86d6ab8134e89560841098d3f0e95a13b0c39e499c5",
+  "entity_type": "SUPPLIER",
+  "name": "IMPROVEMENT & DEVELOPMENT AGENCY",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c49f83e09ef65b785b667ccefd072d20b85546f5236d8ba69b05260ad8e89d6a",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1105.00",
+      "locator": "XLSX Sheet1!row 285",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

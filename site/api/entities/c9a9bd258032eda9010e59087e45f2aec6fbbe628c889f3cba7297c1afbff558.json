@@ -1,0 +1,22 @@
+{
+  "entity_id": "c9a9bd258032eda9010e59087e45f2aec6fbbe628c889f3cba7297c1afbff558",
+  "entity_type": "SUPPLIER",
+  "name": "CILEX LAW SCHOOL LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f8c987a1a71e4207627888cc7f30362b350d86dfbb7b5809fb6c7a1935323095",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "367.00",
+      "locator": "XLSX Report!row 187",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

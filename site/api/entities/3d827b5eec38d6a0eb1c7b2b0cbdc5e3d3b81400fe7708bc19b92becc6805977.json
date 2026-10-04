@@ -1,0 +1,78 @@
+{
+  "entity_id": "3d827b5eec38d6a0eb1c7b2b0cbdc5e3d3b81400fe7708bc19b92becc6805977",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "26-013-307",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "24c9ec694226a6fa1d3de3d757ea8faad5e860b5c296c11f7da56c6d1e974be6",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "26-013-307",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 013 307)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/councillor-conduct-and-standards/26-013-307",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:09.158289",
+      "sha256": "dce2b9501c6d138c273809b09e50e89520c470ac6ed4ec95b1920f2a8996694e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "84f4e361b16a2f2aba01d400bfbf7458d819fdd3244adf122b3bc8adaa74ff12",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Other Categories",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 013 307)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/councillor-conduct-and-standards/26-013-307",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:09.158289",
+      "sha256": "dce2b9501c6d138c273809b09e50e89520c470ac6ed4ec95b1920f2a8996694e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "8782b7f5f997450f8a572a7ac532644199ccd632c8e71eef2331e7c4a11507e2",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 013 307)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/councillor-conduct-and-standards/26-013-307",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:09.158289",
+      "sha256": "dce2b9501c6d138c273809b09e50e89520c470ac6ed4ec95b1920f2a8996694e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "704b78be6fff3d822b1703c45b8c57e6119fa3ef96b6ee2c04e02b8ff92fba2a",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "06 Aug 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 013 307)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/councillor-conduct-and-standards/26-013-307",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:09.158289",
+      "sha256": "dce2b9501c6d138c273809b09e50e89520c470ac6ed4ec95b1920f2a8996694e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "19faa377761ea3473c8da4b9ae0f948bfd8e7eb63c503a6a10057e14004e5864",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s decision to refuse Mr X’s request to speak at a public meeting. There is not enough evidence of fault in how the Council made its decision, and any injustice Mr X experienced is not significant enough to justify our involvement.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (26 013 307)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/councillor-conduct-and-standards/26-013-307",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:09.158289",
+      "sha256": "dce2b9501c6d138c273809b09e50e89520c470ac6ed4ec95b1920f2a8996694e",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

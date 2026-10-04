@@ -1,0 +1,78 @@
+{
+  "entity_id": "6ac612d45d1b274e6bb135f76c5e69a63efab166bea43f769e360652bad25a3a",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-022-530",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "4c0fd5528c349c26003bec5ad9f140603613dabd6f4eac5c40d7484779a678e4",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-022-530",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 530)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-022-530",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:07.608443",
+      "sha256": "838670b14b845399f3061c477fa9b9760dc258d9ad0cba76e66b03e5f9c8c3df",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "f1e4e4a6a3bff225201b37eee088db9315af713202168422cb9e8f479ca9ddd5",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Benefits and tax",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 530)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-022-530",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:07.608443",
+      "sha256": "838670b14b845399f3061c477fa9b9760dc258d9ad0cba76e66b03e5f9c8c3df",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "42972de0268d681461d2f0087ed697f10ddf74a02b7ce7d34dc65f509b90be1c",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 530)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-022-530",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:07.608443",
+      "sha256": "838670b14b845399f3061c477fa9b9760dc258d9ad0cba76e66b03e5f9c8c3df",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "b07a7ff733963c54bf5da77d180040ec43736afd362d51b606d5c876f56b1b46",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "16 Jul 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 530)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-022-530",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:07.608443",
+      "sha256": "838670b14b845399f3061c477fa9b9760dc258d9ad0cba76e66b03e5f9c8c3df",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "8918a6f84596e944198025ada79a246d3f877a472e0a9048d90f3238cd96aa3e",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about how the Council dealt with the complainant’s council tax account. This is because it is unlikely an investigation would add to the Council’s response. The complainant also has the right to appeal to the valuation tribunal.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 530)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-022-530",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:07.608443",
+      "sha256": "838670b14b845399f3061c477fa9b9760dc258d9ad0cba76e66b03e5f9c8c3df",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

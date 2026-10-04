@@ -1,0 +1,78 @@
+{
+  "entity_id": "c995e4761025b00dbb3a5b28507cdff1c09bdc44c100cb9897c313a1cbc99cec",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-015-248",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "d74833a7739c1230c371b1b1c74ee92fb23182cd3f046b6761731019863cbcac",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-015-248",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 015 248)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:50.456938",
+      "sha256": "ba11e333d6446571a2389bb7a45afaa0b2dd7a2490271b5d0aec02cb49dea250",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "055d1bf9652ac08e62ccfa108550ee7648cc04103179bf2c88d511dca55bdb98",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 015 248)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:50.456938",
+      "sha256": "ba11e333d6446571a2389bb7a45afaa0b2dd7a2490271b5d0aec02cb49dea250",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c9d1f9db44f874187f95d2b4ad37239af44e6c1cdaf8c0168e010f7b9ddf48a0",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 015 248)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:50.456938",
+      "sha256": "ba11e333d6446571a2389bb7a45afaa0b2dd7a2490271b5d0aec02cb49dea250",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "cf0bd570d8a406a580b709ba9de8cbb58349ef2911794b674fec4504a84c5c42",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "08 May 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 015 248)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:50.456938",
+      "sha256": "ba11e333d6446571a2389bb7a45afaa0b2dd7a2490271b5d0aec02cb49dea250",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "80415e769e6b1d8ced555c8ddcd4a6f3557273a22ff2c0a55ab3772e71336ff3",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Ms X complained the Council failed to consider the risks posed to her and her neighbours when it asked them to place their bins for collection in a location which was difficult to access for older and disabled residents. The Council was not at fault for how it made its decision to change the waste collections. However the Council failed to address Ms X’s concerns in its complaint response and this caused Ms X frustration. The Council has agreed to apologise and take action to improve its service.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 015 248)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:50.456938",
+      "sha256": "ba11e333d6446571a2389bb7a45afaa0b2dd7a2490271b5d0aec02cb49dea250",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

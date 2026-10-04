@@ -1,0 +1,22 @@
+{
+  "entity_id": "20458c563d96f2aa011de96092541a1cb3c7e2badb606d6d49a5b0ab07a83b65",
+  "entity_type": "SUPPLIER",
+  "name": "RICARDO-AEA LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4d14ba241b91c57e779122b7776ca2d230dbcb83ffc0827606d8ac30ff8f94e8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3192.00",
+      "locator": "XLSX Sheet1!row 340",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

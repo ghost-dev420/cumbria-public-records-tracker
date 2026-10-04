@@ -1,0 +1,36 @@
+{
+  "entity_id": "1052e6a099e9126f69ad4ed380736068066407bc007b0a7afff1c03340fa80f5",
+  "entity_type": "SUPPLIER",
+  "name": "EDEN DISTRICT COUNCIL",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "dfb9653b7e89e5f36184e10e3bf83498317923a45940054633f22fe347840515",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "10002.83",
+      "locator": "XLSX Report!row 71",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "b6daa839d743e190b6412b8aa95ff0142765650d4c30566b5ccd4fd71a286781",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "9806.70",
+      "locator": "XLSX Sheet1!row 179",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

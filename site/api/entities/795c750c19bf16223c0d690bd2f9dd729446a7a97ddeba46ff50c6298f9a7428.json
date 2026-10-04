@@ -1,0 +1,22 @@
+{
+  "entity_id": "795c750c19bf16223c0d690bd2f9dd729446a7a97ddeba46ff50c6298f9a7428",
+  "entity_type": "SUPPLIER",
+  "name": "Ridge and Partners LLP",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "29771f5388a27c01249b784985cd8a0e251f10d3edfac8161e211874d658bcd4",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-c2f609dc-4f5f-4db6-a87c-0a34256ab3be-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Property Compliance Audit",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/96ff8eee-763d-4bf1-a026-40d0050bd1a2-899929.json",
+      "published_at": "2026-06-01T11:15:33+01:00",
+      "retrieved_at": "2026-10-03 23:30:28.545981",
+      "sha256": "89e94e5fdfd8ec6c26699514ca305566487ab522b59ec242b73f2626936b45cb",
+      "related_entity": "ocds-b5fd17-c2f609dc-4f5f-4db6-a87c-0a34256ab3be:ocds-b5fd17-c2f609dc-4f5f-4db6-a87c-0a34256ab3be-1"
+    }
+  ]
+}

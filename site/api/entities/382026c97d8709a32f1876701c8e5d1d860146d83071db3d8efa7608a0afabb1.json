@@ -1,0 +1,36 @@
+{
+  "entity_id": "382026c97d8709a32f1876701c8e5d1d860146d83071db3d8efa7608a0afabb1",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Storth Playing Field (Heron Hall) [79e0ab0851aaa3571195]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "e4f6d19c86b3104564ec8556d6403334f9ff311b9e7f94699ccc5309414bdbea",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "826",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 14",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "04330b632fbaadbc373e6ff36b2b471c37ac951ecc8fe344e37a7d0fb3680a72",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "826",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 14",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Storth Playing Field (Heron Hall)"
+    }
+  ]
+}

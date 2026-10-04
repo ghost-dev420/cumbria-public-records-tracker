@@ -1,0 +1,22 @@
+{
+  "entity_id": "4d31d656d9042bdd666a3902df3dc470653c744fd4a36c4386a1489f6c760e66",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Pilot Community Board - Grange and Cartmel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3d92415dd4e1fa9c972f6692bf0c64e11ad85da1b889fbd38d388033fffc1db3",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Pilot Community Board - Grange and Cartmel",
+      "locator": "committee 800",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

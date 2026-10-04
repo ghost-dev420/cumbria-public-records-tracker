@@ -1,0 +1,36 @@
+{
+  "entity_id": "94f0a9528a59f550b7698db45b4098d60505ae69cb1229057e57e4da2a48f5fd",
+  "entity_type": "SUPPLIER",
+  "name": "CIVICA UK LIMITED",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "280cfb0470ae76ae80f0184cb0c86dd45e35712ebe35b0ac860d7e1df43c9414",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-110dfaae-f03f-48cc-af78-df6b7ea1c28b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Cumbria Choice Based Lettings Platform",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ba11d6d5-12aa-4620-bc4d-0a4db86af1a1-890384.json",
+      "published_at": "2026-03-27T13:38:53Z",
+      "retrieved_at": "2026-10-03 23:14:51.605087",
+      "sha256": "fa7137ef9b622fb1af878a758d5121ef0d54b8ca5eb6830655eb6f9d54f8b1dc",
+      "related_entity": "ocds-b5fd17-110dfaae-f03f-48cc-af78-df6b7ea1c28b:ocds-b5fd17-110dfaae-f03f-48cc-af78-df6b7ea1c28b-1"
+    },
+    {
+      "fact_id": "37e4564b6c5fe943d00ec50a8064b523f724f9679f3b7e73c22e5d9717c47e48",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-da493bc8-a04e-4f8f-8256-1f2ce4a01718-2 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Revenue and Benefits Software",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9c082636-a89a-4a1c-a007-9e6cc75b4e68-871854.json",
+      "published_at": "2025-11-12T12:21:05Z",
+      "retrieved_at": "2026-10-03 22:56:45.137879",
+      "sha256": "385281db527d7830c11c04313a9ea5c827deca2d0c2c229e7778ddb8d5e53be8",
+      "related_entity": "ocds-b5fd17-da493bc8-a04e-4f8f-8256-1f2ce4a01718:ocds-b5fd17-da493bc8-a04e-4f8f-8256-1f2ce4a01718-2"
+    }
+  ]
+}

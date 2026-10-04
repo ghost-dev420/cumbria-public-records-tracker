@@ -1,0 +1,78 @@
+{
+  "entity_id": "7dcda8a49be41650900e856dbbe4fb6546503fff3dd76c0c66fb5cbb00970ee1",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-001-772",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "eb6bede0f0d43be3ef8cbb6c258f43d132c5e676cdc8446a9931f568c4674b0f",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-001-772",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 001 772)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-001-772",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:37.228691",
+      "sha256": "3a623174b94207fa75bcddff8b267cd38a122ad41ebd9e68a856e65896b4093e",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d2e1fee33a53f460f865dda974f5c2559fb8af27b8ce98b017b68e8714e754ae",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 001 772)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-001-772",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:37.228691",
+      "sha256": "3a623174b94207fa75bcddff8b267cd38a122ad41ebd9e68a856e65896b4093e",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "160d5e6d68281dcde5d6165d2b4752bf8e503bc2117dd0ef1e70ac5bc8427025",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 001 772)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-001-772",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:37.228691",
+      "sha256": "3a623174b94207fa75bcddff8b267cd38a122ad41ebd9e68a856e65896b4093e",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "97051f8a362966d7aa587cfba973ad212336c66323a567e7200a0eb14da4f0de",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "28 Jul 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 001 772)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-001-772",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:37.228691",
+      "sha256": "3a623174b94207fa75bcddff8b267cd38a122ad41ebd9e68a856e65896b4093e",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "6da44f11de4d7f6eae9a114ddeb81ab43d88ad575f8ec4418ef021a360382c63",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about missed waste collections and poor complaint handling. The Council has implemented measures to ensure the green waste collections are made according to schedule. Further investigation is unlikely to lead to a different outcome. Also, we do not consider that Mrs X suffered a significant personal injustice because of the complaint procedure alone to warrant an investigation on this point.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 001 772)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-001-772",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:37.228691",
+      "sha256": "3a623174b94207fa75bcddff8b267cd38a122ad41ebd9e68a856e65896b4093e",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

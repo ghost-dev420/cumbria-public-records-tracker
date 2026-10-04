@@ -1,0 +1,36 @@
+{
+  "entity_id": "d1d81a7d03c78bd4d5ba2fef293d8dbf960e04123ba9e12b15e2b93eb252763d",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2025 to 2026: Dent Gym [e0d4f2e606645639bdb8]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "3331f3b6b6340f2673d386473a9cfdded8e1534bf288ca6ef4804f353592d7e7",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "4500",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 11",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "7a442e1f53a05f99bdb36b37f737952231678b2026632bbb31321e3714a42478",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "4500",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 11",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Dent Gym"
+    }
+  ]
+}

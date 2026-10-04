@@ -1,0 +1,22 @@
+{
+  "entity_id": "680412b37e399cfaae01e50a80f23cd528fac692ede606fead60178336ae5662",
+  "entity_type": "SUPPLIER",
+  "name": "Konica Minolta Business Solutions (UK)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fdc7b5a9dcd1cbc93978d0769baba0e83238fd6cc27b94bd88eb4a8ab03354d3",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-682e066c-17ca-4b62-a600-2cb776b26f31-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Printers and Papercut (Eden Area)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f953a493-8bcb-446a-80cf-38f2c0f53bd8-889315.json",
+      "published_at": "2026-03-19T15:35:01Z",
+      "retrieved_at": "2026-10-03 23:11:53.524303",
+      "sha256": "0ba7ff91a2857a78ce8993226016408be246e277d0d6adb661fd71e4e8f9f746",
+      "related_entity": "ocds-b5fd17-682e066c-17ca-4b62-a600-2cb776b26f31:ocds-b5fd17-682e066c-17ca-4b62-a600-2cb776b26f31-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "fe3783b082aa916cd2286922ded233f8306224895085d22e238e8a8f60558240",
+  "entity_type": "SUPPLIER",
+  "name": "BOWNESS P.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4965537f427062bac62a2b6ca2c65efd6e18869f7da03647630ce31a7b9b5777",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "9392.00",
+      "locator": "XLSX Sheet1!row 557",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

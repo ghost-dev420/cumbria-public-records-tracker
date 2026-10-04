@@ -1,0 +1,36 @@
+{
+  "entity_id": "3989e80c6a5ba8e5137d6806282804bad089c2abb5f007d4dfacc972fb96ce9b",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Ambleside Rushbearing [c41660aa6fac237fa36a]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "2aeac7d4da9f563b84b995a8b873684cd1b9561663822c11419a89e938bd58bb",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1046",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 5",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "be071d62ea3cd98fa5c6524a5c65d1e722db02a4ae4c11f32a062332c1856137",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1046",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 5",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Ambleside Rushbearing"
+    }
+  ]
+}

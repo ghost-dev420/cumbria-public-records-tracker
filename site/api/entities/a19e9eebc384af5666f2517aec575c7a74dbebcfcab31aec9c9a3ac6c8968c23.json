@@ -1,0 +1,22 @@
+{
+  "entity_id": "a19e9eebc384af5666f2517aec575c7a74dbebcfcab31aec9c9a3ac6c8968c23",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Carlisle Task and Finish Group Court Square Redevelopment",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0601cbf12884b9ec1558cb7ea6d77869bf9d660414c03177520bd58240b3154f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Carlisle Task and Finish Group Court Square Redevelopment",
+      "locator": "committee 486",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

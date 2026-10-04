@@ -1,0 +1,22 @@
+{
+  "entity_id": "e7e8c88e54fe523d7a66f69f5e366e9aa11a5e2573ea5cd91e169c2bcfd55411",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Audit Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "89cb21e925b59b2eea1532a6598ff78c5a3c60fd0886a9dace0650472fbb501e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Audit Committee",
+      "locator": "committee 335",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "12e2b2d7b39b0eebb77af5e76fc507ffaa6e190a58b81f0298d51357068622e6",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Emergency Business Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ec226cdc0f6220e3fca4defe50c50f2cabc03f7d786416730c655b772d4d968c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Emergency Business Sub-Committee",
+      "locator": "committee 533",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

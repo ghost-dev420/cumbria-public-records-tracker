@@ -1,0 +1,22 @@
+{
+  "entity_id": "9a86964b1d2adfbb6c993dbd3d08ada7731a4673bda261ea19576d48eac078d4",
+  "entity_type": "SUPPLIER",
+  "name": "Spencer Graham Coaches Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7798ea3dd7688785f71c9bd61f4a16b2ea8e1c361558c1be94671ed4087b775f",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-43ce22a5-2e2b-4f41-9cd7-da7e8f740069-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 2a - between 9 and 16 passenger seats for Penrith area closing 23 August 2023 (F44)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/770cd416-7ffe-484a-8dbc-f3d81ee55d2b-892646.json",
+      "published_at": "2026-04-13T14:50:34+01:00",
+      "retrieved_at": "2026-10-03 23:21:26.217889",
+      "sha256": "e749c2613ea2be2ce4350645d5f773347979179ade66b96f8dbe287501ea905d",
+      "related_entity": "ocds-b5fd17-43ce22a5-2e2b-4f41-9cd7-da7e8f740069:ocds-b5fd17-43ce22a5-2e2b-4f41-9cd7-da7e8f740069-1"
+    }
+  ]
+}

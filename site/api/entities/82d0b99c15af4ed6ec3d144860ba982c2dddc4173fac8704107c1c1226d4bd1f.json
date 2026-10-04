@@ -1,0 +1,78 @@
+{
+  "entity_id": "82d0b99c15af4ed6ec3d144860ba982c2dddc4173fac8704107c1c1226d4bd1f",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-020-822",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "acddb79b29859be56f2544e016801759a9ee07c6942fda5c48c3981c0b32a1a8",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-020-822",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 020 822)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-adoption/25-020-822",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:28.284405",
+      "sha256": "87afefc98f709c6b7be0f13bb94258ca01519e689a786653f55bf940db79e196",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "e867dc6f5d70b8c93f9c5af106b94080e02b3162f9b8f1110f63cf1ae33fa3dc",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 020 822)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-adoption/25-020-822",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:28.284405",
+      "sha256": "87afefc98f709c6b7be0f13bb94258ca01519e689a786653f55bf940db79e196",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "89b3c4449cd7e17bee2b1c3e4242548deda08a6b09aa3513f5383fd397f7f95f",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 020 822)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-adoption/25-020-822",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:28.284405",
+      "sha256": "87afefc98f709c6b7be0f13bb94258ca01519e689a786653f55bf940db79e196",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "069e329178d586eeb3345c7328ddca3c30c8e8a3588bef710e6b32e95e076170",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "23 Apr 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 020 822)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-adoption/25-020-822",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:28.284405",
+      "sha256": "87afefc98f709c6b7be0f13bb94258ca01519e689a786653f55bf940db79e196",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "db9bae739ab58f61f28085aec8481031ce3b02f48f856ebbf99a7f84b1efa1f3",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s decision to not install a pedestrian crossing outside of a school. This is because there is not enough evidence of fault to warrant an investigation by the Ombudsman.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 020 822)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-adoption/25-020-822",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:28.284405",
+      "sha256": "87afefc98f709c6b7be0f13bb94258ca01519e689a786653f55bf940db79e196",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "c8f5050b90b9185304a80be3132d45c4fc0ecad57a46fc55e1d216c7817860b7",
+  "entity_type": "SUPPLIER",
+  "name": "WF SUPPORT SERVICES LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "f9d0e471f6c961bebd2c7c96255c545845b427ba811df5f380b80bec505350ab",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "125.00",
+      "locator": "XLSX Sheet1!row 413",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "05bf67490cd96ac9efdd049b9344da19eed54fc45547205a93bb1b7dec2591f5",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "150.00",
+      "locator": "XLSX Sheet1!row 417",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

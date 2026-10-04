@@ -1,0 +1,22 @@
+{
+  "entity_id": "d0e16762371a9265553916c3fec068bed0b28541113b05012a3755dd275ffcd9",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Joint Health Overview and Scrutiny Committee - CATS",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "58619f45bffee3fff946e130ecfde5d59458090f02755ba1f8e0dbd3f33c3584",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Joint Health Overview and Scrutiny Committee - CATS",
+      "locator": "committee 549",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

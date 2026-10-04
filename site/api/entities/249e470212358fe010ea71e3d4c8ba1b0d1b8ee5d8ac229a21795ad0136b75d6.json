@@ -1,0 +1,36 @@
+{
+  "entity_id": "249e470212358fe010ea71e3d4c8ba1b0d1b8ee5d8ac229a21795ad0136b75d6",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Burneside Cricket Club [7d71892de5aa953d795f]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "e8eebfc82cfb44d75dbfaa02b96f089229180b00d1a3a3690f0e51be63e359b8",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "3000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "6dd8226adafb33eae3b3419bd281912bc3392bdbec18443ec268c5198f631d9c",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "3000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Burneside Cricket Club"
+    }
+  ]
+}

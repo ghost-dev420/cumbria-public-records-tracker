@@ -1,0 +1,36 @@
+{
+  "entity_id": "0fe7402d5f9dfa8e71f5d9ba03b0d9d22c0b918893499cdf298a73cc3ceaf65b",
+  "entity_type": "SUPPLIER",
+  "name": "MERITEC LIMITED",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "14cf1f8a7c2bdf279e97443f1467f998d4cf4ef57caecc802cdb01019af68c1c",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "12025.00",
+      "locator": "XLSX Report!row 535",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c4d40716b8206a96f0677c93b2de8ce7ee60046e9bc240ebca8694f69296e936",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "12987.00",
+      "locator": "XLSX Report!row 691",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

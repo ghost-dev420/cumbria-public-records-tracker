@@ -1,0 +1,36 @@
+{
+  "entity_id": "534ef7c56d735f611850d5d7deb2d86e7731f3e59f0a790ce3a5e541ef1c6d9e",
+  "entity_type": "PERSON",
+  "name": "Josh Kirkwood",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "7c7b8cd4a262ffeb324afbc8b9125a0c4844659d53a14d67be10cfae41f69642",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Reform UK",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Reform UK"
+    },
+    {
+      "fact_id": "e55fafacc6b42f87af184b2f1792e1c80e1d9bb2cdee737f0b646c8c09478b32",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Harraby South",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Harraby South"
+    }
+  ]
+}

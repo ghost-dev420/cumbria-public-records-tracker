@@ -1,0 +1,22 @@
+{
+  "entity_id": "196d1e7d3061ad2af7ea9193e6d95dc6fce381290602f1bc8eb467428ff0a656",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Allerdale Area Transport Advisory Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0bb1c64087e914cbe25e7b855e1ddab564cf49afa030ab6a691757b88246310a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Allerdale Area Transport Advisory Group",
+      "locator": "committee 467",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

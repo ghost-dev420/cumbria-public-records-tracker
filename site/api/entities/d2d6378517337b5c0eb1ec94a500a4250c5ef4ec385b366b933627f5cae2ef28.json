@@ -1,0 +1,22 @@
+{
+  "entity_id": "d2d6378517337b5c0eb1ec94a500a4250c5ef4ec385b366b933627f5cae2ef28",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC North Allerdale Community Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ad9208dc9a4e8db1884542229401660a1b501b43e83290826dbc6bfa34fb04af",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC North Allerdale Community Board",
+      "locator": "committee 794",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

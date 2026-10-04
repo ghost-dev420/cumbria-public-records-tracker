@@ -1,0 +1,36 @@
+{
+  "entity_id": "280cff69b8a80a84d2973a6bf190db9b9679652875cc1fc5c87a04d816fc16a8",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Blackwell Sailing Club [758a17aa251252c40ea4]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "910e18070ef307e2cc6a55c9e2b48ec444444ae38941b59d872115c773989536",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1900",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 9",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "bd5dc6790b514b9826c5621e48ba4988994bbf35ce26a5642a5b4974702748bd",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1900",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 9",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Blackwell Sailing Club"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "fb11f847e5b1f6e1c1b3867449b00f1ba2dd78287766203b2a999a70828c4510",
+  "entity_type": "WARD",
+  "name": "Botcherby",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7955962d9867de745a8d034f7bd929665f5aae4533b9e9c9e916c76660d372ef",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Botcherby",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Robert Betton"
+    }
+  ]
+}

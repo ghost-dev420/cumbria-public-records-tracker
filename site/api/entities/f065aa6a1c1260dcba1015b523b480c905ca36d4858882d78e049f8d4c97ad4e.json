@@ -1,0 +1,22 @@
+{
+  "entity_id": "f065aa6a1c1260dcba1015b523b480c905ca36d4858882d78e049f8d4c97ad4e",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Health Scrutiny Variation Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c19b271c02d0bbfce4be37a27d81f2388953db964cd986be193560b82c2a67ae",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Health Scrutiny Variation Sub-Committee",
+      "locator": "committee 437",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "2dad8a6b42a8f8a88b380fa6bcf3ab809322d4711abd46a4b9abcd54cc9dff5d",
+  "entity_type": "SUPPLIER",
+  "name": "WESTWARD P.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e74913181fcf0c3f7225b51596ea0152c522d161dc06f74548d2764e1b74a3fd",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "4250.00",
+      "locator": "XLSX Sheet1!row 506",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

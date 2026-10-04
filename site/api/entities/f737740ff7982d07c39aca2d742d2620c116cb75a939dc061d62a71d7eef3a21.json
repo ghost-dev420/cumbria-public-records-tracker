@@ -1,0 +1,22 @@
+{
+  "entity_id": "f737740ff7982d07c39aca2d742d2620c116cb75a939dc061d62a71d7eef3a21",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Fire Local Pension Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "86202823c209f6dd851356762713bde359834c4c1a42a011905ae9b9af298ecd",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Fire Local Pension Board",
+      "locator": "committee 434",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

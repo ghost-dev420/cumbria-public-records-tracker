@@ -1,0 +1,22 @@
+{
+  "entity_id": "2e125ec031cc3326b195906ac6266ac304953f440c23d1dca4e8cb485e83d0bf",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cabinet",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "82f70ccbb41873c5db3fcb0da4b71ed92f7f2573a38633bff210c643517317f2",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cabinet",
+      "locator": "committee 652",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

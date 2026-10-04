@@ -1,0 +1,22 @@
+{
+  "entity_id": "54a78cebfc2f82c179f3dd610725058d5d8075a1664c10c6f3be83def04c643d",
+  "entity_type": "WARD",
+  "name": "Greystoke and Ullswater",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a3166bba8b4660887fde64f27a03c7e0a43713998d9b2d5b7910e976852675de",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Greystoke and Ullswater",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Judith Derbyshire"
+    }
+  ]
+}

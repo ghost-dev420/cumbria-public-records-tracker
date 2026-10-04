@@ -1,0 +1,22 @@
+{
+  "entity_id": "68e3a5953f8aa05937bb48843387470ac408371b95c98e8575ccbef18c824cf8",
+  "entity_type": "SUPPLIER",
+  "name": "FREE FOR ALL COMMUNITY RECYCLING LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b20e0d4e3930901e595d42159d7130fac84fb9b1a047d81f6c340d5216b37f04",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "710.00",
+      "locator": "XLSX Sheet1!row 297",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

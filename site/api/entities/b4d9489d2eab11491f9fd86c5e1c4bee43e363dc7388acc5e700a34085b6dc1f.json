@@ -1,0 +1,22 @@
+{
+  "entity_id": "b4d9489d2eab11491f9fd86c5e1c4bee43e363dc7388acc5e700a34085b6dc1f",
+  "entity_type": "SUPPLIER",
+  "name": "Irini's Kitchen Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4e7901fd5968624bb4eb4eca379b8b41e63c8c80a998aaa66af316ac266b8751",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "175.00",
+      "locator": "XLSX Sheet1!row 485",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

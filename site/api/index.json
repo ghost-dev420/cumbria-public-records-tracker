@@ -1,0 +1,16 @@
+{
+  "notice": "Evidence-first public records data. Signals and review items are prompts for human review, not findings of wrongdoing.",
+  "endpoints": {
+    "entities": "api/entities.json",
+    "facts": "api/facts.json",
+    "matches": "api/matches.json",
+    "signals": "api/signals.json",
+    "source-health": "api/source-health.json",
+    "registry-records": "api/registry-records.json",
+    "registry-relationships": "api/registry-relationships.json",
+    "examples": "api/examples.json",
+    "evidence-packages": "api/evidence-packages.json",
+    "publication-status": "api/publication-status.json",
+    "structured-changes": "api/structured-changes.json"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "2aeb24eaf835f0cf074d419fcf250613054f24151160ee2ae8285c1511a9b151",
+  "entity_type": "SUPPLIER",
+  "name": "N SIGN LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "38eeaf5d8efbc1e9698a6c107bde19be7a3ce55ecb12a446ce27e37b8b38b5c1",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "65.00",
+      "locator": "XLSX Sheet1!row 406",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "49f4b5901484bba9572062c43405e19a5d7f5510713b69b6cd51611df9618589",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "155.00",
+      "locator": "XLSX Sheet1!row 498",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

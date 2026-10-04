@@ -1,0 +1,22 @@
+{
+  "entity_id": "4bb98f6b27073c2811e8021293f4e31a4f5ec035cf7cc69f668c47a409760603",
+  "entity_type": "POLITICAL_PARTY",
+  "name": "Non-aligned",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2561d356f6f17d6544286ccce8560b2ca46a3263a106ca1f593acaa978d8c5a1",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Non-aligned",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Ali Jama"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "ccb0db93f511a1d9d2b005614b95877797dfe42c2b5fc95ed8d3686788998f8e",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Castle St Community Centre [4f13ed00a3e16c9c73d0]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "74a9e2f32f957c20574093aecf32b78172941088d1dd819a33b74e7ffd10a615",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "4000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 5",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "22651a08748594cafb0fe038563895251bf578dc8fd0a32fc8f10d53b1a83ab7",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "4000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 5",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Castle St Community Centre"
+    }
+  ]
+}

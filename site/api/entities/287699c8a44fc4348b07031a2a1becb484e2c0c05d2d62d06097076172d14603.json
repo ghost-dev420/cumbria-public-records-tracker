@@ -1,0 +1,36 @@
+{
+  "entity_id": "287699c8a44fc4348b07031a2a1becb484e2c0c05d2d62d06097076172d14603",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Sedbergh CIC [4225ab722734a7cc0b52]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "77410928baf144ba291202cef040c48678481683a44732b57670e7509384ea3d",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 16",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "1e6ce6aacb3ab4b818bd2a1cf4bd83acc1b1c0951f7677206ac1cb650f803ca5",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 16",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Sedbergh CIC"
+    }
+  ]
+}

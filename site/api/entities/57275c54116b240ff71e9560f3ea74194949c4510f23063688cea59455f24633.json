@@ -1,0 +1,36 @@
+{
+  "entity_id": "57275c54116b240ff71e9560f3ea74194949c4510f23063688cea59455f24633",
+  "entity_type": "SUPPLIER",
+  "name": "GREAT CLIFTON P.C.",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "332b7cb7382c1a7ff1cf7c6fcbd974d918bce236351bc244fcce10fc36db3182",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "5000.00",
+      "locator": "XLSX Sheet1!row 543",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "782a2fef6973320d42fc57077b503aaa50d2530a75f9cb1b6b96d61b92748a0b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3125.00",
+      "locator": "XLSX Sheet1!row 269",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

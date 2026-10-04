@@ -1,0 +1,22 @@
+{
+  "entity_id": "9c26b166c00ee0494be2d1d15837c89262b0280a04799d9e83698f40e2957063",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Corporate Management Team Extended",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8fe06ff2f776c3bf0526ac493750bb247cc7c0605ff38e7bd1358e45bc0babae",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Corporate Management Team Extended",
+      "locator": "committee 727",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "22045756869763ad29233573447fc247d4fe73952ce907e1e994a2c2f130b204",
+  "entity_type": "SUPPLIER",
+  "name": "Eat Train Live Eat Train Live",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a44333706744944ed8d2f97e6f57cff96de437003cba1146fad923f13870f9df",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "180.00",
+      "locator": "XLSX Report!row 557",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

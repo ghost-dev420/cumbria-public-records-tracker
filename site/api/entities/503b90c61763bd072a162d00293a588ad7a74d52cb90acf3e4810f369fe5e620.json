@@ -1,0 +1,22 @@
+{
+  "entity_id": "503b90c61763bd072a162d00293a588ad7a74d52cb90acf3e4810f369fe5e620",
+  "entity_type": "COMMITTEE",
+  "name": "South Lakeland Locality Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6428682d16d62c25fbaad05e4339fc3efb0de8086c875ce0b44054df9d90791c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "South Lakeland Locality Board",
+      "locator": "committee 270",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

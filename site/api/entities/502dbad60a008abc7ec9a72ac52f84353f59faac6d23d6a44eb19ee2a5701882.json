@@ -1,0 +1,22 @@
+{
+  "entity_id": "502dbad60a008abc7ec9a72ac52f84353f59faac6d23d6a44eb19ee2a5701882",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Public Protection Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e9e2b88d230626194e5f60a81e407cceb3e9eae64bf199784eef332b227c27cd",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Public Protection Committee",
+      "locator": "committee 584",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

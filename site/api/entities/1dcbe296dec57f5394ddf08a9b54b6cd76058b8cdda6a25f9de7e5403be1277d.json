@@ -1,0 +1,78 @@
+{
+  "entity_id": "1dcbe296dec57f5394ddf08a9b54b6cd76058b8cdda6a25f9de7e5403be1277d",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-013-967",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "bd23ef3f003c2dc41cbb403e9b22478b1650e179582171fc1a4ca681c511aac3",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-013-967",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 013 967)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-967",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:46.320377",
+      "sha256": "b85daebd98c2010d9af56576fc711e6cef8e11bbd8cac986f1bae5dbabe2eb55",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d83525e1a450925070828b1fd9d58c47f04fede4216b77f3803fe54b8f4eb138",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Education",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 013 967)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-967",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:46.320377",
+      "sha256": "b85daebd98c2010d9af56576fc711e6cef8e11bbd8cac986f1bae5dbabe2eb55",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "b8ee0b02a97cf7dd80b83216a16d35bef1d761517a2adc092c585da9c27f833b",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 013 967)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-967",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:46.320377",
+      "sha256": "b85daebd98c2010d9af56576fc711e6cef8e11bbd8cac986f1bae5dbabe2eb55",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "fa6cc643824fbd5c82c01a9c173e43bf34b8391a552e72d7b858a11a8a7bf814",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "03 Jun 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 013 967)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-967",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:46.320377",
+      "sha256": "b85daebd98c2010d9af56576fc711e6cef8e11bbd8cac986f1bae5dbabe2eb55",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "90de944133ff84179419ccf9f8a42499f3f83752f5995a0367fd222cd8d965ad",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "The Council failed to consider an interim review Miss X’s child, Y’s, Education, Health and Care (EHC) Plan when they stopped attending school in April 2024. It also delayed reviewing the Plan when Y’s alternative provision failed. This caused Miss X a period of uncertainty and Y to miss out on two terms of the provision in their Plan. The Council has agreed to apologise, make a payment to Miss X and review its approach to interim EHC Plan reviews.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 013 967)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-967",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:46.320377",
+      "sha256": "b85daebd98c2010d9af56576fc711e6cef8e11bbd8cac986f1bae5dbabe2eb55",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

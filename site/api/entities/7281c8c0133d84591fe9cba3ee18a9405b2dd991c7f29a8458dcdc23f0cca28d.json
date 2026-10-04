@@ -1,0 +1,22 @@
+{
+  "entity_id": "7281c8c0133d84591fe9cba3ee18a9405b2dd991c7f29a8458dcdc23f0cca28d",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Gambling Policy Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "976e00da058215ec450a1ca863fdb460e71095226aa0a643a2a253f076a03279",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Gambling Policy Working Group",
+      "locator": "committee 499",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

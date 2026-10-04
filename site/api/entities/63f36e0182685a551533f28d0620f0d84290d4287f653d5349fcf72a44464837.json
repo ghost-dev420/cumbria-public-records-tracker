@@ -1,0 +1,22 @@
+{
+  "entity_id": "63f36e0182685a551533f28d0620f0d84290d4287f653d5349fcf72a44464837",
+  "entity_type": "SUPPLIER",
+  "name": "BROUGHTON MOOR P.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8a64f2c8e152704b42f3ce859c9a92b95ef00b61b8fc0836d47e2d92dfa1c8f0",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "9000.00",
+      "locator": "XLSX Sheet1!row 535",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

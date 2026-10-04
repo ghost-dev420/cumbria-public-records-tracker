@@ -1,0 +1,22 @@
+{
+  "entity_id": "235558994f0d072d6b335479fdc3657c4a3e9cd418d8a8b5bed007193005dac0",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC South Lakeland Area Committee for the Under Fives",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "372e745449e64c1fbc339ddd26c964a51efdb482ef652ffc88ea71cd982f2f3a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC South Lakeland Area Committee for the Under Fives",
+      "locator": "committee 851",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

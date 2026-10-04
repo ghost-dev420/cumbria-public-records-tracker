@@ -1,0 +1,36 @@
+{
+  "entity_id": "553416ad530c963a510dc647b1e9254a5b259856c3b4dfa5b184f7e0b216f2c7",
+  "entity_type": "SUPPLIER",
+  "name": "ASSOCIATION OF PORT HEALTH AUTHORITIES",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "c2646a4152c2061c27cd5d74cb740f80778c771cabbc86a799cd47359e8317a4",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "135.00",
+      "locator": "XLSX Sheet1!row 341",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d981340298b63a9bdd8563103fed529b5ac9e6ecab6ec4c6ac31464b975e1b7b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "135.00",
+      "locator": "XLSX Sheet1!row 342",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

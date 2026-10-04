@@ -1,0 +1,36 @@
+{
+  "entity_id": "b757ea4503bbeb9eb1c63d7ee419eed2d19007849fbe79206d7eb7855dc5b0f7",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2025 to 2026: Lindale Village Hall, Grange [2ebcdfc4be181304ab39]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "b0e606d1d78cb436f1a23ef61939a6e640e84f6943ff2800f4d6866d1c2cde7c",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 9",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "70ee54bdc3500851a2535fb7c88efe0164fd330ab3fa78f6b1c4969350ca7c88",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 9",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Lindale Village Hall, Grange"
+    }
+  ]
+}

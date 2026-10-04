@@ -1,0 +1,22 @@
+{
+  "entity_id": "c6ac906107f68ae99e388c4c6cfc003af5d9ae4400d6ba3afdce10c28cfa814c",
+  "entity_type": "SUPPLIER",
+  "name": "Causeway Technologies Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ca9319b5a32ba9e56cce78d60dd96d527a076b1c8a34df5e33250eae3ecc86b2",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-2d4d880b-c7ef-4af5-b295-092448ade053-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Traffic Management System",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c9ba2b38-a026-4ec7-986d-a1fce4afe2b9-869465.json",
+      "published_at": "2025-10-23T15:15:47+01:00",
+      "retrieved_at": "2026-10-03 22:54:53.260017",
+      "sha256": "1332bdcdfce76ee9bd6210246b2ad9efe7b0f43b162b9a6d18ff26819febd138",
+      "related_entity": "ocds-b5fd17-2d4d880b-c7ef-4af5-b295-092448ade053:ocds-b5fd17-2d4d880b-c7ef-4af5-b295-092448ade053-1"
+    }
+  ]
+}

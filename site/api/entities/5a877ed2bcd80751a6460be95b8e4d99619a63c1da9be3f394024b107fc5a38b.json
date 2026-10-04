@@ -1,0 +1,22 @@
+{
+  "entity_id": "5a877ed2bcd80751a6460be95b8e4d99619a63c1da9be3f394024b107fc5a38b",
+  "entity_type": "SUPPLIER",
+  "name": "UK HARBOUR MASTERS ASSOCIATION",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c45972eab30c1b41bbb1f65e37da64ef81c94ba309ee4939ec49cdd80ac7ea2a",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "118.00",
+      "locator": "XLSX Report!row 348",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

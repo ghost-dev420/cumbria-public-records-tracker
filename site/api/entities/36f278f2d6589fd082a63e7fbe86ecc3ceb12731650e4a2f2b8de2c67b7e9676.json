@@ -1,0 +1,22 @@
+{
+  "entity_id": "36f278f2d6589fd082a63e7fbe86ecc3ceb12731650e4a2f2b8de2c67b7e9676",
+  "entity_type": "SUPPLIER",
+  "name": "EMAP PUBLISHING LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5d08a21d19eccf53115231f7d7de98d9c89624bc210aab25ec13a9c15ca5c91d",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1687.00",
+      "locator": "XLSX Sheet1!row 378",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

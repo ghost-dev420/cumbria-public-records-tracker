@@ -1,0 +1,22 @@
+{
+  "entity_id": "ce487507797f01ed8c77d91d508151c199d4b914ca7776f17a379e8cbf6ff0b4",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Children's Trust Board (Children & Young People's Board)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5e68964b4cd49c224c2c4a4dcc57c9330a67446218ff3b7c9b5b4941d2842a5f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Children's Trust Board (Children & Young People's Board)",
+      "locator": "committee 508",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

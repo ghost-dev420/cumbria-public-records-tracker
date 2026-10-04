@@ -1,0 +1,22 @@
+{
+  "entity_id": "6c6f605744d1d032699b0f2e366e01b9ee93dc990bfe46a58be8933d339f731e",
+  "entity_type": "ORGANISATION",
+  "name": "Kings Food Bank, Kendal",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "063fb6f32705f97fc5aa652ceddefaab6bff7de4dded1392960fc95b52c4a846",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "4000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 2",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round one in 2025 to 2026: Kings Food Bank, Kendal [6e904718e3c8963ef79b]"
+    }
+  ]
+}

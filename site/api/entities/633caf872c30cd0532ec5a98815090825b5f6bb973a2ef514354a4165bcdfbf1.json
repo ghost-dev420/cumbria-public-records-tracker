@@ -1,0 +1,22 @@
+{
+  "entity_id": "633caf872c30cd0532ec5a98815090825b5f6bb973a2ef514354a4165bcdfbf1",
+  "entity_type": "SUPPLIER",
+  "name": "WOODWARD SHE LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fcd424a871a242c9e67011578594ae56d15b305fd1f4c2acda22aab0a32cec99",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "425.00",
+      "locator": "XLSX Sheet1!row 400",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

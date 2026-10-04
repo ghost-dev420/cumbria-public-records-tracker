@@ -1,0 +1,22 @@
+{
+  "entity_id": "56e8c8c425728566c4034879ae6953a9d242ce87724fe6fa5a5dd42d198d96d5",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Police and Crime Panel Complaints Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4a465c34f8dc01772cb23d05ce17d4951f1375b40161cd29dfef3a780636321e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Police and Crime Panel Complaints Sub-Committee",
+      "locator": "committee 443",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "c26073fcb80d0ac996eb3d58eb98558fb48271060a4e268db993ed3c31a5941b",
+  "entity_type": "SUPPLIER",
+  "name": "LEARNING POOL LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2ddf823f74dbede1883de5fc45b1e7dae91e06a39356ba9ec078361b60d34105",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "9550.00",
+      "locator": "XLSX Sheet1!row 58",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

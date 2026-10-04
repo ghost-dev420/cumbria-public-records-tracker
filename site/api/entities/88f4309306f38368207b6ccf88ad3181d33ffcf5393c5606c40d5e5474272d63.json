@@ -1,0 +1,22 @@
+{
+  "entity_id": "88f4309306f38368207b6ccf88ad3181d33ffcf5393c5606c40d5e5474272d63",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Voting test",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b3120dc953a6fb03057283bbdabe882a5759a6ac2dfcdbee83e40bf58b7fdaff",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Voting test",
+      "locator": "committee 567",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

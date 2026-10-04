@@ -1,0 +1,22 @@
+{
+  "entity_id": "9a212ad2f6abfa5cd4730defa01ae5e93c441829db838cb76c3662086aff52f5",
+  "entity_type": "COMMITTEE",
+  "name": "Joint Health & Adults and Childrens Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "11a0d41feb1b24de1841af6cf60606d4f91f807d67d7c46b6d58fcc27c6e8a3d",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Joint Health & Adults and Childrens Scrutiny Committee",
+      "locator": "committee 844",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

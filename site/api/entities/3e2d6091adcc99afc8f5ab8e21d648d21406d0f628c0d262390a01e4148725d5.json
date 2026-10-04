@@ -1,0 +1,22 @@
+{
+  "entity_id": "3e2d6091adcc99afc8f5ab8e21d648d21406d0f628c0d262390a01e4148725d5",
+  "entity_type": "COMMITTEE",
+  "name": "Joint Appointments Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a4b3d98f1fc6c32b5c44f15f8714d2092bd9c97a965f371775e071fdc3b9d62c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Joint Appointments Panel",
+      "locator": "committee 848",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

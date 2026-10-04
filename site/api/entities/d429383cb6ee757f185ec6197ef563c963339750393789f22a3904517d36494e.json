@@ -1,0 +1,22 @@
+{
+  "entity_id": "d429383cb6ee757f185ec6197ef563c963339750393789f22a3904517d36494e",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Cycling Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "839e6c4da370a90531398d373a1d28f5442b5b6f3bed5bee97399a5607493f45",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Cycling Panel",
+      "locator": "committee 738",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

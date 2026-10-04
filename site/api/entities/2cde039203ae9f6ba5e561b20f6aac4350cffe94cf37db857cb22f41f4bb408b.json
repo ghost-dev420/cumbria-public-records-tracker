@@ -1,0 +1,22 @@
+{
+  "entity_id": "2cde039203ae9f6ba5e561b20f6aac4350cffe94cf37db857cb22f41f4bb408b",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Joint Accounts and Audit Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ea47287cc08c97b6428ebb2f517969fb932ffb305015372409d9eeda639dab04",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Joint Accounts and Audit Committee",
+      "locator": "committee 696",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "2beb78e921ef900737ff358f39c99bf2309c1892ed85e8c8c332e7eae6e85500",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Westmorland & Furness Joint Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5f5a8ff0f1849e09fb1dab360c696f470d4f724a1a5bda8064e8e7d7b79a4c27",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Westmorland & Furness Joint Committee",
+      "locator": "committee 459",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

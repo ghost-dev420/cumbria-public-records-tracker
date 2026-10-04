@@ -1,0 +1,22 @@
+{
+  "entity_id": "4e910a167447c4c985edde515592bd4c163137edbec58179fff63249b6d45605",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Pilot Community Board - Grange and Cartmel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "39c955a9ae8c83371df499d33cc661b23196b22120369bed0cb17bc5fcae3226",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Pilot Community Board - Grange and Cartmel",
+      "locator": "committee 571",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "13913ec9c05e51ba6975c9facd0ec44caffb2abd9b2b42eefca21b213a425092",
+  "entity_type": "COMMITTEE",
+  "name": "Children, Young People and Families Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3c4a201a7c0152a3f68d2bd6b3775d6ac54d7950a1e79306ea6266c1dc831ae5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Children, Young People and Families Scrutiny Committee",
+      "locator": "committee 259",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

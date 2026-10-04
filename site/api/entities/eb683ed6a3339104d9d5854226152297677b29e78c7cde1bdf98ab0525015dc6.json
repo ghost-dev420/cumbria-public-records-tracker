@@ -1,0 +1,22 @@
+{
+  "entity_id": "eb683ed6a3339104d9d5854226152297677b29e78c7cde1bdf98ab0525015dc6",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Standards Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9cfc37632d15d01ae8ff5856e5fbe476e6d1f4def378bac4c9523924eb11ccd2",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Standards Committee",
+      "locator": "committee 665",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

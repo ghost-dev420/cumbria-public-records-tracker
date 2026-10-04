@@ -1,0 +1,22 @@
+{
+  "entity_id": "97b6a4eb00efbe9e9c03093a19fe653438828511d8e8b11fb473025238315a3a",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Corporate Planning Cabinet Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "55a1236577c2b5af949760978f3888b81974197c682c274a4d0a157a0618b50d",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Corporate Planning Cabinet Working Group",
+      "locator": "committee 502",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

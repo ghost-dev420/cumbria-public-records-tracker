@@ -1,0 +1,22 @@
+{
+  "entity_id": "f586975b600dcb4ec7e7c5b99c58b3a9c34409c9ae8c27c58e78c9c4033f7ef5",
+  "entity_type": "SUPPLIER",
+  "name": "LAKESMAN EVENTS LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3597836234c1821da8b3fe26692efabb4892ccb89bdb1b47bc0485b176b4d85e",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "20000.00",
+      "locator": "XLSX Sheet1!row 306",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

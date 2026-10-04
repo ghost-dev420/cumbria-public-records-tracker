@@ -1,0 +1,22 @@
+{
+  "entity_id": "b03a2684be636b8318a542aa1543bfdeb09aaf73f311a5902d7d78c58492f7a1",
+  "entity_type": "SUPPLIER",
+  "name": "Stagecoach Cumbria and North Lancashire",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2e6542c821881ea49e6cb765f60bea18a1b740ba9507bb0e78f500289b7fcc5f",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-fc66793b-0c3b-4072-9d0c-9d610d7c26fa-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 3a - 17 passenger seats and above for various areas closing 24 July 2023 (F37)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/cbcfc7d4-c890-4496-a49d-603695f01a84-891748.json",
+      "published_at": "2026-04-07T11:13:26+01:00",
+      "retrieved_at": "2026-10-03 23:18:32.973721",
+      "sha256": "c1bd9b8d43bdda6e0622a96ba63369857cc4f5bdda6595feea9b5fffa31e13d9",
+      "related_entity": "ocds-b5fd17-fc66793b-0c3b-4072-9d0c-9d610d7c26fa:ocds-b5fd17-fc66793b-0c3b-4072-9d0c-9d610d7c26fa-1"
+    }
+  ]
+}

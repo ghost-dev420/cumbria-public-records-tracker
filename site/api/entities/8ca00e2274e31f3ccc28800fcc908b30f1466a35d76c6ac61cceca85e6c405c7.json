@@ -1,0 +1,22 @@
+{
+  "entity_id": "8ca00e2274e31f3ccc28800fcc908b30f1466a35d76c6ac61cceca85e6c405c7",
+  "entity_type": "SUPPLIER",
+  "name": "IPL Plastics (UK) Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "63fa1f71c2240e411d472a61e6454faed2163aabd56350ce67bac2b765cceed9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-7c901577-639a-40fb-a17f-b6df6363d5a7-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Plastic Wheeled Bins (2 Wheels) and Plastic Bin/Container End of Life Buy Back",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9b30ada9-713e-4ad4-9eb7-6ad7b67b1181-911331.json",
+      "published_at": "2026-08-19T14:26:27+01:00",
+      "retrieved_at": "2026-10-03 23:42:56.062190",
+      "sha256": "1dcd42f5f1f2fcbb388dd1829840b9ec90374ce2dd1794b2258ec9ce9dfd3563",
+      "related_entity": "ocds-b5fd17-7c901577-639a-40fb-a17f-b6df6363d5a7:ocds-b5fd17-7c901577-639a-40fb-a17f-b6df6363d5a7-1"
+    }
+  ]
+}

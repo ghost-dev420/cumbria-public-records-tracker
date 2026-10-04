@@ -1,0 +1,36 @@
+{
+  "entity_id": "6cf6e9fc5dbfefbe7eab41d18049c6f62e975501f9400914cd58ae7cf5a0b677",
+  "entity_type": "SUPPLIER",
+  "name": "ASHTEAD PLANT HIRE LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "c3044137d8314e0a979a6cc77dd0fae99f6abcc0dc4591f000000dc01a717496",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "204.50",
+      "locator": "XLSX Sheet1!row 97",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "3098750e8e5248499731eb71bbff6e5fc2e778fabc8e0ca96a3306091c5ae270",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "203.80",
+      "locator": "XLSX Sheet1!row 409",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

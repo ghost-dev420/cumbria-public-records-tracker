@@ -1,0 +1,78 @@
+{
+  "entity_id": "dd5ba031d086f0d5399ccfd8d77f94eafd6e109edb307f5f7d9942c03e4a42b6",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-016-765",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "094d61b2c518301c84f2f97dceb13874188ce2445d157ad79d410c5808250760",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-016-765",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 016 765)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/noise/25-016-765",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:16.918833",
+      "sha256": "b442e830f16c87a6447144da36d87450b8922f13f6054ac94fb4064d2694f822",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "ab680530e77d8d6a1fe38a916ba7956e0e3a7239266777bf54e9df48b244cb72",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 016 765)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/noise/25-016-765",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:16.918833",
+      "sha256": "b442e830f16c87a6447144da36d87450b8922f13f6054ac94fb4064d2694f822",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "fb8342681476d2a35c404f96f936f0f0e27c01e22f21bdb8ba62f8cbc0358fbd",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 016 765)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/noise/25-016-765",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:16.918833",
+      "sha256": "b442e830f16c87a6447144da36d87450b8922f13f6054ac94fb4064d2694f822",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "d04419a0703643f555eb94a895ee02e98137fac33a48bdcdc65eda503c013815",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "06 Jul 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 016 765)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/noise/25-016-765",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:16.918833",
+      "sha256": "b442e830f16c87a6447144da36d87450b8922f13f6054ac94fb4064d2694f822",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "ac91d7be2eae7ff0cc8acaa3be32a0f94e74ee562b4a40d24f5dfc5294247ed0",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about a Council’s response to his complaints about noise nuisance and licencing matters. He had a right of appeal to the magistrate’s court about the licencing committee’s decision. We will not investigate the other matters as further investigation would not lead to a different outcome.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 016 765)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/noise/25-016-765",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:16.918833",
+      "sha256": "b442e830f16c87a6447144da36d87450b8922f13f6054ac94fb4064d2694f822",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

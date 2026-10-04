@@ -1,0 +1,22 @@
+{
+  "entity_id": "5b0e1b99bc130551ad7d0c92a81d58590e19c283bac40d9da5f22b394e8fba79",
+  "entity_type": "SUPPLIER",
+  "name": "CHARTERED INSTITUTE OF HOUSING",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8f6d155e18a7934255ae9b8b457981c4b58cd32299d80576f30608a70b353630",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1000.00",
+      "locator": "XLSX Sheet1!row 24",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

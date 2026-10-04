@@ -1,0 +1,22 @@
+{
+  "entity_id": "2fbbb137ecc9aa9528b09d3aa35956b0f8d43b8a3137a218a9caa1a69a69be03",
+  "entity_type": "SUPPLIER",
+  "name": "Chinara Enterprises Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "aed824a1cca80c116b7aff58290cd9aedaa76d6159cc8439afb25fe865f1462b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-b82b580b-280d-4ecc-962d-44772a30726f-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODCWT Lot 5 - Assessment and Planning for Children and Families",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/902a04b6-b52e-4da2-9322-c1a98057134f-891150.json",
+      "published_at": "2026-04-01T12:56:33+01:00",
+      "retrieved_at": "2026-10-03 23:17:45.649575",
+      "sha256": "2cab7ad49572b88fade028cf02a437baea8d90f8007959c1b7e2f0251097ea36",
+      "related_entity": "ocds-b5fd17-b82b580b-280d-4ecc-962d-44772a30726f:ocds-b5fd17-b82b580b-280d-4ecc-962d-44772a30726f-1"
+    }
+  ]
+}

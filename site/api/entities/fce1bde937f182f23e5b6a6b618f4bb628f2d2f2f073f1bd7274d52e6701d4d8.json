@@ -1,0 +1,22 @@
+{
+  "entity_id": "fce1bde937f182f23e5b6a6b618f4bb628f2d2f2f073f1bd7274d52e6701d4d8",
+  "entity_type": "SUPPLIER",
+  "name": "GAS DATA LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8785486bd72dd3186c6c7d08b916d93b845eaf9b9b86bba91b5cdd24b3128c37",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "695.00",
+      "locator": "XLSX Sheet1!row 510",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

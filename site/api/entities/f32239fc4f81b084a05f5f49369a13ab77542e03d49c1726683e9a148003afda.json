@@ -1,0 +1,22 @@
+{
+  "entity_id": "f32239fc4f81b084a05f5f49369a13ab77542e03d49c1726683e9a148003afda",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Health and Wellbeing Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0c03d8b030a89be7f50113ad6fe0af460a2b447741e6d0019a537e9fa0f17b2c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Health and Wellbeing Scrutiny Committee",
+      "locator": "committee 740",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

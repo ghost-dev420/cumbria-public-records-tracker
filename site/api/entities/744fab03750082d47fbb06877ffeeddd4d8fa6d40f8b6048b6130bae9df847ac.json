@@ -1,0 +1,22 @@
+{
+  "entity_id": "744fab03750082d47fbb06877ffeeddd4d8fa6d40f8b6048b6130bae9df847ac",
+  "entity_type": "SUPPLIER",
+  "name": "Kielder Newport West Ltd t/a KNW Training",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "25d967fa861d280c28e7fc46d21d0152de7f319fdff0ae9bfbe2d273766b8209",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-39041f9b-2424-43e3-837f-8e7dfe6a4552-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 1 Driver Certificate of Professional Competence (CPC) Periodic Training",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e6370f0e-e253-4a0a-b879-e79838557693-888853.json",
+      "published_at": "2026-03-17T11:37:36Z",
+      "retrieved_at": "2026-10-03 23:11:34.707038",
+      "sha256": "45d05c72b0dd1a545f1ff4277a7ba7ca0f764f41bfbb7eb3901cf8594e15233b",
+      "related_entity": "ocds-b5fd17-39041f9b-2424-43e3-837f-8e7dfe6a4552:ocds-b5fd17-39041f9b-2424-43e3-837f-8e7dfe6a4552-1"
+    }
+  ]
+}

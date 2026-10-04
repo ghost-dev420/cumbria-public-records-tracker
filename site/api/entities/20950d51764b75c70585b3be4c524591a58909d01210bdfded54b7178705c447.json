@@ -1,0 +1,22 @@
+{
+  "entity_id": "20950d51764b75c70585b3be4c524591a58909d01210bdfded54b7178705c447",
+  "entity_type": "SUPPLIER",
+  "name": "SMARTERPAY LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f1c1065e82f196d7587b036e45b725d43cabf774ccd3886226159afced9deac5",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "400.00",
+      "locator": "XLSX Sheet1!row 170",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

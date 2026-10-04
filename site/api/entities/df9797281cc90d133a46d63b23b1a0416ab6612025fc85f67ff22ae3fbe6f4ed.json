@@ -1,0 +1,36 @@
+{
+  "entity_id": "df9797281cc90d133a46d63b23b1a0416ab6612025fc85f67ff22ae3fbe6f4ed",
+  "entity_type": "SUPPLIER",
+  "name": "BRITISH GEOLOGICAL SURV",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "0c07b729b738f03dde4c035d17c57fcafc01cb9275b34925cb9b192e07a990e3",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "424.44",
+      "locator": "XLSX Report!row 446",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "38bb66d8b6b65de4e64e634e1afdf89350b6e038a38e61191b1c21c6ada11808",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "432.18",
+      "locator": "XLSX Sheet1!row 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

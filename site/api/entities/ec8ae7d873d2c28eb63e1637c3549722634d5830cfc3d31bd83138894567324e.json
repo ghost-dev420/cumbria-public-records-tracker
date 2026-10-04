@@ -1,0 +1,22 @@
+{
+  "entity_id": "ec8ae7d873d2c28eb63e1637c3549722634d5830cfc3d31bd83138894567324e",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC County Council Local Committee for Copeland",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1798cc3d9ac413bf8ef806f363f5190b7f1127b3237270dd2eccf886a79b11af",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC County Council Local Committee for Copeland",
+      "locator": "committee 429",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

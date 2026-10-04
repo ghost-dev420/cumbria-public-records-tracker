@@ -1,0 +1,22 @@
+{
+  "entity_id": "36f3a6f9cff46ca67f331b10dd69127ea3ba5c24199b4094230ef16540ad499c",
+  "entity_type": "SUPPLIER",
+  "name": "Inspectas Compliance Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "81c8fbc450061fafe23f57b28e75a7567e12c597a6461a8e44ceff2822b5027e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-10228dbf-bdc4-43a0-a743-bcdb5782d2fe-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Asbestos Management Services",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/bd796819-4e31-46b0-8371-9dfac3fc94e0-875488.json",
+      "published_at": "2025-12-11T08:33:53Z",
+      "retrieved_at": "2026-10-03 22:59:38.255580",
+      "sha256": "adeaf5125d0bd39936faa4ed4f1ee6e16b9aa4b4d10f66b9d39fd2f1ed6a28f2",
+      "related_entity": "ocds-b5fd17-10228dbf-bdc4-43a0-a743-bcdb5782d2fe:ocds-b5fd17-10228dbf-bdc4-43a0-a743-bcdb5782d2fe-1"
+    }
+  ]
+}

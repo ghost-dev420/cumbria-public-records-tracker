@@ -1,0 +1,22 @@
+{
+  "entity_id": "2eb797b2b960dd0deefa384f109863505a249474d0dda53965cc43f59627a645",
+  "entity_type": "SUPPLIER",
+  "name": "SQW Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f117735d9d0b15b2bb9adafd06348b16ba4d76198f5a2731599bba024c32f852",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "5000.00",
+      "locator": "XLSX Report!row 318",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

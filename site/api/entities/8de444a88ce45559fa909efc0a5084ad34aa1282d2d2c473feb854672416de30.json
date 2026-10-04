@@ -1,0 +1,22 @@
+{
+  "entity_id": "8de444a88ce45559fa909efc0a5084ad34aa1282d2d2c473feb854672416de30",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Sea Fisheries Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3aa35706580c7d3c6f9eb39a003af902e0a4ebc67360a6c97155f470bb4f8041",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Sea Fisheries Committee",
+      "locator": "committee 444",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

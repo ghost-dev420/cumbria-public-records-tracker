@@ -1,0 +1,22 @@
+{
+  "entity_id": "f1db494e1840ef0957bf2022b1ea6cf2c90a4dc5f8ac9bb12b76c5d8aca28bbe",
+  "entity_type": "SUPPLIER",
+  "name": "BSI GROUP",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "023ddddc9c08281267e87ae15eb585d7e459c4fb090b3bee3092d6e6a6b239e2",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "836.00",
+      "locator": "XLSX Sheet1!row 245",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

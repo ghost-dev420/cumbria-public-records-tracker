@@ -1,0 +1,22 @@
+{
+  "entity_id": "726ad762965654d0751b716038db724b7927b7f6750a1947e86aa8d7ccfc83bb",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Economy and Planning Portfolio Holder",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fd321227909bd8b2ccc502b2ee30ae3c02a42c70bdd1bb275fffc8ae57474a6a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Economy and Planning Portfolio Holder",
+      "locator": "committee 748",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

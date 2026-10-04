@@ -1,0 +1,22 @@
+{
+  "entity_id": "930cebc2b38007b9c643065afd05000148bea9a5a9d89d94db26ce6b2701722c",
+  "entity_type": "SUPPLIER",
+  "name": "GRANICUS-FIRMSTEP Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "aec6673d26beba4aad0d356dbc730d9c939798394d941ad4d1c01b7812d654d3",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-1f1a046e-0402-4865-9efe-7554d30d8fe7-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "GovDelivery Renewal",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0d65f0db-4cfa-4a6d-b6d1-ac00f73c64a7-880019.json",
+      "published_at": "2026-01-21T11:03:27Z",
+      "retrieved_at": "2026-10-03 23:05:56.350147",
+      "sha256": "6b94f0242188903aceba56dfc54317956cd84ab86749753d29011a750d49de85",
+      "related_entity": "ocds-b5fd17-1f1a046e-0402-4865-9efe-7554d30d8fe7:ocds-b5fd17-1f1a046e-0402-4865-9efe-7554d30d8fe7-1"
+    }
+  ]
+}

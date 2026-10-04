@@ -1,0 +1,22 @@
+{
+  "entity_id": "ed6a50b634fe2d58a162b43bb6407afa3ff6bd5199c97a8af8ad870e467f00bc",
+  "entity_type": "COMMITTEE",
+  "name": "CBC Strategic Housing Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a638a3c91a6265f17c9c62df65b8b6fea4f2ddc86a9fcb4bded2d5952fbd1ce4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CBC Strategic Housing Panel",
+      "locator": "committee 427",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

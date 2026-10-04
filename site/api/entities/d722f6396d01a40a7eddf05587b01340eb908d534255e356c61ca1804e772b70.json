@@ -1,0 +1,22 @@
+{
+  "entity_id": "d722f6396d01a40a7eddf05587b01340eb908d534255e356c61ca1804e772b70",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC County Council Local Committee for Eden",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "002281332d712e63e8ae704ede7af6e4238fff9809459f269798560473ab7c48",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC County Council Local Committee for Eden",
+      "locator": "committee 430",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

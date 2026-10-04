@@ -1,0 +1,78 @@
+{
+  "entity_id": "942ae2352738c15c05ff9386cafe67154a382af4c97e02b058555e31453c98de",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-019-797",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "b9e64c90d91c09f4752fb20fc4844bad0d223bbfcc4ded50e60d92db86d404a1",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-019-797",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 797)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-019-797",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:53.398126",
+      "sha256": "5c550ac6f48d9b1f622923ac74670de2f6038272556fd59dc5dc2018332f6d9f",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "ec246335fe726c4b4c2e9a14020aaf11cbbe14fbef47a232504b174c05f0778c",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Children's care services",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 797)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-019-797",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:53.398126",
+      "sha256": "5c550ac6f48d9b1f622923ac74670de2f6038272556fd59dc5dc2018332f6d9f",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "bf5027a77daf108412d08ec2655fe93482e825ffb4c3c0b1f60e908904a37dee",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 797)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-019-797",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:53.398126",
+      "sha256": "5c550ac6f48d9b1f622923ac74670de2f6038272556fd59dc5dc2018332f6d9f",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "921009755ef1684cbfdc40c32d921aff558c8a8852b1004b25233b1e119b376e",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "06 Nov 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 797)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-019-797",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:53.398126",
+      "sha256": "5c550ac6f48d9b1f622923ac74670de2f6038272556fd59dc5dc2018332f6d9f",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "0225ebdb54a546cb7a065242f66f616577d30fefc2a9b17556e3e85ddc43a84a",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Ms X complained how the Council’s Local Authority Designated Officer handled a safeguarding referral made about her. She also complained about the Council’s handling of her complaint. We find the Council at fault for not correctly following the Local Authority Designated Officer process and not communicating in an open and transparent way with Ms X during the investigation process. This caused Ms X uncertainty and distress. The Council has agreed to apologise to Ms X, make service improvements, and give Ms X an opportunity to respond to the allegations.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 797)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-019-797",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:53.398126",
+      "sha256": "5c550ac6f48d9b1f622923ac74670de2f6038272556fd59dc5dc2018332f6d9f",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

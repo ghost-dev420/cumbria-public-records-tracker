@@ -1,0 +1,22 @@
+{
+  "entity_id": "3c904aa8f26893619f6b3063d846f74b9ba7be28bfbfbc538f4fce4967c233c1",
+  "entity_type": "ORGANISATION",
+  "name": "Carlisle City Council",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "90679b0d56ea26fba388705470f4a4facc1ce28db0e857d832d47662bcdfe821",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-98d2bdb2-8b15-4a37-8199-0b2a8bbd6008-1 buyer",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Condition Assessment of Cumberland Highways Network",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/054ecfab-837c-484b-a78d-e5d593df6d5b-878239.json",
+      "published_at": "2026-01-08T15:01:47Z",
+      "retrieved_at": "2026-10-03 23:02:28.688740",
+      "sha256": "74bb17dec42d5f0d9b672d550b742cb2cc7ccaefd8d944b671f516d9529beb68",
+      "related_entity": "ocds-b5fd17-98d2bdb2-8b15-4a37-8199-0b2a8bbd6008:ocds-b5fd17-98d2bdb2-8b15-4a37-8199-0b2a8bbd6008-1"
+    }
+  ]
+}

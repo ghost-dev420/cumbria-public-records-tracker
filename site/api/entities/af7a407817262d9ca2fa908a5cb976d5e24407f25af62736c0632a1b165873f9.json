@@ -1,0 +1,78 @@
+{
+  "entity_id": "af7a407817262d9ca2fa908a5cb976d5e24407f25af62736c0632a1b165873f9",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-022-600",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "6bbd679a5e6a27845d02aef39eb78889fe5fc0c859814ff28a7bd938d89bdfc6",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-022-600",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 022 600)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/planning-applications/24-022-600",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:41.839519",
+      "sha256": "3df0c95c6bb393de21e4c89ade39a343f1bc8ec6e983e59d396252b300ce487d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "71cc73f3d9312a06609c25ed0ee3e5f0d5cc24013f6ba550e24a1ecb23d1b2be",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Planning",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 022 600)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/planning-applications/24-022-600",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:41.839519",
+      "sha256": "3df0c95c6bb393de21e4c89ade39a343f1bc8ec6e983e59d396252b300ce487d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "becb454db6541356ebc824cee26957bc2a5448a6f93f769cccf2b610556ec720",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 022 600)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/planning-applications/24-022-600",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:41.839519",
+      "sha256": "3df0c95c6bb393de21e4c89ade39a343f1bc8ec6e983e59d396252b300ce487d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ae823ae86457baec3b691609d85a5db85955b7eef1da70d612cec52aab0d3e28",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "08 Jun 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 022 600)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/planning-applications/24-022-600",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:41.839519",
+      "sha256": "3df0c95c6bb393de21e4c89ade39a343f1bc8ec6e983e59d396252b300ce487d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d6648999a7afb6a3451ac4df56c4506b60fc04ad3e6b627ec563982a0d69d224",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s decision to restrict its contact with a third party in line with its unreasonable customer policy. No restrictions have been placed on the complainant therefore the Council’s actions have not caused the complainant significant injustice.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 022 600)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/planning-applications/24-022-600",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:41.839519",
+      "sha256": "3df0c95c6bb393de21e4c89ade39a343f1bc8ec6e983e59d396252b300ce487d",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

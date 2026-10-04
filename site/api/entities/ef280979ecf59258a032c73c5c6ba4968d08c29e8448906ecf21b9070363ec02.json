@@ -1,0 +1,22 @@
+{
+  "entity_id": "ef280979ecf59258a032c73c5c6ba4968d08c29e8448906ecf21b9070363ec02",
+  "entity_type": "SUPPLIER",
+  "name": "THE ACTIVE BYSTANDER TRAINING COMPANY LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4d7f290181373a4aa2da5482029f74b1ce5cb5f122912707dc452d03d12561a1",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1200.00",
+      "locator": "XLSX Sheet1!row 234",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

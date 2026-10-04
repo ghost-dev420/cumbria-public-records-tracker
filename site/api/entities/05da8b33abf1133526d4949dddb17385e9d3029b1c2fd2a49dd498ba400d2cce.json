@@ -1,0 +1,22 @@
+{
+  "entity_id": "05da8b33abf1133526d4949dddb17385e9d3029b1c2fd2a49dd498ba400d2cce",
+  "entity_type": "SUPPLIER",
+  "name": "JACOBS",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9b5bca1827bd35197dee08affd4d9e6ee53856fcf9e3b0a062530822ed5a4ce6",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "75.00",
+      "locator": "XLSX Sheet1!row 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

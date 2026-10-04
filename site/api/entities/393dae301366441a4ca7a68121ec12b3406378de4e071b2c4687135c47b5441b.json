@@ -1,0 +1,36 @@
+{
+  "entity_id": "393dae301366441a4ca7a68121ec12b3406378de4e071b2c4687135c47b5441b",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2025 to 2026: Ford Park, Ulverston [2ad797e04bd804a54513]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "4d5544090d59b91daa7c8d91941022029b25eeda6c5a1561cf3625373f411510",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "d4a6b57063012fad562de5128ec0b064d81cc09d146758a1528fc7b81f3e6202",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Ford Park, Ulverston"
+    }
+  ]
+}

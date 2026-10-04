@@ -1,0 +1,22 @@
+{
+  "entity_id": "d83158390c53512b0dac8138f7838da3415e3af9394c11f78b95ca51e266a3c0",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Chief Officers' Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7ef59379b64512fd28bdd5fd22db6f77829bdbef70b1378f322d2db33984051e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Chief Officers' Panel",
+      "locator": "committee 488",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

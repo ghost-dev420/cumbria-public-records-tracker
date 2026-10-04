@@ -1,0 +1,22 @@
+{
+  "entity_id": "8a0460a505fb4614814dc422e4e201241fbbe2d127690b8664eff0c4c3d382ac",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Former Garlands Hospital Site Development Brief Workshop",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c16f3a5c6a078a2c6f5aa41d31dd4c20ef44b799f08a41b1e3e26eca4cc6156d",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Former Garlands Hospital Site Development Brief Workshop",
+      "locator": "committee 496",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "4486c292aef8db664d6dc9518bc7bc4ef721194d2e6563e964b113ad6f8f25ca",
+  "entity_type": "SUPPLIER",
+  "name": "PBA Applied Ecology Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fa66d11f3e2392acf0ae615b7660b39b04e10066bd21f1d5a2cdbcde47eab304",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3640.00",
+      "locator": "XLSX Sheet1!row 505",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "d6054449d2fb0327df88caca0f1a6966bf79ecd246b6c3719710a71de721e269",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Support Team Meeting",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "013c23bb21513d2419ba46626dc43de4b501540d0748e37f83cc01af4a4ff939",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Support Team Meeting",
+      "locator": "committee 859",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

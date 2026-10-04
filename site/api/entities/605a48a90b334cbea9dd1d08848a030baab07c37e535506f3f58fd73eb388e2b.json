@@ -1,0 +1,36 @@
+{
+  "entity_id": "605a48a90b334cbea9dd1d08848a030baab07c37e535506f3f58fd73eb388e2b",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Witherslack Community Shop [8e6cdaabeab43c89166d]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "e4e561781342fb6e7ae094883e61116d97998e0ed606c9fb5ad6f9a5db4b3cbb",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "aea9969a1e1c059f5ce006c3818e5f9ff19d4d0ee83d66c7e483a8710dd934ed",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Witherslack Community Shop"
+    }
+  ]
+}

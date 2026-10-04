@@ -1,0 +1,78 @@
+{
+  "entity_id": "bdd3a568b8f2da8a72f7acaaaddbbc9d96637b789708aaa65bb0ab1643359baa",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-025-222",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "8ec7bab81315b01c5e94746a3456cffde72adad8b2ab3a223daab2a076f422ab",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-025-222",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 025 222)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/planning-applications/25-025-222",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:10.802531",
+      "sha256": "b5f35907b86fc4e084b18d528b0caaba23e766468cd77dd9f118628727a52d6c",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "71331d2810a63ba760714f285d552e4b5c7c34c233ff264ac5b71d10d3243b68",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Planning",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 025 222)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/planning-applications/25-025-222",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:10.802531",
+      "sha256": "b5f35907b86fc4e084b18d528b0caaba23e766468cd77dd9f118628727a52d6c",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "e1dfde1a73de3e027b1a6a7daa5145ceb9fc00737afa128143d9a0abed752043",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 025 222)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/planning-applications/25-025-222",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:10.802531",
+      "sha256": "b5f35907b86fc4e084b18d528b0caaba23e766468cd77dd9f118628727a52d6c",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "614d44b016bac3f1a78cc6bb7c9545474454df13256e80fbb92560ecd5dae3dc",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "02 Aug 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 025 222)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/planning-applications/25-025-222",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:10.802531",
+      "sha256": "b5f35907b86fc4e084b18d528b0caaba23e766468cd77dd9f118628727a52d6c",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "c8eaa1dedef896f616b1da02d45ca6477e67d7422f0d6fe2814200d27e38bbca",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about the way the Council considered his neighbour’s planning application. We have not seen enough evidence of fault in the Council’s actions to justify an investigation.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 025 222)",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/planning-applications/25-025-222",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:10.802531",
+      "sha256": "b5f35907b86fc4e084b18d528b0caaba23e766468cd77dd9f118628727a52d6c",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

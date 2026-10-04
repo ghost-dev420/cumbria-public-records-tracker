@@ -1,0 +1,22 @@
+{
+  "entity_id": "03c8675cd1d65f6d8047a776bbd4590f3e616e1989010991a2ef74917a3cf391",
+  "entity_type": "SUPPLIER",
+  "name": "Truststream Security Solutions LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "10a5a02d4086a9e2492232de36babbefaa7022c28b203e21d3968e86c497ac0d",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "18080.72",
+      "locator": "XLSX Sheet1!row 573",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

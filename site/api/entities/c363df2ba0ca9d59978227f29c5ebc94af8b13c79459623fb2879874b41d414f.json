@@ -1,0 +1,22 @@
+{
+  "entity_id": "c363df2ba0ca9d59978227f29c5ebc94af8b13c79459623fb2879874b41d414f",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Complaints Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "28ed6679aff300a5c55ef9ad34fca1a91242e23e2f64277f0df43a2a972b92dc",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Complaints Panel",
+      "locator": "committee 747",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

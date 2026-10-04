@@ -1,0 +1,22 @@
+{
+  "entity_id": "5f85e9b6707192066151e9d54a5378d6f6d2092e183a6206074994c15806266a",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Licensing Hearing (Panel 3)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f94f93df7dee7b987d05be1dfd62e0ac945e8534528e5ef7d7ff9730ec2de5de",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Licensing Hearing (Panel 3)",
+      "locator": "committee 374",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

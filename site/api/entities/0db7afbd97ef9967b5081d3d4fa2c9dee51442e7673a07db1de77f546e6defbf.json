@@ -1,0 +1,36 @@
+{
+  "entity_id": "0db7afbd97ef9967b5081d3d4fa2c9dee51442e7673a07db1de77f546e6defbf",
+  "entity_type": "SUPPLIER",
+  "name": "CRANFIELD UNIVERSITY",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "483db9bbd6f3bf13f84538b9e2a4c11fbe67338f06b2fa9ebff43902bff5778c",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "200.00",
+      "locator": "XLSX Report!row 8",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c6121c0bca077371beb51e4e16a1c0fc3f4587a0ca05b1779648873c57dfe603",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "330.00",
+      "locator": "XLSX Report!row 9",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

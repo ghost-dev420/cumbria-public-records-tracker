@@ -1,0 +1,22 @@
+{
+  "entity_id": "57af68bf0cade02775d5e548b710fb4d3efcac86d85735d20df9a56a6c10d977",
+  "entity_type": "SUPPLIER",
+  "name": "ALLHALLOWS P.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "484f6c4630182c4c4868e452006130d6800a00e7432bd9d845e24a08c05cff7c",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "4950.00",
+      "locator": "XLSX Sheet1!row 519",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

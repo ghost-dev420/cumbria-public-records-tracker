@@ -1,0 +1,22 @@
+{
+  "entity_id": "a14029133b8c0e30058692c7a34210f5f0784ab5236657b5f8561941c50ad6f5",
+  "entity_type": "SUPPLIER",
+  "name": "ACT NOW TRAINING LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "daea9298b5b508ffc8becdce39a5c697d71e5f6f5ce69bc448c0ff0f4bb96ae0",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "399.00",
+      "locator": "XLSX Sheet1!row 23",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

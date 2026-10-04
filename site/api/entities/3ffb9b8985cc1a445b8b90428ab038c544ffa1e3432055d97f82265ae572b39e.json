@@ -1,0 +1,22 @@
+{
+  "entity_id": "3ffb9b8985cc1a445b8b90428ab038c544ffa1e3432055d97f82265ae572b39e",
+  "entity_type": "SUPPLIER",
+  "name": "CUMBRIA CONSTABULARY",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b96d0403c17111a5bc99443d70d6ca5aeadb01a8764b67e6b5f86d326892b5db",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "6686.00",
+      "locator": "XLSX Report!row 627",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

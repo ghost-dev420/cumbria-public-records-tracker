@@ -1,0 +1,22 @@
+{
+  "entity_id": "43b659ac9e345f43cb93fde29388dbb3c6108917095690d47cabc33e8ba385aa",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Licensing Sub-Committee 1",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a4d0f396a6208370242de8ba7bac678f3a434aff1332827eb3efa116b38a4bf9",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Licensing Sub-Committee 1",
+      "locator": "committee 524",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

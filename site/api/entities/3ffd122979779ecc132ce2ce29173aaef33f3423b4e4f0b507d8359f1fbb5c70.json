@@ -1,0 +1,22 @@
+{
+  "entity_id": "3ffd122979779ecc132ce2ce29173aaef33f3423b4e4f0b507d8359f1fbb5c70",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Copeland Area Transport Advisory Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e1ffd56b187a2d85a45b8a712f560175be875c34527aeef7976d8f49727782d1",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Copeland Area Transport Advisory Group",
+      "locator": "committee 495",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

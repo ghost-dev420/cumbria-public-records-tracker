@@ -1,0 +1,22 @@
+{
+  "entity_id": "672ebc26fac3faf061b127131bd4e37dbdb36bb5c2d697aa493dd86b5626d7d0",
+  "entity_type": "SUPPLIER",
+  "name": "BT Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "390ebed3ff2b8166925b88fb5b342dcb11f4f1421a20c22228361bb4ddf518be",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-fa984b30-e12f-4340-99dd-574158737fc7-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Supply of Samsung A17 Smartphones, Plugs and Cases (x300)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/71cda36a-41a7-46c1-975d-242acb931bde-879998.json",
+      "published_at": "2026-01-21T10:13:37Z",
+      "retrieved_at": "2026-10-03 23:05:58.597689",
+      "sha256": "fcc5723e78f5530ea46f05e23e57aa726b753cf26135e672dafba17ed8fc6a76",
+      "related_entity": "ocds-b5fd17-fa984b30-e12f-4340-99dd-574158737fc7:ocds-b5fd17-fa984b30-e12f-4340-99dd-574158737fc7-1"
+    }
+  ]
+}

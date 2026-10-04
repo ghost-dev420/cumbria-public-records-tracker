@@ -1,0 +1,22 @@
+{
+  "entity_id": "232a5c21a88dcd50bf802427b7083797218ad8d489d9bff90e68d2ff9563a17a",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Eden and Carlisle Joint Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9e9e7b2a681c40a31fdcb0d276367e612e4b90abecfd3c98ea36d7387fc82dab",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Eden and Carlisle Joint Committee",
+      "locator": "committee 750",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

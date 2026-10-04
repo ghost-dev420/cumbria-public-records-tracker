@@ -1,0 +1,22 @@
+{
+  "entity_id": "6e25148fc381e7e051d0006335e0a7417dda8dbf4990eb89cdeb550cf810e654",
+  "entity_type": "COMMITTEE",
+  "name": "Whitehaven and Coastal Community Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ddf4b54373709f4f74490843282f55579578d40f3e5dc7ae55fc16c24d3cd035",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Whitehaven and Coastal Community Panel",
+      "locator": "committee 188",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

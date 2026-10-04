@@ -1,0 +1,22 @@
+{
+  "entity_id": "3dcd20c41224b28763027f815ed62ff206c9fa8148d1b51025ee749702a57434",
+  "entity_type": "SUPPLIER",
+  "name": "NEW MIND INTERNET CONSULTANCY LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c43a7f231051326393e2eeb11f5c59078e4d1569fe1d8063bcdbb69b2dbe3554",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1821.66",
+      "locator": "XLSX Sheet1!row 471",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

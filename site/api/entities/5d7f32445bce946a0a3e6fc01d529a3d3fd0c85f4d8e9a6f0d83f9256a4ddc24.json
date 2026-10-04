@@ -1,0 +1,50 @@
+{
+  "entity_id": "5d7f32445bce946a0a3e6fc01d529a3d3fd0c85f4d8e9a6f0d83f9256a4ddc24",
+  "entity_type": "WARD",
+  "name": "Grange and Cartmel",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "077ebc2cfbbc66d8c982ce4040f880b36bd654d0e5a9af1b40ab31646cd5d001",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Grange and Cartmel",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Andy Hull"
+    },
+    {
+      "fact_id": "362bbd0593902f4dd9b8e23ad19166bd9e51f9c74675a1fdfdb70afc91ff7d84",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Grange and Cartmel",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Jenny Boak"
+    },
+    {
+      "fact_id": "a3ff3be8c610b21b956ab618e1deb3ad35fe55306132db47c79cda85f09bf368",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Grange and Cartmel",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Tim Bloomer"
+    }
+  ]
+}

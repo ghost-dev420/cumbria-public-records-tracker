@@ -1,0 +1,22 @@
+{
+  "entity_id": "36f2e5a8169d98ccf6c191868a3c7bbf44dbd0070b6acc03a71628d0ec5fd941",
+  "entity_type": "COMMITTEE",
+  "name": "Regulatory Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9491c6483a66a38e9aa17a5cb8d934f0002d4d55057406b8da5f071238b8874b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Regulatory Committee",
+      "locator": "committee 267",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

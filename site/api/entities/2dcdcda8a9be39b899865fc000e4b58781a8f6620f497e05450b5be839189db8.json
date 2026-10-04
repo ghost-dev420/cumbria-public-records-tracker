@@ -1,0 +1,22 @@
+{
+  "entity_id": "2dcdcda8a9be39b899865fc000e4b58781a8f6620f497e05450b5be839189db8",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Housing and Community Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "98f825b55824017d2c25ee2850a8316854c758db0970ed6ebbba6d3a160de11b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Housing and Community Scrutiny Committee",
+      "locator": "committee 760",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "28550ce040a3af28e8df2dbdca4d1994f38cdfcda6e7fa5d4d3c4195388612fb",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Social Services Operations Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5eb68901b26cb71f41b6969d058ef5672cb16f4b89606219d8cd0dfa2c8cabb5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Social Services Operations Sub-Committee",
+      "locator": "committee 618",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

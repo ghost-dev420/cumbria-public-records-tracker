@@ -1,0 +1,22 @@
+{
+  "entity_id": "ec7dc96404275b3920e7951b51e097506fc6e9289cb10904e686affc4980da5d",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Education Operations and Monitoring Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "959c0c8a2325da0be28881c4a1c3014ddd6504bb27fb8ddb8b31f9a18ba1620b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Education Operations and Monitoring Sub-Committee",
+      "locator": "committee 760",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

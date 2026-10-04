@@ -1,0 +1,22 @@
+{
+  "entity_id": "05e24056bdc00c3f587313d1975a5834be5b8aff785f40c452b6900dfad6db4e",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Scrutiny Panel B - Economy and Culture",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "783ceb4f12fe2f276fe09f03bcd1c49006772410ff69671bde728207413560be",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Scrutiny Panel B - Economy and Culture",
+      "locator": "committee 593",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

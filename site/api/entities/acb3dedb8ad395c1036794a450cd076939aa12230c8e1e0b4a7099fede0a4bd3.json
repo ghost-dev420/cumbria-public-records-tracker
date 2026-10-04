@@ -1,0 +1,36 @@
+{
+  "entity_id": "acb3dedb8ad395c1036794a450cd076939aa12230c8e1e0b4a7099fede0a4bd3",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Arnside Tennis Courts [7b54cc2918ddf44c5a91]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "56dc3f12914696faae1fbac20a78ee4f8ef945951643cb242bcaee65cc2f2687",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1700",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 21",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "cb88411e6dd742075eafb8a2d99bb4c38fd9d802bfaafb043b8922cfe3f2d790",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1700",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 21",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Arnside Tennis Courts"
+    }
+  ]
+}

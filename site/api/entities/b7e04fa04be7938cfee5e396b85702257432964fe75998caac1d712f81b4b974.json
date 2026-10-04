@@ -1,0 +1,22 @@
+{
+  "entity_id": "b7e04fa04be7938cfee5e396b85702257432964fe75998caac1d712f81b4b974",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Grounds Maintenance Task and Finish Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7cccece812409cf29870e03e69f3d8e4f8b8cecff857a430ea2f612f327a5405",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Grounds Maintenance Task and Finish Group",
+      "locator": "committee 500",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

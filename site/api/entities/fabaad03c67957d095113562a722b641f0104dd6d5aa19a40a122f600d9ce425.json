@@ -1,0 +1,22 @@
+{
+  "entity_id": "fabaad03c67957d095113562a722b641f0104dd6d5aa19a40a122f600d9ce425",
+  "entity_type": "SUPPLIER",
+  "name": "Clint Stamper Training LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "691af36f114dc5bdd79613682f3b2067058eb5272df80f670f186d656eb311da",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-68107254-bc56-4c79-88fc-f6c220a3b13e-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Wave 7 Skills boot camp Lot 4: Construction, Green Skills and the Built Environment/ Level 3 Green Skills - Solar PV and Electrical Energy Storage Systems (EESS).",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/02707a7f-c583-4828-9af1-e3c6777cd750-890624.json",
+      "published_at": "2026-03-30T13:41:54+01:00",
+      "retrieved_at": "2026-10-03 23:15:12.929510",
+      "sha256": "e8ac43e2042dc62929b1c29349af00c873da49fe50081ce7e418b6686ea7cc34",
+      "related_entity": "ocds-b5fd17-68107254-bc56-4c79-88fc-f6c220a3b13e:ocds-b5fd17-68107254-bc56-4c79-88fc-f6c220a3b13e-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "896c190325c3c69195c62f2121c8142a26cdb25aed598c8438378435bc157b43",
+  "entity_type": "SUPPLIER",
+  "name": "Denis Murphy Taxis",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "09c253568da961cea9e8190577c18964a0f404711e0c3ea64a7f357cfc60bdd9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-06a81394-f436-4375-9d9c-e22fc6705e0e-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 18 September 2023 (F53-3)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c93cd67f-2e8b-4c93-bc3c-29c86d924df5-892676.json",
+      "published_at": "2026-04-13T16:12:04+01:00",
+      "retrieved_at": "2026-10-03 23:21:17.750589",
+      "sha256": "7ab1233efdb2a349df0f925ef637cf098e981a2ce487ff3a8fb33471e16f40ab",
+      "related_entity": "ocds-b5fd17-06a81394-f436-4375-9d9c-e22fc6705e0e:ocds-b5fd17-06a81394-f436-4375-9d9c-e22fc6705e0e-1"
+    }
+  ]
+}

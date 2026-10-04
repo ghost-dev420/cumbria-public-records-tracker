@@ -1,0 +1,22 @@
+{
+  "entity_id": "3a2439ec3e348fbb8fb20bc37ebdde3ed388d2da1bf6e878450c6b4f43c7efea",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Allerdale and Copeland Joint ATAG",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ee34e304fad0a9477469ffb7dd9543421c21913111f7ed643713a05a407ca3f4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Allerdale and Copeland Joint ATAG",
+      "locator": "committee 693",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

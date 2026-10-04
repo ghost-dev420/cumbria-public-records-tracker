@@ -1,0 +1,22 @@
+{
+  "entity_id": "3c0b680da4e968f1ac5558e13f778d9c1027a2d171eb73a35d2486f36ed8d690",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Emergency Planning Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "107033fe19e2bb7cb5f3d5865dba0dbc340aa93d63719c8dbb4fe0f3014d17a6",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Emergency Planning Panel",
+      "locator": "committee 763",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

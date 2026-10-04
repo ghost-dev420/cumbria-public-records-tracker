@@ -1,0 +1,22 @@
+{
+  "entity_id": "9585add7890ba666cd4855d501068531a460a08ccad3232ad1bcf2239fa79359",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Housing and Planning Portfolio Holder",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cbb6344e8fc84e110519c1b47cf2b9954664208e994441b151906a3ab924bbfb",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Housing and Planning Portfolio Holder",
+      "locator": "committee 761",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

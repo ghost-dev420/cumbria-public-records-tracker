@@ -1,0 +1,22 @@
+{
+  "entity_id": "d779899dcc3638312986cb4b6e445647b134b98124bb9945cb9d476f4ece49a1",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Local Asset Vehicle Workshop",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "41b5a17c583a9faf093ed1f771e0f52d22d4ecb2d851cd80359ec24d11ea04e3",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Local Asset Vehicle Workshop",
+      "locator": "committee 528",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

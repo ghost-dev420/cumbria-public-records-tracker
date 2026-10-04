@@ -1,0 +1,22 @@
+{
+  "entity_id": "729252c11a862feff86c51cb55ac7ac50ca860ef377c55eb32aae648ecebfcf2",
+  "entity_type": "ORGANISATION",
+  "name": "Lindale and Newton-in-Cartmel Parish Council",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5b34b56958760f266c939c68d0ebb9fe70a23aa9f4522ec86ead05fcb0a7a347",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "967",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 10",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Lindale and Newton-in-Cartmel Parish Council [28ec066fb7bd90ebc6a6]"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "88bfd60cb3dbc6d6e32959b7e6b904cd9cef79072d3c1250b54d88e3f1bd0441",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Corporate Planning Cabinet Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "82f2cf5ece0364b7e305636f7e60fb6222ac5694c8bdb26452349513bfb7f793",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Corporate Planning Cabinet Working Group",
+      "locator": "committee 731",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

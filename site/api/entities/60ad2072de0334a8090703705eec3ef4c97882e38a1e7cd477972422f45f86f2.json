@@ -1,0 +1,22 @@
+{
+  "entity_id": "60ad2072de0334a8090703705eec3ef4c97882e38a1e7cd477972422f45f86f2",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Disabled Facilities Grants Task and Finish Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1ad956ddaff6313953838d8fbb71f598cee34423012c62348c370d49a3985b82",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Disabled Facilities Grants Task and Finish Group",
+      "locator": "committee 486",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

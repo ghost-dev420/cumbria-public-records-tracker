@@ -1,0 +1,78 @@
+{
+  "entity_id": "38cc637ea4ab75a3e3db1b3c876f2d396a23e7ca4aa89556436bcf7a6944a570",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-015-094",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "08b0c0121d0e6bbbb5d991852f76958e775d43e6dfd7ecebc9fa047396659076",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-015-094",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 015 094)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/alternative-provision/24-015-094",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:17.978410",
+      "sha256": "41fdcdaad34f58542e417245f36bdb7984972d7b40ee8c0953c410f21cf74903",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "51ba43b3f16444619e7739f3de659e123d12c49029c85fb7d0721343fd850cf2",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Education",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 015 094)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/alternative-provision/24-015-094",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:17.978410",
+      "sha256": "41fdcdaad34f58542e417245f36bdb7984972d7b40ee8c0953c410f21cf74903",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "aaa7285c4cfe5150e4a9209d9ed43d39de27953dd60d171df2135af04ee57c09",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 015 094)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/alternative-provision/24-015-094",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:17.978410",
+      "sha256": "41fdcdaad34f58542e417245f36bdb7984972d7b40ee8c0953c410f21cf74903",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "f33cad02ee10df50df18ade82630813fc903729525ab47a8575d8e1bc5ca31c0",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "03 Jun 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 015 094)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/alternative-provision/24-015-094",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:17.978410",
+      "sha256": "41fdcdaad34f58542e417245f36bdb7984972d7b40ee8c0953c410f21cf74903",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "dd877583db98ba49837f0e4478d753de302bf9d3ba7359eb5a298b473141269a",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Mr X complained about the Council’s failure to act on his request for a reassessment of his daughter’s Education, Health and Care Plan, failure to provide alternative provision, and delay paying for a Speech and Language Therapy report. We find the Council at fault causing avoidable distress, uncertainty, and denied and delayed appeal rights. The Council has agreed to apologise, make a payment to Mr X, and make service improvements.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 015 094)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/alternative-provision/24-015-094",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:17.978410",
+      "sha256": "41fdcdaad34f58542e417245f36bdb7984972d7b40ee8c0953c410f21cf74903",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "bfdf9611b81c89d3174a68c906a505302794a7bca5889b60be72f4bacae7a6eb",
+  "entity_type": "COMMITTEE",
+  "name": "Police, Fire and Crime Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1bc6180c8ce0453da54c0149ac8d2c4f3015b77c599788c305e18c1ef610ea59",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Police, Fire and Crime Panel",
+      "locator": "committee 330",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

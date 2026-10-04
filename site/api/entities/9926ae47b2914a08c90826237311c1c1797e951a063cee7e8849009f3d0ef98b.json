@@ -1,0 +1,36 @@
+{
+  "entity_id": "9926ae47b2914a08c90826237311c1c1797e951a063cee7e8849009f3d0ef98b",
+  "entity_type": "SUPPLIER",
+  "name": "Irvings taxi hire",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "57abd38fe71b4a2f1127f322d9e2c13b3716e0bcd6428e015833e3afac75b47d",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-06a81394-f436-4375-9d9c-e22fc6705e0e-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 18 September 2023 (F53-3)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c93cd67f-2e8b-4c93-bc3c-29c86d924df5-892676.json",
+      "published_at": "2026-04-13T16:12:04+01:00",
+      "retrieved_at": "2026-10-03 23:21:17.750589",
+      "sha256": "7ab1233efdb2a349df0f925ef637cf098e981a2ce487ff3a8fb33471e16f40ab",
+      "related_entity": "ocds-b5fd17-06a81394-f436-4375-9d9c-e22fc6705e0e:ocds-b5fd17-06a81394-f436-4375-9d9c-e22fc6705e0e-1"
+    },
+    {
+      "fact_id": "f737560efc3ea3847dcab473273de53a9a463c0812c895f7162e45011e4974e4",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-488e4634-6001-47d5-9745-519421e758ab-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a Up to 8 Passenger seats Closing 7 October (PRU F14)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/38e67d01-48e5-4467-bb4e-d2342a0e45f7-868124.json",
+      "published_at": "2025-10-14T14:49:20+01:00",
+      "retrieved_at": "2026-10-03 22:53:57.524339",
+      "sha256": "3245fc1f052a2eeb6d57ff041e2a3476ccc95f8acb3445899157f383e9beac36",
+      "related_entity": "ocds-b5fd17-488e4634-6001-47d5-9745-519421e758ab:ocds-b5fd17-488e4634-6001-47d5-9745-519421e758ab-1"
+    }
+  ]
+}

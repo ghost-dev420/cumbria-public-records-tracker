@@ -1,0 +1,22 @@
+{
+  "entity_id": "5049fcab69ac0ee4564e6e3f316dfaffb3a8fa5893b47ed6b89610f737d628c0",
+  "entity_type": "SUPPLIER",
+  "name": "WESTMINSTER FORUM PROJECTS",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f7c352675bea7c07a144ead572ef9a1a6501b222144bff3420e69b296206c7c3",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "260.00",
+      "locator": "XLSX Report!row 176",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

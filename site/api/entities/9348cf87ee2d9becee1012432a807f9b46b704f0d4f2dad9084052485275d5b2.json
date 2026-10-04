@@ -1,0 +1,22 @@
+{
+  "entity_id": "9348cf87ee2d9becee1012432a807f9b46b704f0d4f2dad9084052485275d5b2",
+  "entity_type": "WARD",
+  "name": "Millom Without",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6020832e3e051047d26a243cff3e881830992aee8d82d54ecb6de1010855019b",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Millom Without",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Andy Pratt"
+    }
+  ]
+}

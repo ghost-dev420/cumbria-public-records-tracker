@@ -1,0 +1,36 @@
+{
+  "entity_id": "2fee33c43e897300abc70296a26e4c7c44db348a8be0dc140d67c243bb12946c",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Grange over Sands Civic Society [5127beef224d241daad1]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "7fecd91b88ac8c61554758428d34426a0327055263701f48fee63ac6979acd2c",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "500",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 11",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "df0621ff5809d65aaf18480e0f1b0c16c50e95fb50f62ec190cc544806d5e494",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "500",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 11",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Grange over Sands Civic Society"
+    }
+  ]
+}

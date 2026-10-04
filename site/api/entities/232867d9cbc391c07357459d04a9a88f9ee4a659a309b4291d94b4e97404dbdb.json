@@ -1,0 +1,50 @@
+{
+  "entity_id": "232867d9cbc391c07357459d04a9a88f9ee4a659a309b4291d94b4e97404dbdb",
+  "entity_type": "SUPPLIER",
+  "name": "THE ROYAL LIVERPOOL & BROADGREEN UNIV HOSPITAL NHS TRUST",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "6487e562d01955100e015bf0224a9f6399e3cf7468eb1cc21100392ebaf42707",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "10500.00",
+      "locator": "XLSX Sheet1!row 34",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f13c76b8a624b19c5373eb7a402e8283ab023eed26cd8b7f33ac50ef61f6167a",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "13718.00",
+      "locator": "XLSX Sheet1!row 33",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "25425bb74c387ca6b6bf7f66fbc67c310285e2b1342f7e6b67b6787b92a10a86",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1305.00",
+      "locator": "XLSX Sheet1!row 21",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

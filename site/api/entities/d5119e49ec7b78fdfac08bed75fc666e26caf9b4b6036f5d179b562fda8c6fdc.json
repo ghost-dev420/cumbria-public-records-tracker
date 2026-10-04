@@ -1,0 +1,78 @@
+{
+  "entity_id": "d5119e49ec7b78fdfac08bed75fc666e26caf9b4b6036f5d179b562fda8c6fdc",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-014-102",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "903e140fa543f4e1557e7add2bd5c52b03d368e27c0907276a46db9ae08dfc6c",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-014-102",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 014 102)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-014-102",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:42.505740",
+      "sha256": "aa27cbc886b38bcd1d0198ebaff742bf049e0884e60a22a0ffe0f281cd997fd1",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "ba1ca10692d0b34cc8f07efecba8ecd49068a46a36219a36dcc2a1e9335985ba",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 014 102)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-014-102",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:42.505740",
+      "sha256": "aa27cbc886b38bcd1d0198ebaff742bf049e0884e60a22a0ffe0f281cd997fd1",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "341788dad4aa8c5ab4672bfcb63916c3d0aab98b1bb8369b33f2fae704d0e76d",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 014 102)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-014-102",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:42.505740",
+      "sha256": "aa27cbc886b38bcd1d0198ebaff742bf049e0884e60a22a0ffe0f281cd997fd1",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "ce9a1834ba07cef7ed88c2e06da487e76dd8c0e416ea10f8432c8b607da107c8",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "19 Jan 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 014 102)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-014-102",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:42.505740",
+      "sha256": "aa27cbc886b38bcd1d0198ebaff742bf049e0884e60a22a0ffe0f281cd997fd1",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "622132c6dc5c68338ddf8f14290555d6f01228dd7dc263e091da680507f6bcb6",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about how the Council dealt with a complaint about an electricity meter. This is because there is not enough of evidence of fault to justify investigating.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 014 102)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-014-102",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:42.505740",
+      "sha256": "aa27cbc886b38bcd1d0198ebaff742bf049e0884e60a22a0ffe0f281cd997fd1",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

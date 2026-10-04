@@ -1,0 +1,36 @@
+{
+  "entity_id": "0b37fa57234240bb4012c9a64c8f12338ec8710d4ae71fe95d85d79f65d2dcb4",
+  "entity_type": "SUPPLIER",
+  "name": "NEWCASTLE CITY COUNCIL",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "1687ee07f9daa8e3a412ee252e9e4a24149894fd5fd45cc15637407ceb6bae46",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "4002.58",
+      "locator": "XLSX Sheet1!row 217",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "18ea6253d771b964f3dbfe2f654736b8248414f00c4efd8a765564ced9da2783",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "644.42",
+      "locator": "XLSX Sheet 1!row 336",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

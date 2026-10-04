@@ -1,0 +1,78 @@
+{
+  "entity_id": "95fe38f3b23c95d409bfb5f17f3c4858395f98f3a08522ef8dcc96fb4ffe3cfb",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-002-957",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "1a2988b39876e569a1864a60e42d77ac733ecca031ff1deabc5ea7e6c7b2b361",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-002-957",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 002 957)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-002-957",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:50.320908",
+      "sha256": "6716eb376379cc43bf75d5f17c452379e403cbba91a4b9b8ec7773f885ba0890",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "c7781f751dedf3cfd389e2fc82126d856fc252d0b0559c278f659898ffb6ebbf",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 002 957)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-002-957",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:50.320908",
+      "sha256": "6716eb376379cc43bf75d5f17c452379e403cbba91a4b9b8ec7773f885ba0890",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "3aae2d28e3cbea8c355287086ed81ff17baafc9423b74a9883d11aefdf6bf1ba",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 002 957)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-002-957",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:50.320908",
+      "sha256": "6716eb376379cc43bf75d5f17c452379e403cbba91a4b9b8ec7773f885ba0890",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "bc715da108f1ed5c115e04723ceb9e56b0084592dc51fbddc2690621691d52f8",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "17 Nov 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 002 957)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-002-957",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:50.320908",
+      "sha256": "6716eb376379cc43bf75d5f17c452379e403cbba91a4b9b8ec7773f885ba0890",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "c8317c26cb9096757946d6904b3c9cbae7f12352a5814c2c588b16f3809634f5",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the quality of care in a care home. Mrs Y has now moved to different accommodation, and investigation would not achieve a different or more meaningful outcome.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 002 957)",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-002-957",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:50.320908",
+      "sha256": "6716eb376379cc43bf75d5f17c452379e403cbba91a4b9b8ec7773f885ba0890",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

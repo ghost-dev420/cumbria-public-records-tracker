@@ -1,0 +1,78 @@
+{
+  "entity_id": "bb24dedf3bc6af13a5e4190f4ab5b1ac89f36813e09d755709cb0dff99885f85",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-024-013",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "0c55fe215ee2a296f53b767076055f27696dfc9b61b24a485a0a961df92faa28",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-024-013",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 024 013)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/commercial-and-contracts/25-024-013",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:02.402846",
+      "sha256": "67d79fd6ce0584f067cec53c44abd1c16b58e1fd6b5fd343351b46107e26108d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "cc15eda98a47e01341dc7ef195f0151a629b6af63d6075d2b0a43822c46d0a57",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Other Categories",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 024 013)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/commercial-and-contracts/25-024-013",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:02.402846",
+      "sha256": "67d79fd6ce0584f067cec53c44abd1c16b58e1fd6b5fd343351b46107e26108d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c78f105bef2d4e849270d72dfd22c6d20d576b6768b17bfbf65e14ae02da6a4c",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 024 013)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/commercial-and-contracts/25-024-013",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:02.402846",
+      "sha256": "67d79fd6ce0584f067cec53c44abd1c16b58e1fd6b5fd343351b46107e26108d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a89f156f76f26f26c83f47a06d2a78de110643c3a4e37278ddf9ffa41812a62e",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "05 Aug 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 024 013)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/commercial-and-contracts/25-024-013",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:02.402846",
+      "sha256": "67d79fd6ce0584f067cec53c44abd1c16b58e1fd6b5fd343351b46107e26108d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "8602f00fcd9f92c8ce0761cce5fb7df897991fd4b93cebfdd71f2e45360c77de",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s handling of a commercial lease for the complainant’s business. This is because the courts are best placed to deal with contractual matters, and it would be reasonable for the complainant to pursue the matter in court.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 024 013)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/commercial-and-contracts/25-024-013",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:02.402846",
+      "sha256": "67d79fd6ce0584f067cec53c44abd1c16b58e1fd6b5fd343351b46107e26108d",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

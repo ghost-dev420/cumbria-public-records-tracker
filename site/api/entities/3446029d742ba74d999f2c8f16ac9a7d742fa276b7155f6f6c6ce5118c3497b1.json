@@ -1,0 +1,22 @@
+{
+  "entity_id": "3446029d742ba74d999f2c8f16ac9a7d742fa276b7155f6f6c6ce5118c3497b1",
+  "entity_type": "SUPPLIER",
+  "name": "RTE Electrical Engineers Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b5cc93ef66ba1212cf5e5ad8805012848c6ab11971da109a00757203b566f3f5",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "734.36",
+      "locator": "XLSX Sheet1!row 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

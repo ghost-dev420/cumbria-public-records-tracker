@@ -1,0 +1,22 @@
+{
+  "entity_id": "34bff4cab05d37622e17c782af96ae6e5b6373cf978bde974238b45468a83aa9",
+  "entity_type": "COMMITTEE",
+  "name": "BBC Housing Management Forum",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d435a77679b2bff75f5c9caf1d4e6725879e96f9a9e457847f3f2548df3c3903",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "BBC Housing Management Forum",
+      "locator": "committee 403",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

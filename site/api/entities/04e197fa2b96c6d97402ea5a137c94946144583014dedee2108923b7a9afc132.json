@@ -1,0 +1,22 @@
+{
+  "entity_id": "04e197fa2b96c6d97402ea5a137c94946144583014dedee2108923b7a9afc132",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Direct Services Management Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9026489b5c1c5fdec431d29e416d7d116c8cfcba08c505cd7118abe0c51c5439",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Direct Services Management Board",
+      "locator": "committee 681",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

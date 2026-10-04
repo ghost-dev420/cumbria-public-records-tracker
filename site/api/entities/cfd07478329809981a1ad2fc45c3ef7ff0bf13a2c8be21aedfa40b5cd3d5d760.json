@@ -1,0 +1,22 @@
+{
+  "entity_id": "cfd07478329809981a1ad2fc45c3ef7ff0bf13a2c8be21aedfa40b5cd3d5d760",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Carlisle Area Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6d23780a39f5eee6a0830e71646c48bab3585bb1d0859826eb6ff31b9838d195",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Carlisle Area Committee",
+      "locator": "committee 709",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

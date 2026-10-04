@@ -1,0 +1,22 @@
+{
+  "entity_id": "20eb658e5c4a1fa1d00e1973e33549f3f3e6fd2f8fc667a70f87bddc60747867",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Miller Riches Trust",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b47289b42b007edf6b6b50f717c245ccdbc191e7b65dabc77ad0ef362bd16603",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Miller Riches Trust",
+      "locator": "committee 562",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

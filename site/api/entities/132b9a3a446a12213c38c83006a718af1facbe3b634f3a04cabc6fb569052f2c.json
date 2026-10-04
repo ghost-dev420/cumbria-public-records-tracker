@@ -1,0 +1,22 @@
+{
+  "entity_id": "132b9a3a446a12213c38c83006a718af1facbe3b634f3a04cabc6fb569052f2c",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Environment Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f143ae4fedde172e44e6b2e7724803fa3567b4a2acb0e7be3ec42924df84b7f8",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Environment Committee",
+      "locator": "committee 752",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

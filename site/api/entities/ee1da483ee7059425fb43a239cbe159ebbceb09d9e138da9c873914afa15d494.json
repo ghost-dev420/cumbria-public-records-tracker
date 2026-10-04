@@ -1,0 +1,78 @@
+{
+  "entity_id": "ee1da483ee7059425fb43a239cbe159ebbceb09d9e138da9c873914afa15d494",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-022-915",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "93b6367d62a0d8b6681c294c91dacce2509b8be08bbce14587a095e41c761be7",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-022-915",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 915)",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/council-house-sales-and-leaseholders/24-022-915",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:47.355571",
+      "sha256": "a6a5051e5f05311c0a963ce2eed761c71f52255d268c997ae95b3552850a8774",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "68e81ec16a525285088dae508b0a30e8067a0c1b9a659043617e5cb824a3c2b1",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Housing",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 915)",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/council-house-sales-and-leaseholders/24-022-915",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:47.355571",
+      "sha256": "a6a5051e5f05311c0a963ce2eed761c71f52255d268c997ae95b3552850a8774",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "a5c20736e642fa4eeda5f8637dd1eb2f01d87f0b9caed2a57423116320527415",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 915)",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/council-house-sales-and-leaseholders/24-022-915",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:47.355571",
+      "sha256": "a6a5051e5f05311c0a963ce2eed761c71f52255d268c997ae95b3552850a8774",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "a9af490de0f631b51bad48822eb2d5f33d9727373376d2c3ce1a2b8657152a57",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "05 Dec 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 915)",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/council-house-sales-and-leaseholders/24-022-915",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:47.355571",
+      "sha256": "a6a5051e5f05311c0a963ce2eed761c71f52255d268c997ae95b3552850a8774",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "610bbaf30595b6ff1ea9463145cd192ad0f5295eecf33cffc4d8984cb2de8f6f",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about information provided by the Council about a house purchase. There is not enough evidence of fault to justify investigating.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 915)",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/council-house-sales-and-leaseholders/24-022-915",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:47.355571",
+      "sha256": "a6a5051e5f05311c0a963ce2eed761c71f52255d268c997ae95b3552850a8774",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

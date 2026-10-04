@@ -1,0 +1,22 @@
+{
+  "entity_id": "adcba5b69a42da4842939825e7c682707245b6a48452f2599d774227256d6f39",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Economy and Culture Scrutiny Panel (B)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6531390c478aa222c971b65df18c48a46c09961e809339bd4c397ba81d1ed0eb",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Economy and Culture Scrutiny Panel (B)",
+      "locator": "committee 749",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

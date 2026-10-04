@@ -1,0 +1,22 @@
+{
+  "entity_id": "845ce5a6a885a426f54f266327bf79113702ee3c7dfdfe3b8a79a91209627c08",
+  "entity_type": "SUPPLIER",
+  "name": "VolkerStevin Infrstructure",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ed6f7eb9744d1e17a5e9cfed9eff3d361544c2a2d24902aff10dbe816a03a86e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-23a55a2e-6a1d-417e-b72f-7d69b6719770-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Millom & Haverigg Flood Alleviation Project - Early Contractor Engagement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e888e712-7a93-4930-b874-ed0dc3464cb7-911681.json",
+      "published_at": "2026-08-21T13:46:50+01:00",
+      "retrieved_at": "2026-10-03 23:43:10.994986",
+      "sha256": "3982bf1f1dce2bc56f84e4362150a47ad606bb69d387e174edb785e0f1e136ee",
+      "related_entity": "ocds-b5fd17-23a55a2e-6a1d-417e-b72f-7d69b6719770:ocds-b5fd17-23a55a2e-6a1d-417e-b72f-7d69b6719770-1"
+    }
+  ]
+}

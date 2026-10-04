@@ -1,0 +1,22 @@
+{
+  "entity_id": "5e36569edf106cd0be49f87d15b38a60c091c6bd1c5d9a04ab1ecdc64060e567",
+  "entity_type": "COMMITTEE",
+  "name": "Fells and Solway Community Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5bb339097ed3378397378c1e2a9a9a6c16d97d4d55177ddc01eeb1564ef3d30f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Fells and Solway Community Panel",
+      "locator": "committee 185",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

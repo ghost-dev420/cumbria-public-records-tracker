@@ -1,0 +1,22 @@
+{
+  "entity_id": "96941cb54e99fb03b3fa900fea89b130b56694bdc6176032ed8213fd09456a36",
+  "entity_type": "SUPPLIER",
+  "name": "PROFESSIONAL CONFERENCES",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "baf2f32bf58693d8a0f8d16dcb18df61f0cb571c3a2c5903525f66b26783aab4",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "238.00",
+      "locator": "XLSX Sheet1!row 570",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

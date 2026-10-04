@@ -1,0 +1,36 @@
+{
+  "entity_id": "6c2f2cad670e291f50d84396bff7ce54d27929e6275e9e955ca798d9d50fd2e0",
+  "entity_type": "SUPPLIER",
+  "name": "MARYPORT T.C.",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "36fcea8cde30e2f8f3da826cace97a8246b29ba4a6d091fe08e1f8b6078a38b8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "187700.00",
+      "locator": "XLSX Sheet1!row 512",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "3d73d1f79553bdbb809e17bb428dc646c54d6d94edb073d82eb90f9f35983b0b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "11888.80",
+      "locator": "XLSX Sheet1!row 378",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

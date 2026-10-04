@@ -1,0 +1,22 @@
+{
+  "entity_id": "21cc2acbbe7b7058a813caa8e06ae1846c5107fae9994e6631363b1a30d4438c",
+  "entity_type": "SUPPLIER",
+  "name": "HOLME EAST WEAVER P.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7adff6ce761d52cd19a84828bd77bd168f522985f9f1e7a0794f5e4ad593cc40",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3500.00",
+      "locator": "XLSX Sheet1!row 521",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

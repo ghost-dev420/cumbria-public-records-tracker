@@ -1,0 +1,22 @@
+{
+  "entity_id": "e5155c2a9d163a24e7544e92b3da3aa83ff7faf488cdc85b4802b7e8881eb603",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Libraries Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4b92c7c86caeed5b8d3f0a41f29170b10198e80305f1c2db01b8186487091728",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Libraries Sub-Committee",
+      "locator": "committee 557",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

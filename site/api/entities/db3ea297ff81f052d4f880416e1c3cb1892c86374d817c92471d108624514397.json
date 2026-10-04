@@ -1,0 +1,36 @@
+{
+  "entity_id": "db3ea297ff81f052d4f880416e1c3cb1892c86374d817c92471d108624514397",
+  "entity_type": "SUPPLIER",
+  "name": "SCOTTISH WATER BUSINESS STREAM LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "bd5c995d3c81d8bc9145cc09ea40f05a28d07b6895798fdd321c3cee9455667a",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "116.24",
+      "locator": "XLSX Sheet1!row 556",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "01da97e91c11a839e1123fecce1f1b57ea148ad6d2cc5115f5afed50ee099922",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "88.39",
+      "locator": "XLSX Sheet1!row 460",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

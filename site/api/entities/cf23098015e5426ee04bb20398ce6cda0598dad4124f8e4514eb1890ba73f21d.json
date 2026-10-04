@@ -1,0 +1,22 @@
+{
+  "entity_id": "cf23098015e5426ee04bb20398ce6cda0598dad4124f8e4514eb1890ba73f21d",
+  "entity_type": "SUPPLIER",
+  "name": "Health Assured Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7256abeb4bac277d77cf55767a514d6fbb770a69a56c4757f8625a395f104025",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-1eaaf43f-2b24-40fc-86a9-215f4479b3aa-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Employee Assistance Programme (EAP)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1b043ad3-f0e4-4c98-97c7-c2c44e74966f-893069.json",
+      "published_at": "2026-04-17T10:20:22+01:00",
+      "retrieved_at": "2026-10-03 23:21:52.703116",
+      "sha256": "e9228f34fb40c16ca0f40042f2ee94899b770e77c93b80d3422ee9ae62d16f60",
+      "related_entity": "ocds-b5fd17-1eaaf43f-2b24-40fc-86a9-215f4479b3aa:ocds-b5fd17-1eaaf43f-2b24-40fc-86a9-215f4479b3aa-1"
+    }
+  ]
+}

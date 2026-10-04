@@ -1,0 +1,78 @@
+{
+  "entity_id": "76aec610fcc20855c06c3280da27228e25ae7bc7adb2193409d970f6514afc79",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-020-892",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "b66d6cf339560b9d34a026b44d959cbf1cc80b482ccb29dea9bd736c7f0468b0",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-020-892",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 020 892)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/24-020-892",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:23.680169",
+      "sha256": "4afb2f481c49fbd53a3034f623cfdbb8f9538002a1d8649bc45a0a04fdda1738",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "487dee2e40c7a8984f9c1a113c271c70cdd31833721c5f1cf948da43fb793a8c",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Children's care services",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 020 892)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/24-020-892",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:23.680169",
+      "sha256": "4afb2f481c49fbd53a3034f623cfdbb8f9538002a1d8649bc45a0a04fdda1738",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "04aace66871d94e1189ebf1ced9480ee2be380700f2979bf29befe33bc081ac1",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 020 892)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/24-020-892",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:23.680169",
+      "sha256": "4afb2f481c49fbd53a3034f623cfdbb8f9538002a1d8649bc45a0a04fdda1738",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "76c870c29071c4dba27d7c25111d3827b202e133a988ca2ff6ca7556cf5e7776",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "20 May 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 020 892)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/24-020-892",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:23.680169",
+      "sha256": "4afb2f481c49fbd53a3034f623cfdbb8f9538002a1d8649bc45a0a04fdda1738",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "9035c5c0af59af1ebdf069ee0d8a7302bdb66effb54394954c71934366882cf2",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council substantiating a safeguarding matter involving Mrs X. There is not enough evidence of fault by the Council in reaching the decision to warrant investigation.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 020 892)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/24-020-892",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:23.680169",
+      "sha256": "4afb2f481c49fbd53a3034f623cfdbb8f9538002a1d8649bc45a0a04fdda1738",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

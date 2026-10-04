@@ -1,0 +1,78 @@
+{
+  "entity_id": "245517111d38c581b55174a441fd4b10a6eac5e0a0ddee13b629abf1a0c48aa5",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "26-009-291",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "6619584519f027926fcb40e16262918bc388a5d1e1549c76e38ef62b3a6de4fd",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "26-009-291",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (26 009 291)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-009-291",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:00.351295",
+      "sha256": "6efb2b06d9f91f9c039e62f4e8c1085f5eddbc010e4f84261e1f26d56c9c28e0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "903e3ea678574f9edab896811029303786a606d3978b3cd0b1fdbee878138537",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Benefits and tax",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (26 009 291)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-009-291",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:00.351295",
+      "sha256": "6efb2b06d9f91f9c039e62f4e8c1085f5eddbc010e4f84261e1f26d56c9c28e0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "b48e20350774e04201a79658a10b50f75c70e2aaa8c6a42eec5e11733a6b494b",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (26 009 291)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-009-291",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:00.351295",
+      "sha256": "6efb2b06d9f91f9c039e62f4e8c1085f5eddbc010e4f84261e1f26d56c9c28e0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "29dcecc67f70ee227a2de8897148ca01d514c77eec404bb7789c7fa4d19e38a9",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "09 Aug 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (26 009 291)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-009-291",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:00.351295",
+      "sha256": "6efb2b06d9f91f9c039e62f4e8c1085f5eddbc010e4f84261e1f26d56c9c28e0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "42f4589c2092dedfd33270059f5ca4df1dddf0a698ca86ff0f62b36d852a1151",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We cannot investigate this complaint about how the Council allocates money that it obtains through council tax charges. This is because the law does not allow us to investigate complaints about matters that affect all the people who live in its area.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (26 009 291)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-009-291",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:04:00.351295",
+      "sha256": "6efb2b06d9f91f9c039e62f4e8c1085f5eddbc010e4f84261e1f26d56c9c28e0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

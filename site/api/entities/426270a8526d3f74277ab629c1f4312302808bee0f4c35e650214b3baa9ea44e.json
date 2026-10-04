@@ -1,0 +1,22 @@
+{
+  "entity_id": "426270a8526d3f74277ab629c1f4312302808bee0f4c35e650214b3baa9ea44e",
+  "entity_type": "SUPPLIER",
+  "name": "CUMBRIA LOCAL ENTERPRISE PARTNERSHIP",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "740af72902460dee14cb6e0f3c085fb9412081618c9f5e0c40d51be7de91712b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "5000.00",
+      "locator": "XLSX Sheet1!row 181",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

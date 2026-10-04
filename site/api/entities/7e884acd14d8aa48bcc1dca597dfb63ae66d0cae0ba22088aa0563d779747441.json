@@ -1,0 +1,22 @@
+{
+  "entity_id": "7e884acd14d8aa48bcc1dca597dfb63ae66d0cae0ba22088aa0563d779747441",
+  "entity_type": "SUPPLIER",
+  "name": "A B Fire Safety Training Services Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "adc008a546a1d17f9cd9930ff78386c9dad525d47b071644195c61247e856c11",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5d375983-347d-4bf3-9e32-a764437c783c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1 Fire Warden for Childrens Residential (including 3 year refresher)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5860dd3e-8d9a-4eed-9a61-883b771fe0c0-900032.json",
+      "published_at": "2026-06-01T16:22:53+01:00",
+      "retrieved_at": "2026-10-03 23:30:25.683347",
+      "sha256": "b283c633e8f0703fff145f961df252d3f4e0a852809d9d46f347af4aad75d42a",
+      "related_entity": "ocds-b5fd17-5d375983-347d-4bf3-9e32-a764437c783c:ocds-b5fd17-5d375983-347d-4bf3-9e32-a764437c783c-1"
+    }
+  ]
+}

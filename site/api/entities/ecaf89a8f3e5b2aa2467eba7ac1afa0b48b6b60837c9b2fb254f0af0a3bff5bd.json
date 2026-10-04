@@ -1,0 +1,22 @@
+{
+  "entity_id": "ecaf89a8f3e5b2aa2467eba7ac1afa0b48b6b60837c9b2fb254f0af0a3bff5bd",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Constitution Review Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b1ad283bbbb5fbdace9a6ff02bd854fc42fa516cfc9046e8174da6dc4aeab3d5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Constitution Review Group",
+      "locator": "committee 492",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "4620ade2b9c958a9741be2cd842fa03963a543b5be7825072583df1d54879783",
+  "entity_type": "SUPPLIER",
+  "name": "W.D.M Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bbf5ac04325b83303eda89d0b75cad96562ce02dc45090fbcab90b58ca633cd8",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-98d2bdb2-8b15-4a37-8199-0b2a8bbd6008-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Condition Assessment of Cumberland Highways Network",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/054ecfab-837c-484b-a78d-e5d593df6d5b-878239.json",
+      "published_at": "2026-01-08T15:01:47Z",
+      "retrieved_at": "2026-10-03 23:02:28.688740",
+      "sha256": "74bb17dec42d5f0d9b672d550b742cb2cc7ccaefd8d944b671f516d9529beb68",
+      "related_entity": "ocds-b5fd17-98d2bdb2-8b15-4a37-8199-0b2a8bbd6008:ocds-b5fd17-98d2bdb2-8b15-4a37-8199-0b2a8bbd6008-1"
+    }
+  ]
+}

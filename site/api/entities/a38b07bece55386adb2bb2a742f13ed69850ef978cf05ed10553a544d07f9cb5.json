@@ -1,0 +1,22 @@
+{
+  "entity_id": "a38b07bece55386adb2bb2a742f13ed69850ef978cf05ed10553a544d07f9cb5",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Housing and Health Portfolio Holder Meeting",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "69caf5fd6b1cff713ff5a65ad4ffcc6bf08dee93ffe018cc38f08319cc06f41e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Housing and Health Portfolio Holder Meeting",
+      "locator": "committee 732",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

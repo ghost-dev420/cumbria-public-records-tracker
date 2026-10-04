@@ -1,0 +1,22 @@
+{
+  "entity_id": "4a1ed6f2f33df93735f02eec8cbc820b4e5b6a244450a20b2ec4eb9e8d158cfa",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Informal Council Briefing",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e8e6e5ad5b70d7ba9903b61bfb9b7d30929bb3fedb9d492c421c1de182d90fa0",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Informal Council Briefing",
+      "locator": "committee 506",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "85d24749db90676332c7a57b874b073828fa01d4d7c62f2b9e440fd65f8d7122",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Joint Meeting with Borough Council",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fb5a9fa6258f3c8e7783f7c971de757a6411e32746e4d662e1c5d24bfcd4563c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Joint Meeting with Borough Council",
+      "locator": "committee 368",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

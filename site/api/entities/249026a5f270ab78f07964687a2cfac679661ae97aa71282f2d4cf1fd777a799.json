@@ -1,0 +1,22 @@
+{
+  "entity_id": "249026a5f270ab78f07964687a2cfac679661ae97aa71282f2d4cf1fd777a799",
+  "entity_type": "SUPPLIER",
+  "name": "Alex taxis",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bbafa9a6e06f0d785e03cb9668f0a91e2745ba119892d5cf9fc1499c561db2b4",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5d4f53eb-8ca7-4a91-97f5-b0d4d9450937-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 11 September 2023 (F50)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/38b29abe-050c-48dd-9a2b-447423708f2d-892664.json",
+      "published_at": "2026-04-13T15:31:27+01:00",
+      "retrieved_at": "2026-10-03 23:21:21.368938",
+      "sha256": "dd9b0617aee05bf1847b22a08092fc5a4cff413368b36c411f7d8137e4b31a3f",
+      "related_entity": "ocds-b5fd17-5d4f53eb-8ca7-4a91-97f5-b0d4d9450937:ocds-b5fd17-5d4f53eb-8ca7-4a91-97f5-b0d4d9450937-1"
+    }
+  ]
+}

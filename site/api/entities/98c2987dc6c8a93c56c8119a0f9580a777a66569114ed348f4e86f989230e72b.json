@@ -1,0 +1,22 @@
+{
+  "entity_id": "98c2987dc6c8a93c56c8119a0f9580a777a66569114ed348f4e86f989230e72b",
+  "entity_type": "SUPPLIER",
+  "name": "THE COMMUNITY HEARTBEAT SOLUTIONS LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ef46bccc7c2ad9126db573a96744994f0ce4b2b2d2365f413ae87f1582558a8a",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "135.00",
+      "locator": "XLSX Report!row 232",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

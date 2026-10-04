@@ -1,0 +1,50 @@
+{
+  "entity_id": "f9e0ac1f68a189b04fc78b5ab5f550442d4ef2a0021e05e959dd1079d809399b",
+  "entity_type": "POLITICAL_PARTY",
+  "name": "Green Party",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "b031d2cb4999494d03aa74a4b3142c9d7ebbc5a24573bf538f8e0750ca537b2c",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Green Party",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Helen Tucker"
+    },
+    {
+      "fact_id": "d2a6d99276debdd9f2eded3f62bed3cb71568f1dd0f6dab2659cf25a2c46254c",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Green Party",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Jill Perry"
+    },
+    {
+      "fact_id": "d8d03fa658b40c50a256a62497eeb94af729f37e696ba7b81b224095ec6bf397",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Green Party",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Helen Davison"
+    }
+  ]
+}

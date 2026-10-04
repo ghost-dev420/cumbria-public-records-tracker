@@ -1,0 +1,1619 @@
+{
+  "counts": {
+    "documents": 1241,
+    "snapshots": 2578,
+    "observations": 7514,
+    "changes": 1339,
+    "organisations": 16,
+    "entities": 2345,
+    "facts": 10874,
+    "entity_matches": 47,
+    "open_reviews": 0,
+    "signals": 0,
+    "registry_records": 0
+  },
+  "recent_docs": [
+    [
+      "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "westmorland_furness_south_lakeland_grants",
+      "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:07:02.893639"
+    ],
+    [
+      "Find a Tender OCDS release package 1",
+      "find_a_tender",
+      "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?limit=100&stages=tender%2Caward&updatedFrom=2026-09-04T00%3A06%3A59&updatedTo=2026-10-04T00%3A06%3A59",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:07:01.522503"
+    ],
+    [
+      "Listing: LGSCO decisions concerning Westmorland and Furness Council",
+      "lgsco_westmorland_furness",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Westmorland+and+Furness+Council&dc=c%2Bnu%2Bu%2B&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:58.786693"
+    ],
+    [
+      "Listing: LGSCO decisions concerning Cumberland Council",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=6&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:57.550290"
+    ],
+    [
+      "Privacy settings",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:56.474092"
+    ],
+    [
+      "Cumberland Council (24 020 615)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/other-categories/other/24-020-615",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:52.966573"
+    ],
+    [
+      "Cumberland Council (24 015 248)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:50.803975"
+    ],
+    [
+      "Cumberland Council (24 010 125)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-010-125",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:48.821304"
+    ],
+    [
+      "Cumberland Council (24 013 967)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-967",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:46.626912"
+    ],
+    [
+      "Cumberland Council (24 020 813)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/24-020-813",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:44.411949"
+    ],
+    [
+      "Cumberland Council (24 022 600)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/planning/planning-applications/24-022-600",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:42.104900"
+    ],
+    [
+      "Cumberland Council (24 014 269)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-014-269",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:40.228410"
+    ],
+    [
+      "Cumberland Council (23 015 764)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/housing/private-housing/23-015-764",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:38.612311"
+    ],
+    [
+      "Cumberland Council (25 001 772)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-001-772",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:37.518081"
+    ],
+    [
+      "Cumberland Council (24 022 620)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/pollution/24-022-620",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:35.780939"
+    ],
+    [
+      "Privacy settings",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:22.029077"
+    ],
+    [
+      "Cumberland Council (24 013 405)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-405",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:18.343613"
+    ],
+    [
+      "Cumberland Council (25 002 955)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/planning/enforcement/25-002-955",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:16.854048"
+    ],
+    [
+      "Cumberland Council (25 007 316)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/25-007-316",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:14.520334"
+    ],
+    [
+      "Cumberland Council (25 003 231)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/planning/enforcement/25-003-231",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:12.179995"
+    ],
+    [
+      "Cumberland Council (24 006 046)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/24-006-046",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:10.008494"
+    ],
+    [
+      "Cumberland Council (24 019 271)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-019-271",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:08.132341"
+    ],
+    [
+      "Cumberland Council (25 006 091)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-006-091",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:06.339846"
+    ],
+    [
+      "Cumberland Council (25 007 594)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-007-594",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:04.909272"
+    ],
+    [
+      "Cumberland Council (25 008 749)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/school-exclusions/25-008-749",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:03.356121"
+    ],
+    [
+      "Cumberland Council (25 009 502)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-009-502",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:06:02.200952"
+    ],
+    [
+      "Privacy settings",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:48.200489"
+    ],
+    [
+      "Cumberland Council (25 017 872)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-017-872",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:44.277974"
+    ],
+    [
+      "Cumberland Council (25 008 265)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-008-265",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:42.264903"
+    ],
+    [
+      "Cumberland Council (25 015 027)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/planning/planning-applications/25-015-027",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:39.996561"
+    ],
+    [
+      "Cumberland Council (25 016 341)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-016-341",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:37.737073"
+    ],
+    [
+      "Cumberland Council (25 012 329)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-012-329",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:35.449118"
+    ],
+    [
+      "Cumberland Council (25 008 907)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-008-907",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:33.078595"
+    ],
+    [
+      "Cumberland Council (25 000 276)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-000-276",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:30.983950"
+    ],
+    [
+      "Cumberland Council (24 021 442)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:28.727896"
+    ],
+    [
+      "Cumberland Council (25 027 222)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/other-categories/other/25-027-222",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:26.527502"
+    ],
+    [
+      "Cumberland Council (25 014 956)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-014-956",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:24.303810"
+    ],
+    [
+      "Privacy settings",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:10.916868"
+    ],
+    [
+      "Back",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=1&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:07.373379"
+    ],
+    [
+      "Cumberland Council (25 005 984)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-005-984",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:05.693576"
+    ],
+    [
+      "Cumberland Council (25 017 563)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/25-017-563",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:04.244568"
+    ],
+    [
+      "Cumberland Council (25 013 548)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-013-548",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:05:01.956261"
+    ],
+    [
+      "Cumberland Council (25 011 520)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/planning/building-control/25-011-520",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:59.749876"
+    ],
+    [
+      "Cumberland Council (25 004 170)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-004-170",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:57.621595"
+    ],
+    [
+      "Cumberland Council (25 017 339)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/other-categories/other/25-017-339",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:55.564064"
+    ],
+    [
+      "Cumberland Council (25 021 461)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/other-categories/other/25-021-461",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:53.275919"
+    ],
+    [
+      "Cumberland Council (25 022 299)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-022-299",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:51.246026"
+    ],
+    [
+      "Cumberland Council (25 023 647)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-023-647",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:49.657971"
+    ],
+    [
+      "Cumberland Council (25 020 630)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-020-630",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:47.328247"
+    ],
+    [
+      "Privacy settings",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:34.313195"
+    ],
+    [
+      "10",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=10&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:31.151535"
+    ],
+    [
+      "9",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=9&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:29.838456"
+    ],
+    [
+      "8",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=8&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:28.726939"
+    ],
+    [
+      "7",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=7&sortOrder=descending",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:27.397533"
+    ],
+    [
+      "Cumberland Council (25 007 438)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-007-438",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:19.334254"
+    ],
+    [
+      "Cumberland Council (25 022 417)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/25-022-417",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:17.294706"
+    ],
+    [
+      "Cumberland Council (25 020 131)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-020-131",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:15.175756"
+    ],
+    [
+      "Cumberland Council (25 010 753)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-753",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:13.223911"
+    ],
+    [
+      "Cumberland Council (25 030 266)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-030-266",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:11.141823"
+    ],
+    [
+      "Cumberland Council (26 009 635)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/26-009-635",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:09.052932"
+    ],
+    [
+      "Cumberland Council (26 005 769)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/26-005-769",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:06.812866"
+    ],
+    [
+      "Cumberland Council (26 004 480)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/26-004-480",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:04.883081"
+    ],
+    [
+      "Cumberland Council (25 024 013)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/other-categories/commercial-and-contracts/25-024-013",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:02.713318"
+    ],
+    [
+      "Cumberland Council (26 009 291)",
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-009-291",
+      "REGULATORY_FINDING",
+      null,
+      "2026-10-04 01:04:00.671465"
+    ],
+    [
+      "a98526_e2fdbbb468e34126b7048439bcc93cb8.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_e2fdbbb468e34126b7048439bcc93cb8.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:46.424038"
+    ],
+    [
+      "a98526_6882774da3d84d9ebd3d9fc84cc220a3.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_6882774da3d84d9ebd3d9fc84cc220a3.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:45.418233"
+    ],
+    [
+      "a98526_1d811118f8454278a264f846bbd82b6a.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_1d811118f8454278a264f846bbd82b6a.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:44.405963"
+    ],
+    [
+      "a98526_763ffbd1c18349e38b27392645dd79aa.docx",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_763ffbd1c18349e38b27392645dd79aa.docx?dn=extraordinaryPUBLIC+NOTICE29082017.docx",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:43.459932"
+    ],
+    [
+      "a98526_b9d81778f37447ff91790750374ca145.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_b9d81778f37447ff91790750374ca145.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:42.505279"
+    ],
+    [
+      "b7871d_c03c86f5131c4a26af2e2284ab86317f.pdf",
+      "whitehaven_town_records",
+      "https://www.whitehaventowncouncil.co.uk/_files/ugd/b7871d_c03c86f5131c4a26af2e2284ab86317f.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:41.444470"
+    ],
+    [
+      "a98526_c3811e80057a4182a90345310862628e.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_c3811e80057a4182a90345310862628e.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:40.453582"
+    ],
+    [
+      "a98526_7a4e61122ab04372916dd39fa93704fd.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_7a4e61122ab04372916dd39fa93704fd.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:39.383783"
+    ],
+    [
+      "a98526_7ed59f919d3f409db72a5479805309f4.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_7ed59f919d3f409db72a5479805309f4.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:34.594897"
+    ],
+    [
+      "a98526_f7104136b92e4e2681e7a0e10ac4ecd9.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_f7104136b92e4e2681e7a0e10ac4ecd9.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:33.539687"
+    ],
+    [
+      "a98526_28ed121c13f549ceabef5c9331ab6f59.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_28ed121c13f549ceabef5c9331ab6f59.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:32.583659"
+    ],
+    [
+      "a98526_dd6289c3f1c84680bfb23e723d18acf5.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_dd6289c3f1c84680bfb23e723d18acf5.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:31.521065"
+    ],
+    [
+      "a98526_9aab86e3e51e45378e825cce55731403.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_9aab86e3e51e45378e825cce55731403.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:30.333104"
+    ],
+    [
+      "a98526_04ee6bcb6b2e4c0c9b9a89ed848348b7.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_04ee6bcb6b2e4c0c9b9a89ed848348b7.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:29.300453"
+    ],
+    [
+      "a98526_5617fc0bcbdc46d28a81d712c0aa9a90.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_5617fc0bcbdc46d28a81d712c0aa9a90.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:28.312709"
+    ],
+    [
+      "a98526_b8fb6134a5f64621996e7808126ccf64.docx",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_b8fb6134a5f64621996e7808126ccf64.docx?dn=PUBLIC+NOTICE300818.docx",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:27.374627"
+    ],
+    [
+      "a98526_8bbcb52bf4cd46cdb739aeffb57e3e45.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_8bbcb52bf4cd46cdb739aeffb57e3e45.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:26.390551"
+    ],
+    [
+      "a98526_5c2393ae445447ab9b889821f2d8688e.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_5c2393ae445447ab9b889821f2d8688e.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:25.252293"
+    ],
+    [
+      "a98526_0a3b4a91c9cb47619e5efecbb9bd8fdd.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_0a3b4a91c9cb47619e5efecbb9bd8fdd.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:24.200175"
+    ],
+    [
+      "a98526_37cc826c979445e1b1f926ad71c00422.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_37cc826c979445e1b1f926ad71c00422.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:23.242359"
+    ],
+    [
+      "a98526_99af27b03e5946d18a623b7611fb46ba.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_99af27b03e5946d18a623b7611fb46ba.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:22.234595"
+    ],
+    [
+      "a98526_b7bf4a9270414fc7af252232c8d1408f.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_b7bf4a9270414fc7af252232c8d1408f.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:21.203593"
+    ],
+    [
+      "a98526_a3dc7f63a8884cd2be2b76e487fbd9f6.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_a3dc7f63a8884cd2be2b76e487fbd9f6.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:20.247113"
+    ],
+    [
+      "a98526_b15ff98a520d470f9208d40ba1d47f44.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_b15ff98a520d470f9208d40ba1d47f44.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:19.215436"
+    ],
+    [
+      "a98526_8fd8dced14294fbca8f133f24d74aa69.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_8fd8dced14294fbca8f133f24d74aa69.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:17.765705"
+    ],
+    [
+      "a98526_546b3baf21714bb6a6a2ba36ba18aeff.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_546b3baf21714bb6a6a2ba36ba18aeff.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:16.757290"
+    ],
+    [
+      "a98526_c7272e119bee4bb5aa9c3a151a54dc6c.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_c7272e119bee4bb5aa9c3a151a54dc6c.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:15.397430"
+    ],
+    [
+      "a98526_06ad845fa70149aa9adf362da612a626.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_06ad845fa70149aa9adf362da612a626.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:14.130050"
+    ],
+    [
+      "a98526_299e448e8a7740ff815b7ac2957c2373.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_299e448e8a7740ff815b7ac2957c2373.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:13.227510"
+    ],
+    [
+      "a98526_d1a12444abad45a5a4c1a4d0747e75a0.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_d1a12444abad45a5a4c1a4d0747e75a0.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:12.319450"
+    ],
+    [
+      "a98526_e2e4b6ffe2ca4c6ca3c1bdd73d7450b8.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_e2e4b6ffe2ca4c6ca3c1bdd73d7450b8.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:11.374230"
+    ],
+    [
+      "a98526_30053b86a2a54000b6c08e30859f8f7a.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_30053b86a2a54000b6c08e30859f8f7a.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:10.313345"
+    ],
+    [
+      "a98526_78f12ec95518416fa7f49134032021bc.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_78f12ec95518416fa7f49134032021bc.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:09.292500"
+    ],
+    [
+      "a98526_ac2a30d0bb414e9390b263f6bad1441c.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_ac2a30d0bb414e9390b263f6bad1441c.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:08.349438"
+    ],
+    [
+      "a98526_bb965e6d575b45b298dfe12461bf7c08.pdf",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_bb965e6d575b45b298dfe12461bf7c08.pdf",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:07.304428"
+    ],
+    [
+      "a98526_f1ad1062f6604298ab81f5785fd5fb8a.docx",
+      "whitehaven_town_records",
+      "https://8dd9cce3-03c9-461d-8954-022f78a67859.filesusr.com/ugd/a98526_f1ad1062f6604298ab81f5785fd5fb8a.docx?dn=PUBLIC+NOTICE31102019.docx",
+      "OFFICIAL_RECORD",
+      null,
+      "2026-10-04 01:03:06.262725"
+    ]
+  ],
+  "recent_changes": [
+    [
+      "westmorland_furness_south_lakeland_grants",
+      "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "CONTENT_CHANGED",
+      "eb67264772bfe60a761d2268e012e937af1f2d8fea5defce711a2d625ac84882",
+      "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "2026-10-04 01:07:03.023728"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=6&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "438731fc665e8e08bd918e8e0540363a73a01c8e458a7762bd1a15cb72d787a9",
+      "ccc6f4b95bf84ce33f4651b40fedd19590827867fbe2f78f1291261763e455c0",
+      "2026-10-04 01:06:57.627700"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "6274f2b6b52be6fb713ce05337c31d90cedab6066438ebb8da025e952bf0843d",
+      "ccc6f4b95bf84ce33f4651b40fedd19590827867fbe2f78f1291261763e455c0",
+      "2026-10-04 01:06:56.540440"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "a8eebffc81efc4c61bbdd40bf22db259bbb18e984f6b237314a119b959d47b75",
+      "6274f2b6b52be6fb713ce05337c31d90cedab6066438ebb8da025e952bf0843d",
+      "2026-10-04 01:06:54.961747"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/other-categories/other/24-020-615",
+      "CONTENT_CHANGED",
+      "e1642b56975fb4dd73c44d5754e8fd0d891a385be20b89db1b90b525ed01d8e0",
+      "14b9646d56795fda17a6525d91ee34638ecdc3a8a8465dee202a20637a36ff0c",
+      "2026-10-04 01:06:53.055906"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "CONTENT_CHANGED",
+      "988aaaf0d6c586e7a28357f7b4729f552205b746d4ee71bde533e192f27d86ec",
+      "ba11e333d6446571a2389bb7a45afaa0b2dd7a2490271b5d0aec02cb49dea250",
+      "2026-10-04 01:06:50.893897"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-010-125",
+      "CONTENT_CHANGED",
+      "958615302792533e2e9cf1172f97eb539740828bb19f3357b437e107fab01508",
+      "c9738c6812fe4d0d16664c988aa03108f9c931c949063f5661cb657d4afe5741",
+      "2026-10-04 01:06:48.893841"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-967",
+      "CONTENT_CHANGED",
+      "d27595b0ccd833ba9387a790df8c319276b9103cd631dcc2cfc7e85e918c1ddf",
+      "b85daebd98c2010d9af56576fc711e6cef8e11bbd8cac986f1bae5dbabe2eb55",
+      "2026-10-04 01:06:46.715767"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/24-020-813",
+      "CONTENT_CHANGED",
+      "20e6e255f0b2e0c33c7a86d3b8ceb3e726a37d5593fc8cc92b44b0b6af250d71",
+      "4213c5a318f9d2dc7f2f5ac1d0f577f65c8b5367510f039fe8000bd7f3a1d15d",
+      "2026-10-04 01:06:44.504153"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/planning/planning-applications/24-022-600",
+      "CONTENT_CHANGED",
+      "133773a271bba96b2937127094a94364f66204b8b1fc93539fbf83fab76a9b70",
+      "3df0c95c6bb393de21e4c89ade39a343f1bc8ec6e983e59d396252b300ce487d",
+      "2026-10-04 01:06:42.188143"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-014-269",
+      "CONTENT_CHANGED",
+      "371d60b858ddeaeb48f925dff92db327b2fdffcb4858d43ab5190783fe5ed538",
+      "8f2064180bb34eb389ef09518fa9ee4022c11809bffb24ccbe80e100a86e0901",
+      "2026-10-04 01:06:40.296553"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/housing/private-housing/23-015-764",
+      "CONTENT_CHANGED",
+      "411fd7100bab58dc97b1a5a76075a898a6d1956f319ebe00af4a364f7e3e7296",
+      "6dcffe024573b1e1642050e2600da8019669b1fc75463fd171193821bb41f6d3",
+      "2026-10-04 01:06:38.642490"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-001-772",
+      "CONTENT_CHANGED",
+      "0a706eafe614e14ab76da0a934b8e79d6d79c6a14a6addf30d5a0b36db1df3d6",
+      "3a623174b94207fa75bcddff8b267cd38a122ad41ebd9e68a856e65896b4093e",
+      "2026-10-04 01:06:37.544073"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/pollution/24-022-620",
+      "CONTENT_CHANGED",
+      "03d50ae2d0830e20f6d48a6f68abff4dc220ceb6009293f2eb9ff5c520f85984",
+      "b4147eb74fd1fd0cd5b9072c46964cf49a2c20f3429520dbf5cdd0d346ab10b9",
+      "2026-10-04 01:06:35.824190"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "fa378744957e8929b0e555fc427fd8bd4688b0285d7ee3946ddf7a648810e5b3",
+      "a8eebffc81efc4c61bbdd40bf22db259bbb18e984f6b237314a119b959d47b75",
+      "2026-10-04 01:06:34.686157"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "036143027fa38c784b632d55b88ac5437af7c28892760b9918a4850acc18048e",
+      "fa378744957e8929b0e555fc427fd8bd4688b0285d7ee3946ddf7a648810e5b3",
+      "2026-10-04 01:06:33.688911"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "e24b561385795d2183ab32d4125e4c0ae368a335cf061560a9392d25838322cd",
+      "036143027fa38c784b632d55b88ac5437af7c28892760b9918a4850acc18048e",
+      "2026-10-04 01:06:32.568127"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "4606a3acff47d4c723620a534d0bd4cce4e46b66ffe60693aa022660ed907300",
+      "e24b561385795d2183ab32d4125e4c0ae368a335cf061560a9392d25838322cd",
+      "2026-10-04 01:06:31.493970"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "7f8f7471bc8e825f1e828684c24513c3f4acfb0a18e05c104da18eca481fe122",
+      "4606a3acff47d4c723620a534d0bd4cce4e46b66ffe60693aa022660ed907300",
+      "2026-10-04 01:06:30.537119"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "f5b9bb64c6109d35a4548c1724405b6476185cc145d1a74d645abae663500da8",
+      "7f8f7471bc8e825f1e828684c24513c3f4acfb0a18e05c104da18eca481fe122",
+      "2026-10-04 01:06:29.272789"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "3d8c35b4c9364a8c6b3136065df87de9d597c3a008f780f2064926fe791e3bdd",
+      "f5b9bb64c6109d35a4548c1724405b6476185cc145d1a74d645abae663500da8",
+      "2026-10-04 01:06:28.042903"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "3d766c45ff8fcf9dfd0e0f993e409c7d996560cc4f2a9c2780b60fab864c46c0",
+      "3d8c35b4c9364a8c6b3136065df87de9d597c3a008f780f2064926fe791e3bdd",
+      "2026-10-04 01:06:27.107651"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "fab7e344214f4cabfc21851c35e4bc964607766831f1fb0e3f5bb41408a2a1d7",
+      "3d766c45ff8fcf9dfd0e0f993e409c7d996560cc4f2a9c2780b60fab864c46c0",
+      "2026-10-04 01:06:25.655701"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "796d5713e70e8b2eeba68bf5465462afd2005da419bf4f20d9b6bef64fcf303a",
+      "fab7e344214f4cabfc21851c35e4bc964607766831f1fb0e3f5bb41408a2a1d7",
+      "2026-10-04 01:06:24.664267"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=5&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "f9613821e3681e180ce2176705d88ce8deb75484672eb0cd8e81ddc78f01cf4e",
+      "796d5713e70e8b2eeba68bf5465462afd2005da419bf4f20d9b6bef64fcf303a",
+      "2026-10-04 01:06:23.553251"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "fe4872231b2b6ae574a2719f54692f90a97a845d053e607c694f3d8ceb15c5a0",
+      "980b110b30df3aed4c818cd65fbdffaff28a14a9c2376ba81b55089853b03ca3",
+      "2026-10-04 01:06:22.118038"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "d83feab70e65960211d7560e50c2a6f78c3a681314b8dd909b86019d1836ed0d",
+      "fe4872231b2b6ae574a2719f54692f90a97a845d053e607c694f3d8ceb15c5a0",
+      "2026-10-04 01:06:21.045459"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "14ef8cbdd9ed260879acea345c35258c7cfd2cdcc3ae93309953a33d976c6609",
+      "d83feab70e65960211d7560e50c2a6f78c3a681314b8dd909b86019d1836ed0d",
+      "2026-10-04 01:06:20.055522"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-405",
+      "CONTENT_CHANGED",
+      "93b05e76612fe8345063b90ca2136b4bf5fbc9ad3dae7eb807d3188eacbd3e33",
+      "609731b0202ad84bfc9330a63a36ae9652b16031d7b206fb6ab6150c20aa37fd",
+      "2026-10-04 01:06:18.415322"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/planning/enforcement/25-002-955",
+      "CONTENT_CHANGED",
+      "4f8dfb61cb8d6265420974bd01ead61f9a70ba5a7583ccca3dc1534e40fb2e50",
+      "396e23b58847ead7395151f5745febbc78dca05aa5607cd03a3efa8506c5fb2d",
+      "2026-10-04 01:06:16.942916"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/25-007-316",
+      "CONTENT_CHANGED",
+      "37186799e83972dd7f7647bfd5e505707ace712f82a51dac607d85dac7a22ba2",
+      "c231666f4bc94a5468fe110de16935dac65ffe17d0f2ed0f633eb98c6aec2f58",
+      "2026-10-04 01:06:14.608521"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/planning/enforcement/25-003-231",
+      "CONTENT_CHANGED",
+      "88a7c76ecb054bcb6651f80a666e62be7e31ba0c772e8bf9fe5bfade591018f1",
+      "357adc510a1139e0839fa5b7b9a5f3441b7a4668f89253a7f358d7f5a5600290",
+      "2026-10-04 01:06:12.274469"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/24-006-046",
+      "CONTENT_CHANGED",
+      "b430ef0aa70c0bfa59bb6469cda074ea50b7ce7dcfe8d6914268a08894452078",
+      "850258d01b4fea53adb237c78426e189a1113408749cde18ef49a866fedda6e7",
+      "2026-10-04 01:06:10.087520"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-019-271",
+      "CONTENT_CHANGED",
+      "58acab5f316b20807d15a8a52108fae2301c2c1039641821631921c027daf1e9",
+      "b0d873b59e0cc2571a2579ae0d39c285a402970c057afe5844b5f5492ec40656",
+      "2026-10-04 01:06:08.196344"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-006-091",
+      "CONTENT_CHANGED",
+      "d76c4990fe011ddd56518a5738af3c1543ca255ff849096417d568d9a07ddc70",
+      "e4164687424364267d5d49cb197bd1291f12e53e1688ff82a2a0208e18e46fbf",
+      "2026-10-04 01:06:06.374181"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-007-594",
+      "CONTENT_CHANGED",
+      "886745b98eaff2bce344e12b5f8c4adfe2cf3d8be690c654a19ebadfa0dc049d",
+      "3d3226b2598cf9f3021e294516575ef3751c3f86e06e9b1511a909ad590bc80a",
+      "2026-10-04 01:06:04.935648"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/school-exclusions/25-008-749",
+      "CONTENT_CHANGED",
+      "eb46978f4eeb874af68f05312c72698b2e0f7e63cb99ef0619643fac47bf9bb2",
+      "abb772bd4daf7515ad7136946ae49bd2cf48efddd3e212673f7f9102de0de24e",
+      "2026-10-04 01:06:03.381744"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-009-502",
+      "CONTENT_CHANGED",
+      "fa4698060584895c941cd2912554098258563f79e50eac8abbd39bc5b03bf2f3",
+      "1274aa3ee28b7e21a560ccb41c1777c8b4d7b127cdf82f55f7e049bf0a878305",
+      "2026-10-04 01:06:02.248985"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "dc57afed778c74cf6589536d265619340791e7da283fd8ac52d882435afef9ef",
+      "14ef8cbdd9ed260879acea345c35258c7cfd2cdcc3ae93309953a33d976c6609",
+      "2026-10-04 01:06:00.793652"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "8dbfe8bd57b9ab952255772c20fdd7dc7869b0a459afc7c132c1234625822056",
+      "dc57afed778c74cf6589536d265619340791e7da283fd8ac52d882435afef9ef",
+      "2026-10-04 01:05:59.371626"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "ecc2f36253e4aded2a30a9fccf59f570ad6cd9f92847bfce759dee6265a35372",
+      "8dbfe8bd57b9ab952255772c20fdd7dc7869b0a459afc7c132c1234625822056",
+      "2026-10-04 01:05:58.356139"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "6256d055fb1e928a7e3f749c922a5665eea16a56d2fe95140af20c87044368f1",
+      "ecc2f36253e4aded2a30a9fccf59f570ad6cd9f92847bfce759dee6265a35372",
+      "2026-10-04 01:05:57.208400"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "6425b1e36f328cb48b720208ef0de4123b2f5454c20e5740b8346651ab9271a6",
+      "6256d055fb1e928a7e3f749c922a5665eea16a56d2fe95140af20c87044368f1",
+      "2026-10-04 01:05:56.150631"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "9d0e420b5e48788c327b011797e7611a7594fc4f343fd7afb8dbe97ca05b18f0",
+      "6425b1e36f328cb48b720208ef0de4123b2f5454c20e5740b8346651ab9271a6",
+      "2026-10-04 01:05:55.064703"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "a7354814e736a8bb9a0591071b1ea57d509c9678bf72223f21d89272ca55c034",
+      "9d0e420b5e48788c327b011797e7611a7594fc4f343fd7afb8dbe97ca05b18f0",
+      "2026-10-04 01:05:54.046096"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "93b0f9db888fa978859de3fe0582bd20ff6a21d5a583f4151f49dda128c16ed8",
+      "a7354814e736a8bb9a0591071b1ea57d509c9678bf72223f21d89272ca55c034",
+      "2026-10-04 01:05:53.003353"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "38b949841e9b5a5bb9d4acbd846a1f774aafb358e363feb615dba0c2bb6d29d6",
+      "93b0f9db888fa978859de3fe0582bd20ff6a21d5a583f4151f49dda128c16ed8",
+      "2026-10-04 01:05:51.449772"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "890238990d3846ed5bf8b2bf263aa88265ecde1dd06cb86d7e8893dbf0a4641c",
+      "38b949841e9b5a5bb9d4acbd846a1f774aafb358e363feb615dba0c2bb6d29d6",
+      "2026-10-04 01:05:50.565577"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=4&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "5f59177725e5ac7f656390cbb7dda34d79171cbbcecba1959dad46f621b95c3d",
+      "890238990d3846ed5bf8b2bf263aa88265ecde1dd06cb86d7e8893dbf0a4641c",
+      "2026-10-04 01:05:49.567012"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "990a5b9fdd625b299daff3c1aa73f4aef4ab5db79b76b91187d383080910ef3d",
+      "814244a9f64e06fb455556d11b5715ad141a3e65cc808c6b9edfaeeeb595ba21",
+      "2026-10-04 01:05:48.278764"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "2ebe6dbe90ff2390c85230a5a95b5c83ebde4de1244822aa630beeaa9f7206c3",
+      "990a5b9fdd625b299daff3c1aa73f4aef4ab5db79b76b91187d383080910ef3d",
+      "2026-10-04 01:05:47.084355"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "191cb834ea98a771473675b6e75f9203af6cc5697fbce8437ecaec784d0b7003",
+      "2ebe6dbe90ff2390c85230a5a95b5c83ebde4de1244822aa630beeaa9f7206c3",
+      "2026-10-04 01:05:46.004636"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-017-872",
+      "CONTENT_CHANGED",
+      "2493a1042cd0368ba3d18d3e0493a6c505d48551bce573463dc93683435de6ed",
+      "70a284db25f307a6bd3a3d0dbec3fb56e9b1c23aa5ff0d53928e995f528d95bc",
+      "2026-10-04 01:05:44.356298"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-008-265",
+      "CONTENT_CHANGED",
+      "0f3e1ab51f77282f2f532a3cbba149b7344825da79e7c188eefe68a327b7735b",
+      "bcd60830e126ec6f8a4ab3c7750dd00b5cc811c9c191bf178754418c956ef382",
+      "2026-10-04 01:05:42.348153"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/planning/planning-applications/25-015-027",
+      "CONTENT_CHANGED",
+      "dc823d662c3a810875be5c3cb5e61764a254893ab7eebe5d38610bb1cc0f7746",
+      "16b46dafb5945aeb2c23700b4d87a056cd8c2095af5575b1c1e092335ec2dae4",
+      "2026-10-04 01:05:40.114011"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-016-341",
+      "CONTENT_CHANGED",
+      "6dd361fb3ebaef4942254a35fa6f67ddecd3ccbbd1e8a5cd9cac08de57c0f7ab",
+      "25da02a034f83ea76827a06e9d03716a977282d145068f84dca4c10eccff9d7a",
+      "2026-10-04 01:05:37.849979"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-012-329",
+      "CONTENT_CHANGED",
+      "8702c03d88c84836e977dfd756ab114e0ff1aea3ccfe0d1bcf448d67c0d1f208",
+      "586a6ec44f5e30ac6510d39d8f351c5dc4feb67700c888a0b3511f7eaa760add",
+      "2026-10-04 01:05:35.531449"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-008-907",
+      "CONTENT_CHANGED",
+      "19c50f57f7004d2a2c5c7d37a72ec13e110212298823420d9aae762a923ad0c5",
+      "1bbb9a20932b4fd8b4a22744a6c649f0c198c2af2e858c31c7e287b976135bca",
+      "2026-10-04 01:05:33.154093"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-000-276",
+      "CONTENT_CHANGED",
+      "3e3bd9091f2047edde90ebb962519b5171cd6b6a9ea6fd72be011ff170ed9952",
+      "479ee4778c7dcec01c115c5db7da49268f169a318575a9311021ff4c5e0251fa",
+      "2026-10-04 01:05:31.061469"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "CONTENT_CHANGED",
+      "f8b5ebc8b358ad02dfc6f1cef6505bedc9dc2dbda241cf923b3f40460c490b2e",
+      "37b550a46ba272d7238d94c84b6f66d6d0efa3b619fcb53749fd21cdc2195a56",
+      "2026-10-04 01:05:28.804449"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/other-categories/other/25-027-222",
+      "CONTENT_CHANGED",
+      "9e06ead9662cc87704f57b8aa7ae98fcaa3dc6b9f581cadb87801d33b52743af",
+      "43a4c22ac67a03e1b19d282d1006fb4487a0fe07b4b7e6022cdd9438b68ac8f7",
+      "2026-10-04 01:05:26.599153"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-014-956",
+      "CONTENT_CHANGED",
+      "3229d4f9e4a644dbce118b9e383788fc24eadcc02fd11d72b8aa68b740b23c15",
+      "512a43efc25969e582c5307dc743104e6af4d8faece7232b10e78bc1fb0687c7",
+      "2026-10-04 01:05:24.379842"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "08c1cb8f2b4b0b40fab5a1e23a08032e940f32ed568e4e934939b8b97242ed65",
+      "191cb834ea98a771473675b6e75f9203af6cc5697fbce8437ecaec784d0b7003",
+      "2026-10-04 01:05:22.901741"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "25b9b6d66c4fdae4c59fa2dec852242c61e7cad4803a8f9457df2314e0668bbb",
+      "08c1cb8f2b4b0b40fab5a1e23a08032e940f32ed568e4e934939b8b97242ed65",
+      "2026-10-04 01:05:21.738708"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "696e0f0e45dc671bc9f004cf34729ce5e5048d046bed141dd7dfff9db3518615",
+      "25b9b6d66c4fdae4c59fa2dec852242c61e7cad4803a8f9457df2314e0668bbb",
+      "2026-10-04 01:05:20.513913"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "d4583bb04a4b887aa45452a838e3386f8a2de5b300c7e3dc07b586b10c390402",
+      "696e0f0e45dc671bc9f004cf34729ce5e5048d046bed141dd7dfff9db3518615",
+      "2026-10-04 01:05:19.606001"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "37def73e50eb7f839bd1d77a3018f8c43377068bac8c025d1b6cfda372fbf1f1",
+      "d4583bb04a4b887aa45452a838e3386f8a2de5b300c7e3dc07b586b10c390402",
+      "2026-10-04 01:05:18.635683"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "88be7c212076f87438b44cf196eafe124c411ee0503c32e4b253c5527fa03b9c",
+      "37def73e50eb7f839bd1d77a3018f8c43377068bac8c025d1b6cfda372fbf1f1",
+      "2026-10-04 01:05:17.278007"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "d5da0de16a756c99580ac3848cad418e7029b6dbea2a0e9524890be8cac46d2b",
+      "88be7c212076f87438b44cf196eafe124c411ee0503c32e4b253c5527fa03b9c",
+      "2026-10-04 01:05:16.180277"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "0b3f7927891d16e95815a1e13f2fe2f37cb74f7c3b7ce80bf77dede4bf50164f",
+      "d5da0de16a756c99580ac3848cad418e7029b6dbea2a0e9524890be8cac46d2b",
+      "2026-10-04 01:05:15.154067"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "0b9f43eddd37d6335a420073a05ee2479ef7ceda3b30349d2d1effbc8eb1c85d",
+      "0b3f7927891d16e95815a1e13f2fe2f37cb74f7c3b7ce80bf77dede4bf50164f",
+      "2026-10-04 01:05:14.106215"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "353711369ac7ccf826a899e9614f97f556c0490d069cec97faa6e7be957cbb0d",
+      "0b9f43eddd37d6335a420073a05ee2479ef7ceda3b30349d2d1effbc8eb1c85d",
+      "2026-10-04 01:05:13.086712"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=3&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "84cc42e5bb05c8aa455f50dd394c63b71daef88a53fb677543d28dfa45cf6fc5",
+      "353711369ac7ccf826a899e9614f97f556c0490d069cec97faa6e7be957cbb0d",
+      "2026-10-04 01:05:12.043764"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "b7527ca9bb46ba87b9627dd76d0ca487927e56ec09c72115f7a4d9bf34f32092",
+      "44e1be9532446af499991f9e3dc932441558921a3b3d6790f4b3cb6096cbbf66",
+      "2026-10-04 01:05:11.001935"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "85d4bff96aec8d73059d14625fabc6991eb0d1dffa9cdfed0013bbeaf44a869d",
+      "b7527ca9bb46ba87b9627dd76d0ca487927e56ec09c72115f7a4d9bf34f32092",
+      "2026-10-04 01:05:09.546144"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "6a5ed5b47ef5c7a40a8d95a60dc6a5f7108ce60f44eb7aebe72cdb996fe253d9",
+      "85d4bff96aec8d73059d14625fabc6991eb0d1dffa9cdfed0013bbeaf44a869d",
+      "2026-10-04 01:05:08.540923"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=1&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "c8475f6331bd11491e2386b5b1b49bdff7ccb26d370eab42e94cecbde9cde002",
+      "5129bd8906de37b3bf77c4af0392b9bb55b590e037403e4a6754178cb3293365",
+      "2026-10-04 01:05:07.401379"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-005-984",
+      "CONTENT_CHANGED",
+      "ec2351f8977088d04cc231adccbdabc2f6ebdf191623cf5ccd22746efe534928",
+      "c2b3b6d377364c967ded2d9874f554ef80befefeffcdca8e20f9f353ec3f3932",
+      "2026-10-04 01:05:05.760545"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/25-017-563",
+      "CONTENT_CHANGED",
+      "6471f7bcd84e99d29691494ac9bfdcadb2148e86d4ccefae20cb176d34e58da5",
+      "f3c9b75aeec92dcbb8fb0302cd0614bc950d2aa69ef0b0bc0617ecc08c61afda",
+      "2026-10-04 01:05:04.285493"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-013-548",
+      "CONTENT_CHANGED",
+      "ae6f035932abbc3bb68d6ffa602b3568f130f4d5ba30044d9886801e5844bd28",
+      "8532987d110af684abf6c1be0581e471a65b92f863acebea4528fc610d58e1cf",
+      "2026-10-04 01:05:02.036934"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/planning/building-control/25-011-520",
+      "CONTENT_CHANGED",
+      "d4704d061c2b9d71e8c9ed604142b766eaa95073aeb9b79e4176062926f1cb80",
+      "6a3114994cdbea6480502181a28260a4282ae06a05b1ec9ae653dc627d97c96f",
+      "2026-10-04 01:04:59.836515"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-004-170",
+      "CONTENT_CHANGED",
+      "8120661f1a639d392057733e4cfbbd256fc88097d45b8225127a6e908fdb4605",
+      "174fee579f49218b494a975324de3c876f2b24bd79c962bd34ddb0879ba60f9a",
+      "2026-10-04 01:04:57.698607"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/other-categories/other/25-017-339",
+      "CONTENT_CHANGED",
+      "b6b0890c574f8a9a58679f16c61a8883a2e9b9062254bf3fa951eabe68c7c880",
+      "2be5fbd4f02017e35884a510cc8fcc6523d32ce398b2a0ab3bd7bbcae011dc6c",
+      "2026-10-04 01:04:55.650220"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/other-categories/other/25-021-461",
+      "CONTENT_CHANGED",
+      "50da6beb3b0da1903425d29b29767f3d99aa17f77244a28cc4e6f39921265aed",
+      "49db6d0a2fee7063dff910d054be6c74331accba4132be9e8538b955ca016013",
+      "2026-10-04 01:04:53.347327"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-022-299",
+      "CONTENT_CHANGED",
+      "27eb31d6190d5c98713d0ca1c9bab2da587c357f47ef3fceb479483d81a62280",
+      "41a7dc384fe74e6079461b9bfe8d27160f4e8df3ffc2157daf714bf5afca812b",
+      "2026-10-04 01:04:51.317925"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-023-647",
+      "CONTENT_CHANGED",
+      "5a325ca7bd9633d70cb3a3d9948c3b5ebbc92acfe4c86eaf9ac4079971bd2b78",
+      "7821666485975b825756ec7c32ec5aaf52394784f4846b8147170a46ae51435a",
+      "2026-10-04 01:04:49.692170"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-020-630",
+      "CONTENT_CHANGED",
+      "c016e390b85e1ac66340590387ddefcc91eaddf0ce07e54a9de4c6930ac19001",
+      "1f4c87862dcc09c632c6643dac0a575dff353d96d811e5ea0f7daa521dbb5f62",
+      "2026-10-04 01:04:47.405861"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "7f11746276b21a556b404013e1b00899abe70023b447efd5aba1828417e3cd1a",
+      "6a5ed5b47ef5c7a40a8d95a60dc6a5f7108ce60f44eb7aebe72cdb996fe253d9",
+      "2026-10-04 01:04:46.072202"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "40725476ab0a83e7a8237b8f177c485895837baa99bd824abe857a5e03888ef4",
+      "7f11746276b21a556b404013e1b00899abe70023b447efd5aba1828417e3cd1a",
+      "2026-10-04 01:04:45.101604"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "c804bdce743d091ad51fc38cad3ec5650efce127f4a59e5a54cd1973ba7d975b",
+      "40725476ab0a83e7a8237b8f177c485895837baa99bd824abe857a5e03888ef4",
+      "2026-10-04 01:04:44.086112"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "56087b5d8d762d3260a5d8ffc9128b2898fc9697e5db879e9110d585710b779a",
+      "c804bdce743d091ad51fc38cad3ec5650efce127f4a59e5a54cd1973ba7d975b",
+      "2026-10-04 01:04:43.083203"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "dc3952b217b71b6efb2b8415571c07e7092173540e28803f0cf402b5d419aedd",
+      "56087b5d8d762d3260a5d8ffc9128b2898fc9697e5db879e9110d585710b779a",
+      "2026-10-04 01:04:41.892286"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "263c96e743ce9ecc48b3068840068a983dc2c0fc0548138fedddb017313e0cfa",
+      "dc3952b217b71b6efb2b8415571c07e7092173540e28803f0cf402b5d419aedd",
+      "2026-10-04 01:04:40.831697"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "bec4013334ebdde0c0178bf350fb0f87d9bab2a3eb6a8f3e403c6e73b6dd3aac",
+      "263c96e743ce9ecc48b3068840068a983dc2c0fc0548138fedddb017313e0cfa",
+      "2026-10-04 01:04:39.697434"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "449dc176126bde148fc2ac0476bd41451bd50013e6a1811d359a9788442f6d23",
+      "bec4013334ebdde0c0178bf350fb0f87d9bab2a3eb6a8f3e403c6e73b6dd3aac",
+      "2026-10-04 01:04:38.669756"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "afc2fe0c6c5969db7dfd1ddff24cc633371908ac20fc8f32250af7dd436e6d93",
+      "449dc176126bde148fc2ac0476bd41451bd50013e6a1811d359a9788442f6d23",
+      "2026-10-04 01:04:37.628939"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "16a0a3ec2669c75949088036cd56e87feb9574b6b258a0bd1937a46d00ee7789",
+      "afc2fe0c6c5969db7dfd1ddff24cc633371908ac20fc8f32250af7dd436e6d93",
+      "2026-10-04 01:04:36.693458"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&page=2&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "bde940f222067744f969b51867836d1607c42276bd0edb90046630d97ed22db3",
+      "16a0a3ec2669c75949088036cd56e87feb9574b6b258a0bd1937a46d00ee7789",
+      "2026-10-04 01:04:35.572439"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "eb4c0267681988e5a03d023f4e4a6b724299699df894316c464333b6b560d6fa",
+      "0122d9e528159e3f227ea756a9dd1f2133a1f7bdab366385761335a810d558fc",
+      "2026-10-04 01:04:34.393707"
+    ],
+    [
+      "lgsco_cumberland",
+      "https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland+Council&dc=c%2Bnu%2Bu%2B&sortOrder=descending",
+      "CONTENT_CHANGED",
+      "2d0df495573b554cf4a306ed1d11505f79c2c219d8d9fc184905f9b2818eabd8",
+      "eb4c0267681988e5a03d023f4e4a6b724299699df894316c464333b6b560d6fa",
+      "2026-10-04 01:04:33.309650"
+    ]
+  ]
+}

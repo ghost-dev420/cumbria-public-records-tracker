@@ -1,0 +1,22 @@
+{
+  "entity_id": "700e8f2eb579dbb05d4b304a6bc70891e1e8e73f0f0adbb8f6e76c1c43f518cb",
+  "entity_type": "SUPPLIER",
+  "name": "Lakeland Pest and Wildlife Services",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a465da48cc0be9a86cd740e889178b4c5fcbe96e85f96ee643c6c7dfc4f227ee",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "650.00",
+      "locator": "XLSX Sheet 1!row 247",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

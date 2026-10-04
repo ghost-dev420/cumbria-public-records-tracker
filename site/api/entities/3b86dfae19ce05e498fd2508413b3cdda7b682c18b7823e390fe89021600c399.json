@@ -1,0 +1,22 @@
+{
+  "entity_id": "3b86dfae19ce05e498fd2508413b3cdda7b682c18b7823e390fe89021600c399",
+  "entity_type": "SUPPLIER",
+  "name": "INSTITUTE OF LICENSING",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "44b3a0f8f9c68370ca111e7245659931ee2543c2735e5268890e3a01b5c3688e",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "310.00",
+      "locator": "XLSX Sheet1!row 472",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

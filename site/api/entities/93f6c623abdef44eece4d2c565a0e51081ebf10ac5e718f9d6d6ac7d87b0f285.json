@@ -1,0 +1,36 @@
+{
+  "entity_id": "93f6c623abdef44eece4d2c565a0e51081ebf10ac5e718f9d6d6ac7d87b0f285",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2025 to 2026: Kendal Bowling Club [fb099523e9c92b5c0d8e]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "a689a86c40792f4f71da1499b5fa06d8356fad46a37336714dd1e438ed256b5f",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 1",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "2ef2e19dcf465bf86082019d48569276b0e3a06234918fa1ab164b9dc1e4981b",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 1",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Kendal Bowling Club"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "4f836cd40383655778b074f7aad9057738796d381522a2d656761687c8a4c4a5",
+  "entity_type": "SUPPLIER",
+  "name": "Eibe Play Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2fd781ed2eeeb916f0dafc201243a86905cf65c205e97afb9059a68f4102b0a9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-d7b9735b-bdf6-486b-9016-37ddf7b9fb4e-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Design and Install a Playground at Hawthorn Gardens, Kendal via ESPO Framework 115_25 Lot 1",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/28b46a2f-7650-45ed-8461-8b99779c8a81-905653.json",
+      "published_at": "2026-07-10T14:50:43+01:00",
+      "retrieved_at": "2026-10-03 23:36:35.599789",
+      "sha256": "51567b488eb94e6a2fa18896b7236911569129e32cca09d588b329e5a3c12113",
+      "related_entity": "ocds-b5fd17-d7b9735b-bdf6-486b-9016-37ddf7b9fb4e:ocds-b5fd17-d7b9735b-bdf6-486b-9016-37ddf7b9fb4e-1"
+    }
+  ]
+}

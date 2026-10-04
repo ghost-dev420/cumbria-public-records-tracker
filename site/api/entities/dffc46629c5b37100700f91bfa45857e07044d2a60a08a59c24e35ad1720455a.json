@@ -1,0 +1,22 @@
+{
+  "entity_id": "dffc46629c5b37100700f91bfa45857e07044d2a60a08a59c24e35ad1720455a",
+  "entity_type": "WARD",
+  "name": "Brampton",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8102d65c5a80d72b283637135372718df0c1f36e2c5b3adda9f0c2c83b727f9a",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Brampton",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Mike Mitchelson"
+    }
+  ]
+}

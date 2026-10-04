@@ -1,0 +1,22 @@
+{
+  "entity_id": "6f8672dd9efc0b1305cb9a064001b945aad532edef2710a55228eecad5984449",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Environment and Economy Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bf7c3a4bb7d8e25c7c5faa9bb8827317de5df2dd3308e235f9170f575845fc1e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Environment and Economy Scrutiny Committee",
+      "locator": "committee 728",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

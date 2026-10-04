@@ -1,0 +1,22 @@
+{
+  "entity_id": "e8283dda4c9411fecf1d900f9fe045f2db5aa84ecd9be90c181a1b86715e53e7",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Copeland Area Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "302b19e010bd9697ade406005e23be8f74f603d1b49520d1bba7845af8c3b0ac",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Copeland Area Committee",
+      "locator": "committee 722",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

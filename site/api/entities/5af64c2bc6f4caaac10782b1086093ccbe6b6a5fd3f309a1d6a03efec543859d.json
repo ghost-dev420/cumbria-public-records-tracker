@@ -1,0 +1,78 @@
+{
+  "entity_id": "5af64c2bc6f4caaac10782b1086093ccbe6b6a5fd3f309a1d6a03efec543859d",
+  "entity_type": "SUPPLIER",
+  "name": "n & c taxi services",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "3371f52918cd93a5ad1b58c68829e18ab8708c066b0506545eb556a621efb387",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-dafe814d-2da6-4852-b7ce-5f1d91cb86d4-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats closing 6 July 2026 (PRU F47)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ed428fcb-5683-4cf2-b8e3-87d60a6a80c1-905178.json",
+      "published_at": "2026-07-08T11:27:14+01:00",
+      "retrieved_at": "2026-10-03 23:36:19.149235",
+      "sha256": "45896f2e969a1e1343f7900623eaba14d7ea117ec81b1c0d22841f514356daec",
+      "related_entity": "ocds-b5fd17-dafe814d-2da6-4852-b7ce-5f1d91cb86d4:ocds-b5fd17-dafe814d-2da6-4852-b7ce-5f1d91cb86d4-1"
+    },
+    {
+      "fact_id": "21a15ad9cfd6bc1b4f2f145cd1fa306063647bbd424a81798fb4755d00bddb67",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-4bba3587-133e-4db7-a4b2-cd498bcedf6b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a up to 8 passenger seats for Cumberland Council closing 29 May 2026 (PRU F43)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5ed759b7-202c-4eca-81ad-43edcf361533-901101.json",
+      "published_at": "2026-06-08T13:11:17+01:00",
+      "retrieved_at": "2026-10-03 23:31:20.592409",
+      "sha256": "0c5cee27076e6ec8cdaa9339a98f9bbc63df93ba4136648494d7d9297205a34a",
+      "related_entity": "ocds-b5fd17-4bba3587-133e-4db7-a4b2-cd498bcedf6b:ocds-b5fd17-4bba3587-133e-4db7-a4b2-cd498bcedf6b-1"
+    },
+    {
+      "fact_id": "86d47e68ca27fc43815ca4b9e73c8e516d8a3c33cc1c418f96186826bad81cd2",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-ac9e0a8d-3fd8-4f8d-b3b0-8031bb342219-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a for Cumberland Council closing 5 May 2026 (PRU F41)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ab5b4edc-27e5-465c-8848-54c0d01c31ab-895949.json",
+      "published_at": "2026-05-05T14:15:31+01:00",
+      "retrieved_at": "2026-10-03 23:25:47.819490",
+      "sha256": "1e59e38c031878eed7ea6e686060f0fa3e6ee559b0db17b88f12335644d8923b",
+      "related_entity": "ocds-b5fd17-ac9e0a8d-3fd8-4f8d-b3b0-8031bb342219:ocds-b5fd17-ac9e0a8d-3fd8-4f8d-b3b0-8031bb342219-1"
+    },
+    {
+      "fact_id": "6f42d2fe13cd24d328c3cd44368cbf746f9d073fb134d51d7060f5f6f327a012",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-95d9c2eb-e927-4a79-a89b-6f23d04b0b35-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats closing 9 February 2026 (PRU F31)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/09230e24-fded-4112-8f4f-37aee7fbf432-884221.json",
+      "published_at": "2026-02-17T09:14:17Z",
+      "retrieved_at": "2026-10-03 23:08:41.252001",
+      "sha256": "d154d2e7f5593d9ee55a979449c144118241568adbaffdde2de7690e77881aaf",
+      "related_entity": "ocds-b5fd17-95d9c2eb-e927-4a79-a89b-6f23d04b0b35:ocds-b5fd17-95d9c2eb-e927-4a79-a89b-6f23d04b0b35-1"
+    },
+    {
+      "fact_id": "7da82cc344f8a68f56d1beb2d5ec912e6b920fc602d8983afaaa6894485c5c69",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-accf5123-3623-48bc-8ea7-484bc4a58228-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a for Cumberland Council closing 22 December 2025 (PRU F26)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/307f0081-c2f5-4009-bb05-96258b0a1828-877770.json",
+      "published_at": "2026-01-02T11:21:56Z",
+      "retrieved_at": "2026-10-03 23:01:49.335172",
+      "sha256": "5679d7763d7664b9b2bcbcc8185ee4d92ac243934a9536621ffb75750389e68c",
+      "related_entity": "ocds-b5fd17-accf5123-3623-48bc-8ea7-484bc4a58228:ocds-b5fd17-accf5123-3623-48bc-8ea7-484bc4a58228-1"
+    }
+  ]
+}

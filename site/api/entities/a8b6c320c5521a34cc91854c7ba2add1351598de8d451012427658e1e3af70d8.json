@@ -1,0 +1,22 @@
+{
+  "entity_id": "a8b6c320c5521a34cc91854c7ba2add1351598de8d451012427658e1e3af70d8",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Policy and Resources Emergency Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c60f8d1758d4044850aea0e707bcd47293aec7505976699983ecf4a249406286",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Policy and Resources Emergency Sub-Committee",
+      "locator": "committee 714",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

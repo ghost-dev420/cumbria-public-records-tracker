@@ -1,0 +1,36 @@
+{
+  "entity_id": "50e8765885d0f830523e3288fa4ef3d1a95048c08d04b91c88622bee98898d52",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Kendal Badminton Club [f5117d26cb04a8c69a25]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "5bf6d305576f66ff6cc0fe5e2ad7c8c13cb8311fe501d1f9fd11c79be7f83413",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "249",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 1",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "2592ae7b8cf45f2b9e35de458c10449bc3fd83e3ecf46787342e473f9f81a848",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "249",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 1",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Kendal Badminton Club"
+    }
+  ]
+}

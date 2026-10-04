@@ -1,0 +1,22 @@
+{
+  "entity_id": "f504bb64a548dd4f022e9b9534e68b5694ae95d028bf0d390a1e0f7a9a8ee65a",
+  "entity_type": "SUPPLIER",
+  "name": "Econ Engineering Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4e2c3ba9c4f4770daf6c978a7b8f97652b86fd2bf5dbd9e2662992d9307e5e69",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-f518c523-6d8e-4f7e-8f46-97d3db3afc42-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "GB-Carlisle: TPPL Cumberland Council NEPO HGV Lot 4 - 23 x Gritters (29639)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0426bc65-5032-46ba-89fa-2ad0c420a4f9-892402.json",
+      "published_at": "2026-04-10T11:30:20+01:00",
+      "retrieved_at": "2026-10-03 23:20:59.103495",
+      "sha256": "832f5b4483cffd43e35cc95772b841877ba10ed1293be5479db8a909d2cfa7fa",
+      "related_entity": "ocds-b5fd17-f518c523-6d8e-4f7e-8f46-97d3db3afc42:ocds-b5fd17-f518c523-6d8e-4f7e-8f46-97d3db3afc42-1"
+    }
+  ]
+}

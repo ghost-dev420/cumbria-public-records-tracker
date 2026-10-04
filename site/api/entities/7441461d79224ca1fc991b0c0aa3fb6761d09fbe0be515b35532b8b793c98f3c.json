@@ -1,0 +1,22 @@
+{
+  "entity_id": "7441461d79224ca1fc991b0c0aa3fb6761d09fbe0be515b35532b8b793c98f3c",
+  "entity_type": "SUPPLIER",
+  "name": "Exchange Chambers",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d68bd63857fc2a6f504e90d0343d20ae795cc29e83e5e91560b66211102b33b0",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "750.00",
+      "locator": "XLSX Sheet1!row 247",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

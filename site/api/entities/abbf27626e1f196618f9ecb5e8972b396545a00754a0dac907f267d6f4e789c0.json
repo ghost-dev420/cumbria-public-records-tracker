@@ -1,0 +1,78 @@
+{
+  "entity_id": "abbf27626e1f196618f9ecb5e8972b396545a00754a0dac907f267d6f4e789c0",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-023-383",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "fdaeee6fb4cc4e777217deca9cf5480b0e050a341bd2dda4a14b70a236d1478e",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-023-383",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 023 383)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-023-383",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:20.096580",
+      "sha256": "0d3cc71c2267524a6af8ae43eb421ea3d4fb517fe48f0bcaed4be676e90d19aa",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "39c72f00c06769711e27bb2636c2d74e142018f6abd80207df7db8020623aecb",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Education",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 023 383)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-023-383",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:20.096580",
+      "sha256": "0d3cc71c2267524a6af8ae43eb421ea3d4fb517fe48f0bcaed4be676e90d19aa",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "18c20b913ada348f57a6a589f47c19a8d974b93eea97a4319b918b41485b5430",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 023 383)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-023-383",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:20.096580",
+      "sha256": "0d3cc71c2267524a6af8ae43eb421ea3d4fb517fe48f0bcaed4be676e90d19aa",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "0cfcbb2750f1c7c0013b1ae8824de6fd8f38b9e84870f1b661385b72b15eba65",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "27 May 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 023 383)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-023-383",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:20.096580",
+      "sha256": "0d3cc71c2267524a6af8ae43eb421ea3d4fb517fe48f0bcaed4be676e90d19aa",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "a71a20134e8625930339ffe2518bc668c23d4e7be1c0020b1fbb86d4becf5a60",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Ms X’s complaint about the Council’s handling of Mr Y’s Education, Health and Care Plan and its failure to arrange alternative provision between 2017 and March 2024. This is because the complaint is late. Ms X’s complaint about matters from March 2024 onwards is premature.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 023 383)",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-023-383",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:20.096580",
+      "sha256": "0d3cc71c2267524a6af8ae43eb421ea3d4fb517fe48f0bcaed4be676e90d19aa",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

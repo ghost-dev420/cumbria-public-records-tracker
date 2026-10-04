@@ -1,0 +1,22 @@
+{
+  "entity_id": "a28eb845ec71b6c0850704fc120267618baa8849826a6004db87817a9e7f1868",
+  "entity_type": "SUPPLIER",
+  "name": "Roland Hill (Parsonby) Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cb3d3eed2624581397ffd94be77e24309c41f33966b00ca6f5c5dfe364c1b9a0",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5014e6dd-cd88-4121-8e32-270d7e7fcc99-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 1A  Askam In Furness Library Maintenance Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/79cc41dd-9dd9-4c11-8641-f452e75f492c-878780.json",
+      "published_at": "2026-01-12T14:15:35Z",
+      "retrieved_at": "2026-10-03 23:02:54.784577",
+      "sha256": "da89f069be6e6458e3ebbad9c34f7d7786a7fc562e9c7546beaa7292e4bb2a77",
+      "related_entity": "ocds-b5fd17-5014e6dd-cd88-4121-8e32-270d7e7fcc99:ocds-b5fd17-5014e6dd-cd88-4121-8e32-270d7e7fcc99-1"
+    }
+  ]
+}

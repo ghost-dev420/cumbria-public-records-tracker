@@ -1,0 +1,22 @@
+{
+  "entity_id": "9d840d98a5b75849afa8b8a5fa45013c827b8263b706a472a96291057c28e387",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Audit and Assurance Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0248366b938c6173747cd94d3d1d897e70c550c5f1737c6b6105d9d9ac63a1d9",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Audit and Assurance Committee",
+      "locator": "committee 651",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

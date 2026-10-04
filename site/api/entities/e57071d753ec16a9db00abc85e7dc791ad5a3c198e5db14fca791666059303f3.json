@@ -1,0 +1,22 @@
+{
+  "entity_id": "e57071d753ec16a9db00abc85e7dc791ad5a3c198e5db14fca791666059303f3",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Joint Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bfb1ce16a1c1d617445e6b73124b5aab7c2b98542303d27fe8f668d7b1f7b7bc",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Joint Scrutiny Committee",
+      "locator": "committee 667",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "7a64b4e5b6d4280c89e67c3ec8003407d8294c2a84e2f995d9d819907147e32c",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Shit Runners Club [6d2f7db93e44a946a16d]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "704addb503cb6068dde2ef97ee070d3c2b9e900ab1fe1d3d70a6ec513f2c426e",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 1",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "f0be0b1f561d0f7accfae51582c78a8b096db3ea704ba7570e00872bfa846661",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 1",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Shit Runners Club"
+    }
+  ]
+}

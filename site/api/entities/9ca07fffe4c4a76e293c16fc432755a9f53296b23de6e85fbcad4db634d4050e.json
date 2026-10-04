@@ -1,0 +1,22 @@
+{
+  "entity_id": "9ca07fffe4c4a76e293c16fc432755a9f53296b23de6e85fbcad4db634d4050e",
+  "entity_type": "COMMITTEE",
+  "name": "Shadow Overview and Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "25b6aa2103f63ac06931c953452d5fbf92253e926bc86d8262f5fdc23d897535",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Shadow Overview and Scrutiny Committee",
+      "locator": "committee 142",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

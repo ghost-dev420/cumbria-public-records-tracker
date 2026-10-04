@@ -1,0 +1,22 @@
+{
+  "entity_id": "a4f294cda6dd54c9926af7804ce8066ef8b4678ceded0baaece59309e7ec5984",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Green Growth Portfolio Holder Meeting",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "276b1c3291457273a70582d36912961a2c1879ab9a3199b3cfc6ca9768bf4392",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Green Growth Portfolio Holder Meeting",
+      "locator": "committee 730",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

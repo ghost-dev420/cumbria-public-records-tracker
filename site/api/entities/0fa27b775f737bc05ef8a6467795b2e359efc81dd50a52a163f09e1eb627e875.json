@@ -1,0 +1,36 @@
+{
+  "entity_id": "0fa27b775f737bc05ef8a6467795b2e359efc81dd50a52a163f09e1eb627e875",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Burton Memorial Hall [06400b46a4c263ca3ae2]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "178d152a6a5892d389c01b84030016dcbbf05e8192dd3ca7264ef37253815fb1",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "307",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 20",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "ef9558cd6fad9ef537c1bd64cdcb6af94f462b05822eb9b556206bfc6295aefe",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "307",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 20",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:07:02.531125",
+      "sha256": "6de220ad035a46a6e6aa43e863b499002e9044aedb8677d17b6f7708949db821",
+      "related_entity": "Burton Memorial Hall"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "214b2b0516fd7d52fe20cad578b12437586c89edd39dc4e3d2e43d7dc98cf06e",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-022-035",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "51381a9f51d29e75aafd8e7b13f21cd7e36cc841f7f4491cb989046e65de57d5",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-022-035",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 035)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/other/24-022-035",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:22.068440",
+      "sha256": "afb5b3b4696e209d4e53c7189377da5366786b125bb356d1f84630efc8fc8f1e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "5f16c2270cd90c9008c8542df9ab8371418c4eb683edf23a1bdcc88d44e2b9dc",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 035)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/other/24-022-035",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:22.068440",
+      "sha256": "afb5b3b4696e209d4e53c7189377da5366786b125bb356d1f84630efc8fc8f1e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "6531bce4536476458e0c0c60d421634f6fd568399828f33cc4cd33a612d4d751",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 035)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/other/24-022-035",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:22.068440",
+      "sha256": "afb5b3b4696e209d4e53c7189377da5366786b125bb356d1f84630efc8fc8f1e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "0eb071d9af54b9ea4bebf8c51f6e87a4def7c0538f0bbcebf2a92e09403810ad",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "20 May 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 035)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/other/24-022-035",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:22.068440",
+      "sha256": "afb5b3b4696e209d4e53c7189377da5366786b125bb356d1f84630efc8fc8f1e",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "5a043ab0d90fe9eea986a4146d27fa2c7652ca0ca856a63888d798aef356a52e",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mrs X’s complaint about the Council not removing a vehicle parked near her property and delay in it dealing with her complaint. There is not enough evidence of fault by the Council to warrant an investigation. There is insufficient significant injustice to Mrs X to justify us investigating. We do not investigate council complaint handling where we are not investigating the matters giving rise to the complaint.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 022 035)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/other/24-022-035",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:22.068440",
+      "sha256": "afb5b3b4696e209d4e53c7189377da5366786b125bb356d1f84630efc8fc8f1e",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

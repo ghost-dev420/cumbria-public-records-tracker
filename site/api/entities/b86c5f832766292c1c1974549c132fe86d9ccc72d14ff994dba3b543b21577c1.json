@@ -1,0 +1,22 @@
+{
+  "entity_id": "b86c5f832766292c1c1974549c132fe86d9ccc72d14ff994dba3b543b21577c1",
+  "entity_type": "SUPPLIER",
+  "name": "THE LEARN CENTRE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bf8f0aec568c5dfa12af0909f7bf96109ef93da3defa054bbba823bc81160719",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1604.40",
+      "locator": "XLSX Report!row 301",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

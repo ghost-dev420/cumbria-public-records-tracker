@@ -1,0 +1,36 @@
+{
+  "entity_id": "c49696914e98a3b86273e2ab3d075cbd34a6e84f54ad7fa898ad27c08cf7ca36",
+  "entity_type": "WARD",
+  "name": "Kirkby Stephen and Tebay",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "aa6090e2714df2e8c741eec01da4c07c3f095afb43fb8d2771ad246964f6b56d",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Kirkby Stephen and Tebay",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Adrian Waite"
+    },
+    {
+      "fact_id": "d4ab47d9d85da340e27b7732e7be599679323e600363ddcb2d856807571b200d",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Kirkby Stephen and Tebay",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "John Murray"
+    }
+  ]
+}

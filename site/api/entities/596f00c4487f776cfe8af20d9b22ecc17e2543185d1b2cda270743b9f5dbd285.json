@@ -1,0 +1,22 @@
+{
+  "entity_id": "596f00c4487f776cfe8af20d9b22ecc17e2543185d1b2cda270743b9f5dbd285",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Joint Manual Workers Consultative Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9a92521f3438e3858934d8461943a82149b6d865f65866516b8f5a52ed4da251",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Joint Manual Workers Consultative Group",
+      "locator": "committee 551",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

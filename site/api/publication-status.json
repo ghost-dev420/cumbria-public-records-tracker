@@ -1,0 +1,28 @@
+[
+  {
+    "source_id": "cumberland_transparency",
+    "dataset": "Spending over £250",
+    "status": "present",
+    "cadence_days": 45,
+    "grace_days": 20,
+    "basis": "Configured publication expectation from official source series",
+    "last_checked": "2026-10-03 22:48:20.559453",
+    "last_snapshot": "2026-10-03 22:48:20.361599",
+    "age_days": 1,
+    "http_status": null,
+    "error_message": null
+  },
+  {
+    "source_id": "westmorland_furness_spending",
+    "dataset": "Spending over £250",
+    "status": "present",
+    "cadence_days": 45,
+    "grace_days": 20,
+    "basis": "Configured publication expectation from official source series",
+    "last_checked": "2026-10-03 22:50:24.399967",
+    "last_snapshot": "2026-10-03 22:50:22.765730",
+    "age_days": 1,
+    "http_status": null,
+    "error_message": null
+  }
+]

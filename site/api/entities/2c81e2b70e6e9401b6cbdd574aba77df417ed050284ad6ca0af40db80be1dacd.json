@@ -1,0 +1,22 @@
+{
+  "entity_id": "2c81e2b70e6e9401b6cbdd574aba77df417ed050284ad6ca0af40db80be1dacd",
+  "entity_type": "SUPPLIER",
+  "name": "Hobans Contracting Cars",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1983f90584e8f818dc8ddda134ad3fd5520d4084a266d6522eb4783dd33427d6",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-11d35344-9f45-4e36-8293-d21f4cf9f75b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1b - in the Eden and South Lakeland areas closing 2 August 2023",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9e626fb0-b589-4add-a082-4e9869ca98d9-891768.json",
+      "published_at": "2026-04-07T11:47:30+01:00",
+      "retrieved_at": "2026-10-03 23:18:28.001115",
+      "sha256": "ff591a235ffcf1366d356ed7c901d47d61eb85df9fdec40604e535b8c758c777",
+      "related_entity": "ocds-b5fd17-11d35344-9f45-4e36-8293-d21f4cf9f75b:ocds-b5fd17-11d35344-9f45-4e36-8293-d21f4cf9f75b-1"
+    }
+  ]
+}

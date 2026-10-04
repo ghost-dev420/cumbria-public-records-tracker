@@ -1,0 +1,22 @@
+{
+  "entity_id": "d70d5ad739a91352221fec74ebe234ca7ff0da91ec11216eaae1a82a45dba60a",
+  "entity_type": "SUPPLIER",
+  "name": "4-5 GRAYS INN SQUARE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "45e463ce75ade711cc003902e77d7f32aae3cb1275b7da9f76cbfda6d17297c5",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2500.00",
+      "locator": "XLSX Report!row 322",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

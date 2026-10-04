@@ -1,0 +1,78 @@
+{
+  "entity_id": "214d59e58e60f73e1d13830c66d54fcc4ce80929efbe66fbabdc2c7326005f64",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-027-300",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "b5fa16c89641aadf3fec00b5aee0f3f51ac2fe8a8f23c9456c24ef558ab17df7",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-027-300",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 027 300)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-027-300",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:33.104818",
+      "sha256": "3c97d74c1dfb6e4ffbad163106ecfad8eb6b727cc87607ee03b83273584bf429",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "6b9b19487ac1c66a36e87187b6cefb00ebe4aa57442d00b2c813a164f7f24044",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 027 300)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-027-300",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:33.104818",
+      "sha256": "3c97d74c1dfb6e4ffbad163106ecfad8eb6b727cc87607ee03b83273584bf429",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "19055cca036309358cbf590a4c0c1dcf1615522c73aeed8e6bff61f3f821383a",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 027 300)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-027-300",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:33.104818",
+      "sha256": "3c97d74c1dfb6e4ffbad163106ecfad8eb6b727cc87607ee03b83273584bf429",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "01552429398a4efb82da881c83cdfa6a537d47c24c9f95e42682d85dddc1020f",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "19 Feb 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 027 300)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-027-300",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:33.104818",
+      "sha256": "3c97d74c1dfb6e4ffbad163106ecfad8eb6b727cc87607ee03b83273584bf429",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "bf40a889787fd9b3f4ed7d75bdd081fa7dc3e50eb44475f7d61520c3f6f8bbf9",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr B’s complaint about a missed garden waste collection. This is because Mr B has not suffered a serious or significant injustice which would justify public money being spent on an investigation or the pursuit of a financial remedy.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 027 300)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-027-300",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:33.104818",
+      "sha256": "3c97d74c1dfb6e4ffbad163106ecfad8eb6b727cc87607ee03b83273584bf429",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

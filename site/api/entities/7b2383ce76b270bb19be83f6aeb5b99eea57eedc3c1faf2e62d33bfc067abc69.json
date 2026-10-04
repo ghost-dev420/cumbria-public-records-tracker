@@ -1,0 +1,22 @@
+{
+  "entity_id": "7b2383ce76b270bb19be83f6aeb5b99eea57eedc3c1faf2e62d33bfc067abc69",
+  "entity_type": "SUPPLIER",
+  "name": "ASSOCIATION OF DEMOCRATIC SERVICES OFFICERS LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "db61a951517172127c0002d893a73939660d85a87231ab01caa022e0b953cd83",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "247.50",
+      "locator": "XLSX Sheet1!row 528",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

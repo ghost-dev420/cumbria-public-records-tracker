@@ -1,0 +1,22 @@
+{
+  "entity_id": "fec941821696d7cad2980aca0abb31dc048e13229b1563f8e3a4924d435d1cdd",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Staff Employer Cabinet Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "183d388f42eb56b6b43a3ee61ca9589a369734c23b70e8c77e49a2dd263fa51e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Staff Employer Cabinet Sub-Committee",
+      "locator": "committee 625",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "594c505ef7f58ae01b89f659c38bcfc1d3d27ff57ae228af73658e6e9ca6a77f",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Induction Pack - Westmorland and Furness South Lakeland",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b18eb806a7f616b51504fc6838e082478a2fe1a93c9eef19b89404d36d1745d8",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Induction Pack - Westmorland and Furness South Lakeland",
+      "locator": "committee 677",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

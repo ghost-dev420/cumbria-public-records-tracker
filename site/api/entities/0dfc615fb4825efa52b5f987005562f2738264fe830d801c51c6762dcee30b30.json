@@ -1,0 +1,22 @@
+{
+  "entity_id": "0dfc615fb4825efa52b5f987005562f2738264fe830d801c51c6762dcee30b30",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Options for Carlise City Council's Property Portfolio",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9b822ee61688d47440aff2e53dbee42878ded769ae826b06f59878e23b4fcded",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Options for Carlise City Council's Property Portfolio",
+      "locator": "committee 533",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

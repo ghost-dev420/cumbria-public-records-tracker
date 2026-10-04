@@ -1,0 +1,36 @@
+{
+  "entity_id": "0a0a70c5fa79588535aaf322fa4fa4d7032a6cd1179a6530c2a92ce87fd9288b",
+  "entity_type": "WARD",
+  "name": "Sedbergh and Kirkby Lonsdale",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "9d2ef5d6d4d75640de5c3a819d7033be5932aa84e2873a882f86da8cec1625f8",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Sedbergh and Kirkby Lonsdale",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Hazel Hodgson"
+    },
+    {
+      "fact_id": "af749d75e571bc2d871f78cadcc044a2b7ba00ad82eaaa26d1cc09ca8317fe5f",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Sedbergh and Kirkby Lonsdale",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Ian Mitchell"
+    }
+  ]
+}

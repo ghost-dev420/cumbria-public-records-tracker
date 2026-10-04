@@ -1,0 +1,22 @@
+{
+  "entity_id": "a75f52f9acc26d6decec35a204be913aa829043130bc281eb1f08d339ed11cec",
+  "entity_type": "SUPPLIER",
+  "name": "A-HA DISTRIBUTION LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8a3c70c547d41c77c5d59d29119a70536846cd1cf633adcaefe77a7f857d7033",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "540.00",
+      "locator": "XLSX Sheet 1!row 293",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

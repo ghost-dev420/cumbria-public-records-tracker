@@ -1,0 +1,22 @@
+{
+  "entity_id": "51d2fcfd36aa7e008596d37a7ea1c316ebd29f4a0f24830dbadb12de29c70baf",
+  "entity_type": "SUPPLIER",
+  "name": "Align Property Partners Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7a7e13ae8a2919a7e3eb44a17a933f1fa98e839bd44004ade4f08b29f285ab53",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-8ed87eab-3906-4ce9-9fe2-eed5c0d4f1a4-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "PSF4 Lot 3b - Prioritised Capital Maintenance Programme - School Properties  2026/27",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4c9c6674-e35d-413b-8e0a-b4d86959b328-875585.json",
+      "published_at": "2025-12-11T12:53:09Z",
+      "retrieved_at": "2026-10-03 22:59:36.147386",
+      "sha256": "9ddaed213ac2be381146b7c6e4ba4d045a14cc239ccf42edb4940c648077d2e9",
+      "related_entity": "ocds-b5fd17-8ed87eab-3906-4ce9-9fe2-eed5c0d4f1a4:ocds-b5fd17-8ed87eab-3906-4ce9-9fe2-eed5c0d4f1a4-1"
+    }
+  ]
+}

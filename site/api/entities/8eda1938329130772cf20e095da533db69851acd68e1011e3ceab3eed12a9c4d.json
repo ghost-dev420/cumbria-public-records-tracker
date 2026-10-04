@@ -1,0 +1,22 @@
+{
+  "entity_id": "8eda1938329130772cf20e095da533db69851acd68e1011e3ceab3eed12a9c4d",
+  "entity_type": "SUPPLIER",
+  "name": "Airbus Defence and Space Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b20fb12a755331d8d54766352ff437987999627bb4178f2336079513ba928249",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-9969e221-3120-4efd-a362-600b84b15199-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CFRS MDT Support & Maintenance",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/34a7fe27-fe6c-4e60-8a85-566f803baef6-869472.json",
+      "published_at": "2025-10-23T15:30:28+01:00",
+      "retrieved_at": "2026-10-03 22:54:52.094972",
+      "sha256": "3d2cf6a326984fda73816a08bd7b6f27ceae2476e51290d914b677863f3222ef",
+      "related_entity": "ocds-b5fd17-9969e221-3120-4efd-a362-600b84b15199:ocds-b5fd17-9969e221-3120-4efd-a362-600b84b15199-1"
+    }
+  ]
+}

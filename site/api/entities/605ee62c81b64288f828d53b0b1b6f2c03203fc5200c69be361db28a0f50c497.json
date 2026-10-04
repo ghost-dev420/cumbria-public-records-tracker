@@ -1,0 +1,78 @@
+{
+  "entity_id": "605ee62c81b64288f828d53b0b1b6f2c03203fc5200c69be361db28a0f50c497",
+  "entity_type": "SUPPLIER",
+  "name": "Stobbarts Ltd",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "fff7a2ee2b576130882199872b7080e2d2afc67b5426632e2bfd9511875099cd",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-c21e39a4-248b-4c48-b2d6-67c383e31530-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Minor Works Framework - Unit 16 Leconfield Industrial Estate - reroofing",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/60d24d77-e699-4983-8b6c-a27e3053de1b-910662.json",
+      "published_at": "2026-08-13T15:27:52+01:00",
+      "retrieved_at": "2026-10-03 23:42:10.938542",
+      "sha256": "4cf9809cccc3833c0c23ab7fd3a6aca779c9ec36ab6564f415070cafb3e5fd8d",
+      "related_entity": "ocds-b5fd17-c21e39a4-248b-4c48-b2d6-67c383e31530:ocds-b5fd17-c21e39a4-248b-4c48-b2d6-67c383e31530-1"
+    },
+    {
+      "fact_id": "0f180e0060c70e4ab9ff0aec0faf61f78a1e5156f40beaf2186b064dd2f5b7f5",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-56e835ac-084c-4cb2-ab16-66774424f851-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Captain Shaw's Primary - Rainwater Goods & External Repairs",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ae087859-7442-4ec5-90b9-a7231b07bdbc-910481.json",
+      "published_at": "2026-08-12T17:43:51+01:00",
+      "retrieved_at": "2026-10-03 23:42:00.849747",
+      "sha256": "51e6a0e276b12a35ee81fd1cdb2ff8682370619700a7507cb38159981f1399ca",
+      "related_entity": "ocds-b5fd17-56e835ac-084c-4cb2-ab16-66774424f851:ocds-b5fd17-56e835ac-084c-4cb2-ab16-66774424f851-1"
+    },
+    {
+      "fact_id": "5e6f85afa951526d53d702805000b9b128adb1e5ade2ca387407a76c3fd58bae",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-74d6f891-1153-4f13-85f8-6142a9fc066e-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Valley Primary School - Partial Roof Replacement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/699db93f-ccbf-4beb-aa5a-d96ec9c09620-908503.json",
+      "published_at": "2026-07-27T18:25:22+01:00",
+      "retrieved_at": "2026-10-03 23:40:30.553051",
+      "sha256": "1a550b6137130bef20564cb76f5f7ceb662b2a35afbf37f657704e4173d33904",
+      "related_entity": "ocds-b5fd17-74d6f891-1153-4f13-85f8-6142a9fc066e:ocds-b5fd17-74d6f891-1153-4f13-85f8-6142a9fc066e-1"
+    },
+    {
+      "fact_id": "20f19b5dd8b2d191ba7de545ce3d44b924b767ce838a646b6b3d9fee84253ae8",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-f7b6761e-0098-4942-a2a6-b8deb5ce1708-2 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Burgh by Sands Primary - Extension roof replacement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/903e483a-937f-44da-be8c-46af117ab5dc-907495.json",
+      "published_at": "2026-07-21T17:06:29+01:00",
+      "retrieved_at": "2026-10-03 23:37:48.814704",
+      "sha256": "9c186a9e0c0618d66788d54ff60d7c3949684891bce067060f5a17376195cb01",
+      "related_entity": "ocds-b5fd17-f7b6761e-0098-4942-a2a6-b8deb5ce1708:ocds-b5fd17-f7b6761e-0098-4942-a2a6-b8deb5ce1708-2"
+    },
+    {
+      "fact_id": "ef18a139a6e20178f04d7f43b7c9a893dd49837b61d24928ec39a2244b26aabd",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-81337fa1-0a47-4bfe-aebc-a63728ca0acc-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Valley Primary School - Fire Door Replacement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/96004072-bc92-401b-82b2-e710606a7fc7-907433.json",
+      "published_at": "2026-07-21T14:32:45+01:00",
+      "retrieved_at": "2026-10-03 23:37:52.525567",
+      "sha256": "bf427eb8a8c1bd982dee23789169d63e077d51e828aec7d64959c7b5ee68e4cd",
+      "related_entity": "ocds-b5fd17-81337fa1-0a47-4bfe-aebc-a63728ca0acc:ocds-b5fd17-81337fa1-0a47-4bfe-aebc-a63728ca0acc-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "0b41cd31690bb76eb5cba9e930f58f14bbb5ab691575d05acbcf53924de3babd",
+  "entity_type": "SUPPLIER",
+  "name": "Whitespace Work Software Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "27c2bcd4387901bafc449db8aa0b612efb22474d654ea09da5eea0379fa093d2",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5d7bb669-8468-49fc-af0e-109c446d34c7-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Provision of Waste and In-Cab Management Operations Software",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0900e58b-ce6e-4385-9647-b7a0f8d69eb2-869037.json",
+      "published_at": "2025-10-21T14:42:07+01:00",
+      "retrieved_at": "2026-10-03 22:54:37.122245",
+      "sha256": "8cc4544ffb904ea62f32d44974610685b8504e16fde411d7cdcc50a37623a39b",
+      "related_entity": "ocds-b5fd17-5d7bb669-8468-49fc-af0e-109c446d34c7:ocds-b5fd17-5d7bb669-8468-49fc-af0e-109c446d34c7-1"
+    }
+  ]
+}

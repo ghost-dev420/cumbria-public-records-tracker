@@ -1,0 +1,22 @@
+{
+  "entity_id": "93b02dc91645e15015a1c403b91c75e058553c0e711c2e41121c933ccc711682",
+  "entity_type": "SUPPLIER",
+  "name": "The corporation of NGC Trading and Carlisle College",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d9f328a3db6dc06ac345f5c1b02590a82582335c89e89aca13670dacdbca8f90",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-90c0c3ce-1b40-4276-9c00-cd14a70f5d38-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1 -Safe use of portable power tools",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d250cbbe-f56b-44f3-a068-6a7498d7e96d-914722.json",
+      "published_at": "2026-09-18T16:10:42+01:00",
+      "retrieved_at": "2026-10-03 23:47:55.002547",
+      "sha256": "0123ded1a1ffb0ac161970457d85746faef5df42cf04fbb210656957c22776ee",
+      "related_entity": "ocds-b5fd17-90c0c3ce-1b40-4276-9c00-cd14a70f5d38:ocds-b5fd17-90c0c3ce-1b40-4276-9c00-cd14a70f5d38-1"
+    }
+  ]
+}

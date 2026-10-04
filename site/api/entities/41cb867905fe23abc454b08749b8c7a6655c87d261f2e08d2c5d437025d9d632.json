@@ -1,0 +1,22 @@
+{
+  "entity_id": "41cb867905fe23abc454b08749b8c7a6655c87d261f2e08d2c5d437025d9d632",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Delegated Executive Decisions",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9093a5f51f6b20a104a5e410d857a454a099f677e896b8a5a71cc8ae6348d3b4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Delegated Executive Decisions",
+      "locator": "committee 678",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

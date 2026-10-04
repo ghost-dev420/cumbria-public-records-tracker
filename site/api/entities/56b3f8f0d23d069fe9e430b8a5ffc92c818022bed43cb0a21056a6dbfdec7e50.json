@@ -1,0 +1,22 @@
+{
+  "entity_id": "56b3f8f0d23d069fe9e430b8a5ffc92c818022bed43cb0a21056a6dbfdec7e50",
+  "entity_type": "SUPPLIER",
+  "name": "HER CITI",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9450338eb224449c19de7892f6112f2fa7e428cef5f01e4c66a0cfbd140a5957",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "250.00",
+      "locator": "XLSX Sheet1!row 653",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

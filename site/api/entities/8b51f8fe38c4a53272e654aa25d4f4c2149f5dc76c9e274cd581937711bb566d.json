@@ -1,0 +1,22 @@
+{
+  "entity_id": "8b51f8fe38c4a53272e654aa25d4f4c2149f5dc76c9e274cd581937711bb566d",
+  "entity_type": "WARD",
+  "name": "Currock",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7cfa5be0410e9f392dacf58527f76acb56bc0c46c426ca7866476da14a46fb30",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Currock",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Lisa Hinton"
+    }
+  ]
+}

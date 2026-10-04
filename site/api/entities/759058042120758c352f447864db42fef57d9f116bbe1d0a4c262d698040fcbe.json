@@ -1,0 +1,22 @@
+{
+  "entity_id": "759058042120758c352f447864db42fef57d9f116bbe1d0a4c262d698040fcbe",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Safer, Stronger Carlisle Workshop",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "03591081d81053f9f72089f4d1cc3bea785a34e57154a3be06cfccf8dae722ce",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Safer, Stronger Carlisle Workshop",
+      "locator": "committee 551",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "e3e9c469bf14285d4b227d804f695f8feb439a69b8ecff9473e224697e5eff51",
+  "entity_type": "SUPPLIER",
+  "name": "MODES USERS ASSOCIATION",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7c6960e312ada42822dd72b08356cf4c999c3a9d461656982f1b624f5ae37e86",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "365.00",
+      "locator": "XLSX Sheet1!row 14",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

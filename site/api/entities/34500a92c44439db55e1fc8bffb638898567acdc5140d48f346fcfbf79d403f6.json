@@ -1,0 +1,36 @@
+{
+  "entity_id": "34500a92c44439db55e1fc8bffb638898567acdc5140d48f346fcfbf79d403f6",
+  "entity_type": "SUPPLIER",
+  "name": "Echelon Contracts Limited",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "ad886610ef9a6de36f0be92c6adf40fa3f5dabb5070cb01ef133148ca85d241a",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-130558c0-e01b-4d40-883f-68e19d3b6609-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Levens Primary School - Roofing Associated Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/29d4e63f-520f-4687-ba19-81db2e4dbf96-911813.json",
+      "published_at": "2026-08-24T11:31:50+01:00",
+      "retrieved_at": "2026-10-03 23:45:26.321138",
+      "sha256": "25c5c7015bf03abc7a86a2612bcfc1d7d49f25e694a46f9a117e54f2671fab06",
+      "related_entity": "ocds-b5fd17-130558c0-e01b-4d40-883f-68e19d3b6609:ocds-b5fd17-130558c0-e01b-4d40-883f-68e19d3b6609-1"
+    },
+    {
+      "fact_id": "180894a1114df0971e27bac0678da3c937b0c3f86e29867a8867eb84c654f967",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-2cb94c39-b4c7-4818-8b14-d588348baa95-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Kirkby Lonsdale Library - Plaster Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/74584904-e96a-4b43-8a73-ec6cce61e170-898634.json",
+      "published_at": "2026-05-21T14:55:18+01:00",
+      "retrieved_at": "2026-10-03 23:29:27.070300",
+      "sha256": "719f6355c7d1366c9959e0f7c17277ca8f01299b180f4f29124d71d74d31743b",
+      "related_entity": "ocds-b5fd17-2cb94c39-b4c7-4818-8b14-d588348baa95:ocds-b5fd17-2cb94c39-b4c7-4818-8b14-d588348baa95-1"
+    }
+  ]
+}

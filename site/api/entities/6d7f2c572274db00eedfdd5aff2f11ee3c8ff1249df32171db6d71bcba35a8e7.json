@@ -1,0 +1,36 @@
+{
+  "entity_id": "6d7f2c572274db00eedfdd5aff2f11ee3c8ff1249df32171db6d71bcba35a8e7",
+  "entity_type": "SUPPLIER",
+  "name": "BOXXE LIMITED",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "81e82b47aff0397f4fb70a1a7d681aa2605e6cf9bf00ee620012591b00728f61",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2919.53",
+      "locator": "XLSX Sheet1!row 483",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d1bdd39ef79ab536fbe860a8a8e7b9b4af390621914740cb476ea9970dfd7225",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1048.30",
+      "locator": "XLSX Sheet1!row 484",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

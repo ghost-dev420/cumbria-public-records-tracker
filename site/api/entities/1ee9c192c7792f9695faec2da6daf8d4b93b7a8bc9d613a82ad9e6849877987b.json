@@ -1,0 +1,22 @@
+{
+  "entity_id": "1ee9c192c7792f9695faec2da6daf8d4b93b7a8bc9d613a82ad9e6849877987b",
+  "entity_type": "SUPPLIER",
+  "name": "Specialist Computer Centres",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a3375b6c1c889bec704072e3c24116f890de4fe008bf09e45c78d500e92ec9ef",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-bb09659d-6dad-414a-8ee5-f6c74de4e103-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Supply of HP Probook x360 435 G10 Laptops (x150)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f57a39b4-6bb1-420d-ad1f-48610a3a3393-876472.json",
+      "published_at": "2025-12-18T10:51:18Z",
+      "retrieved_at": "2026-10-03 23:00:27.100769",
+      "sha256": "3900b00c98ffad21c8730108e358501b61d0cca6508a98269c5a9b854d353d11",
+      "related_entity": "ocds-b5fd17-bb09659d-6dad-414a-8ee5-f6c74de4e103:ocds-b5fd17-bb09659d-6dad-414a-8ee5-f6c74de4e103-1"
+    }
+  ]
+}

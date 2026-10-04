@@ -1,0 +1,22 @@
+{
+  "entity_id": "254e5a3f0b81686cb84f7b268f9c316a3f9a1ec0e9ed8fb243f316e913365370",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC South Cumbria Joint Consultataive Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ef31156c6c9be27cd4a417af28a358a215b75a089c7e39e77241be61962f20af",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC South Cumbria Joint Consultataive Committee",
+      "locator": "committee 849",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

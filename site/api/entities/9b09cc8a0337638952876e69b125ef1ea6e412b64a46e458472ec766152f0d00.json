@@ -1,0 +1,78 @@
+{
+  "entity_id": "9b09cc8a0337638952876e69b125ef1ea6e412b64a46e458472ec766152f0d00",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-013-711",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "c0290e9b4991ecd7f07f9d8c17a5bae062a309fe238196baf06b687603920462",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-013-711",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 013 711)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-013-711",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:46.021904",
+      "sha256": "da7166bd6f8c196360bd14840b8a1ce8bc58bd940ebad2d1937b3edf903e6bb9",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "4a8709c83e2d7f54ecb871b35ffba1dc4ef77378b884a0f69afcf7aae9b0c4b0",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Benefits and tax",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 013 711)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-013-711",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:46.021904",
+      "sha256": "da7166bd6f8c196360bd14840b8a1ce8bc58bd940ebad2d1937b3edf903e6bb9",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "160de575e9d4038f759e10f35d8b1998ae27d39b3fa0fe635189df9281d723a4",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 013 711)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-013-711",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:46.021904",
+      "sha256": "da7166bd6f8c196360bd14840b8a1ce8bc58bd940ebad2d1937b3edf903e6bb9",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "464a0c281b52be1594e24994d22be5afd7cf19c033d3a7a9821f7b455609a069",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "13 Jan 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 013 711)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-013-711",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:46.021904",
+      "sha256": "da7166bd6f8c196360bd14840b8a1ce8bc58bd940ebad2d1937b3edf903e6bb9",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "687303e3b012fd116809a8e2d8d34b847e273755ae0595518e6ef6391086b01b",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about the Council ending his housing benefit. This is because there is not enough evidence of fault. And it is reasonable to expect him to make a latte appeal.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 013 711)",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-013-711",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:46.021904",
+      "sha256": "da7166bd6f8c196360bd14840b8a1ce8bc58bd940ebad2d1937b3edf903e6bb9",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

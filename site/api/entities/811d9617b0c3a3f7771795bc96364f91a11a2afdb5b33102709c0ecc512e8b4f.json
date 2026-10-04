@@ -1,0 +1,22 @@
+{
+  "entity_id": "811d9617b0c3a3f7771795bc96364f91a11a2afdb5b33102709c0ecc512e8b4f",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC CSP Executive Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5f206335fa06bda84aaa63223ef300c3192aac7686019d381cda3f86d6651c3f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC CSP Executive Board",
+      "locator": "committee 733",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

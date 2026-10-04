@@ -1,0 +1,22 @@
+{
+  "entity_id": "978d1675101e89212f6e35ead5c7cb4cedb945589c962bc30e6aed56285291df",
+  "entity_type": "SUPPLIER",
+  "name": "WATSIGN LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e9407f4d780368e6dd94b50b7172bcb8e0ead44a3b4340b879e3e7ead0b6d596",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "741.33",
+      "locator": "XLSX Report!row 705",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

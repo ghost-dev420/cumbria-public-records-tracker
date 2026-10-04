@@ -1,0 +1,22 @@
+{
+  "entity_id": "36a6173bf5c68f080fa0f8fb9873590baf7bcea17f0af038bf0791f53762f7c5",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Scrutiny Co-ordinating Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "88949db8b9f2eb52796195d42ba910d88d25413dde1997ab7122a07430b86968",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Scrutiny Co-ordinating Board",
+      "locator": "committee 739",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

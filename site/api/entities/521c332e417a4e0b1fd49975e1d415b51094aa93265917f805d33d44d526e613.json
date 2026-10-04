@@ -1,0 +1,22 @@
+{
+  "entity_id": "521c332e417a4e0b1fd49975e1d415b51094aa93265917f805d33d44d526e613",
+  "entity_type": "SUPPLIER",
+  "name": "THE WHITEHAVEN COMMUNITY TRUST",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fb4af1ab4ff7484c0090090bb38c5a5c212ef1e8ad2670c0cc5cc6dcf47e1099",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "4000.00",
+      "locator": "XLSX Sheet1!row 40",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

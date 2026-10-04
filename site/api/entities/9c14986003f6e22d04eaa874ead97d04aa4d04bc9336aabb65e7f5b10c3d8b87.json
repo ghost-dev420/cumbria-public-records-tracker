@@ -1,0 +1,22 @@
+{
+  "entity_id": "9c14986003f6e22d04eaa874ead97d04aa4d04bc9336aabb65e7f5b10c3d8b87",
+  "entity_type": "SUPPLIER",
+  "name": "Permiserv Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "59fb15796667afe6006d57aa7ee5a06006c3fa82c29c8f7541841b9528774413",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-74cb641d-8001-4fc4-adf0-cad5b93142e2-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Garden Waste Permit Scheme",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a6df558d-8ce2-42cd-8317-7ced29cc9f71-894484.json",
+      "published_at": "2026-04-24T13:08:30+01:00",
+      "retrieved_at": "2026-10-03 23:24:38.046409",
+      "sha256": "e3bf1e8f699ad1619339f390d4d9cf4a29ad6a0dd18d7d5e7a820db6a688cbda",
+      "related_entity": "ocds-b5fd17-74cb641d-8001-4fc4-adf0-cad5b93142e2:ocds-b5fd17-74cb641d-8001-4fc4-adf0-cad5b93142e2-1"
+    }
+  ]
+}

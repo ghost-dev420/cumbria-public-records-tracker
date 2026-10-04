@@ -1,0 +1,50 @@
+{
+  "entity_id": "8fadb1eed506d7a07b2bd0b4a1173180a68165f02ccb56d902bc3d3951f455dc",
+  "entity_type": "CONTRACT",
+  "name": "ocds-b5fd17-8a459094-ce0d-4b80-91a9-aec10dc8801f:notice",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "1778cf0878b0f1ff99084757a1cba3f60db1ad25c0cf97b080f367b5a6755d1d",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "award notice buyer",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 2A- The Undertaking of Road Safety Studies 2026-2027",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/cf2d4ce6-7ac5-4451-a008-4c19474f6810-901531.json",
+      "published_at": "2026-06-10T14:39:11+01:00",
+      "retrieved_at": "2026-10-03 23:08:06.082465",
+      "sha256": "3cc4cfff7d628689eab17233316b093dd81fc7bb9a8b366bceca228f710e3319",
+      "related_entity": "WESTMORLAND AND FURNESS COUNCIL"
+    },
+    {
+      "fact_id": "2ea3cf5a8c3dee6091af390eab4b93a4f9f2e5515761fd00be4ffea994c617b3",
+      "fact_type": "CONTRACT_DATE",
+      "predicate": "HAS_AWARD_DATE",
+      "value": "2026-06-10T14:39:11+01:00",
+      "locator": "award notice date",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 2A- The Undertaking of Road Safety Studies 2026-2027",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/cf2d4ce6-7ac5-4451-a008-4c19474f6810-901531.json",
+      "published_at": "2026-06-10T14:39:11+01:00",
+      "retrieved_at": "2026-10-03 23:08:06.082465",
+      "sha256": "3cc4cfff7d628689eab17233316b093dd81fc7bb9a8b366bceca228f710e3319",
+      "related_entity": null
+    },
+    {
+      "fact_id": "6bccbefae987e4ed104ee84f3dcd65be564cf98549e7965d95445d30ba5191ab",
+      "fact_type": "CONTRACT_TITLE",
+      "predicate": "HAS_TITLE",
+      "value": "Lot 2A- The Undertaking of Road Safety Studies 2026-2027",
+      "locator": "award notice",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 2A- The Undertaking of Road Safety Studies 2026-2027",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/cf2d4ce6-7ac5-4451-a008-4c19474f6810-901531.json",
+      "published_at": "2026-06-10T14:39:11+01:00",
+      "retrieved_at": "2026-10-03 23:08:06.082465",
+      "sha256": "3cc4cfff7d628689eab17233316b093dd81fc7bb9a8b366bceca228f710e3319",
+      "related_entity": null
+    }
+  ]
+}

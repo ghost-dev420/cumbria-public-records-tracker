@@ -1,0 +1,50 @@
+{
+  "entity_id": "8e1a058b0c8b444dd3bcac85e853dca6a0ef536d88d695b114046252f8872b81",
+  "entity_type": "WARD",
+  "name": "Hawcoat and Newbarns",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "6ea0bd8a33136998623640171b80573f30a046ad079b1f94ca3e1426b6c43a3e",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Hawcoat and Newbarns",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Les Hall"
+    },
+    {
+      "fact_id": "9edcaf07a1a2e043fa432e8fe001372eb3d59c6774ae5fc4e2ad90b11fbbfbb9",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Hawcoat and Newbarns",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Hazel Edwards"
+    },
+    {
+      "fact_id": "d569ea1d16c3de3eeaaadd310a1b1c7c80ec470c251d4b5113bbf6f5abad5055",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Hawcoat and Newbarns",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Roy Worthington"
+    }
+  ]
+}

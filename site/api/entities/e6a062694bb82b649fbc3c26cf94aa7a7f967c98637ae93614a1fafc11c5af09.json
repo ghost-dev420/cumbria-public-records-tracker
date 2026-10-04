@@ -1,0 +1,78 @@
+{
+  "entity_id": "e6a062694bb82b649fbc3c26cf94aa7a7f967c98637ae93614a1fafc11c5af09",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-022-620",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "c4661b0c960784c539ee8cc9104f16ec450691a84b0a95b19db29054d0fba685",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-022-620",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 022 620)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/pollution/24-022-620",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:35.621032",
+      "sha256": "b4147eb74fd1fd0cd5b9072c46964cf49a2c20f3429520dbf5cdd0d346ab10b9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4e10347e60e0f2ae7e44d62979bbeb267e6cc85f32f01d9bf490d31d65fe1b1d",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 022 620)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/pollution/24-022-620",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:35.621032",
+      "sha256": "b4147eb74fd1fd0cd5b9072c46964cf49a2c20f3429520dbf5cdd0d346ab10b9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "059a883948213338cbf1c42f1c42c2960be0df93bca81e8f9472f1ca3147a9e8",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 022 620)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/pollution/24-022-620",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:35.621032",
+      "sha256": "b4147eb74fd1fd0cd5b9072c46964cf49a2c20f3429520dbf5cdd0d346ab10b9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "02d332ca2c662317e1fd7170c7b889c8553622419670b905a0a5aaf8b2ba18a9",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "28 Jul 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 022 620)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/pollution/24-022-620",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:35.621032",
+      "sha256": "b4147eb74fd1fd0cd5b9072c46964cf49a2c20f3429520dbf5cdd0d346ab10b9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "71c64398472675eb90b483844730a85de9e39faf9f03f693f2a9a1f74fef2e80",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about how the Council investigated smoke nuisance. Further investigation would not lead to a different outcome.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (24 022 620)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/pollution/24-022-620",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:06:35.621032",
+      "sha256": "b4147eb74fd1fd0cd5b9072c46964cf49a2c20f3429520dbf5cdd0d346ab10b9",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

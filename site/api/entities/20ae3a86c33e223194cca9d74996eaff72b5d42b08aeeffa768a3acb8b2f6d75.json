@@ -1,0 +1,22 @@
+{
+  "entity_id": "20ae3a86c33e223194cca9d74996eaff72b5d42b08aeeffa768a3acb8b2f6d75",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Economies and Enterprise Portfolio Holder Meeting",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "140428060a3b9170ec511fff6bbda081ebeba4e45275c1d1fe9de31b6b53917b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Economies and Enterprise Portfolio Holder Meeting",
+      "locator": "committee 727",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

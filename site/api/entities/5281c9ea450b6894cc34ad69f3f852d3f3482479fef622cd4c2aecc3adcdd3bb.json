@@ -1,0 +1,22 @@
+{
+  "entity_id": "5281c9ea450b6894cc34ad69f3f852d3f3482479fef622cd4c2aecc3adcdd3bb",
+  "entity_type": "SUPPLIER",
+  "name": "PK Electrical (Carlisle) Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "77f694b1108a7b8e44fa5dc4d2382d1c4a599b8977915806993ea3a9f3df36e8",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-862734ec-2f04-4b75-bc8e-89b5b360fed1-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Fellview Primary - Fire Alarm Replacement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e4c62ac4-fdbb-4665-a214-b8a023d394aa-908052.json",
+      "published_at": "2026-07-23T16:35:17+01:00",
+      "retrieved_at": "2026-10-03 23:40:06.217897",
+      "sha256": "cac40c9d7dd7b6742d496bf2628545e48a19fafcf468f482b2202dd39d1cd0f6",
+      "related_entity": "ocds-b5fd17-862734ec-2f04-4b75-bc8e-89b5b360fed1:ocds-b5fd17-862734ec-2f04-4b75-bc8e-89b5b360fed1-1"
+    }
+  ]
+}

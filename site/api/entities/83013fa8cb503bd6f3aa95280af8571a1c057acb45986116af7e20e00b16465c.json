@@ -1,0 +1,36 @@
+{
+  "entity_id": "83013fa8cb503bd6f3aa95280af8571a1c057acb45986116af7e20e00b16465c",
+  "entity_type": "WARD",
+  "name": "Dalton North",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "4fbe76696d90030372671938ba15febb91ba2e09afdf0eec7c251e71f43315f8",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Dalton North",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Daniel Edwards"
+    },
+    {
+      "fact_id": "5c8e780ea6048941d656025b850ed931941b78bf274dfe9b560c7015ef28fd65",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Dalton North",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Ben Shirley"
+    }
+  ]
+}

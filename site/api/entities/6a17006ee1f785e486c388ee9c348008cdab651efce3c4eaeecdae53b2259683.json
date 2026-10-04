@@ -1,0 +1,22 @@
+{
+  "entity_id": "6a17006ee1f785e486c388ee9c348008cdab651efce3c4eaeecdae53b2259683",
+  "entity_type": "SUPPLIER",
+  "name": "Stobbarts Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b38599b13dc1529dc636326b2b36e0b84b8ed5a9160f1f0703ea94e2478464df",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-2bf807d5-456e-4694-bd07-8000be5ac3cd-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 1A - Burlington CE School - Electrical & Fabric Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/69b712ce-4173-4fcc-a6a6-a9ba1ed2445d-909024.json",
+      "published_at": "2026-07-30T16:13:54+01:00",
+      "retrieved_at": "2026-10-03 23:40:49.977554",
+      "sha256": "96f0a8d1017e1f610a0d490b5f385ed2cf43d31b272d20f35738454c6b915e8f",
+      "related_entity": "ocds-b5fd17-2bf807d5-456e-4694-bd07-8000be5ac3cd:ocds-b5fd17-2bf807d5-456e-4694-bd07-8000be5ac3cd-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "e40482c4723a2ebeaf57a5541974ce33a5de039e91ccdf0e1c82cd2704cd2334",
+  "entity_type": "SUPPLIER",
+  "name": "SiteScan Surveys Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3f31bedf84a849e574f0a98de6a40bb19d470de82978b91f395e5585ec04f9b0",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1350.00",
+      "locator": "XLSX Sheet1!row 265",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

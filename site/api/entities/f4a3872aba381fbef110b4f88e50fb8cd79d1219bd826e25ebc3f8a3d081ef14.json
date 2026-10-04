@@ -1,0 +1,78 @@
+{
+  "entity_id": "f4a3872aba381fbef110b4f88e50fb8cd79d1219bd826e25ebc3f8a3d081ef14",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-013-548",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "ce07adcc88fa7258555ed019ab0aecbdd87ac2212a8a251a37bb79237485c429",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-013-548",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 013 548)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-013-548",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:05:01.623545",
+      "sha256": "8532987d110af684abf6c1be0581e471a65b92f863acebea4528fc610d58e1cf",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "8d86455263dc693d3dab9710c26f324feb3b3ca4b546e78376bd63be4e33ff49",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Children's care services",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 013 548)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-013-548",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:05:01.623545",
+      "sha256": "8532987d110af684abf6c1be0581e471a65b92f863acebea4528fc610d58e1cf",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "492417eba38102b2722eed4b68ed671527279e1cf54fa3240f46a951734143da",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 013 548)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-013-548",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:05:01.623545",
+      "sha256": "8532987d110af684abf6c1be0581e471a65b92f863acebea4528fc610d58e1cf",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "1d024f8dd623d487354485f6a19697a9183469ef5a55006f48aba31f76a25486",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "17 Mar 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 013 548)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-013-548",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:05:01.623545",
+      "sha256": "8532987d110af684abf6c1be0581e471a65b92f863acebea4528fc610d58e1cf",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d81b51c9dbff87dbc1898a3d26d457461758e62f51851f9ff7538e53bb838d12",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We cannot investigate Mr X’s complaint about a children’s services’ visit to his home. The complaint is late and I see no good reason to consider it now. Also, we will not investigate the Council’s handling of personal information. The Information Commissioner is better placed to consider and decide complaints about data protection.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Cumberland Council (25 013 548)",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-013-548",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 00:05:01.623545",
+      "sha256": "8532987d110af684abf6c1be0581e471a65b92f863acebea4528fc610d58e1cf",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "465b87a8d7417831388e9ef04200167cf0f7773fd8d60958fae6b1920cc7a0dd",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Scrutiny Panel 1",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "be7bb7d281b1682697d8fc1d0d12333d46c700a41b400fac34305cc80673e98f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Scrutiny Panel 1",
+      "locator": "committee 386",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

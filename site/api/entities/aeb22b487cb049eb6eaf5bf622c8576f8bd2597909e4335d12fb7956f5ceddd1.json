@@ -1,0 +1,78 @@
+{
+  "entity_id": "aeb22b487cb049eb6eaf5bf622c8576f8bd2597909e4335d12fb7956f5ceddd1",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-001-953",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "da542d68a1563fbad088c318b440be8d3c5fa054686086274f2707d6512201a4",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-001-953",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 001 953)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/councillor-conduct-and-standards/25-001-953",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:11.751184",
+      "sha256": "fc52cd41b3cc87b083c29791a19bdfc8df493e0427fa68244ac4227dc8ba304f",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "3a3a9c6d60e3304dda90a6af397ac1ffe8c6a0f9f289fbf105e342505563a0c2",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Other Categories",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 001 953)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/councillor-conduct-and-standards/25-001-953",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:11.751184",
+      "sha256": "fc52cd41b3cc87b083c29791a19bdfc8df493e0427fa68244ac4227dc8ba304f",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "7ec4985d8c70a8ccc935a9abccdd22f4a406d216129f8b2296fbf2a0ddfdaf05",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 001 953)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/councillor-conduct-and-standards/25-001-953",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:11.751184",
+      "sha256": "fc52cd41b3cc87b083c29791a19bdfc8df493e0427fa68244ac4227dc8ba304f",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "1107ced56c95510cfaf608120f322d73ca75dcfd89e2d9b0afc3eb4f2fe28a9a",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "11 Jun 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 001 953)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/councillor-conduct-and-standards/25-001-953",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:11.751184",
+      "sha256": "fc52cd41b3cc87b083c29791a19bdfc8df493e0427fa68244ac4227dc8ba304f",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "6a75cfd070f6e3dbbf06a367e8a5466411a7126afb7a1f5c014a421776f58007",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about how the Council dealt with a complaint about the conduct of councillors. This is because we are unlikely to find fault.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 001 953)",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/councillor-conduct-and-standards/25-001-953",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:11.751184",
+      "sha256": "fc52cd41b3cc87b083c29791a19bdfc8df493e0427fa68244ac4227dc8ba304f",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

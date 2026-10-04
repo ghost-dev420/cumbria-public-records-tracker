@@ -1,0 +1,36 @@
+{
+  "entity_id": "cad576eeab7d6a03177dd6120e621f543ab0668848e08b1346724ded55b5020e",
+  "entity_type": "SUPPLIER",
+  "name": "The Construction Skills People Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "35335e4c3759e235f54bcea7a8624873bb47f186f036cb1da39e3079c47364f5",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-a87cf89d-3dce-444a-ad62-01c931e171b7-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Wave 7 Skills boot camp Lot 4: Construction, Green Skills and the Built Environment/ Level 2 General Construction",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d448d772-42ab-4fc0-a929-a13a74752a6d-890617.json",
+      "published_at": "2026-03-30T13:34:28+01:00",
+      "retrieved_at": "2026-10-03 23:15:15.186130",
+      "sha256": "8f2444d3238e79021b9b67f546961579166f37f1a2162c66f5e545cb90e38c0b",
+      "related_entity": "ocds-b5fd17-a87cf89d-3dce-444a-ad62-01c931e171b7:ocds-b5fd17-a87cf89d-3dce-444a-ad62-01c931e171b7-1"
+    },
+    {
+      "fact_id": "60caf2458ea22c418892edce87967ec69a62860b4b560ee503a06849b33e3490",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-ff724817-2ef5-45f5-9972-5bb3ebedbfdd-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Wave 7 Skills boot camp- Lot 4 - Construction, Green Skills and the Built Environment/Level 3 Construction Supervisor",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4490868f-36b0-4168-be3b-5ce1b3f0b198-890614.json",
+      "published_at": "2026-03-30T13:30:10+01:00",
+      "retrieved_at": "2026-10-03 23:15:16.204503",
+      "sha256": "a9e9e8737645cdaf3e91d1dcedeb26dd56ae086f1d25c29f4017c6f8d5f27120",
+      "related_entity": "ocds-b5fd17-ff724817-2ef5-45f5-9972-5bb3ebedbfdd:ocds-b5fd17-ff724817-2ef5-45f5-9972-5bb3ebedbfdd-1"
+    }
+  ]
+}

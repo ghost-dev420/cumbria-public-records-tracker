@@ -1,0 +1,78 @@
+{
+  "entity_id": "eff651d055dc4c93857869edcf4b44c6e3c0efa4d81a722794ec390e4e2236f5",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-010-790",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "77febe9874e3fb4f3293d912a10b0329e5a72e437b3df29a692b284efa1de8cf",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-010-790",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 010 790)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-790",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:29.857350",
+      "sha256": "96b08b339f82c46b5746cc9c1c0a63195f49fb4b69a57f2fcbd92efc62700907",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "cad2b98ebbffccc0dc5f87304be6d42172155f4a07df2d89820d98ff239d38ea",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 010 790)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-790",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:29.857350",
+      "sha256": "96b08b339f82c46b5746cc9c1c0a63195f49fb4b69a57f2fcbd92efc62700907",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "77e884a0eee16031c1232caa3b462912f893144ebd03d834d42d71faf7be1d20",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 010 790)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-790",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:29.857350",
+      "sha256": "96b08b339f82c46b5746cc9c1c0a63195f49fb4b69a57f2fcbd92efc62700907",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "35e8c686ee0a3529d31334635463434b5997eb8016ef7a794495fe64e20b7ab9",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "12 Mar 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 010 790)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-790",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:29.857350",
+      "sha256": "96b08b339f82c46b5746cc9c1c0a63195f49fb4b69a57f2fcbd92efc62700907",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "d4b1b5f5af911f253ebe68ffb70c3c69df780c5962fc7b39c0395a98313a3801",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s actions in relation to vehicles parking on grass verges. This is because it relates to the Council’s role as a social landlord which is out of our jurisdiction. It is unlikely we would find fault with the remaining issues complained about.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 010 790)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-790",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:29.857350",
+      "sha256": "96b08b339f82c46b5746cc9c1c0a63195f49fb4b69a57f2fcbd92efc62700907",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "9ab0ab821030aed9789727e047f498fd24b88ff8b077ba6c8c74e4a5a7b3f01d",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Barrow Highways Advisory Sub-Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "abd63569cfd4438bba5eb9661c7f43a47da1390eb88d0ab818cc0930d1f5f71b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Barrow Highways Advisory Sub-Group",
+      "locator": "committee 475",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

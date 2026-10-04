@@ -1,0 +1,22 @@
+{
+  "entity_id": "472ed3acec183b63faad188270ca4141aeb8afce00f0cac7c1bbd26114ed98e5",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Selection of Committee Places Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5a138a4d3bd9335804c35e666332ed34aac71bef0c97dd2443869b5ba6d9957f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Selection of Committee Places Group",
+      "locator": "committee 611",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

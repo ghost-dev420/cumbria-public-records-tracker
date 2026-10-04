@@ -1,0 +1,36 @@
+{
+  "entity_id": "74e0de0437965092f839f2d216d748769749f1473622d98944b2c9cff442d304",
+  "entity_type": "SUPPLIER",
+  "name": "PFK PLC LAND AGENCY",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "4e6584735e7594a41451486445aab3c3ccec5554b85268ffccad0c454653a796",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "60.00",
+      "locator": "XLSX Sheet1!row 323",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "9a6a92d239a7c67ba9ee2618beed7758511a0909a896db9f7374c8146cf78102",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "60.00",
+      "locator": "XLSX Report!row 213",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

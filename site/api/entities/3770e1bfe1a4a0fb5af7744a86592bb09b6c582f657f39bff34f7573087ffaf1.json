@@ -1,0 +1,22 @@
+{
+  "entity_id": "3770e1bfe1a4a0fb5af7744a86592bb09b6c582f657f39bff34f7573087ffaf1",
+  "entity_type": "COMMITTEE",
+  "name": "Holehird Trust Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5be3241acbd93afe3913418e014a959589f8b141a8cd62ed8a7d9e89cdc3df33",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Holehird Trust Committee",
+      "locator": "committee 412",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

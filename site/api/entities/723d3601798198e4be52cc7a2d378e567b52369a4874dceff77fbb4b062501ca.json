@@ -1,0 +1,22 @@
+{
+  "entity_id": "723d3601798198e4be52cc7a2d378e567b52369a4874dceff77fbb4b062501ca",
+  "entity_type": "WARD",
+  "name": "Belah",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a8aae90eb85d48d4f13a4cdb4111e7b82bf54638ce613dbfa367790d400d9e0a",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Belah",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Helen Davison"
+    }
+  ]
+}

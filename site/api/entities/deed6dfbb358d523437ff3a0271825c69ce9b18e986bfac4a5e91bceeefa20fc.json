@@ -1,0 +1,22 @@
+{
+  "entity_id": "deed6dfbb358d523437ff3a0271825c69ce9b18e986bfac4a5e91bceeefa20fc",
+  "entity_type": "SUPPLIER",
+  "name": "Christ Church Cockermouth DCC",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "134dd22a62b5f52e9bc3a5842aa13b98e74a697f3a35025599806a594dcabbf8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "175.00",
+      "locator": "XLSX Sheet1!row 507",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

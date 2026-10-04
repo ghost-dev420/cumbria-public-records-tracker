@@ -1,0 +1,36 @@
+{
+  "entity_id": "d4c43c2233755639107be676c3639444ece99f0bf603ccbe6ffea5257e6c1cb7",
+  "entity_type": "SUPPLIER",
+  "name": "BIG FOOT EVENTS",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "2b3c1ad1b47012b45e6e7ce1c5396c532d09d4f1018faa3f3c00379652b3eef6",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "375.00",
+      "locator": "XLSX Sheet1!row 169",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "56338d598f9e6c75f8162d3b77d68ca9aa4f8cc0396b05bda7f9cfb3fcc42ef3",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1125.00",
+      "locator": "XLSX Sheet1!row 170",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

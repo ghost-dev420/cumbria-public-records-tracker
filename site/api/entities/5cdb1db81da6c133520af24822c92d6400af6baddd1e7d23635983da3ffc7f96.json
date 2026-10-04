@@ -1,0 +1,78 @@
+{
+  "entity_id": "5cdb1db81da6c133520af24822c92d6400af6baddd1e7d23635983da3ffc7f96",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-013-607",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "71dd3117915d7c15679d70b3ce3b43f9e535642afdd0135f05538af15cd0df7e",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-013-607",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 013 607)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-013-607",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:36.593470",
+      "sha256": "72e549b99076fc2740e9c96b57bd495dfe3fbfcd310f62e0d8e4775c1902489c",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "27241cc8cb9abf4c6334744478ce998d6ccdc0d51648d7781bdbcfdb51925157",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 013 607)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-013-607",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:36.593470",
+      "sha256": "72e549b99076fc2740e9c96b57bd495dfe3fbfcd310f62e0d8e4775c1902489c",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "12f94b8e015b136f338d0355bac5d06934fe74e437751becf79f80c3c5c47134",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 013 607)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-013-607",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:36.593470",
+      "sha256": "72e549b99076fc2740e9c96b57bd495dfe3fbfcd310f62e0d8e4775c1902489c",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "7fc3942279f68969fe7481e5f36db0e232650b1b81fe105c1c8c218ffba173c1",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "03 Feb 2026",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 013 607)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-013-607",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:36.593470",
+      "sha256": "72e549b99076fc2740e9c96b57bd495dfe3fbfcd310f62e0d8e4775c1902489c",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "d29440dc750d67796e8e693c9e376b58f111607481322f2592f46be21c0b72e1",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about nuisance from waste bins. This is because the injustice caused is not enough to justify our involvement. We are satisfied with the actions the Council took in response to the complaint, to apologise, remind staff not to leave bins blocking access, and to monitor staff. It is unlikely an Ombudsman investigation would add anything further.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 013 607)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/25-013-607",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:58:36.593470",
+      "sha256": "72e549b99076fc2740e9c96b57bd495dfe3fbfcd310f62e0d8e4775c1902489c",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

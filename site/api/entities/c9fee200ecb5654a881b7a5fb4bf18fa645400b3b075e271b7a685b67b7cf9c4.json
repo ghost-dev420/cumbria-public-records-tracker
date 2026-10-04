@@ -1,0 +1,22 @@
+{
+  "entity_id": "c9fee200ecb5654a881b7a5fb4bf18fa645400b3b075e271b7a685b67b7cf9c4",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Joint Policy Advisory Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "00ce5e18ebce27a95959517758815f74f9a1454e000cd4963e3603a2f25e0c1a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Joint Policy Advisory Committee",
+      "locator": "committee 400",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

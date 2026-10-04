@@ -1,0 +1,22 @@
+{
+  "entity_id": "a9e2aa71a2e05358d2febea56572e439e394f3ef2083c24125d3693ed209f2f9",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria School Organisation Forum",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5a47bb9760262edec50ef1ac6f882d0b1b35641689300c7424bc2e15555cbf26",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria School Organisation Forum",
+      "locator": "committee 743",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

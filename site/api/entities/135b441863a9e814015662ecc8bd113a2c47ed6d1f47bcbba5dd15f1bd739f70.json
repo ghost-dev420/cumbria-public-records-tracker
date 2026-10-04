@@ -1,0 +1,22 @@
+{
+  "entity_id": "135b441863a9e814015662ecc8bd113a2c47ed6d1f47bcbba5dd15f1bd739f70",
+  "entity_type": "SUPPLIER",
+  "name": "Skills Fix",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e3ec9244c29d9ec51cd23c7a4a0170231e0f39637a747a2a2835ece8ff4db1a6",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-bba3ffdc-553a-4286-8bcc-cf7cd1624095-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Wave 7 Skills boot camp- Lot 4: Construction, Green Skills and the Built Environment/ NEBOSH",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0404b9cf-0d56-4fe6-8b0d-9e9a72d23033-890620.json",
+      "published_at": "2026-03-30T13:38:20+01:00",
+      "retrieved_at": "2026-10-03 23:15:13.963548",
+      "sha256": "9892c415a1f077a42413dba67928f8ac3aa729e4ff7cbb6cce6436dd772855ed",
+      "related_entity": "ocds-b5fd17-bba3ffdc-553a-4286-8bcc-cf7cd1624095:ocds-b5fd17-bba3ffdc-553a-4286-8bcc-cf7cd1624095-1"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "e2573d74b337d9ff34695abae24011269d082ecb556182713d52d8b986a4c450",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-005-723",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "7dc5f221ae1bfa74ef475d1345a00d760d84a92b389394023a92ce71c9e46d6c",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-005-723",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 005 723)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-005-723",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:01.977152",
+      "sha256": "326fed93cadfc01bd726a013327af2ec9c419665d405582984036f184735f9f4",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "afc4c8df8088a8dd60a036b421ed85c85955af1e16d457e7209d4c867f7a735c",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 005 723)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-005-723",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:01.977152",
+      "sha256": "326fed93cadfc01bd726a013327af2ec9c419665d405582984036f184735f9f4",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "ed25f57b90ae7749f006c8a3e9fe75dcd9ea1123e4217e08362f6e106ad628f9",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 005 723)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-005-723",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:01.977152",
+      "sha256": "326fed93cadfc01bd726a013327af2ec9c419665d405582984036f184735f9f4",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "66d7df19a8aefd31f39ec1b6eefd0524a4cb0d1346168ab3ef9a8667395518a1",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "15 Sep 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 005 723)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-005-723",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:01.977152",
+      "sha256": "326fed93cadfc01bd726a013327af2ec9c419665d405582984036f184735f9f4",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "fd5462ffa5b680671952196784269f18172a83ed56e936829b47bbea0bb374b8",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about the safety of the Council’s temporary traffic light set up. This is because the Council’s actions did not cause Mr X significant injustice.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (25 005 723)",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-005-723",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:01.977152",
+      "sha256": "326fed93cadfc01bd726a013327af2ec9c419665d405582984036f184735f9f4",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

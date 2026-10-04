@@ -1,0 +1,22 @@
+{
+  "entity_id": "b7d0c0f84d722326f15891690acae0177f65c9d9632653395438fe36f7e2780e",
+  "entity_type": "SUPPLIER",
+  "name": "ASPATRIA MEDICAL GROUP",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cef4b61d4f818972bde7f28749c9692913a066366f496eee6389cc7d802e9367",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "35.00",
+      "locator": "XLSX Sheet1!row 423",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

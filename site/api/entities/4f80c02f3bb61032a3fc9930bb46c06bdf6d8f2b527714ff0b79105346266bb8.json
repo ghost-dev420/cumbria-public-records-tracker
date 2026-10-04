@@ -1,0 +1,22 @@
+{
+  "entity_id": "4f80c02f3bb61032a3fc9930bb46c06bdf6d8f2b527714ff0b79105346266bb8",
+  "entity_type": "COMMITTEE",
+  "name": "Eden Locality Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cd2863972bcd737154764909ec41428f8c1471158b03cd3f3baa2e8131be4401",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Eden Locality Board",
+      "locator": "committee 268",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

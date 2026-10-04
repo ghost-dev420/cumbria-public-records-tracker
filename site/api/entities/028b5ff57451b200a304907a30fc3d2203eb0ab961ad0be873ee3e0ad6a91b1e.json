@@ -1,0 +1,22 @@
+{
+  "entity_id": "028b5ff57451b200a304907a30fc3d2203eb0ab961ad0be873ee3e0ad6a91b1e",
+  "entity_type": "COMMITTEE",
+  "name": "Members Allowance Scheme",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "66312f7980f570934227bd93ac0c3213564fe7cd5980ae74ad357ae8a526fcb0",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Members Allowance Scheme",
+      "locator": "committee 911",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

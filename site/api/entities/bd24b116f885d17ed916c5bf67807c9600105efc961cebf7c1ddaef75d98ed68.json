@@ -1,0 +1,22 @@
+{
+  "entity_id": "bd24b116f885d17ed916c5bf67807c9600105efc961cebf7c1ddaef75d98ed68",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Local Enterprise Partnership (LEP) Scrutiny Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9628b1d4e77e1ec137f7ff40b6850998578841213a585df88c62c5d221899de2",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Local Enterprise Partnership (LEP) Scrutiny Board",
+      "locator": "committee 678",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "0a309697f1ea46e81f7fb2ddef95e213943d48eeab925c726aa7eb1c74450c1b",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-019-792",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "1016bc238280b7ff27d9d5c19c0ebc831a6f2c3ef02a277284ed38fc21ed4bac",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-019-792",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 792)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-019-792",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:05.123661",
+      "sha256": "eca0818218a4f56e09a5504d77ddcfa8fadfe137d598ae31704e90e0186225af",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "bbcb9dc63b85c6f3a804d7b98b2ee3c21d3c91266ebbe1dd2e51e518443d997a",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 792)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-019-792",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:05.123661",
+      "sha256": "eca0818218a4f56e09a5504d77ddcfa8fadfe137d598ae31704e90e0186225af",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "aa2ccaf2c68fa8282b2f8725f70d08619202a915c766f8721a5f6553d3dc3790",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 792)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-019-792",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:05.123661",
+      "sha256": "eca0818218a4f56e09a5504d77ddcfa8fadfe137d598ae31704e90e0186225af",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "8b01c8ed55bfd1693cc3dd67690e2c7d4f70d8a9e528d1cbd735d2a2d278fe15",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "05 Aug 2025",
+      "locator": "Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 792)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-019-792",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:05.123661",
+      "sha256": "eca0818218a4f56e09a5504d77ddcfa8fadfe137d598ae31704e90e0186225af",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "c7f51b3ed0485d59a652c7d79a66e9e6bc3fc0ae444b0980a03058146516d27c",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Ms B complained the Council delayed providing her with domestic waste bins which meant she had to pay for a commercial waste collection while also paying council tax. The Council has agreed to refund the amount Ms B paid for the commercial waste collection. That is a satisfactory remedy and I therefore do not intend to pursue the complaint further.",
+      "locator": "final decision summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Westmorland and Furness Council (24 019 792)",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-019-792",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 18:59:05.123661",
+      "sha256": "eca0818218a4f56e09a5504d77ddcfa8fadfe137d598ae31704e90e0186225af",
+      "related_entity": "Westmorland and Furness Council"
+    }
+  ]
+}

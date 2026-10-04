@@ -1,0 +1,36 @@
+{
+  "entity_id": "f6589c3463f2634331266d0883a0bf8029ae5b7a69ca032c4897a050e7f1090a",
+  "entity_type": "SUPPLIER",
+  "name": "MTI TECHNOLOGY LIMITED",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "1dabb908ccc7846bf0d6dc6e99e3f165c80c05fa76fc8d2e63b55bdce2043930",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "325.00",
+      "locator": "XLSX Report!row 248",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ff5e13fd8f2d8a74b22faec9a461f9b8e95862d9894d038814622b592a144ab5",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3062.50",
+      "locator": "XLSX Report!row 249",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "9e5b98e17937d275bdac7fcb3bec6c6351e19c75e3d8309801e7ab103538768d",
+  "entity_type": "SUPPLIER",
+  "name": "GARY MCCLURE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c920afda8b635af347ea29dae0a0823a4c37ee89464df39b280f7934d1518377",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "360.00",
+      "locator": "XLSX Sheet1!row 366",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

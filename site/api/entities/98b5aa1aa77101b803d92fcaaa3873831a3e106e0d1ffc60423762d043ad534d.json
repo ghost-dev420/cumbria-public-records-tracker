@@ -1,0 +1,22 @@
+{
+  "entity_id": "98b5aa1aa77101b803d92fcaaa3873831a3e106e0d1ffc60423762d043ad534d",
+  "entity_type": "SUPPLIER",
+  "name": "Roland Hill Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d297d346e2442715df71f0af9bb5bf2ca1fa186f13e80d27ec662c3c10172d0b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-d0f55d1d-5e33-4b6f-94a4-c8124a9dcf5b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 1A - John Ruskin School - Roof and Fire Door Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/255d1d3e-9bb1-4830-b79a-0e2953fb04b3-905654.json",
+      "published_at": "2026-07-10T14:56:23+01:00",
+      "retrieved_at": "2026-10-03 23:36:34.703395",
+      "sha256": "5c398b5aac7c4c98a57444d9b9473bc15b93e8a792b20bcf45e1cc260db896df",
+      "related_entity": "ocds-b5fd17-d0f55d1d-5e33-4b6f-94a4-c8124a9dcf5b:ocds-b5fd17-d0f55d1d-5e33-4b6f-94a4-c8124a9dcf5b-1"
+    }
+  ]
+}

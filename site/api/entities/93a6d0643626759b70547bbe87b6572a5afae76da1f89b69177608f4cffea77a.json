@@ -1,0 +1,22 @@
+{
+  "entity_id": "93a6d0643626759b70547bbe87b6572a5afae76da1f89b69177608f4cffea77a",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Hearing Sub Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "26e69fdcb9a3998bcf230ff4bffaf97aebb31eba0709423e7a3d807d5af08354",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Hearing Sub Committee",
+      "locator": "committee 362",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "f626408830a2160c21950316a6c55e58200f4489ede186e714ddb470a6f023bc",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Select Committee B - Young Adults",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c8628903bee0f8358ee754582a8b63c8d8ab62c91000ec87232ecd4757b38e6e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Select Committee B - Young Adults",
+      "locator": "committee 830",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

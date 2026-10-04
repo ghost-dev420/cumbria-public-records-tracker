@@ -1,0 +1,22 @@
+{
+  "entity_id": "d64e07c10b5cb371ea17611c521a9cac8b7a2dd7cd8c8db8ec676b4478f693e6",
+  "entity_type": "SUPPLIER",
+  "name": "Bendcrete Leisure Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6d367c65b2c1b45ea0e3a203cb98ea32bded87f93dc5c1df1b3fb2dddbbc3aea",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-c1ad1f8a-5ba3-4249-8454-ed65e5a75ec0-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Design and Install a Skate Park at Queens Park, Windermere via ESPO Framework 115_25 Lot 4",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9821fae7-a4bd-4ad2-90cc-79638f7a93fe-914931.json",
+      "published_at": "2026-09-22T12:29:43+01:00",
+      "retrieved_at": "2026-10-03 23:50:32.897557",
+      "sha256": "cbe67ed40862ef1a3ef248105a92ec6acd3ecac3bbdac5a9b029c7d475c0ba86",
+      "related_entity": "ocds-b5fd17-c1ad1f8a-5ba3-4249-8454-ed65e5a75ec0:ocds-b5fd17-c1ad1f8a-5ba3-4249-8454-ed65e5a75ec0-1"
+    }
+  ]
+}

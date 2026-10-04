@@ -1,0 +1,22 @@
+{
+  "entity_id": "3c12393eebdccc22fef60aa62c0a43b7ca5bb59d5a7ef31f0ee094091d3aeacc",
+  "entity_type": "WARD",
+  "name": "Egremont",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8cc9f005fff8f9acd23a061f4cff0ad1b446846dd477e2ca5fc385f3ef011718",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Egremont",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Sam Pollen"
+    }
+  ]
+}
