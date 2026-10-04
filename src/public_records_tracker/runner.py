@@ -237,7 +237,14 @@ def run_collection(
     stats["matches"] = sum(
         resolution_stats.get(key, 0)
         for key in ("identifier", "name_exact", "fuzzy_review")
-    ) + quality_stats.get("payment_channel_matches", 0)
+    ) + sum(
+        quality_stats.get(key, 0)
+        for key in (
+            "payment_channel_matches",
+            "legal_suffix_matches",
+            "near_exact_typo_matches",
+        )
+    )
     stats["review_items"] = con.execute(
         "SELECT count(*) FROM review_queue WHERE status='open'"
     ).fetchone()[0]
