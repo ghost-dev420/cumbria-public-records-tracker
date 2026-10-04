@@ -129,11 +129,10 @@ sources:
     max_records: 220
     allow_cross_domain: true
 
-  # LGSCO has a dedicated collector because SearchResults does not consistently
-  # expose result cards as normal anchor links to automated clients. The
-  # collector pages numerically and the extractor can structure facts directly
-  # from result cards, while still fetching decision pages when URLs are present
-  # in the raw response.
+  # LGSCO has a dedicated collector because SearchResults can serve only the
+  # search shell to non-browser request profiles. It primes a browser-like
+  # session, pages SearchResults numerically, structures result cards directly,
+  # and can fall back to official council-performance decision listings.
   - id: lgsco_cumberland
     name: LGSCO decisions concerning Cumberland Council
     kind: lgsco_search
@@ -145,6 +144,7 @@ sources:
     expect_facts: true
     minimum_fact_count: 1
     endpoint: https://www.lgo.org.uk/Decisions/SearchResults
+    prime_url: https://www.lgo.org.uk/decisions
     from_date: '0001-01-01'
     decision_codes: 'c+nu+u+'
     sort_order: descending
@@ -163,8 +163,13 @@ sources:
     expect_facts: true
     minimum_fact_count: 1
     endpoint: https://www.lgo.org.uk/Decisions/SearchResults
+    prime_url: https://www.lgo.org.uk/decisions
     from_date: '0001-01-01'
     decision_codes: 'c+nu+u+'
     sort_order: descending
     page_limit: 24
     ignore_decision_statuses: [404, 410]
+    performance_fallback_urls:
+      - https://www.lgo.org.uk/your-councils-performance/westmorland-and-furness-council/decisions/2023/u/Listing?aname=Westmorland+and+Furness+Council&atype=Unitary+authority&dc=u&fd=2023-04-01&sortOrder=descending&t=both&td=2024-03-31
+      - https://www.lgo.org.uk/your-councils-performance/westmorland-and-furness-council/decisions/2024/u/Listing?aname=Westmorland+and+Furness+Council&atype=Unitary+authority&dc=u&fd=2024-04-01&sortOrder=descending&t=both&td=2025-03-31
+      - https://www.lgo.org.uk/your-councils-performance/westmorland-and-furness-council/decisions/2025/u/Listing?aname=Westmorland+and+Furness+Council&atype=Unitary+authority&dc=u&fd=2025-04-01&sortOrder=descending&t=both&td=2026-03-31
