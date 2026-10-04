@@ -8,6 +8,9 @@ _PUBLIC_AUTHORITY_ABBREVIATION_RE = re.compile(
     r"(?:^|\s)(?:T\s*\.\s*C\s*\.|P\s*\.\s*C\s*\.)\s*$",
     re.IGNORECASE,
 )
+_DATE_LIKE_RE = re.compile(
+    r"^(?:\d{1,2}[\-/\.]\d{1,2}[\-/\.]\d{2,4}|\d{4}[\-/\.]\d{1,2}[\-/\.]\d{1,2})$"
+)
 _PLACEHOLDER_NAMES = {
     "99999",
     "unknown",
@@ -57,6 +60,25 @@ def basic_org_key(value: str) -> str:
     cleaned = re.sub(r"[’'`]", "", cleaned)
     cleaned = re.sub(r"[^a-z0-9]+", " ", cleaned)
     return re.sub(r"\s+", " ", cleaned).strip()
+
+
+def is_plausible_org_name(value: str) -> bool:
+    """Return whether text is plausible as an organisation/supplier identity.
+
+    This is deliberately conservative: it rejects empty/place-holder values,
+    pure accounting codes and obvious date cells while allowing normal company
+    names that contain numbers (for example ``3C Payment Limited``).
+    """
+    raw, _ = split_payment_channel(value)
+    raw = " ".join(raw.split()).strip()
+    if not raw or _DATE_LIKE_RE.fullmatch(raw):
+        return False
+
+    key = basic_org_key(raw)
+    compact = key.replace(" ", "")
+    if not key or key in _PLACEHOLDER_NAMES or compact.isdigit():
+        return False
+    return bool(re.search(r"[a-z]", key))
 
 
 def classify_noncommercial_payee(value: str) -> str | None:
