@@ -1,3 +1,4 @@
+from .contract_register_csv import extract_contract_register_csv
 from .contracts_finder import extract_contracts_finder
 from .contracts_periods import extract_contract_periods
 from .grants import extract_grant_awards
@@ -18,6 +19,7 @@ def extract_payments_bundle(**kwargs) -> int:
 
 
 EXTRACTORS = {
+    "contract_register_csv": extract_contract_register_csv,
     "contracts_finder": extract_contracts_bundle,
     "grants": extract_grant_awards,
     "housing_ombudsman": extract_housing_ombudsman,
