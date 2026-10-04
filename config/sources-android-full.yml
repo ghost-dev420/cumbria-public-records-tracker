@@ -129,47 +129,41 @@ sources:
     max_records: 220
     allow_cross_domain: true
 
-  # LGSCO SearchResults is quirky: dead historical case links can remain in a
-  # valid result set, and the W&F organisation filter has intermittently
-  # rendered only the search shell for automated clients. Keep strict case-link
-  # discovery, ignore only 404/410 case tombstones, and for W&F pair a known-good
-  # populated baseline query with a rolling unpadded-date query. Decision URLs
-  # are de-duplicated by the collector, so the fallback does not duplicate facts.
+  # LGSCO has a dedicated collector because SearchResults does not consistently
+  # expose result cards as normal anchor links to automated clients. The
+  # collector pages numerically and the extractor can structure facts directly
+  # from result cards, while still fetching decision pages when URLs are present
+  # in the raw response.
   - id: lgsco_cumberland
     name: LGSCO decisions concerning Cumberland Council
-    kind: html_listing
+    kind: lgsco_search
     enabled: true
     evidence_class: REGULATORY_FINDING
     organisation_ids: [cumberland_council]
+    organisation_name: Cumberland Council
     extractors: [lgsco]
     expect_facts: true
     minimum_fact_count: 1
-    start_urls:
-      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Cumberland%20Council&dc=c%2Bnu%2Bu%2B&fd=0001-01-01&page=1&sortOrder=descending&td={today}
-    include_link_regex: '/decisions/.+/\d{2}-\d{3}-\d{3}/?$'
-    page_limit: 20
-    max_records: 250
-    follow_pagination: true
-    pagination_text: 'next'
-    pagination_404_ends: true
-    ignore_attachment_statuses: [404, 410]
+    endpoint: https://www.lgo.org.uk/Decisions/SearchResults
+    from_date: '0001-01-01'
+    decision_codes: 'c+nu+u+'
+    sort_order: descending
+    page_limit: 24
+    ignore_decision_statuses: [404, 410]
 
   - id: lgsco_westmorland_furness
     name: LGSCO decisions concerning Westmorland and Furness Council
-    kind: html_listing
+    kind: lgsco_search
     enabled: true
     evidence_class: REGULATORY_FINDING
     organisation_ids: [westmorland_furness_council]
+    organisation_name: Westmorland and Furness Council
     extractors: [lgsco]
     expect_facts: true
     minimum_fact_count: 1
-    start_urls:
-      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Westmorland+and+Furness+Council&dc=c%2Bnu%2Bu%2B&fd=0001-01-01&page=1&sortOrder=descending&td=2026-9-7
-      - https://www.lgo.org.uk/Decisions/SearchResults?aname=Westmorland+and+Furness+Council&dc=c%2Bnu%2Bu%2B&fd=0001-01-01&page=1&sortOrder=descending&td={today_unpadded}
-    include_link_regex: '/decisions/.+/\d{2}-\d{3}-\d{3}/?$'
+    endpoint: https://www.lgo.org.uk/Decisions/SearchResults
+    from_date: '0001-01-01'
+    decision_codes: 'c+nu+u+'
+    sort_order: descending
     page_limit: 24
-    max_records: 250
-    follow_pagination: true
-    pagination_text: 'next'
-    pagination_404_ends: true
-    ignore_attachment_statuses: [404, 410]
+    ignore_decision_statuses: [404, 410]
