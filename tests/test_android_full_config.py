@@ -65,29 +65,24 @@ def test_android_full_registry_removes_known_blocked_or_stale_start_urls() -> No
     assert "whitehaventowncouncil.co.uk" in urls
 
 
-def test_android_lgsco_uses_complete_resilient_search_results() -> None:
+def test_android_lgsco_uses_dedicated_search_collector() -> None:
     sources = load_sources(Path("config/sources-android-full.yml"))
     by_id = {source["id"]: source for source in sources}
 
-    cumberland = by_id["lgsco_cumberland"]
-    assert len(cumberland["start_urls"]) == 1
-    assert "fd=0001-01-01" in cumberland["start_urls"][0]
-    assert "td={today}" in cumberland["start_urls"][0]
-    assert cumberland["ignore_attachment_statuses"] == [404, 410]
-
-    westmorland = by_id["lgsco_westmorland_furness"]
-    assert len(westmorland["start_urls"]) == 2
-    assert any("td=2026-9-7" in url for url in westmorland["start_urls"])
-    assert any("td={today_unpadded}" in url for url in westmorland["start_urls"])
-    assert all("Westmorland+and+Furness+Council" in url for url in westmorland["start_urls"])
-    assert westmorland["ignore_attachment_statuses"] == [404, 410]
-
-    for source in (cumberland, westmorland):
-        assert all("/Decisions/SearchResults" in url for url in source["start_urls"])
-        assert all("page=1" in url for url in source["start_urls"])
-        assert all("/u/Listing" not in url for url in source["start_urls"])
-        assert source["include_link_regex"] == r"/decisions/.+/\d{2}-\d{3}-\d{3}/?$"
-        assert source["pagination_404_ends"] is True
+    expected_names = {
+        "lgsco_cumberland": "Cumberland Council",
+        "lgsco_westmorland_furness": "Westmorland and Furness Council",
+    }
+    for source_id, organisation_name in expected_names.items():
+        source = by_id[source_id]
+        assert source["kind"] == "lgsco_search"
+        assert source["organisation_name"] == organisation_name
+        assert source["endpoint"].endswith("/Decisions/SearchResults")
+        assert source["from_date"] == "0001-01-01"
+        assert source["decision_codes"] == "c+nu+u+"
+        assert source["sort_order"] == "descending"
         assert source["page_limit"] >= 20
+        assert source["ignore_decision_statuses"] == [404, 410]
+        assert source["extractors"] == ["lgsco"]
         assert source["expect_facts"] is True
         assert source["minimum_fact_count"] == 1
