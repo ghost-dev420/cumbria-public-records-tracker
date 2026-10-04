@@ -246,9 +246,24 @@ def extract_payments(
     if not _is_supplier_file(record, source, has_headers=has_headers):
         return 0
 
+    rows = list(_dict_rows(record.body))
+    if not rows:
+        return 0
+
+    # Payment fact identity includes the supplier entity. If supplier hygiene
+    # rules change, re-extracting an existing snapshot must replace that
+    # snapshot's old payment facts rather than leaving both old and new supplier
+    # identities active and double-counting spend.
+    con.execute(
+        """DELETE FROM facts
+           WHERE document_id=? AND snapshot_id=?
+             AND predicate='PAYMENT_TO_SUPPLIER'""",
+        [document_id, snapshot_id],
+    )
+
     payer = _payer_entity(con, source, record)
     count = 0
-    for row_number, row in _dict_rows(record.body):
+    for row_number, row in rows:
         raw_supplier_name = _field(row, "supplier")
         supplier_name, payment_channel = split_payment_channel(raw_supplier_name)
         amount = _amount(_field(row, "amount"))
