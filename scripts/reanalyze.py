@@ -9,6 +9,7 @@ from pathlib import Path
 from public_records_tracker.analysis import ensure_analysis_schema, run_detectors
 from public_records_tracker.analysis_lifecycle import begin_analysis_cycle, finish_analysis_cycle
 from public_records_tracker.analysis_quality import prepare_analysis_resolution
+from public_records_tracker.connections import detect_psc_supplier_connections
 from public_records_tracker.db import connect
 from public_records_tracker.procurement_gaps import run_procurement_gap_detectors
 from public_records_tracker.reconciliation import run_reconciliation_detectors
@@ -58,6 +59,7 @@ def main() -> None:
         detectors = run_detectors(con)
         detectors.update(run_reconciliation_detectors(con))
         detectors.update(run_procurement_gap_detectors(con))
+        detectors.update(detect_psc_supplier_connections(con))
         lifecycle = finish_analysis_cycle(con, started)
 
         open_reviews = con.execute(
