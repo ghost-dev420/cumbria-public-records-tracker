@@ -41,10 +41,12 @@ def split_payment_channel(value: str) -> tuple[str, str | None]:
 
     Council payment exports sometimes append the settlement mechanism to the
     payee itself, e.g. ``NPOWER LTD (NCR)`` or ``HMRC (CHAPS)``.  That is
-    transaction metadata, not part of the supplier identity.
+    transaction metadata, not part of the supplier identity. Obvious date-cell
+    values are rejected here as invalid supplier/payee identities so source
+    extractors cannot accidentally promote them to organisation entities.
     """
     raw = " ".join(str(value or "").split()).strip()
-    if not raw:
+    if not raw or _DATE_LIKE_RE.fullmatch(raw):
         return "", None
     match = _PAYMENT_CHANNEL_RE.search(raw)
     if not match:
@@ -71,7 +73,7 @@ def is_plausible_org_name(value: str) -> bool:
     """
     raw, _ = split_payment_channel(value)
     raw = " ".join(raw.split()).strip()
-    if not raw or _DATE_LIKE_RE.fullmatch(raw):
+    if not raw:
         return False
 
     key = basic_org_key(raw)
