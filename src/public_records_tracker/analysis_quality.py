@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 import duckdb
 
 from .resolution import ORG_TYPES, ensure_resolution_schema, normalize_org_name
-from .supplier_hygiene import split_payment_channel
+from .supplier_hygiene import basic_org_key, split_payment_channel
 
 
 _PROCUREMENT_SOURCE_TERMS = (
@@ -123,6 +123,53 @@ def ensure_payment_channel_matches(con: duckdb.DuckDBPyConnection) -> int:
                         "right_name": right_name,
                         "left_channel": left_channel,
                         "right_channel": right_channel,
+                    },
+                )
+                inserted += 1
+    return inserted
+
+
+def ensure_exact_clean_name_matches(con: duckdb.DuckDBPyConnection) -> int:
+    """Auto-link identical clean organisation names across source namespaces.
+
+    General short-name fuzzy matching remains manual.  This rule only applies
+    when the cleaned payee/organisation spelling itself is identical (ignoring
+    case and punctuation), contains at least five characters, and neither side
+    carries a payment-channel suffix.  It fixes duplicate source-specific
+    entities such as two independent ``NPOWER`` payment identities without
+    making near-matches automatic.
+    """
+    ensure_resolution_schema(con)
+    groups: dict[str, list[tuple[str, str]]] = defaultdict(list)
+    for entity_id, name, entity_type in con.execute(
+        "SELECT entity_id,canonical_name,entity_type FROM entities"
+    ).fetchall():
+        if str(entity_type) not in ORG_TYPES:
+            continue
+        _, channel = split_payment_channel(str(name))
+        if channel is not None:
+            continue
+        key = basic_org_key(str(name))
+        if len(key) < 5 or key.replace(" ", "").isdigit():
+            continue
+        groups[key].append((str(entity_id), str(name)))
+
+    inserted = 0
+    for key, members in groups.items():
+        if len(members) < 2:
+            continue
+        for index, (left_id, left_name) in enumerate(members):
+            for right_id, right_name in members[index + 1 :]:
+                _upsert_auto_match(
+                    con,
+                    left=left_id,
+                    right=right_id,
+                    method="exact_clean_name",
+                    confidence=0.995,
+                    evidence={
+                        "clean_name": key,
+                        "left_name": left_name,
+                        "right_name": right_name,
                     },
                 )
                 inserted += 1
@@ -406,12 +453,14 @@ def close_resolved_entity_match_reviews(con: duckdb.DuckDBPyConnection) -> int:
 
 def prepare_analysis_resolution(con: duckdb.DuckDBPyConnection) -> dict[str, int]:
     channel_matches = ensure_payment_channel_matches(con)
+    exact_matches = ensure_exact_clean_name_matches(con)
     legal_suffix_matches = ensure_legal_suffix_matches(con)
     typo_matches = ensure_near_exact_typo_matches(con)
     resolved = rebuild_quality_resolved_members(con)
     closed_reviews = close_resolved_entity_match_reviews(con)
     return {
         "payment_channel_matches": channel_matches,
+        "exact_clean_name_matches": exact_matches,
         "legal_suffix_matches": legal_suffix_matches,
         "near_exact_typo_matches": typo_matches,
         "quality_resolved_entities": resolved,
