@@ -158,6 +158,7 @@ sources:
     evidence_class: REGULATORY_FINDING
     organisation_ids: [westmorland_furness_council]
     organisation_name: Westmorland and Furness Council
+    fallback_to_date: 2026-9-7
     extractors: [lgsco]
     expect_facts: true
     minimum_fact_count: 1
