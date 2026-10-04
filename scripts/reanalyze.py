@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import argparse
+import shutil
+from datetime import datetime, timezone
 from pathlib import Path
 
 from public_records_tracker.analysis import ensure_analysis_schema, run_detectors
@@ -14,6 +16,11 @@ from public_records_tracker.resolution import ensure_resolution_schema, run_reso
 from public_records_tracker.structured import ensure_structured_schema
 
 
+def _backup_path(path: Path) -> Path:
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    return path.with_name(f"{path.name}.pre-analysis-{stamp}.bak")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Recompute private entity resolution, review items and signals without crawling."
@@ -24,7 +31,20 @@ def main() -> None:
         default=Path("data/tracker.duckdb"),
         help="working DuckDB path (default: data/tracker.duckdb)",
     )
+    parser.add_argument(
+        "--no-backup",
+        action="store_true",
+        help="skip the automatic pre-analysis database backup",
+    )
     args = parser.parse_args()
+
+    if not args.db.exists():
+        raise SystemExit(f"Database does not exist: {args.db}")
+
+    if not args.no_backup:
+        backup = _backup_path(args.db)
+        shutil.copy2(args.db, backup)
+        print(f"Backup: {backup}")
 
     con = connect(args.db)
     try:
