@@ -80,3 +80,52 @@ def test_unchanged_fact_does_not_create_change(tmp_path):
         new_snapshot_id="snap-new",
     ) == 0
     con.close()
+
+
+def test_ombudsman_locator_wording_change_is_not_a_structured_change(tmp_path):
+    con = connect(tmp_path / "tracker.duckdb")
+    ensure_structured_schema(con)
+    ensure_diff_schema(con)
+
+    activate_snapshot(
+        con,
+        document_id="doc-1",
+        snapshot_id="snap-old",
+        observed_at="2026-01-01T00:00:00+00:00",
+    )
+    add_fact(
+        con,
+        document_id="doc-1",
+        snapshot_id="snap-old",
+        fact_type="OMBUDSMAN_DECISION_DATE",
+        predicate="HAS_OMBUDSMAN_DECISION_DATE",
+        evidence_class="REGULATORY_FINDING",
+        object_entity_id="case-1",
+        value_text="19 Jan 2024",
+        locator="Decision date",
+    )
+
+    activate_snapshot(
+        con,
+        document_id="doc-1",
+        snapshot_id="snap-new",
+        observed_at="2026-02-01T00:00:00+00:00",
+    )
+    add_fact(
+        con,
+        document_id="doc-1",
+        snapshot_id="snap-new",
+        fact_type="OMBUDSMAN_DECISION_DATE",
+        predicate="HAS_OMBUDSMAN_DECISION_DATE",
+        evidence_class="REGULATORY_FINDING",
+        object_entity_id="case-1",
+        value_text="19 Jan 2024",
+        locator="decision page: Decision date",
+    )
+
+    assert record_structured_diff(
+        con,
+        document_id="doc-1",
+        new_snapshot_id="snap-new",
+    ) == 0
+    con.close()
