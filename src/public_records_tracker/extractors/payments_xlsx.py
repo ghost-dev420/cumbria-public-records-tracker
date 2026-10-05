@@ -86,16 +86,13 @@ def extract_payments_xlsx(
         if not eligible:
             return 0
 
-        # See the CSV extractor: supplier identity is part of a fact ID, so a
-        # migration from a dirty payee name to a cleaned one must replace the
-        # snapshot's payment facts rather than coexist with them.
-        con.execute(
-            """DELETE FROM facts
-               WHERE document_id=? AND snapshot_id=?
-                 AND predicate='PAYMENT_TO_SUPPLIER'""",
-            [document_id, snapshot_id],
-        )
-
+        # Payment fact identity includes the supplier entity. Supplier hygiene or
+        # corrected payer attribution can therefore produce a new fact ID when an
+        # existing snapshot is re-extracted. Do not bulk-delete indexed fact rows:
+        # that pattern has caused DuckDB index invalidation after interrupted
+        # Android/aarch64 runs. Add the corrected fact first, then retire any older
+        # fact occupying the same source-row slot by changing only its unindexed
+        # predicate. This mirrors the CSV extractor and remains idempotent.
         payer = _payer_entity(con, source, record)
         count = 0
         for sheet, rows in eligible:
@@ -117,7 +114,7 @@ def extract_payments_xlsx(
                 department = _field(row, "department") or None
                 reference = _field(row, "reference") or None
                 locator = f"XLSX {sheet.title}!row {row_number}"
-                add_fact(
+                fact_id = add_fact(
                     con,
                     document_id=document_id,
                     snapshot_id=snapshot_id,
@@ -139,6 +136,15 @@ def extract_payments_xlsx(
                         "raw_supplier_name": raw_supplier_name or supplier_name,
                         "payment_channel": payment_channel,
                     },
+                )
+                con.execute(
+                    """UPDATE facts
+                       SET predicate='SUPERSEDED_PAYMENT_TO_SUPPLIER'
+                       WHERE document_id=? AND snapshot_id=?
+                         AND fact_type='PAYMENT'
+                         AND predicate='PAYMENT_TO_SUPPLIER'
+                         AND locator=? AND fact_id<>?""",
+                    [document_id, snapshot_id, locator, fact_id],
                 )
                 count += 1
         return count
