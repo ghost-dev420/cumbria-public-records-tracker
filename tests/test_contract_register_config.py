@@ -3,10 +3,10 @@ from pathlib import Path
 from public_records_tracker.config import load_sources
 
 
-def test_base_production_registry_contains_cumberland_contract_register() -> None:
+def _assert_cumberland_contract_register(path: str) -> None:
     by_id = {
         source["id"]: source
-        for source in load_sources(Path("config/sources.yml"))
+        for source in load_sources(Path(path))
     }
     source = by_id["cumberland_contract_register"]
 
@@ -18,3 +18,12 @@ def test_base_production_registry_contains_cumberland_contract_register() -> Non
     assert source["expect_facts"] is True
     assert source["contract_supplier_aliases"]["AWSL"] == "Allerdale Waste Services Limited"
     assert source["contract_supplier_aliases"]["GLL"] == "Greenwich Leisure Ltd"
+    assert source["contract_supplier_aliases"]["Tivoli"] == "TIVOLI GROUP LTD"
+
+
+def test_base_production_registry_contains_cumberland_contract_register() -> None:
+    _assert_cumberland_contract_register("config/sources.yml")
+
+
+def test_android_registry_inherits_contract_supplier_alias_defaults() -> None:
+    _assert_cumberland_contract_register("config/sources-android-full.yml")
