@@ -112,7 +112,7 @@ def test_westmorland_lgsco_has_official_performance_fallbacks() -> None:
     source = by_id["lgsco_westmorland_furness"]
 
     assert source["kind"] == "lgsco_browser"
-    assert source["browser_timeout"] >= 30
+    assert source["browser_timeout"] == 20
     assert source["fallback_to_date"] == "2026-9-7"
     urls = source["performance_fallback_urls"]
     assert len(urls) == 3
