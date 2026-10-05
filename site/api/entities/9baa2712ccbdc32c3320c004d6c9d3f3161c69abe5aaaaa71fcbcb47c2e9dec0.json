@@ -1,0 +1,78 @@
+{
+  "entity_id": "9baa2712ccbdc32c3320c004d6c9d3f3161c69abe5aaaaa71fcbcb47c2e9dec0",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-015-948",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "dff0d130bcd1b88990c28e7a1100f003dcba17c31c7065b0a9106af68ac304be",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-015-948",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-948",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-015-948",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:22.391642",
+      "sha256": "e090c4655c6398ca1ae82a4133e3a077a593d6e97a83b4d7161398c5f2fcf447",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "aae8b35035699c26e6c4039d286b2be52ec47561cd46e6d134480b6ab8a6f078",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Education",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-948",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-015-948",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:22.391642",
+      "sha256": "e090c4655c6398ca1ae82a4133e3a077a593d6e97a83b4d7161398c5f2fcf447",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a29e728f3afff4a2c8dd2a963188a85796260e5bd00e106d5a3e8210f4964b39",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-948",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-015-948",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:22.391642",
+      "sha256": "e090c4655c6398ca1ae82a4133e3a077a593d6e97a83b4d7161398c5f2fcf447",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7eb901453380b69ffd797f0b09ddb9ce1552966bb6e099f9a60a9548f448310a",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "24 Feb 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-948",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-015-948",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:22.391642",
+      "sha256": "e090c4655c6398ca1ae82a4133e3a077a593d6e97a83b4d7161398c5f2fcf447",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7235e5f8a2de76cc5039ed1ada66a03bae14a3b7e7e5d1678ab752a0dd913a90",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mrs X’s complaint about the Council’s decision to cease to maintain an Education Health and Care Plan. Mrs X appealed the Council’s decision to the Tribunal, and we cannot investigate the same decision.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-948",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-015-948",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:22.391642",
+      "sha256": "e090c4655c6398ca1ae82a4133e3a077a593d6e97a83b4d7161398c5f2fcf447",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

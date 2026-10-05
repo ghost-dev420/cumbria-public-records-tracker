@@ -1,0 +1,92 @@
+{
+  "entity_id": "ad228b181ae174c2239c5a13487ebf4873044a08f3763a373d636c056e660e16",
+  "entity_type": "CONTRACT",
+  "name": "PROCONT00002317",
+  "fact_count": 6,
+  "timeline": [
+    {
+      "fact_id": "07c60b5b2ce746197f0f779428b252034350c03bb4fb4d3b5f456af39b06b80b",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "CSV row 66",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "1a4725234d79733f0218d20aefb9895c0a4ca46597369d598f033980889d9950",
+      "fact_type": "CONTRACT_PERIOD",
+      "predicate": "ENDS_ON",
+      "value": "2027-03-31",
+      "locator": "CSV row 66",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "2b2f909fab3dcf05f1f401d783774488eeaf7af06fe10c5ca77fc37941f5f853",
+      "fact_type": "CONTRACT_PERIOD",
+      "predicate": "STARTS_ON",
+      "value": "2023-04-01",
+      "locator": "CSV row 66",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "1decb4cb9ea5e84f1d392955041caae34b27e29c4d875ce32fc86d00949e120a",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 66",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "Oxford Computer Consultants Ltd"
+    },
+    {
+      "fact_id": "909778b995f5da42f261b3e9cd528a8d078eb4f26b626ee8a33674a4c4c11eac",
+      "fact_type": "CONTRACT_TITLE",
+      "predicate": "HAS_TITLE",
+      "value": "ContrOCC Adults IAS Maintenance 20/21 (x16) [ControCC Adults Renewal/ Social Care Finance System] for Cumberland",
+      "locator": "CSV row 66",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "9da99ed314b0f8582882c7ad3e39b1dcfcabb8e2dab3b213f6dd4383be4a22e1",
+      "fact_type": "CONTRACT_VALUE",
+      "predicate": "HAS_VALUE",
+      "value": "75529.00",
+      "locator": "CSV row 66",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    }
+  ]
+}

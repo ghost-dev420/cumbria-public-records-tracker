@@ -1,0 +1,22 @@
+{
+  "entity_id": "d11c108593c99bb4b7943a0879ffcaa3a610b687360734c1b4bc56825ebf9fa8",
+  "entity_type": "SUPPLIER",
+  "name": "Julie McFarland",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "51b56f127f4c64e2420f704d389f3111081d15edd0d38e1090e4bc6189838fde",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 293",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "PROCONT00002703"
+    }
+  ]
+}

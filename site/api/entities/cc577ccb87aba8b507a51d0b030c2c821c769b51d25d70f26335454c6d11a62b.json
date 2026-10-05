@@ -1,0 +1,36 @@
+{
+  "entity_id": "cc577ccb87aba8b507a51d0b030c2c821c769b51d25d70f26335454c6d11a62b",
+  "entity_type": "SUPPLIER",
+  "name": "Roland Hill Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "6d817e734f25f3c1767db035db4fe72e0e97f575729f56f2ed8528e28b43d8e0",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-7499ee0f-d77c-4f81-8a01-b32f8c225aed-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Minor Works Framework - Kirkbride Primary School BMS Replacement and Associated Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1596b875-8cea-434c-b1d2-1d2daf9809d0-911350.json",
+      "published_at": "2026-08-19T15:06:12+01:00",
+      "retrieved_at": "2026-10-03 23:42:54.140503",
+      "sha256": "73975ee15fd6326ebedd1803d1f31bea41bf87b22e8f6ecbcfae4e533f853510",
+      "related_entity": "ocds-b5fd17-7499ee0f-d77c-4f81-8a01-b32f8c225aed:ocds-b5fd17-7499ee0f-d77c-4f81-8a01-b32f8c225aed-1"
+    },
+    {
+      "fact_id": "4dd74acf32d3b3136090e1189bc0248fdfdfb65f15cd5c6f8167e61ead620f2d",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-1b02461a-73a7-4630-86fb-8ce974d24827-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 1A  - Brunswick School Boiler Replacement & Associated Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/13cbb2d8-40e1-4009-925a-37b21985361d-873010.json",
+      "published_at": "2025-11-20T14:17:41Z",
+      "retrieved_at": "2026-10-03 22:57:37.202815",
+      "sha256": "032d220c9cf9fc2ad5b3e2f4e4cb2f5073c9e5e2f44fb00df9889524e389f632",
+      "related_entity": "ocds-b5fd17-1b02461a-73a7-4630-86fb-8ce974d24827:ocds-b5fd17-1b02461a-73a7-4630-86fb-8ce974d24827-1"
+    }
+  ]
+}

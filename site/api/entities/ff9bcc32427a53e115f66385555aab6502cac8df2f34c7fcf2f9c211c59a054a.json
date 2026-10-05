@@ -1,0 +1,50 @@
+{
+  "entity_id": "ff9bcc32427a53e115f66385555aab6502cac8df2f34c7fcf2f9c211c59a054a",
+  "entity_type": "PERSON",
+  "name": "Helen Tucker",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "b031d2cb4999494d03aa74a4b3142c9d7ebbc5a24573bf538f8e0750ca537b2c",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Green Party",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Green Party"
+    },
+    {
+      "fact_id": "9672cd892816d23799e2b904cad6a8fed1f8a988ca7ad412dbb0da8e25379b71",
+      "fact_type": "TERM_OF_OFFICE",
+      "predicate": "TERM_OF_OFFICE",
+      "value": "06/05/2022 to unspecified",
+      "locator": "term of office",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": null
+    },
+    {
+      "fact_id": "8153962dfdae2784913cd25c233a1f21fe010707dbac794b8807dd72e4d254c9",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Cockermouth North",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Cockermouth North"
+    }
+  ]
+}

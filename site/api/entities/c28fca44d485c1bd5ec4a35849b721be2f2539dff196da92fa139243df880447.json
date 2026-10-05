@@ -1,0 +1,22 @@
+{
+  "entity_id": "c28fca44d485c1bd5ec4a35849b721be2f2539dff196da92fa139243df880447",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Scrutiny Panel F - Environment",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1618a10ca65796896114b808a2cad493d987b0c056eb91571c46a33c5a9895e9",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Scrutiny Panel F - Environment",
+      "locator": "committee 597",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

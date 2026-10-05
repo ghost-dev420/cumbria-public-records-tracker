@@ -1,0 +1,78 @@
+{
+  "entity_id": "33e544c2bbb228ca81735f2568fee788580bf1d2e0cf857e34374d04834babe4",
+  "entity_type": "SUPPLIER",
+  "name": "GARY CANNON LTD",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "8042e75942825dc18fcdfab7658482dabdada411ae6e5c2687b86095b410d2e8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "49443.91",
+      "locator": "XLSX Report!row 437",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "993bdf434a1e86535e9f117d8af4adb6f65827e220054a25335fdd4e1c830bc1",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1312.00",
+      "locator": "XLSX Report!row 438",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c5bdc783daefb7af34f746c00d4abf7027aa3656999c06b42558a1e21b151ef1",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "350.00",
+      "locator": "XLSX Report!row 51",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d05b0df5ca8b8549bab783fe062902ced227e08959be8abff310e06325e2a62c",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1200.00",
+      "locator": "XLSX Report!row 644",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "2a84426475a8d7e8079de917129aeb267e7a999a4ca4ac6a4cd64e81f6741324",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "650.00",
+      "locator": "XLSX Sheet 1!row 206",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

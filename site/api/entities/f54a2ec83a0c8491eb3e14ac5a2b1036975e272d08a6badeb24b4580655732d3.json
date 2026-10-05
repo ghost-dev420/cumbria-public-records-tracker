@@ -1,0 +1,36 @@
+{
+  "entity_id": "f54a2ec83a0c8491eb3e14ac5a2b1036975e272d08a6badeb24b4580655732d3",
+  "entity_type": "SUPPLIER",
+  "name": "NORTHSIDE COMMUNITY CENTRE",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "1a0601dcd4e2d15ae85d232ebe9fd3c7a1c2835aa74a9b9521a54b94f76f0f0f",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "20.00",
+      "locator": "XLSX Report!row 767",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d3fd27639fd77b314b75aa399da037485db33a1eab10731824ece8ea965df548",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "30.00",
+      "locator": "XLSX Report!row 242",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

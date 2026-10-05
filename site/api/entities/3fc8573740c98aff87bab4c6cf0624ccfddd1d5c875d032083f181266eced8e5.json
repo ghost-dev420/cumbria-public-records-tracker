@@ -1,0 +1,64 @@
+{
+  "entity_id": "3fc8573740c98aff87bab4c6cf0624ccfddd1d5c875d032083f181266eced8e5",
+  "entity_type": "SUPPLIER",
+  "name": "Carnegie Theatre Trust",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "cc49b4d7b0e84349ca14786c6453909f309f02b05ae2813701487a0cc3d88749",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3750.00",
+      "locator": "XLSX Sheet1!row 142",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7daf2443442c27bf6348b664eaf67af324daa9c7fe60d56eea80dfb85ac90a6d",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3750.00",
+      "locator": "XLSX Sheet1!row 159",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "19de18dcac43e515d46215d2a00a8d8a4a45030a1893420ec0a42780718a8712",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3750.00",
+      "locator": "XLSX Sheet 1!row 180",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "288c58862b009e92be049fe65813764d3e21fc9d64ce4547d0a8b544f4ec1953",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3750.00",
+      "locator": "XLSX Sheet1!row 169",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

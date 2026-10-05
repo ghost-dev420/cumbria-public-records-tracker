@@ -1,0 +1,22 @@
+{
+  "entity_id": "38bb565801af2d739dd11aa833f94988e9ad44e2e75a1ac0d4163534df2eaf92",
+  "entity_type": "SUPPLIER",
+  "name": "Roger Procter",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2ebbeec08d726c4351f63a5fc742263fa52795f48b462497337798b5ca646215",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-a6b5047c-0459-46c4-af02-d276538c1a07-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1b - Up to 8 Passenger Seats with Passenger Assistant for Sedbergh area closing 30 August 2023 (F45)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/209554f1-18b9-462f-820a-8828683bd4c4-892648.json",
+      "published_at": "2026-04-13T14:56:29+01:00",
+      "retrieved_at": "2026-10-03 23:21:24.837034",
+      "sha256": "c8615735539468293020a45f9c6d529cb54846234f7f3b894e7ffaf9a49f1a2b",
+      "related_entity": "ocds-b5fd17-a6b5047c-0459-46c4-af02-d276538c1a07:ocds-b5fd17-a6b5047c-0459-46c4-af02-d276538c1a07-1"
+    }
+  ]
+}

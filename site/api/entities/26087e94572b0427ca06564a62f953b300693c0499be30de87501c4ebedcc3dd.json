@@ -1,0 +1,22 @@
+{
+  "entity_id": "26087e94572b0427ca06564a62f953b300693c0499be30de87501c4ebedcc3dd",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Licensing Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c04c6bae8dd13bc43cb620c287e6dbeef39871a4888d2c1ea6d02fd872615e31",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Licensing Committee",
+      "locator": "committee 735",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

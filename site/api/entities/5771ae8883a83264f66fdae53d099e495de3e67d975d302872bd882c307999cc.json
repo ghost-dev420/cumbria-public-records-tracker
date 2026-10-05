@@ -1,0 +1,22 @@
+{
+  "entity_id": "5771ae8883a83264f66fdae53d099e495de3e67d975d302872bd882c307999cc",
+  "entity_type": "SUPPLIER",
+  "name": "FINISHING TOUCHES",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "53f63217a55ef0e962efbb8bd93cbca681f9a702423255ddaad89346269e89d8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "126.00",
+      "locator": "XLSX Report!row 364",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

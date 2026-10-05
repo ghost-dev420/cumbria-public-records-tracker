@@ -1,0 +1,22 @@
+{
+  "entity_id": "f4e35441da6f2fc7f84c20ff639face638ec04b1e3e81c2a7d300dd10261c894",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Policy Resources Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "19724a8d7cbec26f48387cca35d659bdba4f3084e870be43afee76707219294d",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Policy Resources Sub-Committee",
+      "locator": "committee 580",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

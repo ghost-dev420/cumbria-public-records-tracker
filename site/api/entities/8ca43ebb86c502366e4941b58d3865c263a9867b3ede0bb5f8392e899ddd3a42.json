@@ -1,0 +1,78 @@
+{
+  "entity_id": "8ca43ebb86c502366e4941b58d3865c263a9867b3ede0bb5f8392e899ddd3a42",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-014-487",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "942ae4aff5f4f58dc4640f2fbb162a27f9ae5c75ac729253470da18e8eae7a9d",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-014-487",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-014-487",
+      "source_url": "https://www.lgo.org.uk/decisions/education/alternative-provision/23-014-487",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:39.243560",
+      "sha256": "387a80cc89e9c11136993b39747e1b968ac52758267ff8cedd79589e488aab20",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "23d1937e5b00619f72dbb16c4a7d22dd062b53534642b50e5f3fb2f9f916fb98",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Education",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-014-487",
+      "source_url": "https://www.lgo.org.uk/decisions/education/alternative-provision/23-014-487",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:39.243560",
+      "sha256": "387a80cc89e9c11136993b39747e1b968ac52758267ff8cedd79589e488aab20",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "68c723e7dd9896ccfbf7f3f767b5604e6c2f127b9f06338a3738cc04498cb6cc",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-014-487",
+      "source_url": "https://www.lgo.org.uk/decisions/education/alternative-provision/23-014-487",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:39.243560",
+      "sha256": "387a80cc89e9c11136993b39747e1b968ac52758267ff8cedd79589e488aab20",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e232b40142a10ec4bbf20927f3ad51f71b58914617d2b62bd70382ed2c81a332",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "08 Jul 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-014-487",
+      "source_url": "https://www.lgo.org.uk/decisions/education/alternative-provision/23-014-487",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:39.243560",
+      "sha256": "387a80cc89e9c11136993b39747e1b968ac52758267ff8cedd79589e488aab20",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "92bfda7d8987e88ba869e93fdb2c7f70a5ed9510d0d10c3619ea701a21d690c9",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "the Council delayed putting in place alternative provision when Mrs B’s daughter could not attend school. An apology, payment to Mrs B, reminder to officers and provision of evidence to show the measures the Council has put in place to address the issues with alternative provision is satisfactory remedy.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-014-487",
+      "source_url": "https://www.lgo.org.uk/decisions/education/alternative-provision/23-014-487",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:39.243560",
+      "sha256": "387a80cc89e9c11136993b39747e1b968ac52758267ff8cedd79589e488aab20",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

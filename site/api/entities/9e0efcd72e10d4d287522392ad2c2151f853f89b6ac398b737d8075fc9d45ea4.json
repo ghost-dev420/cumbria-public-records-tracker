@@ -1,0 +1,50 @@
+{
+  "entity_id": "9e0efcd72e10d4d287522392ad2c2151f853f89b6ac398b737d8075fc9d45ea4",
+  "entity_type": "SUPPLIER",
+  "name": "North Cumbria Integrated Care NHS Foundation Trust",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "3dc9aab40ce5926e8ffd92c7aaa316e67bb8a5586f1e5ba6d806b519141070bd",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 85",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002919"
+    },
+    {
+      "fact_id": "4f315c0de3efc4077da9606d5ef9dd6c8f7e725cf294720f7db7d18ac13a37b8",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 145",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003548"
+    },
+    {
+      "fact_id": "d08284377a72a72532318a2234bbe91ad0c021e113472aaa31e203c0f95b0d7e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 207",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "row-51988c0a767b4511f0b9"
+    }
+  ]
+}

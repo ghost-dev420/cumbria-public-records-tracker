@@ -1,0 +1,50 @@
+{
+  "entity_id": "bada8e6aafa93eae03845549ce6cc293525d96823ece67051d908195de74d2b8",
+  "entity_type": "WARD",
+  "name": "Risedale and Roosecote",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "5ef0fdd92adff7f21824b74a832cb051b65f87ea90f7fdea6148cb3fcc647c81",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Risedale and Roosecote",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Jane Murphy"
+    },
+    {
+      "fact_id": "73046ac346d523c9030faeddf1007e338d787f3c5728dbc1a8f55b66fcc3a538",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Risedale and Roosecote",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Trevor Biggins"
+    },
+    {
+      "fact_id": "c5285c7145e7fb3c0a6fedf85f38bdfa68a2c69e1ee23821d7eda8847516f8d0",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Risedale and Roosecote",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Andy Coles"
+    }
+  ]
+}

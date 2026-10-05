@@ -1,0 +1,78 @@
+{
+  "entity_id": "09c79736512291c789c78f1e7d5e80d177bfd2026cd71f02274d4c815707a2b7",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-011-520",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "83fb7bb638e829cb909bad4a1c06f987600da108c61e1b6e5578614de754ef19",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-011-520",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-011-520",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/building-control/25-011-520",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:29.743009",
+      "sha256": "3a1be5364e8d557f95add46065ce020f9cff70ca1673476abbdffa25bc5bcdc9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "996725eb8797b08b3d09cd5d96f1b6240d9a2f949c1c1585fe68f680916f5e8d",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Planning",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-011-520",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/building-control/25-011-520",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:29.743009",
+      "sha256": "3a1be5364e8d557f95add46065ce020f9cff70ca1673476abbdffa25bc5bcdc9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "37aa57fa62aceaff9c176658edaba89480e94c5825c009137a7b2f5da01a2542",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-011-520",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/building-control/25-011-520",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:29.743009",
+      "sha256": "3a1be5364e8d557f95add46065ce020f9cff70ca1673476abbdffa25bc5bcdc9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "9e8115ee7573410ff4dbbdd2bf181ade783f8121aebeb1a8f9ce67b0bf90b2a3",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "23 Mar 2026",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-011-520",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/building-control/25-011-520",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:29.743009",
+      "sha256": "3a1be5364e8d557f95add46065ce020f9cff70ca1673476abbdffa25bc5bcdc9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "356442117d482789d698798f8fbbcf752260f68264a0df65fefd5f22460c6a4a",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s building control advice because it is out of time with no good reason to exercise discretion.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-011-520",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/building-control/25-011-520",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:29.743009",
+      "sha256": "3a1be5364e8d557f95add46065ce020f9cff70ca1673476abbdffa25bc5bcdc9",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

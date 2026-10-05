@@ -1,0 +1,22 @@
+{
+  "entity_id": "6f178cd93e7e4e34e56894820c1c138647faa89d3f83db5cee08638ff623848a",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Nuclear Issues Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b8b879d48478140b6c93f32a375112795747ef0ffe3047fd039d501305e742fb",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Nuclear Issues Working Group",
+      "locator": "committee 568",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

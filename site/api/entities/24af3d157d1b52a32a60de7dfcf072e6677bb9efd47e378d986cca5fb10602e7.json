@@ -1,0 +1,22 @@
+{
+  "entity_id": "24af3d157d1b52a32a60de7dfcf072e6677bb9efd47e378d986cca5fb10602e7",
+  "entity_type": "SUPPLIER",
+  "name": "SEFTON COUNCIL",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f07a97945c7afdd61b662eebb035fecf423cfe28601d528971ac92faccd534a6",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "500.00",
+      "locator": "XLSX Sheet1!row 391",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

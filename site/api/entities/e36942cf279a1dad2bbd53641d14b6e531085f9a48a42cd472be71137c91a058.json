@@ -1,0 +1,22 @@
+{
+  "entity_id": "e36942cf279a1dad2bbd53641d14b6e531085f9a48a42cd472be71137c91a058",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Public Protection Advisory Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "667d7e3e8ce445464b54e8234a7fdc076a26b426012a446494ae786b93cfc459",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Public Protection Advisory Sub-Committee",
+      "locator": "committee 583",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

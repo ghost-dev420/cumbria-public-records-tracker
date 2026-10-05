@@ -1,0 +1,22 @@
+{
+  "entity_id": "57181af724afcf209ffaf260a00c9c854ec1b335a1abbc4e7f48cf346163cb36",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Corporate Management Team Extended",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "436df94a1e959cfc2ac287ed1210e8b17fbf9f15d4490a594334ed960af3bbb5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Corporate Management Team Extended",
+      "locator": "committee 498",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

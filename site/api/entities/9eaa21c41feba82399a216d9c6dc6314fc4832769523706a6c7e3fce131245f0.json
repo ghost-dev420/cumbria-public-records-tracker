@@ -1,0 +1,64 @@
+{
+  "entity_id": "9eaa21c41feba82399a216d9c6dc6314fc4832769523706a6c7e3fce131245f0",
+  "entity_type": "SUPPLIER",
+  "name": "Cumbria Waste Management Ltd",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "50c7d18cf1c35788d38cb50d75a2acb4bd1a21cf58ca15ec1940056ca80d6cbe",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 193",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003540"
+    },
+    {
+      "fact_id": "a0a7caf6c8b98d0de0ca7d15ed4ee7d95aa5b592e22ff634f30df2f3e15c03a6",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 225",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002754"
+    },
+    {
+      "fact_id": "de697ee93614d457aa0e44a32055d6e88b1c655120bc6a5772bc3ec6ebd507bc",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 306",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003789"
+    },
+    {
+      "fact_id": "f33130cd03e283e2f1d7154340b0963b9247ac60095e272400e4bc7de8945a72",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 209",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002390"
+    }
+  ]
+}

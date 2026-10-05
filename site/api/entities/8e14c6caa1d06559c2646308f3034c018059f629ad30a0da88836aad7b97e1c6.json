@@ -1,0 +1,22 @@
+{
+  "entity_id": "8e14c6caa1d06559c2646308f3034c018059f629ad30a0da88836aad7b97e1c6",
+  "entity_type": "SUPPLIER",
+  "name": "The Fruit & Veg Box Company",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "24a7667024c901d8832b1fb111bc9eb83d88a8787b27073be94a52ebc7a98ffa",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "160.00",
+      "locator": "XLSX Report!row 64",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

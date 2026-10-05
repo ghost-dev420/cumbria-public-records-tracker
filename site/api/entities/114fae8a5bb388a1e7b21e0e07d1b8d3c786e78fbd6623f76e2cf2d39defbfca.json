@@ -1,0 +1,22 @@
+{
+  "entity_id": "114fae8a5bb388a1e7b21e0e07d1b8d3c786e78fbd6623f76e2cf2d39defbfca",
+  "entity_type": "SUPPLIER",
+  "name": "G H CHAMBERS & SON",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8e29ded66d28ca154494bf07d8a6b78e806a2e698c082e5587c64d1f92743d0a",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "952.33",
+      "locator": "XLSX Sheet1!row 142",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

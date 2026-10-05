@@ -1,0 +1,78 @@
+{
+  "entity_id": "66e5256bee07ad359e49f1d9b01ffcca02be79937a4f566b7a811455bc649554",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-001-860",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "115c099f181b6ff02c7280d7f579e859eb66c958cf6b092ca20ec528a0c5596c",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-001-860",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-001-860",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/24-001-860",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:41.280933",
+      "sha256": "76db7912f70a47259f280e33087575559c2ac69d0ece10538b9eeb5b72979774",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "819a5350a77f98ca30ebeb93b36642aa223873bd8f0f654ccefd9fd98aa9b4b4",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-001-860",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/24-001-860",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:41.280933",
+      "sha256": "76db7912f70a47259f280e33087575559c2ac69d0ece10538b9eeb5b72979774",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "8200f9cdbfcc7d86070eecd03e3546121dca741727215e5d30ec1cd6c4c2fbc9",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-001-860",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/24-001-860",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:41.280933",
+      "sha256": "76db7912f70a47259f280e33087575559c2ac69d0ece10538b9eeb5b72979774",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "6047494d902fcee99747367023faed8256cccbe346c2dab9165d25540d5d317f",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "27 Jun 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-001-860",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/24-001-860",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:41.280933",
+      "sha256": "76db7912f70a47259f280e33087575559c2ac69d0ece10538b9eeb5b72979774",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d6a537be6c4a9b7eaec96bba812bea9234ca550fefd571c8509ad85d1c9a592c",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about the care received by his relative in a Care Home from 2020 – 2022. This is because the complaint does not meet the tests in our Assessment Code on how we decide which complaints to investigate. The complaint has been made late and there are no good reasons for us to investigate.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-001-860",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/24-001-860",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:41.280933",
+      "sha256": "76db7912f70a47259f280e33087575559c2ac69d0ece10538b9eeb5b72979774",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

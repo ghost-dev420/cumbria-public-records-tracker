@@ -1,0 +1,50 @@
+{
+  "entity_id": "5c530ee13603894fad80022d6209a0674f539c0fbd438d5ac25b5570e176f0dc",
+  "entity_type": "PERSON",
+  "name": "Eamonn Hennessy",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "8d9888a28aeae9b027f65a909f2300b64172f381d6b4d12008a569b6ef3d49fe",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Liberal Democrats",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Liberal Democrats"
+    },
+    {
+      "fact_id": "745331ad56e814bdd93085a20efb7f24ef27927267731aa518e51be41d135049",
+      "fact_type": "TERM_OF_OFFICE",
+      "predicate": "TERM_OF_OFFICE",
+      "value": "09/05/2022 to unspecified",
+      "locator": "term of office",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": null
+    },
+    {
+      "fact_id": "7b16376c058a61f4ed2f213f2522db13015cc191569cd1d60826b6bbbb8535a9",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Kendal Castle",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Kendal Castle"
+    }
+  ]
+}

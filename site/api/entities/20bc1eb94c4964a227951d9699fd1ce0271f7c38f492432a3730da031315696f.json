@@ -1,0 +1,22 @@
+{
+  "entity_id": "20bc1eb94c4964a227951d9699fd1ce0271f7c38f492432a3730da031315696f",
+  "entity_type": "SUPPLIER",
+  "name": "A.B Fire Safety Training Services Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "375076051d39bcf771b352c4e2fc9efea49ac7c015a74c55d11859642cc7eded",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-4bdb663c-6a41-4866-ab00-0d0c1dae84db-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 1 -Fire Safety Extinguisher (including 3 yearly refresher training).",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a4699f84-b0d0-4259-b0a6-a46ac45d4f41-888675.json",
+      "published_at": "2026-03-16T12:30:02Z",
+      "retrieved_at": "2026-10-03 23:11:23.316169",
+      "sha256": "56c6878016db6015d95176892f0b332248e1b965d0bce754e518dc27d2fb1ad8",
+      "related_entity": "ocds-b5fd17-4bdb663c-6a41-4866-ab00-0d0c1dae84db:ocds-b5fd17-4bdb663c-6a41-4866-ab00-0d0c1dae84db-1"
+    }
+  ]
+}

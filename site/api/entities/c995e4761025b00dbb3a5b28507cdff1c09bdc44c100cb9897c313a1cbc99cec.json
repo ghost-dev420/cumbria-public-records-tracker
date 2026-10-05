@@ -1,0 +1,78 @@
+{
+  "entity_id": "c995e4761025b00dbb3a5b28507cdff1c09bdc44c100cb9897c313a1cbc99cec",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-015-248",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "2062c3f2ed08c8df6e21d2dc568be522c5207c4e1f3d20b3bc55ede90f1d6f40",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-015-248",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-248",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:52.537580",
+      "sha256": "61f641056864a53c443ae1de78a5b7eaee526d1329bc2b83ddb9c373916ab6d8",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "16a916e8f617ead7efc739cbec6aa3003f98eebb1477d3aacbdd3cfb5a8dc6df",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-248",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:52.537580",
+      "sha256": "61f641056864a53c443ae1de78a5b7eaee526d1329bc2b83ddb9c373916ab6d8",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "25b6363557315a65f7bdd8068817886eda796c11ee46feeb55cc9be0706aa543",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-248",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:52.537580",
+      "sha256": "61f641056864a53c443ae1de78a5b7eaee526d1329bc2b83ddb9c373916ab6d8",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "639d54ebe38ef47b638868524017d1e8d2dcb8218370a2c733cb63dda78d4aaf",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "08 May 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-248",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:52.537580",
+      "sha256": "61f641056864a53c443ae1de78a5b7eaee526d1329bc2b83ddb9c373916ab6d8",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "866472130e665b509dc50fd42d86cb2f008ee43dde1dad4685149fff45f87a69",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Ms X complained the Council failed to consider the risks posed to her and her neighbours when it asked them to place their bins for collection in a location which was difficult to access for older and disabled residents. The Council was not at fault for how it made its decision to change the waste collections. However the Council failed to address Ms X’s concerns in its complaint response and this caused Ms X frustration. The Council has agreed to apologise and take action to improve its service.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-248",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/24-015-248",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:52.537580",
+      "sha256": "61f641056864a53c443ae1de78a5b7eaee526d1329bc2b83ddb9c373916ab6d8",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

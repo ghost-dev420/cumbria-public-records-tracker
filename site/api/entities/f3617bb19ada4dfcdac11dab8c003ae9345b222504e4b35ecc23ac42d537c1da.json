@@ -1,0 +1,22 @@
+{
+  "entity_id": "f3617bb19ada4dfcdac11dab8c003ae9345b222504e4b35ecc23ac42d537c1da",
+  "entity_type": "SUPPLIER",
+  "name": "TRAFFIC ENFORCEMENT CENTRE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "80f683abdf380b203b1fa4c78e2d9c9da7d9f72465e402ad5c89cd8a406095b7",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2000.00",
+      "locator": "XLSX Sheet1!row 354",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

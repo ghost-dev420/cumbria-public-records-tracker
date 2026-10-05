@@ -1,0 +1,22 @@
+{
+  "entity_id": "34ead312f7d6d47929d31d4ecbd485030e4342061b85eb6e8d42fe6a81415dc5",
+  "entity_type": "SUPPLIER",
+  "name": "Personnel Hygiene Services Ltd (PHS)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4d99172c47d6b13fc35a6d9cc358d60593055496983cc35af0cb43c284ae80b5",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 323",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003466"
+    }
+  ]
+}

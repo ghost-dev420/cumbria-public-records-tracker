@@ -1,0 +1,22 @@
+{
+  "entity_id": "6a54ffbde52205d777048649f59bbcbc85b00ffcb73b119377b8ecc66b895289",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Compulsory Competitive Tendering Tenders & Evaluation Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "349ff5e4833c609ae79e2aaa650a2479ae60a900bdccd883dab21c7aaa647df6",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Compulsory Competitive Tendering Tenders & Evaluation Panel",
+      "locator": "committee 491",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "d48f9753a28684b8de827beaa8a5f3059425344971192da770c4e5a1d57c0ad1",
+  "entity_type": "SUPPLIER",
+  "name": "THE COMMISSION FOR LOCAL ADMINISTRATION IN ENGLAND",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a0315858184aeb6d3569532ccf95f2c265e06ac378e8835c6e82e97487291943",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "450.00",
+      "locator": "XLSX Sheet1!row 497",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

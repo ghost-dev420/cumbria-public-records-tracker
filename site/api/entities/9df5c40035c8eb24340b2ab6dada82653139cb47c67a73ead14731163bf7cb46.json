@@ -1,0 +1,78 @@
+{
+  "entity_id": "9df5c40035c8eb24340b2ab6dada82653139cb47c67a73ead14731163bf7cb46",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-017-872",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "cb0dd70e3fc7ced523474c5c85de80ca5501d47060d638a4c66c3156d6a06144",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-017-872",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-017-872",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-017-872",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:08.812793",
+      "sha256": "a768d25edc0f13953e837aaa3a2cedf26c39de10a1dde62152e2de082af213a0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a00d46b935e88dec762e85c88cc16d1fa8216f74f6e0d34a2a75e368050acfc5",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Benefits and tax",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-017-872",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-017-872",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:08.812793",
+      "sha256": "a768d25edc0f13953e837aaa3a2cedf26c39de10a1dde62152e2de082af213a0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "6e4727f4737e7b7bcf2c0f8da02316e5b75524dec2f06f9157b5df2ee2adfda1",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-017-872",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-017-872",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:08.812793",
+      "sha256": "a768d25edc0f13953e837aaa3a2cedf26c39de10a1dde62152e2de082af213a0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "b1a787b51f4aa99ae36dab2922111ff3f8ea545440b7760a0d02fc404f22dd16",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "04 Nov 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-017-872",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-017-872",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:08.812793",
+      "sha256": "a768d25edc0f13953e837aaa3a2cedf26c39de10a1dde62152e2de082af213a0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c0c217c87677cea1572251b73ba436f568e68fa983c2d1c635be2f6aecb80187",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mrs B’s complaint about the Council charging a council tax premium for second homes. This is because the law says such decisions can only be challenged by judicial review. And, it is reasonable for Mrs B to put in an appeal to the Valuation Tribunal against the Council’s decision to apply this premium to her property.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-017-872",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-017-872",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:08.812793",
+      "sha256": "a768d25edc0f13953e837aaa3a2cedf26c39de10a1dde62152e2de082af213a0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

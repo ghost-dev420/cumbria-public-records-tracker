@@ -1,0 +1,36 @@
+{
+  "entity_id": "1fdb2b7ffcdcd0289a6fcda3c756540dc0c174a9e078e8b15ef872a5c901dcda",
+  "entity_type": "SUPPLIER",
+  "name": "H.D SYSTEMS ASPATRIA LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "f0cf2d1773d8c343bae2c3dee1efd965e0183c69f6aa869e9debdb4e449ce981",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "650.00",
+      "locator": "XLSX Report!row 520",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "0637fe0dd8e590b45361c43ca14a739e117dda7adfb5ccb0be8c4a5876d84704",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1400.00",
+      "locator": "XLSX Sheet 1!row 255",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

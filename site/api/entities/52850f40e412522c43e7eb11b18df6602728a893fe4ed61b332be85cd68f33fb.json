@@ -1,0 +1,36 @@
+{
+  "entity_id": "52850f40e412522c43e7eb11b18df6602728a893fe4ed61b332be85cd68f33fb",
+  "entity_type": "SUPPLIER",
+  "name": "Momentum Incorporated Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "666f05f746599b91477d6644bdc25f36a3b2d1858960135e0a8ef7a4004af71e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 396",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "2025/s 000-017456"
+    },
+    {
+      "fact_id": "1f08d0c4c233229f695f47e789b9d2dd475a5c61a92132ceb28843043e4d2114",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 196",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-04cf40"
+    }
+  ]
+}

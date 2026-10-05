@@ -1,0 +1,36 @@
+{
+  "entity_id": "b325426d63dfe97df1f390bf0be27f48517d43cfd5d4083cdc436e7496ad8831",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Braithwaite Hall, Far Sawrey [d5cca958d2945c8fa387]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "72969c4882dd18bdf2749d1221ae1458d933af00bfa29997fb8dc765e3fbe9df",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1700",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 8",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "74fca0b0893c184ed0f0649236461cadfdceca45e2960099b4abb3cfcef01e34",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1700",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 8",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Braithwaite Hall, Far Sawrey"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "f50bc432ef2c2c10a9401ebfb9f47cb9f7e245df1d7fd153bca3b2d4194bcf97",
+  "entity_type": "SUPPLIER",
+  "name": "COCKERMOUTH MECHANICS BAND",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "315a75b9fc953d37a8337b3555fac39861ab0b8424cff87ccd5f262465df2e74",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "200.00",
+      "locator": "XLSX Sheet 1!row 430",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

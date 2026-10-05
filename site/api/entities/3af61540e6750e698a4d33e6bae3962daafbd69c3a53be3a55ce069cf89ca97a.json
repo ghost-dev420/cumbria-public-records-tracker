@@ -1,0 +1,36 @@
+{
+  "entity_id": "3af61540e6750e698a4d33e6bae3962daafbd69c3a53be3a55ce069cf89ca97a",
+  "entity_type": "WARD",
+  "name": "Dalton South",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "34eb4b339c554989505c9197e818a0e58c69c7930104b89deb1977736e267ffa",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Dalton South",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Tony Callister"
+    },
+    {
+      "fact_id": "6ecc5631bbb69c31bda6348364738605942ae02461560ebe64ff1b080af53022",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Dalton South",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Dave Taylor"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "42bc7e271c451e7c2787f92af95e9e25ad9805e74730366d76c106e2b9ddfc05",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Grange and Cartmel Community Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f6b25323fe93ac5050a0bd2873c93df49e062b37e2777af7d33a57a490c4ce79",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Grange and Cartmel Community Board",
+      "locator": "committee 768",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

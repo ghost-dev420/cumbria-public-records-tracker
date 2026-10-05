@@ -1,0 +1,22 @@
+{
+  "entity_id": "e5bdcf262d12bb6e1a804445469481cd2623f9eb3abe04d75075696f3ec5cb4c",
+  "entity_type": "SUPPLIER",
+  "name": "British Telecommunicatins plc",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9c181889e8345d8bb52630f26a76ad1a1abc8468fa24b29742e915cbbb4f364a",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-651505a0-6962-4dfe-a853-37d481048688-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Samsung Smart Phones and Cases (x500)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/2368ebff-53b7-4140-bff7-fa1b391cc274-900652.json",
+      "published_at": "2026-06-04T15:06:42+01:00",
+      "retrieved_at": "2026-10-03 23:30:51.435875",
+      "sha256": "57c3191ee30710eda7d1db0675fd9931f71128f16753b36e233c776267b56516",
+      "related_entity": "ocds-b5fd17-651505a0-6962-4dfe-a853-37d481048688:ocds-b5fd17-651505a0-6962-4dfe-a853-37d481048688-1"
+    }
+  ]
+}

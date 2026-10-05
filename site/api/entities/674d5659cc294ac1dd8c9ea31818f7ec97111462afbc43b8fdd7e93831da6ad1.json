@@ -1,0 +1,78 @@
+{
+  "entity_id": "674d5659cc294ac1dd8c9ea31818f7ec97111462afbc43b8fdd7e93831da6ad1",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-019-271",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "4ee57c3eaa642e17b34da667c50d2776dd8a8a1f178c114d36d924034a4d04fc",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-019-271",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-019-271",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-019-271",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:23.044489",
+      "sha256": "c162ae7a7dd0895da0c14aa9a4a78b2872915aa8c4fc05ab773b2b6274cd49dd",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d460d57ab50d1d61e155dce0fa55ef72f5871fcbd21168ab1dfe5cf27fe3fd7a",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Benefits and tax",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-019-271",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-019-271",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:23.044489",
+      "sha256": "c162ae7a7dd0895da0c14aa9a4a78b2872915aa8c4fc05ab773b2b6274cd49dd",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "3e0edfc74ef03621226a6ae2a6f245c79b2d8c4a2b12cc42a4012a9ed5a7ed36",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-019-271",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-019-271",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:23.044489",
+      "sha256": "c162ae7a7dd0895da0c14aa9a4a78b2872915aa8c4fc05ab773b2b6274cd49dd",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "565791824f42b2dd1153c13ec82895218b1f0b53cb92f123bf67dc07bf9f9861",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "13 Oct 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-019-271",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-019-271",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:23.044489",
+      "sha256": "c162ae7a7dd0895da0c14aa9a4a78b2872915aa8c4fc05ab773b2b6274cd49dd",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4900babe71abb5ca67a72f744cfb9c46985a74c907d7f2b9b50bbc9eb2f481fc",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "The Council commissioned enforcement agent was at fault for not providing evidence that it had authority to enter Mr X’s premises. However, the Council had already provided Mr X with evidence it had a liability order, so this did not cause an injustice. The enforcement agent was also at fault for failing to consider whether to respond to Mr X’s concerns through the complaints’ procedures. The Council has agreed to apologise to Mr X for this and issue a reminder to the enforcement agent.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-019-271",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-019-271",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:23.044489",
+      "sha256": "c162ae7a7dd0895da0c14aa9a4a78b2872915aa8c4fc05ab773b2b6274cd49dd",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "044be641e69f977ccc78e960ec29c9be6ffbb6b59591bad902f445a0b546784c",
+  "entity_type": "SUPPLIER",
+  "name": "GRIT BREAKTHROUGH PROGRAMMES",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e8916db862970b3d82b2ce7a5cf831ca17055ad5b5f57e8a51c797465b0edff2",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "8600.00",
+      "locator": "XLSX Sheet1!row 449",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

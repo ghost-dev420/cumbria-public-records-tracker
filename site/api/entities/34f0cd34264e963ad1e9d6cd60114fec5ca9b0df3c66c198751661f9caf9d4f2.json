@@ -1,0 +1,50 @@
+{
+  "entity_id": "34f0cd34264e963ad1e9d6cd60114fec5ca9b0df3c66c198751661f9caf9d4f2",
+  "entity_type": "SUPPLIER",
+  "name": "REAYS COACHES LTD",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "e098200da1255b34062b42200513776b3883f33fb26799d4507a13ff385811c3",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "250.00",
+      "locator": "XLSX Sheet1!row 375",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f8cd536049e4f3943fc183fa143f27fe309ec721fdad49b99e0deddfdc9f6349",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "460.00",
+      "locator": "XLSX Sheet1!row 353",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "5ed58f52e34dcd7823e89cad6a3331c229516e519bf08684ee45c65d9e148557",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1250.00",
+      "locator": "XLSX Report!row 35",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

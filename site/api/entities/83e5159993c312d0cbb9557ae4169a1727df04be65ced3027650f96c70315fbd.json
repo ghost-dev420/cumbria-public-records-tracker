@@ -1,0 +1,22 @@
+{
+  "entity_id": "83e5159993c312d0cbb9557ae4169a1727df04be65ced3027650f96c70315fbd",
+  "entity_type": "COMMITTEE",
+  "name": "CBC Overview and Scrutiny Performance Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "09067628d0c902dd59b39c88fc8a26735865233701515c0376ffc40d51e00d57",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CBC Overview and Scrutiny Performance Sub-Committee",
+      "locator": "committee 423",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

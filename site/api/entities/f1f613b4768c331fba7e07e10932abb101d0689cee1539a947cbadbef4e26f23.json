@@ -1,0 +1,22 @@
+{
+  "entity_id": "f1f613b4768c331fba7e07e10932abb101d0689cee1539a947cbadbef4e26f23",
+  "entity_type": "SUPPLIER",
+  "name": "KNOWLEDGE EXCHANGE GROUP LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ca95fbf3416835924180a39cbe34aea16bae3566207778b8d2c2710e431278fb",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "227.00",
+      "locator": "XLSX Report!row 537",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "6044d0173e228b09bf8a6e5c51e974ef9ad0f34f5325eae8299526fb7f934d4b",
+  "entity_type": "SUPPLIER",
+  "name": "MARYPORT GROUNDWORKS LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2cba41fdc80c66d09956ecc99c4b8640bfff7636837c16acacd4605cce1cb3c8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "360.00",
+      "locator": "XLSX Report!row 734",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

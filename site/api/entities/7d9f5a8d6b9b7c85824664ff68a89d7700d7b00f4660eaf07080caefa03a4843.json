@@ -1,0 +1,22 @@
+{
+  "entity_id": "7d9f5a8d6b9b7c85824664ff68a89d7700d7b00f4660eaf07080caefa03a4843",
+  "entity_type": "COMMITTEE",
+  "name": "Furness Locality Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f7599a3077c999e9b5192007ca1acb7cf6ab2c9df7167f7e01407b5c89d9b32a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Furness Locality Board",
+      "locator": "committee 269",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

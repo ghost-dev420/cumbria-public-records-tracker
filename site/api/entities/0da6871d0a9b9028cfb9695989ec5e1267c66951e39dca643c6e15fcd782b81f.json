@@ -1,0 +1,78 @@
+{
+  "entity_id": "0da6871d0a9b9028cfb9695989ec5e1267c66951e39dca643c6e15fcd782b81f",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-001-355",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "dbd7b3a8fce601091b1c7091d88da0fb4bfadc74a922eb96ddd7d8f831c1be0e",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-001-355",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-001-355",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/24-001-355",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:40.873180",
+      "sha256": "fd11b58f0db8cceafa35b0c655a6ce974917bc9f17b8d7ef5896476774127816",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "56455e0c9d546405d01609bd2d30d72f642d721692e2bc20145e2780b2c0a54a",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-001-355",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/24-001-355",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:40.873180",
+      "sha256": "fd11b58f0db8cceafa35b0c655a6ce974917bc9f17b8d7ef5896476774127816",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d10aa48102a18e2d200c6f373bc38085cdda82f4338b4fe8a2ffb4a4e9d24756",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-001-355",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/24-001-355",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:40.873180",
+      "sha256": "fd11b58f0db8cceafa35b0c655a6ce974917bc9f17b8d7ef5896476774127816",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "3946c63f1140077c53369c90ddaa7367bfa6044f8e4d79e614f445c04b0328fe",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "14 Jan 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-001-355",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/24-001-355",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:40.873180",
+      "sha256": "fd11b58f0db8cceafa35b0c655a6ce974917bc9f17b8d7ef5896476774127816",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "62981d513b6812a517f7617c41be86c3ed9bc565f8758ff376d3e98cbcc85ea3",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Mr X complained the Council delayed taking action following his reports of flooding on a road near to his property. Mr X also complained the Council did not adequately respond to his requests for information about the issue. He says the Council’s actions meant he had to take alternative routes for several months when travelling to and from his address. We found fault by the Council. The Council has agreed to provide an apology and a financial remedy to Mr X and remind its staff to respond to service users in a timely and suitable manner.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-001-355",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/24-001-355",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:40.873180",
+      "sha256": "fd11b58f0db8cceafa35b0c655a6ce974917bc9f17b8d7ef5896476774127816",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

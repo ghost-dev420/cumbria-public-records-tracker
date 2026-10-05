@@ -1,0 +1,92 @@
+{
+  "entity_id": "46a33e1f13b924afb2bb5420fd8fd21ca9831d0a50a15f6d21b01e963a83f31b",
+  "entity_type": "SUPPLIER",
+  "name": "WIGTON TOWN COUNCIL",
+  "fact_count": 6,
+  "timeline": [
+    {
+      "fact_id": "a1650ea6628459316f3b63e30812634c28f2ca2e8711f30757e58c66b7cd455c",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "175000.00",
+      "locator": "XLSX Sheet1!row 505",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "2c608e21faa069194d34c7f4a8a87f989209e72f80c9cbe6ad2f0b966dea1585",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "950.00",
+      "locator": "XLSX Sheet1!row 295",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ae0b6ec0638ecf5c7b048a7cb8db6a7393faa3f7e90cda2e5aabbd5381eeecc3",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "11438.80",
+      "locator": "XLSX Sheet1!row 395",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "6ac07ae0598e0635aab1de60ddd3117087120edde1c00f1735294f95be76a3ca",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "-13074.79",
+      "locator": "XLSX Sheet1!row 460",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "8454bdb147449323e1d296bcdd25883b69ea90fd02898761da96713f1e826135",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "13074.79",
+      "locator": "XLSX Sheet1!row 406",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "efa4abf62876b293b30432f7de88931249781f9bfc15d672ebfe9ec806007085",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "12795.91",
+      "locator": "XLSX Sheet1!row 579",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

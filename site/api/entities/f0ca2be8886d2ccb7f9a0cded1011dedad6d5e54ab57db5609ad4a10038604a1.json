@@ -1,0 +1,50 @@
+{
+  "entity_id": "f0ca2be8886d2ccb7f9a0cded1011dedad6d5e54ab57db5609ad4a10038604a1",
+  "entity_type": "PERSON",
+  "name": "Abdul Harid",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "9e240a04bba2caa2c7cbb02161d0c21d8a7e80d02b785409cf84d696bbf60c3e",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Labour",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Labour"
+    },
+    {
+      "fact_id": "ba75db66d119978400beaf8cbd4170e238566c89971982f20a472e8d0c6e4281",
+      "fact_type": "TERM_OF_OFFICE",
+      "predicate": "TERM_OF_OFFICE",
+      "value": "06/05/2022 to unspecified",
+      "locator": "term of office",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": null
+    },
+    {
+      "fact_id": "cc39c05cf4df325d7ecea1395b57f054e44a0ad1e4eae735d3a317f48cbd9204",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Belle Vue",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Belle Vue"
+    }
+  ]
+}

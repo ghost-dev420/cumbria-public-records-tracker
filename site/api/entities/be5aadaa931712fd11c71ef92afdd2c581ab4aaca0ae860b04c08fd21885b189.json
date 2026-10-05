@@ -1,0 +1,50 @@
+{
+  "entity_id": "be5aadaa931712fd11c71ef92afdd2c581ab4aaca0ae860b04c08fd21885b189",
+  "entity_type": "SUPPLIER",
+  "name": "B & K Builders Limited",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "cca58f5f0f2b0a45d71b50a1bdbbb1406b5369459379d3f873bc099ddedbad9c",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-d4e60784-aec0-4b35-a0e3-945bd9096161-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 1A - Ulverston Market Hall Mechanical Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4b98898e-1efd-455e-ab70-0634b1c8a39f-911692.json",
+      "published_at": "2026-08-21T14:13:20+01:00",
+      "retrieved_at": "2026-10-03 23:43:09.277099",
+      "sha256": "c582772812705a0ad5c739e519725ece77aa622a5b28be5ee6f71c001a6de158",
+      "related_entity": "ocds-b5fd17-d4e60784-aec0-4b35-a0e3-945bd9096161:ocds-b5fd17-d4e60784-aec0-4b35-a0e3-945bd9096161-1"
+    },
+    {
+      "fact_id": "9c5d1fce4fbfaed9809c70cf48b7ebe7c44ee597bdd60f7b679b078b02abc6bc",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5d17bbaa-e01b-42c2-8ce7-8255b4c144b1-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Toilet Refurbishment at Fell Street, Barrow in Furness",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/24c0dcfa-a6f6-446b-a284-c1ab2488a3ed-905859.json",
+      "published_at": "2026-07-13T10:44:32+01:00",
+      "retrieved_at": "2026-10-03 23:36:53.111112",
+      "sha256": "cc2fd855b60efebcf698d8d6462837ec2c63568b4e320ad3bafac80c2d50b7ff",
+      "related_entity": "ocds-b5fd17-5d17bbaa-e01b-42c2-8ce7-8255b4c144b1:ocds-b5fd17-5d17bbaa-e01b-42c2-8ce7-8255b4c144b1-1"
+    },
+    {
+      "fact_id": "50d1306de73ac1d167220f32c8e16b6cf7671fa234b886c03188309be26aaf82",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-c39d5960-0e95-4c13-a104-f57932cca311-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 1A - Coniston CE Primary School External Screens",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/68c2962b-9cc9-4f06-9cb6-5b369d83c779-902875.json",
+      "published_at": "2026-06-19T14:55:44+01:00",
+      "retrieved_at": "2026-10-03 23:34:25.700726",
+      "sha256": "72282334b6a6114ad4a36b376dd57785c6a44160501157f26f1016ff534ec65d",
+      "related_entity": "ocds-b5fd17-c39d5960-0e95-4c13-a104-f57932cca311:ocds-b5fd17-c39d5960-0e95-4c13-a104-f57932cca311-1"
+    }
+  ]
+}

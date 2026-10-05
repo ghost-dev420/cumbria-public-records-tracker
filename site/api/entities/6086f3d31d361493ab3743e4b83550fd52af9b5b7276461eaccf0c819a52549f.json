@@ -1,0 +1,36 @@
+{
+  "entity_id": "6086f3d31d361493ab3743e4b83550fd52af9b5b7276461eaccf0c819a52549f",
+  "entity_type": "SUPPLIER",
+  "name": "Soft Surfaces Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "f0994705abb8db45748e7202277733ad0e3added8c2d61559280acb9673a0c37",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 509",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "PROCONT00003562"
+    },
+    {
+      "fact_id": "15dfec06982b7c2388bdf8d052f1ae4000765836f02f079b128203ae2a3f4d1d",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 204",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003551"
+    }
+  ]
+}

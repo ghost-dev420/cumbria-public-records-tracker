@@ -1,0 +1,36 @@
+{
+  "entity_id": "cdc8368c28525a44e7304c39484081219f7d0a3607d82943a7875bf6ae8ca63d",
+  "entity_type": "SUPPLIER",
+  "name": "M & I Travel ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "45e142f32145ad0e1b581bde6dcb85cd59e31574e64c8579a97d0ef9aa65c54e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-56e29dac-0ea3-465e-8868-3f22cba31b4c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a for Cumberland Council closing 30 January 2026 (PRU F30)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0e511961-4b2c-4eb2-a9cc-612180740765-881679.json",
+      "published_at": "2026-02-02T10:46:30Z",
+      "retrieved_at": "2026-10-03 23:07:14.388295",
+      "sha256": "e2c00049d65ad2aae14aea30232ab0a172173c7db3ca5e2f4179851bf6d38f0b",
+      "related_entity": "ocds-b5fd17-56e29dac-0ea3-465e-8868-3f22cba31b4c:ocds-b5fd17-56e29dac-0ea3-465e-8868-3f22cba31b4c-1"
+    },
+    {
+      "fact_id": "ece9349d22f3fc4f5d9eec1fe29f98922af183ffa9a3ba176e194c15d7cbab32",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-ec3286fe-06ac-476f-801f-0d2d074443f8-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a Up to 8 Passenger Seats Closing 18th November 2025 (PRU F21)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/239e718f-00f9-4821-81f9-bc84b629a93d-873248.json",
+      "published_at": "2025-11-21T15:26:56Z",
+      "retrieved_at": "2026-10-03 22:57:44.003445",
+      "sha256": "04748124569ec7ff335c62601d487ac1aa93e30cda975023519c93937f0363d8",
+      "related_entity": "ocds-b5fd17-ec3286fe-06ac-476f-801f-0d2d074443f8:ocds-b5fd17-ec3286fe-06ac-476f-801f-0d2d074443f8-1"
+    }
+  ]
+}

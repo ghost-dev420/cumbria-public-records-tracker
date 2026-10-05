@@ -1,0 +1,22 @@
+{
+  "entity_id": "dfd27af5391ea1dbaa9134995aa3abd5d1bc59fc4db26950f251fffecba40e8e",
+  "entity_type": "SUPPLIER",
+  "name": "Jacobs UK Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4a64ed6c303e8f755c525b82bf0cc70ea9364aebbe5aa76fd70b4e30d3a651f4",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-8b2917ac-de80-476e-9a92-d8e000d17748-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "PSF4 Lot 4B Bus Reform and Franchising Pilot",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/b029bdfd-3368-499a-9b60-4708e390ad19-884814.json",
+      "published_at": "2026-02-19T14:52:18Z",
+      "retrieved_at": "2026-10-03 23:08:54.758562",
+      "sha256": "ad9287e1b93d404763b8d2efb7d6794e4f5896e4b54e9a3dbccb3eef7a4f9acd",
+      "related_entity": "ocds-b5fd17-8b2917ac-de80-476e-9a92-d8e000d17748:ocds-b5fd17-8b2917ac-de80-476e-9a92-d8e000d17748-1"
+    }
+  ]
+}

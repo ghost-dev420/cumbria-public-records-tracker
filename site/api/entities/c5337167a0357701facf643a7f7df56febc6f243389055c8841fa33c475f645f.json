@@ -1,0 +1,22 @@
+{
+  "entity_id": "c5337167a0357701facf643a7f7df56febc6f243389055c8841fa33c475f645f",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Education Policy and Planning Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "95fa56b31a2c9d01410d6956ab253451c191717d40452bb6c772a341b82200ab",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Education Policy and Planning Sub-Committee",
+      "locator": "committee 532",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

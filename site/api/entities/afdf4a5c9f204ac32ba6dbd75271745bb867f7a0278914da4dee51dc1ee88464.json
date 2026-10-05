@@ -1,0 +1,22 @@
+{
+  "entity_id": "afdf4a5c9f204ac32ba6dbd75271745bb867f7a0278914da4dee51dc1ee88464",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Environmental Services Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8b4dbdfa7a3e20dce5d0124f655158f38e7ddb772b29c255afa928498d4386c6",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Environmental Services Committee",
+      "locator": "committee 688",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

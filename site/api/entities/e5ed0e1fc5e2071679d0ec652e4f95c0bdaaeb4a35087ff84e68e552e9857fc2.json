@@ -1,0 +1,22 @@
+{
+  "entity_id": "e5ed0e1fc5e2071679d0ec652e4f95c0bdaaeb4a35087ff84e68e552e9857fc2",
+  "entity_type": "SUPPLIER",
+  "name": "Fortra International Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cf2621bc115e76ef5261a2d98f5c74c2ddc6ff4da3cb2e5b322c191b4ccf84ca",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1590.36",
+      "locator": "XLSX Report!row 195",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "e6031ac685b5322ce566642fede047d8de40d0327d60bac6e63d84e5b2031796",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-010-396",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4e6ccedff2f21aa0bf4e9a28e2926200f3cb90230bc03640835cf6b6db7dc7ee",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-010-396",
+      "locator": "case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-010-396",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/looked-after-children/23-010-396",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 09:37:29.421084",
+      "sha256": "ccc6f4b95bf84ce33f4651b40fedd19590827867fbe2f78f1291261763e455c0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

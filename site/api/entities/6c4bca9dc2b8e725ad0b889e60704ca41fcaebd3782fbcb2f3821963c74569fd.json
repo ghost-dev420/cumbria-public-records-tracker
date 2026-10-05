@@ -1,0 +1,92 @@
+{
+  "entity_id": "6c4bca9dc2b8e725ad0b889e60704ca41fcaebd3782fbcb2f3821963c74569fd",
+  "entity_type": "CONTRACT",
+  "name": "PROCONT00002401",
+  "fact_count": 6,
+  "timeline": [
+    {
+      "fact_id": "3c7fc82994ffe4d1d9292973a789e0d2eade657d8074b42f220428438f9cd306",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "CSV row 314",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ea9c82c50a6df4687739f98366e852f2f4f42b78ba5b77b8ce6bd2a3449e269a",
+      "fact_type": "CONTRACT_DESCRIPTION",
+      "predicate": "HAS_DESCRIPTION",
+      "value": "Transport in Carlisle",
+      "locator": "CSV row 314",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "9bbfeb769ff0108f99a53a569356827d4969a3cd656769728391652db581369f",
+      "fact_type": "CONTRACT_PERIOD",
+      "predicate": "STARTS_ON",
+      "value": "2023-03-31",
+      "locator": "CSV row 314",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "b657ace1c3cb9a1c7b7b51b284c1e2240c6bf593cb192a7478dd9f1e7d704199",
+      "fact_type": "CONTRACT_PERIOD",
+      "predicate": "ENDS_ON",
+      "value": "2026-08-31",
+      "locator": "CSV row 314",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "1651561a242f910a282eb5e802a8422f7841374b3ad52df19b928693f41aa750",
+      "fact_type": "CONTRACT_TITLE",
+      "predicate": "HAS_TITLE",
+      "value": "Transport in Carlisle (for Adult and Local Services)",
+      "locator": "CSV row 314",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "71fb9a44c877e7561e51d3236bfc82f59b3293d8980ba116ebf07321b3fd53b2",
+      "fact_type": "CONTRACT_VALUE",
+      "predicate": "HAS_VALUE",
+      "value": "1300000.00",
+      "locator": "CSV row 314",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    }
+  ]
+}

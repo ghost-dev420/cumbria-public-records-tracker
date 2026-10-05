@@ -1,0 +1,64 @@
+{
+  "entity_id": "df5f7d303c0a93cde97f7f5659751b7271dec711d729dafb809d249bb5228d1d",
+  "entity_type": "PERSON",
+  "name": "Mike Johnson",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "8e432a67c7f51f82ba3a8973d048a7c5650b5065d81dcfdf2bdcc34482ff71ec",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Conservative",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Conservative"
+    },
+    {
+      "fact_id": "4a0e1cccea9eb8aaee691b9a49ea20e445cad4555b21bb9b3750b2a9afed32a3",
+      "fact_type": "PUBLIC_ROLE",
+      "predicate": "PUBLIC_ROLE_TEXT",
+      "value": "Leader of the Conservative Group",
+      "locator": "ModernGov key posts",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": null
+    },
+    {
+      "fact_id": "70ba4b33450d338555920357f7d3f3aa0d432bfbb78056485623874b90410fd1",
+      "fact_type": "TERM_OF_OFFICE",
+      "predicate": "TERM_OF_OFFICE",
+      "value": "06/05/2022 to unspecified",
+      "locator": "term of office",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": null
+    },
+    {
+      "fact_id": "6d06573a897ffbcce2043ec169c25d3ae19d770df40b7f1881d2ed91af1da14d",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Thursby",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Thursby"
+    }
+  ]
+}

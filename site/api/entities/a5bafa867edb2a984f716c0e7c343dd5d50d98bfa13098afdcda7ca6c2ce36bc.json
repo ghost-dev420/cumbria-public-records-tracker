@@ -1,0 +1,22 @@
+{
+  "entity_id": "a5bafa867edb2a984f716c0e7c343dd5d50d98bfa13098afdcda7ca6c2ce36bc",
+  "entity_type": "SUPPLIER",
+  "name": "CBES Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c3b3e7dd3ee19b5b3d44b1a37e57945411f2432ac66c0c18f56a37fa8e2ed654",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-b7c1438d-1aa5-4cba-8a62-2206f1173b87-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 1A - Flookburgh Primary School Internal and External Repair Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/89c8c093-9a39-4df2-bb9e-10395ecee026-905637.json",
+      "published_at": "2026-07-10T14:33:02+01:00",
+      "retrieved_at": "2026-10-03 23:36:37.365434",
+      "sha256": "c1e2a03d8f7f8812ec761831ae0c0524ab26ef6265777dba4e2ce8665bb6fef6",
+      "related_entity": "ocds-b5fd17-b7c1438d-1aa5-4cba-8a62-2206f1173b87:ocds-b5fd17-b7c1438d-1aa5-4cba-8a62-2206f1173b87-1"
+    }
+  ]
+}

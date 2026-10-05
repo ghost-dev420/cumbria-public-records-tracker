@@ -1,0 +1,36 @@
+{
+  "entity_id": "e2ca654215ad71ebec1b3896cb8fc63359e0d690e08f6a662485ed6f21846023",
+  "entity_type": "WARD",
+  "name": "Alston and Fellside",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "31f6245736e2e57a762714a2358aef7ca610afa33a866d083f3b224ba72e2edf",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Alston and Fellside",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Mary Robinson"
+    },
+    {
+      "fact_id": "6039cad7a221f71eee840e81373f5f6aeb88d61130fdd17359db0c23e0997a86",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Alston and Fellside",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Michael Hanley"
+    }
+  ]
+}

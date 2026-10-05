@@ -1,0 +1,22 @@
+{
+  "entity_id": "a1c609509b23127aaf1e4a6e8d07e312df75b6060cd1822d978971bdf0f19b6f",
+  "entity_type": "SUPPLIER",
+  "name": "LOCATA (HOUSING SERVICES) LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d5faa8435cc3668c9107817449c6bb1ad9f8904b072e1e8c8efc9eb433a77fc3",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "8000.00",
+      "locator": "XLSX Sheet1!row 201",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

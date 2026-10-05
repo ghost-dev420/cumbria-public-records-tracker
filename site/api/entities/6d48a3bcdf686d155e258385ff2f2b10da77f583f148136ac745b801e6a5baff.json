@@ -1,0 +1,22 @@
+{
+  "entity_id": "6d48a3bcdf686d155e258385ff2f2b10da77f583f148136ac745b801e6a5baff",
+  "entity_type": "SUPPLIER",
+  "name": "K & B Travel Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b18df71580efbf84b52959f653062894c61ef47480fcabb4c526f7894b5d071d",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-cb8f6d60-5a5d-45a2-9878-db8e841ba46c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 3a - 17 passenger seats and above for Penrith area closing 23 August 2023 (F44)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/620da56f-f681-4d98-9976-80ca38c8affe-891863.json",
+      "published_at": "2026-04-07T16:16:06+01:00",
+      "retrieved_at": "2026-10-03 23:18:19.267361",
+      "sha256": "1d2a069360d63753b12c4d351e79fad0b7cccbf136c97402cb3f8bfafd90bacb",
+      "related_entity": "ocds-b5fd17-cb8f6d60-5a5d-45a2-9878-db8e841ba46c:ocds-b5fd17-cb8f6d60-5a5d-45a2-9878-db8e841ba46c-1"
+    }
+  ]
+}

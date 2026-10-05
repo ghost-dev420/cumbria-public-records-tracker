@@ -1,0 +1,22 @@
+{
+  "entity_id": "e67edeb743c0479d2c3eb47f1176ab8c212a8af1e454208f8cc9c43e5214f9c2",
+  "entity_type": "SUPPLIER",
+  "name": "New Generation Training and Consultancy Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "20da39570f2039232cc7b4d02580761c2d4de7dd4d9d7ca8d40b2b632a61e2fd",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-8ff56565-4d43-4bad-98b7-93267ab04586-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Wave 7 Skills boot camp- Lot 7: Other/Event Safety/Management",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/39799d5b-d692-474d-91ca-30a9c3635db1-890627.json",
+      "published_at": "2026-03-30T13:50:17+01:00",
+      "retrieved_at": "2026-10-03 23:15:11.051567",
+      "sha256": "921854ff80ad5e6191d8931920facba1145bae26378001c82cad7820cf8a5b1d",
+      "related_entity": "ocds-b5fd17-8ff56565-4d43-4bad-98b7-93267ab04586:ocds-b5fd17-8ff56565-4d43-4bad-98b7-93267ab04586-1"
+    }
+  ]
+}

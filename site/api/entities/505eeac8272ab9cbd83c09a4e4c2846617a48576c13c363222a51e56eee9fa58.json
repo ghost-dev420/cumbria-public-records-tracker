@@ -1,0 +1,22 @@
+{
+  "entity_id": "505eeac8272ab9cbd83c09a4e4c2846617a48576c13c363222a51e56eee9fa58",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Economy Consultative Forum",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "89b7e44833cb837ba4865521eafeff990cace4aab5bd59b0083f6e219410a9a0",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Economy Consultative Forum",
+      "locator": "committee 523",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "3f8d4098d513d74b4d34a2c6358ff7ea30d3359a688bd28b31f3ac2d8473598d",
+  "entity_type": "SUPPLIER",
+  "name": "lew's taxis",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "096eec587e7c9dda94df5e7e431d7481760fab230002c82c945dd6415a52ce3f",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-1c02212e-2879-4699-9027-2da21ba66ba5-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a Up to 8 Passenger seats Closing March 9 2026 PRU F33",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/19b497a4-8bcb-4b42-bd3a-80ffe7321f20-889053.json",
+      "published_at": "2026-03-18T12:19:46Z",
+      "retrieved_at": "2026-10-03 23:11:45.822062",
+      "sha256": "f120e97ccef66101b8e8e239ff6ed8d7fd10d0e9a404a91c442905125c0c2453",
+      "related_entity": "ocds-b5fd17-1c02212e-2879-4699-9027-2da21ba66ba5:ocds-b5fd17-1c02212e-2879-4699-9027-2da21ba66ba5-1"
+    }
+  ]
+}

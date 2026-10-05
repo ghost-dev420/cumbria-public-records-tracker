@@ -1,0 +1,78 @@
+{
+  "entity_id": "e9e38d8b4787b5d686908cf374fde90344e46c9d6cced14d086fcfc89eba42ea",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-001-475",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "cd2f7fd1ac2b4f0a46c37b9c48ed97b887633244e58b5187e04106784d8045fe",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-001-475",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-001-475",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/23-001-475",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:30.311794",
+      "sha256": "cc5072d171fb425751f817d80a29a90351038089b2b38628ec456b4df4ee0d3a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "83590972770ec99efd06c194f12e187bbb4970b0fb14ac4cf3f9d9e75df2cbe6",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Children's care services",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-001-475",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/23-001-475",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:30.311794",
+      "sha256": "cc5072d171fb425751f817d80a29a90351038089b2b38628ec456b4df4ee0d3a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f32917d6d3d12de36632f9b3f55c23c0b311d01c6bae314e98a5d5834dedeb8b",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-001-475",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/23-001-475",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:30.311794",
+      "sha256": "cc5072d171fb425751f817d80a29a90351038089b2b38628ec456b4df4ee0d3a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "966e7d88f95409528d274c92cc9c07b412e71c6c05ed46d1c82212bd49138d16",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "22 Jan 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-001-475",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/23-001-475",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:30.311794",
+      "sha256": "cc5072d171fb425751f817d80a29a90351038089b2b38628ec456b4df4ee0d3a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "401764f286f55223c0a9ba76da11e244006774668da83d1ad0d6a1921c10beea",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We found fault with the way the Council carried out stage three of the statutory children’s complaint procedure for the complainants (Mr and Mrs X). The Council delayed completing stage three and sending review panel papers. The review panel excluded some issues from the investigation. Some of the Council’s failings caused Mr and Mrs X injustice. The Council has agreed to make a symbolic payment to recognise Mr and Mrs X’s distress, send them the Children Looked After review minutes and invitations to any future meetings and explore the best way to communicate with them about their children.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-001-475",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/23-001-475",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:30.311794",
+      "sha256": "cc5072d171fb425751f817d80a29a90351038089b2b38628ec456b4df4ee0d3a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

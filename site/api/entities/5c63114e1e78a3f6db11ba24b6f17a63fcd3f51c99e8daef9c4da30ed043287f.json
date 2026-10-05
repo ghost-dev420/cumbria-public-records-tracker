@@ -1,0 +1,50 @@
+{
+  "entity_id": "5c63114e1e78a3f6db11ba24b6f17a63fcd3f51c99e8daef9c4da30ed043287f",
+  "entity_type": "PERSON",
+  "name": "Neil McCall",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "0545c3db393fcd077ca37703776eb9400f582d8e0a0c868c46b05066b5cd51f7",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Liberal Democrats",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Liberal Democrats"
+    },
+    {
+      "fact_id": "e729ab225f5d095db046823a345b610f685b5bef314e33ac3bc4d6687e3628a5",
+      "fact_type": "TERM_OF_OFFICE",
+      "predicate": "TERM_OF_OFFICE",
+      "value": "09/05/2022 to unspecified",
+      "locator": "term of office",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": null
+    },
+    {
+      "fact_id": "2e824e5e8ed05ad1b05561b73c210ce881db7a5544942623b68ba63da6ec9664",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Eden and Lyvennet Vale",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Eden and Lyvennet Vale"
+    }
+  ]
+}

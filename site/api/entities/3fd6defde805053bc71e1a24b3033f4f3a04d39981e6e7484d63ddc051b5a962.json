@@ -1,0 +1,22 @@
+{
+  "entity_id": "3fd6defde805053bc71e1a24b3033f4f3a04d39981e6e7484d63ddc051b5a962",
+  "entity_type": "SUPPLIER",
+  "name": "WEST DEVON BOROUGH COUNCIL",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "27b0d842abedcd8b9aba7d540b670a35e67f08629a1e902e7bd5c9db048ccdcc",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3358.00",
+      "locator": "XLSX Sheet1!row 96",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

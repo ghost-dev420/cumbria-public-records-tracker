@@ -1,0 +1,36 @@
+{
+  "entity_id": "523847daac04bbde6e6ea03a838ae079e092493ed98fd52e447fa08d28028f0d",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Grayrigg Coronation Hall [94322610e968a8b95898]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "44e82bb73ebbbbf73cd9ce795b0efbbeeeab9372eebf1543dffe741e792920ab",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 18",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "f4cace4337734ffc7e52ac2f2aa74198dc923f46ebd58bfc05f6aad4d3498356",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 18",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Grayrigg Coronation Hall"
+    }
+  ]
+}

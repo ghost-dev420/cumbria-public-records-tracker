@@ -1,0 +1,64 @@
+{
+  "entity_id": "c1c79039062cd38065171ce34bb5446b5b60b7668760051d241dfa59bf79e946",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "Housing Ombudsman 202419559",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "29cec6103ca44415db83a06c073a8e3da5d502eccb842aff7168438a25d50831",
+      "fact_type": "HOUSING_OMBUDSMAN_CASE",
+      "predicate": "HAS_HOUSING_OMBUDSMAN_CASE",
+      "value": "202419559",
+      "locator": "Case ID",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Home Group Limited (202419559)",
+      "source_url": "https://www.housing-ombudsman.org.uk/decisions/home-group-limited-202419559/",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:26:44.846605",
+      "sha256": "14791f978b3ae65be7522a17396cb294d2af48ee87d0a5063f66fc95de90d5f9",
+      "related_entity": "Home Group Limited"
+    },
+    {
+      "fact_id": "6b9a9b0e114d60517891f497875173037652107887031bcff76cec8724d48978",
+      "fact_type": "HOUSING_OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_DECISION_DATE",
+      "value": "27 August 2026",
+      "locator": "Date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Home Group Limited (202419559)",
+      "source_url": "https://www.housing-ombudsman.org.uk/decisions/home-group-limited-202419559/",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:26:44.846605",
+      "sha256": "14791f978b3ae65be7522a17396cb294d2af48ee87d0a5063f66fc95de90d5f9",
+      "related_entity": "Home Group Limited"
+    },
+    {
+      "fact_id": "b4c569cccb1400463cb7e526d11e1579da1eb21920197de5c5f17de229ad43a2",
+      "fact_type": "HOUSING_OMBUDSMAN_DECISION_TYPE",
+      "predicate": "HAS_DECISION_TYPE",
+      "value": "Investigation",
+      "locator": "Decision type",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Home Group Limited (202419559)",
+      "source_url": "https://www.housing-ombudsman.org.uk/decisions/home-group-limited-202419559/",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:26:44.846605",
+      "sha256": "14791f978b3ae65be7522a17396cb294d2af48ee87d0a5063f66fc95de90d5f9",
+      "related_entity": "Home Group Limited"
+    },
+    {
+      "fact_id": "47539ebc2749dbc4fcb9fd51dac7a7e05f812c6a9c3148b978ebd776d22c3a99",
+      "fact_type": "HOUSING_OMBUDSMAN_DETERMINATION",
+      "predicate": "HAS_DETERMINATION",
+      "value": "(determination)\nThere was\nservice failure\nin the landlord’s handling\nof\nrepairs.\nThere was\nreasonable redress\nin the landlord’s\ncomplaint handling.\nWe\nhave\nmade",
+      "locator": "Our decision (determination)",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "Home Group Limited (202419559)",
+      "source_url": "https://www.housing-ombudsman.org.uk/decisions/home-group-limited-202419559/",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:26:44.846605",
+      "sha256": "14791f978b3ae65be7522a17396cb294d2af48ee87d0a5063f66fc95de90d5f9",
+      "related_entity": "Home Group Limited"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "a5e6467aced3326459fcec3b040834d28f42b40550e6675de2e7b270947f83b4",
+  "entity_type": "SUPPLIER",
+  "name": "JapanOnWheels",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "404633159c860ef23fd5b767b1ad8ecc9008f07fa8aab5806e82b6ac8a4909b1",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5d60791a-1918-411e-ab2c-a04632cf3eab-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1b - Up to 8 Passenger Seats with Passenger Assistant  for Out of County area closing 19 January 2026 (F38)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7b970b7f-ddcd-45b7-9248-b7e7fc56a987-891735.json",
+      "published_at": "2026-04-07T10:52:48+01:00",
+      "retrieved_at": "2026-10-03 23:18:37.017725",
+      "sha256": "ce4988ebd1f3c0e0a92baea73951557334f1056148f849f29ed8d15c613b2caf",
+      "related_entity": "ocds-b5fd17-5d60791a-1918-411e-ab2c-a04632cf3eab:ocds-b5fd17-5d60791a-1918-411e-ab2c-a04632cf3eab-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "879a8578247fc50b59a4dce76822e69c8a426a367fc0602301f5e310fc63ff6c",
+  "entity_type": "SUPPLIER",
+  "name": "Civica UK Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7e9a43fe05452ea0528217c4e545020726b59d69d0fefc3887c8476557542bde",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-582bf68e-0e61-4979-a41e-8770d7e4b23e-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Cx Housing Landlord, Housing Management System and Keystone Software",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8ba875ef-30ea-4720-93e5-a4f24ea13f84-869061.json",
+      "published_at": "2025-10-21T15:49:34+01:00",
+      "retrieved_at": "2026-10-03 22:54:35.833531",
+      "sha256": "4e87b3652662d5538eec6fd19cfa594e093df9d8145d4b1ff167730817f48362",
+      "related_entity": "ocds-b5fd17-582bf68e-0e61-4979-a41e-8770d7e4b23e:ocds-b5fd17-582bf68e-0e61-4979-a41e-8770d7e4b23e-1"
+    }
+  ]
+}

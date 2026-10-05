@@ -1,0 +1,36 @@
+{
+  "entity_id": "989e4bbeba31f9be2f45b62a83eff6af761e379c640ffe0afd322f1c873d94f8",
+  "entity_type": "SUPPLIER",
+  "name": "VALUATION OFFICE AGENCY",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "6a1338f5aac23bdb74c79b22b5a6b39ef69d58a1b64105eda7a854f32e841487",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "800.00",
+      "locator": "XLSX Report!row 140",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7388a1ee90f0b798c6c2c79c5bf0d2476e57393947f84f7ffd3be5cef9fcd9b3",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2500.00",
+      "locator": "XLSX Report!row 139",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "3813845de295f9a7e70ef70a5e47d809cf37da662624589438fa39a4b8acd881",
+  "entity_type": "SUPPLIER",
+  "name": "Infrasafe UK Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f8f545c1d5b51d8e1987ff6e0eb1389002c6219b79409028aca72c262adb029a",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 135",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00001689"
+    }
+  ]
+}

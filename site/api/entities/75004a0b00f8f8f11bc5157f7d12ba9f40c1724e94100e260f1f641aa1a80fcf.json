@@ -1,0 +1,78 @@
+{
+  "entity_id": "75004a0b00f8f8f11bc5157f7d12ba9f40c1724e94100e260f1f641aa1a80fcf",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-017-339",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "041029f67a2be7a06a87ca50a07574e730c4bffced628dd290bf45f0ee767ce2",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-017-339",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-017-339",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/25-017-339",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:24.453549",
+      "sha256": "43b660a9f34484896fe4149f5e340307d60ee0b4d14a963817fa903d743466b3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ebe2d5d397da1a6c6d7f274c511919541df61099999e9805c91e0dcc99bdd70f",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Other Categories",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-017-339",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/25-017-339",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:24.453549",
+      "sha256": "43b660a9f34484896fe4149f5e340307d60ee0b4d14a963817fa903d743466b3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "21ec1010faa832ec9e566fc1394028126bb83d0acf6ce3bca4e61444abc86826",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-017-339",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/25-017-339",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:24.453549",
+      "sha256": "43b660a9f34484896fe4149f5e340307d60ee0b4d14a963817fa903d743466b3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "43014f5705e74f8af85d3a73bca43f97f65f7b75d6ab7a4de36c5243ad099e32",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "07 Apr 2026",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-017-339",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/25-017-339",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:24.453549",
+      "sha256": "43b660a9f34484896fe4149f5e340307d60ee0b4d14a963817fa903d743466b3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e7e8eb3c1998455be090bbb3981afd5eb139330d4ac47591a0f4cef34d76c6c2",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s refusal to investigate a complaint it has already considered. We have not seen enough evidence of fault in the Council’s actions. Also, we consider it reasonable for Mr X to complain to the Information Commissioner if he believes the Council is not providing information which he is entitled to see.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-017-339",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/25-017-339",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:24.453549",
+      "sha256": "43b660a9f34484896fe4149f5e340307d60ee0b4d14a963817fa903d743466b3",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

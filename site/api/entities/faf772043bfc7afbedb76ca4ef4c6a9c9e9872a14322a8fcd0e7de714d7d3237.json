@@ -1,0 +1,22 @@
+{
+  "entity_id": "faf772043bfc7afbedb76ca4ef4c6a9c9e9872a14322a8fcd0e7de714d7d3237",
+  "entity_type": "SUPPLIER",
+  "name": "Inner Circle Consulting Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5624f64e8bbda6bf51fa000b217db6224ed1dbd5761c4df0c4c819cfd7f08c14",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-e17de91c-8b1c-404e-bcf0-02077c19d5f8-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Future Adults Social Care - Diagnostic Review - Further Competition via ESPO 664_25 Consultancy Services Framework",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/79d9928e-a841-4647-b8d8-86f14205f1cf-874692.json",
+      "published_at": "2025-12-04T12:35:03Z",
+      "retrieved_at": "2026-10-03 22:58:41.669735",
+      "sha256": "b05c81942a2e8941c496fd3bb9a7052e7344caf080da30ef458ff63249856cf7",
+      "related_entity": "ocds-b5fd17-e17de91c-8b1c-404e-bcf0-02077c19d5f8:ocds-b5fd17-e17de91c-8b1c-404e-bcf0-02077c19d5f8-1"
+    }
+  ]
+}

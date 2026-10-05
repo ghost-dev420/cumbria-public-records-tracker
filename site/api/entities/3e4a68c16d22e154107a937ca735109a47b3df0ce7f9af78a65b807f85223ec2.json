@@ -1,0 +1,36 @@
+{
+  "entity_id": "3e4a68c16d22e154107a937ca735109a47b3df0ce7f9af78a65b807f85223ec2",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Bowness Bowling Club [868367aa2549b86ce8b4]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "74675bb32298713914b043ca01b86c545b851f7b260564fc04073ccaa47f2035",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 6",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "1c99d8799b41030878cf190c1c3142cef73af08454e2fa85ebb526efb07cdd2f",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 6",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Bowness Bowling Club"
+    }
+  ]
+}

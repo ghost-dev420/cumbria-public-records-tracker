@@ -1,0 +1,36 @@
+{
+  "entity_id": "e4e4f5b606d6530cdf08ecc1601ae2bde4dc10d8f50e2a58ca6f80b4a3ab82a4",
+  "entity_type": "SUPPLIER",
+  "name": "National Youth Advocacy Service - duplicate(NYAS)",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "48ba01954ae454d5b04f2eb5c0186591b86e3c016ea4209f2d68d8f9e7f846e1",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 245",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00001806"
+    },
+    {
+      "fact_id": "67f342037d4298963f551cecf4a222e2f086f3694f6de2566b04b771c399c2ea",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 143",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00001804"
+    }
+  ]
+}

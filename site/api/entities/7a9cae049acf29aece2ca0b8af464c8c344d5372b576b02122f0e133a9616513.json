@@ -1,0 +1,36 @@
+{
+  "entity_id": "7a9cae049acf29aece2ca0b8af464c8c344d5372b576b02122f0e133a9616513",
+  "entity_type": "SUPPLIER",
+  "name": "ESOS ENERGY LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "7f964fa726d7518ea81f74e896fb4b2358c99c6344b9e85cb05cccb71e77b176",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "120.00",
+      "locator": "XLSX Sheet1!row 559",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "8cfcc48e51ea95fdaa278d4ccdc6835bdf247f19f298fdb7a264dac84053dfe4",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "120.00",
+      "locator": "XLSX Sheet1!row 560",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

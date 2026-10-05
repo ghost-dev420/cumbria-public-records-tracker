@@ -1,0 +1,22 @@
+{
+  "entity_id": "84d936a7f9db14a00076d76b05e37c133cd0905a8e9f98cbb50b1930f1d0f4c2",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Allerdale Area Transport Advisory Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7c34b1436a0f148d626a1eb5e0418a1165b0232478def40badd5c3a0ad48d2f2",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Allerdale Area Transport Advisory Group",
+      "locator": "committee 696",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

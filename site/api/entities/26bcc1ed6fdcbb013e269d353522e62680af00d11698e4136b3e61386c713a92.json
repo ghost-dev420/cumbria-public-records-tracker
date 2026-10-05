@@ -1,0 +1,22 @@
+{
+  "entity_id": "26bcc1ed6fdcbb013e269d353522e62680af00d11698e4136b3e61386c713a92",
+  "entity_type": "SUPPLIER",
+  "name": "CONF BUS SERVICES",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7763a0d64f6ff21efe09faaf9dc7dfba95585db8a571a55d01b8269ddd1dc5dc",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "12.00",
+      "locator": "XLSX Sheet1!row 565",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

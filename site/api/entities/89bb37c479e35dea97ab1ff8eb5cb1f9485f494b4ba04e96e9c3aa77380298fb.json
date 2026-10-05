@@ -1,0 +1,22 @@
+{
+  "entity_id": "89bb37c479e35dea97ab1ff8eb5cb1f9485f494b4ba04e96e9c3aa77380298fb",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Individual Consultative Support Forum",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a2b112d738c5115ba62b0c81c53cb6a5370ae566929f2296a1f30ba594a548b2",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Individual Consultative Support Forum",
+      "locator": "committee 545",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

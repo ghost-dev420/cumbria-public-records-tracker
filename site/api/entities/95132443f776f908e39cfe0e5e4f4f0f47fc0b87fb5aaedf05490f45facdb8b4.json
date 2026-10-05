@@ -1,0 +1,22 @@
+{
+  "entity_id": "95132443f776f908e39cfe0e5e4f4f0f47fc0b87fb5aaedf05490f45facdb8b4",
+  "entity_type": "SUPPLIER",
+  "name": "ST JOHNS P.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "45a222762f2cc090a8917d118027f8daea09fb719e74bde367c7ac294116d76d",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "4043.50",
+      "locator": "XLSX Sheet1!row 539",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

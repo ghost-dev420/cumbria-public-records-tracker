@@ -1,0 +1,22 @@
+{
+  "entity_id": "5261d66a01f937757d581f3fa5c1fce53f55dd4a83de8d83562140d8227a61e7",
+  "entity_type": "COMMITTEE",
+  "name": "BBC Barrow Forward Member Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7bd514a1aec5ea781c1fc62a00f7c65767a0c31761ff93d55a462459c611133b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "BBC Barrow Forward Member Committee",
+      "locator": "committee 401",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

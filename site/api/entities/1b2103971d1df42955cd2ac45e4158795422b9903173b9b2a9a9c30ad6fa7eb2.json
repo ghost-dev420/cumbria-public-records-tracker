@@ -1,0 +1,22 @@
+{
+  "entity_id": "1b2103971d1df42955cd2ac45e4158795422b9903173b9b2a9a9c30ad6fa7eb2",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC National Parks Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "26f2ce666997afd15db522765103de931ec8593037648d87a7976ce62674445f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC National Parks Sub-Committee",
+      "locator": "committee 709",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

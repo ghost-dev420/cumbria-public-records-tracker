@@ -1,0 +1,22 @@
+{
+  "entity_id": "c7d8fac1199e4715617626a29dbf5072115fb244163f93576786144c9035f07e",
+  "entity_type": "SUPPLIER",
+  "name": "PROFESSIONAL DEVELOPMENT GROUP T/A GOVERNMENT EVENTS",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "239a9f4c2c67faa90175aaa766659cc68e873b87820eaa936ac03ef325610ddd",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "319.20",
+      "locator": "XLSX Sheet1!row 19",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "b7d8b89a18939742727f58f00905adb571ada393884164ae0f8f8fcc3880f483",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-018-685",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "57320fec25ecc533e48ff79370dc0a80836e21ff58b5754f45e33837cf6fb57e",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-018-685",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-018-685",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/23-018-685",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:15.670549",
+      "sha256": "226137fa4df295023af15f37ec5c45d70d5bc28b9b18a3e88e7ea8569e8c4c4a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a524ebc88b616abca105d4e5951df38629d80c5dc35032fbb8020c0749230310",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-018-685",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/23-018-685",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:15.670549",
+      "sha256": "226137fa4df295023af15f37ec5c45d70d5bc28b9b18a3e88e7ea8569e8c4c4a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "b30373d5c583d1d6297d00b9296bd64b09836933bee3afce191e79b66477f311",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-018-685",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/23-018-685",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:15.670549",
+      "sha256": "226137fa4df295023af15f37ec5c45d70d5bc28b9b18a3e88e7ea8569e8c4c4a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "29d1336a1b38d544d822afc5c646575f9bfa94d602d8093a6019d400249bc9c0",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "21 Feb 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-018-685",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/23-018-685",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:15.670549",
+      "sha256": "226137fa4df295023af15f37ec5c45d70d5bc28b9b18a3e88e7ea8569e8c4c4a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "6668595b0fcab78444241a9967e95af265679d80da7088351bbb03d2681c505f",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Miss B’s complaint that her car was damaged due to Council refuse collectors not securing communal waste bins properly. This is because it is reasonable for Miss B to put in a compensation claim and if needed, take the Council to court.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-018-685",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/refuse-and-recycling/23-018-685",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:15.670549",
+      "sha256": "226137fa4df295023af15f37ec5c45d70d5bc28b9b18a3e88e7ea8569e8c4c4a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

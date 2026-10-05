@@ -1,0 +1,22 @@
+{
+  "entity_id": "d311dd433da2ed6c66c4573472eeac75175507cd5985eb7a881e663d2dba599e",
+  "entity_type": "COMMITTEE",
+  "name": "Your Library",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b655b64d5c741c21dd3c631a037e1f9e983fd24957ffce570fda4a696f2d7c51",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Your Library",
+      "locator": "committee 876",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

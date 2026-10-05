@@ -1,0 +1,22 @@
+{
+  "entity_id": "5e310801a5be90180f48f3697d93ac58a917933bc77683d5bfc895a192bcbc9e",
+  "entity_type": "SUPPLIER",
+  "name": "The Gas Rooms LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9040926f8b2bdf387222fdeb2c150748bd1f1630c693d323135504692683bd1c",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-02e71175-dbb8-4465-b645-6e4625a24a0a-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Wave 7 Skills boot camp Lot 4 - CONSTRUCTION- Air Source Heat Pump Installation",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ce423fd4-758d-4478-bbb3-bbb1f10495e6-890576.json",
+      "published_at": "2026-03-30T12:02:26+01:00",
+      "retrieved_at": "2026-10-03 23:15:17.333266",
+      "sha256": "ca70c5fe64d5d486b69605a1d54f656cc6f7644442dc90adff00e3dbb96323c7",
+      "related_entity": "ocds-b5fd17-02e71175-dbb8-4465-b645-6e4625a24a0a:ocds-b5fd17-02e71175-dbb8-4465-b645-6e4625a24a0a-1"
+    }
+  ]
+}

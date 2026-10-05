@@ -1,0 +1,22 @@
+{
+  "entity_id": "7de8a9ce64874678677b5cf71519fb98898a65854023caf710aac4bf901997f3",
+  "entity_type": "WARD",
+  "name": "Mirehouse",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b0343b4ce61163d1abf8e64a44eb0419c638454d898abbb41368864e59c54990",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Mirehouse",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Mike Hawkins"
+    }
+  ]
+}

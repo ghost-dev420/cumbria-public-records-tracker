@@ -1,0 +1,22 @@
+{
+  "entity_id": "c8b9e51054bd4b6b0a198f105ea10e65397b115bca88a524843ff1d9eebd0895",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Copeland LC - Annual Mttg Parish and Town Councils",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8c31485eef36b1a33161019cc567e7cd1bb79995962f4ee687bcd03f80308744",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Copeland LC - Annual Mttg Parish and Town Councils",
+      "locator": "committee 496",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

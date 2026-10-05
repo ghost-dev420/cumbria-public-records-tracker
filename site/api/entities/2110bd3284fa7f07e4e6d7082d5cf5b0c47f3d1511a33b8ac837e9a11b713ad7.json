@@ -1,0 +1,78 @@
+{
+  "entity_id": "2110bd3284fa7f07e4e6d7082d5cf5b0c47f3d1511a33b8ac837e9a11b713ad7",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-006-038",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "8df683ecfa78813cc5fdce3031643345d7376da7f2f1fa0bc5fcefcd0ac7ba1f",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-006-038",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-006-038",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/24-006-038",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:15.622178",
+      "sha256": "ed2d5c361db74f17d023ba0c7f24803c5b33d848f1b8dbdb38d06b7a1a6a43fe",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "8d04952fdf48aa8d5de2684c96fe4259dcd6859a8b98de9bc1ea8c3155b39dd8",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-006-038",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/24-006-038",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:15.622178",
+      "sha256": "ed2d5c361db74f17d023ba0c7f24803c5b33d848f1b8dbdb38d06b7a1a6a43fe",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f914895400675c3b561c6eb770f69792b28b67f75e46674db970c90c0221624a",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-006-038",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/24-006-038",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:15.622178",
+      "sha256": "ed2d5c361db74f17d023ba0c7f24803c5b33d848f1b8dbdb38d06b7a1a6a43fe",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7a7a029009ba43ef5b8c67ff849b7bbccd60f4de293fe2e62e72d08eb3110297",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "10 Oct 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-006-038",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/24-006-038",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:15.622178",
+      "sha256": "ed2d5c361db74f17d023ba0c7f24803c5b33d848f1b8dbdb38d06b7a1a6a43fe",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d4ceaa94a71515d97d21af6610f76674b94412fbd3e33a57d9bb32594a7b53b7",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the conduct of a care worker and how it was investigated. This is because it is unlikely we could add to the care provider’s investigation or reach a different outcome. We also cannot achieve the outcome the complainant wants; staff dismissal.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-006-038",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/24-006-038",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:15.622178",
+      "sha256": "ed2d5c361db74f17d023ba0c7f24803c5b33d848f1b8dbdb38d06b7a1a6a43fe",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

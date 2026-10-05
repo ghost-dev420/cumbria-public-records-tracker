@@ -1,0 +1,78 @@
+{
+  "entity_id": "7df34e1e22cd49cddca431720d56929e7e1e40919221243a78e8484d87704c1c",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-017-672",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "635658223dcba2a9fc72f3abd757eb00093c540737e8fa7699c37d2015949ec1",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-017-672",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-017-672",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/23-017-672",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:00.277251",
+      "sha256": "87740e183e63dc8199453cc7cdd3fa9f1d7fdaf01364a4b975206d3495c9fe2c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ef789b73914a9e4f957c667195b66cd54d61196526c892e8a9201e05c4f5dc79",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Benefits and tax",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-017-672",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/23-017-672",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:00.277251",
+      "sha256": "87740e183e63dc8199453cc7cdd3fa9f1d7fdaf01364a4b975206d3495c9fe2c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4851f323d068dfe19fb1bda5c19938d48b324d2e89f1165794f4f8fb070a11c4",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-017-672",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/23-017-672",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:00.277251",
+      "sha256": "87740e183e63dc8199453cc7cdd3fa9f1d7fdaf01364a4b975206d3495c9fe2c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "b54aca3256b36de196aaa54df5cba4dde625082b423f225c7e0bcc9441244f64",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "19 Nov 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-017-672",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/23-017-672",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:00.277251",
+      "sha256": "87740e183e63dc8199453cc7cdd3fa9f1d7fdaf01364a4b975206d3495c9fe2c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e63752e319fd8498552737d8497407ac12debe93215b8616b61a30325abe0e94",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s handling of Miss X’s application for a discretionary housing payment as there is insufficient evidence of Council fault causing a significant injustice to Miss X.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-017-672",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/23-017-672",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:00.277251",
+      "sha256": "87740e183e63dc8199453cc7cdd3fa9f1d7fdaf01364a4b975206d3495c9fe2c",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "cd08ebb66ea9e0fdb01b9ba56e78de0d65a635d527ced96060af50f61027735b",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Chief Officers' Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f0d9937aae0dd2347bda789ded609ed8fecba6c65d4190827571105b310b8a7a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Chief Officers' Panel",
+      "locator": "committee 717",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

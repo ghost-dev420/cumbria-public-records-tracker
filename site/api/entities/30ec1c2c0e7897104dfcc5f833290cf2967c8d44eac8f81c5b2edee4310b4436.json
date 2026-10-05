@@ -1,0 +1,22 @@
+{
+  "entity_id": "30ec1c2c0e7897104dfcc5f833290cf2967c8d44eac8f81c5b2edee4310b4436",
+  "entity_type": "COMMITTEE",
+  "name": "Joint Executive Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f0bedc8f4c66c60ef0645e937bb6ab7c1556b64a289890e45a9f9a1c1209c265",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Joint Executive Committee",
+      "locator": "committee 392",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

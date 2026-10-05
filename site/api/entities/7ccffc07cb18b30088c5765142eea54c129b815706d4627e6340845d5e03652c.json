@@ -1,0 +1,22 @@
+{
+  "entity_id": "7ccffc07cb18b30088c5765142eea54c129b815706d4627e6340845d5e03652c",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Executive Team",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2a260aab39ca498b160a3a3f3b7f98ae287ae3c2731b81391f1ad6c5b83bdca6",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Executive Team",
+      "locator": "committee 767",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

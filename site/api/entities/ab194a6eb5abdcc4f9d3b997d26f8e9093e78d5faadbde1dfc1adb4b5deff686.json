@@ -1,0 +1,22 @@
+{
+  "entity_id": "ab194a6eb5abdcc4f9d3b997d26f8e9093e78d5faadbde1dfc1adb4b5deff686",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC West Cumbria Joint Consultative Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8c484831d53c19b2a9d14c015dc1966f55603fa916bd5e7da9909e0bfc732fa3",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC West Cumbria Joint Consultative Committee",
+      "locator": "committee 632",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

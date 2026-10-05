@@ -1,0 +1,50 @@
+{
+  "entity_id": "6d5da607632da3ccb3eb34017818457d89e3dfc24db2f57b9504241150a95ac4",
+  "entity_type": "PERSON",
+  "name": "Hazel Hodgson",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "e8ed8cc0c70d107a33c24fd366b7b9c3b3c6d3bcef2fb26ba471e11401f695c8",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Liberal Democrats",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Liberal Democrats"
+    },
+    {
+      "fact_id": "3360d19bfcda846477f9065ff97c39e9bdcc4a0269731dbaa2c1c1785507002f",
+      "fact_type": "TERM_OF_OFFICE",
+      "predicate": "TERM_OF_OFFICE",
+      "value": "09/05/2022 to unspecified",
+      "locator": "term of office",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": null
+    },
+    {
+      "fact_id": "9d2ef5d6d4d75640de5c3a819d7033be5932aa84e2873a882f86da8cec1625f8",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Sedbergh and Kirkby Lonsdale",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Sedbergh and Kirkby Lonsdale"
+    }
+  ]
+}

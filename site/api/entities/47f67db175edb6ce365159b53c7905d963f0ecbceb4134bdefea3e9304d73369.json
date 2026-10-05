@@ -1,0 +1,22 @@
+{
+  "entity_id": "47f67db175edb6ce365159b53c7905d963f0ecbceb4134bdefea3e9304d73369",
+  "entity_type": "ORGANISATION",
+  "name": "Field Broughton Parish Rooms",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "082e85b667af1bf78f0f007b0349d71c373f0b94f9a211d32418c79109db671a",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 9",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Field Broughton Parish Rooms [348d7e5b087d31df6faa]"
+    }
+  ]
+}

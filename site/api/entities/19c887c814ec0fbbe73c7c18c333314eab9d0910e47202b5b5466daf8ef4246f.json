@@ -1,0 +1,22 @@
+{
+  "entity_id": "19c887c814ec0fbbe73c7c18c333314eab9d0910e47202b5b5466daf8ef4246f",
+  "entity_type": "ORGANISATION",
+  "name": "Troutbeck Institute, Windermere",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "461dc80cd65eb011b556b15a1573d007d9c4526e4f6657b7e0495a0de8cacb08",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 5",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round one in 2025 to 2026: Troutbeck Institute, Windermere [01b8a3450bd05879d1f4]"
+    }
+  ]
+}

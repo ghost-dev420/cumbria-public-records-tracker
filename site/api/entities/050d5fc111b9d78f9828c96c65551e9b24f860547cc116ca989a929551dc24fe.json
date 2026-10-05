@@ -1,0 +1,22 @@
+{
+  "entity_id": "050d5fc111b9d78f9828c96c65551e9b24f860547cc116ca989a929551dc24fe",
+  "entity_type": "SUPPLIER",
+  "name": "Northern Security",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "16fb0804d43dba8eb79ba8ad1cd43b81b1430eba8084dcf35fc4c93d7e567853",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 140",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003741"
+    }
+  ]
+}

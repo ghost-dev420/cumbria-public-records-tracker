@@ -1,0 +1,78 @@
+{
+  "entity_id": "4367a7cfc6da0956c04efaedcc7873b5d717382a3101b8e37185601bf557112d",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-013-295",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "49035c1cec78504bf9cc017d83021d15484c43a917b292c97e68ac319dcb7517",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-013-295",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-295",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/24-013-295",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:56.092500",
+      "sha256": "09150f63381b08c996f1f7594c767f20459fa0e46c1fe12f2fc006fc86b1d898",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "8462bea99ddfea05269874231451f24502deee4ec43abc975345e5d9de5b1820",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-295",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/24-013-295",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:56.092500",
+      "sha256": "09150f63381b08c996f1f7594c767f20459fa0e46c1fe12f2fc006fc86b1d898",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e592f7c7e124fe85f21def515aba631363e93e08d936fed31fafc30687dfd574",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-295",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/24-013-295",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:56.092500",
+      "sha256": "09150f63381b08c996f1f7594c767f20459fa0e46c1fe12f2fc006fc86b1d898",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "3c1089fa4491f398fba403611e34ea7ccebaed2fa47cc992c485275a46c94406",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "10 Dec 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-295",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/24-013-295",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:56.092500",
+      "sha256": "09150f63381b08c996f1f7594c767f20459fa0e46c1fe12f2fc006fc86b1d898",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7c6f2a51259445464d38427c0a599abf2f1eb1c470dfdc1fb91cfacbaf15714a",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about highway repair and maintenance because the court is better placed to consider the complaint.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-295",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/highway-repair-and-maintenance/24-013-295",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:56.092500",
+      "sha256": "09150f63381b08c996f1f7594c767f20459fa0e46c1fe12f2fc006fc86b1d898",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

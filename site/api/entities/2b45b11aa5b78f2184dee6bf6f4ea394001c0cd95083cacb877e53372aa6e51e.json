@@ -1,0 +1,50 @@
+{
+  "entity_id": "2b45b11aa5b78f2184dee6bf6f4ea394001c0cd95083cacb877e53372aa6e51e",
+  "entity_type": "PERSON",
+  "name": "Trevor Allison",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "4e336bf35befccf0daa2e97709393b44561a120179ab94c384af31e47ce9a037",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Conservative",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Conservative"
+    },
+    {
+      "fact_id": "87c832c3e10a4c3c8dbc1576b652c8adfc3efd4dbe603ef19e5b5372eb6edd48",
+      "fact_type": "TERM_OF_OFFICE",
+      "predicate": "TERM_OF_OFFICE",
+      "value": "06/05/2022 to unspecified",
+      "locator": "term of office",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": null
+    },
+    {
+      "fact_id": "d878a46e1c219b63db713e8646d058c9c376cd486ff71e775e71a4dba832d2dd",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Dalston and Burgh",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Dalston and Burgh"
+    }
+  ]
+}

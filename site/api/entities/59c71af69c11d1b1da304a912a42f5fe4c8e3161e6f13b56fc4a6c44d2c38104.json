@@ -1,0 +1,22 @@
+{
+  "entity_id": "59c71af69c11d1b1da304a912a42f5fe4c8e3161e6f13b56fc4a6c44d2c38104",
+  "entity_type": "SUPPLIER",
+  "name": "Phishing Tackle",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fcd79a9d6ea8332414cc38605befb95788b8807acc5ad6ae134dcbdd8151af71",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 203",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003477"
+    }
+  ]
+}

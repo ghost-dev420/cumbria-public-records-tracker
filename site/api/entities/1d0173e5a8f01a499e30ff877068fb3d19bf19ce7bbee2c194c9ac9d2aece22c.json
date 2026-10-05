@@ -1,0 +1,22 @@
+{
+  "entity_id": "1d0173e5a8f01a499e30ff877068fb3d19bf19ce7bbee2c194c9ac9d2aece22c",
+  "entity_type": "SUPPLIER",
+  "name": "Access UK Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "82d3a4d8fcbd9fae97ed2e036cbb4f178ce82b900b7c345540dff3a493e0be8d",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-c02af93d-9785-4fae-b673-10dbb4b6a39c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Dynamic Category Solutions Homecare Services - (Homecare Services System)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/99c7864e-4a22-4973-b893-68c51bc4f947-889319.json",
+      "published_at": "2026-03-19T15:56:23Z",
+      "retrieved_at": "2026-10-03 23:11:52.372090",
+      "sha256": "89c71345c295ea37fcd3984f355190052c59e6dd827a56ff7939aa6c508154d9",
+      "related_entity": "ocds-b5fd17-c02af93d-9785-4fae-b673-10dbb4b6a39c:ocds-b5fd17-c02af93d-9785-4fae-b673-10dbb4b6a39c-1"
+    }
+  ]
+}

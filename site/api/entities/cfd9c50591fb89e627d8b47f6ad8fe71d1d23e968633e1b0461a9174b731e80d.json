@@ -1,0 +1,22 @@
+{
+  "entity_id": "cfd9c50591fb89e627d8b47f6ad8fe71d1d23e968633e1b0461a9174b731e80d",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Joint Management Team (JMT)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "81469418dcc310555d7d99165eb0b53bc80391780df2b43223f718a52de4c5e8",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Joint Management Team (JMT)",
+      "locator": "committee 511",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

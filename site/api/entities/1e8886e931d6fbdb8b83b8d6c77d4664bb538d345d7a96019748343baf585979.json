@@ -1,0 +1,22 @@
+{
+  "entity_id": "1e8886e931d6fbdb8b83b8d6c77d4664bb538d345d7a96019748343baf585979",
+  "entity_type": "SUPPLIER",
+  "name": "Lakeland Commercials Ltd.,",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3db8188d2002e57c3b0d7c6d49dacf1ecaec8ebfb858c64ebb6e000317c52d0e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-25851840-21c0-4d8b-bb69-c48c3200e2ff-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 9 October 2023 - F58",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5d48923e-4022-43b4-bfc1-d791b5751167-892686.json",
+      "published_at": "2026-04-13T16:31:28+01:00",
+      "retrieved_at": "2026-10-03 23:21:14.684510",
+      "sha256": "e461bc6a654ab7909c0bd575529163b8ea2ac7f9a9ffae2cf6838b42c77f076f",
+      "related_entity": "ocds-b5fd17-25851840-21c0-4d8b-bb69-c48c3200e2ff:ocds-b5fd17-25851840-21c0-4d8b-bb69-c48c3200e2ff-1"
+    }
+  ]
+}

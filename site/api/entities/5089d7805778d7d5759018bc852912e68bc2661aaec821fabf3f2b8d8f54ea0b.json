@@ -1,0 +1,22 @@
+{
+  "entity_id": "5089d7805778d7d5759018bc852912e68bc2661aaec821fabf3f2b8d8f54ea0b",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Carlisle Area Committee for the Under Fives",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "34c03c16d77a6e50470197413d82cd545b0ad1ed256ead684bb028e2b9f61250",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Carlisle Area Committee for the Under Fives",
+      "locator": "committee 710",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "a6a4ed8a572dce8cb0e08923ab7811c16c19d2b14328261658fcb6454227f3d1",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC CWM Shareholders",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ab74590802fc92709cad874a2f56d2810c098ce02d87b57221c8f04e614cbb6c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC CWM Shareholders",
+      "locator": "committee 515",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

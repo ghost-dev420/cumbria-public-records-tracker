@@ -1,0 +1,22 @@
+{
+  "entity_id": "ba8d08fe2ae458ec52444341573f27623c8e5b3cfb06c84a96d3112cba3e6ac8",
+  "entity_type": "SUPPLIER",
+  "name": "LANX Private Ambulance Service Ltd.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ef46cd4a693be298a28bb7a7a40007e05a0e8d337ede26366cc6e844e3d23ade",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-d387db6b-6ed7-4d13-b82e-b8963fc16972-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 4b - Wheelchair Accessible with Passenger Assistant for Ulverston area closing 28 July (F5)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9843f188-2de1-4019-a55f-792578a97f72-878236.json",
+      "published_at": "2026-01-07T11:13:18Z",
+      "retrieved_at": "2026-10-03 23:02:20.821533",
+      "sha256": "2ba4fc3f0dde116ca5f2e7647e1a4da1f4fb52090857512ca8d24546ac5100fb",
+      "related_entity": "ocds-b5fd17-d387db6b-6ed7-4d13-b82e-b8963fc16972:ocds-b5fd17-d387db6b-6ed7-4d13-b82e-b8963fc16972-1"
+    }
+  ]
+}

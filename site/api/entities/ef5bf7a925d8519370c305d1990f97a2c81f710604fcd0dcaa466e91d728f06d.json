@@ -1,0 +1,22 @@
+{
+  "entity_id": "ef5bf7a925d8519370c305d1990f97a2c81f710604fcd0dcaa466e91d728f06d",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Nuclear Issues Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8f6df0b15f7e3650e72e55228a6014310b30a10516f767f0bd468ccc86df352e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Nuclear Issues Working Group",
+      "locator": "committee 797",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "fc10cb5e8b62faa39582b08e5e53197f07db86efbae21c0536bee2f05cca2fdd",
+  "entity_type": "WARD",
+  "name": "Bransty",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a4a48316441ccb88dfa899e5ede193b1f0f24c8130b1611093cc82ee4dac328d",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Bransty",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Joseph Ghayouba"
+    }
+  ]
+}

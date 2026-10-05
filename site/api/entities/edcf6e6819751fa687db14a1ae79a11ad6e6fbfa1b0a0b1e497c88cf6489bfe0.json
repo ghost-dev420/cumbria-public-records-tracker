@@ -1,0 +1,36 @@
+{
+  "entity_id": "edcf6e6819751fa687db14a1ae79a11ad6e6fbfa1b0a0b1e497c88cf6489bfe0",
+  "entity_type": "SUPPLIER",
+  "name": "CADAS",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "0ac3405634ef2be52e88d5c302958acd79885632321b294e1be1c0c1db443319",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "800.00",
+      "locator": "XLSX Sheet1!row 212",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "5d051423f85117bea1e9a62baae0dc6fea7ede094e3b7c3a48dd5210199c75ca",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "500.00",
+      "locator": "XLSX Sheet1!row 213",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

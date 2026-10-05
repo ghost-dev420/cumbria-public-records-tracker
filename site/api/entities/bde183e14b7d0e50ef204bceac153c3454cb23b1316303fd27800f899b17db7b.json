@@ -1,0 +1,22 @@
+{
+  "entity_id": "bde183e14b7d0e50ef204bceac153c3454cb23b1316303fd27800f899b17db7b",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC County Council Local Committee for Carlisle",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7d5da4c37bb172f38995b842ed87f568821cc5f4964a4b20509b3dc89d46d32b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC County Council Local Committee for Carlisle",
+      "locator": "committee 428",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

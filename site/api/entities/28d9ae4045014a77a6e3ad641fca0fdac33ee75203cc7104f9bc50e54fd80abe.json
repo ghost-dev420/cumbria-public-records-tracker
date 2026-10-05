@@ -1,0 +1,22 @@
+{
+  "entity_id": "28d9ae4045014a77a6e3ad641fca0fdac33ee75203cc7104f9bc50e54fd80abe",
+  "entity_type": "ORGANISATION",
+  "name": "Castle St Community Centre",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "52e1e640688e6f2c62ac9e6f9f46160837e04d9c605bec562301454989faf4d8",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "4000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 5",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round 2 in 2025 to 2026: Castle St Community Centre [4f13ed00a3e16c9c73d0]"
+    }
+  ]
+}

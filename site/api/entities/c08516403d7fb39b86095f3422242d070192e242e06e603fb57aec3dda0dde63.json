@@ -1,0 +1,22 @@
+{
+  "entity_id": "c08516403d7fb39b86095f3422242d070192e242e06e603fb57aec3dda0dde63",
+  "entity_type": "SUPPLIER",
+  "name": "WCF PET & EQUESTRIAN",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "01060a5858d71d756b8e5b7a1ffaebbb46bf2c95c84c5624cbacfd054424ff0c",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "66.66",
+      "locator": "XLSX Sheet1!row 71",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

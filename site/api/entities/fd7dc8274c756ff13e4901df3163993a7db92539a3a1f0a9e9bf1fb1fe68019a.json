@@ -1,0 +1,36 @@
+{
+  "entity_id": "fd7dc8274c756ff13e4901df3163993a7db92539a3a1f0a9e9bf1fb1fe68019a",
+  "entity_type": "SUPPLIER",
+  "name": "Summit Town Planning Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "1e5a89da6eb340d6c4e0b3fcc232636f92b5372d72f37c77b057a8e14b121187",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "10617.00",
+      "locator": "XLSX Report!row 44",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4a5424782ae9a7855c0b25274675127e5cc3fa4010023fce53b29c38a6b0b91d",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "5950.00",
+      "locator": "XLSX Report!row 127",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

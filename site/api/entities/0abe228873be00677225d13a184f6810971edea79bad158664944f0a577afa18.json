@@ -1,0 +1,22 @@
+{
+  "entity_id": "0abe228873be00677225d13a184f6810971edea79bad158664944f0a577afa18",
+  "entity_type": "SUPPLIER",
+  "name": "Morgan Sindall Construction & Infrastructire Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "509988397c90a51c34f84f9bda293ce6c4ac611a99338f568ddeaf5eba3fe707",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-4c0662aa-2f61-4bc4-a101-579093558e7c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Leconfield Regeneration - Brannans Unit Demolition RIBA Stage 5 Construction",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ab6fe456-ec78-48a7-ad59-d77cab614cf8-910656.json",
+      "published_at": "2026-08-13T15:14:53+01:00",
+      "retrieved_at": "2026-10-03 23:42:12.619899",
+      "sha256": "9618db29f8e1118d96b4da2260a4f2b05913ebff26f66c7a5240711ae148629a",
+      "related_entity": "ocds-b5fd17-4c0662aa-2f61-4bc4-a101-579093558e7c:ocds-b5fd17-4c0662aa-2f61-4bc4-a101-579093558e7c-1"
+    }
+  ]
+}

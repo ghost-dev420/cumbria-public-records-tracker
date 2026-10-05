@@ -1,0 +1,22 @@
+{
+  "entity_id": "aea4c82949b4cbe36aa7b8a9be58eea90baa62e48e43fd5e44f635f740ab7f76",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Joint Development and Planning Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ea87db078c7d36d28464e9428f2184ec3fae6b7f1160b0ab8264bc02041953a4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Joint Development and Planning Committee",
+      "locator": "committee 701",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

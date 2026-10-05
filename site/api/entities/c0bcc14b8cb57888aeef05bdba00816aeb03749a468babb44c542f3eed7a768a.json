@@ -1,0 +1,22 @@
+{
+  "entity_id": "c0bcc14b8cb57888aeef05bdba00816aeb03749a468babb44c542f3eed7a768a",
+  "entity_type": "SUPPLIER",
+  "name": "ROBINSON & CO ROBINSON & CO",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c72b80e1f6616a7aa2ea9091ea7ffddd510da5a743ad6180635ad73382ae4d04",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "750.00",
+      "locator": "XLSX Report!row 182",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

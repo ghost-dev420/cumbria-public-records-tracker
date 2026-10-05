@@ -1,0 +1,22 @@
+{
+  "entity_id": "51fb421ac10f09f2e273e2600199b85e934e18717e005a27d6d36164725ae1aa",
+  "entity_type": "SUPPLIER",
+  "name": "SOLACE GROUP",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ba78144aaf810de681eee9b2d82250f616a9507ec3c4371001c2e1e58d825c0b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "350.00",
+      "locator": "XLSX Sheet1!row 200",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

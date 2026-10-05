@@ -1,0 +1,78 @@
+{
+  "entity_id": "f9296c0f8740402c10e8d3f3c33c62f86debda0044eabbdd64f56b190b2c8f41",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-010-753",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "01995442f13e9095167084df767c04bc5500af5a94c81eab4d1b711d0506cba2",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-010-753",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-010-753",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-753",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:54:57.007386",
+      "sha256": "e80af4a2490b674b5a706749f59e3b85d15a027fea9a557fc2ab598cb1fc0302",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "5b916fa753e23efde999ab7a6a1d1b7781a37121d83a92f4793b15b1b4437c50",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-010-753",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-753",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:54:57.007386",
+      "sha256": "e80af4a2490b674b5a706749f59e3b85d15a027fea9a557fc2ab598cb1fc0302",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "fce808443ec665f50b40732f50e45b3ab056012e63762c358b3b5ea9f23bfa42",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-010-753",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-753",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:54:57.007386",
+      "sha256": "e80af4a2490b674b5a706749f59e3b85d15a027fea9a557fc2ab598cb1fc0302",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "1bb424292b0d27d2f0f643b38403d304843c326edf2846b58f8840f3c2433ac4",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "04 Jun 2026",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-010-753",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-753",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:54:57.007386",
+      "sha256": "e80af4a2490b674b5a706749f59e3b85d15a027fea9a557fc2ab598cb1fc0302",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "eddbce77e4cbe3bf9147112fde07ecbf5880f7729546d6a2ef342f821b9397c3",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s maintenance of a road because it is reasonable for Mr X to go to court.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-010-753",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/other/25-010-753",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:54:57.007386",
+      "sha256": "e80af4a2490b674b5a706749f59e3b85d15a027fea9a557fc2ab598cb1fc0302",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

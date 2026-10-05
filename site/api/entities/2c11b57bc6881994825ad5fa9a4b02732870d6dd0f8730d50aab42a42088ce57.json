@@ -1,0 +1,22 @@
+{
+  "entity_id": "2c11b57bc6881994825ad5fa9a4b02732870d6dd0f8730d50aab42a42088ce57",
+  "entity_type": "SUPPLIER",
+  "name": "SHELTER TRAINING",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "48f8bf80b3ecb58318aca7669db60e582bc15e8368070118b2d183031094e596",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "90.00",
+      "locator": "XLSX Report!row 340",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

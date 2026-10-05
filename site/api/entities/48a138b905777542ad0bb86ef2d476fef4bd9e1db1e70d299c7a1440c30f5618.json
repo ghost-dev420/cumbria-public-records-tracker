@@ -1,0 +1,22 @@
+{
+  "entity_id": "48a138b905777542ad0bb86ef2d476fef4bd9e1db1e70d299c7a1440c30f5618",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Carlisle Highways Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "39419c45e3035d4d7aa28473377117f9173cdb3a186aa7acd6c7b68a555e0bef",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Carlisle Highways Working Group",
+      "locator": "committee 485",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

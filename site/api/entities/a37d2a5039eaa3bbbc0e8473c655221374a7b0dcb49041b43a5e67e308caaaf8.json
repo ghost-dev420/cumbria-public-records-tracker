@@ -1,0 +1,22 @@
+{
+  "entity_id": "a37d2a5039eaa3bbbc0e8473c655221374a7b0dcb49041b43a5e67e308caaaf8",
+  "entity_type": "SUPPLIER",
+  "name": "SUFFOLK COUNTY COUNCIL",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ae0e838d92d35fe2055573c84aa70b54e17d817d5d289a90f57f7f9ac99511d9",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "665.00",
+      "locator": "XLSX Sheet1!row 102",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

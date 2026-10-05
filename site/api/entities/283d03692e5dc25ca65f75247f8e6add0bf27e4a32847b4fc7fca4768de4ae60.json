@@ -1,0 +1,78 @@
+{
+  "entity_id": "283d03692e5dc25ca65f75247f8e6add0bf27e4a32847b4fc7fca4768de4ae60",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-013-405",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "b0b482a1518c5158cc8fee831541022f646b3e1725eeea8cf689bd848145f73f",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-013-405",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-405",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-405",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:33.495189",
+      "sha256": "3333bc6019e4ff6e66cc764862b0a2cfb2a127180875d9fc81b8ea604200fde4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4aa4cdaf2402195c742b3da96befc6efd9c73ba68db0890fc29671e50f36834e",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Education",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-405",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-405",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:33.495189",
+      "sha256": "3333bc6019e4ff6e66cc764862b0a2cfb2a127180875d9fc81b8ea604200fde4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a007b8d8f5debbf894cc3b3e0c24017a00d689b2a1daa13b3a234d887e631d77",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-405",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-405",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:33.495189",
+      "sha256": "3333bc6019e4ff6e66cc764862b0a2cfb2a127180875d9fc81b8ea604200fde4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f8fbe60a1e96a6910c6d78a456aea4f1f24c005379cea8a87925a3d1855119e6",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "03 Aug 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-405",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-405",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:33.495189",
+      "sha256": "3333bc6019e4ff6e66cc764862b0a2cfb2a127180875d9fc81b8ea604200fde4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "1f936517961c128645762bec89261409a68eaa380997172e2c2c3e6ed27faa80",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Mr X complained that the Council failed to provide alternative education to his daughter when she was unable to attend school, and the Council delayed in issuing a final Education, Health and Care plan. We find fault causing a loss of education for Mr X’s daughter, and avoidable distress and frustration for the parents. The Council has agreed symbolic payments for the loss of education and avoidable distress, and it will review its alternative education policy and practice and ensure Education, Health and Care plans are issued on time. Therefore, we are closing the complaint.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-405",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-013-405",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:33.495189",
+      "sha256": "3333bc6019e4ff6e66cc764862b0a2cfb2a127180875d9fc81b8ea604200fde4",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

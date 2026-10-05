@@ -1,0 +1,22 @@
+{
+  "entity_id": "2ef4f2d4618881df7325b2a0a9a8c389a7c59fce7cae150c2451c49dc3ff2646",
+  "entity_type": "SUPPLIER",
+  "name": "ORDNANCE SURVEY",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cb51e9a461089519e48e6d6a44e20ddcc047a3a77c29b96ebe134606ac055bd1",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "162.80",
+      "locator": "XLSX Sheet1!row 362",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

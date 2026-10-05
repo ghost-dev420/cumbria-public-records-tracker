@@ -1,0 +1,22 @@
+{
+  "entity_id": "227771e006c4c0c4d42cc23ab818ca7658b5c342480562754996c8584ed84a8a",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Select Committee A - Environment",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1b984f5c60fdbaf481e910e354c5b93efeeb2d90476d5a8a89fffbf4675a6871",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Select Committee A - Environment",
+      "locator": "committee 828",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

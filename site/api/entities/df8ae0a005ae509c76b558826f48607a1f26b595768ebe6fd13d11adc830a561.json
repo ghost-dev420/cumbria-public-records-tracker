@@ -1,0 +1,22 @@
+{
+  "entity_id": "df8ae0a005ae509c76b558826f48607a1f26b595768ebe6fd13d11adc830a561",
+  "entity_type": "ORGANISATION",
+  "name": "Xenolith Explorer Scout Unit",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "927f590781ba4a1f214f1ccedc97fd7f81a56d0de0fd8c63683a0688a60e95d4",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 12",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Xenolith Explorer Scout Unit [823be9b59ccc3d01548a]"
+    }
+  ]
+}

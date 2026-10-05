@@ -1,0 +1,22 @@
+{
+  "entity_id": "cb319c2dbade1afa60fd37933172cc5afb50f58b323a3a8c207fa45edeff6190",
+  "entity_type": "ORGANISATION",
+  "name": "Lindale Village Hall, Grange",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e30efb2792b439c8278f06bb229428e030d5107fee63bffe009061a82b8b29b1",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 9",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round one in 2025 to 2026: Lindale Village Hall, Grange [2ebcdfc4be181304ab39]"
+    }
+  ]
+}

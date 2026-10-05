@@ -1,0 +1,22 @@
+{
+  "entity_id": "a3f0697e2df553a24925cab3e11d599fdfb543bd95ef1b946edc5a5e32da8390",
+  "entity_type": "SUPPLIER",
+  "name": "EEQU Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d983c4ff2f831975ae0a2c1ab2305d36e63c6525a4c299d7994a06b2891da3de",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 138",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003045"
+    }
+  ]
+}

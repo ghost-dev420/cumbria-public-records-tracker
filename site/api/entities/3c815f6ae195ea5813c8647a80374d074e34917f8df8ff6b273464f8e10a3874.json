@@ -1,0 +1,22 @@
+{
+  "entity_id": "3c815f6ae195ea5813c8647a80374d074e34917f8df8ff6b273464f8e10a3874",
+  "entity_type": "SUPPLIER",
+  "name": "Capita Business Services Ltd, Liberata UK LTD, Payroll Easy Group Ltd, Tivaam Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f92114db74e502ac8c10e9081857f5072e85ffda57c037705321db5f92e19712",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 268",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-052722"
+    }
+  ]
+}

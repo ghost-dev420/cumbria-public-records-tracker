@@ -1,0 +1,22 @@
+{
+  "entity_id": "1ea3260a698b31e4360bbc334f80ab0ecc1c9d73b4ebd0b36816564cff555ae3",
+  "entity_type": "SUPPLIER",
+  "name": "KT's Coaches of Kendal",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b8845288ccb92cc0ad1c87d5ff9846798b4f16e23fe2d217708c20f47849b208",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-a386e141-7574-444b-bb94-b1b133772d2f-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 3a - 17 passenger seats and above in the Kirkby Lonsdale area closing 18 August 2023 (F46)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7482ad9f-a13d-4b8b-aa0d-e7b6cd8547b1-891851.json",
+      "published_at": "2026-04-07T15:51:14+01:00",
+      "retrieved_at": "2026-10-03 23:18:21.006987",
+      "sha256": "09661642e791eb448552b3f2c22a1542dfcb8bbb466248bd61c388bfa1285f6f",
+      "related_entity": "ocds-b5fd17-a386e141-7574-444b-bb94-b1b133772d2f:ocds-b5fd17-a386e141-7574-444b-bb94-b1b133772d2f-1"
+    }
+  ]
+}

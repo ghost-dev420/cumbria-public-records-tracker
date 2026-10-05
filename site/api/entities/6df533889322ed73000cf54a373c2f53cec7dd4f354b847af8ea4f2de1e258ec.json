@@ -1,0 +1,22 @@
+{
+  "entity_id": "6df533889322ed73000cf54a373c2f53cec7dd4f354b847af8ea4f2de1e258ec",
+  "entity_type": "SUPPLIER",
+  "name": "Taxigaz",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3cbc85119e9ef8d4514bd2f223249f04f2906ba38ded17b9e59e77af128510a3",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-8a1cc7e2-7a76-45e8-967f-95ba2bb4f583-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 23 August 2023 (F44)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d25d6914-613f-4ed5-9da7-56eda3283c0a-892639.json",
+      "published_at": "2026-04-13T14:38:29+01:00",
+      "retrieved_at": "2026-10-03 23:21:27.480673",
+      "sha256": "409cbb1f4c6e067c6a19e24c6ee4d92553f4795a567e32827582812b523ce1a1",
+      "related_entity": "ocds-b5fd17-8a1cc7e2-7a76-45e8-967f-95ba2bb4f583:ocds-b5fd17-8a1cc7e2-7a76-45e8-967f-95ba2bb4f583-1"
+    }
+  ]
+}

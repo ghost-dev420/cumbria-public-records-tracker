@@ -1,0 +1,22 @@
+{
+  "entity_id": "43696e1c38b7e835b06c1966fc50ab824a1d385c0c4ca4281ecde1132d2c6de9",
+  "entity_type": "WARD",
+  "name": "High Furness",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ebc81d3d03ab6d4a7f04672e4666ede8886a47626d26a086df53c0a27f4330ca",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: High Furness",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Matt Brereton"
+    }
+  ]
+}

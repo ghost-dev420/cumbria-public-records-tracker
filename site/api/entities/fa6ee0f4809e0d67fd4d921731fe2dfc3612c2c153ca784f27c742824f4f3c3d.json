@@ -1,0 +1,36 @@
+{
+  "entity_id": "fa6ee0f4809e0d67fd4d921731fe2dfc3612c2c153ca784f27c742824f4f3c3d",
+  "entity_type": "SUPPLIER",
+  "name": "AA CARPETS LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "12cac597dd1e5c09b576699b7639517a4cf14819002a6001652190c0cd5ffd7c",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2353.00",
+      "locator": "XLSX Sheet1!row 80",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "2becc618c89bd25acd276255c010f490701d010a6aa2735521fc44b0bc69f14b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2333.33",
+      "locator": "XLSX Sheet 1!row 10",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

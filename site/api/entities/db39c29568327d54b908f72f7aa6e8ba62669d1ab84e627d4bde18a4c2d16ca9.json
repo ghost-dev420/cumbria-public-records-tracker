@@ -1,0 +1,22 @@
+{
+  "entity_id": "db39c29568327d54b908f72f7aa6e8ba62669d1ab84e627d4bde18a4c2d16ca9",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Accounts Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "28ccb91a7190d75ef551456386610d887b8bf1aa2794fe21b3eccd99922fa7df",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Accounts Committee",
+      "locator": "committee 742",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

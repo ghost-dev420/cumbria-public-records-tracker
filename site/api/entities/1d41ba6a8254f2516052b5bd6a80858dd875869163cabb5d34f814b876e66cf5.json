@@ -1,0 +1,22 @@
+{
+  "entity_id": "1d41ba6a8254f2516052b5bd6a80858dd875869163cabb5d34f814b876e66cf5",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Risk Management Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "388735a41132d2c76283f96fbbd7107f1225918680e695b598d9f48c97dbc78e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Risk Management Group",
+      "locator": "committee 587",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

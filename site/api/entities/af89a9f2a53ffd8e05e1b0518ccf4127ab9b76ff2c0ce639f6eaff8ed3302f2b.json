@@ -1,0 +1,22 @@
+{
+  "entity_id": "af89a9f2a53ffd8e05e1b0518ccf4127ab9b76ff2c0ce639f6eaff8ed3302f2b",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Scrutiny Panel - Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8d754f43bf53d1fcde523398d2a85e8803ef803dfe8c541d2d9030a107152768",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Scrutiny Panel - Scrutiny Committee",
+      "locator": "committee 591",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

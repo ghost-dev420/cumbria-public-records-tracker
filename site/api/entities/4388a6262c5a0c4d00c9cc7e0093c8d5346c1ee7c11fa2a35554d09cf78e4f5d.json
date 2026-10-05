@@ -1,0 +1,36 @@
+{
+  "entity_id": "4388a6262c5a0c4d00c9cc7e0093c8d5346c1ee7c11fa2a35554d09cf78e4f5d",
+  "entity_type": "SUPPLIER",
+  "name": "Tech Educators Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "468ec4700b9ac5447d861b60406b6f4eca337836da1db114e50a5028feca6170",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 556",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "2025/s 000-016368"
+    },
+    {
+      "fact_id": "13e746e144dca466f87f4f89cf6770802ece9a8f6dff15c8faa67c81ddb8579a",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 266",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003809"
+    }
+  ]
+}

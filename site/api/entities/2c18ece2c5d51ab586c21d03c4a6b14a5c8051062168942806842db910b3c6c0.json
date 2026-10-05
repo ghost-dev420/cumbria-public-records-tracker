@@ -1,0 +1,22 @@
+{
+  "entity_id": "2c18ece2c5d51ab586c21d03c4a6b14a5c8051062168942806842db910b3c6c0",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Improvement & Efficiency Partnership",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cc179d85466495d01679ac32a6d8fe4ee93c8aec8a938ec338720be71f41b294",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Improvement & Efficiency Partnership",
+      "locator": "committee 741",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

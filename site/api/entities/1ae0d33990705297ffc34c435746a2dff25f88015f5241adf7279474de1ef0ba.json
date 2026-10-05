@@ -1,0 +1,22 @@
+{
+  "entity_id": "1ae0d33990705297ffc34c435746a2dff25f88015f5241adf7279474de1ef0ba",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Select Committee Transport",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "69a4a887e60cf2c626795bb7bafc38471113dce65044306fe6c255477516e63c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Select Committee Transport",
+      "locator": "committee 838",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

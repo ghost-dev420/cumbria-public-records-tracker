@@ -1,0 +1,22 @@
+{
+  "entity_id": "722edc5061baf821fa7d741412492f6a9fbed56f432023ef86aef9d12cad24f3",
+  "entity_type": "SUPPLIER",
+  "name": "HAYS SPECIALIST RECRUITMENT LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fc5ff57e3cb310a488a5b305ae8acb5f8e793dd5a69f631c43d5e1f9fbe7a747",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-e1bed0da-17e3-40a7-98ff-cb263dfbcdd8-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Recruitment Agent for Capital Programme",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/00ef4180-d874-44c7-9a9c-acab3ab1f6a4-890143.json",
+      "published_at": "2026-03-26T12:01:45Z",
+      "retrieved_at": "2026-10-03 23:14:44.204146",
+      "sha256": "f1ed8b96a3623079ac3bc15e350a97b5a072b4445cda1de455c30bc314eb8274",
+      "related_entity": "ocds-b5fd17-e1bed0da-17e3-40a7-98ff-cb263dfbcdd8:ocds-b5fd17-e1bed0da-17e3-40a7-98ff-cb263dfbcdd8-1"
+    }
+  ]
+}

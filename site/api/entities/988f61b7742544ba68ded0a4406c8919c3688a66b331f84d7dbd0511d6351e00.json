@@ -1,0 +1,36 @@
+{
+  "entity_id": "988f61b7742544ba68ded0a4406c8919c3688a66b331f84d7dbd0511d6351e00",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Lindale and Newton-in-Cartmel Parish Council [28ec066fb7bd90ebc6a6]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "ffdd189a5ccc6bca402e80669680a7d7d0f6b7f5574b1e61c2d932cf0f03c084",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "967",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 10",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "b5da1c0e344402e4ab36f940f593ea217091a72703114a6e3629a1a318dcfa4c",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "967",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 10",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Lindale and Newton-in-Cartmel Parish Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "964579cdd56bb5f3afad7ed0e46d03979f3f9d99fc0d0bd890160bbc0b0b31a2",
+  "entity_type": "SUPPLIER",
+  "name": "Symology Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a1a1e169ecff65a5b65c2ec3596be14af2387edff28afcab8ead36e1bca35c68",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-d1a873e6-82a0-4d5e-af10-ff007f74e01e-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Street Permitting System",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/218ce7fd-3ddb-46d0-b5c2-2bbb35bb4973-878949.json",
+      "published_at": "2026-01-13T14:24:34Z",
+      "retrieved_at": "2026-10-03 23:03:04.604235",
+      "sha256": "af9d1e4e791733e654cb97c711c16c4f6f6ba5ef78a345316383f5dadc069a01",
+      "related_entity": "ocds-b5fd17-d1a873e6-82a0-4d5e-af10-ff007f74e01e:ocds-b5fd17-d1a873e6-82a0-4d5e-af10-ff007f74e01e-1"
+    }
+  ]
+}

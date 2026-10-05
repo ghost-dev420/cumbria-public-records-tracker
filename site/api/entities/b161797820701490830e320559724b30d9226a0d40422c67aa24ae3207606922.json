@@ -1,0 +1,36 @@
+{
+  "entity_id": "b161797820701490830e320559724b30d9226a0d40422c67aa24ae3207606922",
+  "entity_type": "SUPPLIER",
+  "name": "CENTRE OF LEADERSHIP PERFORMANCE",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "80b4a97b0334cb7c8794459616d24a3fb0f32370e8e2460525cf3374226d6f05",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 383",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "2025/s 000-017456"
+    },
+    {
+      "fact_id": "2e1d612bfb2e8233b6e358f863e9fb19a9fe778813ca9b3904abf4550e3263c4",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 196",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-04cf40"
+    }
+  ]
+}

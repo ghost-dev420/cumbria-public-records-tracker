@@ -1,0 +1,36 @@
+{
+  "entity_id": "a75432d3222cf4afbe05e55a1466cc2675ecc7d99d4b47cf8ef73a063d73d3a0",
+  "entity_type": "SUPPLIER",
+  "name": "Academia Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "e996ce7eb2efbbb0c878e671b3afac020dfd8e8d51304e0de2c36b7e2242789d",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-992e3ef5-a50d-4ee3-8fae-8c798c1915bf-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Supply of HP x360 435 G10 Laptops (x134)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4893c7a0-6901-486a-bf1f-c49b98b3be3d-900657.json",
+      "published_at": "2026-06-04T15:23:24+01:00",
+      "retrieved_at": "2026-10-03 23:30:50.128454",
+      "sha256": "7a52d22675bc7f48756e617feca82512c01869ce0ef00a8af703a26a1f426ac4",
+      "related_entity": "ocds-b5fd17-992e3ef5-a50d-4ee3-8fae-8c798c1915bf:ocds-b5fd17-992e3ef5-a50d-4ee3-8fae-8c798c1915bf-1"
+    },
+    {
+      "fact_id": "14c724f94283f7fe04ac2daa70b55ebab2ab1dbd03a09d653b5e32a4919cab9d",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-e165043e-7b59-4138-a8c3-57772b69c9d6-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Supply of HP x360 435 G10 Laptops (x450)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3fe562ec-f576-4360-ac25-81d38dad0f82-887667.json",
+      "published_at": "2026-03-09T10:10:45Z",
+      "retrieved_at": "2026-10-03 23:10:35.825595",
+      "sha256": "1c3d699781a5ac9fdd9d46784b7d3d9438032855741b2c01d135598a7cddf2af",
+      "related_entity": "ocds-b5fd17-e165043e-7b59-4138-a8c3-57772b69c9d6:ocds-b5fd17-e165043e-7b59-4138-a8c3-57772b69c9d6-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "19a15ac6975ff1fab061a74aa9709c65065c06d2b23192ba89a7d66f814eefab",
+  "entity_type": "SUPPLIER",
+  "name": "THOMAS FATTORINI LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d870b1b4f7852aad5026c470f13cf2caf4d4cf1f74936ad2fdff42f212675c00",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "315.82",
+      "locator": "XLSX Sheet1!row 394",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

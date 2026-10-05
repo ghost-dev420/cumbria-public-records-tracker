@@ -1,0 +1,22 @@
+{
+  "entity_id": "3fd5519e311be068e6df99816ef35ac8f592f04bb60fe9bc8ef530e956f6ece9",
+  "entity_type": "SUPPLIER",
+  "name": "DATSCHA UK LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "45c5ef2fd7c1215933e49c12d0c26765a4028c37acab62f73d6abf69a4f587a7",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "4050.00",
+      "locator": "XLSX Report!row 135",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

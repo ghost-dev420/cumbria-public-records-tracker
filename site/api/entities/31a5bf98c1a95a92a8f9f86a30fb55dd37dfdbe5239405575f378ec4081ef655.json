@@ -1,0 +1,22 @@
+{
+  "entity_id": "31a5bf98c1a95a92a8f9f86a30fb55dd37dfdbe5239405575f378ec4081ef655",
+  "entity_type": "COMMITTEE",
+  "name": "Strategic Planning Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "68b0fb3726b4ecb00407098ba4b463dab36be07a5c7876115476ace3fef8bc61",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Strategic Planning Committee",
+      "locator": "committee 262",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

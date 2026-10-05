@@ -1,0 +1,22 @@
+{
+  "entity_id": "5084449005d771afa399701d338cd96b9b7c22a1654488749468d45b2cba47af",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Local Safeguarding Children's Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "81cbf99d0fa613e421d3633738356240816c8c3a2abb14dea9879691fcf8bd1f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Local Safeguarding Children's Board",
+      "locator": "committee 787",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "f3f23cf3e0f04127c76bc14c8a75a715da19e667c70d666cfea368288a6433a3",
+  "entity_type": "PERSON",
+  "name": "Mark Fryer",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "339e389b1cae1b1833b1d9631f923afc7f396e0540c7c21ee9a08633a16757bf",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Labour",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Labour"
+    },
+    {
+      "fact_id": "376093944319d9c0fda7d0a70c6e95b37967a31b154978771714b2370f00834a",
+      "fact_type": "PUBLIC_ROLE",
+      "predicate": "PUBLIC_ROLE_TEXT",
+      "value": "Leader of the Council",
+      "locator": "ModernGov key posts",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": null
+    },
+    {
+      "fact_id": "6457942eab4b3d5d89efd1857aca2356db7daf9c3249e361b6b8676055a7580a",
+      "fact_type": "TERM_OF_OFFICE",
+      "predicate": "TERM_OF_OFFICE",
+      "value": "06/05/2022 to unspecified",
+      "locator": "term of office",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": null
+    },
+    {
+      "fact_id": "23808ded9e7a453ebe7748ad4b68b1e32d90b709d46fe9fd0a1aeb5be123c190",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: St Johns and Great Clifton",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "St Johns and Great Clifton"
+    }
+  ]
+}

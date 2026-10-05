@@ -1,0 +1,22 @@
+{
+  "entity_id": "2327667c091cb410466e25bdf35559fa2436283d14ef7090219fce5d0ad6116b",
+  "entity_type": "SUPPLIER",
+  "name": "Inspire Cornwall CIC - Dadpad",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "73d97eb8a1e9fd29fa9ae1cd97e1133050461093f5f8f01e9e568fcf39e813fc",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 78",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003428"
+    }
+  ]
+}

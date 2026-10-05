@@ -1,0 +1,22 @@
+{
+  "entity_id": "a9bfa22206ee2b1d17342e7f21988863810eda6fd23cfd139a316c064a762f3f",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Adult Social Care Scrutiny Panel (C)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e8ebb18abdb24539843df4b36545f80e54c335f420a9fff5428d5443bbdfc86d",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Adult Social Care Scrutiny Panel (C)",
+      "locator": "committee 463",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

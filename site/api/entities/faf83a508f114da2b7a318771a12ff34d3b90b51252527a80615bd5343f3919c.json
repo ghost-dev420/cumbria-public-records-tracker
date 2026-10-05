@@ -1,0 +1,78 @@
+{
+  "entity_id": "faf83a508f114da2b7a318771a12ff34d3b90b51252527a80615bd5343f3919c",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-009-125",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "03d5a329eac540754ce6a3651a8ca5cfff5da7b3466e433cadf09e6cc742e25c",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-009-125",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-009-125",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trees/24-009-125",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:10.777454",
+      "sha256": "3f832e461b0ae0bb86272bc5f32002c5f5aa750bfafc15f346d5afa69f6a6c40",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "da16a87a287620644183389686a0c2c1519e45ab29d380c4ce72051a9653ee62",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-009-125",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trees/24-009-125",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:10.777454",
+      "sha256": "3f832e461b0ae0bb86272bc5f32002c5f5aa750bfafc15f346d5afa69f6a6c40",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "56e2df3b377eabaebe270f9bed121fdda3216b20a3c0853a329d1676f8e68c9b",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-009-125",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trees/24-009-125",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:10.777454",
+      "sha256": "3f832e461b0ae0bb86272bc5f32002c5f5aa750bfafc15f346d5afa69f6a6c40",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "9b19c8b7ec554e377462f274e6c6cb018d685e75926b7568ce55682af5120362",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "14 Oct 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-009-125",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trees/24-009-125",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:10.777454",
+      "sha256": "3f832e461b0ae0bb86272bc5f32002c5f5aa750bfafc15f346d5afa69f6a6c40",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ccc5c936065599841e4fff09663c79537a546ab8b19d083dc0b67884c6cd67cf",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mrs X’s complaint about the Council not removing trees on its land near her property. There is not enough evidence of fault in the Council’s decision-making process to warrant us investigating. We also cannot achieve the outcome she wants from the complaint.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-009-125",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trees/24-009-125",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:10.777454",
+      "sha256": "3f832e461b0ae0bb86272bc5f32002c5f5aa750bfafc15f346d5afa69f6a6c40",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

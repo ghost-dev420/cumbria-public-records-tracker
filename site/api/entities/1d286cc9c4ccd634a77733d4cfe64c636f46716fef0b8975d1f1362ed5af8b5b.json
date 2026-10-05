@@ -1,0 +1,36 @@
+{
+  "entity_id": "1d286cc9c4ccd634a77733d4cfe64c636f46716fef0b8975d1f1362ed5af8b5b",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2025 to 2026: Coniston Sports and Social Centre [3ff90220f52b7c6863e9]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "1d2809b4abfe1b12faadceaf9f66490ab26e064096afcfeca0aad34379b0188b",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 4",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "5efdb86315e1cfe571458ea31c68ce9d6ff07cc07f4c6180684d398116fad507",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 4",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Coniston Sports and Social Centre"
+    }
+  ]
+}

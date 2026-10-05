@@ -1,0 +1,22 @@
+{
+  "entity_id": "eb71fff0f4df9062f54693592bd2a24686aeebcccfb6154971f076ad62379aa9",
+  "entity_type": "SUPPLIER",
+  "name": "Morgan Sindall Construction & Infrastructure Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4cc004320d070b78496a4a231974349c2a26b6791b4edccf66df392bcb7e16d1",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-fe2a9991-f213-4385-8899-0e0833f207b2-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Construction of light industrial units at the Leconfield Industrial Estate, Cleator Moor.",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/2af8154b-b8e4-4fe2-94f0-a7f0dcd00296-910654.json",
+      "published_at": "2026-08-13T15:08:55+01:00",
+      "retrieved_at": "2026-10-03 23:42:14.319911",
+      "sha256": "38ebc89d2a13d80f62c019e0520b438affd49ed8d2963e1c40ed01707d0be39b",
+      "related_entity": "ocds-b5fd17-fe2a9991-f213-4385-8899-0e0833f207b2:ocds-b5fd17-fe2a9991-f213-4385-8899-0e0833f207b2-1"
+    }
+  ]
+}

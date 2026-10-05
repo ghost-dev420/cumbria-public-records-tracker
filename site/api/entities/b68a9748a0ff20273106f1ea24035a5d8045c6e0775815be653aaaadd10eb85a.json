@@ -1,0 +1,22 @@
+{
+  "entity_id": "b68a9748a0ff20273106f1ea24035a5d8045c6e0775815be653aaaadd10eb85a",
+  "entity_type": "SUPPLIER",
+  "name": "Netcall PLC",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1e3dbb9b1d824906bc5a888644437657bc009124c5fee4735d2a76f5127d6307",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-08f9ff29-f5d6-43d8-a70f-9d42883ef0d9-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Digital Platform Including Customer Relationship Management (CRM)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/71568843-bb3f-4b30-aa38-a9b0b74287aa-872113.json",
+      "published_at": "2025-11-13T17:10:43Z",
+      "retrieved_at": "2026-10-03 22:56:52.101679",
+      "sha256": "35bd41374e242ba93fcc7c67d55841e38de4e99fb8dd44e70a16e5ef7cc79895",
+      "related_entity": "ocds-b5fd17-08f9ff29-f5d6-43d8-a70f-9d42883ef0d9:ocds-b5fd17-08f9ff29-f5d6-43d8-a70f-9d42883ef0d9-1"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "ade61c67a9cb349142fdaa41d0879fac62651e7704c3a4dcba5d3fb6fcc1521d",
+  "entity_type": "SUPPLIER",
+  "name": "Consult Yo",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "f0924474702fccf8deb080ef7d89fd55584498407a1ae0587e43f429c5fd47ff",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-28cc5668-f57f-436b-a0eb-f2926f28fa1b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 3 -Mental Capacity Act - Advanced",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/98e29cd1-bc92-484f-8cc8-6a54cd6b615a-888674.json",
+      "published_at": "2026-03-16T12:24:00Z",
+      "retrieved_at": "2026-10-03 23:11:24.600546",
+      "sha256": "1e237b3b37fe1ff92617af7c7c9aafd6c78b8416fceffca2f8f2314116772d99",
+      "related_entity": "ocds-b5fd17-28cc5668-f57f-436b-a0eb-f2926f28fa1b:ocds-b5fd17-28cc5668-f57f-436b-a0eb-f2926f28fa1b-1"
+    },
+    {
+      "fact_id": "ea9f3d8099385c7176a7083964940cb468e0be3e96c8efa5a7444509662b9960",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-69d2919f-4c0c-48a7-8af5-27f88975606e-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT- Lot 3 Safeguarding Adults Essential Legal Literacy",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/943e7caf-fa98-4988-bffd-15f319512ac7-888667.json",
+      "published_at": "2026-03-16T11:56:59Z",
+      "retrieved_at": "2026-10-03 23:11:27.786082",
+      "sha256": "a4e121ffd4b33de764c8e149b8e451a1c1c01bc7b2ee954d08fe59a78a481ff9",
+      "related_entity": "ocds-b5fd17-69d2919f-4c0c-48a7-8af5-27f88975606e:ocds-b5fd17-69d2919f-4c0c-48a7-8af5-27f88975606e-1"
+    },
+    {
+      "fact_id": "2060254aa0723a4b55744b6a955a36273243345eca002067ac56e3f0e73ff9f9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-859818e3-8f12-44f1-9695-3494bb45443c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 3 - Safeguarding Adults Chairing Skills",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/fd4c1bd5-4ff6-4d37-8338-d71268d9b716-880987.json",
+      "published_at": "2026-01-27T15:58:10Z",
+      "retrieved_at": "2026-10-03 23:06:38.456676",
+      "sha256": "6f67be8f28b84a6c2d37ad3b713b881a6e5452e3bdf70e7aa37d1267d071fbb6",
+      "related_entity": "ocds-b5fd17-859818e3-8f12-44f1-9695-3494bb45443c:ocds-b5fd17-859818e3-8f12-44f1-9695-3494bb45443c-1"
+    }
+  ]
+}

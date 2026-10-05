@@ -1,0 +1,22 @@
+{
+  "entity_id": "0de5a9e3d02fdc8a4854295c98ebf86884846f622111c4b6b2823a31adeaa039",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Barrow Area Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7e92dd04492488feb79a2ade316bf6f7d27418c1162371e702f1115ef9d681c1",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Barrow Area Committee",
+      "locator": "committee 472",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

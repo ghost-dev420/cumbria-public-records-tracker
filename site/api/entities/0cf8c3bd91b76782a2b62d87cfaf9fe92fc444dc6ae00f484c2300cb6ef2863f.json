@@ -1,0 +1,22 @@
+{
+  "entity_id": "0cf8c3bd91b76782a2b62d87cfaf9fe92fc444dc6ae00f484c2300cb6ef2863f",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Scrutiny Advisory Board - Environment and Economy",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6804a362c893c3e9ba62139aa7c31fc1f7b343ff9bdda8e4a702e6eed0177bf5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Scrutiny Advisory Board - Environment and Economy",
+      "locator": "committee 590",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

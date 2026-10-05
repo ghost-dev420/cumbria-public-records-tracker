@@ -1,0 +1,36 @@
+{
+  "entity_id": "1bb8edf9f0efaa6e62ff22f6fa5a32b73cef8d3f3715acf3ca10a8be654c828a",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Kendal United FC [0bd50dd1ceeac9a97e93]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "ae6abc57d96cf8724fb553d51166d0e051a177d6f36072f642647b57f4911d9d",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 4",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "1eea457babd7f933cac3b5e67397bdea517741ed9ae819c5bd7f73fa4f9ef907",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 4",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Kendal United FC"
+    }
+  ]
+}

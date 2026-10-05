@@ -1,0 +1,22 @@
+{
+  "entity_id": "c7f9356fe63e71bfc756d459820f4106bd5c3dc42f7d3440799f0741fca49f0b",
+  "entity_type": "SUPPLIER",
+  "name": "Aspatria skip hire",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "046c79e1274b4c3d546e3a0d928f5e6d1c76450ed63c309c3521e82f393d08fe",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "320.00",
+      "locator": "XLSX Report!row 265",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

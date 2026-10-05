@@ -1,0 +1,22 @@
+{
+  "entity_id": "1e8f28a16890218f086625025ad17fb118ec2a3b0d4febb80a927027fa26c421",
+  "entity_type": "SUPPLIER",
+  "name": "SOUTH TYNESIDE COUNCIL",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8b26c49205923f02c0511767bc5d93a13215f6696a703d4affe5ece3dc2bf3e8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "330.00",
+      "locator": "XLSX Report!row 53",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

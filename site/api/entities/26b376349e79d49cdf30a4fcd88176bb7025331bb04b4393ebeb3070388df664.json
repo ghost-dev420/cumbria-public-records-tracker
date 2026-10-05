@@ -1,0 +1,22 @@
+{
+  "entity_id": "26b376349e79d49cdf30a4fcd88176bb7025331bb04b4393ebeb3070388df664",
+  "entity_type": "SUPPLIER",
+  "name": "A L DAINES & PARTNERS",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8aaea826a87c7887a253e814ef5482c51092d79da59c4a8b3533830028717e57",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2100.00",
+      "locator": "XLSX Sheet1!row 196",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

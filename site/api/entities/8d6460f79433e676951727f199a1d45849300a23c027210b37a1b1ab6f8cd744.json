@@ -1,0 +1,22 @@
+{
+  "entity_id": "8d6460f79433e676951727f199a1d45849300a23c027210b37a1b1ab6f8cd744",
+  "entity_type": "SUPPLIER",
+  "name": "Southern Communications",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "908c73169223e3176720bdb67f3b06fd391e5e7b8492ae5dbaf433391ac2eada",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-17149f0b-dfe1-4bdc-b66e-d50eaf60bba9-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Cumberland Care Homes IoT Network",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1368e3ff-b83d-4a7b-a228-84bdc3f95d80-916026.json",
+      "published_at": "2026-09-30T14:22:12+01:00",
+      "retrieved_at": "2026-10-03 23:51:19.975386",
+      "sha256": "08dda73adf54d0f1eacb95730d5e998781683903de46064414f70f47bc0fb7b7",
+      "related_entity": "ocds-b5fd17-17149f0b-dfe1-4bdc-b66e-d50eaf60bba9:ocds-b5fd17-17149f0b-dfe1-4bdc-b66e-d50eaf60bba9-1"
+    }
+  ]
+}

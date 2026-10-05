@@ -1,0 +1,22 @@
+{
+  "entity_id": "fb42f550083ac81eb0c4ba6754161335e2829a596bd0555a9ea04602cba9d5f8",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Services Portfolio Holder Meeting",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3e64a89b890b7d91c79f75e5dff13e16969eb9bffadc3d09b6ce2e27a6878acb",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Services Portfolio Holder Meeting",
+      "locator": "committee 740",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

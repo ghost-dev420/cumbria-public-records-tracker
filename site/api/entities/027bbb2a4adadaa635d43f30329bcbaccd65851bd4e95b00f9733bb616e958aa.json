@@ -1,0 +1,36 @@
+{
+  "entity_id": "027bbb2a4adadaa635d43f30329bcbaccd65851bd4e95b00f9733bb616e958aa",
+  "entity_type": "SUPPLIER",
+  "name": "Pro Fire Systems Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "0489c85861f9be6913d16694373d35a9ac7ac1e591107fdd3543a926564618a7",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 244",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002459"
+    },
+    {
+      "fact_id": "b642142aecb258b6dbe19f7aee24ef7ea6fdbeb7da599d0215c92b2f02e96a3e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 239",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002445"
+    }
+  ]
+}

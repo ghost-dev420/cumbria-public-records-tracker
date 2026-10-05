@@ -1,0 +1,22 @@
+{
+  "entity_id": "1d82a32ee015e94eeee297b4daa1141318c9175fd5ce163d27961e6957c63591",
+  "entity_type": "SUPPLIER",
+  "name": "Bechtle Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b7eb04b64abc0c316a9f0613e6dd1c64f202944fae93b3c748ca8cefac4ad01c",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-6af79048-535c-48a6-8987-5f44a54b7472-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Supply of HP Probook x360 435 G10 Laptops (x400)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/362cd015-71a1-4880-922f-7c514199f38e-869480.json",
+      "published_at": "2025-10-23T15:56:36+01:00",
+      "retrieved_at": "2026-10-03 22:54:50.873434",
+      "sha256": "0ffe19d8a32a47d05598e3e493106aef013ae51e259b6d1b3326c0af6b9ce7cd",
+      "related_entity": "ocds-b5fd17-6af79048-535c-48a6-8987-5f44a54b7472:ocds-b5fd17-6af79048-535c-48a6-8987-5f44a54b7472-1"
+    }
+  ]
+}

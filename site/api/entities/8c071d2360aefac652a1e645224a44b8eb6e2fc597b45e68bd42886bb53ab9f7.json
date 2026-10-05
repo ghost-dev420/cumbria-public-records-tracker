@@ -1,0 +1,36 @@
+{
+  "entity_id": "8c071d2360aefac652a1e645224a44b8eb6e2fc597b45e68bd42886bb53ab9f7",
+  "entity_type": "SUPPLIER",
+  "name": "TULLIE HOUSE MUSEUM & ART GALLERY TRUST",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "742acf811bb7014025533c682537dfda073d170c209dbd96caebc9c229fe68b8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "575.00",
+      "locator": "XLSX Report!row 468",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "3b9e39355e0e4895cb862a948083cfb20152f7d77e86c762897b98823f6ab106",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "5078.00",
+      "locator": "XLSX Sheet1!row 516",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

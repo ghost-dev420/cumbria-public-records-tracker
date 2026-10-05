@@ -1,0 +1,22 @@
+{
+  "entity_id": "13fa6efe17f1f32597af0e43490a2cd3d3ec6aa3c31d60120b5444dbdef335d0",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Shared Services Workshop",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "86fe446661c2ec6b348cf3b6089a569f803fa82a4e832124dc8e0fb47961df39",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Shared Services Workshop",
+      "locator": "committee 556",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "1dcb7ffd3317b2fbe028d2d7f6429b260bd7cb751609060f054b5730b3313396",
+  "entity_type": "SUPPLIER",
+  "name": "Morgan Consult and Advisory Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c6af2dbe8b70e3fd343d8bc94a217a70d7fae91588387b7ca6e4bfc0270a0f98",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 50",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003769"
+    }
+  ]
+}

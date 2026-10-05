@@ -1,0 +1,22 @@
+{
+  "entity_id": "a45b07aa42e8198cb006feb4bae50ebc09087ae82b6d31e252aa039bb93583df",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Hate Crime Task and Finish Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5940c9e93c4081da67a9c80293c8c23a727fa2c6a8aeca04985a906183ace24c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Hate Crime Task and Finish Group",
+      "locator": "committee 502",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

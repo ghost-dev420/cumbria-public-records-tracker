@@ -1,0 +1,36 @@
+{
+  "entity_id": "77031e5be2904c7ccbd1f94e67ed2b033293e4e3c2693686999356ac949a38ae",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: CancerCare [439cd6bcab6bf96e6139]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "3e0d6498cb4adf3986b3de3e75fdbcc8b633777a4dea8585837ac961917d302d",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "600",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 3",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "0f05534f14a57cb51e71106e3a72fb43933c20825b9fdef56a1f2bdd820cad78",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "600",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 3",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "CancerCare"
+    }
+  ]
+}

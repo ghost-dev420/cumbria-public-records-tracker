@@ -1,0 +1,36 @@
+{
+  "entity_id": "477e4ec74d24217097d3b49254414b480c6b4d756755196829fe93371aef2319",
+  "entity_type": "SUPPLIER",
+  "name": "ITSL Audio Visual Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "3cd6308bff83fedab545d5feacd09cd9e64e1b35e7234c2d333b1568cafe5547",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-542b9449-a44c-45b6-97dc-a7589c4a2b15-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Yealink Meeting Boards - Carlisle (x24)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7935ebc3-ab21-4213-b31a-4c1fac0f584c-869414.json",
+      "published_at": "2025-10-23T12:49:34+01:00",
+      "retrieved_at": "2026-10-03 22:54:54.726544",
+      "sha256": "4ea948842274ed1b197e61b7935642b5defc736d223fcaf5a6d6195de796cd12",
+      "related_entity": "ocds-b5fd17-542b9449-a44c-45b6-97dc-a7589c4a2b15:ocds-b5fd17-542b9449-a44c-45b6-97dc-a7589c4a2b15-1"
+    },
+    {
+      "fact_id": "dee905cd4e781c77902e86ea1adac6503b17348663304f047afb1350f678e438",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-e56b05d6-8ef9-4974-8e75-cc5dbcf997cb-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Yealink MeetingBoards - West Cumbria  (x23)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7c2032e5-7e8a-4227-86b2-bf78fda5918a-869392.json",
+      "published_at": "2025-10-23T12:07:52+01:00",
+      "retrieved_at": "2026-10-03 22:54:55.834616",
+      "sha256": "3716c9185dd6da4412500b4d3a0038f830dc04ae7ecbefe4f5d1d36c10e78410",
+      "related_entity": "ocds-b5fd17-e56b05d6-8ef9-4974-8e75-cc5dbcf997cb:ocds-b5fd17-e56b05d6-8ef9-4974-8e75-cc5dbcf997cb-1"
+    }
+  ]
+}

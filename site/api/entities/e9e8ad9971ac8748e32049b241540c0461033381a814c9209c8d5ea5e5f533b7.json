@@ -1,0 +1,22 @@
+{
+  "entity_id": "e9e8ad9971ac8748e32049b241540c0461033381a814c9209c8d5ea5e5f533b7",
+  "entity_type": "SUPPLIER",
+  "name": "NCB RIP ( Trading as Research in Practice)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4a834c11dfd1a2e2441a72ed8d24326c2058b40dee20c091e2b14c6dd1f4aea0",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-fd2af268-6223-4cae-a043-0df9c9dcf31d-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 5 Relational and Restorative Practice",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c4cbdfa3-22dc-44a0-83c2-6a2ade7fc81a-911181.json",
+      "published_at": "2026-08-18T14:15:05+01:00",
+      "retrieved_at": "2026-10-03 23:42:46.408521",
+      "sha256": "06d10354814434fec744ba51550309d9e1e4dcf3fccbe4c897530637a1972e53",
+      "related_entity": "ocds-b5fd17-fd2af268-6223-4cae-a043-0df9c9dcf31d:ocds-b5fd17-fd2af268-6223-4cae-a043-0df9c9dcf31d-1"
+    }
+  ]
+}

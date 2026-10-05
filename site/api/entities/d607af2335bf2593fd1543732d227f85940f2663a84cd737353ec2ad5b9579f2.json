@@ -1,0 +1,22 @@
+{
+  "entity_id": "d607af2335bf2593fd1543732d227f85940f2663a84cd737353ec2ad5b9579f2",
+  "entity_type": "SUPPLIER",
+  "name": "HQC London Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f387f1c56399b01474847b606aea0978adfa029e1bf70168fc7b4762b5b9fe51",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-10148f83-a2b6-4f58-ac5d-3fc17fdde121-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "DPS - Property Maintenance Minor Works 2024-2028",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7eb02e67-7be8-45a7-bcde-e0cd40e2bc46-900740.json",
+      "published_at": "2026-06-05T10:46:14+01:00",
+      "retrieved_at": "2026-10-03 23:31:03.106379",
+      "sha256": "47beeec83a04c02f5b9e996ea09e4c43d47f0ef8ac91936eb3c1bd9764fa54bd",
+      "related_entity": "ocds-b5fd17-10148f83-a2b6-4f58-ac5d-3fc17fdde121:ocds-b5fd17-10148f83-a2b6-4f58-ac5d-3fc17fdde121-1"
+    }
+  ]
+}

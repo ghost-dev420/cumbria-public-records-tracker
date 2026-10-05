@@ -1,0 +1,36 @@
+{
+  "entity_id": "7a61a410155cab4051450e0ef58b8cae450fd5f3ef08ac29dce670fdbeb6cc9d",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Ulverston Tennis Club [76e5967627bd6581371a]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "6bf8dd5c05e06c50496f97d818ab7f72d2df7eb187f7606586d41ddd54c58861",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "691b4055f81c13f9b9822db64fc38bc579851d71c91d5a66812d12e4e04ad8ac",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Ulverston Tennis Club"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "a3ef7d0a0018a263f0ead1099ff63dda51451f92a792e8e1189542d6a365a6df",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Compulsory Competitive Tendering Tenders & Evaluation Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ac60001ee1ae33c1da29ee328b79e797f9c7318b7bfa6cff81f69f08938ad0a0",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Compulsory Competitive Tendering Tenders & Evaluation Panel",
+      "locator": "committee 720",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

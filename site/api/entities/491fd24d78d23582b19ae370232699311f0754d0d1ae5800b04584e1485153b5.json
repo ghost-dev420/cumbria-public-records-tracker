@@ -1,0 +1,22 @@
+{
+  "entity_id": "491fd24d78d23582b19ae370232699311f0754d0d1ae5800b04584e1485153b5",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Joint Health Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "191a815d65b42632f81253d6d6347f5e28c7bd7a3a209a76fa80049478eb90df",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Joint Health Scrutiny Committee",
+      "locator": "committee 550",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

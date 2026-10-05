@@ -1,0 +1,36 @@
+{
+  "entity_id": "a625ca8615d8732f770f4c3bf766a56b208e6d34c3f003f04b9655abd44c32c7",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Temple of Play [6b8934d77444e87679d7]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "317915cf4f31caf284732bef60ea4027043b48b67fec665ea99ae760a4068c5c",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "4600",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 14",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "22671e2a72bf90e6f43ba1d63d44bb5bd3994a2e9cca7aac98a60e0ca385fb95",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "4600",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 14",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Temple of Play"
+    }
+  ]
+}

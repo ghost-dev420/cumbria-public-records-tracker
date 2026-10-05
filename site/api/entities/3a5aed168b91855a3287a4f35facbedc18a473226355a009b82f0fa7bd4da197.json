@@ -1,0 +1,22 @@
+{
+  "entity_id": "3a5aed168b91855a3287a4f35facbedc18a473226355a009b82f0fa7bd4da197",
+  "entity_type": "SUPPLIER",
+  "name": "LOCAL GOVERMENT INFORMATION UNIT LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "37170ecfd7dd75d9f7e991799542355e74b928c68f21c3b11f210b82e0e80413",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "809.00",
+      "locator": "XLSX Report!row 82",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "eecbb7975f96b04d531055e8d58deb6a8772d554badb0930025618544c7b516e",
+  "entity_type": "SUPPLIER",
+  "name": "ADL Travel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cdc5cda1839d21091cc150e919605bdc020ba6401e1fa405ea5e6bda2cfdd0ab",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 134",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "PROCONT00003212"
+    }
+  ]
+}

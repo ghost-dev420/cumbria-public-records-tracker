@@ -1,0 +1,78 @@
+{
+  "entity_id": "43236fd3f9a0cd975fe86f5f6b1e7d66e314728c87ac99faf5a9e2ea0455e91c",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-019-620",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "82ec805b848eaad2e1289e5ad719eb01d5512ec403dd3647de0dedfb9987ef84",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-019-620",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-019-620",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/elections-and-electoral-register/24-019-620",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:06.850584",
+      "sha256": "f5b7aa5dd4b14ee46ba0595a3c0c3d4dd2eacf8a6450d0f152c41e4cd3bea55c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e75d04f8f73186ee4e5a04b0f92c0c56df3038c40a8098a13b2b5fceb5c45493",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Other Categories",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-019-620",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/elections-and-electoral-register/24-019-620",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:06.850584",
+      "sha256": "f5b7aa5dd4b14ee46ba0595a3c0c3d4dd2eacf8a6450d0f152c41e4cd3bea55c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e6f5d17d7629be660f976e9abb80e17eb03cc919f4da4dc36623239597525c80",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-019-620",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/elections-and-electoral-register/24-019-620",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:06.850584",
+      "sha256": "f5b7aa5dd4b14ee46ba0595a3c0c3d4dd2eacf8a6450d0f152c41e4cd3bea55c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4c413db9616a54d5452001bd8a6307df42e5141fc4958bdb7c594233b379dadb",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "26 Mar 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-019-620",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/elections-and-electoral-register/24-019-620",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:06.850584",
+      "sha256": "f5b7aa5dd4b14ee46ba0595a3c0c3d4dd2eacf8a6450d0f152c41e4cd3bea55c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "8219f170090887d6c633d312b8a0237603218162fc7257265ddb3fb2d729e4e1",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We cannot investigate this complaint about the date of the next local election. This is because it is an issue that affects all or most of the inhabitants of the area.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-019-620",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/elections-and-electoral-register/24-019-620",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:06.850584",
+      "sha256": "f5b7aa5dd4b14ee46ba0595a3c0c3d4dd2eacf8a6450d0f152c41e4cd3bea55c",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

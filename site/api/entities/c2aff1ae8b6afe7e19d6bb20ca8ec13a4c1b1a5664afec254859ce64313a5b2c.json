@@ -1,0 +1,36 @@
+{
+  "entity_id": "c2aff1ae8b6afe7e19d6bb20ca8ec13a4c1b1a5664afec254859ce64313a5b2c",
+  "entity_type": "SUPPLIER",
+  "name": "Day Cummins Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "3c85fbf2fd1af0978184794531cfb8dfea7ccbb735358529f0c2f46f6f71848a",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 53",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00001699"
+    },
+    {
+      "fact_id": "d7cd38e51c6aa50731e5c0003984b6acb5b5cbdf0b83f263e0f432f9853c347f",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 3",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003150"
+    }
+  ]
+}

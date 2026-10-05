@@ -1,0 +1,22 @@
+{
+  "entity_id": "9dc05745fbdc3599ac48aa62533e060ed01d5afa126d12e0a22f489fdee9e4e5",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Standards Board Assessment Committees",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "91c74beb79397275e2b257393c338644992781a7ae90504cd6d836a797d7d0a5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Standards Board Assessment Committees",
+      "locator": "committee 558",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

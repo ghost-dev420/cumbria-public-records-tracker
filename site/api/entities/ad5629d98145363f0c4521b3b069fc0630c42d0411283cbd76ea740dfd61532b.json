@@ -1,0 +1,78 @@
+{
+  "entity_id": "ad5629d98145363f0c4521b3b069fc0630c42d0411283cbd76ea740dfd61532b",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-015-105",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "d3b7faf0727f203267bedb92eb5cdf51f43d14dbb01184468b6b09c37d0918f9",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-015-105",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-105",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/24-015-105",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:09.148131",
+      "sha256": "b3023c3030bcf5a0d4ba44909dfc212cecab4f622a514eb0c933dc07876198ce",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "9d7054b309c9655f26fc005a0176f77c79a6622ff597c970317bfb66f037439b",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Planning",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-105",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/24-015-105",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:09.148131",
+      "sha256": "b3023c3030bcf5a0d4ba44909dfc212cecab4f622a514eb0c933dc07876198ce",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ff78e9a255ecdb86085e2d197ff2984e453ffe6f9cb49d5218609ba222a0a00e",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-105",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/24-015-105",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:09.148131",
+      "sha256": "b3023c3030bcf5a0d4ba44909dfc212cecab4f622a514eb0c933dc07876198ce",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "1b5a19ac8a57e1c53cab0829abb7cc37cb1cb2441c6560cb7bdbe3c465a855f9",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "26 Mar 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-105",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/24-015-105",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:09.148131",
+      "sha256": "b3023c3030bcf5a0d4ba44909dfc212cecab4f622a514eb0c933dc07876198ce",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7b514feda9b1553f6bade32dace71af4e57e164268bb6fb724ccc4afc162ec47",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about an alleged breach of an easement/covenant covering the shared driveway between the complainants’ and their neighbour’s properties. There is insufficient evidence of fault in the way the Council considered the complainant’s concerns.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-015-105",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/24-015-105",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:09.148131",
+      "sha256": "b3023c3030bcf5a0d4ba44909dfc212cecab4f622a514eb0c933dc07876198ce",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

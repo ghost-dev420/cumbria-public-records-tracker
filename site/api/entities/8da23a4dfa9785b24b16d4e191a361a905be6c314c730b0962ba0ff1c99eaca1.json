@@ -1,0 +1,22 @@
+{
+  "entity_id": "8da23a4dfa9785b24b16d4e191a361a905be6c314c730b0962ba0ff1c99eaca1",
+  "entity_type": "SUPPLIER",
+  "name": "GREYSOUTHEN P.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "72e81e3c9ceb4d8e938fb306714dea514329d975b06bd4e0549ea9e84033c1d6",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "7500.00",
+      "locator": "XLSX Sheet1!row 555",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "8acd69c8d70b3827f1c411818a90548340a094f84995b442052ed1d0c50fbb5e",
+  "entity_type": "SUPPLIER",
+  "name": "PLANNING JUNGLE LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9d98649663b9b1e143fe10c9ec9d55e97e1f486669f0424b3d3cf49592d73508",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "300.00",
+      "locator": "XLSX Report!row 498",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

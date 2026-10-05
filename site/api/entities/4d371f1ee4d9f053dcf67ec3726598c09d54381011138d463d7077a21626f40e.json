@@ -1,0 +1,78 @@
+{
+  "entity_id": "4d371f1ee4d9f053dcf67ec3726598c09d54381011138d463d7077a21626f40e",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-015-764",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "5dd487d85a00a9d660ad631f30d9b89dd7e9ad3e51bbdf8a5437ba9c2d943a41",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-015-764",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-015-764",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/private-housing/23-015-764",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:42.098235",
+      "sha256": "4aa7dd4101b74dee89669a666840b2be428086ff447014ce7ded2b4895644ea7",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f5fd14866ad35d85338a993af1028d387da270572b5ee3c8174317067ab7596a",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Housing",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-015-764",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/private-housing/23-015-764",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:42.098235",
+      "sha256": "4aa7dd4101b74dee89669a666840b2be428086ff447014ce7ded2b4895644ea7",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "39b443bf1a9dcf6918e538d230f6b0d82544d3935f4bdd2ffca4060c2c449e2a",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-015-764",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/private-housing/23-015-764",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:42.098235",
+      "sha256": "4aa7dd4101b74dee89669a666840b2be428086ff447014ce7ded2b4895644ea7",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7bc8871fcd623144931b24b5e8a73a6f5b9392a2f41a302fa204b5444896081b",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "03 Jul 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-015-764",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/private-housing/23-015-764",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:42.098235",
+      "sha256": "4aa7dd4101b74dee89669a666840b2be428086ff447014ce7ded2b4895644ea7",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e99121f83ebc6773c3ad4c2bee76b31158790fea10f70f4cd44b4637e756cd27",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Mr F complained about the way the Council dealt with his application for a home improvement grant. We found fault which caused him time and trouble and to miss out on having solar panels installed. The Council has agreed to fund the installation of solar panels to remedy that injustice.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-015-764",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/private-housing/23-015-764",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:42.098235",
+      "sha256": "4aa7dd4101b74dee89669a666840b2be428086ff447014ce7ded2b4895644ea7",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

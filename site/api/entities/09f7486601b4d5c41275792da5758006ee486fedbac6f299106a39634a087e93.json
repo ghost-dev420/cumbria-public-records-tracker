@@ -1,0 +1,22 @@
+{
+  "entity_id": "09f7486601b4d5c41275792da5758006ee486fedbac6f299106a39634a087e93",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Joint Staff Consultative Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0207ddb98ec3a3832d591d40b32b031eb23ba238a242fc57ee97edf868ceb4f3",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Joint Staff Consultative Group",
+      "locator": "committee 552",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

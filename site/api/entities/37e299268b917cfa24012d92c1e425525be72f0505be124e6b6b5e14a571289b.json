@@ -1,0 +1,36 @@
+{
+  "entity_id": "37e299268b917cfa24012d92c1e425525be72f0505be124e6b6b5e14a571289b",
+  "entity_type": "SUPPLIER",
+  "name": "Future Private Hire Taxis",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "f3991370cf35668f4fa1e35a7ff360f6f72f6bcb34179eff9a96937aa7e9ba0e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-4b2c50c6-3ea4-470c-b251-ac9d23c1a673-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 23 February 2026 (F43)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/54c21df3-0863-4613-9c6f-c6437cc25bfb-902269.json",
+      "published_at": "2026-06-16T09:24:12+01:00",
+      "retrieved_at": "2026-10-03 23:34:05.438043",
+      "sha256": "a96629ea8083ef2d231ae5fc26496a7f46b177aeefd553e06473a44296a4b056",
+      "related_entity": "ocds-b5fd17-4b2c50c6-3ea4-470c-b251-ac9d23c1a673:ocds-b5fd17-4b2c50c6-3ea4-470c-b251-ac9d23c1a673-1"
+    },
+    {
+      "fact_id": "1d7c7172625756f37ab1e2ecc6d9fc0962a3b74bd78a468f0fed338fa036f788",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-4bfb94bf-8c2a-4a93-b7a1-1dc388cb75cb-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a Closing 11 November 2025 (PRU F17)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f6dcaaff-b5cf-4831-b41e-607ca55862be-873152.json",
+      "published_at": "2025-11-21T11:48:19Z",
+      "retrieved_at": "2026-10-03 22:57:45.491460",
+      "sha256": "de1dd561b8daacf5f580db87720d9f771716f410946d45aa893fff3f6c586111",
+      "related_entity": "ocds-b5fd17-4bfb94bf-8c2a-4a93-b7a1-1dc388cb75cb:ocds-b5fd17-4bfb94bf-8c2a-4a93-b7a1-1dc388cb75cb-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "6a8ecb3be43c53da1dd9b94d7a4bc4353ae94207540da79c4ee0d0eafa484fe1",
+  "entity_type": "SUPPLIER",
+  "name": "ST JOHNS BUILDINGS",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "77634d0d83488c8f3c4168b861dc100af8d0502cfd756c2a23628dab62c1262c",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "700.00",
+      "locator": "XLSX Sheet1!row 125",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

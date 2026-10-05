@@ -1,0 +1,22 @@
+{
+  "entity_id": "44f7dd0bf44b3e600afc5e205fe5b9076b227686df2936e0cba7ab8a61f61036",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Select Committee Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "72e48ab0626101d584935a0aa21f9a32eb6431b49f9c08b6f1ad3956fc99ec49",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Select Committee Panel",
+      "locator": "committee 610",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

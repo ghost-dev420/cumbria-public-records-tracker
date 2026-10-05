@@ -1,0 +1,78 @@
+{
+  "entity_id": "349f534f3c6dcc57366e08bcd63eb4e8f7324314917cd94c76577b527c3c73a6",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-005-287",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "3bbb2571139974ee8611b8c3cb78be9d96f152ea697ffa294c0e670187b6d2cb",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-005-287",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-287",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/24-005-287",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:30.021636",
+      "sha256": "8a4db13f2df610cc901ca1799709ce7e6ab6d734cc27df72a9edd915a9ef101f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "85d10bb7c831c0a0a196cff2b7b559c5bfabd17f15f0946f85f073d984bd0a6b",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-287",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/24-005-287",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:30.021636",
+      "sha256": "8a4db13f2df610cc901ca1799709ce7e6ab6d734cc27df72a9edd915a9ef101f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "0ca6ab87e0915aace62de2507d81b617ab698842fd7413b951a1c72105e25bcd",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-287",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/24-005-287",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:30.021636",
+      "sha256": "8a4db13f2df610cc901ca1799709ce7e6ab6d734cc27df72a9edd915a9ef101f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f3597544b07279fb1351d7ef0b4f9e245ef79fb493ec84b966846572fc8ff4f8",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "11 Feb 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-287",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/24-005-287",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:30.021636",
+      "sha256": "8a4db13f2df610cc901ca1799709ce7e6ab6d734cc27df72a9edd915a9ef101f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "cf612d87098e2f09ad707d71f07efdb1c4f0771cee3cdf59e0a17476578cae40",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Mr X complained that the Council delayed in carrying out a financial assessment for his late mother, Mrs Y, and then issued a large, unexpected bill for backdated care costs. He also says the Council delayed in advising the family about benefits Mrs Y may have been able to claim and gave inadequate notice to end her placement at a care home. We found the Council was at fault. It has agreed to apologise to Mr X and make a payment to him in recognition of the distress, uncertainty and frustration caused.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-287",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/24-005-287",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:30.021636",
+      "sha256": "8a4db13f2df610cc901ca1799709ce7e6ab6d734cc27df72a9edd915a9ef101f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "8d20c67cddc1745f7db1c7c2300422cda171fb7226adb1ebbe4a5d5712c7c71e",
+  "entity_type": "PERSON",
+  "name": "Emma Williamson",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "dbac7a9242ad863c50317990f991617338ef9193f2c1f94bc2b8b90573c0ef2f",
+      "fact_type": "POLITICAL_PARTY",
+      "predicate": "MEMBER_OF_PARTY",
+      "value": null,
+      "locator": "party: Labour",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Labour"
+    },
+    {
+      "fact_id": "2627fec85aeacb72e50d25f3dcef10e6ee612322432b468f65aa4cc96f7accde",
+      "fact_type": "PUBLIC_ROLE",
+      "predicate": "PUBLIC_ROLE_TEXT",
+      "value": "Deputy Leader (Non-Statutory) and Children's Services, Family Wellbeing and Housing (Statutory Lead Member for Children's Services) Portfolio Holder",
+      "locator": "ModernGov key posts",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": null
+    },
+    {
+      "fact_id": "f7021cd214abdc37c407e1395bfc5411c128dd95652aded16348747d9eb52518",
+      "fact_type": "TERM_OF_OFFICE",
+      "predicate": "TERM_OF_OFFICE",
+      "value": "06/05/2022 to unspecified",
+      "locator": "term of office",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": null
+    },
+    {
+      "fact_id": "ee450ab0c4685ccf7bbd398d2bf0eab6398b56776057f5fe3e04aa1213b3a628",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Kells and Sandwith",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Kells and Sandwith"
+    }
+  ]
+}

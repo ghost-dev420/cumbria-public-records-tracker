@@ -1,0 +1,22 @@
+{
+  "entity_id": "cfa2f3210066d3f662d4112291606432253c1b39a01305ddcf4705a9404307d8",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Resources Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2a9db94d9d85044dee1e8a6389df4b15bd334807fd0a9d444dabbab6e23d1ecd",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Resources Committee",
+      "locator": "committee 772",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

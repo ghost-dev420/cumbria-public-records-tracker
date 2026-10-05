@@ -1,0 +1,22 @@
+{
+  "entity_id": "d760a59bd27e3349b923f4462a8da189903d0a5434c4c93235ae0073c3cab024",
+  "entity_type": "SUPPLIER",
+  "name": "ABA Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "73ea1e642e7caedc0fffd16224daf1b57f9b805bedb8caa427b48e4a032f4281",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 221",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-04c955"
+    }
+  ]
+}

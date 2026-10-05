@@ -1,0 +1,22 @@
+{
+  "entity_id": "2f55fd5c77cbacfd9b2c0c4ca51bc21831143f4e393ff54eefdc5d44e51a8ec3",
+  "entity_type": "SUPPLIER",
+  "name": "ANDREW LATHWELL DESIGN LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b7f31c2b1f924387a540c348e3d58d18d49d5b686d39c48a5e0f642fc8749c76",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "60.00",
+      "locator": "XLSX Sheet1!row 490",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

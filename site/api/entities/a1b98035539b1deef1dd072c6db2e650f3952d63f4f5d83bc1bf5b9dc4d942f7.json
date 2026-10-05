@@ -1,0 +1,22 @@
+{
+  "entity_id": "a1b98035539b1deef1dd072c6db2e650f3952d63f4f5d83bc1bf5b9dc4d942f7",
+  "entity_type": "WARD",
+  "name": "Gosforth",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5113642fd933ce80eba0e01ff328f798709203426fa4f5a808c00cc4344bacb0",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Gosforth",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "David Moore"
+    }
+  ]
+}

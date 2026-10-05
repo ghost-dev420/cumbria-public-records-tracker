@@ -1,0 +1,22 @@
+{
+  "entity_id": "8301aad597d19eadc659d28e8713852462eda48e5783fd1099c7595a345d43bd",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Licensing Policy Subgroup",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3cb48d7787eee994fa526cc1662521666f4efd217993bb689e47d8d2100c8cdb",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Licensing Policy Subgroup",
+      "locator": "committee 378",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

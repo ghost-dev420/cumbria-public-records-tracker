@@ -1,0 +1,22 @@
+{
+  "entity_id": "864fd645b820aacb96b7e0b354a44ae1c93e590b6801576386522c602408523d",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Standards Hearings Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9b0bad449b84847da8998ba4426782e45c98f136d28e3dc688d5d15cd73a0f0f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Standards Hearings Sub-Committee",
+      "locator": "committee 626",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

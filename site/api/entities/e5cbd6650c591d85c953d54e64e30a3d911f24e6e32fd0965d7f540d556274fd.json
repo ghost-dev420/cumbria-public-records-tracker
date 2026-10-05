@@ -1,0 +1,92 @@
+{
+  "entity_id": "e5cbd6650c591d85c953d54e64e30a3d911f24e6e32fd0965d7f540d556274fd",
+  "entity_type": "CONTRACT",
+  "name": "PROCONT00002405",
+  "fact_count": 6,
+  "timeline": [
+    {
+      "fact_id": "70dda320c2acf2c1f742e2f99fa57a0b1cd5fff138b321d5a24865a0de68f22e",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "CSV row 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "73011802abcedaa5da00a38e5fd0f78281d07cd43c25271fa9711b984e014347",
+      "fact_type": "CONTRACT_DESCRIPTION",
+      "predicate": "HAS_DESCRIPTION",
+      "value": "Allerdale Trade Waste Customers",
+      "locator": "CSV row 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "5221cc1a4e37187006d21e25303344365e53943cf60f2557d74a517defd8c050",
+      "fact_type": "CONTRACT_PERIOD",
+      "predicate": "STARTS_ON",
+      "value": "2023-03-31",
+      "locator": "CSV row 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "feb929976c780ac32fb74bc06297bc503ae56b5a1ba3297de3ed58ffdebf917e",
+      "fact_type": "CONTRACT_PERIOD",
+      "predicate": "ENDS_ON",
+      "value": "2027-08-31",
+      "locator": "CSV row 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "38095912cffb34abf46e07928e8bb2307a2b86a1bfdf0625cd748a8c70079f75",
+      "fact_type": "CONTRACT_TITLE",
+      "predicate": "HAS_TITLE",
+      "value": "Allerdale Trade Waste Customers",
+      "locator": "CSV row 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "c6bf6f08309ac15bb2664cfbde4fbcc7b9d240525ce2f1c6b0f468a6dca40e7f",
+      "fact_type": "CONTRACT_VALUE",
+      "predicate": "HAS_VALUE",
+      "value": "1636248.00",
+      "locator": "CSV row 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    }
+  ]
+}

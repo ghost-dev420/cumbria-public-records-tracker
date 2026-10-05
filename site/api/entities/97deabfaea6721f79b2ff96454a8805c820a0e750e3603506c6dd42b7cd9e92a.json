@@ -1,0 +1,22 @@
+{
+  "entity_id": "97deabfaea6721f79b2ff96454a8805c820a0e750e3603506c6dd42b7cd9e92a",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Social Services Cases - Appeals Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "dbc6b1b713ac0db3c36e9e1d761b06de1c69cc2c01419d251e66112b9fc9d461",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Social Services Cases - Appeals Sub-Committee",
+      "locator": "committee 615",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

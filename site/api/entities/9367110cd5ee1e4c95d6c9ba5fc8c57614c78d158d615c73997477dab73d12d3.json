@@ -1,0 +1,22 @@
+{
+  "entity_id": "9367110cd5ee1e4c95d6c9ba5fc8c57614c78d158d615c73997477dab73d12d3",
+  "entity_type": "SUPPLIER",
+  "name": "LOCAL LAND CHARGES INSTITUTE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2aebe24d12dab66d580cd5a4797bc728936c8d1d5c667576daa30c8904994f31",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "130.00",
+      "locator": "XLSX Sheet1!row 20",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

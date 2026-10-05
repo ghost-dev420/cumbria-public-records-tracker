@@ -1,0 +1,22 @@
+{
+  "entity_id": "333c4b01a390d4a17fff0953e777cf8d4c7fe1098a40ef7857b065a6e1903760",
+  "entity_type": "SUPPLIER",
+  "name": "FRIENDS OF THE LAKE DISTRICT",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3c7c8c6f2d144e8dd599ea2d65db00695a31f05d9c6634259521889b724cf2ca",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1000.00",
+      "locator": "XLSX Report!row 505",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

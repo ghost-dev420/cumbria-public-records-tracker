@@ -1,0 +1,22 @@
+{
+  "entity_id": "a46011031b0beafd07bf0b06c47bccd52543502faee2ecb442b6d394f42b07d6",
+  "entity_type": "SUPPLIER",
+  "name": "NCC Group (Security Services) Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "635f5e5931767a9edc715e79697d5f0c08b9d698f982fc63fd95b29f4c94ef0d",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-a38c5cda-ed3f-4f59-b279-6cb0b336b289-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "I.T. Health Check",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/fb832b28-bc62-43ad-b5a6-d02f6cd6852b-889277.json",
+      "published_at": "2026-03-19T14:45:57Z",
+      "retrieved_at": "2026-10-03 23:11:56.404010",
+      "sha256": "8c202d46bd7f923302cf5d03e83670353cf1317392cf5e04adb9c04ec651c284",
+      "related_entity": "ocds-b5fd17-a38c5cda-ed3f-4f59-b279-6cb0b336b289:ocds-b5fd17-a38c5cda-ed3f-4f59-b279-6cb0b336b289-1"
+    }
+  ]
+}

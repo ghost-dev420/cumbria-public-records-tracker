@@ -1,0 +1,22 @@
+{
+  "entity_id": "69a30d9e029d5d1d35b08f983feed601f2654e23b10968a7fe6b34790aa54262",
+  "entity_type": "COMMITTEE",
+  "name": "Licensing Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ae500291189cf8545b324c724f6bdb2b4a447b67e181b2d54a5d9cc6bb75de43",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Licensing Committee",
+      "locator": "committee 266",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "3624de79b6693f5049cf2a987af3f996e444b8729481d6ac4f348c61da8a56bc",
+  "entity_type": "SUPPLIER",
+  "name": "NYAS (National Youth Advocacy Service)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b88d01ee84670b0746b321b482e1fcc079f6ea27cf7161e5c0e014d84fe75ed0",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 144",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-055993"
+    }
+  ]
+}

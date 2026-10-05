@@ -1,0 +1,22 @@
+{
+  "entity_id": "b1d7045fff9a44f270df04d18aa02eebfc3d6d8108949067ad6f716e91337a14",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Chief Officer Employment Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "312490d5dbed81b6ae22aa8e3359a1ee52c6f833b8d0a0a27316737dc2f0eea4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Chief Officer Employment Panel",
+      "locator": "committee 341",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

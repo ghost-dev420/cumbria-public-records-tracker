@@ -1,0 +1,22 @@
+{
+  "entity_id": "3c121fecd5292ff2ae2dc3028077bb163c686d89e0bcee2dca3e48ec394e462b",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC County Council",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0ac041e7305d81614178e2497544d6e5384e546c2f2def144927e3344b2c45c6",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC County Council",
+      "locator": "committee 425",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "7329bbe47278da63f06033f7e0f509e608464a8b799e619e8ef65463548cd89e",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-006-046",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "acfa0de979fe4a965a8a99b2b849dcd09d98fa45c59af69bc46d7cd8e97a15df",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-006-046",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-006-046",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/24-006-046",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:25.103751",
+      "sha256": "4a6131b4ab166e30a6807e6f2af818407afdf67c89bf659a0815ff5eba9a7c49",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a3200fc7036498a2923b78d126136279b143a369ef7864d4e930f1f56ac956db",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-006-046",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/24-006-046",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:25.103751",
+      "sha256": "4a6131b4ab166e30a6807e6f2af818407afdf67c89bf659a0815ff5eba9a7c49",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "77208260abd5e284465faafb7a49f8509b0eae054ec13b32f74f9a78ce35e7b9",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-006-046",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/24-006-046",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:25.103751",
+      "sha256": "4a6131b4ab166e30a6807e6f2af818407afdf67c89bf659a0815ff5eba9a7c49",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4efe22714689fcceea06e3e62d83b612cc584d623127c7ef1d96dbe7e3446c37",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "15 Sep 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-006-046",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/24-006-046",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:25.103751",
+      "sha256": "4a6131b4ab166e30a6807e6f2af818407afdf67c89bf659a0815ff5eba9a7c49",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "742b9c0408416a4595f82bfc32b78e1b103a1e24c317e8b57fd3e3c457951de6",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s decision to withdraw an offer of a disabled facilities grant. The complaint is too late and we have seen no reason why Mr X could not have contacted us much sooner.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-006-046",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/24-006-046",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:25.103751",
+      "sha256": "4a6131b4ab166e30a6807e6f2af818407afdf67c89bf659a0815ff5eba9a7c49",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

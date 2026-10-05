@@ -1,0 +1,22 @@
+{
+  "entity_id": "ff82bfad650cf8b0461f841b708ee9acbfeb29548024d93ae568357c0a6773c3",
+  "entity_type": "SUPPLIER",
+  "name": "ASPATRIA DREAMSCHEME",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ecb9d8379884a59d998d40e74b609cd40092f4ec3f7dcb2182dd0d6bf3df6c3d",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1581.00",
+      "locator": "XLSX Report!row 110",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

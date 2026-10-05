@@ -1,0 +1,22 @@
+{
+  "entity_id": "ca224d808d7abebbb8cd60599313c3b20b8dbcb8d23ae013e80e007c22a170a2",
+  "entity_type": "WARD",
+  "name": "Coniston and Hawkshead",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d6b2fbcee0eea0c554315c99fa2e5c75ff9fd4d5612544d684a1d8b94756fa34",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Coniston and Hawkshead",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Suzanne Pender"
+    }
+  ]
+}

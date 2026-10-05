@@ -1,0 +1,22 @@
+{
+  "entity_id": "e4c23f1d9bd5064d917fb31d620d28980bd7a44027e49127e33ce2af43b4ad40",
+  "entity_type": "WARD",
+  "name": "Moss Bay and Moorclose",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4b3d635682087d45012f5bb809e3afb957f63a33372eef7481d5221423c34981",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Moss Bay and Moorclose",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Stephen Stoddart"
+    }
+  ]
+}

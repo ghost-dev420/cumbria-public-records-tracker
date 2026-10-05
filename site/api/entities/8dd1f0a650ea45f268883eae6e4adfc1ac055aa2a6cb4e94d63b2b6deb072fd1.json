@@ -1,0 +1,78 @@
+{
+  "entity_id": "8dd1f0a650ea45f268883eae6e4adfc1ac055aa2a6cb4e94d63b2b6deb072fd1",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-010-301",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "b8fb34204472edae56e89fd2e0902a1207128a58038c586e94c012789c258688",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-010-301",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-010-301",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/private-housing/23-010-301",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:35.046340",
+      "sha256": "35a7bb33f187ab2fc480157655659abedd28345f39dbd70e0cb60312196cd773",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e8972bef24c550ff53aebea81ad48c965c242c419581fb54dcae6e9623e6774d",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Housing",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-010-301",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/private-housing/23-010-301",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:35.046340",
+      "sha256": "35a7bb33f187ab2fc480157655659abedd28345f39dbd70e0cb60312196cd773",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "356ed661eff5d5afb203284fa5209f091207b23cec2a523d9046fd1e68c50ceb",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-010-301",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/private-housing/23-010-301",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:35.046340",
+      "sha256": "35a7bb33f187ab2fc480157655659abedd28345f39dbd70e0cb60312196cd773",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "0cfb7eb4dffde5e17013cea411f6b1c3dafc57bf7a5d4a878d26bcfd488fa5db",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "19 Jan 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-010-301",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/private-housing/23-010-301",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:35.046340",
+      "sha256": "35a7bb33f187ab2fc480157655659abedd28345f39dbd70e0cb60312196cd773",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f371d8dfe9219987d7fd52f5312e105e559099ca175082784083d4e392b2cf9b",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "The Council was not at fault for its decision not to take action against Ms X’s landlord following her reports of harassment. The Council was at fault for not considering whether she was at risk of homelessness in light of her reports. This caused injustice as the Council may have been able to provide Ms X with advice and assistance if it considered she was threatened with homelessness. The Council agreed to apologise to Ms X.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-010-301",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/private-housing/23-010-301",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:35.046340",
+      "sha256": "35a7bb33f187ab2fc480157655659abedd28345f39dbd70e0cb60312196cd773",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "205ac8700a9422026b3a6939be16709c3f7d8b9aca36c19e21dc8d6d2e727d8d",
+  "entity_type": "SUPPLIER",
+  "name": "One Stop Promotions Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e36249b43e4b982e847f08880178bd3f4ce57087828b627e2d49bd8caac53b88",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "263.95",
+      "locator": "XLSX Report!row 495",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

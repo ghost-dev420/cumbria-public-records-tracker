@@ -1,0 +1,78 @@
+{
+  "entity_id": "b5b61b7bc2f8e604f2624484fff03f8e51bb4036152078ca82f177e1b7614a6f",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-005-354",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "4f3e92b13444c625d2db9c2ac48d6d7b40583aa3ba7ba24c0130c5dc59f583fb",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-005-354",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-354",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/street-furniture-and-lighting/24-005-354",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:27.287616",
+      "sha256": "2f147cb7317632ce7a365f1680e6a3dfb43d018618221ebe40b2df60ea7db1b4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "efa8fe2c1ba37cc29b190803ab7b277a27456444dde87c72351ccd6896f38dac",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-354",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/street-furniture-and-lighting/24-005-354",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:27.287616",
+      "sha256": "2f147cb7317632ce7a365f1680e6a3dfb43d018618221ebe40b2df60ea7db1b4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "83080a4a5e7dce1b13df2a185a176144ccbbdfa5b53096ac57a615b14923913f",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-354",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/street-furniture-and-lighting/24-005-354",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:27.287616",
+      "sha256": "2f147cb7317632ce7a365f1680e6a3dfb43d018618221ebe40b2df60ea7db1b4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "2610a83c273cd65653946e9195d5fb9ddf88de502ec5e9db2494f91eb5d7757b",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "14 Aug 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-354",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/street-furniture-and-lighting/24-005-354",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:27.287616",
+      "sha256": "2f147cb7317632ce7a365f1680e6a3dfb43d018618221ebe40b2df60ea7db1b4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c3e12e814a83cc2499c3a2c18d0fd373a413e2dd50f2e1ec3fa5628bbbd682be",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about the Council refusing to remove street furniture outside his business. This is because there is not enough evidence of fault to justify an investigation.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-354",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/street-furniture-and-lighting/24-005-354",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:27.287616",
+      "sha256": "2f147cb7317632ce7a365f1680e6a3dfb43d018618221ebe40b2df60ea7db1b4",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

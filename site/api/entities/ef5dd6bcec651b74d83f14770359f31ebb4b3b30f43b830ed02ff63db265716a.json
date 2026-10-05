@@ -1,0 +1,22 @@
+{
+  "entity_id": "ef5dd6bcec651b74d83f14770359f31ebb4b3b30f43b830ed02ff63db265716a",
+  "entity_type": "SUPPLIER",
+  "name": "BLINDBOTHEL P.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a52e65c7b6a4db4eac2851e4924eed2903197d61bf8e9ccb1d8542eedab4e792",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1700.00",
+      "locator": "XLSX Sheet1!row 546",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

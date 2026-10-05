@@ -1,0 +1,36 @@
+{
+  "entity_id": "7ae7f2ab0a7f51b5b9591fc2e21c5894c53f9c27d699dc2011c97879f59707ed",
+  "entity_type": "SUPPLIER",
+  "name": "2 Balance Consulting Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "5e33bb5f83dbde6e15139a15b1509b5cf64abfc1813cb2446885f357da2637c2",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 387",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "2025/s 000-017456"
+    },
+    {
+      "fact_id": "b03d9e304a0603289f83fef5734c4f07c7a6a0d987bcc165edc8ee7ce9326db5",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 196",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-04cf40"
+    }
+  ]
+}

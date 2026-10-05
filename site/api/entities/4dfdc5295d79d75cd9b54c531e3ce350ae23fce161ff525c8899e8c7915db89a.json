@@ -1,0 +1,22 @@
+{
+  "entity_id": "4dfdc5295d79d75cd9b54c531e3ce350ae23fce161ff525c8899e8c7915db89a",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Accounts Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7be1d879b15a1dd90c4170dcc474f2eca96a538a7eb9d9158130b5089a9dc98b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Accounts Committee",
+      "locator": "committee 670",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

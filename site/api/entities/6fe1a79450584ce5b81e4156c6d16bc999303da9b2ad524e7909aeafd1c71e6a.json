@@ -1,0 +1,22 @@
+{
+  "entity_id": "6fe1a79450584ce5b81e4156c6d16bc999303da9b2ad524e7909aeafd1c71e6a",
+  "entity_type": "COMMITTEE",
+  "name": "CBC Cumberland Joint Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "042b086ea5b92af72c94cd5a04e5f33815973037ba86abcbc10bc556cfc1d127",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CBC Cumberland Joint Committee",
+      "locator": "committee 415",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

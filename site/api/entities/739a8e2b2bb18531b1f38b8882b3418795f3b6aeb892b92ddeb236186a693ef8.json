@@ -1,0 +1,22 @@
+{
+  "entity_id": "739a8e2b2bb18531b1f38b8882b3418795f3b6aeb892b92ddeb236186a693ef8",
+  "entity_type": "SUPPLIER",
+  "name": "BAUER RADIO LTD BAUER RADIO LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "765d054cc6c5f8a58085a2b01d67285f1201945604a7be3f892c7dc75b86b70a",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1080.00",
+      "locator": "XLSX Sheet1!row 351",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

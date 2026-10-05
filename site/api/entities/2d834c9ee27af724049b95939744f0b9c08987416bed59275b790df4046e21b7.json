@@ -1,0 +1,22 @@
+{
+  "entity_id": "2d834c9ee27af724049b95939744f0b9c08987416bed59275b790df4046e21b7",
+  "entity_type": "ORGANISATION",
+  "name": "Shit Runners Club",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8ce47f8d572f035c25123bb4a01dcf43ba2eb960222f67505aa8d76a1ad2233c",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1500",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 1",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Shit Runners Club [6d2f7db93e44a946a16d]"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "9808d985b2e7bef611b169d3690262360bd0c3856ab16b90e4c9956a153c97e8",
+  "entity_type": "SUPPLIER",
+  "name": "TOTALJOBS GROUP LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8e2226b2b206e6930734ae6014c708d160989151a89816770fbe2392ef64c697",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1012.50",
+      "locator": "XLSX Sheet1!row 540",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

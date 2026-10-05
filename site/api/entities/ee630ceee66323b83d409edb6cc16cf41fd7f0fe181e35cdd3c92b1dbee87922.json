@@ -1,0 +1,36 @@
+{
+  "entity_id": "ee630ceee66323b83d409edb6cc16cf41fd7f0fe181e35cdd3c92b1dbee87922",
+  "entity_type": "SUPPLIER",
+  "name": "Education and Skills Training& Development Limited",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "fb482f50abc65e0b33b2a537e19eeb233454fe94d3bbaef69851cfe5e3f60be0",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "2025/s 000-016055"
+    },
+    {
+      "fact_id": "fcfd6a67ad9b6a7569e90e0ebc8d094ddfc3c42da9a51d98e0ce9cc9e564fb67",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 221",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-04c955"
+    }
+  ]
+}

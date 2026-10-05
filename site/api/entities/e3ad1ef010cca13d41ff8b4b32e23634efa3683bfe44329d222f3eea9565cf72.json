@@ -1,0 +1,36 @@
+{
+  "entity_id": "e3ad1ef010cca13d41ff8b4b32e23634efa3683bfe44329d222f3eea9565cf72",
+  "entity_type": "SUPPLIER",
+  "name": "FIREBRAND TRAINING LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "199de9c37b32fdd51e5ea673e83d2653a6920bb259c71b099408341b878bf76e",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "250.00",
+      "locator": "XLSX Sheet1!row 582",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "299c384362af417185b62535f5e2e612ebb8b5726256ac45eb87a42e222105fd",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "4225.00",
+      "locator": "XLSX Sheet1!row 175",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

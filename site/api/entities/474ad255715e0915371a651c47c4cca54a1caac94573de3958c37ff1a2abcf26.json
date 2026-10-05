@@ -1,0 +1,22 @@
+{
+  "entity_id": "474ad255715e0915371a651c47c4cca54a1caac94573de3958c37ff1a2abcf26",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Emergency Planning Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0e4876929862905346fab01022bb5ae955020db545dd5f46fdf4c993949c4305",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Emergency Planning Panel",
+      "locator": "committee 534",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "4dcdc81ea6f564f71eca60e76da2fe1bcbd9b3b1ca9152f9e0b21bc06de32af2",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC White Paper Member Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b10b5df6f7a613ad2059a9ea2840023d8a691869038ed6bc1fc70cfddc839e6b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC White Paper Member Working Group",
+      "locator": "committee 862",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

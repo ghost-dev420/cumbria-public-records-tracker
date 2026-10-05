@@ -1,0 +1,22 @@
+{
+  "entity_id": "a6939e583fd0616e22b851961a4226b6de8b7245131e3f7acd42673760458bb5",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Appointments Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fe7a5ccf6de02819a6ba06957533c308ed80835f512da399289dd54f0edb6f73",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Appointments Sub-Committee",
+      "locator": "committee 744",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

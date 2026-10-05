@@ -1,0 +1,36 @@
+{
+  "entity_id": "a00d7cbfc83e0b6aa783a46ca6717d10fb3087066926b9eb35addadcedfed4c8",
+  "entity_type": "SUPPLIER",
+  "name": "Nogo Ltd Nogo Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "41a575d2538a5013860e781c87b06cbb66985d4416a50fb131e883f71eaa993b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "500.00",
+      "locator": "XLSX Sheet1!row 14",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7f5117f00e2db13513fd96fb52feffbda3341dffcfd42b3ac4a85f57c72c41d2",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "5054.50",
+      "locator": "XLSX Sheet 1!row 183",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

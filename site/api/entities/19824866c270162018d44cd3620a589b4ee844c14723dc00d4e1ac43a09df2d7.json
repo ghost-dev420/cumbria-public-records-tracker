@@ -1,0 +1,22 @@
+{
+  "entity_id": "19824866c270162018d44cd3620a589b4ee844c14723dc00d4e1ac43a09df2d7",
+  "entity_type": "SUPPLIER",
+  "name": "MALLINA GROUP",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "769aa132891a8242d645abd2c6bd70ca6ebb0506928e0cf9d6ec9cea7b03f2bb",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "990.00",
+      "locator": "XLSX Sheet1!row 280",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

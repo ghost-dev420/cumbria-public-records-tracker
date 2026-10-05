@@ -1,0 +1,78 @@
+{
+  "entity_id": "b2654d91df68b72e6d55ba1a25e868b8f33bccecfdeafba4c6d168fb3946bb5c",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-008-426",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "5503d5095aa4e48dc37a40f8cab63070d8f9855acb36b8b4d3ecd42691a04597",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-008-426",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-008-426",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/other/23-008-426",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:26.244583",
+      "sha256": "e4b163c7c49a59b6094426946ffadabe54689e4b43a8c2cbe9f907db73989fe9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a919ca2c17e447cc128db593957d48fb5d77e2d716ac4a4218bd8bc65e9c381f",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-008-426",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/other/23-008-426",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:26.244583",
+      "sha256": "e4b163c7c49a59b6094426946ffadabe54689e4b43a8c2cbe9f907db73989fe9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "85954d01856b8f34f856bcf0054b5cfd411f698e92829f2759b6e0466c23e6fe",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Not upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-008-426",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/other/23-008-426",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:26.244583",
+      "sha256": "e4b163c7c49a59b6094426946ffadabe54689e4b43a8c2cbe9f907db73989fe9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "567dc1d1f00f196efde7a5d062a4bc3b659a1f38a37f809c75fea8411e9571c4",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "08 Feb 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-008-426",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/other/23-008-426",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:26.244583",
+      "sha256": "e4b163c7c49a59b6094426946ffadabe54689e4b43a8c2cbe9f907db73989fe9",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a2343f99af9d3bf3e94d65384dde6689cc76ff4d4f2cc150cc85d11bf138c225",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Mr X complained to the Ombudsmen about the actions of Cumberland Council and Cumbria, Northumberland, Tyne & Wear NHS Foundation Trust, relating to his mental health care. We did not uphold Mr X’s complaint as we found no fault in the organisations’ actions.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-008-426",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/other/23-008-426",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:26.244583",
+      "sha256": "e4b163c7c49a59b6094426946ffadabe54689e4b43a8c2cbe9f907db73989fe9",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

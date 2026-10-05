@@ -1,0 +1,78 @@
+{
+  "entity_id": "c31f1b136510e35e2b9a2f3e6060c62768418ffc461063177e8e7c8daa752cb1",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-004-450",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "445154e298d3f4738751e7e1b9b796792b2b6c0cc27b015a0c84443af43353d9",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-004-450",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-004-450",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-004-450",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:19.879947",
+      "sha256": "2d270c65ad787a232dfd4afeb674ff38238262a672785d4a2c41c53894d7f68d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "6419b7bbe4042a179f4047d33d1e75cbb07703dcbb250119a9d2758187708e5d",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Children's care services",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-004-450",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-004-450",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:19.879947",
+      "sha256": "2d270c65ad787a232dfd4afeb674ff38238262a672785d4a2c41c53894d7f68d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "cd9d951689422c7c887bad25d5f969cd10fa6ace5cb04f1879f975945fd6d1c3",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-004-450",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-004-450",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:19.879947",
+      "sha256": "2d270c65ad787a232dfd4afeb674ff38238262a672785d4a2c41c53894d7f68d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "0d85b5e62a801771696830b8c74a0d642158d3472b61476296b723c0551f8aec",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "25 Sep 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-004-450",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-004-450",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:19.879947",
+      "sha256": "2d270c65ad787a232dfd4afeb674ff38238262a672785d4a2c41c53894d7f68d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d8f55517d26a4353fd0cd7d94773b07c3d3c1606aa60d25df2d31a5a20704580",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s delay completing the statutory children’s complaints process because we are satisfied with the actions agreed to remedy this.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-004-450",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/24-004-450",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:19.879947",
+      "sha256": "2d270c65ad787a232dfd4afeb674ff38238262a672785d4a2c41c53894d7f68d",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

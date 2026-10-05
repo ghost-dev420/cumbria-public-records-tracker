@@ -1,0 +1,22 @@
+{
+  "entity_id": "1e954b6c7305d5d0e961f848ba94cee2ac34dc5f47be776412eb036e36f1a2eb",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Social Services Inspection Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2e0d58f18d4a0c9c9a61f96e93b0db4f4c61a0e8e3072fa5df47dc0e8938e4ba",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Social Services Inspection Panel",
+      "locator": "committee 617",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "a93519951de7bbcf5f981ddf75bc9bd0fdd9c1e9145ec712c2007cbe18a3ca08",
+  "entity_type": "ORGANISATION",
+  "name": "Blackwell Sailing Club",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "36e799f3e468b3a4e273bbf4876183ae0c4da0ebb15118260bbe8f6608cffde7",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1900",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 9",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round 2 in 2025 to 2026: Blackwell Sailing Club [758a17aa251252c40ea4]"
+    }
+  ]
+}

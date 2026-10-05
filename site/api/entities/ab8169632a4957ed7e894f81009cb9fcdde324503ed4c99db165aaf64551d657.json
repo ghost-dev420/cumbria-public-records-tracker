@@ -1,0 +1,22 @@
+{
+  "entity_id": "ab8169632a4957ed7e894f81009cb9fcdde324503ed4c99db165aaf64551d657",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Health Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "62d9c6c44d5db32a67fc87bdd8f926a7a9e9198baba3af9eb219ab8ec8894aa2",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Health Scrutiny Committee",
+      "locator": "committee 436",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "65f80b53e6746e4afcd0710de378723237e1287c257097f4cebc5a3f39118aa4",
+  "entity_type": "SUPPLIER",
+  "name": "Open Weather Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "01c8a4a0a3bcc60af0f7ff0392589dcdcb10095bcb285a74eaf8ae32940f2e57",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 256",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003472"
+    }
+  ]
+}

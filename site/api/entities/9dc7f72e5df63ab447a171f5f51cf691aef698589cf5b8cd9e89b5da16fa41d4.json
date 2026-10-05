@@ -1,0 +1,22 @@
+{
+  "entity_id": "9dc7f72e5df63ab447a171f5f51cf691aef698589cf5b8cd9e89b5da16fa41d4",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Environmental Health Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b13d36239adc443601093c447b697a830aa44413ede8b9c3f8b7e1c607fd5586",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Environmental Health Committee",
+      "locator": "committee 687",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

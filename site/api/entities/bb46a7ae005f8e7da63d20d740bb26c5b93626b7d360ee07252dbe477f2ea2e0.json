@@ -1,0 +1,22 @@
+{
+  "entity_id": "bb46a7ae005f8e7da63d20d740bb26c5b93626b7d360ee07252dbe477f2ea2e0",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Audit Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "28c3efd6e7e5c5ac416b97b2ec211d00bee3b8a40809d4f63e3071cbf1818ae6",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Audit Committee",
+      "locator": "committee 646",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

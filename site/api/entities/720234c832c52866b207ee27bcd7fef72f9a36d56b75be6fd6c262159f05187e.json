@@ -1,0 +1,22 @@
+{
+  "entity_id": "720234c832c52866b207ee27bcd7fef72f9a36d56b75be6fd6c262159f05187e",
+  "entity_type": "WARD",
+  "name": "Burton and Holme",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4d196d293328a3304b96ec6883d4f94b1ff53629e6f0225ff5317eeac7097349",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Burton and Holme",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Vicky Hughes"
+    }
+  ]
+}

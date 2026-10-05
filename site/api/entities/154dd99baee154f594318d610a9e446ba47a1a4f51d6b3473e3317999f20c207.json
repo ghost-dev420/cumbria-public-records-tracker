@@ -1,0 +1,78 @@
+{
+  "entity_id": "154dd99baee154f594318d610a9e446ba47a1a4f51d6b3473e3317999f20c207",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-016-341",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "3548042e19e959aa7267284bb9790b31c6cd9fda603aa33dde7503f652af3848",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-016-341",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-016-341",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-016-341",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:00.398583",
+      "sha256": "9bdc23f01938b23960e2f61e88f3e5b49e999a525a0295af67ee52f367ee4bc3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7a16fc5e4fa4de38fc0900f1066b23fdbf7a3524156ddea55e716e34d4ac5cb9",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Children's care services",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-016-341",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-016-341",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:00.398583",
+      "sha256": "9bdc23f01938b23960e2f61e88f3e5b49e999a525a0295af67ee52f367ee4bc3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f48218879d81c4a1b0b33d6ec6f1545ed7b423ea437095d48a14bc5b58835d4c",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-016-341",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-016-341",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:00.398583",
+      "sha256": "9bdc23f01938b23960e2f61e88f3e5b49e999a525a0295af67ee52f367ee4bc3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d5a28b7f994ebb48c1ec4900422746bcf0b7d0b0ac24e6584fada96b5d0baa0f",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "08 Jan 2026",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-016-341",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-016-341",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:00.398583",
+      "sha256": "9bdc23f01938b23960e2f61e88f3e5b49e999a525a0295af67ee52f367ee4bc3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "10be0c9c550d50354b5306dedcf704569d6930588ba834f0716b11db4b03b94d",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We cannot investigate Mrs X’s complaint about the Council’s decision to remove her children 30 years ago and the new evidence she says is now available. This is because the decision to remove Mrs X’s children was made by a court and the law says we cannot investigate.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-016-341",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-016-341",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:00.398583",
+      "sha256": "9bdc23f01938b23960e2f61e88f3e5b49e999a525a0295af67ee52f367ee4bc3",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

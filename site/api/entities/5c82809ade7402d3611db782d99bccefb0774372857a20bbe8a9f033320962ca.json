@@ -1,0 +1,22 @@
+{
+  "entity_id": "5c82809ade7402d3611db782d99bccefb0774372857a20bbe8a9f033320962ca",
+  "entity_type": "SUPPLIER",
+  "name": "mandm taxis",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "995d5fec2e6520833b0981e7c7e15ee28c0ea0677755ebd2d1db02e99cfcff4b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-007a7ed9-084d-4b25-98c9-d54e61881ee9-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 11 September 2023 (F52-3)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/98280ce6-bc46-4116-a955-d84c4380cd42-892665.json",
+      "published_at": "2026-04-13T15:39:05+01:00",
+      "retrieved_at": "2026-10-03 23:21:20.326347",
+      "sha256": "7f86a993b1b807982c61cfb493c597de7dc141f1af4e84aab3019a38106fddbb",
+      "related_entity": "ocds-b5fd17-007a7ed9-084d-4b25-98c9-d54e61881ee9:ocds-b5fd17-007a7ed9-084d-4b25-98c9-d54e61881ee9-1"
+    }
+  ]
+}

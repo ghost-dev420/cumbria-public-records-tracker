@@ -1,0 +1,22 @@
+{
+  "entity_id": "d876dc174f0a7be34bd487a1e4f6e341e576b8041287490584777d1fe5d3dbe1",
+  "entity_type": "SUPPLIER",
+  "name": "Ultima Skills Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3f8f0ea666c30b774dc1ea4daf880cdb44da358dfb16255b9c7b20435a7752dc",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 328",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-04dac5"
+    }
+  ]
+}

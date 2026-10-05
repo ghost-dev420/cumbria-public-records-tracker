@@ -1,0 +1,22 @@
+{
+  "entity_id": "ae806a5d294bee60b5dfc7716b0c08656efa1954752bda3a4be0827bd40d654e",
+  "entity_type": "SUPPLIER",
+  "name": "KINGFISHER MEDIA LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d69f0cfa1873c475b3e84ae9f8b912eb39d85d89c99cbeb7d0cfedb33b015e8f",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1250.00",
+      "locator": "XLSX Sheet1!row 101",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

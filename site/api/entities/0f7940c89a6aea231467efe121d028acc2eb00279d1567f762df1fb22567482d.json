@@ -1,0 +1,78 @@
+{
+  "entity_id": "0f7940c89a6aea231467efe121d028acc2eb00279d1567f762df1fb22567482d",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-014-863",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "7f1d5f7017b7af223c31f1e3c5a9518d430ad1adb36ec332dde17879222a2924",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-014-863",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-014-863",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/allocations/24-014-863",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:34.112138",
+      "sha256": "82cf93923871e7553c3ec2b9ad30237ff7c7013bf13556ef7b1c096cbe301651",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4551ece4ef803562acc416c4a5e93bfd83e9b9e922a40159a6c0ec06ced795d7",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Housing",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-014-863",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/allocations/24-014-863",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:34.112138",
+      "sha256": "82cf93923871e7553c3ec2b9ad30237ff7c7013bf13556ef7b1c096cbe301651",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "44cb6bfa10375d7c053715129106bd04efc389e6056d3e0ac93522589856dee7",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-014-863",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/allocations/24-014-863",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:34.112138",
+      "sha256": "82cf93923871e7553c3ec2b9ad30237ff7c7013bf13556ef7b1c096cbe301651",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "28fff36bd6c9c6161e1e2e31d581f17f7f94200e5568fe9a317a6fe532bf8bfc",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "11 Feb 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-014-863",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/allocations/24-014-863",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:34.112138",
+      "sha256": "82cf93923871e7553c3ec2b9ad30237ff7c7013bf13556ef7b1c096cbe301651",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "78461fd72bdc5ca4089d22a7ba559282493fc5eb88b853c447739e3ecfd44f8b",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about an alledged failure by the Council to give the complainant greater priority for housing on medical grounds. The complainant says her current property is unsuitable for her son’s medical needs. The Council considered the complainant's request having due regard to the complainant’s reasoning, along with medical evidence and advice it obtained. There is insufficient evidence of fault in the way the Council assessed the complainant’s medical priority request.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-014-863",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/allocations/24-014-863",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:34.112138",
+      "sha256": "82cf93923871e7553c3ec2b9ad30237ff7c7013bf13556ef7b1c096cbe301651",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

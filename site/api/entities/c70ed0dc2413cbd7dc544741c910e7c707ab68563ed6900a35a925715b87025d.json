@@ -1,0 +1,22 @@
+{
+  "entity_id": "c70ed0dc2413cbd7dc544741c910e7c707ab68563ed6900a35a925715b87025d",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Copeland Area Committee for the Under Fives",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c6ee59b5417f5273bf2c6a3d843816659011f31b3f3844269b2344c35582a88f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Copeland Area Committee for the Under Fives",
+      "locator": "committee 723",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

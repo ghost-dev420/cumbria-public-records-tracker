@@ -1,0 +1,64 @@
+{
+  "entity_id": "0b4a154e2620c9001dfe7c1fa7180606af910c063cacccf250c56d93512e5b66",
+  "entity_type": "SUPPLIER",
+  "name": "WHINMILL FARM CANINE CENTRE",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "555a2f9ef0e0de1a38e0671010b926a911700dab1c051d33979dfee0a98608dc",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "10000.00",
+      "locator": "XLSX Sheet1!row 23",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "743034fc655e8ffeca0a0d38b4a03a1fb7ae90fd305a71702988c20c8c4a4ef8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "10000.00",
+      "locator": "XLSX Sheet1!row 307",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "76aae9f0f1bf6453c6e813d6b719a8886a625a30f94038125a968adc0ad2dcaa",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "10000.00",
+      "locator": "XLSX Report!row 239",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "83e94017d59f04a27334e312d939fdc0059125bd36bb8af39c00d0a65d8ce0bf",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "10000.00",
+      "locator": "XLSX Sheet1!row 39",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

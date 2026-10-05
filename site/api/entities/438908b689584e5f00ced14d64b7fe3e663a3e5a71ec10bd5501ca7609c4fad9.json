@@ -1,0 +1,22 @@
+{
+  "entity_id": "438908b689584e5f00ced14d64b7fe3e663a3e5a71ec10bd5501ca7609c4fad9",
+  "entity_type": "SUPPLIER",
+  "name": "YOUR PENSION SERVICE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "41b6a13254840f37d32082022e791aab90e5aaa2e07f95a19de27867376a3e28",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "500.00",
+      "locator": "XLSX Sheet1!row 98",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

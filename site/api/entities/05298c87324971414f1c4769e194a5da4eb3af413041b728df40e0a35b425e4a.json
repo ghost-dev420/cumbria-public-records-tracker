@@ -1,0 +1,22 @@
+{
+  "entity_id": "05298c87324971414f1c4769e194a5da4eb3af413041b728df40e0a35b425e4a",
+  "entity_type": "SUPPLIER",
+  "name": "Cumbria Health",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "836ad2adde02db5700979974caaa5dd2661f5844cd31dac2d1fb90319e679a31",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 129",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003330"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "fc3c72ee7991b29a0a02cd231250cbfc149fffff261f0fd73429a7a8fed30c5b",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Cabinet",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ad42e87f5343b4abc0c608b3ca5541682eaafd846b6a2038d6923ead5cb4dcd4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Cabinet",
+      "locator": "committee 724",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

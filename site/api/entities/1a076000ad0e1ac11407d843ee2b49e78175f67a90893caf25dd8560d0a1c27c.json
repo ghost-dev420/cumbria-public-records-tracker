@@ -1,0 +1,22 @@
+{
+  "entity_id": "1a076000ad0e1ac11407d843ee2b49e78175f67a90893caf25dd8560d0a1c27c",
+  "entity_type": "WARD",
+  "name": "Cleator Moor West",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "96feb9a0539ade1e6b0446de850f13722b8eec12a52915d9d013c5d136b4fa6e",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Cleator Moor West",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Michael Eldon"
+    }
+  ]
+}

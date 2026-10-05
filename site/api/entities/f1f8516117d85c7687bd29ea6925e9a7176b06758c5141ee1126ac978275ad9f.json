@@ -1,0 +1,36 @@
+{
+  "entity_id": "f1f8516117d85c7687bd29ea6925e9a7176b06758c5141ee1126ac978275ad9f",
+  "entity_type": "SUPPLIER",
+  "name": "LINK MAILING SYSTEMS LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "33a58ea95a269b0a7d6de97bb4a5aa3a8a5f54174b711c94b73fb99fb99daf18",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "216.00",
+      "locator": "XLSX Sheet1!row 197",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "dfb9e5416dffd801c77c5896a2fd0918011d7119a3ec17ca688d4521f4303b92",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "9.95",
+      "locator": "XLSX Sheet1!row 198",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

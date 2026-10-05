@@ -1,0 +1,22 @@
+{
+  "entity_id": "01ee4d2acc8737e22fff9f9612f5e155eb39db11dd399e3ea60bdfd330d2d139",
+  "entity_type": "SUPPLIER",
+  "name": "Tech Educators Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cf5fde88bcae20e94e6e760922e08ea389c56335691678ec0d80ac0931af00db",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-3bf23a56-5b21-4d2e-a94f-89b9cb8e372c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Wave 7 Skills boot camp Lot 3 - SALES, MARKETING & PROCUREMENT",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6f0aa969-943d-4dbe-95a0-9bd8d363be86-890560.json",
+      "published_at": "2026-03-30T11:36:21+01:00",
+      "retrieved_at": "2026-10-03 23:15:18.947426",
+      "sha256": "b2da8c85db7d9a5dd87530f10207c6dae1d9ebd21a212da5819813d611013c86",
+      "related_entity": "ocds-b5fd17-3bf23a56-5b21-4d2e-a94f-89b9cb8e372c:ocds-b5fd17-3bf23a56-5b21-4d2e-a94f-89b9cb8e372c-1"
+    }
+  ]
+}

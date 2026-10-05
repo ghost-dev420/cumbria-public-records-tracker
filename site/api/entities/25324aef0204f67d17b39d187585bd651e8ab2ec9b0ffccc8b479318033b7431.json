@@ -1,0 +1,22 @@
+{
+  "entity_id": "25324aef0204f67d17b39d187585bd651e8ab2ec9b0ffccc8b479318033b7431",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Community Overview and Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c84d627f062ae970eefbcc261292058112f4fc8bf9b81c0f5af4689512aa6738",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Community Overview and Scrutiny Committee",
+      "locator": "committee 673",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

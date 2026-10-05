@@ -1,0 +1,22 @@
+{
+  "entity_id": "87203b6f771f00da57144803952e57044cc7a49027bfca65adfd8da822b6524e",
+  "entity_type": "SUPPLIER",
+  "name": "JONATHAN B JACKSON LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a0c152ef2f02da0f38c859b3908caeabc74e217d1cc61655f1eafc142c9cb654",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "900.00",
+      "locator": "XLSX Sheet1!row 36",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

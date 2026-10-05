@@ -1,0 +1,22 @@
+{
+  "entity_id": "1a73f65e664db78c6d43fe1dc2ec2f8351e14e0633e38c933874b3c2378fd367",
+  "entity_type": "SUPPLIER",
+  "name": "RADIO CARLISLE TAXIS LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1c1056589f30b8112d6cf80592a46f5c761298b8fdda432e8947c8ecae22b5ee",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5ecca2d2-8e3e-43ea-98eb-aae17de4bd2a-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a for Cumberland Council closing 17 February 2026 (PRU F32)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/62f2afd2-80e5-4b99-8c22-485401b82e34-884356.json",
+      "published_at": "2026-02-17T14:19:35Z",
+      "retrieved_at": "2026-10-03 23:08:40.168181",
+      "sha256": "a3dfd7f74ca34b5098757e5739a50a00baec8d2d11a30f657765604e53e7e7cc",
+      "related_entity": "ocds-b5fd17-5ecca2d2-8e3e-43ea-98eb-aae17de4bd2a:ocds-b5fd17-5ecca2d2-8e3e-43ea-98eb-aae17de4bd2a-1"
+    }
+  ]
+}

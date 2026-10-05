@@ -1,0 +1,78 @@
+{
+  "entity_id": "1407d97ecde878795673aab957f30ce56308aec7f1bb10c2265def3299b1607b",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-017-761",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "f868b4dc76a91755a3eaa0f6620970ec5dca792caf68cd69e74b7a9b1fa085c2",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-017-761",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-017-761",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/allocations/23-017-761",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:08.706481",
+      "sha256": "e72fee89bfe155eef0d9cc824dbbd2ded42a2b9675f01189b03a329a8373f08a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e0610a18dd699601af3d8af1086e50425612a4daf5b35ebfc11fd490aef91950",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Housing",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-017-761",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/allocations/23-017-761",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:08.706481",
+      "sha256": "e72fee89bfe155eef0d9cc824dbbd2ded42a2b9675f01189b03a329a8373f08a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e4c67131609125a36f732834df0e961dcb4e84d3c7c66203ccc75107ce4243af",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-017-761",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/allocations/23-017-761",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:08.706481",
+      "sha256": "e72fee89bfe155eef0d9cc824dbbd2ded42a2b9675f01189b03a329a8373f08a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "55909eeda2d488ca1ee68c8de4886980a999afb8a4c04ee84d86e60860bfee61",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "20 Mar 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-017-761",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/allocations/23-017-761",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:08.706481",
+      "sha256": "e72fee89bfe155eef0d9cc824dbbd2ded42a2b9675f01189b03a329a8373f08a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f46bd270795da2eda2f1477654fbfba413c8280c55215cd0810400dec2b868bd",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s handling of housing allocations because there is no significant injustice.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-017-761",
+      "source_url": "https://www.lgo.org.uk/decisions/housing/allocations/23-017-761",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:59:08.706481",
+      "sha256": "e72fee89bfe155eef0d9cc824dbbd2ded42a2b9675f01189b03a329a8373f08a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "2f4e37832a3ae5083dad4c9e2bb56178743df2fa8509a8e59de29de821d9e1ce",
+  "entity_type": "WARD",
+  "name": "St Johns and Great Clifton",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "23808ded9e7a453ebe7748ad4b68b1e32d90b709d46fe9fd0a1aeb5be123c190",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: St Johns and Great Clifton",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Mark Fryer"
+    }
+  ]
+}

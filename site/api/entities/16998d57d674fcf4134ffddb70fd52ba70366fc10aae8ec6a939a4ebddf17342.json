@@ -1,0 +1,22 @@
+{
+  "entity_id": "16998d57d674fcf4134ffddb70fd52ba70366fc10aae8ec6a939a4ebddf17342",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Planning Applications Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c820d2f2cb497c09e3f2fe38d6a98333198cd31840af7b6d4cb4af26a5e14665",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Planning Applications Committee",
+      "locator": "committee 770",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

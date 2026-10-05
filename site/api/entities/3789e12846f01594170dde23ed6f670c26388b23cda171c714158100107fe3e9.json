@@ -1,0 +1,22 @@
+{
+  "entity_id": "3789e12846f01594170dde23ed6f670c26388b23cda171c714158100107fe3e9",
+  "entity_type": "SUPPLIER",
+  "name": "Tullie House Trust",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "239655b47314257d748a424d43ed70da04bfec7367dea715ee662a704d630650",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 169",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002393"
+    }
+  ]
+}

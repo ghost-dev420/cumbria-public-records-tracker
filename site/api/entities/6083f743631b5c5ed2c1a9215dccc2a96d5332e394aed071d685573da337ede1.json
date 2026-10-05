@@ -1,0 +1,22 @@
+{
+  "entity_id": "6083f743631b5c5ed2c1a9215dccc2a96d5332e394aed071d685573da337ede1",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Learning City Strategy Joint Workshop",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "baf26df6556937cc2fd13598915a5bf78ee2f4eac39baed2f98872aae194c072",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Learning City Strategy Joint Workshop",
+      "locator": "committee 517",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

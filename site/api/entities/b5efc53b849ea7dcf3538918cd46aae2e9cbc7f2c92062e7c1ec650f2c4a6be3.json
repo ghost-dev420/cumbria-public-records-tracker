@@ -1,0 +1,22 @@
+{
+  "entity_id": "b5efc53b849ea7dcf3538918cd46aae2e9cbc7f2c92062e7c1ec650f2c4a6be3",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Pilot Community Board - Keswick",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "47dc215493dbc2f99a5aada42d206add11a2436b3523ea082d95f74f8eeb1e55",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Pilot Community Board - Keswick",
+      "locator": "committee 801",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

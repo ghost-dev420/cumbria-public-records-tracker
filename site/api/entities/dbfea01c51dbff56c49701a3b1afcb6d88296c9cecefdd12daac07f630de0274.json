@@ -1,0 +1,22 @@
+{
+  "entity_id": "dbfea01c51dbff56c49701a3b1afcb6d88296c9cecefdd12daac07f630de0274",
+  "entity_type": "SUPPLIER",
+  "name": "Dr Nici Long (sole trader)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7d96263d6761bb00ffea6bc865467ec090922425edd3d5f48a4d183c39121ccd",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 9",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002636"
+    }
+  ]
+}

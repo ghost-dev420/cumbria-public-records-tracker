@@ -1,0 +1,22 @@
+{
+  "entity_id": "f47450083788e03b4224176d0983be7539bc01333460f9e74cfc9d28744723cb",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC South Lakeland Local Committee Highways and Transport Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "53c2041442aec59b080223a8e3a179193a7668903263cc03abd4d377794b5510",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC South Lakeland Local Committee Highways and Transport Working Group",
+      "locator": "committee 852",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "e16111774308607eb68b8b8513ab6809fb3b878a89f9abaf7ae07a8b40df3051",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Improving Council Services Scrutiny Panel (A)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "10526542e71988ab2004d69211f1593a50aaca40e5908fbdecbc6463d71ae7fe",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Improving Council Services Scrutiny Panel (A)",
+      "locator": "committee 544",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

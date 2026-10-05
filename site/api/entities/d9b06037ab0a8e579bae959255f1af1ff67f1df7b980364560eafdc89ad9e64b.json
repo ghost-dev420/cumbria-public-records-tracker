@@ -1,0 +1,22 @@
+{
+  "entity_id": "d9b06037ab0a8e579bae959255f1af1ff67f1df7b980364560eafdc89ad9e64b",
+  "entity_type": "SUPPLIER",
+  "name": "BESPOKE CATERING CUMBRIA",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8884a38fb94fb280fc576130b5d7a2a1e764fceec557c8c8019dc3ebc7131f7f",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "81.00",
+      "locator": "XLSX Sheet1!row 475",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

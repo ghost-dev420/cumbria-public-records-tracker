@@ -1,0 +1,22 @@
+{
+  "entity_id": "d2466ace68f222221e7f5def321a28a3b3a53372da61a9bd14c8a721252f756d",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Corporate Performance Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a159b66813efe35dc2d58fc03a904ed505faf0a8a32386b040938efc9cb57a20",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Corporate Performance Group",
+      "locator": "committee 501",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

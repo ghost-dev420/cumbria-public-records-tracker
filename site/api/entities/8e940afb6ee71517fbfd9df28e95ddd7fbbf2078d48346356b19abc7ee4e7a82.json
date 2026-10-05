@@ -1,0 +1,78 @@
+{
+  "entity_id": "8e940afb6ee71517fbfd9df28e95ddd7fbbf2078d48346356b19abc7ee4e7a82",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-008-907",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "fcfac6a5392c64b3548d79f1baad5c9cee06f1bc5fb795f9da8a7fd3854967d9",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-008-907",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-008-907",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-008-907",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:55.600915",
+      "sha256": "4ffcae85e5a0a516e8aea051b6e7334b145826ae0ab57e22a7dc189d1a5ec1b1",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "edfcea85c759a96474db9c7d2b1647fe828c3a2c08358d37bf06b6b5d0d94046",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Education",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-008-907",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-008-907",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:55.600915",
+      "sha256": "4ffcae85e5a0a516e8aea051b6e7334b145826ae0ab57e22a7dc189d1a5ec1b1",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ce57cbe21f210ab44388fd4c23834af22d936d29c660404d840570b67bb092ef",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-008-907",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-008-907",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:55.600915",
+      "sha256": "4ffcae85e5a0a516e8aea051b6e7334b145826ae0ab57e22a7dc189d1a5ec1b1",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "23b347f534b263662fcc21d2a8115381674aa87415a32dc6f75152e1ce8e89b7",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "22 Jan 2026",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-008-907",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-008-907",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:55.600915",
+      "sha256": "4ffcae85e5a0a516e8aea051b6e7334b145826ae0ab57e22a7dc189d1a5ec1b1",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "844d7bbcdc5c0ca8fcaf7f0842c0e037d7fa3e087b6bb8e12593d1317a2c7c9a",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "There was fault by the Council. The Council delayed carrying out an annual review of an Education, Health and Care Plan. The Council also delayed making a decision on whether or not to make direct payments. This meant that two children received no educational provision from Section F of their Education, Health and Care Plan for one term and limited provision for two further terms. An apology, symbolic payment and review of procedures remedies the injustice to the family.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-008-907",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-008-907",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:55.600915",
+      "sha256": "4ffcae85e5a0a516e8aea051b6e7334b145826ae0ab57e22a7dc189d1a5ec1b1",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "b6c63e20177132420f2e16a2f04ac4a9dbe794019f4454684513861cddf619d6",
+  "entity_type": "COMMITTEE",
+  "name": "Licensing Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d1713db710d9b78ae608a4afa78fe0756eae398edf07d90791411437abedcc4f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Licensing Sub-Committee",
+      "locator": "committee 445",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

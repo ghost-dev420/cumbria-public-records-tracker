@@ -1,0 +1,78 @@
+{
+  "entity_id": "2fe5c39d6afc5c9a15b9c7418b802523d6d3cb41e30728d47be25956a03366a4",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-015-362",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "bf2db13c7073b81163c493b10488bccad93e9e17b1013d972be7fe7af58b471b",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-015-362",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-015-362",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/other/23-015-362",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:45.976247",
+      "sha256": "3dde3bc9698340601571802197d24271dffcf40842f8cdec8df0b3d1dad48ac4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "1e67d391264ee2a281a624f55c4c706e7392b4b56133e3886bbbdd38c65f2bca",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Adult care services",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-015-362",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/other/23-015-362",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:45.976247",
+      "sha256": "3dde3bc9698340601571802197d24271dffcf40842f8cdec8df0b3d1dad48ac4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ebd9b0ef46b09ba360d28932af83e8d489c2bf7e4cf3e2515a105248a7e19d16",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-015-362",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/other/23-015-362",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:45.976247",
+      "sha256": "3dde3bc9698340601571802197d24271dffcf40842f8cdec8df0b3d1dad48ac4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "aa43e4c82e729d1110e0c06c14333906b9c1f6a3190f78ca9b4288b9f3f6c96c",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "04 Jun 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-015-362",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/other/23-015-362",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:45.976247",
+      "sha256": "3dde3bc9698340601571802197d24271dffcf40842f8cdec8df0b3d1dad48ac4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "866408039fd908a73e7e9dca1ae715befcb279c1fed77b34422fe6842b125580",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Ms X’s complaint that she was illegally detained by the Police in 2017. We have no jurisdiction to investigate the actions of the Police. We will also not investigate Ms X’s complaint that a Council officer is stalking her. This is a criminal matter and as such, falls outside our jurisdiction.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-015-362",
+      "source_url": "https://www.lgo.org.uk/decisions/adult-care-services/other/23-015-362",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:45.976247",
+      "sha256": "3dde3bc9698340601571802197d24271dffcf40842f8cdec8df0b3d1dad48ac4",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

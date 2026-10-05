@@ -1,0 +1,22 @@
+{
+  "entity_id": "e6897eacbe9a0681bbfe779187f1183ac22bc420eae38a1f085f768407a72b0d",
+  "entity_type": "COMMITTEE",
+  "name": "Staffing Committee - Appeals Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1de066ff63c31a5b77ac0f29ab336366681eca07f213ac4d6bbc3800af90fd2f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Staffing Committee - Appeals Panel",
+      "locator": "committee 775",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

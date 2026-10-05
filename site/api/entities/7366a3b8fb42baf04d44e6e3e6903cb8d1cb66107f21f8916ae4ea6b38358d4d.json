@@ -1,0 +1,22 @@
+{
+  "entity_id": "7366a3b8fb42baf04d44e6e3e6903cb8d1cb66107f21f8916ae4ea6b38358d4d",
+  "entity_type": "SUPPLIER",
+  "name": "GOODFELLOW & SONS",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4a11107da8673c4dbe228e44fbba46c164f83889e04ba2798038fba292950eff",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "49.17",
+      "locator": "XLSX Sheet1!row 114",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

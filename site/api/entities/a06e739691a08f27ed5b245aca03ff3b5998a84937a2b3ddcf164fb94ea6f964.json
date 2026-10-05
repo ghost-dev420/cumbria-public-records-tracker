@@ -1,0 +1,22 @@
+{
+  "entity_id": "a06e739691a08f27ed5b245aca03ff3b5998a84937a2b3ddcf164fb94ea6f964",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Grievance Appeals Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2baf10ce053d26ef4d806381ef627229e9894ed69017b8a88ce8c33749ddc62e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Grievance Appeals Panel",
+      "locator": "committee 759",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "b179ae3d7e9f9a27c872ab5583b515e97f12f76d2f292d8661b3c0fc8e83ca0b",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Policy Review Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0826e49d9917a499f777953875bc63bb06c2b882e607eb89336d013d90dfbe8f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Policy Review Sub-Committee",
+      "locator": "committee 581",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "e119239771097b7f4df01a02638e7f1da4a22b2dac9031a5d0aedd532f6b5100",
+  "entity_type": "WARD",
+  "name": "Harraby North",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8073864558dfdecc242500bcb16f84d6ac672ca4f7003d1561552f51bc7bf0dd",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Harraby North",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Justin McDermott"
+    }
+  ]
+}

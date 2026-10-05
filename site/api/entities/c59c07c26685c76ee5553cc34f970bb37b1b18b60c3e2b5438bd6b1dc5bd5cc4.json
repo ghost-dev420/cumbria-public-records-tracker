@@ -1,0 +1,22 @@
+{
+  "entity_id": "c59c07c26685c76ee5553cc34f970bb37b1b18b60c3e2b5438bd6b1dc5bd5cc4",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Environment Portfolio Holder",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7b2cb30fe7906dcb4373fbc70fdbb5ea95284f6002cf927a1685c0c398793ed5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Environment Portfolio Holder",
+      "locator": "committee 753",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

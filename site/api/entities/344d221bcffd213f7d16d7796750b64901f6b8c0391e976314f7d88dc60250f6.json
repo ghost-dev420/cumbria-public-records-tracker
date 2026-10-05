@@ -1,0 +1,36 @@
+{
+  "entity_id": "344d221bcffd213f7d16d7796750b64901f6b8c0391e976314f7d88dc60250f6",
+  "entity_type": "SUPPLIER",
+  "name": "WEST CUMBRIA RIVERS TRUST",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "0b725808d30a8b984fac4bd1adeaaf2e4832339be105ad31e1754d989fdf8029",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "700.70",
+      "locator": "XLSX Report!row 618",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c82907ab5c976b230f612bc481975a16fa7a54a8d3f4840b0b281669c700f712",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "772.50",
+      "locator": "XLSX Report!row 617",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

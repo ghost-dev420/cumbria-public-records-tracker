@@ -1,0 +1,22 @@
+{
+  "entity_id": "b217fc5918cdd1fa1788be202ceaebfef0c7b8fc455a047f0b28b425e0b7e519",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Copeland Area Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8bf7df38e6ee986d4ea38f8a4e9651c2c1c56f46a6f7b37f6751ce50512cd874",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Copeland Area Committee",
+      "locator": "committee 493",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

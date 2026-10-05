@@ -1,0 +1,78 @@
+{
+  "entity_id": "6f2f0953d9400f4468fc80b0360858b233a6b99549acdfec65157f9daa5317ce",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-020-219",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "fd9c425af8dd02974a5124917b37ba0bd31c4a76c8ef158050c2f7b6da5316a7",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-020-219",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-020-219",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/other/24-020-219",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:11.561477",
+      "sha256": "2620ae15e00113377b30c88a77830bfebc92caaceed99ca1f1746549beb543b4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c2bdac042dc7bcda4a71fc8d962891846ef36d9b1a6d5632b1f6fecf70ece27c",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Benefits and tax",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-020-219",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/other/24-020-219",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:11.561477",
+      "sha256": "2620ae15e00113377b30c88a77830bfebc92caaceed99ca1f1746549beb543b4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "aa887e2838bfb1619710d9b38bc8549b759d1ed925e3ccf563c2292d3472454d",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-020-219",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/other/24-020-219",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:11.561477",
+      "sha256": "2620ae15e00113377b30c88a77830bfebc92caaceed99ca1f1746549beb543b4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d3e4ff2df7bfe188c20fa7906719b5858db2ba129866538af0371e320c7ab390",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "19 Mar 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-020-219",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/other/24-020-219",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:11.561477",
+      "sha256": "2620ae15e00113377b30c88a77830bfebc92caaceed99ca1f1746549beb543b4",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "705b7b532f36317c1ce06edd353939a0593da4a54e355d55d12f99bb28ecaa3a",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We cannot investigate this complaint about business rates liability. As a court has decided Mr X is liable for the business rates, we can no longer investigate.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-020-219",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/other/24-020-219",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:11.561477",
+      "sha256": "2620ae15e00113377b30c88a77830bfebc92caaceed99ca1f1746549beb543b4",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "93b1b8e8880b7c1c157cd2336e3cfda3e2ebd012b1c7cabc14d5e817d76d5be4",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Saving Paper Task and Finish Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "46d3f7e6cb267e388abdb9b78ab21af04c77b87a546ca1dc86552e62854509b5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Saving Paper Task and Finish Group",
+      "locator": "committee 552",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

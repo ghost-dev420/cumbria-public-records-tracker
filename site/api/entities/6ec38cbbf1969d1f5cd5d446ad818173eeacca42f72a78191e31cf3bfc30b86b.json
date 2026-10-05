@@ -1,0 +1,22 @@
+{
+  "entity_id": "6ec38cbbf1969d1f5cd5d446ad818173eeacca42f72a78191e31cf3bfc30b86b",
+  "entity_type": "SUPPLIER",
+  "name": "LANDMARK CHAMBERS",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bae6b942577e9625b269772b1f5982ed9799c627c6a3cf15cb76e0ba4dcd84c8",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "800.00",
+      "locator": "XLSX Sheet1!row 264",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

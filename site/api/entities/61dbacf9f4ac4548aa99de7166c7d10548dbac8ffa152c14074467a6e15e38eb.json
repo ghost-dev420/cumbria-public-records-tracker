@@ -1,0 +1,22 @@
+{
+  "entity_id": "61dbacf9f4ac4548aa99de7166c7d10548dbac8ffa152c14074467a6e15e38eb",
+  "entity_type": "SUPPLIER",
+  "name": "Kooth Digital Health Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "af9cb32dfeafb371f9730b4d8c88724ae692803be39178b2bb05b21b5e7ec919",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-9ea75029-e014-4bfb-a619-bdc732f39d00-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Digital Mental Health Services Platform for Adults",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/456d1656-883e-41ce-a7f6-ad88c7057b6f-893075.json",
+      "published_at": "2026-04-17T11:01:23+01:00",
+      "retrieved_at": "2026-10-03 23:21:50.772879",
+      "sha256": "b319c2e2e3f8ae2253c73ad1e96e54f0ebca5cb6eb4be95b7a02efd5ea6ea6cf",
+      "related_entity": "ocds-b5fd17-9ea75029-e014-4bfb-a619-bdc732f39d00:ocds-b5fd17-9ea75029-e014-4bfb-a619-bdc732f39d00-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "eb9c02f7709721f79c1e7f9afc9f445175b1a79258c45e2ede6b161a991c859e",
+  "entity_type": "SUPPLIER",
+  "name": "Every Life Mattersg",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2bcee0d61ee2eec78e4465c0b91d42b8b58c0e0228572d47400d8294b3189e91",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 196",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-04cf40"
+    }
+  ]
+}

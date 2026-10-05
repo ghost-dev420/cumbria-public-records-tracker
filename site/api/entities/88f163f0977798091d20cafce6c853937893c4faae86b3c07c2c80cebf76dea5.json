@@ -1,0 +1,22 @@
+{
+  "entity_id": "88f163f0977798091d20cafce6c853937893c4faae86b3c07c2c80cebf76dea5",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Housing Emergency Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2b925254bd5cb977f7beeac5b5a1ec18a380a4b75c319b7728843f06289e746b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Housing Emergency Sub-Committee",
+      "locator": "committee 694",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

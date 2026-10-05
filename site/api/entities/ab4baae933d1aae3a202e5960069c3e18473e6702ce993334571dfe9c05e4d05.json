@@ -1,0 +1,22 @@
+{
+  "entity_id": "ab4baae933d1aae3a202e5960069c3e18473e6702ce993334571dfe9c05e4d05",
+  "entity_type": "SUPPLIER",
+  "name": "DLP Services (Northern) Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6add8b9fe6914f5124aa6765fb57fe293aa894e134b09f251b81418e3bf9869b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 179",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003359"
+    }
+  ]
+}

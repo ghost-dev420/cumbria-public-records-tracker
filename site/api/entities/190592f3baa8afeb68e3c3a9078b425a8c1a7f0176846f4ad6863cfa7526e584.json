@@ -1,0 +1,22 @@
+{
+  "entity_id": "190592f3baa8afeb68e3c3a9078b425a8c1a7f0176846f4ad6863cfa7526e584",
+  "entity_type": "SUPPLIER",
+  "name": "NORTH LINCOLNSHIRE COUNCIL",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "58112afe89aad8709acdcdf8a108f79ba38131b42b0c9f629e2049ee28998e57",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "7600.00",
+      "locator": "XLSX Report!row 6",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

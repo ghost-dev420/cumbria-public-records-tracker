@@ -1,0 +1,36 @@
+{
+  "entity_id": "9043985a5e6ebc921a4b5f1f7fff2bc0829538acc7cd75a917c966f82f7e6fe6",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Urswick Playground [81fa19c46806e2cb7268]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "92c0f3f1553c0316c3e9d1968a0526667e1e51e0f554c55026e26a4f224d390c",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "5000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 12",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "7595c8848777cde861cb054497d91306cf25c2e8fbb8031d7df0526ca6f8c81b",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "5000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 12",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Urswick Playground"
+    }
+  ]
+}

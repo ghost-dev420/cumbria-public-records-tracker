@@ -1,0 +1,22 @@
+{
+  "entity_id": "647aa713f7cfe4994f0e544b600022df67eea445eaf292b652d67fe3ffb43675",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Chief Officers' Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0d21f5212be1ad0a37b165c6e2cca500169909047e82eaa4faf5cb1129f58a54",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Chief Officers' Committee",
+      "locator": "committee 424",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

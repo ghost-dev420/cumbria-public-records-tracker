@@ -1,0 +1,22 @@
+{
+  "entity_id": "506a87085edd8fe30627dea8a90ce976ac2b2366af839341ecba651c3f785a07",
+  "entity_type": "WARD",
+  "name": "Denton Holme",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d6e25abc28dc88b490495702c98b69a9e470e9c7baa6df847536d08b7baba815",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Denton Holme",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Christopher Southward"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "8e86f49273f4f4b5fcf8a67f8a2f3a47ff1d6ba848b1674f639663d9cc2d6deb",
+  "entity_type": "COMMITTEE",
+  "name": "Cabinet",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c4a0ec922949fa2a20b03d7ea75f1c299b1150e8e223a8fe439b30ca49ce1bdd",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Cabinet",
+      "locator": "committee 223",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

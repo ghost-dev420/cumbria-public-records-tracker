@@ -1,0 +1,22 @@
+{
+  "entity_id": "8db01aba6d21860f494355ba60cb7c6bdf08e8f2f805bf387345aaea3d359b5f",
+  "entity_type": "SUPPLIER",
+  "name": "Vaisala Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "78771d99c42d69b7387283d69f745e83b226b5a80e11ff05bb818c21fa02a6fc",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-470fdcb3-5e4d-490a-bee4-f7056ad5c4ce-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Highway AI Survey Condition Solution",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/660e9eea-a8fd-408e-a282-738862901570-889078.json",
+      "published_at": "2026-03-18T14:12:32Z",
+      "retrieved_at": "2026-10-03 23:11:42.796297",
+      "sha256": "b4a1151b5802e5e374835a5972c715ffc188d24e7953fd380b5e3c0a3a651244",
+      "related_entity": "ocds-b5fd17-470fdcb3-5e4d-490a-bee4-f7056ad5c4ce:ocds-b5fd17-470fdcb3-5e4d-490a-bee4-f7056ad5c4ce-1"
+    }
+  ]
+}

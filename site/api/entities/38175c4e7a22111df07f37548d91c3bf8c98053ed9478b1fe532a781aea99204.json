@@ -1,0 +1,22 @@
+{
+  "entity_id": "38175c4e7a22111df07f37548d91c3bf8c98053ed9478b1fe532a781aea99204",
+  "entity_type": "SUPPLIER",
+  "name": "Cumbria Addictions Advice and Soltuions CADAS",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "44c5d75bf6c63c0410b46f64d589dd6c97cd7988227365eb2a9acaf6c7a9aec4",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 283",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002921"
+    }
+  ]
+}

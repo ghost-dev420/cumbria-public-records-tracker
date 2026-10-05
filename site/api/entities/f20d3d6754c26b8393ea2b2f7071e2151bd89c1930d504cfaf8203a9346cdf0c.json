@@ -1,0 +1,22 @@
+{
+  "entity_id": "f20d3d6754c26b8393ea2b2f7071e2151bd89c1930d504cfaf8203a9346cdf0c",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC County Council Local Committee for Allerdale",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ff3319bde0ba7afca4facf4c48c30c5e65577b092d9958afe3a08a36089ec060",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC County Council Local Committee for Allerdale",
+      "locator": "committee 426",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

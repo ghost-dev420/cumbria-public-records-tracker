@@ -1,0 +1,22 @@
+{
+  "entity_id": "b5ed1736271a745f0a9dbe4e8c264ae2379793c8373578c17edea5129ff7bfac",
+  "entity_type": "SUPPLIER",
+  "name": "HOLME ST CUTHBERT P.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "34d4d8af2c613f46dcaa0f4b7b2393e5f0055188c1c2f392a9fc694f7d3f1f28",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2750.00",
+      "locator": "XLSX Sheet1!row 554",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

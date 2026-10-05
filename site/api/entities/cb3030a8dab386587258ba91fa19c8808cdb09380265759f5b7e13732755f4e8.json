@@ -1,0 +1,22 @@
+{
+  "entity_id": "cb3030a8dab386587258ba91fa19c8808cdb09380265759f5b7e13732755f4e8",
+  "entity_type": "SUPPLIER",
+  "name": "Flagpole Express Limited Flagpole Express Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "55099a95474b3654ab833f7d56dd2d7516107a86850401333e4c03f0ff0e9bec",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1040.00",
+      "locator": "XLSX Sheet1!row 448",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

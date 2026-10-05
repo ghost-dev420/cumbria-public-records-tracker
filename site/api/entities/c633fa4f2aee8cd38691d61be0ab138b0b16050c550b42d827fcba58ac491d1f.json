@@ -1,0 +1,22 @@
+{
+  "entity_id": "c633fa4f2aee8cd38691d61be0ab138b0b16050c550b42d827fcba58ac491d1f",
+  "entity_type": "SUPPLIER",
+  "name": "Chinara Enterprises Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "faec36944cee520718d09e6b6085a589ed71dc3227c16066433aabe2bbdc8e59",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-b0fc7c5f-efe9-4a3a-a7c6-c8360de7dabb-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 5 - Harmful Sexual Behaviour",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/2eda1e47-868a-4d55-8e52-440e67227af2-896593.json",
+      "published_at": "2026-05-11T12:10:34+01:00",
+      "retrieved_at": "2026-10-03 23:26:23.297926",
+      "sha256": "cda4df55a0f37c72671d79ab6f60d72046f14f2ebcddd81b10104fd0a549dbb4",
+      "related_entity": "ocds-b5fd17-b0fc7c5f-efe9-4a3a-a7c6-c8360de7dabb:ocds-b5fd17-b0fc7c5f-efe9-4a3a-a7c6-c8360de7dabb-1"
+    }
+  ]
+}

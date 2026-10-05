@@ -1,0 +1,22 @@
+{
+  "entity_id": "ebe705169b1c48901a10bdaae7627f0066e5813729ebaa572c17e4c6de34e64d",
+  "entity_type": "SUPPLIER",
+  "name": "Kielder Newport West (T/a KNW)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "529a8bfbbf96d092103f2a89e8c1da1509e7fd6679437c3941fc4a273e90f2d7",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5e906151-f6f3-4805-9806-fd5afee6b525-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 1 -Principles of Safe Handling and Application of Pesticides PA1",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d0b61ba6-c0bc-49f8-b545-6c9d8d13ab34-890526.json",
+      "published_at": "2026-03-30T10:40:54+01:00",
+      "retrieved_at": "2026-10-03 23:15:27.574716",
+      "sha256": "358399d795891b8eb3bf5d816db4222e6f926e3d4f2e63300276c9117bb3c684",
+      "related_entity": "ocds-b5fd17-5e906151-f6f3-4805-9806-fd5afee6b525:ocds-b5fd17-5e906151-f6f3-4805-9806-fd5afee6b525-1"
+    }
+  ]
+}

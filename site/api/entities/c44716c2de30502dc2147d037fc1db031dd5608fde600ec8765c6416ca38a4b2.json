@@ -1,0 +1,78 @@
+{
+  "entity_id": "c44716c2de30502dc2147d037fc1db031dd5608fde600ec8765c6416ca38a4b2",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-005-529",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "39ef2166e51540e88ba1c43dc2baf4bcbfa8badcc68e71c9fa3496e388b0ba80",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-005-529",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-529",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/antisocial-behaviour/24-005-529",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:51.654563",
+      "sha256": "36953ea481f3a2d5690ba4c6e9d909d0f1319fabf10abd4c8311c641bb8f550c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "b5043956688467a4f056dd16c58b9eebee0a181a8d9e49dc5d35f279092a2283",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-529",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/antisocial-behaviour/24-005-529",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:51.654563",
+      "sha256": "36953ea481f3a2d5690ba4c6e9d909d0f1319fabf10abd4c8311c641bb8f550c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "2f6b10adc34650f946aa3e452c91826d94139cbf4d5793f00ac822d358450467",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-529",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/antisocial-behaviour/24-005-529",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:51.654563",
+      "sha256": "36953ea481f3a2d5690ba4c6e9d909d0f1319fabf10abd4c8311c641bb8f550c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "0f4989a937f708a0ec9ad112599325c987c6147be0a7daf78b9f195936b7d84f",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "18 Dec 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-529",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/antisocial-behaviour/24-005-529",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:51.654563",
+      "sha256": "36953ea481f3a2d5690ba4c6e9d909d0f1319fabf10abd4c8311c641bb8f550c",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "cf11bda070b0bbb069d8cf426684050008bdb23c167c871346514321bd11f904",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Miss X complains about a lack of action from the Council following its decision to issue an Abatement Notice to her neighbour. We have concluded our investigation having made a finding of fault. The evidence demonstrates excess delay in reaching a decision on what further action to take, if any. This caused Miss X an injustice and the Council has agreed to our recommendations.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-529",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/antisocial-behaviour/24-005-529",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:51.654563",
+      "sha256": "36953ea481f3a2d5690ba4c6e9d909d0f1319fabf10abd4c8311c641bb8f550c",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

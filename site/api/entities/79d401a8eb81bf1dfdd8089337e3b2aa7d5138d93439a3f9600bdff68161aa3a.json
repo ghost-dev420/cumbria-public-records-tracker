@@ -1,0 +1,22 @@
+{
+  "entity_id": "79d401a8eb81bf1dfdd8089337e3b2aa7d5138d93439a3f9600bdff68161aa3a",
+  "entity_type": "SUPPLIER",
+  "name": "Konica Minolta Business solutions (UK) Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b358d21a95c5685b257adc917d195334febb830827ef579c7d921de78fd1f0b2",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-55a39be5-46c4-420a-844c-af2c7657827f-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Printers and Papercut (South Lakeland Area)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f4559ccf-51c4-42e3-8be7-287e9af6ef86-889311.json",
+      "published_at": "2026-03-19T15:31:19Z",
+      "retrieved_at": "2026-10-03 23:11:54.852989",
+      "sha256": "cd772f4d1d87013100e584b3b3006ee533ed39fad04d08660d6ba2981fd653cd",
+      "related_entity": "ocds-b5fd17-55a39be5-46c4-420a-844c-af2c7657827f:ocds-b5fd17-55a39be5-46c4-420a-844c-af2c7657827f-1"
+    }
+  ]
+}

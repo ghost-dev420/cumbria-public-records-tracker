@@ -1,0 +1,22 @@
+{
+  "entity_id": "0d4ae402a7f83c43afb6e7b5861f4f9bb36c8ac20e8055ae6d27c08a0ce0fe98",
+  "entity_type": "SUPPLIER",
+  "name": "Doro Care (UK) Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a1dc77ae65340de78f567f3e121ba6c23ed0a9aa102c6d476621b6c28ca59b69",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 76",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003331"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "ecfe823e86fc2c278a60d4cdb43b2dafbd98524936946b37493e1d1bec8dae6d",
+  "entity_type": "SUPPLIER",
+  "name": "F Parkinson Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bff7ad5e128632dea724cf2fca2bb9e6a1923426878990cb8f1da75eb1e630bf",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-73cc1ef3-b405-4d38-a4ed-4d06767eefb5-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 1B - Heart of Kendal - Indoor Market Detailed Design and Construction",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8a803fe2-0ff6-41b7-867d-95e2de001300-914955.json",
+      "published_at": "2026-09-22T14:00:42+01:00",
+      "retrieved_at": "2026-10-03 23:50:31.022470",
+      "sha256": "ae1a794aa81e6a44fa6fcdd8bcfb4b3de087d012ce8c1bbf798349201f898aba",
+      "related_entity": "ocds-b5fd17-73cc1ef3-b405-4d38-a4ed-4d06767eefb5:ocds-b5fd17-73cc1ef3-b405-4d38-a4ed-4d06767eefb5-1"
+    }
+  ]
+}

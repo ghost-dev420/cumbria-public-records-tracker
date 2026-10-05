@@ -1,0 +1,22 @@
+{
+  "entity_id": "4a903a64a7e3185695dc85556843edd7e59658cfa128d5195b7a1acfdc3793ad",
+  "entity_type": "COMMITTEE",
+  "name": "BBC Licensing Regulatory Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e30273babbb4944aa5c850ed1a9ba8063d2bdf7354f349180fe67460b6537f2d",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "BBC Licensing Regulatory Sub-Committee",
+      "locator": "committee 407",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "50e8affbe552d25343cf4dc3a45ae5ea4894c6d2c88cf0cabbc52a77f3338bba",
+  "entity_type": "SUPPLIER",
+  "name": "Proactis Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1f372db38d61e8bbadffa018532a13b2e63a726be62edc9c4ca60d54879e75b9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 210",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003328"
+    }
+  ]
+}

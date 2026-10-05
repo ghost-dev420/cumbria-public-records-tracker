@@ -1,0 +1,22 @@
+{
+  "entity_id": "ea3b732bdcb6daffceef82ab30968d7c5057e8f0dac940d4e890ba917fbeeb2f",
+  "entity_type": "SUPPLIER",
+  "name": "Pell Frischmann Consultants Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ec0b68705c57a2281f4a7edc749171efb07bc39ba6634fd00eca8232b4b391d4",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-12bd5bb6-b876-407d-ad98-f14df68339c6-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "PSF4 Lot 4A- California Lane - Etterby Street Cycle Route Design",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f07684b0-18cb-41ce-b4ec-1d9f57e9ec08-877475.json",
+      "published_at": "2025-12-29T09:03:14Z",
+      "retrieved_at": "2026-10-03 23:01:28.238719",
+      "sha256": "8e018dc38f8d7a21fe41ae30e973718f704084d480f77936158fe0729d409d59",
+      "related_entity": "ocds-b5fd17-12bd5bb6-b876-407d-ad98-f14df68339c6:ocds-b5fd17-12bd5bb6-b876-407d-ad98-f14df68339c6-1"
+    }
+  ]
+}

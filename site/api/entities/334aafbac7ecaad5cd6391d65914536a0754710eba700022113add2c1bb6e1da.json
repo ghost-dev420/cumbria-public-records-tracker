@@ -1,0 +1,22 @@
+{
+  "entity_id": "334aafbac7ecaad5cd6391d65914536a0754710eba700022113add2c1bb6e1da",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Education Operations and Monitoring Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f2a05dcd01f059e851f9d873d18347b7b5f89f4f116a04a59584f0659c56d2fa",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Education Operations and Monitoring Sub-Committee",
+      "locator": "committee 531",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

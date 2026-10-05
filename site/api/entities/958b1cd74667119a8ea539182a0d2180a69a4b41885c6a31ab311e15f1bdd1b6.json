@@ -1,0 +1,22 @@
+{
+  "entity_id": "958b1cd74667119a8ea539182a0d2180a69a4b41885c6a31ab311e15f1bdd1b6",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Development Control Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "dd3089c33a9fb9bef0cf9d89939a743cc0942895b43fb405049c4c61e9fe9a6f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Development Control Committee",
+      "locator": "committee 485",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "a238ed1c59a705b001953a0075003bea97fddc038de2f3e882bc5ac302ad08aa",
+  "entity_type": "SUPPLIER",
+  "name": "Ove Arup & Partners Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "494dc0b0daefa2d8f73aff0376b54ffb96d3a17c5f921244423c8b956d655b48",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-be08fdc3-b51c-472d-b760-a29ecdab9160-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Barrow Multi-Modal Transport Study",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f8b1d7e7-76cf-4e2c-bf1c-f72c7a3b3055-905003.json",
+      "published_at": "2026-07-07T11:56:34+01:00",
+      "retrieved_at": "2026-10-03 23:36:10.515439",
+      "sha256": "03e7b12ce752e212cfe03f3967f88251c3fef52176d6e0fe21906838a4e38ef6",
+      "related_entity": "ocds-b5fd17-be08fdc3-b51c-472d-b760-a29ecdab9160:ocds-b5fd17-be08fdc3-b51c-472d-b760-a29ecdab9160-1"
+    }
+  ]
+}

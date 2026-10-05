@@ -1,0 +1,22 @@
+{
+  "entity_id": "9fe33d24c4dc8e06d6f6dd8a8722f5cd0ee1bd93e6c4a993df709a1a53746c77",
+  "entity_type": "SUPPLIER",
+  "name": "INFORMU SOLUTIONS LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4a6521de3eb3c2a0e2f34cfb71d365a32d967238786e0dfa6f37b6a0fd530025",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3600.00",
+      "locator": "XLSX Sheet1!row 401",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

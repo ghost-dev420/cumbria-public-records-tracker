@@ -1,0 +1,22 @@
+{
+  "entity_id": "21d4d45771600a6b1214ca348f4c9e10b7d68b6409c2e090a6dba707403b8193",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Corporate Overview and Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d0f1a4743cfd7bd67c514ccb1e9add837d7577e727d714e445f4d0e14d6fb12d",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Corporate Overview and Scrutiny Committee",
+      "locator": "committee 345",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "07bf956eb5b177e88f0defee0c63cb8325919116f61c7377a33e637492619b1e",
+  "entity_type": "SUPPLIER",
+  "name": "Initial Projects Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0619e2f1b0ee9bd42dbb3968dbf337470c76b8b08342d6281084f82b87dc9595",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 56",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002438"
+    }
+  ]
+}

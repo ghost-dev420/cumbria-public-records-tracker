@@ -1,0 +1,78 @@
+{
+  "entity_id": "eb4ed894224dc9836de6e7e675d002540fe2c534a9846ce7109244018e104430",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "23-020-066",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "fb30bae3ee8697ad456516e8f1efab928c220f347078185fa446ecffced8c110",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "23-020-066",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-020-066",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/23-020-066",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:12.897083",
+      "sha256": "6e7f0cececb653050343019385ed8652ad0a206a55faf763fe0c20f698af9a29",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ed7702d987749e448e4b251ff5b51139cba9d7e6f952701f1c0ffe4af0776526",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Benefits and tax",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-020-066",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/23-020-066",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:12.897083",
+      "sha256": "6e7f0cececb653050343019385ed8652ad0a206a55faf763fe0c20f698af9a29",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "034dd95d274187268cb70c001d3c9abb4250855f91cfe38d251d63ff113dd433",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-020-066",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/23-020-066",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:12.897083",
+      "sha256": "6e7f0cececb653050343019385ed8652ad0a206a55faf763fe0c20f698af9a29",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "15e082107c2eb19fb6d111ad92da12ac7ee8d7a88a35c020d0a2d5e3aa183f8e",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "13 Oct 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-020-066",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/23-020-066",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:12.897083",
+      "sha256": "6e7f0cececb653050343019385ed8652ad0a206a55faf763fe0c20f698af9a29",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c8ca4ece1085adaeabde0b656e89535d56b00fbe15e718bc78827beabce1efec",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "Miss D complained the Council failed to contact her when it did not receive her payments for council tax. We find the Council was at fault for failing to have a process in place when it did not receive Miss D’s council tax payments. The Council has agreed to our recommendations to address the injustice caused by fault.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "23-020-066",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/23-020-066",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:12.897083",
+      "sha256": "6e7f0cececb653050343019385ed8652ad0a206a55faf763fe0c20f698af9a29",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

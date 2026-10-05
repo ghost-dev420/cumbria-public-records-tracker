@@ -1,0 +1,22 @@
+{
+  "entity_id": "b9b3b98394d84db898b30409ea93d04054b8a7d209379a4742fc2c72c0c3cbd1",
+  "entity_type": "SUPPLIER",
+  "name": "Netcall Technology Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2abd3184d7e53123984fc3ad167af465d665e796b5bfb756ac5e0655d8a01b62",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-d79de509-0934-4756-9d43-212d82c2b62c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Customer Experience and Enterprise Digital Platform",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f231c7d9-b099-4406-942e-d6ac94e4e5e3-876447.json",
+      "published_at": "2025-12-18T09:55:19Z",
+      "retrieved_at": "2026-10-03 23:00:28.330441",
+      "sha256": "af0f4d50732962696cf259023db156137e91d806cd7fda917d8c0e80c788a2fb",
+      "related_entity": "ocds-b5fd17-d79de509-0934-4756-9d43-212d82c2b62c:ocds-b5fd17-d79de509-0934-4756-9d43-212d82c2b62c-1"
+    }
+  ]
+}

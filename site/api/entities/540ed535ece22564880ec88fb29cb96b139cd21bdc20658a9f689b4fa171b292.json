@@ -1,0 +1,36 @@
+{
+  "entity_id": "540ed535ece22564880ec88fb29cb96b139cd21bdc20658a9f689b4fa171b292",
+  "entity_type": "SUPPLIER",
+  "name": "C A JONES & ASSOCIATES LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "599a0454153ce69b05aa359881a0f52f0893a89e2c70ad99daf7ec02c21cb0cc",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3600.00",
+      "locator": "XLSX Report!row 375",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "19c6e55ae09a6979b6361bdbd8aa9885b3920b1ff7b78a347acc0385055346bd",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "4800.00",
+      "locator": "XLSX Report!row 24",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

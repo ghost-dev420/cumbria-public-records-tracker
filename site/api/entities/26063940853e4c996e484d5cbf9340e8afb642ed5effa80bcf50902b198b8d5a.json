@@ -1,0 +1,36 @@
+{
+  "entity_id": "26063940853e4c996e484d5cbf9340e8afb642ed5effa80bcf50902b198b8d5a",
+  "entity_type": "SUPPLIER",
+  "name": "Ergoway",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "6da7afbfc4e7f5995ee30c5bf142f903c9c304bf4789b7a7e37416c59e9654df",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-af43fc4c-55f2-4313-bfaa-5aa4a0c4125f-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 1 - Key worker manual handling reviews (DIAG) 4 day Resi",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/fddb15bc-7369-4c24-96d6-2a2c341d3689-888672.json",
+      "published_at": "2026-03-16T12:20:04Z",
+      "retrieved_at": "2026-10-03 23:11:25.783989",
+      "sha256": "7257ef54c85d4e80e24d7014698d48426a19bc09e5916317519f22fe451fed09",
+      "related_entity": "ocds-b5fd17-af43fc4c-55f2-4313-bfaa-5aa4a0c4125f:ocds-b5fd17-af43fc4c-55f2-4313-bfaa-5aa4a0c4125f-1"
+    },
+    {
+      "fact_id": "a8aa5a647da3107a53d037dc9b57a7c233a5067df16fc7a5b27655e1778f97fc",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-4a182f2c-5e86-4797-80e2-a4646aa6e3e8-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 1 - Key Worker Manual Handling 4-day programme (DIAG)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c50fc080-3557-4c2f-92ff-ae2b276b6c6f-881786.json",
+      "published_at": "2026-02-02T15:56:40Z",
+      "retrieved_at": "2026-10-03 23:07:12.321209",
+      "sha256": "2822a35aa700ebd581520e9887f445a91b2df7168250084f9e5943f61a6eff0f",
+      "related_entity": "ocds-b5fd17-4a182f2c-5e86-4797-80e2-a4646aa6e3e8:ocds-b5fd17-4a182f2c-5e86-4797-80e2-a4646aa6e3e8-1"
+    }
+  ]
+}

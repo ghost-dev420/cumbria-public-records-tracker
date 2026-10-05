@@ -1,0 +1,22 @@
+{
+  "entity_id": "06994f6385876d2ead9b5f7499bee606cd10cfd57bd1f572a6c3fe6145439ea6",
+  "entity_type": "COMMITTEE",
+  "name": "Health and Adults Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "74541291676a7a7f00cd777c4598e64bad8012ae8d1a8ea3c8da06601981b49b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Health and Adults Scrutiny Committee",
+      "locator": "committee 260",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

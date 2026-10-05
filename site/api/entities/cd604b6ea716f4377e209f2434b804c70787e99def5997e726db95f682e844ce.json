@@ -1,0 +1,22 @@
+{
+  "entity_id": "cd604b6ea716f4377e209f2434b804c70787e99def5997e726db95f682e844ce",
+  "entity_type": "WARD",
+  "name": "Cleator Moor East and Frizington",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "78cd6b56b3c9c69d48a45a1c7cdf4d4a4bd5c5a92822f4cd74b463608562ff58",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Cleator Moor East and Frizington",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Linda Jones-Bulman"
+    }
+  ]
+}

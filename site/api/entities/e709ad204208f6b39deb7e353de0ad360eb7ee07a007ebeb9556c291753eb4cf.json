@@ -1,0 +1,22 @@
+{
+  "entity_id": "e709ad204208f6b39deb7e353de0ad360eb7ee07a007ebeb9556c291753eb4cf",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Environmental Services Emergency Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a3760e36965647b98595f679ef07e5772458f2c048d4e583c800b017b1fc8e99",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Environmental Services Emergency Sub-Committee",
+      "locator": "committee 689",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "5380d9f62a797da7501b6d50787c8e4af547a582a2c64d83a70660d5de7709ff",
+  "entity_type": "SUPPLIER",
+  "name": "Galliford Try Infrastructure Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "dff31deaaa23e144a0a07d567b119f9a040be1a3d58655ee856657e8022d6b75",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 48",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003165"
+    }
+  ]
+}

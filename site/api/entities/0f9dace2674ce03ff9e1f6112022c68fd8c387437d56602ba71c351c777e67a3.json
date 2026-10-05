@@ -1,0 +1,78 @@
+{
+  "entity_id": "0f9dace2674ce03ff9e1f6112022c68fd8c387437d56602ba71c351c777e67a3",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-014-956",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "6935e39b23bcb394d0f6411fcb26eb7b2bf125e951fcda6dd48a7a1bc0db652f",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-014-956",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-014-956",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-014-956",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:44.624155",
+      "sha256": "0de52ee974d2e993c63d395961fd9789b38fd4d89def0781b38ee08e7ac11c51",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "cc696b2c517afbe6004a9c3cc7cfd36370f3945d292f3a77aeac64df3b2f1a75",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-014-956",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-014-956",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:44.624155",
+      "sha256": "0de52ee974d2e993c63d395961fd9789b38fd4d89def0781b38ee08e7ac11c51",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "6e8e2bea11497272c73c9d12c196312ac4dd4fb6815b66ecf47511b730d3eabe",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-014-956",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-014-956",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:44.624155",
+      "sha256": "0de52ee974d2e993c63d395961fd9789b38fd4d89def0781b38ee08e7ac11c51",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "97510f4aabcaa3960aaa845dfeb3fd8c96f9b14cb7bd8552026086030a84f6be",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "24 Feb 2026",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-014-956",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-014-956",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:44.624155",
+      "sha256": "0de52ee974d2e993c63d395961fd9789b38fd4d89def0781b38ee08e7ac11c51",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "2f7e21426c5117c31b986940dd81cb9909fa98cc7860ebd4fb9f2d4807a19e04",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about how the Council deals with unauthorised parking because any injustice is not significant enough to justify our involvement.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-014-956",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/traffic-management/25-014-956",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:44.624155",
+      "sha256": "0de52ee974d2e993c63d395961fd9789b38fd4d89def0781b38ee08e7ac11c51",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "ef6a59a84ec44f1be365b4d3196e092ce7cf4d04ec2717df286a34b345c1c470",
+  "entity_type": "SUPPLIER",
+  "name": "Good Companions (Cumbria) Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "dbf647ed865322dbca659fa6eae31cde84657fc7ee3329cb0841e46da0a3c4dc",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 435",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "PROCONT00002974"
+    }
+  ]
+}

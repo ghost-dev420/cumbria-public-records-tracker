@@ -1,0 +1,36 @@
+{
+  "entity_id": "425ba247d22908ac2ed3b88e7d0e9913c8103520f8a54ae7109ec404df5edda1",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: Xenolith Explorer Scout Unit [823be9b59ccc3d01548a]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "0cb619aaa9e60806eb9842ddc6421891dcc65a5817be6e7858e455d62c06cb19",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 12",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "927f590781ba4a1f214f1ccedc97fd7f81a56d0de0fd8c63683a0688a60e95d4",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 12",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Xenolith Explorer Scout Unit"
+    }
+  ]
+}

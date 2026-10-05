@@ -1,0 +1,22 @@
+{
+  "entity_id": "244622eb53dc0ebbf55502f0dc825b60bf6ec54d2389279c562cf77fe505fb46",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Select Committee C - Care in the Community",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7688c84c2703f68e79e528d7b9c3798366001f41a996b5d3246f8d43e56e2abd",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Select Committee C - Care in the Community",
+      "locator": "committee 831",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

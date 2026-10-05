@@ -1,0 +1,22 @@
+{
+  "entity_id": "8b0f3cff2e544dd2edab9536bb0277e782b94f08c9d29f0e5f66de79b94a4d45",
+  "entity_type": "SUPPLIER",
+  "name": "Cumbria Waste Recycling",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c25511be56bf44e8bd484550a4d06275e6bd86c8a624b35f8ce4395bad4810c4",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 307",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-050501"
+    }
+  ]
+}

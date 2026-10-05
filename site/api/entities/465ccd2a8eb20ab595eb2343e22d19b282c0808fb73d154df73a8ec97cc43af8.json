@@ -1,0 +1,78 @@
+{
+  "entity_id": "465ccd2a8eb20ab595eb2343e22d19b282c0808fb73d154df73a8ec97cc43af8",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-016-173",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "53ee4830d0acc09c56e41c06321fd231954fd83c8d23a4999a69744c4880b39d",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-016-173",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-016-173",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/24-016-173",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:24.282207",
+      "sha256": "3d1324815f04cf5287aa7d9c58cb87f0fbc6c7b1e7cd80f453e5b079fc041a0d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "edee1e9fd55934a2f6e5472142eb67e9b7deb43d3c623c9f21c08333bbc2e5af",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Planning",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-016-173",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/24-016-173",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:24.282207",
+      "sha256": "3d1324815f04cf5287aa7d9c58cb87f0fbc6c7b1e7cd80f453e5b079fc041a0d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "5b46802b6b0fa99654372e9c3d0614a2e8ffa66f6e5e862b941286c24d4cf04d",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-016-173",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/24-016-173",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:24.282207",
+      "sha256": "3d1324815f04cf5287aa7d9c58cb87f0fbc6c7b1e7cd80f453e5b079fc041a0d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "bc695d2df4d5f62ad54013721b06b472889d9a87f5fa614788c7cd1f19e70cfd",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "14 Feb 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-016-173",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/24-016-173",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:24.282207",
+      "sha256": "3d1324815f04cf5287aa7d9c58cb87f0fbc6c7b1e7cd80f453e5b079fc041a0d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f4b9b583b9f7cee2ad5789d60ed818d78fed794f97d85de756b1418e50b8b20b",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s decision to allow a fence to be erected on land designate flood zone 3b, behind the complainant’s home. We have not seen enough evidence of fault in the way the Council made its decision to justify an investigation. The Council has apologised for the delay in responding to the complaint and further investigation on this point will not lead to a different outcome.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-016-173",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/24-016-173",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:24.282207",
+      "sha256": "3d1324815f04cf5287aa7d9c58cb87f0fbc6c7b1e7cd80f453e5b079fc041a0d",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "e02f76e3b9aa6d797699ee39bfab2a80666c28c978d2d2581d619bbb86ad1ed0",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Select Committee Training",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8e41703f90261a2a1b229b11b150d10cb27e7d8e40bcffb0f833659147993d76",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Select Committee Training",
+      "locator": "committee 837",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

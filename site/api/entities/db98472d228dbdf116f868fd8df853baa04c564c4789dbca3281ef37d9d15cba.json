@@ -1,0 +1,22 @@
+{
+  "entity_id": "db98472d228dbdf116f868fd8df853baa04c564c4789dbca3281ef37d9d15cba",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria and Lancs Joint Health and Wellbeing Scrutiny Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d50ad7c8e821dc0d9e749082c0d2845f981158d2cca8df09c78b1a87bb57f35b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria and Lancs Joint Health and Wellbeing Scrutiny Panel",
+      "locator": "committee 735",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

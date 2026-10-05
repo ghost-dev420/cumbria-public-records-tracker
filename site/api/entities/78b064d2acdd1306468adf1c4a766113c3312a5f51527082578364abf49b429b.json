@@ -1,0 +1,22 @@
+{
+  "entity_id": "78b064d2acdd1306468adf1c4a766113c3312a5f51527082578364abf49b429b",
+  "entity_type": "ORGANISATION",
+  "name": "Sedbergh Gala",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f4de4ba8e09a6113549dc06802fb8d4f2eaae98a170edde855e3508b73d62747",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 16",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Sedbergh Gala [af44f9d1732a2222b54a]"
+    }
+  ]
+}

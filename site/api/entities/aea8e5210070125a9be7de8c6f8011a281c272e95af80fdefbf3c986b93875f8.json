@@ -1,0 +1,22 @@
+{
+  "entity_id": "aea8e5210070125a9be7de8c6f8011a281c272e95af80fdefbf3c986b93875f8",
+  "entity_type": "SUPPLIER",
+  "name": "TBC",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d8b2d3f77538714fb14c4260a6e522d51366464a833b294c8322860e397ee7b1",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 289",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "2026/S 000-008530"
+    }
+  ]
+}

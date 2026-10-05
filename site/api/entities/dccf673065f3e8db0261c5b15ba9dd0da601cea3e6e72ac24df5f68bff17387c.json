@@ -1,0 +1,36 @@
+{
+  "entity_id": "dccf673065f3e8db0261c5b15ba9dd0da601cea3e6e72ac24df5f68bff17387c",
+  "entity_type": "SUPPLIER",
+  "name": "T & S Air Conditioning Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "632aff38fee1e4a130400ec55524a9e15d859a1cb091c20c4e13cfe7b221e123",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 241",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002454"
+    },
+    {
+      "fact_id": "a13e93aa709cb0f24618220644f9833070333bc75052c6406c0acf62ef52903b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 235",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002440"
+    }
+  ]
+}

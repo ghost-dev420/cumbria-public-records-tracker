@@ -1,0 +1,36 @@
+{
+  "entity_id": "926f30e516e0837141379f53622e88312beec3024bd31d003044846ba14b5c22",
+  "entity_type": "SUPPLIER",
+  "name": "Outsource Automation Solutions Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "53ba913ff4dcd4b3fa98793f52ff88864806216516f34af362c129494205a30b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-d3062af9-0b54-460b-9c7a-03e6425facc3-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "BluePrism",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3f4cd3c8-2a7b-4985-bd5e-b8a69a89cbfe-896657.json",
+      "published_at": "2026-05-11T16:35:21+01:00",
+      "retrieved_at": "2026-10-03 23:26:21.791123",
+      "sha256": "a247bdf8a8ece5cc4608748dba8eacb73096d2bacb4d5017b525487074ccc114",
+      "related_entity": "ocds-b5fd17-d3062af9-0b54-460b-9c7a-03e6425facc3:ocds-b5fd17-d3062af9-0b54-460b-9c7a-03e6425facc3-1"
+    },
+    {
+      "fact_id": "188b2daeab111501a3934e1d5a1b749b502214956f761649a154cfc78d904d0b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-aa172d3b-644e-4f3a-abda-0da85f23f2c9-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Blue Prism Renewal (2yrs + 12M)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ae10eca9-cf76-482f-9f34-39e81f421175-894443.json",
+      "published_at": "2026-04-24T10:07:35+01:00",
+      "retrieved_at": "2026-10-03 23:24:39.530466",
+      "sha256": "b98526c7502fdb21b4fa2996e573c246ea5ce0ddf41709c6a814f114d67d443d",
+      "related_entity": "ocds-b5fd17-aa172d3b-644e-4f3a-abda-0da85f23f2c9:ocds-b5fd17-aa172d3b-644e-4f3a-abda-0da85f23f2c9-1"
+    }
+  ]
+}

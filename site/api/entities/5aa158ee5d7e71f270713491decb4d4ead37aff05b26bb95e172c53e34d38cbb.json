@@ -1,0 +1,22 @@
+{
+  "entity_id": "5aa158ee5d7e71f270713491decb4d4ead37aff05b26bb95e172c53e34d38cbb",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Staff Employer Cabinet Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8881d82e9f2f950464d5961070752f1b84ba6c765594111385ceecf1704f4c83",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Staff Employer Cabinet Sub-Committee",
+      "locator": "committee 854",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

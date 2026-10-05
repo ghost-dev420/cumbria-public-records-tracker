@@ -1,0 +1,22 @@
+{
+  "entity_id": "b30dddc174e8042d269d27c231bd34183701e664a0759ae5ba60bbfa4becca38",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Carlisle Area Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "75260493c00872e56462eabfc60183f8fa30e5133f9353eb8928d480f23b082a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Carlisle Area Committee",
+      "locator": "committee 480",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

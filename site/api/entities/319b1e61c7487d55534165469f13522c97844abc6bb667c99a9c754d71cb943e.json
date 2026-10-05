@@ -1,0 +1,22 @@
+{
+  "entity_id": "319b1e61c7487d55534165469f13522c97844abc6bb667c99a9c754d71cb943e",
+  "entity_type": "SUPPLIER",
+  "name": "IREBY & ULDALE P.C.",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "21fc5ee07217f56e69c3b4f97e6d16aea15c61d03fd58a4080807b342d3e003d",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3000.00",
+      "locator": "XLSX Sheet1!row 511",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

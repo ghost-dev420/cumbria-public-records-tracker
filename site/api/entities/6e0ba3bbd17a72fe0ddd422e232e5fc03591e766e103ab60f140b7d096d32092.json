@@ -1,0 +1,50 @@
+{
+  "entity_id": "6e0ba3bbd17a72fe0ddd422e232e5fc03591e766e103ab60f140b7d096d32092",
+  "entity_type": "CONTRACT",
+  "name": "ocds-b5fd17-d03c372b-0da2-4beb-aa4f-4ff870ea0705:notice",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "48255ecd0eea961d693f9ae9353e14846a88032d9cac3cc49805f34790ee16b9",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "award notice buyer",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 2A - Lupton or Badgergate Bridge Repairs",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5f4e9a44-bda6-44f1-a66a-41c5a2c59721-869595.json",
+      "published_at": "2025-10-24T15:46:04+01:00",
+      "retrieved_at": "2026-10-03 22:55:03.002181",
+      "sha256": "5c6465a10e4d70bffc0101eca1ba22ab004d1c5f6ee65aae7c14ba3082bd77e5",
+      "related_entity": "WESTMORLAND AND FURNESS COUNCIL"
+    },
+    {
+      "fact_id": "37b465698330169f25988ec7cfb8f515037ee3c746d06b70f22c156e28689995",
+      "fact_type": "CONTRACT_DATE",
+      "predicate": "HAS_AWARD_DATE",
+      "value": "2025-10-24T15:46:04+01:00",
+      "locator": "award notice date",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 2A - Lupton or Badgergate Bridge Repairs",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5f4e9a44-bda6-44f1-a66a-41c5a2c59721-869595.json",
+      "published_at": "2025-10-24T15:46:04+01:00",
+      "retrieved_at": "2026-10-03 22:55:03.002181",
+      "sha256": "5c6465a10e4d70bffc0101eca1ba22ab004d1c5f6ee65aae7c14ba3082bd77e5",
+      "related_entity": null
+    },
+    {
+      "fact_id": "c23bafa0e01bd06b3879e803a977d70f2c90f3055aa18048e2b222e229796830",
+      "fact_type": "CONTRACT_TITLE",
+      "predicate": "HAS_TITLE",
+      "value": "CWF Lot 2A - Lupton or Badgergate Bridge Repairs",
+      "locator": "award notice",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 2A - Lupton or Badgergate Bridge Repairs",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5f4e9a44-bda6-44f1-a66a-41c5a2c59721-869595.json",
+      "published_at": "2025-10-24T15:46:04+01:00",
+      "retrieved_at": "2026-10-03 22:55:03.002181",
+      "sha256": "5c6465a10e4d70bffc0101eca1ba22ab004d1c5f6ee65aae7c14ba3082bd77e5",
+      "related_entity": null
+    }
+  ]
+}

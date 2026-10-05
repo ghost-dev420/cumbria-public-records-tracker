@@ -1,0 +1,22 @@
+{
+  "entity_id": "e6c69556dd1321145874d43dff4b3c91aa8af830365cf30f3e309fee79faa696",
+  "entity_type": "SUPPLIER",
+  "name": "OCEAN MEDIA GROUP LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6904fa13f0edda40cfd5a81660683b5f39c06a94853678924b42d8c0eb97ae28",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1000.00",
+      "locator": "XLSX Sheet1!row 56",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "70937728faba4ab91e767d3cd0af6571604b0e270fab1a12b935bbaab2ce22f6",
+  "entity_type": "WARD",
+  "name": "Eamont and Shap",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "eb8342615b24bc64a3c278a10fd3abd35696ab70a4f5405fde3e160e2154b5ad",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Eamont and Shap",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Nicki Vecqueray"
+    }
+  ]
+}

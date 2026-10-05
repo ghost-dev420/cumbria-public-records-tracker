@@ -1,0 +1,22 @@
+{
+  "entity_id": "8c4f333a3423f88a594caa06f32c19bc7300d9c1a0f8b06d28fdfd51c5982758",
+  "entity_type": "SUPPLIER",
+  "name": "SOUNDWAVE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "880efbcfe2316501014506a33ff8be186fccd26167eac86c76f82be155815ca7",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2500.00",
+      "locator": "XLSX Sheet 1!row 84",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

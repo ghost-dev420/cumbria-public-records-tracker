@@ -1,0 +1,22 @@
+{
+  "entity_id": "f4915fcc29ac7afe8e7cf8d6d83b3190f2f4efe764a9ca391521df9b369b4605",
+  "entity_type": "SUPPLIER",
+  "name": "AIRPORT SERVICES UK LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5c4e004ddfc6c6aad8318b3be6c9720aa07519bffe62189a78b8f71289647ed8",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-c5f7b970-e91c-40f8-a824-6f3dbe7c1658-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1b - Up to 8 Passenger Seats with Passenger Assistant for Out of County area closing 13 February 2026 (F42)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3a2fef4c-8244-423c-a980-f51ee4b284ef-891205.json",
+      "published_at": "2026-04-01T14:53:01+01:00",
+      "retrieved_at": "2026-10-03 23:17:43.478805",
+      "sha256": "f9ddb99c52f0b226835a132d782ddc811447f51aa67c923520a05992a9bfa164",
+      "related_entity": "ocds-b5fd17-c5f7b970-e91c-40f8-a824-6f3dbe7c1658:ocds-b5fd17-c5f7b970-e91c-40f8-a824-6f3dbe7c1658-1"
+    }
+  ]
+}

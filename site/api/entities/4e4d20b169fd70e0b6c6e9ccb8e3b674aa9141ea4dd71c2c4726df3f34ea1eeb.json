@@ -1,0 +1,22 @@
+{
+  "entity_id": "4e4d20b169fd70e0b6c6e9ccb8e3b674aa9141ea4dd71c2c4726df3f34ea1eeb",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Recreation Overview and Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "216e8285ee36e3cd62ac844234282b5e593a1032a77eb7a8d0aa1e93f6df7de0",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Recreation Overview and Scrutiny Committee",
+      "locator": "committee 716",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "2c63ed23cf171196c139081cb61369196e62151563166e85b546610040c7d968",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Finance and Personnel Sub Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ba9786f7e8db8b161475bb5fba3598e26c13005b94224d5b195b283fdc275473",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Finance and Personnel Sub Committee",
+      "locator": "committee 756",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

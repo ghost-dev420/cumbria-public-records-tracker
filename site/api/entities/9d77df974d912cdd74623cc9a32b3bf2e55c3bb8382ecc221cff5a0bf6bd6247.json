@@ -1,0 +1,22 @@
+{
+  "entity_id": "9d77df974d912cdd74623cc9a32b3bf2e55c3bb8382ecc221cff5a0bf6bd6247",
+  "entity_type": "SUPPLIER",
+  "name": "Bewaldeth & Snittlegarth PC Bewaldeth & Snittlegarth PC",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0bc8e124dd29c93601a6541ae8740fe4a255719bd2f4a64d8716c8ece8d07714",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "237.50",
+      "locator": "XLSX Sheet1!row 530",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "50bbb4d14b558de781cb46f245d3111e75a9d492e2b4e5fd604f1db6d674be46",
+  "entity_type": "SUPPLIER",
+  "name": "Turning Point (Services) Limited- Duplicate",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "7bea34cc663600e48ec15682993d89b5801c5687f4a71b1393a60491698a76f9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 113",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003542"
+    },
+    {
+      "fact_id": "a40c13efea37cc1020b813634ef310b38145ddc8ccc942e1cd2fdbd755dec208",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 112",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003541"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "5b39ce5992c85fd9b210f01cc2cc32736a3bd32e2fcf2c17a440a09d1c982618",
+  "entity_type": "SUPPLIER",
+  "name": "FCN Housing Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c56e378cf3b9503c490b505ff5fceb2fff36cc12541c112f6bd7fef6e2213f87",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 588",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "PROCONT00003840"
+    }
+  ]
+}

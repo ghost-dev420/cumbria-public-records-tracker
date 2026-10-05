@@ -1,0 +1,22 @@
+{
+  "entity_id": "b9662b2f9e3b012821756d8a2aac83d67ce115e765f28037b89417eea1e93e20",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Standards Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "90ccf323da125d523e094b4db4f6d2a6e9ee55506789861fb0e501cdcd0ac926",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Standards Committee",
+      "locator": "committee 774",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

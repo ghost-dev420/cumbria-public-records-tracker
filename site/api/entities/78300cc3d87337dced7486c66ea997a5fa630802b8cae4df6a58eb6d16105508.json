@@ -1,0 +1,22 @@
+{
+  "entity_id": "78300cc3d87337dced7486c66ea997a5fa630802b8cae4df6a58eb6d16105508",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Waste Management Contract Officer Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "db8c889a012955e45cf7a962a6329652238f8a1ab4e8edec5f84c415ecc65655",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Waste Management Contract Officer Group",
+      "locator": "committee 631",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

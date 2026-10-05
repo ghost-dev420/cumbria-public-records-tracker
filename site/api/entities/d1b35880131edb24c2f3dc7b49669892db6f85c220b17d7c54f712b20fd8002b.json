@@ -1,0 +1,22 @@
+{
+  "entity_id": "d1b35880131edb24c2f3dc7b49669892db6f85c220b17d7c54f712b20fd8002b",
+  "entity_type": "ORGANISATION",
+  "name": "Bustron Thistle Football Club",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6bb46e6d2ff4295f478881657aa1504f4630686fe0805bed4730e25d83fe82eb",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 17",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Bustron Thistle Football Club [81e4216733000d05ecad]"
+    }
+  ]
+}

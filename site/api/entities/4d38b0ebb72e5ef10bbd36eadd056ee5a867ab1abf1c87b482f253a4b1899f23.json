@@ -1,0 +1,22 @@
+{
+  "entity_id": "4d38b0ebb72e5ef10bbd36eadd056ee5a867ab1abf1c87b482f253a4b1899f23",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Workington Harbour Management Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "48563cb44698db6a228ab6e13465aa9d9a7ff41fc67e5befbb04a2cdebaadbcf",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Workington Harbour Management Committee",
+      "locator": "committee 691",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

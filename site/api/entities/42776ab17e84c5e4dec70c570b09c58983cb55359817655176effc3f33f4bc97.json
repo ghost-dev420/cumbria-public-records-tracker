@@ -1,0 +1,22 @@
+{
+  "entity_id": "42776ab17e84c5e4dec70c570b09c58983cb55359817655176effc3f33f4bc97",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Standards Hearing Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "999b58e2ff71f886970887d0dafbc58ab223813d8a89853aa536feb71a2c4829",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Standards Hearing Sub-Committee",
+      "locator": "committee 666",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

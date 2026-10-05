@@ -1,0 +1,22 @@
+{
+  "entity_id": "3d27f8f337a346be62ef24138354fc0b54df3ca13483daccf89e6ebef6e608de",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Leadership and Local Cttee Chairs",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f1e9e1357fd0efb7229d1f7b3f8dd116e7e0bfe64b6d70134d73f472950008d4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Leadership and Local Cttee Chairs",
+      "locator": "committee 555",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

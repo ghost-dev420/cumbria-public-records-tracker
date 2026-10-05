@@ -1,0 +1,22 @@
+{
+  "entity_id": "e56439f4d402498867a8f9adb3f1d7994e2280c360c033ecd90e6e57013467db",
+  "entity_type": "SUPPLIER",
+  "name": "Urban Intelligence Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "86a6d77a12cfa65b0cdc2b3d30d0705dd96d476208b384b107500baae3af34be",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-1cecd9f3-52cc-4b6e-8b75-6205652ef00f-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Placemaker Digital Plan Software",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1179cbfb-ac8a-4138-ba08-1701712515f3-878958.json",
+      "published_at": "2026-01-13T14:44:23Z",
+      "retrieved_at": "2026-10-03 23:03:02.756447",
+      "sha256": "88355fc905e385e5c84d515d567973d496394957272144cf5a5f4eb94cdf0ab5",
+      "related_entity": "ocds-b5fd17-1cecd9f3-52cc-4b6e-8b75-6205652ef00f:ocds-b5fd17-1cecd9f3-52cc-4b6e-8b75-6205652ef00f-1"
+    }
+  ]
+}

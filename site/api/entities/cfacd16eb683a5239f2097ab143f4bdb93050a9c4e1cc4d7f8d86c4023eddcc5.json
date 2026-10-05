@@ -1,0 +1,22 @@
+{
+  "entity_id": "cfacd16eb683a5239f2097ab143f4bdb93050a9c4e1cc4d7f8d86c4023eddcc5",
+  "entity_type": "SUPPLIER",
+  "name": "THE LOTTERIES COUNCIL",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f4d94bbc482eb466e4e99b4a4e78dfe0e4c4353fd3237e745b26d2371b63a0d3",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "385.00",
+      "locator": "XLSX Report!row 188",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

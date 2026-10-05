@@ -1,0 +1,64 @@
+{
+  "entity_id": "2eb2d75c3231f28ab103b42240ec1050fcd4df1cb61a60c1ee601ca6e7a2cb8a",
+  "entity_type": "SUPPLIER",
+  "name": "K Cars Kendal (UK) Limited",
+  "fact_count": 4,
+  "timeline": [
+    {
+      "fact_id": "895b3bdb804384cfd7b8a839b1cdcb179427c0994657a6a61ad04e9ff915765f",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-4b2c50c6-3ea4-470c-b251-ac9d23c1a673-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 23 February 2026 (F43)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/54c21df3-0863-4613-9c6f-c6437cc25bfb-902269.json",
+      "published_at": "2026-06-16T09:24:12+01:00",
+      "retrieved_at": "2026-10-03 23:34:05.438043",
+      "sha256": "a96629ea8083ef2d231ae5fc26496a7f46b177aeefd553e06473a44296a4b056",
+      "related_entity": "ocds-b5fd17-4b2c50c6-3ea4-470c-b251-ac9d23c1a673:ocds-b5fd17-4b2c50c6-3ea4-470c-b251-ac9d23c1a673-1"
+    },
+    {
+      "fact_id": "f23adab42da5c4082fe59a1d5ee36d40f2ba9cf5b2d8916a29c0d829713646aa",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-b1c70342-fa9e-441e-aebf-1faa725fe459-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 30 August 2023 (F48)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4f3d6368-1570-4011-b93b-426c01749278-892654.json",
+      "published_at": "2026-04-13T15:07:22+01:00",
+      "retrieved_at": "2026-10-03 23:21:23.296250",
+      "sha256": "f7cab823fe6129a19dfb2f533cba70a6c2f0aed7d9561e4906ac1078a941a69e",
+      "related_entity": "ocds-b5fd17-b1c70342-fa9e-441e-aebf-1faa725fe459:ocds-b5fd17-b1c70342-fa9e-441e-aebf-1faa725fe459-1"
+    },
+    {
+      "fact_id": "0bbf641b75efb4c6680834f72e260e882f038869c0b8d286d1346cad80fd4588",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-920c377b-371c-42a8-83c2-83e2c4b0ff8b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 16 August 2023 (F43)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a0ed45df-90e1-4057-aaae-fd3ec782aa36-891821.json",
+      "published_at": "2026-04-07T14:45:42+01:00",
+      "retrieved_at": "2026-10-03 23:18:22.639363",
+      "sha256": "6dc171601eb46016677a70e44bf344f48557ba539cccd147a4e2efe1937bae0e",
+      "related_entity": "ocds-b5fd17-920c377b-371c-42a8-83c2-83e2c4b0ff8b:ocds-b5fd17-920c377b-371c-42a8-83c2-83e2c4b0ff8b-1"
+    },
+    {
+      "fact_id": "b0105a53f86aa0f9b5bb6acb423c4394b022b38aa1348a97d468bb5f973609d5",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-0dae20de-e04a-4b95-9b3d-4d89d65571b0-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 Passenger Seats for Out of County area closing 24 November 2025 (F31)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/291f0cd2-fb47-4605-99cd-a2a6029c4697-891764.json",
+      "published_at": "2026-04-07T11:44:54+01:00",
+      "retrieved_at": "2026-10-03 23:18:29.445177",
+      "sha256": "2d7c5c3b65016c2f055784a098a7b33c8970cc53d6c1fbbeda1284d7d1d30f83",
+      "related_entity": "ocds-b5fd17-0dae20de-e04a-4b95-9b3d-4d89d65571b0:ocds-b5fd17-0dae20de-e04a-4b95-9b3d-4d89d65571b0-1"
+    }
+  ]
+}

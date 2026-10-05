@@ -1,0 +1,22 @@
+{
+  "entity_id": "8ec2665f50ec0cf63d9ea5b922bbc182ba1d1df7ed024fc8c917968b8bb8e9fe",
+  "entity_type": "SUPPLIER",
+  "name": "THE GREENHILL HOTEL",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0c366847163006a17bf54442a469c83f11721be33c3bce9a13b1bbb5c5b0f9ec",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3803.67",
+      "locator": "XLSX Report!row 427",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

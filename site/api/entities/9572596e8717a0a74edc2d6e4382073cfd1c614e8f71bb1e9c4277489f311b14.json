@@ -1,0 +1,22 @@
+{
+  "entity_id": "9572596e8717a0a74edc2d6e4382073cfd1c614e8f71bb1e9c4277489f311b14",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Carlisle and Eden Community Safety Partnership Joint Scrutiny Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4621ab7f9eb5cbefa23c3e8d91f0c6ae71fbf677152fedd31698c271ce6440ee",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Carlisle and Eden Community Safety Partnership Joint Scrutiny Panel",
+      "locator": "committee 468",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

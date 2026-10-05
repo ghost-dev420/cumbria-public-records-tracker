@@ -1,0 +1,22 @@
+{
+  "entity_id": "3ad03aaf86fb92a157ef1fceb6568ab7851f91bf1e87994abcce09649f3b1719",
+  "entity_type": "COMMITTEE",
+  "name": "Shareholder and Trustee Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cbf34acf16d8c8c8ae4a949bd87e60341984d3164fc25ca06e4f8f84387cfcf7",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Shareholder and Trustee Committee",
+      "locator": "committee 446",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

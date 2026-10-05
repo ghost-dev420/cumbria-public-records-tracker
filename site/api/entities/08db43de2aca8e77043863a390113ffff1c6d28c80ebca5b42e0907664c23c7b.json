@@ -1,0 +1,22 @@
+{
+  "entity_id": "08db43de2aca8e77043863a390113ffff1c6d28c80ebca5b42e0907664c23c7b",
+  "entity_type": "ORGANISATION",
+  "name": "Cumbria Yoga Foundation",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "125580974d7472ab52ea0e49149e56ace9b2f711b1d4690f2b0fe092624cd8ab",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1070",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 8",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round one in 2025 to 2026: Cumbria Yoga Foundation [f1aabb5a7e96ef8fdc05]"
+    }
+  ]
+}

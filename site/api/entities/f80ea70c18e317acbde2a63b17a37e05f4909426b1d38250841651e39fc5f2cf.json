@@ -1,0 +1,22 @@
+{
+  "entity_id": "f80ea70c18e317acbde2a63b17a37e05f4909426b1d38250841651e39fc5f2cf",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Housing Services Management Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9c2836e45619334b3a3dd64535728f31358d53bf9dc97bfa197418d16b03fccd",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Housing Services Management Board",
+      "locator": "committee 695",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

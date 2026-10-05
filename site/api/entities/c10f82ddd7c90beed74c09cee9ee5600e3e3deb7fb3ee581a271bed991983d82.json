@@ -1,0 +1,22 @@
+{
+  "entity_id": "c10f82ddd7c90beed74c09cee9ee5600e3e3deb7fb3ee581a271bed991983d82",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Carlisle Highways Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c72d5dd356936b344820d3d64c630fedb30393bb6b63ab7b8cada691f67d6afc",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Carlisle Highways Working Group",
+      "locator": "committee 714",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

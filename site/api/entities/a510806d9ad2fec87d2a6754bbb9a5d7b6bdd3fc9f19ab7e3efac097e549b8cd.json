@@ -1,0 +1,22 @@
+{
+  "entity_id": "a510806d9ad2fec87d2a6754bbb9a5d7b6bdd3fc9f19ab7e3efac097e549b8cd",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Leadership Forum",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2b6768f4defb528feaca08f02d4f77029a0b94f4b28eb3964e30800bc3dfade6",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Leadership Forum",
+      "locator": "committee 513",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

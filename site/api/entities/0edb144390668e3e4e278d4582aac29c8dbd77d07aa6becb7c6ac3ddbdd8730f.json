@@ -1,0 +1,50 @@
+{
+  "entity_id": "0edb144390668e3e4e278d4582aac29c8dbd77d07aa6becb7c6ac3ddbdd8730f",
+  "entity_type": "SUPPLIER",
+  "name": "Story Contracting Limited",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "9412df290f9a417953d40d6600b06c055d3ea95a40d47bab2723cd4cf9320c59",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-a9fe122a-eeb0-4f9e-ba8e-16be2db2d502-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 2B - Broadhead Bridge (Replacement Structure)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/38205c8d-84fa-4179-921c-7eee542ba846-904967.json",
+      "published_at": "2026-07-07T10:44:11+01:00",
+      "retrieved_at": "2026-10-03 23:36:12.481649",
+      "sha256": "796862054293e1213b49d830028d5e1707ce7e850f0e1418f622ef058669b26d",
+      "related_entity": "ocds-b5fd17-a9fe122a-eeb0-4f9e-ba8e-16be2db2d502:ocds-b5fd17-a9fe122a-eeb0-4f9e-ba8e-16be2db2d502-1"
+    },
+    {
+      "fact_id": "7c26e47061ec71b4f861c295702ea17459d0945c2755c52eca08668683a40d85",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-429d585f-2499-4fec-ba4b-69dbe78cbce3-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 2A - Nichol Gill Culvert Saddle Construction",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/40123358-4a28-44c6-ab2d-3769c1257049-882729.json",
+      "published_at": "2026-02-09T10:42:34Z",
+      "retrieved_at": "2026-10-03 23:07:53.061548",
+      "sha256": "1c745e69aa1a17e8031ded8046f4bed9a572d5dd450cc32940425f29b841c2df",
+      "related_entity": "ocds-b5fd17-429d585f-2499-4fec-ba4b-69dbe78cbce3:ocds-b5fd17-429d585f-2499-4fec-ba4b-69dbe78cbce3-1"
+    },
+    {
+      "fact_id": "d7114939f8062cb0f21dc9b77a972d596699c613b13a68f9a32f9ed579343b84",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-75c5e86d-6fc9-4eaf-aa10-e51a3f3da81c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Workington Gateway Stage 2",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8b04ae23-3952-4134-a225-9f941b011f7d-878518.json",
+      "published_at": "2026-01-09T09:29:07Z",
+      "retrieved_at": "2026-10-03 23:02:36.675951",
+      "sha256": "3b0fe026281ffe2910215874baba8157a88d40d3d5dc077fe7dc721305ee082b",
+      "related_entity": "ocds-b5fd17-75c5e86d-6fc9-4eaf-aa10-e51a3f3da81c:ocds-b5fd17-75c5e86d-6fc9-4eaf-aa10-e51a3f3da81c-1"
+    }
+  ]
+}

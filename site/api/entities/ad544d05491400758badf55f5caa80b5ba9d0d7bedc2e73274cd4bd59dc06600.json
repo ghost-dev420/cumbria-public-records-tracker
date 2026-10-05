@@ -1,0 +1,22 @@
+{
+  "entity_id": "ad544d05491400758badf55f5caa80b5ba9d0d7bedc2e73274cd4bd59dc06600",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria School Organisation Forum",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "59e8b7bef98ddda9b187454efa636718db6e6a94e2a668245afc06c996801a9e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria School Organisation Forum",
+      "locator": "committee 514",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

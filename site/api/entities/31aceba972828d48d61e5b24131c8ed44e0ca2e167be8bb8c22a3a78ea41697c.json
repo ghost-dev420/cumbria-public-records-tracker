@@ -1,0 +1,22 @@
+{
+  "entity_id": "31aceba972828d48d61e5b24131c8ed44e0ca2e167be8bb8c22a3a78ea41697c",
+  "entity_type": "SUPPLIER",
+  "name": "ALTIATECH LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "06105ec58e6b5e82897e370c773ec530428d9189e31a3aa6152821b8f99a50b1",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1840.00",
+      "locator": "XLSX Sheet1!row 169",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending July 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_july_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:58.366523",
+      "sha256": "0eb7632219956f48e243d2f2dc90c5ab86503df950c39340bb6bdcb8ad53e9ea",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

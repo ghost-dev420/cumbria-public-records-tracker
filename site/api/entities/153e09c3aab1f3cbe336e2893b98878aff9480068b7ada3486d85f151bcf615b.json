@@ -1,0 +1,22 @@
+{
+  "entity_id": "153e09c3aab1f3cbe336e2893b98878aff9480068b7ada3486d85f151bcf615b",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Economy Consultative Forum",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "042ffee469aa18ae3ae232908087e6b754f9ee7d336ae32b5f0f77a220f77a8d",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Economy Consultative Forum",
+      "locator": "committee 752",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

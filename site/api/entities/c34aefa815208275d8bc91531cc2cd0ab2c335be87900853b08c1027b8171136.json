@@ -1,0 +1,36 @@
+{
+  "entity_id": "c34aefa815208275d8bc91531cc2cd0ab2c335be87900853b08c1027b8171136",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Lindale Bowling Club [01ce0444a09e6974329c]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "35ae3b6be480c155ceeabc506d6c0f166c0d764b869cb062d9ff5ab82ab9ad26",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "300",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 10",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "4603a7b320f1d94507a91b75583b3a30dd55817b4701945f345712b855ca1c0b",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "300",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 10",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Lindale Bowling Club"
+    }
+  ]
+}

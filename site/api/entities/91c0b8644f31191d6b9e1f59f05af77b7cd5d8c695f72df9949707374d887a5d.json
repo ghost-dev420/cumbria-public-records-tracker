@@ -1,0 +1,36 @@
+{
+  "entity_id": "91c0b8644f31191d6b9e1f59f05af77b7cd5d8c695f72df9949707374d887a5d",
+  "entity_type": "SUPPLIER",
+  "name": "Architects Plus (UK) Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "2a13424b7fcb752eebd395e53895aee844fda016610bd4446db624ad7d06bae9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 60",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003762"
+    },
+    {
+      "fact_id": "de73bc6ac48214d499bf89f1bf67b9f14846661e6c5b0a31aae5adfc7b4f3225",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 123",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003348"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "126fd11a6198bf85738c782b8138e44300e682361b65df77c81b5dc26daff5be",
+  "entity_type": "SUPPLIER",
+  "name": "NORTHERN HOUSING CONSORTIUM LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a84e64986d3eb6de04625fa7bc0d3b648dec0ded4a9d16991f5717b530554125",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "990.00",
+      "locator": "XLSX Sheet1!row 241",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending April 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_april_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:53.606487",
+      "sha256": "7f628438d71647db09557c7e8fa75c8b7ce56ed10810f345cc6d4109e88baaab",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

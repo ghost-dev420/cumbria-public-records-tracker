@@ -1,0 +1,22 @@
+{
+  "entity_id": "6ace3ba7cc63002b16e1eb37e42ebaf47b7dddfb95f3f681b407e66740516a76",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Police and Crime Panel Complaints Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a3cf4c144f19fddd5563dde9b1bb13d7c785815780c1e67a6e6edfe576014d1f",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Police and Crime Panel Complaints Sub-Committee",
+      "locator": "committee 672",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

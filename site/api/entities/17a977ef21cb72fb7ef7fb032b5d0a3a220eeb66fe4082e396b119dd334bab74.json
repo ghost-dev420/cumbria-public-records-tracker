@@ -1,0 +1,22 @@
+{
+  "entity_id": "17a977ef21cb72fb7ef7fb032b5d0a3a220eeb66fe4082e396b119dd334bab74",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Holehird Trust Joint Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d7e06feb7f4535285076a1fa3d4c3de14f4871272fe2cf8b6c73f00c27ba3150",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Holehird Trust Joint Committee",
+      "locator": "committee 446",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

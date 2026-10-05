@@ -1,0 +1,22 @@
+{
+  "entity_id": "4716b45d439aba28eba71758dcec56550faa42138e4ae03c328603777e4685e1",
+  "entity_type": "ORGANISATION",
+  "name": "Sedbergh CIC",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "54522cdf72e1bd2e9e562f877f0d4bfd2588f104494b6cf25e607784539206e3",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 16",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round 2 in 2025 to 2026: Sedbergh CIC [4225ab722734a7cc0b52]"
+    }
+  ]
+}

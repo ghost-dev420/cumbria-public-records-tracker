@@ -1,0 +1,22 @@
+{
+  "entity_id": "6e767a3bf4bd5d7d4b81b3eb5d42b8951db8d64b47a6e5016da71604452776f2",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Public Works Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8acddd3e3a4c79b3a6eee5c9a0fb690d7d3c235e6f57bce12bc72f3e998f00cb",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Public Works Committee",
+      "locator": "committee 715",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

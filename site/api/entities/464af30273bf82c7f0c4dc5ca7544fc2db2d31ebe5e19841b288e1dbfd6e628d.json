@@ -1,0 +1,22 @@
+{
+  "entity_id": "464af30273bf82c7f0c4dc5ca7544fc2db2d31ebe5e19841b288e1dbfd6e628d",
+  "entity_type": "ORGANISATION",
+  "name": "Arnside Football Club",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "124d1ea33003f2f91759999c151255067050e88e75a8dd7d9c256296bfffb328",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 19",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round one in 2026 to 2027: Arnside Football Club [2b904f88446cdaa775ab]"
+    }
+  ]
+}

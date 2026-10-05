@@ -1,0 +1,50 @@
+{
+  "entity_id": "f6bb388899c2448cd98d39d63c502b7d8794ae01b746f9537091530b71d1840a",
+  "entity_type": "CONTRACT",
+  "name": "ocds-b5fd17-a5097d70-4758-4a98-b1b1-bc66fbd53c09:notice",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "95540f08911ff3d8c8e58854b2b3fc8e1d3c37e331af83ee790f4fd2ba843e00",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "award notice buyer",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Minor Works Framework - Solway Community School - Sports Hall Boiler",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4f752b64-ea85-4352-a61c-5ffd837aa6eb-895512.json",
+      "published_at": "2026-04-30T10:31:51+01:00",
+      "retrieved_at": "2026-10-03 23:25:20.785327",
+      "sha256": "da16bc2634bd753ca4db228bb949485d3c05b92a291412bc854002df033ef1c0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "dc246a309e1eee742360292bd84ae605ff08f268812962f9e91768c3d823cc33",
+      "fact_type": "CONTRACT_DATE",
+      "predicate": "HAS_AWARD_DATE",
+      "value": "2026-04-30T10:31:51+01:00",
+      "locator": "award notice date",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Minor Works Framework - Solway Community School - Sports Hall Boiler",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4f752b64-ea85-4352-a61c-5ffd837aa6eb-895512.json",
+      "published_at": "2026-04-30T10:31:51+01:00",
+      "retrieved_at": "2026-10-03 23:25:20.785327",
+      "sha256": "da16bc2634bd753ca4db228bb949485d3c05b92a291412bc854002df033ef1c0",
+      "related_entity": null
+    },
+    {
+      "fact_id": "e7a10459640709e4f3f38676ae8df31084079c8cfc98768b6540f5ea9b07d254",
+      "fact_type": "CONTRACT_TITLE",
+      "predicate": "HAS_TITLE",
+      "value": "Minor Works Framework - Solway Community School - Sports Hall Boiler",
+      "locator": "award notice",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Minor Works Framework - Solway Community School - Sports Hall Boiler",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4f752b64-ea85-4352-a61c-5ffd837aa6eb-895512.json",
+      "published_at": "2026-04-30T10:31:51+01:00",
+      "retrieved_at": "2026-10-03 23:25:20.785327",
+      "sha256": "da16bc2634bd753ca4db228bb949485d3c05b92a291412bc854002df033ef1c0",
+      "related_entity": null
+    }
+  ]
+}

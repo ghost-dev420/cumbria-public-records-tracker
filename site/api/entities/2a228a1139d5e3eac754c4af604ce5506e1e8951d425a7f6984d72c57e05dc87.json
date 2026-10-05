@@ -1,0 +1,36 @@
+{
+  "entity_id": "2a228a1139d5e3eac754c4af604ce5506e1e8951d425a7f6984d72c57e05dc87",
+  "entity_type": "SUPPLIER",
+  "name": "NCB RIP (trading as Research in Practice)",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "4119fff1d7beb021ff4da884854b61d065d62322b660b85792db726949bbb3fd",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-81e48410-d0e1-4259-89f0-ae12668bf4b2-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 3 Framework Strength Based and Preventative approaches ASC",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ae6ebcdb-0704-4b6d-adcc-3892840e26e3-889217.json",
+      "published_at": "2026-03-19T11:29:13Z",
+      "retrieved_at": "2026-10-03 23:14:01.614721",
+      "sha256": "206d8dd08d71ee7c431fc8c25ded8e942e34a5b2a9b1c5266efb5f12377d9121",
+      "related_entity": "ocds-b5fd17-81e48410-d0e1-4259-89f0-ae12668bf4b2:ocds-b5fd17-81e48410-d0e1-4259-89f0-ae12668bf4b2-1"
+    },
+    {
+      "fact_id": "7ee77f96f96b1037e464b655e5dda8dd82abae0189746e599493f4ad6a0e9ec1",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-a64c8242-0c32-45a2-8315-2d4ab2f4dccd-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ODWT Lot 3 - Risk Assessment and Positive Risk Taking in Adult Social Care.",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/b705cbe1-c64d-4cdf-a5ba-c505787033a1-889216.json",
+      "published_at": "2026-03-19T11:24:00Z",
+      "retrieved_at": "2026-10-03 23:14:02.519265",
+      "sha256": "c4d58a56ecf95742d86d4329697a1e959d7522ff46057f642912326c5655c7bd",
+      "related_entity": "ocds-b5fd17-a64c8242-0c32-45a2-8315-2d4ab2f4dccd:ocds-b5fd17-a64c8242-0c32-45a2-8315-2d4ab2f4dccd-1"
+    }
+  ]
+}

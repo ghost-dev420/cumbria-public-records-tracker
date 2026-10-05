@@ -1,0 +1,22 @@
+{
+  "entity_id": "30b00f9913b32f0e4a39c4c55a372b39d20216dc62cd4b49c590f60a70f6a16f",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Eden Area Committee for the Under Fives",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bf75656a50269eff07ef46c6ae21ea20146c9e7d08c2d652483319405b62950c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Eden Area Committee for the Under Fives",
+      "locator": "committee 525",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "e399c793f1e4efb8ed79099462dfe4685618f9c1cfb60c97d3e9be4f8f15f31e",
+  "entity_type": "SUPPLIER",
+  "name": "pauls taxis ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "7cf0d25a7ce389c2dbd407549e8cd82e0bb7507e2d6642f72e6d585079235217",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-dbe07901-7069-40f6-8ec3-f28539bcd528-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for various areas closing 9 August 2023 (F40)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/439110c1-0721-4ba2-983e-e5ca92457dc9-891812.json",
+      "published_at": "2026-04-07T14:31:19+01:00",
+      "retrieved_at": "2026-10-03 23:18:23.924276",
+      "sha256": "48ab5df550fb4850486eb19326b2b2fbb8b0cc49e5dadcdc2f235f8d0bb3383f",
+      "related_entity": "ocds-b5fd17-dbe07901-7069-40f6-8ec3-f28539bcd528:ocds-b5fd17-dbe07901-7069-40f6-8ec3-f28539bcd528-1"
+    }
+  ]
+}

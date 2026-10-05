@@ -1,0 +1,22 @@
+{
+  "entity_id": "3dbde161e33cdde19c85fb7a8a11a3ca9d325795e32fcc098a206bcafcb8dea6",
+  "entity_type": "SUPPLIER",
+  "name": "Uncultured Creatives",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bf81919e960088ed0e52d45f5b7c0fb2f1f69909ffe79d0e8e50dda15b98708b",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3500.00",
+      "locator": "XLSX Report!row 272",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

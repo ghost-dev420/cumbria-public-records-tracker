@@ -1,0 +1,22 @@
+{
+  "entity_id": "2296652d8af1d47045e0f845383ab1240b948b0dcd80548df5f7b428d1851e4b",
+  "entity_type": "SUPPLIER",
+  "name": "Sportstrek coaching LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "416e899793eb46484f059195698ff2001af677e495be0a0b118b54957c7c26e7",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2300.00",
+      "locator": "XLSX Sheet1!row 156",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending September 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_september_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:51.769344",
+      "sha256": "aca31d6baa33340aaeaa3cd6282ac6609f5ef6894aab14582dc4ed1fb733f505",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

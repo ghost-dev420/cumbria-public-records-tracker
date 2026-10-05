@@ -1,0 +1,36 @@
+{
+  "entity_id": "d23efb044b67e5fed19bd4b2b54b1be78f4c96d2fd557a61c709d4224c13df43",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Kendal County FC [e21bcbec33e3fec2538c]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "fff425d65871fb2bdf2ca0ebfe59f2ae46727ecc42fee3d8da4bca6ec52fcdc9",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "750",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 3",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "6f627e5c6f630e6581105377ca435103036618d7621bf95d3bbb300628165376",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "750",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 3",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Kendal County FC"
+    }
+  ]
+}

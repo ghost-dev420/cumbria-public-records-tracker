@@ -1,0 +1,22 @@
+{
+  "entity_id": "9a0129610aa288732c9c1d160ddb705b3a2c82786561e21cb47ad92c59783b92",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Economy and Environment Advisory Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "66b5b568fda492505e933436c49601735a956dc3d153db838ec001b877318191",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Economy and Environment Advisory Sub-Committee",
+      "locator": "committee 750",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

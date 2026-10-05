@@ -1,0 +1,22 @@
+{
+  "entity_id": "7c0021bab108d982cd5ee5398fe9728cdfdd24d0dba4bee0d7f2cc252dee32e4",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Keswick Community Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6aaf32cffc859969575eda0e30ef4ef6f2aecfdf2d0b7262dece73bc58cbb4cd",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Keswick Community Board",
+      "locator": "committee 553",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

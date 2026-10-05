@@ -1,0 +1,22 @@
+{
+  "entity_id": "8d4342a43a4a998e1cb08f178ffe9579f8ea4dec03fa23238aadf8b00c6b6b35",
+  "entity_type": "SUPPLIER",
+  "name": "Space Invader Design Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ede134c00345adbe2e3064ff22c74fee93481eb4d047fff832dcc3515ab9f885",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-1fe800a8-3457-425f-9aa4-aa5d5aad8af6-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Cumberland Council Office Accommodation Review",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ca272b13-3038-4977-aab6-ca971c9712e9-891221.json",
+      "published_at": "2026-04-01T15:14:51+01:00",
+      "retrieved_at": "2026-10-03 23:17:40.624774",
+      "sha256": "1a4930309b88bb206ef05421f597744c550dd13853b2217d7e58e29603c586a5",
+      "related_entity": "ocds-b5fd17-1fe800a8-3457-425f-9aa4-aa5d5aad8af6:ocds-b5fd17-1fe800a8-3457-425f-9aa4-aa5d5aad8af6-1"
+    }
+  ]
+}

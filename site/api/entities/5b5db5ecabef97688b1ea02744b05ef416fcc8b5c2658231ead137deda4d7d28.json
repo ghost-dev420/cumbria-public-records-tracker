@@ -1,0 +1,22 @@
+{
+  "entity_id": "5b5db5ecabef97688b1ea02744b05ef416fcc8b5c2658231ead137deda4d7d28",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Police and Crime Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "21707c565d0dda18c38b78b0515ee2ef9e7f24784068e04c3af04f3a5cb33069",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Police and Crime Panel",
+      "locator": "committee 671",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

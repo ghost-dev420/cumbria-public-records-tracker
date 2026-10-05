@@ -1,0 +1,22 @@
+{
+  "entity_id": "36c4e36d57618dbed57bc7eeb7c7ce4d6d9b050a06b4d4e86e07961c8f2047f7",
+  "entity_type": "SUPPLIER",
+  "name": "Michael Thompson Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1d10e912dfcdf4e03976d5d926e17ad3313c214f6081da89b5201538f9dab7a9",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-4bce20f7-1a9f-4add-9696-6deb8d877a83-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Robert Ferguson Primary - Damp remediation works contract",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6602acdb-b5d4-40db-a41e-32375d146832-910476.json",
+      "published_at": "2026-08-12T17:33:40+01:00",
+      "retrieved_at": "2026-10-03 23:42:04.587008",
+      "sha256": "c5053dd8e6cdf68cda5147693e75d55a6ecc2e81bb96a8910150838c5f5d5353",
+      "related_entity": "ocds-b5fd17-4bce20f7-1a9f-4add-9696-6deb8d877a83:ocds-b5fd17-4bce20f7-1a9f-4add-9696-6deb8d877a83-1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "07548e3ec51ca1038805e3ea5bacdca9f6e84bc33de56e970a1c6d43c4885f8f",
+  "entity_type": "WARD",
+  "name": "Kendal Strickland and Fell",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "1b92fa77ad69c088514b0e6964b1557397f9d433d60d9cd35ab146a9ceb82e2d",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Kendal Strickland and Fell",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Peter Thornton"
+    },
+    {
+      "fact_id": "3f77fa94fe1de04b7762a97530f9d4f7ff1764bf1606668ffb51621b3c06b5c7",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Kendal Strickland and Fell",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Giles Archibald"
+    }
+  ]
+}

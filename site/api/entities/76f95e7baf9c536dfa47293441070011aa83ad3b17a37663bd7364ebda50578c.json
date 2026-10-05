@@ -1,0 +1,22 @@
+{
+  "entity_id": "76f95e7baf9c536dfa47293441070011aa83ad3b17a37663bd7364ebda50578c",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Performance Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "190fd83055d393bf6c3050d65211b07bfaf908b6ff80a8a8e7d1f5019316c65b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Performance Sub-Committee",
+      "locator": "committee 662",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

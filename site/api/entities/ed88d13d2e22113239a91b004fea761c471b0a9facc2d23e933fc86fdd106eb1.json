@@ -1,0 +1,22 @@
+{
+  "entity_id": "ed88d13d2e22113239a91b004fea761c471b0a9facc2d23e933fc86fdd106eb1",
+  "entity_type": "COMMITTEE",
+  "name": "BBC Lancaster and South Cumbria Joint Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4d660e63536312b6757124979bfa60a95e2c74633814bcc4445106c8204f4780",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "BBC Lancaster and South Cumbria Joint Committee",
+      "locator": "committee 404",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

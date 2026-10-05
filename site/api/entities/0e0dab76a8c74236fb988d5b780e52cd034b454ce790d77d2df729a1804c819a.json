@@ -1,0 +1,78 @@
+{
+  "entity_id": "0e0dab76a8c74236fb988d5b780e52cd034b454ce790d77d2df729a1804c819a",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-004-170",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "9659382b0e094d654c8265f0e4c7c8d06701e8990b7ed11161278fc0ee3aa005",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-004-170",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-004-170",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-004-170",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:27.215607",
+      "sha256": "db564e9d63bac0ae3a5fe6be6e24e15126e327861b1275aae2fc21eba96ed151",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "42de92935654cc8730060d03a31d689a5f3ef3d351a5951189102ff07e7c9ad9",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-004-170",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-004-170",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:27.215607",
+      "sha256": "db564e9d63bac0ae3a5fe6be6e24e15126e327861b1275aae2fc21eba96ed151",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "6c4018b2777d5a42a139ee52ca97eddde7465237d84053e59db8a39c2004f95e",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-004-170",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-004-170",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:27.215607",
+      "sha256": "db564e9d63bac0ae3a5fe6be6e24e15126e327861b1275aae2fc21eba96ed151",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d4590df6606ecce8e0bab4725ee19e7f15b15ce7aa35fd334717e5139d1f2b74",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "01 Apr 2026",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-004-170",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-004-170",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:27.215607",
+      "sha256": "db564e9d63bac0ae3a5fe6be6e24e15126e327861b1275aae2fc21eba96ed151",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "989508812bf3b5bccf810b787e4c58458a5f2ad845c7e601445a406c68ae161a",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s decision not to prosecute an NHS Trust for serving a meal to Mr X’s wife which contained ingredients to which she is allergic. We have not seen enough evidence of fault in the way the Council decided to issue the Trust with a caution instead of proceeding with a prosecution.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-004-170",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/trading-standards/25-004-170",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:27.215607",
+      "sha256": "db564e9d63bac0ae3a5fe6be6e24e15126e327861b1275aae2fc21eba96ed151",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

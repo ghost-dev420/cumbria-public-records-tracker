@@ -1,0 +1,22 @@
+{
+  "entity_id": "ef35daae411d4f3483a69c606ca10dfac67f65fd766afc6fe7fd2e5da8bcbf6e",
+  "entity_type": "SUPPLIER",
+  "name": "Randstad Solutions Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "040a5b7c6e3b0d21aebfa855cc3323ace399d047b6f06be86470b38600f5c3e5",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 4",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002734"
+    }
+  ]
+}

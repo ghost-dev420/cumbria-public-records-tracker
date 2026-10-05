@@ -1,0 +1,36 @@
+{
+  "entity_id": "8b71923929d67151553b2f3f51337a810fc339e9230258b790e5c519b8cffa93",
+  "entity_type": "SUPPLIER",
+  "name": "Archway Roadmaster UK Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "9cfa5ab33127cfaac2a266a96f8b8d2b61b6b1bc3b1caff5044bf5df8199fc98",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 562",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - Appendix of accompanying framework June 2026 ( CSV , 171.85KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_appendix_of_accompanying_framework_details_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:11:10.179158",
+      "sha256": "257d5d81a9ca797abc420ece6afa9e3ebe1c1988504bc13b30a5fe647bf10244",
+      "related_entity": "PROCONT00003340"
+    },
+    {
+      "fact_id": "58c4d29d5fa70d87938aa882f0304ee5bf0c100b9615742c6d1ccdf7a371ed55",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 280",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003340"
+    }
+  ]
+}

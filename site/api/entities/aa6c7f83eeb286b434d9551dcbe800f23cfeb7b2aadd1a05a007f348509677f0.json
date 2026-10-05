@@ -1,0 +1,78 @@
+{
+  "entity_id": "aa6c7f83eeb286b434d9551dcbe800f23cfeb7b2aadd1a05a007f348509677f0",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-008-749",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "43959abb3f4a57e6c71fd682fee34b7ffc041904b47fbc5c99a1537b490dddce",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-008-749",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-008-749",
+      "source_url": "https://www.lgo.org.uk/decisions/education/school-exclusions/25-008-749",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:16.631829",
+      "sha256": "a75ccea571fdbbe4b48d31369bc65f9afe571feebb6e3f1498db30458208ed68",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "b439371e44b687b6d793cb303e9e4389af4dcc53379387848481945f46b6dc4d",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Education",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-008-749",
+      "source_url": "https://www.lgo.org.uk/decisions/education/school-exclusions/25-008-749",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:16.631829",
+      "sha256": "a75ccea571fdbbe4b48d31369bc65f9afe571feebb6e3f1498db30458208ed68",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "fea2b3e5d52a6cd4deeeed97b798b770147e8117ddde13c7b82123edaf42881b",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-008-749",
+      "source_url": "https://www.lgo.org.uk/decisions/education/school-exclusions/25-008-749",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:16.631829",
+      "sha256": "a75ccea571fdbbe4b48d31369bc65f9afe571feebb6e3f1498db30458208ed68",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "901b5b5b73d544de1695b0b118e70fb593a68f68dd612cb89826d652c40b4a75",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "28 Oct 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-008-749",
+      "source_url": "https://www.lgo.org.uk/decisions/education/school-exclusions/25-008-749",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:16.631829",
+      "sha256": "a75ccea571fdbbe4b48d31369bc65f9afe571feebb6e3f1498db30458208ed68",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "695e228b78b8699e3c0e814f82f3789ae37931e767161d2f0aa458a1a3220b52",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We cannot investigate this complaint from Mr X about his son's Independent Review Panel (IRP) following his school exclusion. This is because we have no power to investigate the actions of IRPs for academy schools.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-008-749",
+      "source_url": "https://www.lgo.org.uk/decisions/education/school-exclusions/25-008-749",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:16.631829",
+      "sha256": "a75ccea571fdbbe4b48d31369bc65f9afe571feebb6e3f1498db30458208ed68",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "20768cd7934f5c5815e45b05c4c26d24467051880108c34c4fd6bb5878ffcba4",
+  "entity_type": "SUPPLIER",
+  "name": "HAGS-SMP Limited",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "e9e2c1a8eec7e59635abf7c7b2929e8f19ae2ba5eaefd56006da0588ea7774d3",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-7fa576e2-1d6a-43ec-b8e0-812abcf45bc7-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Design and Install a Playground at Scaws, Penrith via ESPO Framework 115_25 Lot 1",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e12bff68-46ef-4e92-8a3f-318d0c16cd0b-897862.json",
+      "published_at": "2026-05-18T13:53:18+01:00",
+      "retrieved_at": "2026-10-03 23:29:05.357388",
+      "sha256": "a8b300d42fbf61d8f4a0814be919f6acfbb034deadee9052c028a916ae9afed9",
+      "related_entity": "ocds-b5fd17-7fa576e2-1d6a-43ec-b8e0-812abcf45bc7:ocds-b5fd17-7fa576e2-1d6a-43ec-b8e0-812abcf45bc7-1"
+    },
+    {
+      "fact_id": "971fcf7cf0d5f645ad3564ed4bd51e65a47f47a167d61f25a21e8fb2d7e0424b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-fb2c4fc0-e39f-4a56-b7f3-5441a1d23dd4-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Design and Install a Playground at Hall Park 3, Burneside LA9 6QF via ESPO Framework 115_25 Lot 1",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6cc4e912-60cf-4f34-94c8-3aca35973e4b-880710.json",
+      "published_at": "2026-01-26T13:56:09Z",
+      "retrieved_at": "2026-10-03 23:06:28.910060",
+      "sha256": "2db2eee60f09367aa8ca8d94dc5c48ad4778a42796a3cbf1ef4c7b3c03550704",
+      "related_entity": "ocds-b5fd17-fb2c4fc0-e39f-4a56-b7f3-5441a1d23dd4:ocds-b5fd17-fb2c4fc0-e39f-4a56-b7f3-5441a1d23dd4-1"
+    }
+  ]
+}

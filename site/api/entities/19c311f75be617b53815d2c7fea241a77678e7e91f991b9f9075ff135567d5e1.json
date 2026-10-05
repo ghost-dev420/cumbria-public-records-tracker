@@ -1,0 +1,78 @@
+{
+  "entity_id": "19c311f75be617b53815d2c7fea241a77678e7e91f991b9f9075ff135567d5e1",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-010-125",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "9104d2a14cd832d89e8ce2ec3af0616413f30f3c84e461c51aaf0876ed5bb5d3",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-010-125",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-010-125",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-010-125",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:50.702029",
+      "sha256": "69fed13d45e4fd97307dc4207657334f2af1bf21cdfc6f6b5d601b3719aa72cb",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c68aacfb26901805ffd29632e3ce759129b6eb0233236fa6371d53830c91cda3",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Education",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-010-125",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-010-125",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:50.702029",
+      "sha256": "69fed13d45e4fd97307dc4207657334f2af1bf21cdfc6f6b5d601b3719aa72cb",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "f403318d7fce2713e155bf805b9a1948055ab29afd6ecc667025cf6faeea3040",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-010-125",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-010-125",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:50.702029",
+      "sha256": "69fed13d45e4fd97307dc4207657334f2af1bf21cdfc6f6b5d601b3719aa72cb",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "35943489155824aa0c086584229ad895d9b088138803e926ae37487dd552a071",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "15 May 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-010-125",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-010-125",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:50.702029",
+      "sha256": "69fed13d45e4fd97307dc4207657334f2af1bf21cdfc6f6b5d601b3719aa72cb",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "1cf6d6964627c722da2267a9a8b6dcfaca04b843465f83e4e85fa948ef61454c",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "There was delay by the Council in assessing Mr X’s child’s special educational needs and issuing a final Educational, Health and Care Plan that provided additional support. There was also fault in failing to consider if the Council’s duty under s.19 Education Act to provide full-time education was triggered, or to keep a part-time timetable under review. As a result, Mr X’s child did not receive alternative education on par with what they could expect to receive in school. There was also service failure in the transfer of records. The Council has agreed to apologise, make a symbolic payment and make service improvements.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-010-125",
+      "source_url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/24-010-125",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:50.702029",
+      "sha256": "69fed13d45e4fd97307dc4207657334f2af1bf21cdfc6f6b5d601b3719aa72cb",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "2104c4e51b9ba865c355213ba725c7abd23ae417cf54fc2b17f48629238c6c98",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-020-970",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "c45b2f71274defac4a99bb75330d3c8df38b756ea83b8d48a2fe07e696247a49",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-020-970",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-020-970",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/24-020-970",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:57.927842",
+      "sha256": "0dda36687f13a3852f64fe58b98f8243a2a0173d01db93e3996e8bed3b83c766",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "6168dd6a73f604608f06e6c4da73405f01824ee7ac1c86eba912c751fd643ef3",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Transport and highways",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-020-970",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/24-020-970",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:57.927842",
+      "sha256": "0dda36687f13a3852f64fe58b98f8243a2a0173d01db93e3996e8bed3b83c766",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "41424dc870e34d0c52c7447b7ee790da998a98b5f12c06853f8b815c66b47047",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-020-970",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/24-020-970",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:57.927842",
+      "sha256": "0dda36687f13a3852f64fe58b98f8243a2a0173d01db93e3996e8bed3b83c766",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "b95df1354b4b1db9736f77da9d104c52660d5b25f4962cec987d58973ea5d2b6",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "28 Apr 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-020-970",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/24-020-970",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:57.927842",
+      "sha256": "0dda36687f13a3852f64fe58b98f8243a2a0173d01db93e3996e8bed3b83c766",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e67606bca91adcebc346e418a43e727947eee1f4b71f2da343ea9633d802329a",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about a Penalty Charge Notice because the complainant could have appealed to the tribunal.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-020-970",
+      "source_url": "https://www.lgo.org.uk/decisions/transport-and-highways/parking-and-other-penalties/24-020-970",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:57.927842",
+      "sha256": "0dda36687f13a3852f64fe58b98f8243a2a0173d01db93e3996e8bed3b83c766",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

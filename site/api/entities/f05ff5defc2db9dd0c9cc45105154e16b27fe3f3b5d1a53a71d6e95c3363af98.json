@@ -1,0 +1,22 @@
+{
+  "entity_id": "f05ff5defc2db9dd0c9cc45105154e16b27fe3f3b5d1a53a71d6e95c3363af98",
+  "entity_type": "WARD",
+  "name": "Castle",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b0476187a83ae880cff039fcc37268f33e2108e6ba89273f9ebfab11fa3e8b23",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Castle",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Anne Glendinning"
+    }
+  ]
+}

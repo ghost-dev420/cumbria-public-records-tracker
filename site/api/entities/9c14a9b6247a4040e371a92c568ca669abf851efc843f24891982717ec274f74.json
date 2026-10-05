@@ -1,0 +1,22 @@
+{
+  "entity_id": "9c14a9b6247a4040e371a92c568ca669abf851efc843f24891982717ec274f74",
+  "entity_type": "SUPPLIER",
+  "name": "PEACHYKEEN LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "01f6c2812b854a18d0d7d7ed75d3226f964ac8ab2d93547488e72a9ff09de38a",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "850.00",
+      "locator": "XLSX Sheet1!row 13",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

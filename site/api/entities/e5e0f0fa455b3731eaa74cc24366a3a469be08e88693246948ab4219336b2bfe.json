@@ -1,0 +1,22 @@
+{
+  "entity_id": "e5e0f0fa455b3731eaa74cc24366a3a469be08e88693246948ab4219336b2bfe",
+  "entity_type": "SUPPLIER",
+  "name": "Pell Frischmann Consulting Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ac8936637242a13912feb946deb419aff7be6b14a41777da2ef6c07f7f546084",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 41",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003624"
+    }
+  ]
+}

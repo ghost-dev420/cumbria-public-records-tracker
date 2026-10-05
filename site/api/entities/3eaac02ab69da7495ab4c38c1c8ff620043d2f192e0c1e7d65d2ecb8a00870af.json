@@ -1,0 +1,78 @@
+{
+  "entity_id": "3eaac02ab69da7495ab4c38c1c8ff620043d2f192e0c1e7d65d2ecb8a00870af",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-013-351",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "d6ca5b217654fa7fbd2af14c2b9f581c145bd133ef27a0d9bf319a5fc9e964d0",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-013-351",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-351",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/24-013-351",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:06.609542",
+      "sha256": "84dfaa0b06e3025c629b6344d8fd540e3a0058b25b9b9a4867f59b45b44be3c0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "69dd016b08a5da44a9eff9f175dfbee433cac68f07c876cfd2d5868bc3f13cc3",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Other Categories",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-351",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/24-013-351",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:06.609542",
+      "sha256": "84dfaa0b06e3025c629b6344d8fd540e3a0058b25b9b9a4867f59b45b44be3c0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "2f85dd41ddde9595ced9c20156cc9f6a40e9ac9de71177ab43fc1718847b768a",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-351",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/24-013-351",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:06.609542",
+      "sha256": "84dfaa0b06e3025c629b6344d8fd540e3a0058b25b9b9a4867f59b45b44be3c0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "76fd45088918e679c22b50cd12cdfb16c0aaa39a15acadfefee12faae0f57008",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "29 Oct 2024",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-351",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/24-013-351",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:06.609542",
+      "sha256": "84dfaa0b06e3025c629b6344d8fd540e3a0058b25b9b9a4867f59b45b44be3c0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ddd19556703526504ceac37ffae8c8cc148f4696887c301f4478f9c0983cbb0b",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s delay in providing information to Mr X. This is because the complaint does not meet the tests in our Assessment Code on how we decide which complaints to investigate. There is insufficient evidence of injustice to warrant an Ombudsman investigation.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-013-351",
+      "source_url": "https://www.lgo.org.uk/decisions/other-categories/other/24-013-351",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:58:06.609542",
+      "sha256": "84dfaa0b06e3025c629b6344d8fd540e3a0058b25b9b9a4867f59b45b44be3c0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

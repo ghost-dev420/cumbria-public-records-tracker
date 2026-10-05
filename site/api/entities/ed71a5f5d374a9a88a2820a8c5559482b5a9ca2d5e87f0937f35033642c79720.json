@@ -1,0 +1,22 @@
+{
+  "entity_id": "ed71a5f5d374a9a88a2820a8c5559482b5a9ca2d5e87f0937f35033642c79720",
+  "entity_type": "ORGANISATION",
+  "name": "Sedbergh People’s Hall",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b11e93c986b4f929be27e8dc93013238369a3349dd7ce04a8ab0a0a77e054b02",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1500",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 17",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round 2 in 2025 to 2026: Sedbergh People’s Hall [31820f966908fdcd09af]"
+    }
+  ]
+}

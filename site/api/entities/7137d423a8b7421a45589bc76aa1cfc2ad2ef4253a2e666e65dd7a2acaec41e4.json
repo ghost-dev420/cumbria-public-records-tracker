@@ -1,0 +1,22 @@
+{
+  "entity_id": "7137d423a8b7421a45589bc76aa1cfc2ad2ef4253a2e666e65dd7a2acaec41e4",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Joint CSP Overview and Scrutiny Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "610d88ab03f2bf10dbbe2273903b02d1594c5c80eb50a7750ed3c67bc1fcc4ef",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Joint CSP Overview and Scrutiny Committee",
+      "locator": "committee 366",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "d3a29a695a92ada38c698a28b639b03a89ee0cacc6c7c87b4af070f9b9ff7456",
+  "entity_type": "SUPPLIER",
+  "name": "Vodafone Limited",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "da33917ade6f4da03afdf5610072ca4ca4fbbe5c78dd079d383967e89241cf0e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-077c5fde-6eeb-417e-a4e7-9f95be02f518-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Mobile Voice and Data and Device Management",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7985a57a-5960-447c-92b6-ed4c859d03ee-914192.json",
+      "published_at": "2026-09-15T13:52:50+01:00",
+      "retrieved_at": "2026-10-03 23:47:28.283750",
+      "sha256": "7b8cbb4dea53dd854a83978de131c6dba86ca6db1333011622f116f829179492",
+      "related_entity": "ocds-b5fd17-077c5fde-6eeb-417e-a4e7-9f95be02f518:ocds-b5fd17-077c5fde-6eeb-417e-a4e7-9f95be02f518-1"
+    }
+  ]
+}

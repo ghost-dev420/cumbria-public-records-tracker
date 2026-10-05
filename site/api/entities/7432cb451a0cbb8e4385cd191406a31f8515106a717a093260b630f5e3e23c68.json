@@ -1,0 +1,22 @@
+{
+  "entity_id": "7432cb451a0cbb8e4385cd191406a31f8515106a717a093260b630f5e3e23c68",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Pilot Community Board - North East Copeland",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3c7d5ceb723b02fa02a19638614070a3fdfd91482559abd394bbe0bf8f8b188d",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Pilot Community Board - North East Copeland",
+      "locator": "committee 574",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

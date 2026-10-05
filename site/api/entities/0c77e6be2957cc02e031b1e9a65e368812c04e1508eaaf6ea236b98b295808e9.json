@@ -1,0 +1,22 @@
+{
+  "entity_id": "0c77e6be2957cc02e031b1e9a65e368812c04e1508eaaf6ea236b98b295808e9",
+  "entity_type": "WARD",
+  "name": "Corby and Hayton",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "91a2b4c6e9c1d267e383794283b03946999f8e512774bd4937c32915d761e83b",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Corby and Hayton",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Roger Dobson"
+    }
+  ]
+}

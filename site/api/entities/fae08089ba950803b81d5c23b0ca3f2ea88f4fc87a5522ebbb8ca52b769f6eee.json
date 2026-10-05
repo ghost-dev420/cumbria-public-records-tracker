@@ -1,0 +1,22 @@
+{
+  "entity_id": "fae08089ba950803b81d5c23b0ca3f2ea88f4fc87a5522ebbb8ca52b769f6eee",
+  "entity_type": "SUPPLIER",
+  "name": "Metcalfe Plant Hire",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "45abcc31cddbf4399d9e35d977a2ee5de2923dc516b40c582d675b4881d288aa",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-c80089db-e38a-4733-8bd2-6d683643fc75-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "CWF Lot 2B C76 Durranhill Viaduct C1045 - Remedial Works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8b1d8518-61e3-4e60-aeb8-841aa2060a61-872552.json",
+      "published_at": "2025-11-18T11:16:24Z",
+      "retrieved_at": "2026-10-03 22:57:21.361481",
+      "sha256": "86139a564c19b19d4531e725d3c8cd55e7fb05e404f7433e301db9bdceb9fe7c",
+      "related_entity": "ocds-b5fd17-c80089db-e38a-4733-8bd2-6d683643fc75:ocds-b5fd17-c80089db-e38a-4733-8bd2-6d683643fc75-1"
+    }
+  ]
+}

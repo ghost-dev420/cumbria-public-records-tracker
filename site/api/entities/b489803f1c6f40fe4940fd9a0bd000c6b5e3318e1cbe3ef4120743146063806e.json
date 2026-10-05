@@ -1,0 +1,22 @@
+{
+  "entity_id": "b489803f1c6f40fe4940fd9a0bd000c6b5e3318e1cbe3ef4120743146063806e",
+  "entity_type": "SUPPLIER",
+  "name": "Farrell and Clark",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "961f34599918693d7141164fd83cd659136bb6822631696b9dc4f98cdd263fea",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-cc0cf8f5-59c7-47fa-96b6-1ed44aba2ab7-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "PSF4 Lot 1A - Monkswell Repurposing Project, Kendal",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/094ece2f-3b08-4d16-b65e-60aa12668c10-915026.json",
+      "published_at": "2026-09-23T08:26:19+01:00",
+      "retrieved_at": "2026-10-03 23:50:40.678166",
+      "sha256": "a1d6c58229b714fea69999acf706911fdc08860db2b5d660d625ecf8b6043493",
+      "related_entity": "ocds-b5fd17-cc0cf8f5-59c7-47fa-96b6-1ed44aba2ab7:ocds-b5fd17-cc0cf8f5-59c7-47fa-96b6-1ed44aba2ab7-1"
+    }
+  ]
+}

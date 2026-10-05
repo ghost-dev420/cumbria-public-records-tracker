@@ -1,0 +1,22 @@
+{
+  "entity_id": "8904eb2a7b8dac84efb66d71261b432033ad5f860892c9a8e447200e2d9fdf13",
+  "entity_type": "SUPPLIER",
+  "name": "NHS Fleet Solutions c/o Northumbria Healthcare NHS Foundation Tr",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "365342eed4ef87d2e794eb8e9327a3a0554a9aca45823142bec739a98a2e0f1a",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-ce30ae34-ac88-4f19-ba3a-fb3b30772d99-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Vehicle Lease, Fleet Management and Salary Sacrifice Car Scheme (Staff Benefit)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ac6c4b1d-a618-400b-b75f-22e284bad429-878235.json",
+      "published_at": "2026-01-07T11:29:28Z",
+      "retrieved_at": "2026-10-03 23:02:19.114882",
+      "sha256": "f94411208f0b84202ffbe9024cf532e994b8c6dd08687fa4df5679e130a888ae",
+      "related_entity": "ocds-b5fd17-ce30ae34-ac88-4f19-ba3a-fb3b30772d99:ocds-b5fd17-ce30ae34-ac88-4f19-ba3a-fb3b30772d99-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "53c4e1583cce0bd4327651d1f55ae5d06f5e065340920fa0f390aee7706183a5",
+  "entity_type": "SUPPLIER",
+  "name": "PFD (Carlisle) Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "76d0843d9f341993a1d1fb7c2546dbcc4573fe7ca5156523ed1d713917568624",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 297",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-051fdf"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "3bc523eeeb0622b36050b74cdbcc137b63fb84b5461a3f4778ef90292b4af37b",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Single Status Working Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "df4c37c97a5cd0e568ff25f09cb7de21e3187ce2d692e320120d027556fd2608",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Single Status Working Group",
+      "locator": "committee 841",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

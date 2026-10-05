@@ -1,0 +1,78 @@
+{
+  "entity_id": "8d7e1f241bbf93d2c24cf7f452be1e0800bd4e50bd499828fe8a84a629fd7a3f",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-014-964",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "307a6e267e441e7c793e0efde09413c02d3b6190f58861f5836b99d8718da4c4",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-014-964",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-014-964",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/24-014-964",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:38.624804",
+      "sha256": "093ce24b09e1f4b0ab56340959ea81b310333e9e94b67bb72f4b5b86e1e7009d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "861ca7fdc14e40eb01976b0140743de7ab230ecd71c5d74cb64a84bbbeb45620",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Environment and regulation",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-014-964",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/24-014-964",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:38.624804",
+      "sha256": "093ce24b09e1f4b0ab56340959ea81b310333e9e94b67bb72f4b5b86e1e7009d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "990f66b57f793c4fe2f1de285efe7a97e32a3a73610ed87157c124fa8125c8f8",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-014-964",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/24-014-964",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:38.624804",
+      "sha256": "093ce24b09e1f4b0ab56340959ea81b310333e9e94b67bb72f4b5b86e1e7009d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ff6a2212e14e832961ef8bb5f739c4970c6aa3f7c3ee02f7e37471b443fa5c8d",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "05 Feb 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-014-964",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/24-014-964",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:38.624804",
+      "sha256": "093ce24b09e1f4b0ab56340959ea81b310333e9e94b67bb72f4b5b86e1e7009d",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "6174bca335fa52751c6b6d3e696a2d87be4035bcde471d75d441d6aa3301342a",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate Mr X’s complaint about how the Council handled an appeal of a food hygiene rating. The courts are better placed to consider his complaint, and we could not achieve the outcome he wants.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-014-964",
+      "source_url": "https://www.lgo.org.uk/decisions/environment-and-regulation/licensing/24-014-964",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:38.624804",
+      "sha256": "093ce24b09e1f4b0ab56340959ea81b310333e9e94b67bb72f4b5b86e1e7009d",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

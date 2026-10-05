@@ -1,0 +1,22 @@
+{
+  "entity_id": "4dcab2b5c13bc6306f9265c20f9c28590311c81c65b6ce933a8f56d88ecf0e00",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Licensing Regulatory Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "3b70ee6fcfe56b56ea8f2483c0aefb66b26835ca37e8ea5198fabe3cd409fb65",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Licensing Regulatory Sub-Committee",
+      "locator": "committee 658",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

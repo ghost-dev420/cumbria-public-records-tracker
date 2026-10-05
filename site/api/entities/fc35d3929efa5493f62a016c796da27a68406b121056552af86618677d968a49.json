@@ -1,0 +1,36 @@
+{
+  "entity_id": "fc35d3929efa5493f62a016c796da27a68406b121056552af86618677d968a49",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2025 to 2026: Cumbria Yoga Foundation [f1aabb5a7e96ef8fdc05]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "310d42ceaf9d36ed319b6bfc4b48caff9b891224d8fff4f1dc780385fd530268",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1070",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 8",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "125580974d7472ab52ea0e49149e56ace9b2f711b1d4690f2b0fe092624cd8ab",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1070",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 8",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Cumbria Yoga Foundation"
+    }
+  ]
+}

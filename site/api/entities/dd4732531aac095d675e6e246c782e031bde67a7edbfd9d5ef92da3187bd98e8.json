@@ -1,0 +1,22 @@
+{
+  "entity_id": "dd4732531aac095d675e6e246c782e031bde67a7edbfd9d5ef92da3187bd98e8",
+  "entity_type": "COMMITTEE",
+  "name": "BBC Planning Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "db6301b825c1323e6a9318a04bc6f6a2c3c4c0c94cf3e6d6ccfc3f063f18d6e3",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "BBC Planning Committee",
+      "locator": "committee 410",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

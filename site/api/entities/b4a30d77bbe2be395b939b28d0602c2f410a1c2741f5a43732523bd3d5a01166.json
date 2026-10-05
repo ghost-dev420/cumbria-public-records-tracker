@@ -1,0 +1,22 @@
+{
+  "entity_id": "b4a30d77bbe2be395b939b28d0602c2f410a1c2741f5a43732523bd3d5a01166",
+  "entity_type": "SUPPLIER",
+  "name": "JEFF TAYLOR JEFF TAYLOR",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f163147c6849ffb3465786748d38c69c0d8d51d6a0ecbf3fb041002531afb140",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "125.00",
+      "locator": "XLSX Sheet 1!row 279",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "3c707c5efe4b253018bd2c7ac327a5128ab85d9f6d079ec78a8e7321583f4628",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Scrutiny Advisory Board - Safe, Stronger and Inclusive Communities",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ec0e352e5eeb868f0ba2c6373091e3a3c5a974895c2fa9dcc966696ac459e0a9",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Scrutiny Advisory Board - Safe, Stronger and Inclusive Communities",
+      "locator": "committee 455",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

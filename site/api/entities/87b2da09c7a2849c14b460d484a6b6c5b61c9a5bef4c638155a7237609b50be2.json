@@ -1,0 +1,22 @@
+{
+  "entity_id": "87b2da09c7a2849c14b460d484a6b6c5b61c9a5bef4c638155a7237609b50be2",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Joint Community-Corporate Overview and Scrutiny Committees",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "435a358694d56756a685ed7b937ee5c9b16631a1fe76a14cf7d7315f9f4a4a8a",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Joint Community-Corporate Overview and Scrutiny Committees",
+      "locator": "committee 364",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

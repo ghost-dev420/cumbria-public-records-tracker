@@ -1,0 +1,22 @@
+{
+  "entity_id": "91c3a93e5f1cf258d265bbf91c4dc4d7f29a8ce63460b1344d76cb2ca3321697",
+  "entity_type": "WARD",
+  "name": "Egremont North and St Bees",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "9db62dd4a78b85976b1ea0d7d510147ea7408d47ef4d6bfd138285ffe49cbd46",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Egremont North and St Bees",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:21:28.600295",
+      "sha256": "d18ed3703a106a903f11577170a7d2166bfa2ea26546e4df0e29f21eb3d4c867",
+      "related_entity": "Graham Minshaw"
+    }
+  ]
+}

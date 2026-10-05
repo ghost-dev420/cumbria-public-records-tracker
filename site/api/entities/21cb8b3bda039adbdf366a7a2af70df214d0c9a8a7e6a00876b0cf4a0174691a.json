@@ -1,0 +1,22 @@
+{
+  "entity_id": "21cb8b3bda039adbdf366a7a2af70df214d0c9a8a7e6a00876b0cf4a0174691a",
+  "entity_type": "SUPPLIER",
+  "name": "04/04/2026",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e83d5db0fb9cf49cc661ad946e6b3cf91ee023dd2896ee76a47358131a4190d5",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 432",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "CNTR0010851"
+    }
+  ]
+}

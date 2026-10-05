@@ -1,0 +1,22 @@
+{
+  "entity_id": "cad630fb2738e512fc1187f17c924cdfcc029b531a9950b9ed2219eab393590c",
+  "entity_type": "SUPPLIER",
+  "name": "THEATRE BY THE LAKE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "c10a32bd1ae52c9dc29010744897d25496d55ae6df6a43d098921677ddebd156",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "550.00",
+      "locator": "XLSX Sheet1!row 9",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "9e436a528dd9ffea66c4c113fb49768a0a913b00291e991f0a2c474724943174",
+  "entity_type": "SUPPLIER",
+  "name": "PROACTIS LIMITED",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "42a12365e80f34fb5440fbac462fbbe1ac5768b5d9cb9cec7afad3e22660ddbe",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2200.00",
+      "locator": "XLSX Sheet1!row 562",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

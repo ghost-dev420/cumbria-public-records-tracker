@@ -1,0 +1,22 @@
+{
+  "entity_id": "fea22bc2432920b4f88bd74a6643e25541073cfe7848509d8bec2ebba78bac4d",
+  "entity_type": "COMMITTEE",
+  "name": "SLDC Housing Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "e94101f5c35a42f9c0b5cc2267389927fc61f717fe3b6b4db7b0579b91ed7684",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "SLDC Housing Committee",
+      "locator": "committee 693",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "2db0d7a58a081a7933104c048805f29d7912ed1ecbf7e040c3e93d96a110e3d6",
+  "entity_type": "SUPPLIER",
+  "name": "TakeawayAtHome TakeawayAtHome",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "8fc0711a36d3f23ce5246ff8136ad3da76f4dd0770392694a7039a5632709bba",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "1170.00",
+      "locator": "XLSX Report!row 109",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

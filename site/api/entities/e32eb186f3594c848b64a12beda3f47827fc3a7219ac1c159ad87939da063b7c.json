@@ -1,0 +1,36 @@
+{
+  "entity_id": "e32eb186f3594c848b64a12beda3f47827fc3a7219ac1c159ad87939da063b7c",
+  "entity_type": "SUPPLIER",
+  "name": "PRINT POINT CARLISLE LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "0a686e3c0e72dcbcfa6f08850e194452e9e9edb720ebbd61738aa00e292cf0e0",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "25.00",
+      "locator": "XLSX Report!row 123",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c02bf11a6a1ab69e40736b482756f36caf3ef8b12cf789547096cd401ed5ef55",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "524.00",
+      "locator": "XLSX Report!row 124",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

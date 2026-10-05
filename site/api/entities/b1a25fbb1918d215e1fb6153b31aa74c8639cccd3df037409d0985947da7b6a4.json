@@ -1,0 +1,22 @@
+{
+  "entity_id": "b1a25fbb1918d215e1fb6153b31aa74c8639cccd3df037409d0985947da7b6a4",
+  "entity_type": "ORGANISATION",
+  "name": "Ford Park, Ulverston",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "bf919f0fe225fd23182aa1725388cbe8a3889e58cf5f0a05f9905e9d50c9a98f",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 7",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Successful grants from round one in 2025 to 2026: Ford Park, Ulverston [2ad797e04bd804a54513]"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "48637f3c7283acf2b556d42cf6973b94d2b325594b9a97b205b7f6141a3a5fc6",
+  "entity_type": "SUPPLIER",
+  "name": "Viesturs Kornis",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2e40960aae3bcf739753624589da846f0fc1a93b71c942d35987ee43a82f4f54",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-31647fe9-031e-464e-a144-0e0148de826c-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - Up to 8 passenger seats for Out of County area closing 26 January 2026 (F39)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9e32aefc-df54-4a00-a09e-113a5773f311-891742.json",
+      "published_at": "2026-04-07T11:04:30+01:00",
+      "retrieved_at": "2026-10-03 23:18:35.455363",
+      "sha256": "476c7305f9f0487cfe3b4fe42c65711c2748b5303ca45e2ae190073825a1dc31",
+      "related_entity": "ocds-b5fd17-31647fe9-031e-464e-a144-0e0148de826c:ocds-b5fd17-31647fe9-031e-464e-a144-0e0148de826c-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "d2f718212de37234aeb20ba80097b1861898836fba7c175d772916d0a2c995ad",
+  "entity_type": "SUPPLIER",
+  "name": "Jacobs UK Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f4b00cdbb2b8193c634d4833ff5d3069b1a67c2d3d0c2eec9c188f3118fde1ef",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5b54a9c1-cba0-414b-afb1-cdbbb40ab8e4-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Cumbria Highway Assignment Model & Travel Demand Estimate",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d605fe03-fd7c-4fd3-808a-333f46005b41-914646.json",
+      "published_at": "2026-09-18T11:20:28+01:00",
+      "retrieved_at": "2026-10-03 23:47:58.610639",
+      "sha256": "f6e087feaf9daf8d829fc68c0d1395dfd053d0446146a7d966a584ad599ecdf8",
+      "related_entity": "ocds-b5fd17-5b54a9c1-cba0-414b-afb1-cdbbb40ab8e4:ocds-b5fd17-5b54a9c1-cba0-414b-afb1-cdbbb40ab8e4-1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "ab205f5c2ddfc59e76d2163528b5e6309d1e0ee2fde542158fca39ca6fdf0479",
+  "entity_type": "COMMITTEE",
+  "name": "South Lakeland Local Area Planning Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "216aa9d90a171062294be9664f95a2d094aae400fb8c7c23b920dcb7288fcac4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "South Lakeland Local Area Planning Committee",
+      "locator": "committee 265",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

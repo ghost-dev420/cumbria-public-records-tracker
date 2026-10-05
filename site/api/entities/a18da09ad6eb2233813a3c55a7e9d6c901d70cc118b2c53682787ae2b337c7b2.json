@@ -1,0 +1,36 @@
+{
+  "entity_id": "a18da09ad6eb2233813a3c55a7e9d6c901d70cc118b2c53682787ae2b337c7b2",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2026 to 2027: The Well Communities [943c1e290505d6e64dd3]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "89b27b090413e1015cc82c7c8559fe0af4769707d9963074661f27e61ab6152a",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1172",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 4",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "97536b880f4a17ed3424b25bad96a44041a5a8497b8c0394ec7387d934aad9c6",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1172",
+      "locator": "Successful grants from round one in 2026 to 2027; list item 4",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "The Well Communities"
+    }
+  ]
+}

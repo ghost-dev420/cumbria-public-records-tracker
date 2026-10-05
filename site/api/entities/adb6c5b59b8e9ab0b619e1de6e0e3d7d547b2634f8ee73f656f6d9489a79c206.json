@@ -1,0 +1,36 @@
+{
+  "entity_id": "adb6c5b59b8e9ab0b619e1de6e0e3d7d547b2634f8ee73f656f6d9489a79c206",
+  "entity_type": "SUPPLIER",
+  "name": "WIGTON RUFC",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "cd3db47f7dab34703a0d378ee6f0cc37d93ee547a56199591a5059499e388652",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "5742.00",
+      "locator": "XLSX Sheet1!row 355",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending November 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_november_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:02.077869",
+      "sha256": "506d2003ec12b83de1332db6d1b97d56a85df8d81af3ddbc41bbe04129367b24",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "18c5c28c0647058879588f4e86b2b7ebe315ab308983369bafdbf5dc24405a69",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "638.00",
+      "locator": "XLSX Report!row 296",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending February 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_february_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:56.390487",
+      "sha256": "618f29cb652b9a726fcc4f73f44a5169b7ceb500517a18904e641a8ef5ac2ccc",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

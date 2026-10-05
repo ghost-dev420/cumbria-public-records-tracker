@@ -1,0 +1,22 @@
+{
+  "entity_id": "20075c34f777cf264fe11a65f45c1c044c1eb9078e8a8fe1e9a3dc1437fd26bc",
+  "entity_type": "SUPPLIER",
+  "name": "IHS GLOBAL INC",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "649953f3286fbe44dcff475c375d23125704013ea5e00c76b700606e0071e123",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3136.50",
+      "locator": "XLSX Sheet1!row 247",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending August 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_august_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:54.533814",
+      "sha256": "d228eeb71a80cf04e9ac88b23c8779d7aad994d3d2e2e4a7c2f5a7114e4ab93f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

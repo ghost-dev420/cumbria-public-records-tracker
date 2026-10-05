@@ -1,0 +1,22 @@
+{
+  "entity_id": "c4bb66bc4a7c342c45572f69e540c3466625e40d8ae03c269cd3a80ebd0d8ae4",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Cumbria Employment & Skills Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "50efa40f5dca578bdf514d060dbd7279083cb2aa1fa1fe01b09ba48ca0a184f5",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Cumbria Employment & Skills Board",
+      "locator": "committee 510",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "2f83b808f19f17f7298d6dad40d542d67304399bc284dfcfe47f76f7b786e2ba",
+  "entity_type": "SUPPLIER",
+  "name": "Blachere Illumination",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "37590875bb7ffc45b188d77e8fd4afcf5f1231d2e97284c2fe08b4d6a6e86f70",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 100",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002221"
+    }
+  ]
+}

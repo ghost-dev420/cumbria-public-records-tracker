@@ -1,0 +1,22 @@
+{
+  "entity_id": "93ed0f06f619499f16d5f520545709fe65167946bd838984939d110e5757d307",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Allerdale LC and Allerdale Borough Liaison Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4e00b8d2fe8c260f98865b1b40c7485168c9c8d930811ab66b6f205e50c00d98",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Allerdale LC and Allerdale Borough Liaison Group",
+      "locator": "committee 469",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

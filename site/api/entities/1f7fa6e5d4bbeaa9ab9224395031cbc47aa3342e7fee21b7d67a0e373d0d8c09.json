@@ -1,0 +1,50 @@
+{
+  "entity_id": "1f7fa6e5d4bbeaa9ab9224395031cbc47aa3342e7fee21b7d67a0e373d0d8c09",
+  "entity_type": "WARD",
+  "name": "Ormsgill and Parkside",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "11e810020a56fa3c5241c4898a9affdd90d17ece645948161c687439c1ae555d",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Ormsgill and Parkside",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Beverly Morgan"
+    },
+    {
+      "fact_id": "2d5b15c256497606b7a9a0820776f66089f298869936eef841da066af192063f",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Ormsgill and Parkside",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Bill McEwan"
+    },
+    {
+      "fact_id": "4445f29de3b21bdb06bad50d210cb5868fedc18510e8f13b4d4a69f2d0a21be3",
+      "fact_type": "WARD",
+      "predicate": "REPRESENTS_WARD",
+      "value": null,
+      "locator": "ward: Ormsgill and Parkside",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCouncillorsByWard",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCouncillorsByWard",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:24:00.264070",
+      "sha256": "0971623cda58e4c665ddc6736b36673ecc0ac8e3828a6d80407fc89565ea6b8b",
+      "related_entity": "Derek Brook"
+    }
+  ]
+}

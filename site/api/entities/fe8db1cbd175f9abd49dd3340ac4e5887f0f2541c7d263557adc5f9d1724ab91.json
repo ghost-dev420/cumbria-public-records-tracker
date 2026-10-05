@@ -1,0 +1,78 @@
+{
+  "entity_id": "fe8db1cbd175f9abd49dd3340ac4e5887f0f2541c7d263557adc5f9d1724ab91",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-005-435",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "0f835aa7b3f979104ceedf96f2ff40282842d0eeeeb88c3c7d9980a77edd3133",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-005-435",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-435",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/friends-and-family-carers/24-005-435",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:47.015110",
+      "sha256": "0bf9e31d294b812041b195da53b91b99e616d7c376f709904168fc96b01cb9b3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "146c7a87919dc382c4ede218df953e2c48461304df51889f1eddeeb8998d71c7",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Children's care services",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-435",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/friends-and-family-carers/24-005-435",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:47.015110",
+      "sha256": "0bf9e31d294b812041b195da53b91b99e616d7c376f709904168fc96b01cb9b3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4958fd9a754f36e12ce77d46805ac91caeb3c5db4c6d15b50d1e88364a14216b",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-435",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/friends-and-family-carers/24-005-435",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:47.015110",
+      "sha256": "0bf9e31d294b812041b195da53b91b99e616d7c376f709904168fc96b01cb9b3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "5f2280f59701367af7d66bdf6c92cb6007757503efef7a5e7a9043853c5d2a22",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "08 Jan 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-435",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/friends-and-family-carers/24-005-435",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:47.015110",
+      "sha256": "0bf9e31d294b812041b195da53b91b99e616d7c376f709904168fc96b01cb9b3",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "38901901c28fe3e386b57ec7d382a369cbd216234b9f58946241e70db41421dc",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "The complainant (Mrs X) said the Council failed to comply with the statutory timescales when considering her complaint through the children’s statutory complaint procedure. Mrs X also complained about the unsatisfactory remedies offered by the Council. We found fault with the Council’s delay. The Council agreed an extra remedy of a symbolic payment.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-005-435",
+      "source_url": "https://www.lgo.org.uk/decisions/children-s-care-services/friends-and-family-carers/24-005-435",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:57:47.015110",
+      "sha256": "0bf9e31d294b812041b195da53b91b99e616d7c376f709904168fc96b01cb9b3",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

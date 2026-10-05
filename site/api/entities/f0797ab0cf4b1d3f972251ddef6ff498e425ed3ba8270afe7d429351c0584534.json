@@ -1,0 +1,22 @@
+{
+  "entity_id": "f0797ab0cf4b1d3f972251ddef6ff498e425ed3ba8270afe7d429351c0584534",
+  "entity_type": "SUPPLIER",
+  "name": "PK Engineering",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "f97877df24bac628f07cb158991e104f7f4102b33666883f5892f6035c359ff4",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-5b4830b3-2e24-49ad-8e90-f0506eee32e4-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Property Minor Framework - Beacon Hill School - Hot and Cold Water Distribution System Replacement",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8aea0a6d-d171-40ba-b9ab-9092a17d5605-895555.json",
+      "published_at": "2026-04-30T11:46:57+01:00",
+      "retrieved_at": "2026-10-03 23:25:18.728435",
+      "sha256": "6195c86ae274023bfcfabe65415e2734fec8ca267d2e8b51449280b3f77eb081",
+      "related_entity": "ocds-b5fd17-5b4830b3-2e24-49ad-8e90-f0506eee32e4:ocds-b5fd17-5b4830b3-2e24-49ad-8e90-f0506eee32e4-1"
+    }
+  ]
+}

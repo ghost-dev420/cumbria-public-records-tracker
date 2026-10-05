@@ -1,0 +1,22 @@
+{
+  "entity_id": "e5e246f59802bd09e83dacfcc9a066ebf4822e29cea3ff11cc572fc6c2f55606",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Scrutiny Sub Group - Staff Recruitment Task & finish Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b32733cab7d822c8067a77cbf16cc1451d78ae62b521587a6cf3322e9d3e9ddd",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Scrutiny Sub Group - Staff Recruitment Task & finish Group",
+      "locator": "committee 389",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

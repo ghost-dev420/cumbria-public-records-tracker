@@ -1,0 +1,50 @@
+{
+  "entity_id": "b116fda4897aa8fa696659d5e72aa03d257d85803b16bceba0796772f2def762",
+  "entity_type": "SUPPLIER",
+  "name": "MIDLAND SOFTWARE LTD",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "311262c47eed0c7ad1c077be9508c9bc9260a7c00699f1e4506aa383a968edf7",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "5372.15",
+      "locator": "CSV row 21",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "March 2024 SLDC transparency spend over £250 (CSV , 3KB)",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2025-08/March%202024%20SLDC%20transparency%20spend%20over%20%C2%A3250.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:53:10.962633",
+      "sha256": "6a15da10dde261d442eba5bbe7edcfdbeff86261f0345c4722f65f29db7dfa00",
+      "related_entity": "South Lakeland District Council"
+    },
+    {
+      "fact_id": "de8f01f46bf077d79e0f252720f5551874b293b45e2297c567d09ebad8ab08f6",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "5372.15",
+      "locator": "CSV row 5",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "October 2024 SLDC transparency spend over £250 (CSV , 3KB)",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2025-08/October%202024%20SLDC%20transparency%20spend%20over%20%C2%A3250.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:53:06.905459",
+      "sha256": "aa2e5e079add767d40af4a8fa6071936274295842317115e639ba0a498242271",
+      "related_entity": "South Lakeland District Council"
+    },
+    {
+      "fact_id": "ba06cd61b0de09e3ee08b56074621552bb72e8d48a85cdef064a92c53467ec82",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "5372.15",
+      "locator": "CSV row 2",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "September 2024 SLDC transparency spend over £250 (CSV , 2KB)",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2025-08/September%202024%20SLDC%20transparency%20spend%20over%20%C2%A3250.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:53:06.101771",
+      "sha256": "045154452fa60bfe8c2f390acca43820c15f51dafcdadcbff2d7fd1cb254fadc",
+      "related_entity": "South Lakeland District Council"
+    }
+  ]
+}

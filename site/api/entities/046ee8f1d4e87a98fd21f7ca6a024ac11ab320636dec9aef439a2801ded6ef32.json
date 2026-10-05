@@ -1,0 +1,22 @@
+{
+  "entity_id": "046ee8f1d4e87a98fd21f7ca6a024ac11ab320636dec9aef439a2801ded6ef32",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Growing Carlisle - An Economic Strategy for the Carlisle Region- Consultation Draft Workshop",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "eb00a0cbce84cbde6243231b6986c0c7de04236da2355e89bbe31f80f45455cb",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Growing Carlisle - An Economic Strategy for the Carlisle Region- Consultation Draft Workshop",
+      "locator": "committee 501",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

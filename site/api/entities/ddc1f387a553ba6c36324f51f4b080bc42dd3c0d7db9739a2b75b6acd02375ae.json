@@ -1,0 +1,22 @@
+{
+  "entity_id": "ddc1f387a553ba6c36324f51f4b080bc42dd3c0d7db9739a2b75b6acd02375ae",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Children and Young People Scrutiny Panel (D)",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "748abf115e58e0ce8857774f794969866ca96ae942fed96157d8e113da725db4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Children and Young People Scrutiny Panel (D)",
+      "locator": "committee 489",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

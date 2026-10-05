@@ -1,0 +1,22 @@
+{
+  "entity_id": "aefc6686d3f0e94f4f0a6c03ba4d5b6332a8658a34eb091b0b5e50d3d1098a7a",
+  "entity_type": "COMMITTEE",
+  "name": "CaCC Resources Overview and Scrutiny Panel",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b00f627c2bde9d396eecc166bfa0b497148513632e7c0e236c969e652fb93bbc",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CaCC Resources Overview and Scrutiny Panel",
+      "locator": "committee 545",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "3d8fbc13351f0a0bfeeef21aa9083cc70b33ee865ea263e63db89844221c285e",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Organisation and External Relations Portfolio Holder",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4a701256d0ff16d7ef74a70a6f83863f46cca623bb6ceda1045c651cd5d3fa17",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Organisation and External Relations Portfolio Holder",
+      "locator": "committee 765",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

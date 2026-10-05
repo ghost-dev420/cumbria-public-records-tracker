@@ -1,0 +1,22 @@
+{
+  "entity_id": "d0476f6eb6adc3be3400291ebc670ae431e0291e886d20f639e88fabde174128",
+  "entity_type": "SUPPLIER",
+  "name": "cockermouth cabs",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5d361462d0bf32710284f61248e38ec9fc659ca74639809bff3dfb2da2657d12",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-14ccad9a-6ed6-489b-ad69-677630224da5-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a Up to 8 Passenger seats Closing 23 June 2026 PRU F46",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a9821c4f-e7a9-4bb5-8e0a-4421da28c848-903164.json",
+      "published_at": "2026-06-23T11:48:47+01:00",
+      "retrieved_at": "2026-10-03 23:34:46.490350",
+      "sha256": "d7b2cdda4f5e37be736a5c52f7f380d67ac06d41b8b3f93a8798d9a26f853b90",
+      "related_entity": "ocds-b5fd17-14ccad9a-6ed6-489b-ad69-677630224da5:ocds-b5fd17-14ccad9a-6ed6-489b-ad69-677630224da5-1"
+    }
+  ]
+}

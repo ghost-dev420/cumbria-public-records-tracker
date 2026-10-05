@@ -1,0 +1,22 @@
+{
+  "entity_id": "a07f5914c4912a14d49e721f4119f7e1388855615e1729809f49ae4373c87d56",
+  "entity_type": "SUPPLIER",
+  "name": "Farrell & Clark LLP",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5053ef35c9f319af708c4fc6fc16b89c6bcc2aa6ba56f8d374e51a8ee9dc92ea",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-201ba06a-fc0a-403d-a273-c1b101afdc5d-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Barrow Dock Museum Roof, Glazing, Heating and Solar PV Design",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ad584fba-dea9-4cc7-9589-0314eb4b6357-891912.json",
+      "published_at": "2026-04-08T09:26:47+01:00",
+      "retrieved_at": "2026-10-03 23:18:43.911580",
+      "sha256": "cf3fe781caa55a1e6110e2d57b60b2ac4e255a150d295ef9b02eddf2fb94e751",
+      "related_entity": "ocds-b5fd17-201ba06a-fc0a-403d-a273-c1b101afdc5d:ocds-b5fd17-201ba06a-fc0a-403d-a273-c1b101afdc5d-1"
+    }
+  ]
+}

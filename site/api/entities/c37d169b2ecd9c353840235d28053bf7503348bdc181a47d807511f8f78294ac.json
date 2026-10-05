@@ -1,0 +1,22 @@
+{
+  "entity_id": "c37d169b2ecd9c353840235d28053bf7503348bdc181a47d807511f8f78294ac",
+  "entity_type": "SUPPLIER",
+  "name": "ABC FOOD LAW LTD",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "56125bb02c1fde77c1fedb8fe2fd6240f2de97795cc5f016039a2e9dc09327a9",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "225.00",
+      "locator": "XLSX Sheet 1!row 204",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending December 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_december_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:55.444669",
+      "sha256": "3824a3e7dd505d5e1d23ff01e532fd1146708ea5215c6bd27cd96af69e106626",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

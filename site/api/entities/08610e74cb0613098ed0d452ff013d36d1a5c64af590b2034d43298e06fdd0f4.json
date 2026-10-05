@@ -1,0 +1,22 @@
+{
+  "entity_id": "08610e74cb0613098ed0d452ff013d36d1a5c64af590b2034d43298e06fdd0f4",
+  "entity_type": "COMMITTEE",
+  "name": "EDC Human Resources and Appeals",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "a02dd26bec5f635e807d0d5e97c71ebe960fa84fae6f2130a1c218fb040e1d8b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "EDC Human Resources and Appeals",
+      "locator": "committee 763",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

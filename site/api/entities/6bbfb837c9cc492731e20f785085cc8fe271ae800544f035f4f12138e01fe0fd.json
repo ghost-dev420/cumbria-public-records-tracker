@@ -1,0 +1,22 @@
+{
+  "entity_id": "6bbfb837c9cc492731e20f785085cc8fe271ae800544f035f4f12138e01fe0fd",
+  "entity_type": "SUPPLIER",
+  "name": "Architects Plus (UK) Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "881bcf72b4b2697ec79ef66207808fb97703a1b7d67db0f7ae043c2d788c8b49",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-3567a7ab-3d39-4d8d-951b-f13e5868e006-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "PSF4 Lot 1B - Architecture Children's Residential Care Home Provision - Overend  (RIBA Stages 3-7)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/50f83010-6780-4bfc-9353-80bc8bf18e8d-875767.json",
+      "published_at": "2025-12-12T14:24:06Z",
+      "retrieved_at": "2026-10-03 22:59:45.564431",
+      "sha256": "e5b6c6c43f4829c90411a7d3e7ca805b91c63dbcb752e2e02bc8c0bb19c904e0",
+      "related_entity": "ocds-b5fd17-3567a7ab-3d39-4d8d-951b-f13e5868e006:ocds-b5fd17-3567a7ab-3d39-4d8d-951b-f13e5868e006-1"
+    }
+  ]
+}

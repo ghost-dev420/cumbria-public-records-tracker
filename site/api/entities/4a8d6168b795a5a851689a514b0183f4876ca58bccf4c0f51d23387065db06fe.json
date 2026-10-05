@@ -1,0 +1,36 @@
+{
+  "entity_id": "4a8d6168b795a5a851689a514b0183f4876ca58bccf4c0f51d23387065db06fe",
+  "entity_type": "SUPPLIER",
+  "name": "NEW DAY AT WORK BV",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "6527410f6164b1f1a0b31f420f2e5a328b347ab5db3339cd7bc6765b20e732b5",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "2354.40",
+      "locator": "XLSX Sheet1!row 381",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "edbac7796635504460852c0312474c3250b9c090b9a7f6dc7f307b5af471189f",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "12949.20",
+      "locator": "XLSX Sheet1!row 382",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

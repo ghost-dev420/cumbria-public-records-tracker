@@ -1,0 +1,22 @@
+{
+  "entity_id": "bf559632db77148cef563e0cdbb4b30192b4a672cc5bee651530127dc6191721",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Carlisle Area Transport Advisory Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2f56c623f63c273f56b37bc66d1f3206e0d2f1e2de8f8dd3e7da312b9f76744b",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Carlisle Area Transport Advisory Group",
+      "locator": "committee 482",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

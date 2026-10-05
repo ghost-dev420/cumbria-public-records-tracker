@@ -1,0 +1,78 @@
+{
+  "entity_id": "9953930f053fbe6d3853c6fe440d545f45b4b7741e3898a4672bb03aaa492f16",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "25-002-955",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "9ec09fbc5979a00a08320d32debb49b0f7c79a71a4c84a41c4995b4bf6206362",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "25-002-955",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-002-955",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/25-002-955",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:31.416455",
+      "sha256": "2c3b3d1ce1481af4944f7b32c3292b5d4dd05e513e19e8952ce80a067e973183",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "12beb9102a1d6634ada7db599bbbbf08d7d861b72a561b357fbd459c030d4f4b",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Planning",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-002-955",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/25-002-955",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:31.416455",
+      "sha256": "2c3b3d1ce1481af4944f7b32c3292b5d4dd05e513e19e8952ce80a067e973183",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "e720cd6c0be4fbd7ea63a5d9d7633e264f24eb1ee23faa1c5557154a8e82eaa3",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Closed after initial enquiries",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-002-955",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/25-002-955",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:31.416455",
+      "sha256": "2c3b3d1ce1481af4944f7b32c3292b5d4dd05e513e19e8952ce80a067e973183",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "4c23996005b86c77f9a5e2828481260d1fb571c216728cc6516095bda20b359e",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "20 Aug 2025",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-002-955",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/25-002-955",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:31.416455",
+      "sha256": "2c3b3d1ce1481af4944f7b32c3292b5d4dd05e513e19e8952ce80a067e973183",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a450fce8d614a63ec0a61909a977a2b155421c7e20b323de57061776066e7307",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "We will not investigate this complaint about the Council’s failure to act on reports of damage to a listed building and a failure to respond to the complaint. There is not enough evidence of personal injustice to justify an investigation. Also, we consider an investigation will not lead to a different outcome.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "25-002-955",
+      "source_url": "https://www.lgo.org.uk/decisions/planning/enforcement/25-002-955",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:56:31.416455",
+      "sha256": "2c3b3d1ce1481af4944f7b32c3292b5d4dd05e513e19e8952ce80a067e973183",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

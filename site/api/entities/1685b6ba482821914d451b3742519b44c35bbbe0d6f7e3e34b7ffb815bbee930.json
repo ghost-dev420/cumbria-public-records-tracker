@@ -1,0 +1,22 @@
+{
+  "entity_id": "1685b6ba482821914d451b3742519b44c35bbbe0d6f7e3e34b7ffb815bbee930",
+  "entity_type": "SUPPLIER",
+  "name": "SILLOTH GROUP MEDICAL PRACTICE SILLOTH GROUP MEDICAL PRACTICE",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "0c86ccc7044d79d66cf0864ec47402d70bc816ea583cc1d3f073c008f6ac00f3",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "25.00",
+      "locator": "XLSX Sheet1!row 132",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending May 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_may_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:01.155001",
+      "sha256": "eb4a27cd734c1e30e2b02c2d509a570a9c24c23742e5621b402ecd34cf2e6ab0",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "9cf89adc5a32339c64fe5230faa33d94cb23efd6940eb534be09c8fb06e37af9",
+  "entity_type": "COMMITTEE",
+  "name": "Staffing Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "ed3f4644792eb7cbbf24739286e4eef7227c2d03d54bd7df1030bda693ee6a2e",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "Staffing Committee",
+      "locator": "committee 276",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

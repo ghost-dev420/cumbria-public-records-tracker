@@ -1,0 +1,78 @@
+{
+  "entity_id": "d04f8960c16d342756c4fe2a948e487f8ee26d086c20067a35c52e1fd277f507",
+  "entity_type": "OMBUDSMAN_CASE",
+  "name": "24-021-442",
+  "fact_count": 5,
+  "timeline": [
+    {
+      "fact_id": "9ef0ca6c66e789baa4994ecc4c0d46fa514a0bd16ad0fffab5f30d0e62398917",
+      "fact_type": "OMBUDSMAN_CASE",
+      "predicate": "HAS_OMBUDSMAN_CASE",
+      "value": "24-021-442",
+      "locator": "decision page: case reference",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-021-442",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:50.079336",
+      "sha256": "c94e0aba3382e64c3d809ccc240ac6ace7188b5c25c2c633b552b6e9774eb39e",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "7ea6d65377c0940db3fb93ddae22c971fc6b03b47d99f0f0c951642105079019",
+      "fact_type": "OMBUDSMAN_CATEGORY",
+      "predicate": "HAS_OMBUDSMAN_CATEGORY",
+      "value": "Benefits and tax",
+      "locator": "decision page: Category",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-021-442",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:50.079336",
+      "sha256": "c94e0aba3382e64c3d809ccc240ac6ace7188b5c25c2c633b552b6e9774eb39e",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "d8572f152d1c6dd416b7d1650b0691cd989b667af204b91435598fce23987aae",
+      "fact_type": "OMBUDSMAN_DECISION",
+      "predicate": "HAS_OMBUDSMAN_DECISION",
+      "value": "Not upheld",
+      "locator": "decision page: Decision",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-021-442",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:50.079336",
+      "sha256": "c94e0aba3382e64c3d809ccc240ac6ace7188b5c25c2c633b552b6e9774eb39e",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "a92949c1771069328bf2d522dc755812b90e348e9045fe88e0be087f46a41974",
+      "fact_type": "OMBUDSMAN_DECISION_DATE",
+      "predicate": "HAS_OMBUDSMAN_DECISION_DATE",
+      "value": "13 Feb 2026",
+      "locator": "decision page: Decision date",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-021-442",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:50.079336",
+      "sha256": "c94e0aba3382e64c3d809ccc240ac6ace7188b5c25c2c633b552b6e9774eb39e",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "17a7ad339d55a9cc0b30c9d416bc2a0df996e5560de11f4752c025ccaeda1a18",
+      "fact_type": "OMBUDSMAN_SUMMARY",
+      "predicate": "HAS_OMBUDSMAN_SUMMARY",
+      "value": "The complaint is about the Council taking years to correct a council tax reduction claim, which resulted in an overpayment of council tax. This was despite the complainant having reported all changes of circumstances to the Department of Work and Pensions, which is what he had always done in the past. We do not uphold the complaint. The Council advised the complainant he needed to tell it separately of any change of circumstances. And an annual review letter had enough information in it to alert the complainant that there was an omission in its calculation.",
+      "locator": "decision page: summary",
+      "evidence_class": "REGULATORY_FINDING",
+      "document_title": "24-021-442",
+      "source_url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/24-021-442",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 17:55:50.079336",
+      "sha256": "c94e0aba3382e64c3d809ccc240ac6ace7188b5c25c2c633b552b6e9774eb39e",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

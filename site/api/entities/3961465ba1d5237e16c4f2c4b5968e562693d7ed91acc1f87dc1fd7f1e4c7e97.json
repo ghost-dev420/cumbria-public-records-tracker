@@ -1,0 +1,22 @@
+{
+  "entity_id": "3961465ba1d5237e16c4f2c4b5968e562693d7ed91acc1f87dc1fd7f1e4c7e97",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Statement of Accounts Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "46e3a9d16da0be28975c86c052efbb327a6c9b49da988d287c9fd90ed5ff19cb",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Statement of Accounts Committee",
+      "locator": "committee 857",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

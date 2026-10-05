@@ -1,0 +1,22 @@
+{
+  "entity_id": "0e598b2fa51b25430ba873be25a94af8a617569839c9927825a89488dbf98dde",
+  "entity_type": "SUPPLIER",
+  "name": "Jess Travel Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "4deda714c68b5100d33348e78116951ee5710fb9149bf834f513abc3fc99bcfe",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-771bad5f-dbb9-4973-9269-085a539e3bb4-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lot 1a - up to 8 passenger seats - Closing 24 April 2026 (PRU F40)",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0dfb72d0-a7c3-4157-9816-e3d6544f9bc2-894816.json",
+      "published_at": "2026-04-27T12:39:15+01:00",
+      "retrieved_at": "2026-10-03 23:24:56.276530",
+      "sha256": "6bd2eb5ba7edb673975d138be218deff13ada3df9dd732399ab1e3119f90edb1",
+      "related_entity": "ocds-b5fd17-771bad5f-dbb9-4973-9269-085a539e3bb4:ocds-b5fd17-771bad5f-dbb9-4973-9269-085a539e3bb4-1"
+    }
+  ]
+}

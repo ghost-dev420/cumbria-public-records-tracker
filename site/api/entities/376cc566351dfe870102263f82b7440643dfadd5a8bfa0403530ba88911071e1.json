@@ -1,0 +1,92 @@
+{
+  "entity_id": "376cc566351dfe870102263f82b7440643dfadd5a8bfa0403530ba88911071e1",
+  "entity_type": "CONTRACT",
+  "name": "PROCONT00002410",
+  "fact_count": 6,
+  "timeline": [
+    {
+      "fact_id": "61b15fd544249640d74c3ee6017321b653af7423825f6ade4eebf7908eb565bc",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "CSV row 46",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "0e98c37bbad14ab9382659b4058a804c68e9009c4cdae1345e53553bfa8e5eda",
+      "fact_type": "CONTRACT_DESCRIPTION",
+      "predicate": "HAS_DESCRIPTION",
+      "value": "Transport for Home to Schools and Special Educational Needs and Disabilities.",
+      "locator": "CSV row 46",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "106a8a6b807780c1bdb685179f9d8803af624a134e032633d9d74206e677fd89",
+      "fact_type": "CONTRACT_PERIOD",
+      "predicate": "STARTS_ON",
+      "value": "2023-08-31",
+      "locator": "CSV row 46",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "cc717aab0c4f3c4fd309d26b6fdda59ae7155be187f80bad6c063b11cbc6ec42",
+      "fact_type": "CONTRACT_PERIOD",
+      "predicate": "ENDS_ON",
+      "value": "2026-08-31",
+      "locator": "CSV row 46",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "0f156b344b83492f493d3225b177c5465274f28fde35f877dfce1db63ec9ad5d",
+      "fact_type": "CONTRACT_TITLE",
+      "predicate": "HAS_TITLE",
+      "value": "Carlisle Area Transport (for Home to Schools and Special Educational Needs and Disabilities)",
+      "locator": "CSV row 46",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    },
+    {
+      "fact_id": "f051e79192943f16066e33c969ffddba88eef3993479f0f50c00caca8da84dae",
+      "fact_type": "CONTRACT_VALUE",
+      "predicate": "HAS_VALUE",
+      "value": "3500000.00",
+      "locator": "CSV row 46",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "a14714d2e5f05a85ef8c5295202df58fbadbb7921be75e0d56d168fef4031b53",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round one in 2025 to 2026: Sedbergh Town Band [e92dff06313a6de813ae]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "d4a08d14d0ff520bd6c7e73ef1174bd3d7472e5c5d026a8661489c9389764cde",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "3864",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 10",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "bd0faefd0e0722fd4063ac968b82d209968f1d45907429d21272ecc2f5a31563",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "3864",
+      "locator": "Successful grants from round one in 2025 to 2026; list item 10",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Sedbergh Town Band"
+    }
+  ]
+}

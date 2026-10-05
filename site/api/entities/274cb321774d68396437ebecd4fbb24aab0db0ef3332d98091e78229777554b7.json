@@ -1,0 +1,22 @@
+{
+  "entity_id": "274cb321774d68396437ebecd4fbb24aab0db0ef3332d98091e78229777554b7",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Youth Offending Service Management Board",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "b957613c9eaa590cc6233b0dcfe081405b34bfcc95aee6d0af671f7eee2ccaa4",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Youth Offending Service Management Board",
+      "locator": "committee 634",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}

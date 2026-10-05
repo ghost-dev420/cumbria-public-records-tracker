@@ -1,0 +1,22 @@
+{
+  "entity_id": "a9fecfa9a404ba0a00d3c0082a8825e44576ccbd64455428ac1db7f6c9e73993",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Social Services Operations Sub-Committee",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "d377c469e3ffd5abcce5fbf182680cf7f0cc7c2ea0d73e1e701d7122a0bb6633",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Social Services Operations Sub-Committee",
+      "locator": "committee 847",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

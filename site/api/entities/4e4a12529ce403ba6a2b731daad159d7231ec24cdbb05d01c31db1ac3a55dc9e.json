@@ -1,0 +1,36 @@
+{
+  "entity_id": "4e4a12529ce403ba6a2b731daad159d7231ec24cdbb05d01c31db1ac3a55dc9e",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Staveley Village Hall [92ae9803d4a5270fc3d7]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "29e1f4a9b59d5492072089bcc374a8e1ba8cbb7fd5b4effb399cc9f44537271a",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "1848",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 8",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "573a909f9ebbabd8032eee61a8bc2579dcc6f8be0d495a7c9b6955038ea178cf",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "1848",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 8",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Staveley Village Hall"
+    }
+  ]
+}

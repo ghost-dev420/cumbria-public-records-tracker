@@ -1,0 +1,22 @@
+{
+  "entity_id": "d0b9b9d37fb75f4ce5b6191a2546242ffc650e1849dd8049fcc3b1a5a28641d5",
+  "entity_type": "SUPPLIER",
+  "name": "Korn ferry Uk Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "1a8b7bc59c8f1491bef1a677880002ae13cdd6403819a8a0696eb7be3a83222b",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 195",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002739"
+    }
+  ]
+}

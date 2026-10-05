@@ -1,0 +1,22 @@
+{
+  "entity_id": "b4527ecbc767214e65386891b0a01f182fc55bf8b9c862d9ffb45204b87865cd",
+  "entity_type": "SUPPLIER",
+  "name": "DOBIES VAUXHALL",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "fa8af23789301beee3eed9a2d8a321b3389c968dae6c4d64a2572370dd371637",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "3325.00",
+      "locator": "XLSX Sheet1!row 179",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending October 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_october_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:50.854509",
+      "sha256": "eb1059a7f97ecee1168867a94c14f4e7f49ece512d16940368463f6a00abd72f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

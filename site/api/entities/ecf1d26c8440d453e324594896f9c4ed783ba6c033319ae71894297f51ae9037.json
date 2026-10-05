@@ -1,0 +1,36 @@
+{
+  "entity_id": "ecf1d26c8440d453e324594896f9c4ed783ba6c033319ae71894297f51ae9037",
+  "entity_type": "SUPPLIER",
+  "name": "BEK ENVIRO LIMITED",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "6fca9430516019de837a2e67c63a8a18175777e8f0c1184c0c87b97286cd12ac",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "750.00",
+      "locator": "XLSX Report!row 720",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "ae6c96537a2bb44a15e237b040717f5994642e7c391ab5e3e9ea570140704056",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "750.00",
+      "locator": "XLSX Report!row 473",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending March 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_march_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:50:00.222774",
+      "sha256": "d2bb7623855a1ddd3efbe6d595da1c6c8473a4f52e4abce7bfe879a07d26f28a",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

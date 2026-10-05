@@ -1,0 +1,22 @@
+{
+  "entity_id": "e2b84ab2183aa759dedc1233041b0823a31e74e1be35e942710fd4cc70021608",
+  "entity_type": "COMMITTEE",
+  "name": "CuCC Allerdale Local Committee Archive",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "edecfcbc293d0ca0f68c3552c3f7a48946e6e0f3c59146eb1f328aef2e419e2c",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "CuCC Allerdale Local Committee Archive",
+      "locator": "committee 699",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

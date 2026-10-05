@@ -1,0 +1,36 @@
+{
+  "entity_id": "27638b5a5932bc39c45ca0d576ac7bd748cac3d0da9657566e9d3c6e2deaae76",
+  "entity_type": "GRANT",
+  "name": "Successful grants from round 2 in 2025 to 2026: Stainton Institute [66f03931b6e653623df2]",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "fd423fcc479564f1ad5812e74bbec6c7db708cd7d1718da4f509fec2534a0160",
+      "fact_type": "GRANT_AWARD",
+      "predicate": "AWARDED_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 15",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Westmorland and Furness Council"
+    },
+    {
+      "fact_id": "4a4cfb01f6354817e34f5beb1d2c477ff70431db9438680a11c0381a8de5b6e8",
+      "fact_type": "GRANT_RECIPIENT",
+      "predicate": "RECIPIENT_OF_GRANT",
+      "value": "2000",
+      "locator": "Successful grants from round 2 in 2025 to 2026; list item 15",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Listing: Westmorland and Furness South Lakeland successful community grants",
+      "source_url": "https://www.westmorlandandfurness.gov.uk/your-environment/community-safety-support-assets-and-funding/area-locality-boards-community-development-teams-and-community-funds/south-lakeland-locality-board-and-community-development-team",
+      "published_at": null,
+      "retrieved_at": "2026-10-05 18:00:05.201725",
+      "sha256": "04a12ffb70b0c15949da054d76d54b410d7e358129bb520fdae79cc24c5001ab",
+      "related_entity": "Stainton Institute"
+    }
+  ]
+}

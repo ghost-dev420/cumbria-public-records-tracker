@@ -1,0 +1,22 @@
+{
+  "entity_id": "527b217373a5f65a28e7667208d38fa0ce7e4d96d0ed754b3f591cca36ec905c",
+  "entity_type": "SUPPLIER",
+  "name": "Verephi Ltd Verephi Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "6082789e66a585c8ae10a6db6475212221183ddb0d1acfb25125847895864429",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "216.74",
+      "locator": "XLSX Report!row 63",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending January 2023",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_january_2023.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:57.343201",
+      "sha256": "fb7506a4dfb601422f5db4df923e9ec09532defe5be17cfac88733b8a5fff289",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

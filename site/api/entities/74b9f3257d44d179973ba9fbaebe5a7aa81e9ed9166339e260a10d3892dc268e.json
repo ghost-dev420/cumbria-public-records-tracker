@@ -1,0 +1,22 @@
+{
+  "entity_id": "74b9f3257d44d179973ba9fbaebe5a7aa81e9ed9166339e260a10d3892dc268e",
+  "entity_type": "SUPPLIER",
+  "name": "Safety Net UK",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "cf6b5d568e186213da6ef7a43bd1620864dbb65baa7691a74d503ee2373d8c52",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 309",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00002914"
+    }
+  ]
+}

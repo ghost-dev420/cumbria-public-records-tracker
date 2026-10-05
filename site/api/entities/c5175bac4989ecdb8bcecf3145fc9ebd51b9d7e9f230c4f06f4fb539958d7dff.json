@@ -1,0 +1,50 @@
+{
+  "entity_id": "c5175bac4989ecdb8bcecf3145fc9ebd51b9d7e9f230c4f06f4fb539958d7dff",
+  "entity_type": "CONTRACT",
+  "name": "ocds-b5fd17-ddba4fd3-6d71-4f61-8bb2-d8cb6be8b68b:notice",
+  "fact_count": 3,
+  "timeline": [
+    {
+      "fact_id": "086f48b1ea7b8d8da399d43407ffda0668f455fb6ca78615db0b147dd7ff298e",
+      "fact_type": "CONTRACT_BUYER",
+      "predicate": "BUYER_OF_CONTRACT",
+      "value": null,
+      "locator": "award notice buyer",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lowca Community School - Damp remediation works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ab5645de-7a7e-47d2-b355-e9e368b8bf3e-910296.json",
+      "published_at": "2026-08-11T16:29:57+01:00",
+      "retrieved_at": "2026-10-03 23:40:38.315886",
+      "sha256": "faa0362f2dcac32422a1c7cd607c3f6356539f0a36fe3a650320982ee357e03b",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "460498b514d3d92b6806ec5afd92bb62d742faf91b1efa6fd8a018ecd83a43ed",
+      "fact_type": "CONTRACT_DATE",
+      "predicate": "HAS_AWARD_DATE",
+      "value": "2026-08-11T16:29:57+01:00",
+      "locator": "award notice date",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lowca Community School - Damp remediation works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ab5645de-7a7e-47d2-b355-e9e368b8bf3e-910296.json",
+      "published_at": "2026-08-11T16:29:57+01:00",
+      "retrieved_at": "2026-10-03 23:40:38.315886",
+      "sha256": "faa0362f2dcac32422a1c7cd607c3f6356539f0a36fe3a650320982ee357e03b",
+      "related_entity": null
+    },
+    {
+      "fact_id": "b0c5d9d41f89463b9820122162a09f4f8c9623af3a68e37624fe0637842b13b2",
+      "fact_type": "CONTRACT_TITLE",
+      "predicate": "HAS_TITLE",
+      "value": "Lowca Community School - Damp remediation works",
+      "locator": "award notice",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Lowca Community School - Damp remediation works",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ab5645de-7a7e-47d2-b355-e9e368b8bf3e-910296.json",
+      "published_at": "2026-08-11T16:29:57+01:00",
+      "retrieved_at": "2026-10-03 23:40:38.315886",
+      "sha256": "faa0362f2dcac32422a1c7cd607c3f6356539f0a36fe3a650320982ee357e03b",
+      "related_entity": null
+    }
+  ]
+}

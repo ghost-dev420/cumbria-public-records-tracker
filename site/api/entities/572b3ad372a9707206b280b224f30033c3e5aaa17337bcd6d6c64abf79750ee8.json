@@ -1,0 +1,36 @@
+{
+  "entity_id": "572b3ad372a9707206b280b224f30033c3e5aaa17337bcd6d6c64abf79750ee8",
+  "entity_type": "SUPPLIER",
+  "name": "Tim Doody & Co Limited",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "667c22a1dbfa66a5f3fd398dbe5141beb454436f698392a4b29e75b27968e3fd",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 136",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00001690"
+    },
+    {
+      "fact_id": "836d8f768456b28c4d945d6ca5665e08d9f5bc2a6fc484ed3bac84d77142890f",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 255",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003431"
+    }
+  ]
+}

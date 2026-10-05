@@ -1,0 +1,22 @@
+{
+  "entity_id": "f889310ef101e8c32098d9a06b5137455e36b4b50ea890e3b88727c24f426b28",
+  "entity_type": "COMMITTEE",
+  "name": "ABC Derwent Forest Task Group",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2aad598383752b0acf13dae2ea0ff5fd9d10f4e4b4daf6d60986b9e0829ceb83",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "ABC Derwent Forest Task Group",
+      "locator": "committee 352",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://cumberland.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:20:21.842534",
+      "sha256": "a7b4715ff5bc76c9bcdaf2ebcae7a14de32cfad524dcfd19ad482be33a6f67bd",
+      "related_entity": null
+    }
+  ]
+}

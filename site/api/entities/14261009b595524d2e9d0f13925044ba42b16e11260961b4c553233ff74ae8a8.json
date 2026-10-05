@@ -1,0 +1,22 @@
+{
+  "entity_id": "14261009b595524d2e9d0f13925044ba42b16e11260961b4c553233ff74ae8a8",
+  "entity_type": "SUPPLIER",
+  "name": "CIPS",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5b3a94bb7a66ac1306c6a77b732a1cefd466dd5edecff88146a7fc1a821a5dc3",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 221",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "ocds-h6vhtk-04c955"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "766373e4b405d64deae35588f4e9cc58753b155730b14a9d725994b5da319b9a",
+  "entity_type": "SUPPLIER",
+  "name": "Mobilise Care Ltd",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "0a501d09fbb45ac1d0006dd08487d91f3507928acc2e900c87be203acc90d54f",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 189",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003426"
+    },
+    {
+      "fact_id": "a9c85c2b56b03a3e13fff0cd937dfb1c880fcf5c3bd5e6e759a4b9effd0a2fce",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "CSV row 45",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Contracts Register - June 2026 ( CSV , 173.81KB )",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2026-07/cumberland_council_contracts_register_30_june_2026.csv",
+      "published_at": null,
+      "retrieved_at": "2026-10-04 19:03:57.659780",
+      "sha256": "9180e8c13f9698c152bd6ec34c770f73e9d8fed2cb80663ef2c6c8dbce6d86d2",
+      "related_entity": "PROCONT00003375"
+    }
+  ]
+}

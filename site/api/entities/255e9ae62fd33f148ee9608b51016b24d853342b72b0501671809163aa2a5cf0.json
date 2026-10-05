@@ -1,0 +1,36 @@
+{
+  "entity_id": "255e9ae62fd33f148ee9608b51016b24d853342b72b0501671809163aa2a5cf0",
+  "entity_type": "SUPPLIER",
+  "name": "POSTLETHWAITE CONSTRUCTION LTD",
+  "fact_count": 2,
+  "timeline": [
+    {
+      "fact_id": "3073c30435c712991f4cc820f5be536c8d438003a86d4534f6c00e7767074af6",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "410.69",
+      "locator": "XLSX Sheet1!row 308",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    },
+    {
+      "fact_id": "c3c69b22e6aecac01ba7815043eb26c21dc7a6e22bd0c75908be3e50535e9295",
+      "fact_type": "PAYMENT",
+      "predicate": "PAYMENT_TO_SUPPLIER",
+      "value": "-410.69",
+      "locator": "XLSX Sheet1!row 309",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Allerdale spending June 2022",
+      "source_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/allerdale_spending_june_2022.xlsx",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 08:49:59.291985",
+      "sha256": "723abf1cb77fc3e8acb30824b3f60baaad1c3963bc3e49773f63e3e5ad4e6c3f",
+      "related_entity": "Cumberland Council"
+    }
+  ]
+}

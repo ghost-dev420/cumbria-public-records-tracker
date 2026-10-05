@@ -1,0 +1,22 @@
+{
+  "entity_id": "c5d4fa9c5cf28225f5d7952780497ad7473ae9b3e555540e58319578fe9a94d1",
+  "entity_type": "SUPPLIER",
+  "name": "PSL Print Management Ltd",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "2d9b110cc7f5e55c51f8139187a4079e8d6650ddbc9b6ca09a747a4c58c2852e",
+      "fact_type": "CONTRACT_SUPPLIER",
+      "predicate": "SUPPLIER_TO_CONTRACT",
+      "value": null,
+      "locator": "award ocds-b5fd17-1c5995a7-b144-4a0b-a89f-19db0cf46b1b-1 supplier",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "Supply Of Revenues and Benefits Printing and Mailing Services",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0d48ba82-5cf9-4543-9a62-23302cb9f329-888536.json",
+      "published_at": "2026-03-13T14:19:02Z",
+      "retrieved_at": "2026-10-03 23:11:01.844628",
+      "sha256": "295765f3d50b22a7ed57797122d22cf5f018856ace8410ff4bae011bc632e838",
+      "related_entity": "ocds-b5fd17-1c5995a7-b144-4a0b-a89f-19db0cf46b1b:ocds-b5fd17-1c5995a7-b144-4a0b-a89f-19db0cf46b1b-1"
+    }
+  ]
+}

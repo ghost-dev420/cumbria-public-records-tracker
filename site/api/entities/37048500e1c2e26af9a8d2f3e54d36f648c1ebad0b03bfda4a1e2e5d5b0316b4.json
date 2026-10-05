@@ -1,0 +1,22 @@
+{
+  "entity_id": "37048500e1c2e26af9a8d2f3e54d36f648c1ebad0b03bfda4a1e2e5d5b0316b4",
+  "entity_type": "COMMITTEE",
+  "name": "BBC Barrow Borough Council",
+  "fact_count": 1,
+  "timeline": [
+    {
+      "fact_id": "5a7c893c2ae823127662b2add88ed3af7966b38bee8021e55d111936119dd0b3",
+      "fact_type": "COMMITTEE_RECORD",
+      "predicate": "COMMITTEE_LISTED",
+      "value": "BBC Barrow Borough Council",
+      "locator": "committee 400",
+      "evidence_class": "OFFICIAL_RECORD",
+      "document_title": "ModernGov XML API: GetCommittees",
+      "source_url": "https://westmorlandandfurness.moderngov.co.uk/mgWebService.asmx/GetCommittees",
+      "published_at": null,
+      "retrieved_at": "2026-10-03 02:22:37.729184",
+      "sha256": "ceb3f6382929a1912428465405bdd1fbe26f61b57d145e30e37d24b88443f17e",
+      "related_entity": null
+    }
+  ]
+}
