@@ -98,6 +98,15 @@ _SOURCE_DEFAULTS = {
             "grace_days": 20,
         },
     },
+    "cumberland_contract_register": {
+        # The official register sometimes uses trading/short names while historic
+        # spending files use the full legal-style supplier label. Keep the alias
+        # narrow and source-specific rather than globally equating every use of
+        # the word "group" with its shortened form.
+        "contract_supplier_aliases": {
+            "Tivoli": "TIVOLI GROUP LTD",
+        },
+    },
     "housing_ombudsman_home_group": {
         "extractors": ["housing_ombudsman"],
         "expect_facts": True,
@@ -211,6 +220,12 @@ def load_sources(path: Path) -> list[dict]:
                     if start_url not in start_urls:
                         start_urls.append(start_url)
                 source["start_urls"] = start_urls
+            elif key == "contract_supplier_aliases":
+                aliases = dict(value)
+                configured = source.get("contract_supplier_aliases") or {}
+                if isinstance(configured, dict):
+                    aliases.update(configured)
+                source["contract_supplier_aliases"] = aliases
             else:
                 source.setdefault(key, value)
     return sources
