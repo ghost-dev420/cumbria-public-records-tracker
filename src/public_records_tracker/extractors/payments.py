@@ -254,12 +254,12 @@ def extract_payments(
     # rules change, re-extracting an existing snapshot must replace that
     # snapshot's old payment facts rather than leaving both old and new supplier
     # identities active and double-counting spend.
-    con.execute(
-        """DELETE FROM facts
-           WHERE document_id=? AND snapshot_id=?
-             AND predicate='PAYMENT_TO_SUPPLIER'""",
-        [document_id, snapshot_id],
-    )
+    # Re-extracting an unchanged snapshot is normally idempotent because
+    # add_fact() uses stable fact IDs. Avoid DELETE+reinsert here: DuckDB can
+    # invalidate the database while deleting indexed fact rows (observed on
+    # Android/aarch64 with repeated council spending snapshots). If hygiene
+    # changes require replacement, a new snapshot naturally supersedes the old
+    # one through fact_snapshot_windows/latest_facts.
 
     payer = _payer_entity(con, source, record)
     count = 0
