@@ -25,9 +25,9 @@ class LgscoBrowserCollector(LgscoSearchCollector):
 
     def collect(self) -> Iterator[Record]:
         # Before launching Chromium, prove that the host is reachable with the
-        # normal bounded HTTP client.  On Android/proot a transient DNS failure
+        # normal bounded HTTP client. On Android/proot a transient DNS failure
         # can otherwise leave Playwright waiting in browser/page cleanup long
-        # after navigation has already failed.  HTTP status failures (403 etc.)
+        # after navigation has already failed. HTTP status failures (403 etc.)
         # are deliberately allowed through because the browser transport may be
         # required precisely when the plain HTTP endpoint rejects/strips a
         # non-browser response.
@@ -46,7 +46,10 @@ class LgscoBrowserCollector(LgscoSearchCollector):
             pass
 
         delay = float(self.source.get("browser_delay", 0.75))
-        timeout = float(self.source.get("browser_timeout", 20.0))
+        # Keep a hard ceiling even if an older config still requests 45s. The
+        # browser is a fallback transport and must never hold the whole
+        # production collector hostage for long network/DNS failure paths.
+        timeout = min(float(self.source.get("browser_timeout", 20.0)), 20.0)
         with BrowserHttpClient(delay=delay, timeout=timeout) as browser:
             self.client = browser  # type: ignore[assignment]
             try:
