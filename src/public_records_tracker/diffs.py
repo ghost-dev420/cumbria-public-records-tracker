@@ -33,17 +33,40 @@ CREATE INDEX IF NOT EXISTS structured_changes_type_idx
     ON structured_changes(change_type, detected_at);
 """
 
+_OMBUDSMAN_LOCATORS = {
+    "OMBUDSMAN_CASE": "case reference",
+    "OMBUDSMAN_DECISION": "Decision",
+    "OMBUDSMAN_CATEGORY": "Category",
+    "OMBUDSMAN_DECISION_DATE": "Decision date",
+    "OMBUDSMAN_SUMMARY": "summary",
+}
+
 
 def ensure_diff_schema(con: duckdb.DuckDBPyConnection) -> None:
     con.execute(SCHEMA)
 
 
-def _fact_rows(con: duckdb.DuckDBPyConnection, document_id: str, snapshot_id: str) -> dict[tuple, str]:
+def _comparison_locator(fact_type: str, locator: str | None) -> str | None:
+    """Return a stable semantic locator for structured-diff identity.
+
+    LGSCO facts may move between a listing result and the individual decision
+    page, or extractor wording may gain a prefix such as ``decision page:``.
+    Those are provenance-location changes, not changes to the Ombudsman fact.
+    Keep locator-sensitive comparison for other fact families where row/field
+    position can distinguish otherwise identical records.
+    """
+    return _OMBUDSMAN_LOCATORS.get(fact_type, locator)
+
+
+def _fact_rows(
+    con: duckdb.DuckDBPyConnection, document_id: str, snapshot_id: str
+) -> dict[tuple, str]:
     rows = con.execute(
         """SELECT fact_id,fact_type,predicate,subject_entity_id,object_entity_id,
                   value_text,locator
            FROM facts
-           WHERE document_id=? AND snapshot_id=?""",
+           WHERE document_id=? AND snapshot_id=?
+             AND predicate NOT LIKE 'SUPERSEDED_%'""",
         [document_id, snapshot_id],
     ).fetchall()
     return {
@@ -53,7 +76,7 @@ def _fact_rows(con: duckdb.DuckDBPyConnection, document_id: str, snapshot_id: st
             subject_entity_id,
             object_entity_id,
             value_text,
-            locator,
+            _comparison_locator(fact_type, locator),
         ): fact_id
         for fact_id, fact_type, predicate, subject_entity_id, object_entity_id, value_text, locator in rows
     }
@@ -176,6 +199,22 @@ def structured_change_rows(con: duckdb.DuckDBPyConnection, limit: int = 500) -> 
            LEFT JOIN entities oe ON oe.entity_id=c.object_entity_id
            LEFT JOIN snapshots old_s ON old_s.snapshot_id=c.old_snapshot_id
            LEFT JOIN snapshots new_s ON new_s.snapshot_id=c.new_snapshot_id
+           WHERE NOT (
+             c.fact_type LIKE 'OMBUDSMAN_%'
+             AND EXISTS (
+               SELECT 1
+               FROM structured_changes peer
+               WHERE peer.document_id=c.document_id
+                 AND peer.old_snapshot_id=c.old_snapshot_id
+                 AND peer.new_snapshot_id=c.new_snapshot_id
+                 AND peer.change_type<>c.change_type
+                 AND peer.fact_type=c.fact_type
+                 AND peer.predicate=c.predicate
+                 AND peer.subject_entity_id IS NOT DISTINCT FROM c.subject_entity_id
+                 AND peer.object_entity_id IS NOT DISTINCT FROM c.object_entity_id
+                 AND peer.value_text IS NOT DISTINCT FROM c.value_text
+             )
+           )
            ORDER BY c.detected_at DESC,c.change_id
            LIMIT ?""",
         [limit],
