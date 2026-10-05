@@ -17,3 +17,14 @@ def test_collection_smoke_does_not_cache_or_deploy_private_state():
     assert "actions/deploy-pages@" not in text
     assert "actions/upload-pages-artifact@" not in text
     assert "actions/upload-artifact@" in text
+
+
+def test_production_script_supports_analysis_only_republish():
+    text = Path("scripts/update-production.sh").read_text(encoding="utf-8")
+    assert 'COLLECT="${COLLECT:-1}"' in text
+    assert 'if [[ "$COLLECT" == "1" ]]; then' in text
+    assert 'if [[ "$COLLECT" == "1" && "$ENABLE_REFERENCE_REFRESH" == "1" ]]; then' in text
+    assert 'COLLECT=$COLLECT; skipping source collection and registry refresh.' in text
+    assert 'scripts/reanalyze.py' in text
+    assert 'prt build-site' in text
+    assert 'publish-android-site.sh' in text
