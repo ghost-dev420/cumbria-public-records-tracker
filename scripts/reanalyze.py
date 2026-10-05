@@ -9,8 +9,10 @@ from pathlib import Path
 from public_records_tracker.analysis import ensure_analysis_schema, run_detectors
 from public_records_tracker.analysis_lifecycle import begin_analysis_cycle, finish_analysis_cycle
 from public_records_tracker.analysis_quality import prepare_analysis_resolution
+from public_records_tracker.config import load_sources
 from public_records_tracker.connections import detect_psc_supplier_connections
 from public_records_tracker.db import connect
+from public_records_tracker.payment_payer_hygiene import repair_payment_payer_attribution
 from public_records_tracker.procurement_gaps import run_procurement_gap_detectors
 from public_records_tracker.reconciliation import run_reconciliation_detectors
 from public_records_tracker.resolution import ensure_resolution_schema, run_resolution
@@ -52,6 +54,16 @@ def main() -> None:
         ensure_structured_schema(con)
         ensure_resolution_schema(con)
         ensure_analysis_schema(con)
+
+        source_path = Path(__file__).resolve().parents[1] / "config" / "sources.yml"
+        payer_hygiene = {"documents_matched": 0, "facts_repaired": 0}
+        for source in load_sources(source_path):
+            if not source.get("payment_payer_rules"):
+                continue
+            repaired = repair_payment_payer_attribution(con, source)
+            payer_hygiene["documents_matched"] += repaired["documents_matched"]
+            payer_hygiene["facts_repaired"] += repaired["facts_repaired"]
+
         started = begin_analysis_cycle(con)
 
         resolution = run_resolution(con)
@@ -69,6 +81,7 @@ def main() -> None:
             "SELECT count(*) FROM signals WHERE status IN ('review','approved')"
         ).fetchone()[0]
 
+        print("Payment payer hygiene:", payer_hygiene)
         print("Resolution:", resolution)
         print("Quality resolution:", quality)
         print("Detectors:", detectors)
