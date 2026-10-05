@@ -66,20 +66,55 @@ psc_stamp="$REFERENCE_CACHE/.psc-last-success"
 # Registry snapshots are much larger than ordinary council sources, so refresh
 # them on a slower cadence. Failure does not stop council collection/publication;
 # it is recorded in this production log and the previous reference index remains.
+# Refresh registry data on an isolated database copy.  Bulk registry imports
+# are large and depend on third-party CSV/ZIP files; an importer or DuckDB failure
+# must never leave the production database partially mutated.
+_refresh_reference_safely() {
+  local psc_flag="$1"
+  local refresh_db="$BACKUP_DIR/reference-refresh-$stamp.duckdb"
+
+  rm -f "$refresh_db" "$refresh_db.wal"
+  cp -a "$DB" "$refresh_db"
+
+  if prt refresh-reference-index --db "$refresh_db" --cache-dir "$REFERENCE_CACHE" "$psc_flag"; then
+    # Force a fresh process to open the completed copy before it can replace the
+    # production DB.  This catches invalidated/corrupt files after the importer
+    # process has exited.
+    if python - "$refresh_db" <<'PY'
+import sys
+import duckdb
+
+con = duckdb.connect(sys.argv[1], read_only=True)
+con.execute("SELECT 1").fetchone()
+con.execute("CHECKPOINT")
+con.close()
+PY
+    then
+      mv -f "$refresh_db" "$DB"
+      rm -f "$refresh_db.wal"
+      return 0
+    fi
+    echo "WARN: refreshed reference database failed validation; discarding it."
+  fi
+
+  rm -f "$refresh_db" "$refresh_db.wal"
+  return 1
+}
+
 if [[ "$ENABLE_REFERENCE_REFRESH" == "1" ]]; then
   if [[ "$ENABLE_PSC_REFRESH" == "1" ]] && _due "$psc_stamp" "$PSC_REFRESH_DAYS"; then
-    echo "Refreshing Companies House/Charity reference index including PSC data..."
-    if prt refresh-reference-index --db "$DB" --cache-dir "$REFERENCE_CACHE" --psc; then
+    echo "Refreshing Companies House/Charity reference index including PSC data (isolated copy)..."
+    if _refresh_reference_safely --psc; then
       touch "$psc_stamp" "$basic_stamp"
     else
-      echo "WARN: PSC/reference refresh failed; retaining previous reference index."
+      echo "WARN: PSC/reference refresh failed; production database was not modified."
     fi
   elif _due "$basic_stamp" "$REFERENCE_REFRESH_DAYS"; then
-    echo "Refreshing Companies House/Charity reference index..."
-    if prt refresh-reference-index --db "$DB" --cache-dir "$REFERENCE_CACHE" --no-psc; then
+    echo "Refreshing Companies House/Charity reference index (isolated copy)..."
+    if _refresh_reference_safely --no-psc; then
       touch "$basic_stamp"
     else
-      echo "WARN: reference refresh failed; retaining previous reference index."
+      echo "WARN: reference refresh failed; production database was not modified."
     fi
   fi
 fi
