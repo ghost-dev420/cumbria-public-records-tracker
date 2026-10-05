@@ -15,6 +15,45 @@ _SENSITIVE_PAYMENT_DENY_TERMS = [
     "personal payment",
 ]
 
+_CUMBERLAND_LEGACY_PAYER_RULES = [
+    {
+        "organisation_id": "allerdale_borough_council",
+        "terms": [
+            "allerdale spending",
+            "allerdale_spending_",
+            "allerdale expenditure",
+            "allerdale_expenditure_",
+        ],
+    },
+    {
+        "organisation_id": "carlisle_city_council",
+        "terms": [
+            "carlisle spending",
+            "carlisle_spending_",
+            "carlisle expenditure",
+            "carlisle_expenditure_",
+        ],
+    },
+    {
+        "organisation_id": "copeland_borough_council",
+        "terms": [
+            "copeland spending",
+            "copeland_spending_",
+            "copeland expenditure",
+            "copeland_expenditure_",
+        ],
+    },
+    {
+        "organisation_id": "cumbria_county_council",
+        "terms": [
+            "cumbria county council spending",
+            "cumbria_county_council_spending",
+            "cumbria county council expenditure",
+            "cumbria_county_council_expenditure",
+        ],
+    },
+]
+
 _WESTMORLAND_LEGACY_PAYER_RULES = [
     {
         "organisation_id": "barrow_borough_council",
@@ -41,6 +80,7 @@ _SOURCE_DEFAULTS = {
     "cumberland_transparency": {
         "extractors": ["payments"],
         "payment_payer_organisation_id": "cumberland_council",
+        "payment_payer_rules": _CUMBERLAND_LEGACY_PAYER_RULES,
         "allow_payment_csv_by_header": True,
         "payment_file_deny_terms": _SENSITIVE_PAYMENT_DENY_TERMS,
         "expect_facts": True,
