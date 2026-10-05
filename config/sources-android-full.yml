@@ -190,7 +190,7 @@ sources:
     decision_codes: 'c+nu+u+'
     sort_order: descending
     page_limit: 24
-    browser_timeout: 45
+    browser_timeout: 20
     browser_delay: 0.75
     ignore_decision_statuses: [404, 410]
     performance_fallback_urls:
