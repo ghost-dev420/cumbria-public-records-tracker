@@ -248,11 +248,26 @@ def _first_zip_member(archive: zipfile.ZipFile, suffixes: tuple[str, ...]) -> st
     raise RuntimeError(f"No supported data file in {archive.filename}")
 
 
-def _row_value(row: dict[str, str], *names: str) -> str:
-    normalized = {
-        re.sub(r"[^a-z0-9]+", "", (key or "").casefold()): (value or "").strip()
-        for key, value in row.items()
-    }
+def _row_value(
+    row: dict[str | None, str | list[str] | None], *names: str
+) -> str:
+    """Return a named CSV value while tolerating malformed/overflow columns.
+
+    ``csv.DictReader`` stores surplus fields under a ``None`` key as a list.
+    External bulk datasets occasionally contain such rows, so that synthetic
+    overflow entry must not be treated as an ordinary string-valued column.
+    """
+    normalized: dict[str, str] = {}
+    for key, value in row.items():
+        if key is None:
+            continue
+        if isinstance(value, list):
+            cell = " ".join(
+                str(item).strip() for item in value if item is not None
+            ).strip()
+        else:
+            cell = str(value or "").strip()
+        normalized[re.sub(r"[^a-z0-9]+", "", key.casefold())] = cell
     for name in names:
         value = normalized.get(re.sub(r"[^a-z0-9]+", "", name.casefold()))
         if value:
@@ -281,9 +296,11 @@ def import_companies_house_basic(
                     continue
                 aliases = [company_name]
                 for key, value in row.items():
-                    compact = re.sub(r"[^a-z0-9]+", "", (key or "").casefold())
+                    if key is None:
+                        continue
+                    compact = re.sub(r"[^a-z0-9]+", "", key.casefold())
                     if "previousname" in compact and "companyname" in compact and value:
-                        aliases.append(value.strip())
+                        aliases.append(str(value).strip())
                 if not any(normalize_org_name(alias) in candidates for alias in aliases if alias):
                     continue
                 entity_id = upsert_entity(
@@ -312,9 +329,11 @@ def import_companies_house_basic(
                         source="Companies House bulk data",
                     )
                 sic = [
-                    value.strip()
+                    str(value).strip()
                     for key, value in row.items()
-                    if key and "siccode" in re.sub(r"[^a-z0-9]+", "", key.casefold()) and value
+                    if key
+                    and "siccode" in re.sub(r"[^a-z0-9]+", "", key.casefold())
+                    and value
                 ]
                 _put_registry_record(
                     con,
