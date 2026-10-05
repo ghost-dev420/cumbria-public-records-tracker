@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
+# Keep long-running collector progress visible immediately on Termux/proot.
+export PYTHONUNBUFFERED=1
+
 REPO_DIR="${REPO_DIR:-/root/cumbria-public-records-tracker}"
 DB="${DB:-$REPO_DIR/data/tracker.duckdb}"
 ARCHIVE="${ARCHIVE:-$REPO_DIR/data/raw}"
