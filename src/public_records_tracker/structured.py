@@ -42,7 +42,8 @@ SELECT f.*
 FROM facts f
 JOIN documents d
   ON d.document_id = f.document_id
- AND d.latest_snapshot_id = f.snapshot_id;
+ AND d.latest_snapshot_id = f.snapshot_id
+WHERE f.predicate NOT LIKE 'SUPERSEDED_%';
 
 CREATE OR REPLACE VIEW current_facts AS
 SELECT f.*, w.valid_from, w.valid_to
@@ -50,7 +51,8 @@ FROM facts f
 JOIN fact_snapshot_windows w
   ON w.document_id=f.document_id
  AND w.snapshot_id=f.snapshot_id
-WHERE w.valid_to IS NULL;
+WHERE w.valid_to IS NULL
+  AND f.predicate NOT LIKE 'SUPERSEDED_%';
 """
 
 
@@ -185,6 +187,7 @@ def facts_at(
            JOIN fact_snapshot_windows w
              ON w.document_id=f.document_id AND w.snapshot_id=f.snapshot_id
            WHERE w.valid_from <= ?
-             AND (w.valid_to IS NULL OR w.valid_to > ?)""",
+             AND (w.valid_to IS NULL OR w.valid_to > ?)
+             AND f.predicate NOT LIKE 'SUPERSEDED_%'""",
         [when, when],
     ).fetchall()
