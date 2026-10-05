@@ -37,11 +37,16 @@ class ExtractionCoverageError(RuntimeError):
 def _extraction_coverage_error(
     source: dict, *, record_count: int, fact_count: int
 ) -> ExtractionCoverageError | None:
-    if not source.get("expect_facts", False) or record_count <= 0:
+    if not source.get("expect_facts", False):
         return None
     minimum = max(1, int(source.get("minimum_fact_count", 1)))
-    if fact_count >= minimum:
+    if record_count > 0 and fact_count >= minimum:
         return None
+    if record_count <= 0:
+        return ExtractionCoverageError(
+            f"{source['id']} is configured to yield structured facts but collected "
+            f"0 records; expected at least {minimum} structured fact(s)"
+        )
     return ExtractionCoverageError(
         f"{source['id']} collected {record_count} records but extracted "
         f"{fact_count} structured facts; expected at least {minimum}"
