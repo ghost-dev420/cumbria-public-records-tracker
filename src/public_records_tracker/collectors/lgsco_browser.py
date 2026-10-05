@@ -5,7 +5,7 @@ from collections.abc import Iterator
 import httpx
 
 from ..browser import BrowserHttpClient
-from ..models import Record
+from ..models import EvidenceClass, Record
 from .lgsco_search import LgscoSearchCollector
 
 
@@ -17,11 +17,34 @@ class LgscoBrowserCollector(LgscoSearchCollector):
     Reuse the normal bounded LGSCO search/fallback logic, changing only the
     transport. No stealth plugins, CAPTCHA solving, proxy rotation, or access-
     control bypass behaviour is used.
+
+    The council-performance listings are different: they are ordinary server-
+    rendered pages and are more reliable through the normal bounded HTTP client.
+    Keep that transport available as a fallback instead of routing every request
+    through Chromium.
     """
 
+    _plain_client = None
+
     def _get(self, url: str):
-        # BrowserHttpClient controls its own browser request headers/session.
-        return self.client.get(url)
+        if isinstance(self.client, BrowserHttpClient):
+            # BrowserHttpClient controls its own browser request headers/session.
+            return self.client.get(url)
+        return super()._get(url)
+
+    def _performance_fallback(self, evidence: EvidenceClass):
+        """Fetch official performance listings with plain HTTP when available."""
+        plain_client = self._plain_client
+        if plain_client is None:
+            yield from super()._performance_fallback(evidence)
+            return
+
+        browser_client = self.client
+        self.client = plain_client
+        try:
+            yield from super()._performance_fallback(evidence)
+        finally:
+            self.client = browser_client
 
     def collect(self) -> Iterator[Record]:
         # Before launching Chromium, prove that the host is reachable with the
@@ -32,6 +55,7 @@ class LgscoBrowserCollector(LgscoSearchCollector):
         # required precisely when the plain HTTP endpoint rejects/strips a
         # non-browser response.
         previous_client = self.client
+        self._plain_client = previous_client
         prime_url = str(self.source.get("prime_url") or "https://www.lgo.org.uk/decisions")
         try:
             previous_client.get(prime_url, headers=self._headers())
@@ -56,3 +80,4 @@ class LgscoBrowserCollector(LgscoSearchCollector):
                 yield from super().collect()
             finally:
                 self.client = previous_client
+                self._plain_client = None
