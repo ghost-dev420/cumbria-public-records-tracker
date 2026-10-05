@@ -250,16 +250,13 @@ def extract_payments(
     if not rows:
         return 0
 
-    # Payment fact identity includes the supplier entity. If supplier hygiene
-    # rules change, re-extracting an existing snapshot must replace that
-    # snapshot's old payment facts rather than leaving both old and new supplier
-    # identities active and double-counting spend.
-    # Re-extracting an unchanged snapshot is normally idempotent because
-    # add_fact() uses stable fact IDs. Avoid DELETE+reinsert here: DuckDB can
-    # invalidate the database while deleting indexed fact rows (observed on
-    # Android/aarch64 with repeated council spending snapshots). If hygiene
-    # changes require replacement, a new snapshot naturally supersedes the old
-    # one through fact_snapshot_windows/latest_facts.
+    # Payment fact identity includes the supplier entity. Supplier hygiene can
+    # therefore produce a new fact ID when an existing snapshot is re-extracted.
+    # Do not DELETE the old indexed fact rows: repeated bulk deletes have caused
+    # DuckDB index invalidation on Android/aarch64. Instead add the corrected
+    # fact, then retire any older fact occupying the same source-row slot by
+    # changing only its unindexed predicate. This preserves provenance without
+    # allowing stale supplier identities to remain active or double-count spend.
 
     payer = _payer_entity(con, source, record)
     count = 0
@@ -281,7 +278,7 @@ def extract_payments(
         department = _field(row, "department") or None
         reference = _field(row, "reference") or None
         locator = f"CSV row {row_number}"
-        add_fact(
+        fact_id = add_fact(
             con,
             document_id=document_id,
             snapshot_id=snapshot_id,
@@ -302,6 +299,15 @@ def extract_payments(
                 "raw_supplier_name": raw_supplier_name or supplier_name,
                 "payment_channel": payment_channel,
             },
+        )
+        con.execute(
+            """UPDATE facts
+               SET predicate='SUPERSEDED_PAYMENT_TO_SUPPLIER'
+               WHERE document_id=? AND snapshot_id=?
+                 AND fact_type='PAYMENT'
+                 AND predicate='PAYMENT_TO_SUPPLIER'
+                 AND locator=? AND fact_id<>?""",
+            [document_id, snapshot_id, locator, fact_id],
         )
         count += 1
     return count
