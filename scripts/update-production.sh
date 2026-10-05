@@ -12,6 +12,7 @@ LOG_DIR="${LOG_DIR:-$REPO_DIR/data/logs}"
 BACKUP_DIR="${BACKUP_DIR:-$REPO_DIR/data/backups}"
 REFERENCE_CACHE="${REFERENCE_CACHE:-$REPO_DIR/data/reference-cache}"
 PUBLISH="${PUBLISH:-1}"
+COLLECT="${COLLECT:-1}"
 ENABLE_REFERENCE_REFRESH="${ENABLE_REFERENCE_REFRESH:-1}"
 ENABLE_PSC_REFRESH="${ENABLE_PSC_REFRESH:-1}"
 REFERENCE_REFRESH_DAYS="${REFERENCE_REFRESH_DAYS:-14}"
@@ -69,7 +70,7 @@ psc_stamp="$REFERENCE_CACHE/.psc-last-success"
 # Registry snapshots are much larger than ordinary council sources, so refresh
 # them on a slower cadence. Failure does not stop council collection/publication;
 # it is recorded in this production log and the previous reference index remains.
-# Refresh registry data on an isolated database copy.  Bulk registry imports
+# Refresh registry data on an isolated database copy. Bulk registry imports
 # are large and depend on third-party CSV/ZIP files; an importer or DuckDB failure
 # must never leave the production database partially mutated.
 _refresh_reference_safely() {
@@ -81,7 +82,7 @@ _refresh_reference_safely() {
 
   if prt refresh-reference-index --db "$refresh_db" --cache-dir "$REFERENCE_CACHE" "$psc_flag"; then
     # Force a fresh process to open the completed copy before it can replace the
-    # production DB.  This catches invalidated/corrupt files after the importer
+    # production DB. This catches invalidated/corrupt files after the importer
     # process has exited.
     if python - "$refresh_db" <<'PY'
 import sys
@@ -103,7 +104,10 @@ PY
   return 1
 }
 
-if [[ "$ENABLE_REFERENCE_REFRESH" == "1" ]]; then
+# An analysis-only republish must remain cheap and deterministic: it should not
+# refresh registry snapshots or crawl any external source. This is useful after
+# detector/entity-hygiene fixes that can be applied to the already-collected DB.
+if [[ "$COLLECT" == "1" && "$ENABLE_REFERENCE_REFRESH" == "1" ]]; then
   if [[ "$ENABLE_PSC_REFRESH" == "1" ]] && _due "$psc_stamp" "$PSC_REFRESH_DAYS"; then
     echo "Refreshing Companies House/Charity reference index including PSC data (isolated copy)..."
     if _refresh_reference_safely --psc; then
@@ -121,12 +125,16 @@ if [[ "$ENABLE_REFERENCE_REFRESH" == "1" ]]; then
   fi
 fi
 
-echo "Collecting configured public-record sources..."
-prt collect \
-  --source all \
-  --config "$CONFIG" \
-  --db "$DB" \
-  --archive "$ARCHIVE"
+if [[ "$COLLECT" == "1" ]]; then
+  echo "Collecting configured public-record sources..."
+  prt collect \
+    --source all \
+    --config "$CONFIG" \
+    --db "$DB" \
+    --archive "$ARCHIVE"
+else
+  echo "COLLECT=$COLLECT; skipping source collection and registry refresh."
+fi
 
 echo "Running final consolidated analysis, including PSC/supplier connections..."
 python "$REPO_DIR/scripts/reanalyze.py" --db "$DB" --no-backup
