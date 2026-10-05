@@ -86,7 +86,6 @@ import duckdb
 
 con = duckdb.connect(sys.argv[1], read_only=True)
 con.execute("SELECT 1").fetchone()
-con.execute("CHECKPOINT")
 con.close()
 PY
     then
