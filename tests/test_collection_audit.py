@@ -69,6 +69,17 @@ def test_expected_structured_source_reports_zero_fact_coverage_failure():
     assert "12 records" in str(error)
 
 
+def test_expected_structured_source_reports_zero_record_coverage_failure():
+    source = {
+        "id": "lgsco",
+        "expect_facts": True,
+        "minimum_fact_count": 1,
+    }
+    error = _extraction_coverage_error(source, record_count=0, fact_count=0)
+    assert error is not None
+    assert "0 records" in str(error)
+
+
 def test_archive_only_source_allows_zero_facts():
     source = {"id": "minutes", "expect_facts": False}
     assert _extraction_coverage_error(source, record_count=12, fact_count=0) is None
