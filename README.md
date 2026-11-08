@@ -46,7 +46,7 @@ The optional persistent Android production database lives on the Android/Linux c
 bash scripts/update-production.sh
 ```
 
-It backs up the DuckDB, refreshes public sources, periodically refreshes Companies House/Charity reference data and PSC data, runs consolidated analysis, builds the sanitized public site and pushes only `site/` to the `android-publish` branch.
+If the phone comes back online, this optional pipeline backs up its DuckDB, refreshes public sources, periodically refreshes registry/PSC data, runs analysis, and builds a sanitized site. Its `android-publish` branch is retained for historical auditing only; the cloud-hosted workflow is now the sole GitHub Pages deployer.
 
 Android/Termux runs are scheduled locally with `bash scripts/install-termux-production-cron.sh` from native Termux. The job launches `scripts/update-production.sh` inside Ubuntu against the persistent database with backup and locking protections. The heavier Companies House/Charity reference refresh defaults to every 14 days and PSC data every 30 days. `.github/workflows/production-android.yml` is now a **manual-only** fallback for an online Linux self-hosted runner labelled `cumbria-browser`, not an Android scheduler.
 
