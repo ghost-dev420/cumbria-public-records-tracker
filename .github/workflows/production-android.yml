@@ -1,9 +1,9 @@
 name: production Android collection and publish
 
+# Manual fallback for an online Linux self-hosted runner only.
+# Android/Termux is scheduled on-device; never queue for an absent runner.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '41 3 * * *'
 
 permissions:
   contents: read
