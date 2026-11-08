@@ -101,6 +101,6 @@ crontab -l
 tail -n 80 ~/.local/state/cumbria/production.log
 ```
 
-On Android, cron may be killed by sleep or reboot. Keep Termux running, enable a wake lock and a battery optimisation exemption, and install **Termux:Boot** from the same trusted package source as Termux. Launch Termux:Boot once; the installer already creates its boot script. If `sv status crond` isn't running, restart Termux and run `sv-enable crond && sv up crond`. Verify a complete local production log **and** a successful GitHub `deploy sanitized Android collection` workflow before considering production healthy.
+On Android, cron may be killed by sleep or reboot. Keep Termux running, enable a wake lock and a battery optimisation exemption, and install **Termux:Boot** from the same trusted package source as Termux. Launch Termux:Boot once; the installer already creates its boot script. If `sv status crond` isn't running, restart Termux and run `sv-enable crond && sv up crond`. Verify a complete local production log and a successful GitHub `validate legacy Android publication handoff` workflow before considering optional phone-side collection healthy. Public deployment is independent and cloud-hosted.
 
 The `production Android collection and publish` GitHub Actions workflow no longer schedules daily jobs against an absent `cumbria-browser` runner. It remains manual-only for a real always-online Linux runner.
