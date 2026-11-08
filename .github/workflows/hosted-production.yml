@@ -60,7 +60,7 @@ jobs:
           finally:
               con.close()
           print(f'Observed sources: {sources}; structured facts: {facts}')
-          if sources < 1 or facts < 1:
+          if sources < 3 or facts < 20:
               raise SystemExit('No usable source facts collected; refusing to replace the existing public website.')
           PY
 
