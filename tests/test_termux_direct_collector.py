@@ -39,8 +39,9 @@ def test_android_publish_workflow_rechecks_privacy_boundary() -> None:
     assert "site/data/raw" in workflow
     assert "site/tracker.duckdb" in workflow
     assert "site/api/review-queue.json" in workflow
-    assert "actions/upload-pages-artifact@v4" in workflow
-    assert "actions/deploy-pages@v4" in workflow
+    assert "actions/upload-artifact@v4" in workflow
+    assert "actions/upload-pages-artifact@" not in workflow
+    assert "actions/deploy-pages@" not in workflow
 
 
 def test_termux_quickstart_no_longer_requires_runner_token() -> None:
