@@ -1,0 +1,89 @@
+name: hosted public dashboard production
+
+# Fully cloud-hosted publication: no phone, self-hosted runner, or deploy PAT.
+# Private historical archives continue in the private evidence repository.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 4 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/hosted-production.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: public-records-cloud-production
+  cancel-in-progress: false
+
+jobs:
+  collect-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - name: Checkout public collector source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install collection and browser dependencies
+        run: |
+          python -m pip install -e '.[browser]'
+          python -m playwright install --with-deps chromium
+
+      # The GitHub-hosted job is ephemeral. Never cache/upload raw records,
+      # DuckDB, review queues or registry snapshots from this public repo.
+      - name: Create isolated temporary collection database
+        run: prt init-db
+
+      - name: Collect the full production source registry
+        run: prt collect --source all --config config/sources-android-full.yml
+
+      - name: Validate nonempty primary-source collection
+        shell: bash
+        run: |
+          python - <<'PY'
+          from public_records_tracker.db import connect
+          con = connect('data/tracker.duckdb')
+          try:
+              sources = con.execute("SELECT count(DISTINCT source_id) FROM observations").fetchone()[0]
+              facts = con.execute("SELECT count(*) FROM facts").fetchone()[0]
+          finally:
+              con.close()
+          print(f'Observed sources: {sources}; structured facts: {facts}')
+          if sources < 1 or facts < 1:
+              raise SystemExit('No usable source facts collected; refusing to replace the existing public website.')
+          PY
+
+      - name: Build sanitized publication
+        run: prt build-site
+
+      - name: Enforce publication boundary
+        run: bash scripts/verify-hosted-site.sh site
+
+      - name: Upload sanitized Pages artifact only
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    needs: collect-build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy sanitized dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
