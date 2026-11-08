@@ -51,8 +51,9 @@ jobs:
         shell: bash
         run: |
           python - <<'PY'
+          from pathlib import Path
           from public_records_tracker.db import connect
-          con = connect('data/tracker.duckdb')
+          con = connect(Path('data/tracker.duckdb'))
           try:
               sources = con.execute("SELECT count(DISTINCT source_id) FROM observations").fetchone()[0]
               facts = con.execute("SELECT count(*) FROM facts").fetchone()[0]
