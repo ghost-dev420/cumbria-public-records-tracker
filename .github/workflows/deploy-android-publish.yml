@@ -1,4 +1,4 @@
-name: deploy sanitized Android collection
+name: validate legacy Android publication handoff
 
 on:
   push:
@@ -7,19 +7,14 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: public-records-collection
+  group: public-records-legacy-validation
   cancel-in-progress: false
 
 jobs:
-  verify-and-deploy:
+  verify-legacy-site:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -48,14 +43,10 @@ jobs:
 
           echo 'Publication boundary checks passed.'
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+      # Legacy phone uploads can be audited but cannot overwrite cloud Pages.
+      - name: Upload legacy sanitized site for manual inspection
+        uses: actions/upload-artifact@v4
         with:
+          name: legacy-android-sanitized-site
           path: site
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          retention-days: 7

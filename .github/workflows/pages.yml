@@ -33,6 +33,8 @@ jobs:
         run: prt init-db
       - name: Build publication-gated site
         run: prt build-site
+      - name: Check cloud production publication boundary
+        run: bash scripts/verify-hosted-site.sh site
       - name: Confirm private state is absent
         shell: bash
         run: |

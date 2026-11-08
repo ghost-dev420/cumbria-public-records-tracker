@@ -32,15 +32,21 @@ The project is intended to cover Cumberland Council, Westmorland and Furness Cou
 
 Companies House PSC data is used to create private candidates where a supplier's person with significant control also appears in public office-holder or declaration-of-interest records. Name matches alone are never treated as proof of identity or a conflict.
 
-## Automated production run
+## Automated production run (no Android required)
 
-The persistent production database lives on the Android/Linux collector rather than in GitHub Actions. The one-command production pipeline is:
+**The public dashboard is now refreshed by GitHub-hosted runners** using `.github/workflows/hosted-production.yml` (daily at 04:19 UTC; can also be started manually). It installs Playwright/Chromium, collects the full configured sources, checks that real source facts were obtained, builds the publication-gated `site/`, verifies that review material and databases are excluded, and deploys **only** that site directly to GitHub Pages. No phone, self-hosted runner, publishing PAT, or personal computer is needed.
+
+Important distinction: each public GitHub-hosted run uses an **ephemeral database**. It is a current public snapshot, not a replacement for the accumulated private evidence archive or the phone's historical DuckDB. The private `Cumberland-Council-Corruption-Tracker` repository continues its independent daily GitHub-hosted evidence collection and stores its raw archival snapshots privately. Cloud-hosted collection may report blocked/unavailable sources; a failed or near-empty run **does not overwrite** the existing public site.
+
+## Optional Android production (when the device is repaired)
+
+The optional persistent Android production database lives on the Android/Linux collector rather than in GitHub Actions. The one-command production pipeline is:
 
 ```bash
 bash scripts/update-production.sh
 ```
 
-It backs up the DuckDB, refreshes public sources, periodically refreshes Companies House/Charity reference data and PSC data, runs consolidated analysis, builds the sanitized public site and pushes only `site/` to the `android-publish` branch.
+If the phone comes back online, this optional pipeline backs up its DuckDB, refreshes public sources, periodically refreshes registry/PSC data, runs analysis, and builds a sanitized site. Its `android-publish` branch is retained for historical auditing only; the cloud-hosted workflow is now the sole GitHub Pages deployer.
 
 Android/Termux runs are scheduled locally with `bash scripts/install-termux-production-cron.sh` from native Termux. The job launches `scripts/update-production.sh` inside Ubuntu against the persistent database with backup and locking protections. The heavier Companies House/Charity reference refresh defaults to every 14 days and PSC data every 30 days. `.github/workflows/production-android.yml` is now a **manual-only** fallback for an online Linux self-hosted runner labelled `cumbria-browser`, not an Android scheduler.
 

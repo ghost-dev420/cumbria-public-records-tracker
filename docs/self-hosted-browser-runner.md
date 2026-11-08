@@ -71,6 +71,6 @@ Then:
 PUBLISH=1 bash scripts/run-termux-browser-collector.sh
 ```
 
-`scripts/publish-android-site.sh` creates a fresh clone of `main`, copies only the already publication-gated `site/`, verifies that no raw archive or DuckDB files are present, and pushes the machine-generated `android-publish` branch. `.github/workflows/deploy-android-publish.yml` runs on GitHub-hosted infrastructure, repeats the privacy checks and deploys only `site/` to Pages.
+`scripts/publish-android-site.sh` creates a fresh clone of `main`, copies only the already publication-gated `site/`, verifies that no raw archive or DuckDB files are present, and pushes the machine-generated `android-publish` branch. `.github/workflows/deploy-android-publish.yml` runs on GitHub-hosted infrastructure, repeats privacy checks and saves a sanitized audit artifact only. Pages deployment is exclusively handled by `.github/workflows/hosted-production.yml`, avoiding a stale phone upload overwriting the live cloud dashboard.
 
 The Android path therefore requires no runner registration token and no CoreCLR process on the phone.

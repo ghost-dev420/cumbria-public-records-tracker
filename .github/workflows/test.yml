@@ -22,4 +22,6 @@ jobs:
       - run: ruff check src tests
       - run: pytest -q
       - name: Check native Termux scheduler script syntax
-        run: bash -n scripts/run-termux-production.sh scripts/install-termux-production-cron.sh scripts/update-production.sh
+        run: bash -n scripts/run-termux-production.sh scripts/install-termux-production-cron.sh scripts/update-production.sh scripts/verify-hosted-site.sh
+      - name: Check hosted workflow YAML parses
+        run: python -c "import pathlib,yaml; yaml.safe_load(pathlib.Path('.github/workflows/hosted-production.yml').read_text())"
