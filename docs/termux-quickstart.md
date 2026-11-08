@@ -75,7 +75,7 @@ Or, when already inside Ubuntu:
 PUBLISH=1 bash scripts/run-android-browser-ubuntu.sh
 ```
 
-That pushes a machine-generated `android-publish` branch containing normal repository files plus the gated `site/`. A GitHub-hosted workflow verifies the privacy boundary again and deploys `site/` to GitHub Pages.
+That pushes a machine-generated `android-publish` branch containing normal repository files plus the gated `site/`. A GitHub-hosted workflow validates the privacy boundary and stores a short-lived audit artifact, but does not deploy it. The public Pages site now deploys exclusively through the GitHub-hosted production workflow.
 
 For longer runs, keep Termux alive with its wake lock and exempt it from Android battery optimisation where possible. You can also launch the command inside `tmux`.
 
