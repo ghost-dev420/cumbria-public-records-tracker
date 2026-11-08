@@ -12,7 +12,7 @@ Cumberland and Westmorland & Furness ModernGov can return HTTP 403 responses to 
 
 ## Normal Linux self-hosted runner
 
-The workflow `.github/workflows/collect-moderngov-self-hosted.yml` remains available for a normal Linux x86_64 or ARM64 machine carrying the `cumbria-browser` runner label.
+The manual-only workflow `.github/workflows/production-android.yml` remains available for a genuine Linux x86_64 or ARM64 self-hosted machine carrying the `cumbria-browser` runner label. GitHub no longer schedules it daily because an offline runner leaves production jobs queued; Android/Termux must use on-device Cronie instead.
 
 Create a short-lived registration token in GitHub under **Settings -> Actions -> Runners -> New self-hosted runner**, then from a clone of the repository run:
 
@@ -20,7 +20,7 @@ Create a short-lived registration token in GitHub under **Settings -> Actions ->
 RUNNER_TOKEN='<short-lived-token>' bash scripts/setup-self-hosted-runner.sh
 ```
 
-On a normal systemd Linux machine the bootstrap can install the GitHub Actions runner as a service. The workflow is manual/scheduled and is not a pull-request target.
+On a normal systemd Linux machine the bootstrap can install the GitHub Actions runner as a service. The workflow is manual only and is not a pull-request target.
 
 ## Android / Termux ARM64
 

@@ -1,56 +1,15 @@
-# Termux browser-runner quickstart
+# Termux production quickstart (current architecture)
 
-Use native Termux only as the launcher. Run the GitHub Actions runner and Playwright inside a Debian ARM64 proot.
+**Do not register a GitHub Actions runner inside Android proot.** The legacy CoreCLR-based ARM64 setup was superseded because CoreCLR can fail to initialise there, leaving scheduled GitHub jobs queued or cancelled. Android production instead runs the collector directly in Ubuntu proot.
 
-## 1. Install Debian in Termux
-
-```bash
-pkg update
-pkg install -y proot-distro git
-proot-distro install debian
-termux-wake-lock
-proot-distro login debian
-```
-
-## 2. Inside Debian, clone and register
-
-Get a short-lived runner token from:
-
-**GitHub repository -> Settings -> Actions -> Runners -> New self-hosted runner -> Linux -> ARM64**
-
-Then run:
+See [Termux ARM64 quickstart](termux-quickstart.md). Once the Android collector and optional GitHub CLI publishing are configured, run from **native Termux**:
 
 ```bash
-apt-get update
-apt-get install -y git ca-certificates
-
-git clone https://github.com/ghost-dev420/cumbria-public-records-tracker.git
-cd cumbria-public-records-tracker
-
-RUNNER_TOKEN='<paste-token>' \
-RUNNER_NO_SERVICE=1 \
-bash scripts/setup-self-hosted-runner.sh
+cd ~/cumbria-public-records-tracker
+bash scripts/install-termux-production-cron.sh
+bash scripts/run-termux-production.sh
 ```
 
-## 3. Start the runner
+Check `sv status crond` and `~/.local/state/cumbria/production.log`. Install and launch Termux:Boot once if the schedule must restart after boot, and exempt Termux from battery optimisation. The persistent DuckDB and `data/raw/` stay inside Ubuntu; only the sanitized `site/` directory may be published.
 
-Still inside Debian:
-
-```bash
-cd ~/actions-runner-cumbria
-RUNNER_ALLOW_RUNASROOT=1 ./run.sh
-```
-
-When GitHub reports the runner as **Idle**, manually run the workflow named:
-
-**collect ModernGov on self-hosted browser**
-
-If both access probes succeed, the workflow collects ModernGov through Chromium, builds through the publication gate, and deploys the safe site artifact.
-
-## Notes
-
-- The phone must remain online while the job runs.
-- `termux-wake-lock` reduces sleep interruptions.
-- Android may still kill Termux unless battery optimisation is disabled for it.
-- The scheduled workflow waits for a matching runner to come online; for a phone, manual collection is usually more reliable than expecting a permanent daemon.
-- No Cloudflare-challenge bypass, stealth plugin, proxy rotation or CAPTCHA solving is used.
+The GitHub `production Android collection and publish` workflow is manual-only for an actual Linux self-hosted runner, not Android.
