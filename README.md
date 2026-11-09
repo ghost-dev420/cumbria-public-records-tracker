@@ -34,7 +34,7 @@ Companies House PSC data is used to create private candidates where a supplier's
 
 ## Automated production run (no Android required)
 
-**The public dashboard is now refreshed by GitHub-hosted runners** using `.github/workflows/hosted-production.yml` (daily at 04:19 UTC; can also be started manually). It installs Playwright/Chromium, collects the full configured sources, checks that real source facts were obtained, builds the publication-gated `site/`, verifies that review material and databases are excluded, and deploys **only** that site directly to GitHub Pages. No phone, self-hosted runner, publishing PAT, or personal computer is needed.
+**The public dashboard is now refreshed by GitHub-hosted runners** using `.github/workflows/hosted-production.yml` (daily at 04:19 UTC; can also be started manually). It installs Playwright/Chromium, collects a time-bounded selection of public sources known to yield useful records, checks that real source facts were obtained, builds the publication-gated `site/`, verifies that review material and databases are excluded, and deploys **only** that site directly to GitHub Pages. No phone, self-hosted runner, publishing PAT, or personal computer is needed.
 
 Important distinction: each public GitHub-hosted run uses an **ephemeral database**. It is a current public snapshot, not a replacement for the accumulated private evidence archive or the phone's historical DuckDB. The private `Cumberland-Council-Corruption-Tracker` repository continues its independent daily GitHub-hosted evidence collection and stores its raw archival snapshots privately. Cloud-hosted collection may report blocked/unavailable sources; a failed or near-empty run **does not overwrite** the existing public site.
 
