@@ -23,7 +23,7 @@ concurrency:
 jobs:
   collect-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 340
+    timeout-minutes: 65
     steps:
       - name: Checkout public collector source
         uses: actions/checkout@v4
@@ -44,8 +44,12 @@ jobs:
       - name: Create isolated temporary collection database
         run: prt init-db
 
-      - name: Collect the full production source registry
-        run: prt collect --source all --config config/sources-android-full.yml
+      - name: Collect bounded verified public sources
+        env:
+          HOSTED_CONFIG: config/sources-android-full.yml
+          SOURCE_LIMIT_SECONDS: '240'
+          PAGE_LIMIT: '1'
+        run: bash scripts/run-hosted-production.sh
 
       - name: Validate nonempty primary-source collection
         shell: bash
